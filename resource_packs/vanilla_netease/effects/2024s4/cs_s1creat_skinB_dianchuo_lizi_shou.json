@@ -1,68 +1,68 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.7"
-		},
-		"colorfade": [
-			{
-				"color": "0.3647 0.8941 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.3137 0.9451 1.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.5"
-		},
-		"delay": 0.8,
-		"direction": {
-			"max": "-0.1 -0.1 -0.1",
-			"min": "0.1 0.10000000000000014 0.1",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "20.0",
-			"min": "20.0"
-		},
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.15 0.15"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.17 1.17",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.02 1.02",
-				"time": "42.7%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "30",
-				"name": "textures/sfxs/2024s4/cs_s1creat_skinB_victory_youhun2",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinB_victory_youhun2"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "0.3",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.7"
+    },
+    "colorfade": [
+      {
+        "color": "0.3647 0.8941 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3137 0.9451 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "delay": 0.8,
+    "direction": {
+      "max": "-0.1 -0.1 -0.1",
+      "min": "0.1 0.10000000000000014 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.15 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.17 1.17",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "42.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "textures/sfxs/2024s4/cs_s1creat_skinB_victory_youhun2",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinB_victory_youhun2"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.5"
+    }
+  }
 }

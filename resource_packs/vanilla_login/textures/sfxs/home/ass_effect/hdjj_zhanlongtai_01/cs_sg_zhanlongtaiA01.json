@@ -1,108 +1,268 @@
-{"frames": [
-
 {
-	"filename": "zhanlongtai_01_a_00000.png",
-	"frame": {"x":384,"y":340,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00001.png",
-	"frame": {"x":256,"y":340,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00002.png",
-	"frame": {"x":384,"y":170,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00003.png",
-	"frame": {"x":256,"y":170,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00004.png",
-	"frame": {"x":128,"y":340,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00005.png",
-	"frame": {"x":128,"y":170,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00006.png",
-	"frame": {"x":384,"y":0,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00007.png",
-	"frame": {"x":256,"y":0,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00008.png",
-	"frame": {"x":128,"y":0,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00009.png",
-	"frame": {"x":0,"y":340,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00010.png",
-	"frame": {"x":0,"y":170,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-},
-{
-	"filename": "zhanlongtai_01_a_00011.png",
-	"frame": {"x":0,"y":0,"w":128,"h":170},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":170},
-	"sourceSize": {"w":128,"h":170}
-}],
-"meta": {
-	"app": "http://www.texturepacker.com",
-	"version": "1.0",
-	"image": "cs_sg_zhanlongtaiA01.png",
-	"format": "RGBA8888",
-	"size": {"w":512,"h":512},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:d57ea33c4231a4aa58a93ad2b4d143f1$"
-}
+  "frames": [
+    {
+      "filename": "zhanlongtai_01_a_00000.png",
+      "frame": {
+        "x": 384,
+        "y": 340,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00001.png",
+      "frame": {
+        "x": 256,
+        "y": 340,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00002.png",
+      "frame": {
+        "x": 384,
+        "y": 170,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00003.png",
+      "frame": {
+        "x": 256,
+        "y": 170,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00004.png",
+      "frame": {
+        "x": 128,
+        "y": 340,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00005.png",
+      "frame": {
+        "x": 128,
+        "y": 170,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00006.png",
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00007.png",
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00008.png",
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00009.png",
+      "frame": {
+        "x": 0,
+        "y": 340,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00010.png",
+      "frame": {
+        "x": 0,
+        "y": 170,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    },
+    {
+      "filename": "zhanlongtai_01_a_00011.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 170
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "version": "1.0",
+    "image": "cs_sg_zhanlongtaiA01.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 512
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:d57ea33c4231a4aa58a93ad2b4d143f1$"
+  }
 }

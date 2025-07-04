@@ -1,1 +1,107 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9804 0.3765 0.0000", "time": "0.0%"}, {"color": "1.0000 0.9451 0.3412 1.0000", "time": "23.7%"}, {"color": "1.0000 0.9686 0.4863 1.0000", "time": "46.3%"}, {"color": "1.0000 1.0000 0.2941 1.0000", "time": "66.1%"}, {"color": "1.0000 0.7216 0.2392 0.0000", "time": "100.0%"}], "delay": 0.4, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "8.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.5 0.2 1.5"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "6"}, "particlesize": {"max": "0.04 0.04", "min": "0.08 0.08"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.08 1.08", "time": "23.3%"}, {"scale": "0.0 0.0", "time": "49.0%"}, {"scale": "1.05 1.05", "time": "73.7%"}, {"scale": "0.0 0.0", "time": "99.7%"}], "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s2/cs_story_skina_chuchang_xx", "shuffle": true}, "name": "textures/sfxs/2024s2/cs_story_skina_chuchang_xx"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.8"}, "velocity": {"max": "1.0", "min": "0.6"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9804 0.3765 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9451 0.3412 1.0000",
+        "time": "23.7%"
+      },
+      {
+        "color": "1.0000 0.9686 0.4863 1.0000",
+        "time": "46.3%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2941 1.0000",
+        "time": "66.1%"
+      },
+      {
+        "color": "1.0000 0.7216 0.2392 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.4,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.2 1.5"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.08 0.08"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "23.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "49.0%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "73.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "99.7%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s2/cs_story_skina_chuchang_xx",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s2/cs_story_skina_chuchang_xx"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.6"
+    }
+  }
+}

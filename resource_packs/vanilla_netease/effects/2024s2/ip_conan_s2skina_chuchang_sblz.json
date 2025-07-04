@@ -1,1 +1,140 @@
-{"particleeffect": {"activetime": {"value": "0.4"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.4510 0.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "0.8941 0.3647 1.0000 1.0000", "time": "5.3%"}, {"color": "0.4118 0.4196 1.0000 0.6607", "time": "83.9%"}, {"color": "0.1020 0.3098 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "1.0"}, "delay": 3.0, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emissionrate": {"max": "12.0", "min": "12.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.5 0.5 0.5"}, "emittertype": {"value": "Sphere"}, "numparticles": {"value": "16"}, "particlesize": {"max": "0.3 0.3", "min": "0.2 0.2"}, "pointFiltering": true, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "0.94 0.94", "time": "10.3%"}, {"scale": "0.24 0.24", "time": "15.3%"}, {"scale": "1.08 1.08", "time": "24.7%"}, {"scale": "0.22 0.22", "time": "30.0%"}, {"scale": "1.02 1.02", "time": "39.0%"}, {"scale": "0.26 0.26", "time": "44.3%"}, {"scale": "0.92 0.92", "time": "50.0%"}, {"scale": "0.22 0.22", "time": "55.0%"}, {"scale": "0.76 0.76", "time": "62.3%"}, {"scale": "0.16 0.16", "time": "66.3%"}, {"scale": "0.62 0.62", "time": "73.7%"}, {"scale": "0.08 0.08", "time": "80.7%"}, {"scale": "0.5 0.5", "time": "84.7%"}, {"scale": "0.16 0.16", "time": "90.3%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/ip_conan_s2skina_chuchang_lz"}, "thickness": {"value": "1.0"}, "timetolive": {"max": "0.4", "min": "0.6"}, "velocity": {"max": "1.0", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.4"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.4510 0.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8941 0.3647 1.0000 1.0000",
+        "time": "5.3%"
+      },
+      {
+        "color": "0.4118 0.4196 1.0000 0.6607",
+        "time": "83.9%"
+      },
+      {
+        "color": "0.1020 0.3098 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 3,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "12.0",
+      "min": "12.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.5 0.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "16"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.94 0.94",
+        "time": "10.3%"
+      },
+      {
+        "scale": "0.24 0.24",
+        "time": "15.3%"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "24.7%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "30.0%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "39.0%"
+      },
+      {
+        "scale": "0.26 0.26",
+        "time": "44.3%"
+      },
+      {
+        "scale": "0.92 0.92",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "55.0%"
+      },
+      {
+        "scale": "0.76 0.76",
+        "time": "62.3%"
+      },
+      {
+        "scale": "0.16 0.16",
+        "time": "66.3%"
+      },
+      {
+        "scale": "0.62 0.62",
+        "time": "73.7%"
+      },
+      {
+        "scale": "0.08 0.08",
+        "time": "80.7%"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "84.7%"
+      },
+      {
+        "scale": "0.16 0.16",
+        "time": "90.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/ip_conan_s2skina_chuchang_lz"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
+    }
+  }
+}

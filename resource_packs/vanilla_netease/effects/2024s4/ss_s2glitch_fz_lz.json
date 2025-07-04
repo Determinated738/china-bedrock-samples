@@ -1,60 +1,60 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.8941 0.0627 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.7882 0.0196 1.0000 1.0000",
-				"time": "49.7%"
-			},
-			{
-				"color": "0.0235 0.3961 1.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "5.0",
-			"min": "5.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.0 0.0 1.0"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"particlesize": {
-			"max": "1.0 1.0",
-			"min": "0.6 0.6"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "1",
-				"name": "textures/sfxs/2024s4/ss_s2blackhole_fp_xx",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s4/ss_s2blackhole_fp_xx"
-		},
-		"thickness": {
-			"value": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8941 0.0627 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7882 0.0196 1.0000 1.0000",
+        "time": "49.7%"
+      },
+      {
+        "color": "0.0235 0.3961 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.0 1.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "0.6 0.6"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "1",
+        "name": "textures/sfxs/2024s4/ss_s2blackhole_fp_xx",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s4/ss_s2blackhole_fp_xx"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
 }

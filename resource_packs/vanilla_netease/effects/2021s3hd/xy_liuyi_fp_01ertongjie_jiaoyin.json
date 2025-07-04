@@ -1,1 +1,68 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 1.0"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_tang", "fps": "7"}, "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_tang"}, "faceCameraMode": {"value": "Horizontal"}, "colorfade": [], "emissionrate": {"max": "6.0", "min": "6.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "1.0 0.0 0.2"}, "emitterscale": [], "velocity": {"max": "0.0", "min": "0.0"}, "rotationRange": {"max": "0.0 0.0 360.0", "min": "0.0 0.0 0.0"}, "particlesize": {"max": "0.6 0.6", "min": "0.4 0.4"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.7 0.7", "time": "100.0%"}], "numparticles": {"value": "6"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 1.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_tang",
+        "fps": "7"
+      },
+      "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_tang"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "1.0 0.0 0.2"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 360.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.4 0.4"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ],
+    "numparticles": {
+      "value": "6"
+    }
+  }
+}

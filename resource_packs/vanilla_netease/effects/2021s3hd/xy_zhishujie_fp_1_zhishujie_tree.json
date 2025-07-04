@@ -1,1 +1,57 @@
-{"particleeffect":{"enablecolor":{"enable":"false"},"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"depthtest":{"enable":"true"},"faceCameraMode":{"value":"Rotate Y"},"independent":false,"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"layer":5,"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s3hd/tree","fps":"8"},"name":"textures/sfxs/2021s3hd/tree"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"emittersize":{"value":"0.0 0.0 0.0"},"emitterscale":[],"velocity":{"max":"0.0","min":"0.0"},"particlesize":{"max":"0.6 0.6","min":"0.4 0.4"},"numparticles":{"value":"3"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 5,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3hd/tree",
+        "fps": "8"
+      },
+      "name": "textures/sfxs/2021s3hd/tree"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.4 0.4"
+    },
+    "numparticles": {
+      "value": "3"
+    }
+  }
+}

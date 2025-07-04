@@ -1,1 +1,86 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 0.1","value":"Direction","min":"0.0 0.0 0.0"},"faceCameraMode":{"value":"Direction"},"blend":{"name":"add"},"colorfade":[{"color":"0.0000 1.0000 0.7843 0.0000","time":"0.00"},{"color":"0.2784 1.0000 0.4235 0.6696","time":"0.00"},{"color":"0.2000 0.3059 1.0000 1.0000","time":"0.01"},{"color":"0.3608 0.3216 0.8863 0.7589","time":"0.02"},{"color":"0.5059 0.4706 1.0000 0.0000","time":"0.06"}],"emissionrate":{"max":"5.0","min":"5.0"},"emitterScaleCurve":[],"layer":2,"texture":{"ani":{"shuffle":false,"name":"","fps":"12"},"name":"textures/sfxs/2021s2/cs_spaceskinA_0_3_lizi"},"enableloop":{"enable":"true"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.4","min":"0.4"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.45 0.2 0.45"},"velocity":{"max":"0.8","min":"0.7"},"thickness":{"value":"0.0"},"emitterscale":[],"particlesize":{"max":"0.06 0.06","min":"0.03 0.03"},"numparticles":{"value":"5"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.1",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.7843 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.2784 1.0000 0.4235 0.6696",
+        "time": "0.00"
+      },
+      {
+        "color": "0.2000 0.3059 1.0000 1.0000",
+        "time": "0.01"
+      },
+      {
+        "color": "0.3608 0.3216 0.8863 0.7589",
+        "time": "0.02"
+      },
+      {
+        "color": "0.5059 0.4706 1.0000 0.0000",
+        "time": "0.06"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 2,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "12"
+      },
+      "name": "textures/sfxs/2021s2/cs_spaceskinA_0_3_lizi"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.4"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.45 0.2 0.45"
+    },
+    "velocity": {
+      "max": "0.8",
+      "min": "0.7"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.06 0.06",
+      "min": "0.03 0.03"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

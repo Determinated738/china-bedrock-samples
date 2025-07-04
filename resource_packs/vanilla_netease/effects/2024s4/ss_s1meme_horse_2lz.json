@@ -1,55 +1,55 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.7961 0.7961 0.7961 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.7843 0.7843 0.7843 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.05 0.1 0.2"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.05 0.05"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/ss_s1meme_horse_lizi2"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "0.4",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.7961 0.7961 0.7961 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7843 0.7843 0.7843 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.05 0.1 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/ss_s1meme_horse_lizi2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
 }

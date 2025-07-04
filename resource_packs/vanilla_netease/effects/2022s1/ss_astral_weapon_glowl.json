@@ -1,1 +1,70 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"name": "textures/sfxs/2022s1/ss_astral_weapon_glow"}, "numparticles": {"value": "1"}, "colorfade": [{"color": "1.0000 1.0000 0.0000 0.0000", "time": "0.00"}, {"color": "1.0000 0.6667 0.0000 0.7232", "time": "0.54"}, {"color": "1.0000 1.0000 0.0000 0.9286", "time": "3.92"}, {"color": "1.0000 1.0000 0.2400 0.0000", "time": "5.00"}], "emissionrate": {"max": "15.0", "min": "15.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "5.0", "min": "5.0"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.0", "min": "0.0"}, "blend": {"name": "add"}, "particlesize": {"max": "0.1 0.1", "min": "0.4 0.4"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s1/ss_astral_weapon_glow"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.7232",
+        "time": "0.54"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.9286",
+        "time": "3.92"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "5.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.4 0.4"
+    }
+  }
+}

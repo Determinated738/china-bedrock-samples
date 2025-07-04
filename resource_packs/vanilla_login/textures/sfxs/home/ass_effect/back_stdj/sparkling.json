@@ -1,78 +1,78 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 1.0000",
-                "time": "10%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.9018",
-                "time": "80%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "1.0 1.0 1.0",
-            "min": "-1.0 -1.0 -1.0",
-            "value": "Direction"
-        },
-        "emitterpath": [
-            {
-                "offset": "-10.0 0.0 0.0",
-                "time": "0.0"
-            },
-            {
-                "offset": "-10.0 0.0 15.0",
-                "time": "0.7"
-            },
-            {
-                "offset": "5.0 0.0 -15.0",
-                "time": "0.7"
-            },
-            {
-                "offset": "10.0 0.0 -15.0",
-                "time": "1.0"
-            }
-        ],
-        "emittersize": {
-            "value": "1.0 5.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enabletexture": {
-            "enable": "true"
-        },
-        "particlesize": {
-            "max": "0.09 0.09",
-            "min": "0.06 0.06"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/back_stdj/0_shine_dot"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "2.0",
-            "min": "1.5"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "10%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9018",
+        "time": "80%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emitterpath": [
+      {
+        "offset": "-10.0 0.0 0.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "-10.0 0.0 15.0",
+        "time": "0.7"
+      },
+      {
+        "offset": "5.0 0.0 -15.0",
+        "time": "0.7"
+      },
+      {
+        "offset": "10.0 0.0 -15.0",
+        "time": "1.0"
+      }
+    ],
+    "emittersize": {
+      "value": "1.0 5.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": "true"
+    },
+    "particlesize": {
+      "max": "0.09 0.09",
+      "min": "0.06 0.06"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/back_stdj/0_shine_dot"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

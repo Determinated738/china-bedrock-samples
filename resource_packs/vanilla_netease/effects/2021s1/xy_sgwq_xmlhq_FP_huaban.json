@@ -1,1 +1,62 @@
-{"particleeffect": {"constantforce": {"value": "-0.05 0.0 -0.05"}, "enablecolor": {"enable": "false"}, "direction": {"max": "-0.03 -0.2 -0.03", "value": "Direction", "min": "0.02 -0.1 0.02"}, "numparticles": {"value": "3"}, "independent": false, "colorfade": [], "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s1/xy_sgwq_xmlhq_huaban", "fps": "15"}, "name": "textures/sfxs/2021s1/xy_sgwq_xmlhq_huaban"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "1.0", "min": "0.5"}, "emittersize": {"value": "0.15 0.15 0.15"}, "emitterscale": [], "particlesize": {"max": "0.04 0.04", "min": "0.02 0.02"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}]}}
+{
+  "particleeffect": {
+    "constantforce": {
+      "value": "-0.05 0.0 -0.05"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "-0.03 -0.2 -0.03",
+      "value": "Direction",
+      "min": "0.02 -0.1 0.02"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "independent": false,
+    "colorfade": [],
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s1/xy_sgwq_xmlhq_huaban",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s1/xy_sgwq_xmlhq_huaban"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "emittersize": {
+      "value": "0.15 0.15 0.15"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.02 0.02"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ]
+  }
+}

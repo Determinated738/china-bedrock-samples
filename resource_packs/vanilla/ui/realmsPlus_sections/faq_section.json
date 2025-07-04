@@ -1,19 +1,25 @@
 {
   "namespace": "realmsPlus_faq",
-
   "faq_image_section@common.service_repo_image_panel": {
-    "size": [ 100, "72.6%x" ]
+    "size": [
+      100,
+      "72.6%x"
+    ]
   },
-
   "faq_image_local": {
     "type": "image",
-    "size": [ 100, "72.6%x" ],
+    "size": [
+      100,
+      "72.6%x"
+    ],
     "texture": "$repo_image_texture"
   },
-
   "faq_image_type": {
     "type": "panel",
-    "size": [ 100, "100%cm" ],
+    "size": [
+      100,
+      "100%cm"
+    ],
     "controls": "$faq_image_control",
     "$faq_image_control|default": [
       {
@@ -21,22 +27,25 @@
       }
     ]
   },
-
   "faq_text_section_body": {
     "type": "stack_panel",
     "orientation": "vertical",
-    "size": [ "fill", "100%c" ],
+    "size": [
+      "fill",
+      "100%c"
+    ],
     "$faq_question|default": "",
     "$faq_answer|default": ""
   },
-
   "faq_text_question": {
     "type": "label",
     "text": "$faq_question",
-    "size": [ "100%", "default" ],
+    "size": [
+      "100%",
+      "default"
+    ],
     "color": "$store_white_text_color"
   },
-
   "faq_text_section@realmsPlus_faq.faq_text_section_body": {
     "controls": [
       {
@@ -46,7 +55,10 @@
         "faq_text_answer": {
           "type": "label",
           "text": "$faq_answer",
-          "size": [ "100%", "default" ],
+          "size": [
+            "100%",
+            "default"
+          ],
           "font_type": "smooth",
           "font_scale_factor": 0.9,
           "color": "$store_white_text_color"
@@ -54,7 +66,6 @@
       }
     ]
   },
-
   "faq_price_bound_text_section@realmsPlus_faq.faq_text_section_body": {
     "controls": [
       {
@@ -64,7 +75,10 @@
         "faq_text_answer": {
           "type": "label",
           "text": "#faq_price_text",
-          "size": [ "100%", "default" ],
+          "size": [
+            "100%",
+            "default"
+          ],
           "font_type": "smooth",
           "font_scale_factor": 0.9,
           "color": "$store_white_text_color",
@@ -77,25 +91,30 @@
       }
     ]
   },
-
   "faq_question_body@realmsPlus_faq.faq_question_body_stack": {
     "controls": "$question_body_controls"
   },
-
   "faq_question_body_stack": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%cm" ]
+    "size": [
+      "100%",
+      "100%cm"
+    ]
   },
-
   "faq_question_body_horz_padding": {
     "type": "panel",
-    "size": [ 4, 0 ]
+    "size": [
+      4,
+      0
+    ]
   },
-
   "image_left_faq_question_body@common_buttons.text_body_focus_border_for_controller_button": {
     "$text_control": "realmsPlus_faq.faq_question_body",
-    "$text_control_size": [ "100%", "100%cm" ],
+    "$text_control_size": [
+      "100%",
+      "100%cm"
+    ],
     "$question_body_controls": [
       {
         "faq_question_body_horz_padding_1@realmsPlus_faq.faq_question_body_horz_padding": {}
@@ -114,10 +133,12 @@
       }
     ]
   },
-
   "image_right_faq_question_body@common_buttons.text_body_focus_border_for_controller_button": {
     "$text_control": "realmsPlus_faq.faq_question_body",
-    "$text_control_size": [ "100%", "100%cm" ],
+    "$text_control_size": [
+      "100%",
+      "100%cm"
+    ],
     "$question_body_controls": [
       {
         "faq_question_body_horz_padding_1@realmsPlus_faq.faq_question_body_horz_padding": {}
@@ -136,10 +157,12 @@
       }
     ]
   },
-
   "image_left_faq_question_body_flip": {
     "type": "panel",
-    "size": [ "100%", "100%c" ],
+    "size": [
+      "100%",
+      "100%c"
+    ],
     "controls": [
       {
         "faq_question_left@realmsPlus_faq.image_left_faq_question_body": {
@@ -163,10 +186,12 @@
       }
     ]
   },
-
   "image_right_faq_question_body_flip": {
     "type": "panel",
-    "size": [ "100%", "100%c" ],
+    "size": [
+      "100%",
+      "100%c"
+    ],
     "controls": [
       {
         "faq_question_right@realmsPlus_faq.image_right_faq_question_body": {
@@ -190,10 +215,12 @@
       }
     ]
   },
-
   "image_left_faq_price_bound@common_buttons.text_body_focus_border_for_controller_button": {
     "$text_control": "realmsPlus_faq.faq_question_body",
-    "$text_control_size": [ "100%", "100%cm" ],
+    "$text_control_size": [
+      "100%",
+      "100%cm"
+    ],
     "$question_body_controls": [
       {
         "faq_question_body_horz_padding_1@realmsPlus_faq.faq_question_body_horz_padding": {}
@@ -212,17 +239,23 @@
       }
     ]
   },
-
   "faq_section_header_space": {
     "type": "panel",
-    "size": [ "100%", 8 ]
+    "size": [
+      "100%",
+      8
+    ]
   },
-
   "faq_section_divider@common.section_divider": {
-    "$top_padding_size": [ "100%", 4 ],
-    "$bottom_padding_size": [ "100%", 4 ]
+    "$top_padding_size": [
+      "100%",
+      4
+    ],
+    "$bottom_padding_size": [
+      "100%",
+      4
+    ]
   },
-
   "faq_content_section@realmsPlus.section_base": {
     "controls": [
       {
@@ -231,7 +264,10 @@
       {
         "faq_header": {
           "type": "label",
-          "size": [ "100%", "default" ],
+          "size": [
+            "100%",
+            "default"
+          ],
           "text": "store.realmsPlus.faq.header",
           "font_scale_factor": 1.2,
           "text_alignment": "center",

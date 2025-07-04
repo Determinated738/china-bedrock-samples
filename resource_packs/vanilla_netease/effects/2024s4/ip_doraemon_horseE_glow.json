@@ -1,72 +1,72 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.6902 0.2784 0.0863 0.1964",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.7216 0.3255 0.2235 0.1607",
-				"time": "34.7%"
-			},
-			{
-				"color": "0.5647 0.2353 0.1020 0.1339",
-				"time": "77.1%"
-			},
-			{
-				"color": "0.6510 0.2941 0.0863 0.1339",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "-1.0 0.0 0.0",
-			"min": "-1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "8.0",
-			"min": "4.0"
-		},
-		"faceCameraMode": {
-			"value": "Horizontal"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "1.0 1.0",
-			"min": "1.2 1.2"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.39 0.39",
-				"time": "0.3%"
-			},
-			{
-				"scale": "1.02 1.02",
-				"time": "10.3%"
-			},
-			{
-				"scale": "1.38 1.38",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/ip_doraemon_horseE_glow"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "2.0",
-			"min": "3.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.6902 0.2784 0.0863 0.1964",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7216 0.3255 0.2235 0.1607",
+        "time": "34.7%"
+      },
+      {
+        "color": "0.5647 0.2353 0.1020 0.1339",
+        "time": "77.1%"
+      },
+      {
+        "color": "0.6510 0.2941 0.0863 0.1339",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "4.0"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "1.2 1.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.39 0.39",
+        "time": "0.3%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "10.3%"
+      },
+      {
+        "scale": "1.38 1.38",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/ip_doraemon_horseE_glow"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "3.0"
+    }
+  }
 }

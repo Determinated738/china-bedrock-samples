@@ -13,7 +13,9 @@
       "geometry": {
         "default": "geometry.balloon"
       },
-      "render_controllers": [ "controller.render.balloon" ]
+      "render_controllers": [
+        "controller.render.balloon"
+      ]
     }
   }
 }

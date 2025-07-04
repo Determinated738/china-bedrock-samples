@@ -1,102 +1,102 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.3843 1.0000 0.9608 0.6607",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.8118 0.5020 1.0000 0.3750",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "8.0",
-			"min": "10.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.2 0.2"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "4"
-		},
-		"particlesize": {
-			"max": "0.7 0.7",
-			"min": "0.7 0.7"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s3/ip_doraemon_horseB_wxp"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"trail": {
-			"colorfade": [
-				{
-					"color": "0.4 1.0 0.9333333333333333 0.0",
-					"time": "0.000%"
-				},
-				{
-					"color": "0.45098039215686275 0.45098039215686275 1.0 0.5535714285714286",
-					"time": "22.105%"
-				},
-				{
-					"color": "0.6039215686274509 0.403921568627451 1.0 0.2232142857142857",
-					"time": "57.368%"
-				},
-				{
-					"color": "0.9725490196078431 0.5647058823529412 1.0 0.0",
-					"time": "100.000%"
-				}
-			],
-			"facemode": 0,
-			"lifetime": 0.3,
-			"maxnum": 300,
-			"mindistance": 0.01,
-			"texmode": 0,
-			"textile": "2.0 1.0",
-			"useparticlecolor": true,
-			"useparticlewidth": true,
-			"widthfade": [
-				{
-					"time": "0.0%",
-					"value": "0.42000000000000004"
-				},
-				{
-					"time": "50.33333333333333%",
-					"value": "0.45000000000000007"
-				},
-				{
-					"time": "100.0%",
-					"value": "0.1200000000000001"
-				}
-			],
-			"worldspace": true
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.3843 1.0000 0.9608 0.6607",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8118 0.5020 1.0000 0.3750",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.7 0.7",
+      "min": "0.7 0.7"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s3/ip_doraemon_horseB_wxp"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "0.4 1.0 0.9333333333333333 0.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "0.45098039215686275 0.45098039215686275 1.0 0.5535714285714286",
+          "time": "22.105%"
+        },
+        {
+          "color": "0.6039215686274509 0.403921568627451 1.0 0.2232142857142857",
+          "time": "57.368%"
+        },
+        {
+          "color": "0.9725490196078431 0.5647058823529412 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.3,
+      "maxnum": 300,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "2.0 1.0",
+      "useparticlecolor": true,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.42000000000000004"
+        },
+        {
+          "time": "50.33333333333333%",
+          "value": "0.45000000000000007"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.1200000000000001"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

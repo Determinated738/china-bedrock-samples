@@ -1,76 +1,76 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"colorfade": [
-			{
-				"color": "0.6980 1.0000 0.9922 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.4863 1.0000 0.9843 1.0000",
-				"time": "47.4%"
-			},
-			{
-				"color": "0.7961 1.0000 1.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "6.0"
-		},
-		"delay": 8.6,
-		"direction": {
-			"max": "0.2 1.0 0.2",
-			"min": "-0.2 1.0 -0.2",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "200.0",
-			"min": "200.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.2 0.2 0.0"
-		},
-		"emittertype": {
-			"value": "Hemisphere"
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "150"
-		},
-		"particlesize": {
-			"max": "0.15 0.15",
-			"min": "0.02 0.02"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "50.0 50.0 50.0",
-			"min": "-50.0 -50.0 -50.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "5",
-				"name": "textures/sfxs/2024s3/cs_s1wild_skinB_birth_smoke",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1wild_skinB_birth_smoke"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "2.0",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "20.0",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "0.6980 1.0000 0.9922 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4863 1.0000 0.9843 1.0000",
+        "time": "47.4%"
+      },
+      {
+        "color": "0.7961 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "delay": 8.6,
+    "direction": {
+      "max": "0.2 1.0 0.2",
+      "min": "-0.2 1.0 -0.2",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "200.0",
+      "min": "200.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.2 0.0"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "150"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.02 0.02"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "50.0 50.0 50.0",
+      "min": "-50.0 -50.0 -50.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "5",
+        "name": "textures/sfxs/2024s3/cs_s1wild_skinB_birth_smoke",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1wild_skinB_birth_smoke"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "20.0",
+      "min": "1.0"
+    }
+  }
 }

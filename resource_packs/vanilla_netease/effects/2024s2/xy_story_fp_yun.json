@@ -1,1 +1,70 @@
-{"particleeffect": {"colorfade": [{"color": "0.0000 0.1294 0.3059 0.0000", "time": "0.0%"}, {"color": "0.0000 0.2941 0.4510 0.2946", "time": "45.0%"}, {"color": "0.0000 0.1569 0.4000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "15.0", "min": "15.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 0, "numparticles": {"value": "15"}, "particlesize": {"max": "0.35 0.4", "min": "0.35 0.4"}, "pointFiltering": true, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 180.0 180.0", "min": "0.0 180.0 180.0"}, "sizedelta": [{"scale": "1.1 1.1", "time": "0.0%"}, {"scale": "1.2 1.2", "time": "64.3%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/xy_story_fp_sun"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 0.1294 0.3059 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.2941 0.4510 0.2946",
+        "time": "45.0%"
+      },
+      {
+        "color": "0.0000 0.1569 0.4000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.35 0.4",
+      "min": "0.35 0.4"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 180.0 180.0",
+      "min": "0.0 180.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.1 1.1",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "64.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/xy_story_fp_sun"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

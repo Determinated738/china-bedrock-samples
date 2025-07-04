@@ -1,1 +1,296 @@
-{"animation":{"name":"Take 001","ID":"UANI","length":1.666666,"trackSize":11,"tracks":[{"bone":"Bone001_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[-0.018344,12.003649,-0.0],"quaternion":[-1e-06,-1e-06,0.707106,0.707106],"scale":[1.0,1.0,1.0]}]},{"bone":"Bone002_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[-0.018346,15.985969,-0.0],"quaternion":[-0.0,-3.8915686673135497e-07,0.707106,0.707106],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body01_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[5.982485,-0.164122,2.71192],"quaternion":[-0.276777,-0.956924,-0.034661,0.080556],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body02_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[8.63832,1.180372,0.004551],"quaternion":[0.001635,0.158926,0.024235,0.986991],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body03_NTES","chanelMask":2,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.0,0.0,0.0],"quaternion":[0.059804,0.132595,-0.025328,0.98904],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body04_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[7.529828,-2e-06,1e-06],"quaternion":[0.009783,0.07977,0.117935,0.989763],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body07_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[8.316064,-2.950248,-0.329698],"quaternion":[0.005977,0.079202,0.017464,0.996687],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body08_NTES","chanelMask":1,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[5.688819,-0.0,1e-06],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body09_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[-1.290281,-0.956405,0.26324],"quaternion":[0.056335,-0.045737,-0.383206,0.920807],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body10_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[4.083493,2.601604,-1.056329],"quaternion":[0.021375,0.081437,-0.148455,0.985328],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_body18_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.774622,-0.018346,2.014596],"quaternion":[1e-06,-0.985055,5e-06,0.172238],"scale":[1.0,1.0,1.0]}]}]}}
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 1.666666,
+    "trackSize": 11,
+    "tracks": [
+      {
+        "bone": "Bone001_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -0.018344,
+              12.003649,
+              0
+            ],
+            "quaternion": [
+              -0.000001,
+              -0.000001,
+              0.707106,
+              0.707106
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "Bone002_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -0.018346,
+              15.985969,
+              0
+            ],
+            "quaternion": [
+              0,
+              -3.8915686673135497e-7,
+              0.707106,
+              0.707106
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body01_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              5.982485,
+              -0.164122,
+              2.71192
+            ],
+            "quaternion": [
+              -0.276777,
+              -0.956924,
+              -0.034661,
+              0.080556
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body02_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.63832,
+              1.180372,
+              0.004551
+            ],
+            "quaternion": [
+              0.001635,
+              0.158926,
+              0.024235,
+              0.986991
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body03_NTES",
+        "chanelMask": 2,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0.059804,
+              0.132595,
+              -0.025328,
+              0.98904
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body04_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              7.529828,
+              -0.000002,
+              0.000001
+            ],
+            "quaternion": [
+              0.009783,
+              0.07977,
+              0.117935,
+              0.989763
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body07_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.316064,
+              -2.950248,
+              -0.329698
+            ],
+            "quaternion": [
+              0.005977,
+              0.079202,
+              0.017464,
+              0.996687
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body08_NTES",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              5.688819,
+              0,
+              0.000001
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body09_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -1.290281,
+              -0.956405,
+              0.26324
+            ],
+            "quaternion": [
+              0.056335,
+              -0.045737,
+              -0.383206,
+              0.920807
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body10_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.083493,
+              2.601604,
+              -1.056329
+            ],
+            "quaternion": [
+              0.021375,
+              0.081437,
+              -0.148455,
+              0.985328
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_body18_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.774622,
+              -0.018346,
+              2.014596
+            ],
+            "quaternion": [
+              0.000001,
+              -0.985055,
+              0.000005,
+              0.172238
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

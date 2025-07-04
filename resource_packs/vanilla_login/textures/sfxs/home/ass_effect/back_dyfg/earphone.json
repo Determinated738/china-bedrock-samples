@@ -1,78 +1,78 @@
 {
-    "particleeffect": {
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "1.0 1.0 1.0",
-            "min": "-1.0 -1.0 -1.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "5.0",
-            "min": "5.0"
-        },
-        "emitterpath": [
-            {
-                "offset": "-7.7 0.0 -11.9",
-                "time": "0.0"
-            },
-            {
-                "offset": "-7.7 0.0 -11.9",
-                "time": "0.2"
-            },
-            {
-                "offset": "11.4 0.0 -11.9",
-                "time": "0.2"
-            },
-            {
-                "offset": "11.4 0.0 -11.9",
-                "time": "0.4"
-            }
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enablecolor": {
-            "enable": "false"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "faceCameraMode": {
-            "value": "Rotate Y"
-        },
-        "numparticles": {
-            "value": "2"
-        },
-        "particlesize": {
-            "max": "2.3 2.75",
-            "min": "2.3 2.75"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "ani": {
-                "fps": "10",
-                "name": "textures/sfxs/home/ass_effect/back_dyfg/0_earphone",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/home/ass_effect/back_dyfg/0_earphone"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "1000",
-            "min": "1000"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "-7.7 0.0 -11.9",
+        "time": "0.0"
+      },
+      {
+        "offset": "-7.7 0.0 -11.9",
+        "time": "0.2"
+      },
+      {
+        "offset": "11.4 0.0 -11.9",
+        "time": "0.2"
+      },
+      {
+        "offset": "11.4 0.0 -11.9",
+        "time": "0.4"
+      }
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "2.3 2.75",
+      "min": "2.3 2.75"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/home/ass_effect/back_dyfg/0_earphone",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/home/ass_effect/back_dyfg/0_earphone"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1000",
+      "min": "1000"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

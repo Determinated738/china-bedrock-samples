@@ -1,13 +1,17 @@
-
 {
   "namespace": "chest",
-
   "netease_custom_chest_grid": {
     "type": "grid",
-    "size": [ 162, "100.0%c" ],
+    "size": [
+      162,
+      "100.0%c"
+    ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "grid_dimensions": [ 9, 6 ],
+    "grid_dimensions": [
+      9,
+      6
+    ],
     "grid_item_template": "chest.chest_grid_item",
     "grid_dimension_binding": "#netease_custom_chest_grid_dimension",
     "collection_name": "container_items",
@@ -17,27 +21,38 @@
       }
     ]
   },
-
   "netease_custom_chest_panel_top_half": {
     "type": "panel",
-    "size": [ "100%", "100.0%c"],
-    "offset": [ 0, 11 ],
+    "size": [
+      "100%",
+      "100.0%c"
+    ],
+    "offset": [
+      0,
+      11
+    ],
     "anchor_to": "top_left",
     "anchor_from": "top_left",
     "controls": [
-      { "chest_label@chest.chest_label": {} },
+      {
+        "chest_label@chest.chest_label": {}
+      },
       {
         "netease_custom_chest_grid@chest.netease_custom_chest_grid": {
-          "offset": [ 7, 10 ]
+          "offset": [
+            7,
+            10
+          ]
         }
       }
     ]
   },
-
   "netease_custom_chest_panel": {
     "type": "panel",
     "controls": [
-      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
       {
         "flying_item_renderer@common.flying_item_renderer": {
           "layer": 11
@@ -55,60 +70,86 @@
       },
       {
         "root_panel@common.root_panel": {
-          "size": [ 176, 220 ],
+          "size": [
+            176,
+            220
+          ],
           "layer": 1,
           "controls": [
-            { "common_panel@common.common_panel": {
-				"size":["100%", "100.0%c"],
-				"$dialog_background|default": "common.dialog_background_opaque",
-				"controls": [
-					{ "bg_image@$dialog_background": { 
-						"size":["100%", "100.0%c+-37.0px"],
-						"layer": 1,
-						"controls":[
-										{"chest_panel": {
-											"type": "panel",
-											"layer": 5,
-											"size":["100%", "100.0%c+-7.0px"],
-											"controls": [
-											  { "netease_custom_chest_panel_top_half@chest.netease_custom_chest_panel_top_half": {} },
-											  { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
-											  { "hotbar_grid@common.hotbar_grid_template": {} }
-											]
-										  }
-										},
-										{ "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
-										{ "gamepad_cursor@common.gamepad_cursor_button": {} },
-										{ "close@common.close_button": {
-											"layer": "$close_button_layer",
-											"offset": "$close_button_offset",
-											"ignored": "$use_compact_close_button"
-										  }
-										},
-										{ "compact_close@common.compact_close_button": {
-											"layer": "$close_button_layer",
-											"offset": "$close_button_offset",
-											"ignored": "(not $use_compact_close_button)"
-										  }
-										}
-									],
-						  "bindings": [
-							{
-							  "binding_name": "$close_button_visible_binding_name",
-							  "binding_name_override": "#visible"
-							}
-						  ]
-						}
-					}
-				]
-			} }
-            
+            {
+              "common_panel@common.common_panel": {
+                "size": [
+                  "100%",
+                  "100.0%c"
+                ],
+                "$dialog_background|default": "common.dialog_background_opaque",
+                "controls": [
+                  {
+                    "bg_image@$dialog_background": {
+                      "size": [
+                        "100%",
+                        "100.0%c+-37.0px"
+                      ],
+                      "layer": 1,
+                      "controls": [
+                        {
+                          "chest_panel": {
+                            "type": "panel",
+                            "layer": 5,
+                            "size": [
+                              "100%",
+                              "100.0%c+-7.0px"
+                            ],
+                            "controls": [
+                              {
+                                "netease_custom_chest_panel_top_half@chest.netease_custom_chest_panel_top_half": {}
+                              },
+                              {
+                                "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                              },
+                              {
+                                "hotbar_grid@common.hotbar_grid_template": {}
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+                        },
+                        {
+                          "gamepad_cursor@common.gamepad_cursor_button": {}
+                        },
+                        {
+                          "close@common.close_button": {
+                            "layer": "$close_button_layer",
+                            "offset": "$close_button_offset",
+                            "ignored": "$use_compact_close_button"
+                          }
+                        },
+                        {
+                          "compact_close@common.compact_close_button": {
+                            "layer": "$close_button_layer",
+                            "offset": "$close_button_offset",
+                            "ignored": "(not $use_compact_close_button)"
+                          }
+                        }
+                      ],
+                      "bindings": [
+                        {
+                          "binding_name": "$close_button_visible_binding_name",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       }
     ]
   },
-
   "netease_custom_chest_screen@common.inventory_screen_common": {
     "$close_on_player_hurt|default": true,
     "close_on_player_hurt": "$close_on_player_hurt",
@@ -125,7 +166,6 @@
       }
     ]
   },
-  
   "netease_custom_shulker_screen@common.inventory_screen_common": {
     "$close_on_player_hurt|default": true,
     "close_on_player_hurt": "$close_on_player_hurt",

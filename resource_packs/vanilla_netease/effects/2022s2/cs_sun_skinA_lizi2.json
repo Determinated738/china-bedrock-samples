@@ -1,1 +1,69 @@
-{"particleeffect":{"constantforce":{"value":"0.0 0.0 1.0"},"independent":false,"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 1.0"},"activetime":{"value":"0.5"},"particlesize":{"max":"0.2 0.6","min":"0.05 0.3"},"numparticles":{"value":"5"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"1.0000 0.9882 0.7765 1.0000","time":"0.51"},{"color":"1.0000 0.6667 0.0000 0.0000","time":"1.00"}],"emissionrate":{"max":"100.0","min":"100.0"},"emitterScaleCurve":[],"emittersize":{"value":"2.0 2.0 0.0"},"texture":{"name":"textures/sfxs/2022s2/cs_starry_horse_zishen_lizi"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"delay":0.05,"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"6.0","min":"0.0"},"dampingforce":{"value":"2.5"}}}
+{
+  "particleeffect": {
+    "constantforce": {
+      "value": "0.0 0.0 1.0"
+    },
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 1.0"
+    },
+    "activetime": {
+      "value": "0.5"
+    },
+    "particlesize": {
+      "max": "0.2 0.6",
+      "min": "0.05 0.3"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.9882 0.7765 1.0000",
+        "time": "0.51"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "2.0 2.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s2/cs_starry_horse_zishen_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "delay": 0.05,
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "6.0",
+      "min": "0.0"
+    },
+    "dampingforce": {
+      "value": "2.5"
+    }
+  }
+}

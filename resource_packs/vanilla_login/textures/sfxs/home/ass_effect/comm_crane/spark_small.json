@@ -1,76 +1,72 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 0.0000 0.0000 0.5625",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 0.4941 0.1333 0.7589",
-                "time": "25%"
-            },
-            {
-                "color": "1.0000 1.0000 0.2400 0.1964",
-                "time": "100%"
-            }
-        ],
-        "constantforce": {
-            "value": "-0.5 0.5 0.0"
-        },
-        "dampingforce": {
-            "value": "5.0"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.2 0.5 0.0",
-            "min": "-0.2 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "10.0",
-            "min": "7.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Cone"
-        },
-        "faceCameraMode": {
-            "value": "Direction"
-        },
-        "independent": false,
-        "particlesize": {
-            "max": "0.01 0.07",
-            "min": "0.01 0.03"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/comm_crane/0_beam"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "0.4",
-            "min": "0.2"
-        },
-        "velocity": {
-            "max": "1.5",
-            "min": "1.0"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0000 0.5625",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 0.4941 0.1333 0.7589",
+        "time": "25%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.1964",
+        "time": "100%"
+      }
+    ],
+    "constantforce": {
+      "value": "-0.5 0.5 0.0"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.2 0.5 0.0",
+      "min": "-0.2 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "7.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "independent": false,
+    "particlesize": {
+      "max": "0.01 0.07",
+      "min": "0.01 0.03"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/comm_crane/0_beam"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "1.5",
+      "min": "1.0"
     }
+  }
 }

@@ -168,14 +168,14 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/wending",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/infinite_amethyst",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -217,21 +217,21 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/comforting_memories",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/infinite_amethyst",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/wending",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -278,17 +278,17 @@
         {
           "name": "sounds/music/game/floating_dream",
           "stream": true,
-          "volume": 0.40
+          "volume": 0.4
         },
         {
           "name": "sounds/music/game/stand_tall",
           "stream": true,
-          "volume": 0.40
+          "volume": 0.4
         },
         {
           "name": "sounds/music/game/wending",
           "stream": true,
-          "volume": 0.40
+          "volume": 0.4
         },
         {
           "name": "sounds/music/game/piano1",
@@ -327,14 +327,14 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/left_to_bloom",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/one_more_day",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -376,14 +376,14 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/one_more_day",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/left_to_bloom",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -419,14 +419,14 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/stand_tall",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/one_more_day",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -480,21 +480,21 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/an_ordinary_day",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/stand_tall",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/one_more_day",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -524,21 +524,21 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/stand_tall",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/one_more_day",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/wending",
           "stream": true,
-          "volume": 0.40,
+          "volume": 0.4,
           "weight": 1
         },
         {
@@ -734,7 +734,7 @@
       "sounds": []
     },
     "record.otherside": {
-      "max_distance": 64.0,
+      "max_distance": 64,
       "sounds": [
         {
           "name": "sounds/music/game/records/otherside",

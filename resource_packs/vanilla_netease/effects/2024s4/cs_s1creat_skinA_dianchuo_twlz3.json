@@ -1,94 +1,94 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.0000 0.7020 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.2400 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.05 0.05 0.05"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "8"
-		},
-		"particlesize": {
-			"max": "0.3 0.08",
-			"min": "0.3 0.08"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 90.0",
-			"min": "0.0 0.0 90.0"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_chuchang_tuowei2"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.8"
-		},
-		"trail": {
-			"colorfade": [
-				{
-					"color": "1.0 0.4666666666666667 0.0 0.1964285714285714",
-					"time": "0.000%"
-				},
-				{
-					"color": "1.0 0.615686274509804 0.0 0.5178571428571428",
-					"time": "22.105%"
-				},
-				{
-					"color": "1.0 0.7176470588235294 0.0 0.1696428571428571",
-					"time": "50.526%"
-				},
-				{
-					"color": "0.0 1.0 0.6666666666666666 0.0",
-					"time": "100.000%"
-				}
-			],
-			"facemode": 0,
-			"lifetime": 0.4,
-			"maxnum": 300,
-			"mindistance": 0.01,
-			"texmode": 0,
-			"textile": "1.0 1.0",
-			"useparticlecolor": false,
-			"useparticlewidth": true,
-			"widthfade": [
-				{
-					"time": "0.0%",
-					"value": "0.9199999999999999"
-				}
-			],
-			"worldspace": true
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.7020 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.05 0.05 0.05"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.3 0.08",
+      "min": "0.3 0.08"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_chuchang_tuowei2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.8"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 0.4666666666666667 0.0 0.1964285714285714",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 0.615686274509804 0.0 0.5178571428571428",
+          "time": "22.105%"
+        },
+        {
+          "color": "1.0 0.7176470588235294 0.0 0.1696428571428571",
+          "time": "50.526%"
+        },
+        {
+          "color": "0.0 1.0 0.6666666666666666 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.4,
+      "maxnum": 300,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "1.0 1.0",
+      "useparticlecolor": false,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.9199999999999999"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

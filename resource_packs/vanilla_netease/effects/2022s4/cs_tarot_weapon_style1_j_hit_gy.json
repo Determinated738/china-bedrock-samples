@@ -1,1 +1,80 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.2"},"numparticles":{"value":"1"},"colorfade":[{"color":"0.9725 1.0000 0.7882 1.0000","time":"0.0%"},{"color":"1.0000 1.0000 0.4235 0.8839","time":"25.0%"},{"color":"1.0000 0.5843 0.0000 0.8482","time":"49.7%"},{"color":"1.0000 0.5490 0.0000 0.0000","time":"100.0%"}],"depthtest":{"enable":"false"},"relative":{"enable":"true"},"timetolive":{"max":"0.2","min":"0.2"},"texture":{"ani":{"shuffle":false,"name":"","fps":"15"},"name":"textures/sfxs/2022s4/cs_tarot_weapon_j_hit_gy"},"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"0.35 0.35","min":"0.35 0.35"},"sizedelta":[{"scale":"0.09 0.09","time":"0.0%"},{"scale":"1.44 1.44","time":"3.7%"},{"scale":"2.32 2.32","time":"6.0%"},{"scale":"2.6 2.6","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "colorfade": [
+      {
+        "color": "0.9725 1.0000 0.7882 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.4235 0.8839",
+        "time": "25.0%"
+      },
+      {
+        "color": "1.0000 0.5843 0.0000 0.8482",
+        "time": "49.7%"
+      },
+      {
+        "color": "1.0000 0.5490 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "depthtest": {
+      "enable": "false"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2022s4/cs_tarot_weapon_j_hit_gy"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.35 0.35"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.09 0.09",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.44 1.44",
+        "time": "3.7%"
+      },
+      {
+        "scale": "2.32 2.32",
+        "time": "6.0%"
+      },
+      {
+        "scale": "2.6 2.6",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

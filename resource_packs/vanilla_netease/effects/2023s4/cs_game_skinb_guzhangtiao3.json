@@ -1,1 +1,57 @@
-{"particleeffect": {"blend": {"name": "add"}, "direction": {"max": "1.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.6 0.8 0.6"}, "emittertype": {"value": "Box"}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 2, "numparticles": {"value": "3"}, "particlesize": {"max": "0.3 0.3", "min": "0.35 0.35"}, "relative": {"enable": "false"}, "rotationRange": {"max": "90.0 90.0 0.0", "min": "90.0 90.0 0.0"}, "texture": {"ani": {"fps": "1", "name": "textures/sfxs/2023s4/cs_game_skinb_guzhangtiao", "shuffle": true}, "name": "textures/sfxs/2023s4/cs_game_skinb_guzhangtiao"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.1", "min": "0.1"}, "velocity": {"max": "0.1", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.6 0.8 0.6"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.35 0.35"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "90.0 90.0 0.0",
+      "min": "90.0 90.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "1",
+        "name": "textures/sfxs/2023s4/cs_game_skinb_guzhangtiao",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2023s4/cs_game_skinb_guzhangtiao"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    }
+  }
+}

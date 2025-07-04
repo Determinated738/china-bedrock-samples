@@ -1,1 +1,71 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.6667 1.0000 1.0000 0.5982", "time": "0.0%"}, {"color": "0.0118 1.0000 0.8863 0.5714", "time": "18.7%"}, {"color": "0.1333 0.2353 0.8196 0.5893", "time": "66.1%"}, {"color": "0.0000 0.0000 0.4275 0.5446", "time": "89.2%"}, {"color": "0.0000 0.0000 0.2824 0.5714", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "-1.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "6.0"}, "faceCameraMode": {"value": "Direction Horizontal"}, "numparticles": {"value": "6"}, "particlesize": {"max": "0.42 0.4", "min": "0.42 0.4"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "texture": {"ani": {"fps": "15", "name": "textures/sfxs/2022s3/ss_carnival_horse_jiaoyin", "shuffle": false}, "name": "textures/sfxs/2022s3/ss_carnival_horse_jiaoyin"}, "timetolive": {"max": "0.5", "min": "0.5"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.6667 1.0000 1.0000 0.5982",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0118 1.0000 0.8863 0.5714",
+        "time": "18.7%"
+      },
+      {
+        "color": "0.1333 0.2353 0.8196 0.5893",
+        "time": "66.1%"
+      },
+      {
+        "color": "0.0000 0.0000 0.4275 0.5446",
+        "time": "89.2%"
+      },
+      {
+        "color": "0.0000 0.0000 0.2824 0.5714",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.42 0.4",
+      "min": "0.42 0.4"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2022s3/ss_carnival_horse_jiaoyin",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2022s3/ss_carnival_horse_jiaoyin"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

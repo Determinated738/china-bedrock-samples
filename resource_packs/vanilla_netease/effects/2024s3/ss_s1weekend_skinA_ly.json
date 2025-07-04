@@ -1,81 +1,81 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "15.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "85.8%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"disorder": {
-			"increment": "0.0",
-			"interval": "0.01",
-			"max": "0.1 0.0 0.1",
-			"min": "0.0 0.0 0.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.0 1.25 1.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "4"
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.05 0.05"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 120.0"
-		},
-		"rotationSpeedRange": {
-			"max": "60.0 60.0 60.0",
-			"min": "30.0 30.0 30.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s3/ss_s1weekend_skinA_yezi",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s3/ss_s1weekend_skinA_yezi"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "2.0",
-			"min": "1.5"
-		},
-		"velocity": {
-			"max": "0.4",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "15.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "85.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.0",
+      "interval": "0.01",
+      "max": "0.1 0.0 0.1",
+      "min": "0.0 0.0 0.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.25 1.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 120.0"
+    },
+    "rotationSpeedRange": {
+      "max": "60.0 60.0 60.0",
+      "min": "30.0 30.0 30.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s3/ss_s1weekend_skinA_yezi",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s3/ss_s1weekend_skinA_yezi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.3"
+    }
+  }
 }

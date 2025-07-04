@@ -1,1 +1,77 @@
-{"particleeffect": {"texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s2/yx_sakurafp_hua", "fps": "15"}, "name": "textures/sfxs/2021s2/yx_sakurafp_hua"}, "enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "dampingforce": {"value": "5.0"}, "faceCameraMode": {"value": "Direction Horizontal"}, "independent": false, "emissionrate": {"max": "3.0", "min": "4.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.1", "min": "0.1"}, "particlesize": {"max": "0.7 0.7", "min": "0.7 0.7"}, "sizedelta": [{"scale": "0.7 0.7", "time": "0.00"}, {"scale": "1.0 1.0", "time": "0.30"}, {"scale": "1.0 1.0", "time": "1.10"}, {"scale": "1.0 1.0", "time": "2.00"}], "numparticles": {"value": "4"}}}
+{
+  "particleeffect": {
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s2/yx_sakurafp_hua",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s2/yx_sakurafp_hua"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "3.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "particlesize": {
+      "max": "0.7 0.7",
+      "min": "0.7 0.7"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.7 0.7",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "0.30"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "1.10"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "2.00"
+      }
+    ],
+    "numparticles": {
+      "value": "4"
+    }
+  }
+}

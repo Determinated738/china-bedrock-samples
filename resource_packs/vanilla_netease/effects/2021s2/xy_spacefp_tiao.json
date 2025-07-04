@@ -1,1 +1,65 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "dampingforce": {"value": "3.0"}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 2, "texture": {"ani": {"shuffle": true, "name": "textures/sfxs/2021s2/xy_spacefp_tiao", "fps": "15"}, "name": "textures/sfxs/2021s2/xy_spacefp_tiao"}, "colorfade": [], "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "timetolive": {"max": "0.2", "min": "0.4"}, "emittersize": {"value": "0.6 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "3.5000000000000013", "min": "2.5"}, "particlesize": {"max": "0.15 0.15", "min": "0.15 0.15"}, "numparticles": {"value": "3"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 2,
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2021s2/xy_spacefp_tiao",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s2/xy_spacefp_tiao"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.4"
+    },
+    "emittersize": {
+      "value": "0.6 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "3.5000000000000013",
+      "min": "2.5"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.15 0.15"
+    },
+    "numparticles": {
+      "value": "3"
+    }
+  }
+}

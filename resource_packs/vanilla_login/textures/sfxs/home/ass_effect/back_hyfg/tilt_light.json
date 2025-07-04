@@ -1,70 +1,68 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "0.7 0.9 1.0 0.0",
-                "time": "0%"
-            },
-            {
-                "color": "0.7 0.9 1.0 0.5",
-                "time": "15%"
-            },
-            {
-                "color": "0.7 0.9 1.0 0.5",
-                "time": "85%"
-            },
-            {
-                "color": "0.7 0.9 1.0 0.0",
-                "time": "100%"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "25.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "numparticles": {
-            "value": "25"
-        },
-        "particlesize": {
-            "max": "0.3 12.0",
-            "min": "0.2 2.0"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "rotation": {
-            "max": "-30.0",
-            "min": "-30.0"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/back_hyfg/0_guangxian"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "5.0",
-            "min": "2.0"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.7 0.9 1.0 0.0",
+        "time": "0%"
+      },
+      {
+        "color": "0.7 0.9 1.0 0.5",
+        "time": "15%"
+      },
+      {
+        "color": "0.7 0.9 1.0 0.5",
+        "time": "85%"
+      },
+      {
+        "color": "0.7 0.9 1.0 0.0",
+        "time": "100%"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "25.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "25"
+    },
+    "particlesize": {
+      "max": "0.3 12.0",
+      "min": "0.2 2.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "-30.0",
+      "min": "-30.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/back_hyfg/0_guangxian"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "5.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

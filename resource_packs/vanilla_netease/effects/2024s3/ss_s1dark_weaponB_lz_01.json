@@ -1,73 +1,73 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.6000 1.0000 0.8863 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.4471 0.9176 0.8078 1.0000",
-				"time": "50.0%"
-			},
-			{
-				"color": "0.6078 1.0000 0.8039 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.2 0.3 0.2"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.04 0.04"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.0 1.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.72 0.72",
-				"time": "68.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/ss_s1dark_weapon_lizi_02"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "1.5",
-			"min": "0.8"
-		},
-		"velocity": {
-			"max": "0.4",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.6000 1.0000 0.8863 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4471 0.9176 0.8078 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "0.6078 1.0000 0.8039 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.3 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.04 0.04"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "68.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/ss_s1dark_weapon_lizi_02"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
 }

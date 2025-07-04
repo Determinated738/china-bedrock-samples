@@ -1,1 +1,64 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 1.0","value":"Direction","min":"0.0 0.0 0.0"},"numparticles":{"value":"5"},"colorfade":[{"color":"0.9725 1.0000 0.4235 1.0000","time":"0.0%"},{"color":"0.0980 1.0000 0.0000 1.0000","time":"20.0%"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"35.5%"},{"color":"0.4824 1.0000 0.4549 0.0000","time":"100.0%"}],"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"layer":11,"emittersize":{"value":"0.67 0.3 0.78"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"1.0","min":"0.7"},"texture":{"name":"textures/sfxs/2022s2/fangkuai00"},"emitterscale":[],"velocity":{"max":"0.1","min":"0.19999999999999998"},"particlesize":{"max":"0.03 0.03","min":"0.02 0.02"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "colorfade": [
+      {
+        "color": "0.9725 1.0000 0.4235 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0980 1.0000 0.0000 1.0000",
+        "time": "20.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "35.5%"
+      },
+      {
+        "color": "0.4824 1.0000 0.4549 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 11,
+    "emittersize": {
+      "value": "0.67 0.3 0.78"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.7"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s2/fangkuai00"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.19999999999999998"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.02 0.02"
+    }
+  }
+}

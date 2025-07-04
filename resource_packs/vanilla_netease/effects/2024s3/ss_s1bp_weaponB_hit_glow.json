@@ -1,77 +1,77 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.5059 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.8118 0.9843 1.0000",
-				"time": "19.5%"
-			},
-			{
-				"color": "1.0000 0.5059 1.0000 0.5446",
-				"time": "39.7%"
-			},
-			{
-				"color": "1.0000 0.3804 0.9725 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "1.0",
-			"min": "1.0"
-		},
-		"enableloop": {
-			"enable": "true"
-		},
-		"particlesize": {
-			"max": "0.4 0.4",
-			"min": "0.4 0.4"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.05 0.05",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.69 0.69",
-				"time": "21.3%"
-			},
-			{
-				"scale": "1.17 1.17",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "8",
-				"name": "",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/ss_s1bp_weaponB_hit_glow"
-		},
-		"timetolive": {
-			"max": "0.3",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.5059 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.8118 0.9843 1.0000",
+        "time": "19.5%"
+      },
+      {
+        "color": "1.0000 0.5059 1.0000 0.5446",
+        "time": "39.7%"
+      },
+      {
+        "color": "1.0000 0.3804 0.9725 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.05 0.05",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.69 0.69",
+        "time": "21.3%"
+      },
+      {
+        "scale": "1.17 1.17",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/ss_s1bp_weaponB_hit_glow"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
 }

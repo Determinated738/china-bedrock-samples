@@ -1,1 +1,85 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.6314 0.0392 1.0000", "time": "0.0%"}, {"color": "1.0000 0.4392 0.0667 0.9821", "time": "23.9%"}, {"color": "1.0000 0.3333 0.0000 1.0000", "time": "48.4%"}, {"color": "0.6588 0.0000 0.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "3.0"}, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.8 0.0 0.6"}, "emittertype": {"value": "Box"}, "layer": 7, "numparticles": {"value": "5"}, "particlesize": {"max": "0.07 0.07", "min": "0.05 0.05"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.93 0.93", "time": "0.0%"}, {"scale": "1.88 1.88", "time": "100.0%"}], "texture": {"ani": {"fps": "15", "name": "", "shuffle": false}, "name": "textures/sfxs/2023s3/cs_elem_horse_paopao"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.5", "min": "1.0"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6314 0.0392 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.4392 0.0667 0.9821",
+        "time": "23.9%"
+      },
+      {
+        "color": "1.0000 0.3333 0.0000 1.0000",
+        "time": "48.4%"
+      },
+      {
+        "color": "0.6588 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.0 0.6"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 7,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.93 0.93",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.88 1.88",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/cs_elem_horse_paopao"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

@@ -1,68 +1,68 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "44.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.6786",
-				"time": "75.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "7.0",
-			"min": "6.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"numparticles": {
-			"value": "7"
-		},
-		"particlesize": {
-			"max": "0.45 0.45",
-			"min": "0.45 0.45"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "24",
-				"name": "textures/sfxs/2024s3/ss_s1desert_fp_di",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/ss_s1desert_fp_di"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.7"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "44.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6786",
+        "time": "75.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "7.0",
+      "min": "6.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.45 0.45",
+      "min": "0.45 0.45"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2024s3/ss_s1desert_fp_di",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/ss_s1desert_fp_di"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    }
+  }
 }

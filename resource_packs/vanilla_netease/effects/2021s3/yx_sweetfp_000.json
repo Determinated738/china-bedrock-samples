@@ -1,1 +1,76 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 0.2", "value": "Direction", "min": "0.0 0.0 0.1"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3/yx_sweetfp_zong", "fps": "16"}, "name": "textures/sfxs/2021s3/yx_sweetfp_zong"}, "faceCameraMode": {"value": "Direction Horizontal"}, "colorfade": [{"color": "0.3255 0.7412 1.0000 1.0000", "time": "0.00"}, {"color": "0.1647 0.4980 1.0000 0.0000", "time": "1.00"}], "emissionrate": {"max": "6.0", "min": "5.9999999999999964"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.5", "min": "0.2"}, "blend": {"name": "add"}, "particlesize": {"max": "0.5 0.5", "min": "0.5 0.5"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.7 0.7", "time": "100.0%"}], "numparticles": {"value": "6"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.2",
+      "value": "Direction",
+      "min": "0.0 0.0 0.1"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/yx_sweetfp_zong",
+        "fps": "16"
+      },
+      "name": "textures/sfxs/2021s3/yx_sweetfp_zong"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "colorfade": [
+      {
+        "color": "0.3255 0.7412 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1647 0.4980 1.0000 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.9999999999999964"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ],
+    "numparticles": {
+      "value": "6"
+    }
+  }
+}

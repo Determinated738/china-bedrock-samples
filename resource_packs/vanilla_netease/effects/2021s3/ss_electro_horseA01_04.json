@@ -1,1 +1,91 @@
-{"frameeffect": {"cylinder_radius_down": 1.0, "scale": [0.3, 0.3, 0.3], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "cylinder_height": 3.0, "cylinder_frac_num": 4, "layer": 1, "cylinder_radius_up": 2.0, "delay": 0.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [3, 1], "texture": "textures/sfxs/2021s3/ss_electro_horseA01_02", "fps": 12, "first_person_enable": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": true, "loop": true, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "cylinder_radius_down": 1,
+    "scale": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "cylinder_height": 3,
+    "cylinder_frac_num": 4,
+    "layer": 1,
+    "cylinder_radius_up": 2,
+    "delay": 0,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      3,
+      1
+    ],
+    "texture": "textures/sfxs/2021s3/ss_electro_horseA01_02",
+    "fps": 12,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": true,
+    "loop": true,
+    "blend_mode": 2
+  }
+}

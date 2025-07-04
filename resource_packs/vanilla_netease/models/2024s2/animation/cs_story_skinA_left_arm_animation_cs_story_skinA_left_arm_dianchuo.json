@@ -1,1 +1,37 @@
-{"animation":{"ID":"UANI","length":3.9,"name":"dianchuo","trackSize":1,"tracks":[{"bone":"Bone001","chanelMask":3,"keyFramesSize":1,"keyframes":[{"pos":[6.187564,-9.880969855657895e-07,-24.105909],"quaternion":[-0.500001,-0.499998,-0.500001,0.499998],"scale":[1.0,1.0,1.0],"time":0.0}]}]},"is_global":true}
+{
+  "animation": {
+    "ID": "UANI",
+    "length": 3.9,
+    "name": "dianchuo",
+    "trackSize": 1,
+    "tracks": [
+      {
+        "bone": "Bone001",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              6.187564,
+              -9.880969855657895e-7,
+              -24.105909
+            ],
+            "quaternion": [
+              -0.500001,
+              -0.499998,
+              -0.500001,
+              0.499998
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      }
+    ]
+  },
+  "is_global": true
+}

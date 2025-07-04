@@ -1,63 +1,63 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 0.9922 0.6745 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.9961 0.8039 1.0000",
-				"time": "46.8%"
-			},
-			{
-				"color": "1.0000 1.0000 0.6980 1.0000",
-				"time": "91.3%"
-			},
-			{
-				"color": "1.0000 0.9922 0.7098 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.2 2.0 0.6"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "6"
-		},
-		"particlesize": {
-			"max": "0.28 0.28",
-			"min": "0.18 0.18"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "8",
-				"name": "textures/sfxs/2024s3/ss_s1midautumn_xx",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/ss_s1midautumn_xx"
-		},
-		"thickness": {
-			"value": "0.05"
-		},
-		"timetolive": {
-			"max": "2.0",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.9922 0.6745 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9961 0.8039 1.0000",
+        "time": "46.8%"
+      },
+      {
+        "color": "1.0000 1.0000 0.6980 1.0000",
+        "time": "91.3%"
+      },
+      {
+        "color": "1.0000 0.9922 0.7098 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 2.0 0.6"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.28 0.28",
+      "min": "0.18 0.18"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2024s3/ss_s1midautumn_xx",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/ss_s1midautumn_xx"
+    },
+    "thickness": {
+      "value": "0.05"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.0"
+    }
+  }
 }

@@ -1,1 +1,136 @@
-{"frameeffect": {"layer": 1, "scale": [0.3, 0.2, 1.0], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "first_person_enable": false, "texture": "textures/sfxs/2022s3/cs_carnival_armor_mianban2", "delay": 0.9, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "fps": 10, "delay_in_loop": true, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": true, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "layer": 1,
+    "scale": [
+      0.3,
+      0.2,
+      1
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "first_person_enable": false,
+    "texture": "textures/sfxs/2022s3/cs_carnival_armor_mianban2",
+    "delay": 0.9,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 10,
+    "delay_in_loop": true,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 2
+  }
+}

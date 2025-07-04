@@ -1,1 +1,99 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "73.7%"}, {"color": "1.0000 1.0000 1.0000 0.5714", "time": "92.1%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "6.0"}, "delay": 0.25, "depthtest": {"enable": "false"}, "direction": {"max": "0.0 -0.2 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.3 0.25 1.3"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "layer": 3, "numparticles": {"value": "5"}, "particlesize": {"max": "0.07 0.1", "min": "0.1 0.14"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.25 1.25", "time": "22.3%"}, {"scale": "0.0 0.0", "time": "48.3%"}, {"scale": "1.6 1.6", "time": "71.7%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s4/cs_s2blackhole_zhuchengruchang_star"}, "thickness": {"value": "0.66"}, "timetolive": {"max": "0.6", "min": "0.4"}, "velocity": {"max": "14.0", "min": "8.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "73.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5714",
+        "time": "92.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "delay": 0.25,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 -0.2 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.3 0.25 1.3"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.07 0.1",
+      "min": "0.1 0.14"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.25 1.25",
+        "time": "22.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "48.3%"
+      },
+      {
+        "scale": "1.6 1.6",
+        "time": "71.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_zhuchengruchang_star"
+    },
+    "thickness": {
+      "value": "0.66"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "14.0",
+      "min": "8.0"
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"particleeffect": {"activetime": {"value": "0.1"}, "colorfade": [{"color": "0.7098 0.8510 1.0000 1.0000", "time": "0.0%"}, {"color": "0.7765 0.9176 1.0000 1.0000", "time": "28.9%"}, {"color": "0.7608 0.9451 1.0000 1.0000", "time": "57.9%"}, {"color": "0.6275 0.9333 1.0000 0.3214", "time": "74.7%"}, {"color": "0.5294 0.8196 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "7.0"}, "delay": 2.36, "direction": {"max": "-0.5 0.3 0.3", "min": "0.5 0.6 0.7", "value": "Direction"}, "emissionrate": {"max": "50.0", "min": "60.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "7"}, "particlesize": {"max": "0.08 0.2", "min": "0.06 0.25"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2024s1/cs_conan_s1skina_dianchuo_lizi001", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_conan_s1skina_dianchuo_lizi001"}, "timetolive": {"max": "0.4", "min": "0.3"}, "velocity": {"max": "12.0", "min": "15.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "0.7098 0.8510 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7765 0.9176 1.0000 1.0000",
+        "time": "28.9%"
+      },
+      {
+        "color": "0.7608 0.9451 1.0000 1.0000",
+        "time": "57.9%"
+      },
+      {
+        "color": "0.6275 0.9333 1.0000 0.3214",
+        "time": "74.7%"
+      },
+      {
+        "color": "0.5294 0.8196 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "7.0"
+    },
+    "delay": 2.36,
+    "direction": {
+      "max": "-0.5 0.3 0.3",
+      "min": "0.5 0.6 0.7",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "60.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.08 0.2",
+      "min": "0.06 0.25"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s1/cs_conan_s1skina_dianchuo_lizi001",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_conan_s1skina_dianchuo_lizi001"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "12.0",
+      "min": "15.0"
+    }
+  }
+}

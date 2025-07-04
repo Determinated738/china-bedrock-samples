@@ -1,1 +1,78 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.6706 0.0039 0.0000", "time": "0.00"}, {"color": "1.0000 0.2510 0.0000 0.1875", "time": "0.25"}, {"color": "1.0000 0.2314 0.0000 0.0938", "time": "0.62"}, {"color": "1.0000 0.1647 0.0000 0.0000", "time": "1.00"}], "direction": {"max": "-1.0 0.0 0.0", "min": "-1.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "21.0", "min": "19.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Box"}, "faceCameraMode": {"value": "Horizontal"}, "layer": 3, "numparticles": {"value": "20"}, "particlesize": {"max": "1.6 0.8", "min": "3.0 1.5"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 360.0"}, "rotationSpeedRange": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 -1.0"}, "texture": {"name": "textures/sfxs/2024s1/cs_fengshen_horse_style2_Smoke05"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "2.0", "min": "1.7"}, "velocity": {"max": "15.0", "min": "10.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6706 0.0039 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.2510 0.0000 0.1875",
+        "time": "0.25"
+      },
+      {
+        "color": "1.0000 0.2314 0.0000 0.0938",
+        "time": "0.62"
+      },
+      {
+        "color": "1.0000 0.1647 0.0000 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "21.0",
+      "min": "19.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "1.6 0.8",
+      "min": "3.0 1.5"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_fengshen_horse_style2_Smoke05"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.7"
+    },
+    "velocity": {
+      "max": "15.0",
+      "min": "10.0"
+    }
+  }
+}

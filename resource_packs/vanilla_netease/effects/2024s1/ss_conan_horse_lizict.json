@@ -1,1 +1,73 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.7725 0.0824 0.0000", "time": "0.0%"}, {"color": "1.0000 0.7882 0.4196 1.0000", "time": "20.0%"}, {"color": "1.0000 0.9725 0.6667 1.0000", "time": "71.1%"}, {"color": "1.0000 0.7725 0.0824 0.0000", "time": "100.0%"}], "dampingforce": {"value": "5.0"}, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "30.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 0.4 0.2"}, "emittertype": {"value": "Cone"}, "faceCameraMode": {"value": "Direction"}, "layer": 2, "numparticles": {"value": "30"}, "particlesize": {"max": "0.1 0.1", "min": "0.03 0.03"}, "relative": {"enable": "false"}, "texture": {"name": "textures/sfxs/2024s1/ss_conan_horse_lizi001"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.1"}, "velocity": {"max": "8.0", "min": "10.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.7725 0.0824 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.7882 0.4196 1.0000",
+        "time": "20.0%"
+      },
+      {
+        "color": "1.0000 0.9725 0.6667 1.0000",
+        "time": "71.1%"
+      },
+      {
+        "color": "1.0000 0.7725 0.0824 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.4 0.2"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "30"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/ss_conan_horse_lizi001"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.1"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "10.0"
+    }
+  }
+}

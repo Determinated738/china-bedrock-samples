@@ -1,1 +1,75 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.7686 1.0000 1.0000", "time": "0.0%"}, {"color": "0.1686 0.3490 1.0000 0.9018", "time": "32.9%"}, {"color": "0.2000 0.1725 1.0000 0.6339", "time": "62.6%"}, {"color": "0.0000 0.3333 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "5.0"}, "direction": {"max": "0.0 0.3 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "50.0", "min": "50.0"}, "numparticles": {"value": "30"}, "particlesize": {"max": "0.25 0.2", "min": "0.2 0.1"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.92 1.92", "time": "20.3%"}, {"scale": "0.63 0.63", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2022s4/cs_xcm_skinc_chuchang_guangyun"}, "timetolive": {"max": "0.2", "min": "0.2"}, "velocity": {"max": "5.0", "min": "3.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.7686 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1686 0.3490 1.0000 0.9018",
+        "time": "32.9%"
+      },
+      {
+        "color": "0.2000 0.1725 1.0000 0.6339",
+        "time": "62.6%"
+      },
+      {
+        "color": "0.0000 0.3333 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "0.0 0.3 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "particlesize": {
+      "max": "0.25 0.2",
+      "min": "0.2 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.92 1.92",
+        "time": "20.3%"
+      },
+      {
+        "scale": "0.63 0.63",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_xcm_skinc_chuchang_guangyun"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "3.0"
+    }
+  }
+}

@@ -1,1 +1,103 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9294 0.1373 1.0000", "time": "0.0%"}, {"color": "1.0000 0.3255 0.1020 1.0000", "time": "21.1%"}, {"color": "0.9843 1.0000 0.0078 1.0000", "time": "41.8%"}, {"color": "1.0000 0.2941 0.0824 1.0000", "time": "66.6%"}, {"color": "1.0000 0.1176 0.1294 1.0000", "time": "100.0%"}], "dampingforce": {"value": "6.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emissionrate": {"max": "70.0", "min": "70.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.7 0.7 0.7"}, "emittertype": {"value": "Sphere"}, "layer": 2, "numparticles": {"value": "5"}, "offsetInCamera": {"value": "-0.7"}, "particlesize": {"max": "0.15 0.15", "min": "0.07 0.07"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "18.3%"}, {"scale": "0.0 0.0", "time": "47.7%"}, {"scale": "0.5 0.5", "time": "71.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s3/sh_nether_skin_broke_lizi"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.6"}, "velocity": {"max": "3.0", "min": "5.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9294 0.1373 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.3255 0.1020 1.0000",
+        "time": "21.1%"
+      },
+      {
+        "color": "0.9843 1.0000 0.0078 1.0000",
+        "time": "41.8%"
+      },
+      {
+        "color": "1.0000 0.2941 0.0824 1.0000",
+        "time": "66.6%"
+      },
+      {
+        "color": "1.0000 0.1176 0.1294 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "70.0",
+      "min": "70.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.7 0.7 0.7"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "5"
+    },
+    "offsetInCamera": {
+      "value": "-0.7"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.07 0.07"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "18.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "47.7%"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "71.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/sh_nether_skin_broke_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "5.0"
+    }
+  }
+}

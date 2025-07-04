@@ -1,1 +1,64 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.0000 0.0000 0.5625", "time": "0.00"}, {"color": "1.0000 0.8667 0.3294 0.6875", "time": "0.14"}, {"color": "1.0000 1.0000 0.2400 0.6071", "time": "0.20"}], "dampingforce": {"value": "12.0"}, "direction": {"max": "0.2 0.5 0.0", "min": "-0.2 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "20.0"}, "faceCameraMode": {"value": "Direction"}, "inactivetime": {"value": "1.1"}, "layer": 2, "numparticles": {"value": "5"}, "particlesize": {"max": "0.04 0.08", "min": "0.03 0.04"}, "relative": {"enable": "true"}, "texture": {"name": "textures/sfxs/2023s3/sh_nether_skin2__lizi"}, "timetolive": {"max": "0.1", "min": "0.2"}, "velocity": {"max": "10.0", "min": "5.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0000 0.5625",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.8667 0.3294 0.6875",
+        "time": "0.14"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.6071",
+        "time": "0.20"
+      }
+    ],
+    "dampingforce": {
+      "value": "12.0"
+    },
+    "direction": {
+      "max": "0.2 0.5 0.0",
+      "min": "-0.2 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "inactivetime": {
+      "value": "1.1"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.04 0.08",
+      "min": "0.03 0.04"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2023s3/sh_nether_skin2__lizi"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "10.0",
+      "min": "5.0"
+    }
+  }
+}

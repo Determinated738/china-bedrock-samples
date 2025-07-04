@@ -1,61 +1,61 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 -0.01",
-			"min": "0.0 0.0 -0.01",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "4.0",
-			"min": "3.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.4 0.8",
-			"min": "0.4 0.8"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "textures/sfxs/2024s3/ss_s1goout_fp_cloud02",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/ss_s1goout_fp_cloud02"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.7"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "min": "0.0 0.0 -0.01",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "3.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.4 0.8",
+      "min": "0.4 0.8"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s3/ss_s1goout_fp_cloud02",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/ss_s1goout_fp_cloud02"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
 }

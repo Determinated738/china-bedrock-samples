@@ -1,1 +1,38 @@
-{"animation":{"fields":["time","attr"],"times":[0.0,1.0,2.0],"poses":[-0.087022,-9.02938e-07,-20.0556,-0.087022,-9.02938e-07,-21.1219],"quats":[],"scales":[],"length":2.0,"tracks":{"Bone001":{"pos":[0,0,1,1,2,0]}}},"is_global":true,"version":"0.1.0"}
+{
+  "animation": {
+    "fields": [
+      "time",
+      "attr"
+    ],
+    "times": [
+      0,
+      1,
+      2
+    ],
+    "poses": [
+      -0.087022,
+      -9.02938e-7,
+      -20.0556,
+      -0.087022,
+      -9.02938e-7,
+      -21.1219
+    ],
+    "quats": [],
+    "scales": [],
+    "length": 2,
+    "tracks": {
+      "Bone001": {
+        "pos": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0
+        ]
+      }
+    }
+  },
+  "is_global": true,
+  "version": "0.1.0"
+}

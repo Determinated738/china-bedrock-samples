@@ -1,1 +1,92 @@
-{"particleeffect": {"blend": {"name": "add"}, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "8.0", "min": "8.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 0.2 0.2"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "8"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 90.0", "min": "0.0 0.0 90.0"}, "texture": {"name": "textures/sfxs/2024s1/cs_loong_horseB_style1_tuowei01"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.5", "min": "0.8"}, "trail": {"colorfade": [{"color": "0.0 0.3176470588235294 1.0 0.3214285714285714", "time": "0.000%"}, {"color": "0.0 0.3843137254901961 1.0 0.4732142857142857", "time": "22.368%"}, {"color": "0.2784313725490196 0.0392156862745098 1.0 0.1785714285714286", "time": "44.211%"}, {"color": "0.7294117647058823 0.03529411764705882 0.8196078431372549 0.0", "time": "100.000%"}], "facemode": 0, "lifetime": 0.4, "maxnum": 300, "mindistance": 0.01, "texmode": 0, "textile": "2.0 1.0", "useparticlecolor": false, "useparticlewidth": false, "widthfade": [{"time": "0.0%", "value": "0.3799999999999999"}, {"time": "53.0%", "value": "0.3600000000000001"}, {"time": "100.0%", "value": "0.15999999999999992"}], "worldspace": true}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_horseB_style1_tuowei01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.8"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "0.0 0.3176470588235294 1.0 0.3214285714285714",
+          "time": "0.000%"
+        },
+        {
+          "color": "0.0 0.3843137254901961 1.0 0.4732142857142857",
+          "time": "22.368%"
+        },
+        {
+          "color": "0.2784313725490196 0.0392156862745098 1.0 0.1785714285714286",
+          "time": "44.211%"
+        },
+        {
+          "color": "0.7294117647058823 0.03529411764705882 0.8196078431372549 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.4,
+      "maxnum": 300,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "2.0 1.0",
+      "useparticlecolor": false,
+      "useparticlewidth": false,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.3799999999999999"
+        },
+        {
+          "time": "53.0%",
+          "value": "0.3600000000000001"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.15999999999999992"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

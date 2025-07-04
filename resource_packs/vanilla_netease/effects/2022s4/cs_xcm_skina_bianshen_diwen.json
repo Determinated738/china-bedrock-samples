@@ -1,1 +1,56 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"1.0"},"faceCameraMode":{"value":"Horizontal"},"colorfade":[],"layer":0,"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s3/diwen05","fps":"20"},"name":"textures/sfxs/2021s3/diwen05"},"relative":{"enable":"true"},"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"1.6 1.6","min":"1.6 1.6"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"1.17 1.17","time":"50.7%"},{"scale":"1.2 1.2","time":"100.0%"}],"numparticles":{"value":"1"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "1.0"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "colorfade": [],
+    "layer": 0,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/diwen05",
+        "fps": "20"
+      },
+      "name": "textures/sfxs/2021s3/diwen05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "1.6 1.6",
+      "min": "1.6 1.6"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.17 1.17",
+        "time": "50.7%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "100.0%"
+      }
+    ],
+    "numparticles": {
+      "value": "1"
+    }
+  }
+}

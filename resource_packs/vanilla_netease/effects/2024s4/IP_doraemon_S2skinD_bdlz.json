@@ -1,72 +1,72 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.9922 1.0000 0.4863 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.5333 0.0000 1.0000",
-				"time": "50.0%"
-			},
-			{
-				"color": "1.0000 0.2000 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"delay": 0.5,
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "100.0",
-			"min": "100.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.0 0.0 0.0"
-		},
-		"emittertype": {
-			"value": "Hemisphere"
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"numparticles": {
-			"value": "8"
-		},
-		"particlesize": {
-			"max": "0.01 0.1",
-			"min": "0.02 0.08"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinD_fangkuai"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.3",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "1.0",
-			"min": "1.5"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9922 1.0000 0.4863 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.5333 0.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 0.2000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 0.5,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.01 0.1",
+      "min": "0.02 0.08"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/IP_doraemon_S2skinD_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "1.5"
+    }
+  }
 }

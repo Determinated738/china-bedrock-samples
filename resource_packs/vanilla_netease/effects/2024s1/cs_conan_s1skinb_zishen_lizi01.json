@@ -1,1 +1,103 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.6863 0.9333 1.0000 0.0000", "time": "0.0%"}, {"color": "0.6863 0.9333 1.0000 1.0000", "time": "22.4%"}, {"color": "0.6863 0.9333 1.0000 1.0000", "time": "47.9%"}, {"color": "0.6627 0.9020 1.0000 1.0000", "time": "70.8%"}, {"color": "0.3294 0.6549 1.0000 0.0000", "time": "100.0%"}], "constantforce": {"value": "0.0 0.5 0.0"}, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "1.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.5 0.7 0.7"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "particlesize": {"max": "0.2 0.2", "min": "0.18 0.18"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "0.54 0.54", "time": "27.0%"}, {"scale": "0.18 0.18", "time": "51.0%"}, {"scale": "0.36 0.36", "time": "72.3%"}, {"scale": "0.0 0.0", "time": "100.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/cs_atlan_weapon_lizi"}, "thickness": {"value": "0.5"}, "timetolive": {"max": "0.5", "min": "1.0"}, "velocity": {"max": "1.8", "min": "1.8"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.6863 0.9333 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.6863 0.9333 1.0000 1.0000",
+        "time": "22.4%"
+      },
+      {
+        "color": "0.6863 0.9333 1.0000 1.0000",
+        "time": "47.9%"
+      },
+      {
+        "color": "0.6627 0.9020 1.0000 1.0000",
+        "time": "70.8%"
+      },
+      {
+        "color": "0.3294 0.6549 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.5 0.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "1.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.7 0.7"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.18 0.18"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "27.0%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "51.0%"
+      },
+      {
+        "scale": "0.36 0.36",
+        "time": "72.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_atlan_weapon_lizi"
+    },
+    "thickness": {
+      "value": "0.5"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "1.8",
+      "min": "1.8"
+    }
+  }
+}

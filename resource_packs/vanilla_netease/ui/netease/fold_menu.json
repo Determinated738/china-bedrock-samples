@@ -1,1526 +1,1526 @@
 {
-    "button_foldmenu@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn05@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn05@3x",
-        "$pressed_texture": "textures/netease/voice_trans/btn05@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_close",
-        "$text_offset": [
+  "button_foldmenu@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn05@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn05@3x",
+    "$pressed_texture": "textures/netease/voice_trans/btn05@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_close",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      20,
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_screenshot@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn01@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_screenshot",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "label_screenshot@fold_menu.label_screenshot": {}
+      },
+      {
+        "image_screenshot@fold_menu.image_screenshot": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_report@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn01@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_report",
+    "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "label_screenshot@fold_menu.label_screenshot": {
+          "text": "举报",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [
+            "default",
+            "default"
+          ],
+          "text_alignment": "center",
+          "offset": [
             0,
             0
-        ],
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            20,
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_screenshot@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn01@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_screenshot",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "label_screenshot@fold_menu.label_screenshot": {}
-            },
-            {
-                "image_screenshot@fold_menu.image_screenshot": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            "100.000000%+0 px",
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_report@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn01@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_report",
-        "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "label_screenshot@fold_menu.label_screenshot": {
-                    "text": "举报",
-                    "anchor_from": "center",
-                    "anchor_to": "center",
-                    "size": [
-                        "default",
-                        "default"
-                    ],
-                    "text_alignment": "center",
-                    "offset": [
-                        0,
-                        0
-                    ]
-                }
-            },
-            {
-                "image_screenshot@fold_menu.image_screenshot": {
-                    "texture": "textures/ui/report",
-                    "size": [
-                        16,
-                        16
-                    ],
-                    "offset": [
-                        8,
-                        0
-                    ],
-                    "color": [
-                        1,
-                        1,
-                        1
-                    ],
-                    "is_new_nine_slice": false
-                }
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            "100.000000%+0 px",
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_speechsetting@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn01@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_speechsetting",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "label_speechseting@fold_menu.label_speechseting": {}
-            },
-            {
-                "image_speechseting@fold_menu.image_speechseting": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            "100.000000%+0 px",
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_pet@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn01@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_pet",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "image_pet_tip@fold_menu.image_pet_tip": {}
-            },
-            {
-                "label_pet@fold_menu.label_pet": {}
-            },
-            {
-                "image_pet@fold_menu.image_pet": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            "100.000000%+0 px",
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_view1@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn03@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn03_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_firstpersion",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "controls": [
-            {
-                "default": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_firstpersion",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_firstpersion",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "hover": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_firstpersion",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_firstpersion",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "pressed": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_firstpersion",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_firstpersion",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "image_view1@fold_menu.image_view1": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            32,
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_view2@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn03@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn03_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_thirdpersonfront",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "controls": [
-            {
-                "default": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_thirdpersonfront",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_thirdpersonfront",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "hover": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_thirdpersonfront",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_thirdpersonfront",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "pressed": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_thirdpersonfront",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_thirdpersonfront",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "image_view2@fold_menu.image_view2": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            32,
-            0
-        ],
-        "size": [
-            32,
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_view3@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn03@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn03_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_thirdpersion",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "controls": [
-            {
-                "default": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_thirdpersion",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_thirdpersion",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "hover": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_thirdpersion",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_thirdpersion",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "pressed": {
-                    "is_new_nine_slice": true,
-                    "layer": 2,
-                    "nine_slice_buttom": "$nine_slice_buttom",
-                    "nine_slice_left": "$nine_slice_left",
-                    "nine_slice_right": "$nine_slice_right",
-                    "nine_slice_top": "$nine_slice_top",
-                    "texture": "#texture_thirdpersion",
-                    "bindings": [
-                        {
-                            "binding_name": "#texture_thirdpersion",
-                            "binding_type": "collection",
-                            "binding_collection_name": "menu_collection",
-                            "binding_name_override": "#texture"
-                        }
-                    ],
-                    "type": "image"
-                }
-            },
-            {
-                "image_view3@fold_menu.image_view3": {}
-            }
-        ],
-        "layer": 1,
-        "offset": [
-            64,
-            0
-        ],
-        "size": [
-            32,
-            "100%"
-        ],
-        "visible": true
-    },
-    "button_horse_transform@common.button": {
-        "$default_texture": "textures/netease/vip_transform/btn01@3x",
-        "$hover_texture": "textures/netease/vip_transform/btn01@3x",
-        "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.horse_transform",
-        "$texture_layer": 2,
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "img_horse": {
-                    "anchor_from": "center",
-                    "anchor_to": "center",
-                    "is_new_nine_slice": true,
-                    "layer": 3,
-                    "nine_slice_buttom": 0,
-                    "nine_slice_left": 0,
-                    "nine_slice_right": 0,
-                    "nine_slice_top": 0,
-                    "offset": [
-                        0,
-                        0
-                    ],
-                    "size": [
-                        20,
-                        20
-                    ],
-                    "texture": "textures/netease/vip_transform/icon02@3x",
-                    "type": "image",
-                    "texture_file_system": "",
-                    "visible": true,
-                    "zip_folder": ""
-                }
-            }
-        ],
-        "layer": 3,
-        "offset": [
-            24,
-            0
-        ],
-        "size": [
-            21,
-            21
-        ],
-        "type": "button",
-        "visible": false,
-        "bindings": [
-            {
-                "binding_name": "#horse_transform_enabled",
-                "binding_name_override": "#visible"
-            }
-        ]
-    },
-    "button_skin_transform@common.button": {
-        "$default_texture": "textures/netease/vip_transform/btn01@3x",
-        "$hover_texture": "textures/netease/vip_transform/btn01@3x",
-        "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.skin_transform",
-        "$texture_layer": 2,
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "img_skin": {
-                    "anchor_from": "center",
-                    "anchor_to": "center",
-                    "is_new_nine_slice": true,
-                    "layer": 3,
-                    "nine_slice_buttom": 0,
-                    "nine_slice_left": 0,
-                    "nine_slice_right": 0,
-                    "nine_slice_top": 0,
-                    "offset": [
-                        0,
-                        0
-                    ],
-                    "size": [
-                        20,
-                        20
-                    ],
-                    "texture": "textures/netease/vip_transform/icon01@3x",
-                    "type": "image",
-                    "texture_file_system": "",
-                    "visible": true,
-                    "zip_folder": ""
-                }
-            }
-        ],
-        "layer": 3,
-        "offset": [
-            3,
-            0
-        ],
-        "size": [
-            21,
-            21
-        ],
-        "type": "button",
-        "visible": false,
-        "bindings": [
-            {
-                "binding_name": "#skin_transform_enabled",
-                "binding_name_override": "#visible"
-            }
-        ]
-    },
-    "button_weapon_transform@common.button": {
-        "$default_texture": "textures/netease/vip_transform/btn01@3x",
-        "$hover_texture": "textures/netease/vip_transform/btn01@3x",
-        "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.weapon_transform",
-        "$texture_layer": 2,
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            },
-            {
-                "img_skin": {
-                    "anchor_from": "center",
-                    "anchor_to": "center",
-                    "is_new_nine_slice": true,
-                    "layer": 3,
-                    "nine_slice_buttom": 0,
-                    "nine_slice_left": 0,
-                    "nine_slice_right": 0,
-                    "nine_slice_top": 0,
-                    "offset": [
-                        0,
-                        0
-                    ],
-                    "size": [
-                        20,
-                        20
-                    ],
-                    "texture": "textures/netease/vip_transform/icon03@3x",
-                    "type": "image",
-                    "texture_file_system": "",
-                    "visible": true,
-                    "zip_folder": ""
-                }
-            }
-        ],
-        "layer": 3,
-        "offset": [
-            45,
-            0
-        ],
-        "size": [
-            21,
-            21
-        ],
-        "type": "button",
-        "visible": false,
-        "bindings": [
-            {
-                "binding_name": "#weapon_transform_enabled",
-                "binding_name_override": "#visible"
-            }
-        ]
-    },
-    "fold_menu_dialog_screen@common.base_screen": {
-        "controls": [
-            {
-                "panel_foldmenu@fold_menu.panel_foldmenu": {}
-            },
-            {
-                "image_button0@fold_menu.image_button0": {}
-            }
-        ]
-    },
-    "image_button0@common.button": {
-        "$default_color": [
-            1,
-            1,
-            1
-        ],
-        "$default_texture": "textures/netease/voice_trans/btn_empty@3x",
-        "$hover_texture": "textures/netease/voice_trans/btn_empty@3x",
-        "$pressed_texture": "textures/netease/voice_trans/btn_empty@3x",
-        "$nine_slice_buttom": 0,
-        "$nine_slice_left": 0,
-        "$nine_slice_right": 0,
-        "$nine_slice_top": 0,
-        "$pressed_button_name": "button.fold_menu_close",
-        "$text_offset": [
-            0,
-            0
-        ],
-        "anchor_from": "center",
-        "anchor_to": "center",
-        "controls": [
-            {
-                "default@fold_menu.default": {}
-            },
-            {
-                "hover@fold_menu.hover": {}
-            },
-            {
-                "pressed@fold_menu.pressed": {}
-            }
-        ],
-        "layer": 0,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            "100.000000%+0 px",
-            "100.000000%+0px"
-        ],
-        "visible": true
-    },
-    "img_vip_transform": {
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "controls": [
-            {
-                "label_auto_transform@fold_menu.label_auto_transform": {}
-            },
-            {
-                "button_skin_transform@fold_menu.button_skin_transform": {}
-            },
-            {
-                "button_horse_transform@fold_menu.button_horse_transform": {}
-            },
-            {
-                "button_weapon_transform@fold_menu.button_weapon_transform": {}
-            },
-            {
-                "auto_transform_toggle@settings_common.option_toggle": {
-                    "anchor_from": "top_right",
-                    "anchor_to": "top_right",
-                    "size": [
-                        32,
-                        26
-                    ],
-                    "offset": [
-                        0,
-                        0
-                    ],
-                    "$option_binding_name": "#auto_transform_toggle",
-                    "$option_enabled_binding_name": "#auto_transform_enabled",
-                    "$toggle_name": "auto_transform_toggle",
-                    "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-                    "$toggle_binding_condition": "always_when_visible",
-                    "visible": false,
-                    "bindings": [
-                        {
-                            "binding_name": "#is_win32",
-                            "binding_name_override": "#visible"
-                        }
-                    ]
-                }
-            },
-            {
-                "auto_transform_toggle1@settings_common.option_toggle": {
-                    "anchor_from": "top_right",
-                    "anchor_to": "top_right",
-                    "size": [
-                        32,
-                        26
-                    ],
-                    "offset": [
-                        0,
-                        0
-                    ],
-                    "$option_binding_name": "#auto_transform_toggle",
-                    "$option_enabled_binding_name": "#auto_transform_enabled",
-                    "$toggle_name": "auto_transform_toggle",
-                    "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-                    "$toggle_binding_condition": "always_when_visible",
-                    "visible": false,
-                    "bindings": [
-                        {
-                            "binding_name": "(not #is_win32)",
-                            "binding_name_override": "#visible"
-                        }
-                    ]
-                }
-            }
-        ],
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            "100.0%+0.0px",
-            "100%"
-        ],
-        "texture": "textures/netease/vip_transform/panel01@3x",
-        "type": "image",
-        "uv": [
-            0,
-            0
-        ],
-        "uv_size": [
-            0,
-            0
-        ],
-        "visible": false,
-        "bindings": [
-            {
-                "binding_name": "#vip_transform_visible",
-                "binding_name_override": "#visible"
-            }
-        ]
-    },
-    "image_screenshot": {
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            6,
-            0
-        ],
-        "size": [
-            20,
-            20
-        ],
-        "texture": "textures/netease/voice_trans/icon03@3x",
-        "texture_file_system": "",
-        "type": "image",
-        "visible": true,
-        "zip_folder": ""
-    },
-    "image_pet": {
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            6,
-            0
-        ],
-        "size": [
-            20,
-            20
-        ],
-        "texture": "textures/ui/pet_icon",
-        "texture_file_system": "",
-        "type": "image",
-        "visible": true,
-        "zip_folder": ""
-    },
-    "image_pet_tip": {
-        "anchor_from": "top_right",
-        "anchor_to": "top_right",
-        "is_new_nine_slice": true,
-        "layer": 4,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            2,
-            0
-        ],
-        "size": [
-            15,
-            15
-        ],
-        "texture": "textures/netease/pet/tag04@3x",
-        "texture_file_system": "",
-        "type": "image",
-        "bindings": [
-            {
-                "binding_name": "#is_pet_tip_visible",
-                "binding_name_override": "#visible"
-            }
-        ],
-        "zip_folder": ""
-    },
-    "image_speechseting": {
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            6,
-            0
-        ],
-        "size": [
-            20,
-            20
-        ],
-        "texture": "textures/netease/voice_trans/icon02@3x",
-        "texture_file_system": "",
-        "type": "image",
-        "visible": true,
-        "zip_folder": ""
-    },
-    "image_view1": {
-        "anchor_from": "center",
-        "anchor_to": "center",
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            20,
-            20
-        ],
-        "texture": "textures/netease/voice_trans/icon06@3x",
-        "texture_file_system": "",
-        "type": "image",
-        "visible": true,
-        "zip_folder": ""
-    },
-    "image_view2": {
-        "anchor_from": "center",
-        "anchor_to": "center",
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            20,
-            20
-        ],
-        "texture": "textures/netease/voice_trans/icon04@3x",
-        "texture_file_system": "",
-        "type": "image",
-        "visible": true,
-        "zip_folder": ""
-    },
-    "image_view3": {
-        "anchor_from": "center",
-        "anchor_to": "center",
-        "is_new_nine_slice": true,
-        "layer": 3,
-        "nine_slice_buttom": 0,
-        "nine_slice_left": 0,
-        "nine_slice_right": 0,
-        "nine_slice_top": 0,
-        "offset": [
-            0,
-            0
-        ],
-        "size": [
-            20,
-            20
-        ],
-        "texture": "textures/netease/voice_trans/icon05@3x",
-        "texture_file_system": "",
-        "type": "image",
-        "visible": true,
-        "zip_folder": ""
-    },
-    "label_screenshot": {
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "auto_expand": false,
-        "color": [
-            0.298,
-            0.298,
-            0.298,
-            1
-        ],
-        "font_size": "normal",
-        "layer": 3,
-        "offset": [
-            32,
-            11
-        ],
-        "shadow": false,
-        "size": [
-            64,
-            64
-        ],
-        "text": "截屏分享",
-        "text_alignment": "left",
-        "type": "label",
-        "visible": true
-    },
-    "label_pet": {
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "auto_expand": false,
-        "color": [
-            0.298,
-            0.298,
-            0.298,
-            1
-        ],
-        "font_size": "normal",
-        "layer": 3,
-        "offset": [
-            32,
-            11
-        ],
-        "shadow": false,
-        "size": [
-            64,
-            64
-        ],
-        "text": "我的伙伴",
-        "text_alignment": "left",
-        "type": "label",
-        "visible": true
-    },
-    "label_auto_transform": {
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "auto_expand": false,
-        "font_size": "normal",
-        "layer": 3,
-        "shadow": false,
-        "offset": [
+          ]
+        }
+      },
+      {
+        "image_screenshot@fold_menu.image_screenshot": {
+          "texture": "textures/ui/report",
+          "size": [
+            16,
+            16
+          ],
+          "offset": [
             8,
-            11
-        ],
-        "size": [
-            64,
-            64
-        ],
-        "text": "开启手动变身:",
-        "text_alignment": "left",
-        "type": "label",
-        "bindings": [
-            {
-                "binding_name": "#label_auto_transform_visible",
-                "binding_name_override": "#visible"
-            }
-        ],
-        "visible": true
-    },
-    "label_speechseting": {
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "auto_expand": false,
-        "color": [
-            0.298,
-            0.298,
-            0.298,
+            0
+          ],
+          "color": [
+            1,
+            1,
             1
-        ],
-        "font_size": "normal",
-        "layer": 3,
-        "offset": [
-            32,
-            11
-        ],
-        "shadow": false,
-        "size": [
-            64,
-            64
-        ],
-        "text": "语音设置",
-        "text_alignment": "left",
-        "type": "label",
-        "visible": true
-    },
-    "namespace": "fold_menu",
-    "panel_foldmenu": {
-        "anchor_from": "top_middle",
-        "anchor_to": "top_middle",
-        "controls": [
+          ],
+          "is_new_nine_slice": false
+        }
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_speechsetting@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn01@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_speechsetting",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "label_speechseting@fold_menu.label_speechseting": {}
+      },
+      {
+        "image_speechseting@fold_menu.image_speechseting": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_pet@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn01@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$pressed_texture": "textures/netease/voice_trans/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_pet",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "image_pet_tip@fold_menu.image_pet_tip": {}
+      },
+      {
+        "label_pet@fold_menu.label_pet": {}
+      },
+      {
+        "image_pet@fold_menu.image_pet": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_view1@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn03@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn03_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_firstpersion",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "default": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_firstpersion",
+          "bindings": [
             {
-                "panel_closefold": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "button_foldmenu@fold_menu.button_foldmenu": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        20
-                    ],
-                    "type": "panel"
-                }
-            },
-            {
-                "panel_screenshot": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "button_screenshot@fold_menu.button_screenshot": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        32
-                    ],
-                    "type": "panel"
-                }
-            },
-            {
-                "panel_report": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "button_report@fold_menu.button_report": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        32
-                    ],
-                    "type": "panel"
-                }
-            },
-            {
-                "panel_voice": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "button_speechsetting@fold_menu.button_speechsetting": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        32
-                    ],
-                    "type": "panel",
-                    "visible": "#is_voice_visible",
-                    "bindings": [
-                        {
-                            "binding_name": "#is_voice_visible",
-                            "binding_name_override": "#visible"
-                        }
-                    ]
-                }
-            },
-            {
-                "panel_pet": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "button_pet@fold_menu.button_pet": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        32
-                    ],
-                    "type": "panel",
-                    "visible": "#is_pet_visible",
-                    "bindings": [
-                        {
-                            "binding_name": "#is_pet_visible",
-                            "binding_name_override": "#visible"
-                        }
-                    ]
-                }
-            },
-            {
-                "panel_view": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "button_view1@fold_menu.button_view1": {}
-                        },
-                        {
-                            "button_view2@fold_menu.button_view2": {}
-                        },
-                        {
-                            "button_view3@fold_menu.button_view3": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        32
-                    ],
-                    "type": "panel",
-                    "visible": "#is_person_visible",
-                    "bindings": [
-                        {
-                            "binding_name": "#is_person_visible",
-                            "binding_name_override": "#visible"
-                        }
-                    ]
-                }
-            },
-            {
-                "panel_transform": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "controls": [
-                        {
-                            "img_vip_transform@fold_menu.img_vip_transform": {}
-                        }
-                    ],
-                    "size": [
-                        "100%",
-                        32
-                    ],
-                    "type": "panel"
-                }
-            },
-            {
-                "panel_hud": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "size": [
-                        "100%+0px",
-                        32
-                    ],
-                    "type": "panel",
-                    "controls": [
-                        {
-                            "bg": {
-                                "anchor_from": "top_left",
-                                "anchor_to": "top_left",
-                                "is_new_nine_slice": true,
-                                "layer": 0,
-                                "nine_slice_buttom": 0,
-                                "nine_slice_left": 0,
-                                "nine_slice_right": 0,
-                                "nine_slice_top": 0,
-                                "offset": [
-                                    0,
-                                    0
-                                ],
-                                "size": [
-                                    "100.0%+0.0px",
-                                    "100%"
-                                ],
-                                "texture": "textures/netease/vip_transform/panel01@3x",
-                                "type": "image",
-                                "uv": [
-                                    0,
-                                    0
-                                ],
-                                "uv_size": [
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "hud_toggle@settings_common.option_toggle": {
-                                "anchor_from": "right_middle",
-                                "anchor_to": "right_middle",
-                                "size": [
-                                    32,
-                                    26
-                                ],
-                                "offset": [
-                                    0,
-                                    0
-                                ],
-                                "$option_binding_name": "#hud_toggle",
-                                "$option_enabled_binding_name": "#hud_enabled",
-                                "$toggle_name": "hud_toggle",
-                                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-                                "$toggle_binding_condition": "always_when_visible",
-                                "visible": true,
-                                "layer": 1
-                            }
-                        },
-                        {
-                            "label": {
-                                "anchor_from": "left_middle",
-                                "anchor_to": "left_middle",
-                                "auto_expand": false,
-                                "font_size": "normal",
-                                "layer": 1,
-                                "offset": [
-                                    8,
-                                    0
-                                ],
-                                "shadow": false,
-                                "text": "屏幕HUD:",
-                                "text_alignment": "left",
-                                "type": "label",
-                                "visible": true
-                            }
-                        }
-                    ],
-                    "visible": false
-                }
-            },
-            {
-                "panel_camera": {
-                    "anchor_from": "top_middle",
-                    "anchor_to": "top_middle",
-                    "size": [
-                        "100%+0px",
-                        32
-                    ],
-                    "type": "panel",
-                    "controls": [
-                        {
-                            "bg": {
-                                "anchor_from": "top_left",
-                                "anchor_to": "top_left",
-                                "is_new_nine_slice": true,
-                                "layer": 0,
-                                "nine_slice_buttom": 0,
-                                "nine_slice_left": 0,
-                                "nine_slice_right": 0,
-                                "nine_slice_top": 0,
-                                "offset": [
-                                    0,
-                                    0
-                                ],
-                                "size": [
-                                    "100.0%+0.0px",
-                                    "100%"
-                                ],
-                                "texture": "textures/netease/vip_transform/panel01@3x",
-                                "type": "image",
-                                "uv": [
-                                    0,
-                                    0
-                                ],
-                                "uv_size": [
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "camera_toggle@settings_common.option_toggle": {
-                                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-                                "$option_binding_name": "#camera_toggle",
-                                "$option_enabled_binding_name": "#camera_enabled",
-                                "$toggle_binding_condition": "always_when_visible",
-                                "$toggle_name": "camera_toggle",
-                                "anchor_from": "right_middle",
-                                "anchor_to": "right_middle",
-                                "offset": [
-                                    0,
-                                    0
-                                ],
-                                "size": [
-                                    32,
-                                    26
-                                ],
-                                "visible": true,
-                                "layer": 1
-                            }
-                        },
-                        {
-                            "label": {
-                                "anchor_from": "left_middle",
-                                "anchor_to": "left_middle",
-                                "auto_expand": false,
-                                "font_size": "normal",
-                                "layer": 1,
-                                "offset": [
-                                    8,
-                                    0
-                                ],
-                                "shadow": false,
-                                "text": "变身镜头演出:",
-                                "text_alignment": "left",
-                                "type": "label",
-                                "visible": true
-                            }
-                        }
-                    ],
-                    "visible": false
-                }
+              "binding_name": "#texture_firstpersion",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
             }
-        ],
-        "layer": 1,
-        "offset": [
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_firstpersion",
+          "bindings": [
+            {
+              "binding_name": "#texture_firstpersion",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_firstpersion",
+          "bindings": [
+            {
+              "binding_name": "#texture_firstpersion",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "image_view1@fold_menu.image_view1": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      32,
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_view2@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn03@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn03_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_thirdpersonfront",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "default": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_thirdpersonfront",
+          "bindings": [
+            {
+              "binding_name": "#texture_thirdpersonfront",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_thirdpersonfront",
+          "bindings": [
+            {
+              "binding_name": "#texture_thirdpersonfront",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_thirdpersonfront",
+          "bindings": [
+            {
+              "binding_name": "#texture_thirdpersonfront",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "image_view2@fold_menu.image_view2": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      32,
+      0
+    ],
+    "size": [
+      32,
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_view3@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn03@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn03_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_thirdpersion",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "default": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_thirdpersion",
+          "bindings": [
+            {
+              "binding_name": "#texture_thirdpersion",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_thirdpersion",
+          "bindings": [
+            {
+              "binding_name": "#texture_thirdpersion",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "#texture_thirdpersion",
+          "bindings": [
+            {
+              "binding_name": "#texture_thirdpersion",
+              "binding_type": "collection",
+              "binding_collection_name": "menu_collection",
+              "binding_name_override": "#texture"
+            }
+          ],
+          "type": "image"
+        }
+      },
+      {
+        "image_view3@fold_menu.image_view3": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      64,
+      0
+    ],
+    "size": [
+      32,
+      "100%"
+    ],
+    "visible": true
+  },
+  "button_horse_transform@common.button": {
+    "$default_texture": "textures/netease/vip_transform/btn01@3x",
+    "$hover_texture": "textures/netease/vip_transform/btn01@3x",
+    "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.horse_transform",
+    "$texture_layer": 2,
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "img_horse": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": 0,
+          "nine_slice_left": 0,
+          "nine_slice_right": 0,
+          "nine_slice_top": 0,
+          "offset": [
             0,
             0
-        ],
-        "size": [
-            96,
-            "50%"
-        ],
-        "type": "stack_panel"
-    },
-    "default": {
-        "is_new_nine_slice": true,
-        "layer": 1,
-        "nine_slice_buttom": "$nine_slice_buttom",
-        "nine_slice_left": "$nine_slice_left",
-        "nine_slice_right": "$nine_slice_right",
-        "nine_slice_top": "$nine_slice_top",
-        "texture": "$default_texture",
-        "type": "image"
-    },
-    "hover": {
-        "is_new_nine_slice": true,
-        "layer": 1,
-        "nine_slice_buttom": "$nine_slice_buttom",
-        "nine_slice_left": "$nine_slice_left",
-        "nine_slice_right": "$nine_slice_right",
-        "nine_slice_top": "$nine_slice_top",
-        "texture": "$hover_texture",
-        "type": "image"
-    },
-    "pressed": {
-        "is_new_nine_slice": true,
-        "layer": 1,
-        "nine_slice_buttom": "$nine_slice_buttom",
-        "nine_slice_left": "$nine_slice_left",
-        "nine_slice_right": "$nine_slice_right",
-        "nine_slice_top": "$nine_slice_top",
-        "texture": "$pressed_texture",
-        "type": "image"
-    }
+          ],
+          "size": [
+            20,
+            20
+          ],
+          "texture": "textures/netease/vip_transform/icon02@3x",
+          "type": "image",
+          "texture_file_system": "",
+          "visible": true,
+          "zip_folder": ""
+        }
+      }
+    ],
+    "layer": 3,
+    "offset": [
+      24,
+      0
+    ],
+    "size": [
+      21,
+      21
+    ],
+    "type": "button",
+    "visible": false,
+    "bindings": [
+      {
+        "binding_name": "#horse_transform_enabled",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+  "button_skin_transform@common.button": {
+    "$default_texture": "textures/netease/vip_transform/btn01@3x",
+    "$hover_texture": "textures/netease/vip_transform/btn01@3x",
+    "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.skin_transform",
+    "$texture_layer": 2,
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "img_skin": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": 0,
+          "nine_slice_left": 0,
+          "nine_slice_right": 0,
+          "nine_slice_top": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            20,
+            20
+          ],
+          "texture": "textures/netease/vip_transform/icon01@3x",
+          "type": "image",
+          "texture_file_system": "",
+          "visible": true,
+          "zip_folder": ""
+        }
+      }
+    ],
+    "layer": 3,
+    "offset": [
+      3,
+      0
+    ],
+    "size": [
+      21,
+      21
+    ],
+    "type": "button",
+    "visible": false,
+    "bindings": [
+      {
+        "binding_name": "#skin_transform_enabled",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+  "button_weapon_transform@common.button": {
+    "$default_texture": "textures/netease/vip_transform/btn01@3x",
+    "$hover_texture": "textures/netease/vip_transform/btn01@3x",
+    "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.weapon_transform",
+    "$texture_layer": 2,
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      },
+      {
+        "img_skin": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": 0,
+          "nine_slice_left": 0,
+          "nine_slice_right": 0,
+          "nine_slice_top": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            20,
+            20
+          ],
+          "texture": "textures/netease/vip_transform/icon03@3x",
+          "type": "image",
+          "texture_file_system": "",
+          "visible": true,
+          "zip_folder": ""
+        }
+      }
+    ],
+    "layer": 3,
+    "offset": [
+      45,
+      0
+    ],
+    "size": [
+      21,
+      21
+    ],
+    "type": "button",
+    "visible": false,
+    "bindings": [
+      {
+        "binding_name": "#weapon_transform_enabled",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+  "fold_menu_dialog_screen@common.base_screen": {
+    "controls": [
+      {
+        "panel_foldmenu@fold_menu.panel_foldmenu": {}
+      },
+      {
+        "image_button0@fold_menu.image_button0": {}
+      }
+    ]
+  },
+  "image_button0@common.button": {
+    "$default_color": [
+      1,
+      1,
+      1
+    ],
+    "$default_texture": "textures/netease/voice_trans/btn_empty@3x",
+    "$hover_texture": "textures/netease/voice_trans/btn_empty@3x",
+    "$pressed_texture": "textures/netease/voice_trans/btn_empty@3x",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "button.fold_menu_close",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "default@fold_menu.default": {}
+      },
+      {
+        "hover@fold_menu.hover": {}
+      },
+      {
+        "pressed@fold_menu.pressed": {}
+      }
+    ],
+    "layer": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "visible": true
+  },
+  "img_vip_transform": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "label_auto_transform@fold_menu.label_auto_transform": {}
+      },
+      {
+        "button_skin_transform@fold_menu.button_skin_transform": {}
+      },
+      {
+        "button_horse_transform@fold_menu.button_horse_transform": {}
+      },
+      {
+        "button_weapon_transform@fold_menu.button_weapon_transform": {}
+      },
+      {
+        "auto_transform_toggle@settings_common.option_toggle": {
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [
+            32,
+            26
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "$option_binding_name": "#auto_transform_toggle",
+          "$option_enabled_binding_name": "#auto_transform_enabled",
+          "$toggle_name": "auto_transform_toggle",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible",
+          "visible": false,
+          "bindings": [
+            {
+              "binding_name": "#is_win32",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "auto_transform_toggle1@settings_common.option_toggle": {
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [
+            32,
+            26
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "$option_binding_name": "#auto_transform_toggle",
+          "$option_enabled_binding_name": "#auto_transform_enabled",
+          "$toggle_name": "auto_transform_toggle",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible",
+          "visible": false,
+          "bindings": [
+            {
+              "binding_name": "(not #is_win32)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100%"
+    ],
+    "texture": "textures/netease/vip_transform/panel01@3x",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": false,
+    "bindings": [
+      {
+        "binding_name": "#vip_transform_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+  "image_screenshot": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      6,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/netease/voice_trans/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "image_pet": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      6,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/ui/pet_icon",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "image_pet_tip": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "is_new_nine_slice": true,
+    "layer": 4,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      2,
+      0
+    ],
+    "size": [
+      15,
+      15
+    ],
+    "texture": "textures/netease/pet/tag04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "bindings": [
+      {
+        "binding_name": "#is_pet_tip_visible",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "zip_folder": ""
+  },
+  "image_speechseting": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      6,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/netease/voice_trans/icon02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "image_view1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/netease/voice_trans/icon06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "image_view2": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/netease/voice_trans/icon04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "image_view3": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/netease/voice_trans/icon05@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "label_screenshot": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.298,
+      0.298,
+      0.298,
+      1
+    ],
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      32,
+      11
+    ],
+    "shadow": false,
+    "size": [
+      64,
+      64
+    ],
+    "text": "截屏分享",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "label_pet": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.298,
+      0.298,
+      0.298,
+      1
+    ],
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      32,
+      11
+    ],
+    "shadow": false,
+    "size": [
+      64,
+      64
+    ],
+    "text": "我的伙伴",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "label_auto_transform": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "font_size": "normal",
+    "layer": 3,
+    "shadow": false,
+    "offset": [
+      8,
+      11
+    ],
+    "size": [
+      64,
+      64
+    ],
+    "text": "开启手动变身:",
+    "text_alignment": "left",
+    "type": "label",
+    "bindings": [
+      {
+        "binding_name": "#label_auto_transform_visible",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "visible": true
+  },
+  "label_speechseting": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.298,
+      0.298,
+      0.298,
+      1
+    ],
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      32,
+      11
+    ],
+    "shadow": false,
+    "size": [
+      64,
+      64
+    ],
+    "text": "语音设置",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "namespace": "fold_menu",
+  "panel_foldmenu": {
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "panel_closefold": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "button_foldmenu@fold_menu.button_foldmenu": {}
+            }
+          ],
+          "size": [
+            "100%",
+            20
+          ],
+          "type": "panel"
+        }
+      },
+      {
+        "panel_screenshot": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "button_screenshot@fold_menu.button_screenshot": {}
+            }
+          ],
+          "size": [
+            "100%",
+            32
+          ],
+          "type": "panel"
+        }
+      },
+      {
+        "panel_report": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "button_report@fold_menu.button_report": {}
+            }
+          ],
+          "size": [
+            "100%",
+            32
+          ],
+          "type": "panel"
+        }
+      },
+      {
+        "panel_voice": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "button_speechsetting@fold_menu.button_speechsetting": {}
+            }
+          ],
+          "size": [
+            "100%",
+            32
+          ],
+          "type": "panel",
+          "visible": "#is_voice_visible",
+          "bindings": [
+            {
+              "binding_name": "#is_voice_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "panel_pet": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "button_pet@fold_menu.button_pet": {}
+            }
+          ],
+          "size": [
+            "100%",
+            32
+          ],
+          "type": "panel",
+          "visible": "#is_pet_visible",
+          "bindings": [
+            {
+              "binding_name": "#is_pet_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "panel_view": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "button_view1@fold_menu.button_view1": {}
+            },
+            {
+              "button_view2@fold_menu.button_view2": {}
+            },
+            {
+              "button_view3@fold_menu.button_view3": {}
+            }
+          ],
+          "size": [
+            "100%",
+            32
+          ],
+          "type": "panel",
+          "visible": "#is_person_visible",
+          "bindings": [
+            {
+              "binding_name": "#is_person_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "panel_transform": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "img_vip_transform@fold_menu.img_vip_transform": {}
+            }
+          ],
+          "size": [
+            "100%",
+            32
+          ],
+          "type": "panel"
+        }
+      },
+      {
+        "panel_hud": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": [
+            "100%+0px",
+            32
+          ],
+          "type": "panel",
+          "controls": [
+            {
+              "bg": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "is_new_nine_slice": true,
+                "layer": 0,
+                "nine_slice_buttom": 0,
+                "nine_slice_left": 0,
+                "nine_slice_right": 0,
+                "nine_slice_top": 0,
+                "offset": [
+                  0,
+                  0
+                ],
+                "size": [
+                  "100.0%+0.0px",
+                  "100%"
+                ],
+                "texture": "textures/netease/vip_transform/panel01@3x",
+                "type": "image",
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "hud_toggle@settings_common.option_toggle": {
+                "anchor_from": "right_middle",
+                "anchor_to": "right_middle",
+                "size": [
+                  32,
+                  26
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "$option_binding_name": "#hud_toggle",
+                "$option_enabled_binding_name": "#hud_enabled",
+                "$toggle_name": "hud_toggle",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                "$toggle_binding_condition": "always_when_visible",
+                "visible": true,
+                "layer": 1
+              }
+            },
+            {
+              "label": {
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle",
+                "auto_expand": false,
+                "font_size": "normal",
+                "layer": 1,
+                "offset": [
+                  8,
+                  0
+                ],
+                "shadow": false,
+                "text": "屏幕HUD:",
+                "text_alignment": "left",
+                "type": "label",
+                "visible": true
+              }
+            }
+          ],
+          "visible": false
+        }
+      },
+      {
+        "panel_camera": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": [
+            "100%+0px",
+            32
+          ],
+          "type": "panel",
+          "controls": [
+            {
+              "bg": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "is_new_nine_slice": true,
+                "layer": 0,
+                "nine_slice_buttom": 0,
+                "nine_slice_left": 0,
+                "nine_slice_right": 0,
+                "nine_slice_top": 0,
+                "offset": [
+                  0,
+                  0
+                ],
+                "size": [
+                  "100.0%+0.0px",
+                  "100%"
+                ],
+                "texture": "textures/netease/vip_transform/panel01@3x",
+                "type": "image",
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "camera_toggle@settings_common.option_toggle": {
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                "$option_binding_name": "#camera_toggle",
+                "$option_enabled_binding_name": "#camera_enabled",
+                "$toggle_binding_condition": "always_when_visible",
+                "$toggle_name": "camera_toggle",
+                "anchor_from": "right_middle",
+                "anchor_to": "right_middle",
+                "offset": [
+                  0,
+                  0
+                ],
+                "size": [
+                  32,
+                  26
+                ],
+                "visible": true,
+                "layer": 1
+              }
+            },
+            {
+              "label": {
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle",
+                "auto_expand": false,
+                "font_size": "normal",
+                "layer": 1,
+                "offset": [
+                  8,
+                  0
+                ],
+                "shadow": false,
+                "text": "变身镜头演出:",
+                "text_alignment": "left",
+                "type": "label",
+                "visible": true
+              }
+            }
+          ],
+          "visible": false
+        }
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      96,
+      "50%"
+    ],
+    "type": "stack_panel"
+  },
+  "default": {
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$default_texture",
+    "type": "image"
+  },
+  "hover": {
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$hover_texture",
+    "type": "image"
+  },
+  "pressed": {
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$pressed_texture",
+    "type": "image"
+  }
 }

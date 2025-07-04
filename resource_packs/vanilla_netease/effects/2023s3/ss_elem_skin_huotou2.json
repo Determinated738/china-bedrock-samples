@@ -1,1 +1,70 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.1250", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.1339", "time": "100.0%"}], "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "7.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "7"}, "particlesize": {"max": "0.5 0.4", "min": "0.7 0.6"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "8", "name": "textures/sfxs/2023s3/ss_elem_skin_huo", "shuffle": false}, "name": "textures/sfxs/2023s3/ss_elem_skin_huo"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.8", "min": "1.2"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.1250",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1339",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "7.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.5 0.4",
+      "min": "0.7 0.6"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2023s3/ss_elem_skin_huo",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/ss_elem_skin_huo"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.8",
+      "min": "1.2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

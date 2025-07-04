@@ -1,67 +1,67 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "73.2%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "2.5"
-		},
-		"delay": 0.03,
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.0 0.45 1.0"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.07 0.07"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s1opera_skin_victory_liziB"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "1.0",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "8.0",
-			"min": "3.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "73.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.5"
+    },
+    "delay": 0.03,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.45 1.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.07 0.07"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s1opera_skin_victory_liziB"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "3.0"
+    }
+  }
 }

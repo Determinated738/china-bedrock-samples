@@ -16,7 +16,11 @@
         "has_gravity": false
       },
       "minecraft:balloon": {
-        "lift_force": [ 0.0, 1.6, 0.0 ]
+        "lift_force": [
+          0,
+          1.6,
+          0
+        ]
       }
     }
   }

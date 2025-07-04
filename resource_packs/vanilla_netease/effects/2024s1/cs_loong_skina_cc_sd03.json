@@ -1,1 +1,94 @@
-{"particleeffect": {"activetime": {"value": "2.0"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9804 0.7451 1.0000", "time": "0.0%"}, {"color": "1.0000 0.9765 0.2706 1.0000", "time": "21.1%"}, {"color": "1.0000 0.4941 0.1333 1.0000", "time": "49.2%"}, {"color": "1.0000 0.2980 0.0196 0.0000", "time": "100.0%"}], "delay": 1.5, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.25 2.0 1.25"}, "emittertype": {"value": "Cylinder"}, "enableloop": {"enable": "true"}, "layer": 3, "numparticles": {"value": "15"}, "particlesize": {"max": "0.03 0.03", "min": "0.06 0.06"}, "pointFiltering": true, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 -180.0", "min": "0.0 0.0 180.0"}, "sizedelta": [{"scale": "1.04 1.04", "time": "0.0%"}, {"scale": "1.84 1.84", "time": "23.3%"}, {"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2024s1/cs_loong_skina2_dianchuo_sd", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_skina2_dianchuo_sd"}, "thickness": {"value": "1.0"}, "timetolive": {"max": "0.6", "min": "0.3"}, "velocity": {"max": "0.3", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "2.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9804 0.7451 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9765 0.2706 1.0000",
+        "time": "21.1%"
+      },
+      {
+        "color": "1.0000 0.4941 0.1333 1.0000",
+        "time": "49.2%"
+      },
+      {
+        "color": "1.0000 0.2980 0.0196 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.5,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.25 2.0 1.25"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.06 0.06"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.04 1.04",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.84 1.84",
+        "time": "23.3%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s1/cs_loong_skina2_dianchuo_sd",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_skina2_dianchuo_sd"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.5"
+    }
+  }
+}

@@ -1,65 +1,65 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 0.9686 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 1.0000",
-				"time": "16.8%"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 1.0000",
-				"time": "65.3%"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 0.7321",
-				"time": "79.2%"
-			},
-			{
-				"color": "1.0000 1.0000 0.2400 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.55 0.63 0.4"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.12 0.12",
-			"min": "0.08 0.08"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "20",
-				"name": "textures/sfxs/2024s3/cs_s1goout_armor_xx",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1goout_armor_xx"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.9686 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "16.8%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "65.3%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.7321",
+        "time": "79.2%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.55 0.63 0.4"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.12 0.12",
+      "min": "0.08 0.08"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2024s3/cs_s1goout_armor_xx",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1goout_armor_xx"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    }
+  }
 }

@@ -1,92 +1,92 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 1.0000",
-                "time": "40%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 1.0000",
-                "time": "60%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "constantforce": {
-            "value": "0.0 -0.05 0.0"
-        },
-        "dampingforce": {
-            "value": "0.50"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "1.2",
-            "min": "0.5"
-        },
-        "emitterpath": [
-            {
-                "offset": "0.4 0.0 0.0",
-                "time": "0.0"
-            },
-            {
-                "offset": "-0.4 0.0 0.0",
-                "time": "6.0"
-            }
-        ],
-        "emittersize": {
-            "value": "0.1 1.5 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enabletexture": {
-            "enable": "true"
-        },
-        "numparticles": {
-            "value": "1"
-        },
-        "particlesize": {
-            "max": "1.2 1.2",
-            "min": "0.8 0.8"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "rotation": {
-            "max": "25.0",
-            "min": "-20.0"
-        },
-        "texture": {
-            "ani": {
-                "fps": "0",
-                "name": "textures/sfxs/home/ass_effect/brick_xkfg/0_xingqiu",
-                "shuffle": true
-            },
-            "name": "textures/sfxs/home/ass_effect/brick_xkfg/0_xingqiu"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "6.0",
-            "min": "4.0"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "40%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "60%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -0.05 0.0"
+    },
+    "dampingforce": {
+      "value": "0.50"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.2",
+      "min": "0.5"
+    },
+    "emitterpath": [
+      {
+        "offset": "0.4 0.0 0.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "-0.4 0.0 0.0",
+        "time": "6.0"
+      }
+    ],
+    "emittersize": {
+      "value": "0.1 1.5 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "1.2 1.2",
+      "min": "0.8 0.8"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "25.0",
+      "min": "-20.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/home/ass_effect/brick_xkfg/0_xingqiu",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/home/ass_effect/brick_xkfg/0_xingqiu"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

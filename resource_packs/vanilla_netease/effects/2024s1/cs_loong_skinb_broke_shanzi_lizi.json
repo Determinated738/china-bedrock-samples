@@ -1,1 +1,80 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "colorfade": [{"color": "0.9804 0.7020 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 0.7255 0.9529 0.9911", "time": "58.4%"}, {"color": "1.0000 0.3137 0.7020 0.0000", "time": "100.0%"}], "dampingforce": {"value": "16.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 1.0 1.0"}, "emittertype": {"value": "Sphere"}, "numparticles": {"value": "3"}, "particlesize": {"max": "0.08 0.08", "min": "0.05 0.05"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.95 0.95", "time": "0.0%"}, {"scale": "1.2 1.2", "time": "23.7%"}, {"scale": "0.95 0.95", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/cs_loong_skinb_skin_broke_lizi_hua"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.45", "min": "0.3"}, "velocity": {"max": "10.0", "min": "8.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "0.9804 0.7020 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.7255 0.9529 0.9911",
+        "time": "58.4%"
+      },
+      {
+        "color": "1.0000 0.3137 0.7020 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "16.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 1.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.95 0.95",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "23.7%"
+      },
+      {
+        "scale": "0.95 0.95",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_skinb_skin_broke_lizi_hua"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.45",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "10.0",
+      "min": "8.0"
+    }
+  }
+}

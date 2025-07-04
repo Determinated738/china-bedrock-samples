@@ -1,74 +1,74 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 0.0000 0.0000 0.4732",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6667 0.4980 0.8036",
-				"time": "18.9%"
-			},
-			{
-				"color": "1.0000 0.4588 0.4118 1.0000",
-				"time": "49.5%"
-			},
-			{
-				"color": "1.0000 0.6667 0.4980 0.8036",
-				"time": "76.1%"
-			},
-			{
-				"color": "1.0000 0.0000 0.0000 0.3304",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "8.0",
-			"min": "8.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "4"
-		},
-		"particlesize": {
-			"max": "0.07 0.07",
-			"min": "0.07 0.07"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.5 1.5",
-				"time": "50.7%"
-			},
-			{
-				"scale": "0.03 0.03",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/heidong"
-		},
-		"timetolive": {
-			"max": "0.3",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0000 0.4732",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6667 0.4980 0.8036",
+        "time": "18.9%"
+      },
+      {
+        "color": "1.0000 0.4588 0.4118 1.0000",
+        "time": "49.5%"
+      },
+      {
+        "color": "1.0000 0.6667 0.4980 0.8036",
+        "time": "76.1%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.3304",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "8.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.07 0.07"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "50.7%"
+      },
+      {
+        "scale": "0.03 0.03",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/heidong"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

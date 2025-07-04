@@ -1,1 +1,98 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "0.0000 0.9176 1.0000 1.0000", "time": "13.4%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "29.7%"}, {"color": "1.0000 0.6157 0.0000 1.0000", "time": "60.8%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "71.1%"}, {"color": "1.0000 0.4667 0.8588 1.0000", "time": "81.3%"}, {"color": "1.0000 0.7020 0.0000 1.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 1.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.2 1.2 0.3"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "particlesize": {"max": "0.04 0.04", "min": "0.1 0.1"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.48 0.48", "time": "0.0%"}, {"scale": "1.2 1.2", "time": "17.3%"}, {"scale": "0.45 0.45", "time": "43.0%"}, {"scale": "1.2 1.2", "time": "80.3%"}, {"scale": "0.75 0.75", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/ss_fengshen_fz_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.5"}, "velocity": {"max": "0.8", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.9176 1.0000 1.0000",
+        "time": "13.4%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "29.7%"
+      },
+      {
+        "color": "1.0000 0.6157 0.0000 1.0000",
+        "time": "60.8%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "71.1%"
+      },
+      {
+        "color": "1.0000 0.4667 0.8588 1.0000",
+        "time": "81.3%"
+      },
+      {
+        "color": "1.0000 0.7020 0.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 1.2 0.3"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.48 0.48",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "17.3%"
+      },
+      {
+        "scale": "0.45 0.45",
+        "time": "43.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "80.3%"
+      },
+      {
+        "scale": "0.75 0.75",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/ss_fengshen_fz_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.8",
+      "min": "0.5"
+    }
+  }
+}

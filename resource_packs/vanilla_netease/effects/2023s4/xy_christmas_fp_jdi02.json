@@ -1,82 +1,82 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0.0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.7143",
-                "time": "18.4%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.7143",
-                "time": "38.2%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.6339",
-                "time": "56.8%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.3125",
-                "time": "67.4%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "84.2%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100.0%"
-            }
-        ],
-        "dampingforce": {
-            "value": "1.0"
-        },
-        "direction": {
-            "max": "0.0 0.01 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "5.0",
-            "min": "5.0"
-        },
-        "enabletexture": {
-            "enable": true
-        },
-        "faceCameraMode": {
-            "value": "Direction Horizontal"
-        },
-        "numparticles": {
-            "value": "5"
-        },
-        "particlesize": {
-            "max": "0.4 0.45",
-            "min": "0.4 0.45"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "rotationRange": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0"
-        },
-        "texture": {
-            "ani": {
-                "fps": "16",
-                "name": "textures/sfxs/2023s4/xy_christmas_fp_002",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/2023s4/xy_christmas_fp_002"
-        },
-        "timetolive": {
-            "max": "0.8",
-            "min": "0.8"
-        },
-        "velocity": {
-            "max": "0.1",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7143",
+        "time": "18.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7143",
+        "time": "38.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6339",
+        "time": "56.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3125",
+        "time": "67.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "84.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "0.0 0.01 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.4 0.45",
+      "min": "0.4 0.45"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s4/xy_christmas_fp_002",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/xy_christmas_fp_002"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
     }
+  }
 }

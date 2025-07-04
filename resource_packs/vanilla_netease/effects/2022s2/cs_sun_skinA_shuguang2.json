@@ -1,1 +1,91 @@
-{"frameeffect": {"cylinder_radius_down": 0.6, "scale": [1.2, 1.2, 1.2], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "cylinder_height": 3.0, "cylinder_frac_num": 6, "layer": 1, "cylinder_radius_up": 0.6, "delay": 1.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [2, 1], "texture": "textures/sfxs/2022s2/cs_sun_skinA_shuguang3", "fps": 25, "first_person_enable": false, "face_camera": false, "rot_speed": [0.0, 0.0, 0.0], "cylinder_enable": true, "loop": false, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "cylinder_radius_down": 0.6,
+    "scale": [
+      1.2,
+      1.2,
+      1.2
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "cylinder_height": 3,
+    "cylinder_frac_num": 6,
+    "layer": 1,
+    "cylinder_radius_up": 0.6,
+    "delay": 1,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      2,
+      1
+    ],
+    "texture": "textures/sfxs/2022s2/cs_sun_skinA_shuguang3",
+    "fps": 25,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": true,
+    "loop": false,
+    "blend_mode": 2
+  }
+}

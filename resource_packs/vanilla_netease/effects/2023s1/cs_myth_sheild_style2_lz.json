@@ -1,1 +1,92 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 1.0 0.0"},"numparticles":{"value":"8"},"colorfade":[{"color":"1.0000 0.9804 0.3882 1.0000","time":"0.0%"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"26.3%"},{"color":"0.1137 1.0000 0.5137 0.9911","time":"57.4%"},{"color":"0.0000 1.0000 0.2314 0.9643","time":"80.8%"},{"color":"0.0000 0.7333 1.0000 1.0000","time":"100.0%"}],"emissionrate":{"max":"8.0","min":"5.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.2 0.3 1.1"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.8","min":"0.5"},"texture":{"name":"textures/sfxs/2022s3/cs_zhuge_skin_fllz"},"emitterscale":[],"velocity":{"max":"0.3","min":"0.4"},"blend":{"name":"add"},"particlesize":{"max":"0.03 0.03","min":"0.05 0.05"},"sizedelta":[{"scale":"0.0 0.0","time":"0.0%"},{"scale":"1.6 1.6","time":"17.7%"},{"scale":"0.0 0.0","time":"50.7%"},{"scale":"1.0 1.0","time":"74.3%"},{"scale":"0.0 0.0","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9804 0.3882 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "26.3%"
+      },
+      {
+        "color": "0.1137 1.0000 0.5137 0.9911",
+        "time": "57.4%"
+      },
+      {
+        "color": "0.0000 1.0000 0.2314 0.9643",
+        "time": "80.8%"
+      },
+      {
+        "color": "0.0000 0.7333 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "8.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.2 0.3 1.1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s3/cs_zhuge_skin_fllz"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.3",
+      "min": "0.4"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.6 1.6",
+        "time": "17.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "50.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "74.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

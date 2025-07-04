@@ -1,1 +1,92 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.6 -0.65","value":"Direction","min":"0.0 0.0 -0.6"},"faceCameraMode":{"value":"Direction"},"colorfade":[{"color":"1.0000 1.0000 1.0000 0.3929","time":"0.00"},{"color":"0.8431 0.9765 1.0000 0.8482","time":"0.15"},{"color":"0.9059 0.9922 1.0000 0.9821","time":"0.37"},{"color":"1.0000 1.0000 1.0000 1.0000","time":"2.00"},{"color":"0.7059 1.0000 0.7804 0.4018","time":"4.00"}],"emitterScaleCurve":[],"enableloop":{"enable":"true"},"texture":{"name":"textures/sfxs/2021s2/cs_spaceskinA_0_3_lizi"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"2.0","min":"1.0"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.15 0.0 0.1"},"velocity":{"max":"0.5","min":"0.4"},"emitterscale":[],"particlesize":{"max":"0.04 0.04","min":"0.03 0.03"},"sizedelta":[{"scale":"0.0 0.0","time":"0.00"},{"scale":"1.08 1.08","time":"0.00"},{"scale":"0.92 0.92","time":"0.30"},{"scale":"0.34 0.34","time":"0.40"},{"scale":"0.0 0.0","time":"0.80"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.6 -0.65",
+      "value": "Direction",
+      "min": "0.0 0.0 -0.6"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.3929",
+        "time": "0.00"
+      },
+      {
+        "color": "0.8431 0.9765 1.0000 0.8482",
+        "time": "0.15"
+      },
+      {
+        "color": "0.9059 0.9922 1.0000 0.9821",
+        "time": "0.37"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "2.00"
+      },
+      {
+        "color": "0.7059 1.0000 0.7804 0.4018",
+        "time": "4.00"
+      }
+    ],
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s2/cs_spaceskinA_0_3_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.15 0.0 0.1"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.4"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.03 0.03"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.92 0.92",
+        "time": "0.30"
+      },
+      {
+        "scale": "0.34 0.34",
+        "time": "0.40"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "0.80"
+      }
+    ]
+  }
+}

@@ -1,63 +1,63 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "1.0"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.4286",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.4643",
-				"time": "87.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.1",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "20.0",
-			"min": "20.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Rotate Y"
-		},
-		"layer": 4,
-		"numparticles": {
-			"value": "1"
-		},
-		"particlesize": {
-			"max": "3.2 1.5",
-			"min": "3.2 1.5"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s3/cs_s1goout_skin_chuchang_22"
-		},
-		"timetolive": {
-			"max": "7.2",
-			"min": "7.2"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.4286",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4643",
+        "time": "87.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "3.2 1.5",
+      "min": "3.2 1.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s3/cs_s1goout_skin_chuchang_22"
+    },
+    "timetolive": {
+      "max": "7.2",
+      "min": "7.2"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
 }

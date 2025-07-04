@@ -1,100 +1,100 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.0000 0.5686 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 0.7686 1.0000 0.8750",
-				"time": "9.2%"
-			},
-			{
-				"color": "0.4235 1.0000 0.9529 1.0000",
-				"time": "23.9%"
-			},
-			{
-				"color": "0.0000 1.0000 0.9686 1.0000",
-				"time": "68.7%"
-			},
-			{
-				"color": "0.0000 0.2980 1.0000 0.3571",
-				"time": "85.3%"
-			},
-			{
-				"color": "0.0000 0.1804 1.0000 0.0536",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.2"
-		},
-		"direction": {
-			"max": "-1.0 -1.0 -1.0",
-			"min": "1.0 1.0 1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "6.0",
-			"min": "6.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.2 2.0 1.2"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.08 0.08"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.75 0.75",
-				"time": "7.7%"
-			},
-			{
-				"scale": "0.88 0.88",
-				"time": "46.7%"
-			},
-			{
-				"scale": "0.66 0.66",
-				"time": "91.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/ss_s1weekend_skinB_XXDD"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "0.4",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.5686 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.7686 1.0000 0.8750",
+        "time": "9.2%"
+      },
+      {
+        "color": "0.4235 1.0000 0.9529 1.0000",
+        "time": "23.9%"
+      },
+      {
+        "color": "0.0000 1.0000 0.9686 1.0000",
+        "time": "68.7%"
+      },
+      {
+        "color": "0.0000 0.2980 1.0000 0.3571",
+        "time": "85.3%"
+      },
+      {
+        "color": "0.0000 0.1804 1.0000 0.0536",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "-1.0 -1.0 -1.0",
+      "min": "1.0 1.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 2.0 1.2"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.08 0.08"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.75 0.75",
+        "time": "7.7%"
+      },
+      {
+        "scale": "0.88 0.88",
+        "time": "46.7%"
+      },
+      {
+        "scale": "0.66 0.66",
+        "time": "91.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/ss_s1weekend_skinB_XXDD"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
 }

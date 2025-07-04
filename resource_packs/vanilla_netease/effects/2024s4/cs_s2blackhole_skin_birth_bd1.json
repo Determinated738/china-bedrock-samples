@@ -1,68 +1,68 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.2857",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.8824 0.2196 0.0000 0.2768",
-				"time": "17.1%"
-			},
-			{
-				"color": "0.3882 0.0000 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 9.7,
-		"depthtest": {
-			"enable": "false"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"numparticles": {
-			"value": "1"
-		},
-		"particlesize": {
-			"max": "2.0 2.0",
-			"min": "2.0 2.0"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "10.0%"
-			},
-			{
-				"scale": "1.35 1.35",
-				"time": "74.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_birth_glowdi1"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.2857",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8824 0.2196 0.0000 0.2768",
+        "time": "17.1%"
+      },
+      {
+        "color": "0.3882 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 9.7,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "2.0 2.0",
+      "min": "2.0 2.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "10.0%"
+      },
+      {
+        "scale": "1.35 1.35",
+        "time": "74.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_skin_birth_glowdi1"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

@@ -1,1 +1,73 @@
-{"particleeffect": {"colorfade": [{"color": "0.0000 0.0784 0.5882 0.4107", "time": "0.0%"}, {"color": "0.3961 0.0000 0.5647 0.1161", "time": "100.0%"}], "dampingforce": {"value": "0.2"}, "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "15.0", "min": "25.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.1 0.0 0.0"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "20"}, "particlesize": {"max": "0.5 0.5", "min": "0.3 0.3"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.75 0.75", "time": "0.0%"}, {"scale": "1.23 1.23", "time": "46.0%"}, {"scale": "0.7 0.7", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s1/ss_567_skinb_fp_ywlz", "shuffle": false}, "name": "textures/sfxs/2023s1/ss_567_skinb_fp_ywlz"}, "thickness": {"value": "0.0"}, "velocity": {"max": "1.0", "min": "3.0"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 0.0784 0.5882 0.4107",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3961 0.0000 0.5647 0.1161",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "25.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.75 0.75",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "46.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s1/ss_567_skinb_fp_ywlz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/ss_567_skinb_fp_ywlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "3.0"
+    }
+  }
+}

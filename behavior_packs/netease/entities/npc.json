@@ -7,7 +7,6 @@
       "is_summonable": false,
       "is_experimental": false
     },
-
     "components": {
       "minecraft:damage_sensor": {
         "triggers": {
@@ -16,7 +15,10 @@
         }
       },
       "minecraft:type_family": {
-        "family": [ "npc", "mob" ]
+        "family": [
+          "npc",
+          "mob"
+        ]
       },
       "minecraft:fire_immune": true,
       "minecraft:movement": {
@@ -31,17 +33,15 @@
       },
       "minecraft:behavior.look_at_player": {
         "priority": 0,
-        "look_distance": 6.0,
+        "look_distance": 6,
         "probability": 0.02
       },
-      "minecraft:persistent": {
-      },
+      "minecraft:persistent": {},
       "minecraft:nameable": {
         "always_show": true,
         "allow_name_tag_renaming": false
       },
-      "minecraft:physics": {
-      }
+      "minecraft:physics": {}
     }
   }
 }

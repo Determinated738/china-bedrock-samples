@@ -1,62 +1,62 @@
 {
-	"particleeffect": {
-		"constantforce": {
-			"value": "0.0 0.0 0.1"
-		},
-		"delay": 0.15,
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "-1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "4.0",
-			"min": "4.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.0 0.0 0.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.3 0.3",
-			"min": "0.3 0.3"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "18",
-				"name": "textures/sfxs/2024s4/ss_s3spook_horse_jy",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/ss_s3spook_horse_jy"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "0.3",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "constantforce": {
+      "value": "0.0 0.0 0.1"
+    },
+    "delay": 0.15,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.3 0.3"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "18",
+        "name": "textures/sfxs/2024s4/ss_s3spook_horse_jy",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/ss_s3spook_horse_jy"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.1"
+    }
+  }
 }

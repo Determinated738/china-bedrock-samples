@@ -6,20 +6,27 @@
     },
     "components": {
       "minecraft:camera": {
-        "field_of_view": 66.0,
+        "field_of_view": 66,
         "near_clipping_plane": 0.025,
-        "far_clipping_plane": 2500.0
+        "far_clipping_plane": 2500
       },
       "minecraft:camera_render_player_model": {},
       "minecraft:stationary_camera": {
-        "pos": [ 0, 0, 0 ],
-        "rot": [ 0, 0 ]
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0
+        ]
       },
       "minecraft:redirect_camera_input": {},
       "minecraft:camera_shake": {
-        "frequency": 10.0,
-        "amplitude": 5.0,
-        "noise_multiplier": 4.0
+        "frequency": 10,
+        "amplitude": 5,
+        "noise_multiplier": 4
       },
       "minecraft:extend_player_rendering": {}
     }

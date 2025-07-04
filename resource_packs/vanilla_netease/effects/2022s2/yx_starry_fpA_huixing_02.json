@@ -1,1 +1,81 @@
-{"particleeffect": {"layer": 3, "faceCameraMode": {"value": "Direction Horizontal"}, "emissionrate": {"max": "5.0", "min": "4.0"}, "relative": {"enable": "false"}, "particlesize": {"max": "0.19999999999999998 0.19999999999999998", "min": "0.2 0.2"}, "numparticles": {"value": "4"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s2/yx_starry_fpA_xiaohuixing", "fps": "16"}, "name": "textures/sfxs/2022s2/yx_starry_fpA_xiaohuixing"}, "thickness": {"value": "0.0"}, "delay": 0.5, "timetolive": {"max": "0.38", "min": "0.35"}, "sizedelta": [{"scale": "0.72 0.72", "time": "0.0%"}, {"scale": "0.74 0.74", "time": "27.3%"}, {"scale": "0.72 0.72", "time": "100.0%"}], "independent": false, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.9999999999999999"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "emittersize": {"value": "0.4 0.0 0.30000000000000004"}, "emitterscale": [], "rotationRange": {"max": "0.0 0.0 42.0", "min": "0.0 0.0 42.0"}, "colorfade": [], "depthtest": {"enable": "true"}, "emittertype": {"value": "Box"}, "velocity": {"max": "0.4", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "layer": 3,
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "particlesize": {
+      "max": "0.19999999999999998 0.19999999999999998",
+      "min": "0.2 0.2"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s2/yx_starry_fpA_xiaohuixing",
+        "fps": "16"
+      },
+      "name": "textures/sfxs/2022s2/yx_starry_fpA_xiaohuixing"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.5,
+    "timetolive": {
+      "max": "0.38",
+      "min": "0.35"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.72 0.72",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.74 0.74",
+        "time": "27.3%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "100.0%"
+      }
+    ],
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.9999999999999999"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.4 0.0 0.30000000000000004"
+    },
+    "emitterscale": [],
+    "rotationRange": {
+      "max": "0.0 0.0 42.0",
+      "min": "0.0 0.0 42.0"
+    },
+    "colorfade": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
+}

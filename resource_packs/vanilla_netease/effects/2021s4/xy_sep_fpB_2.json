@@ -1,1 +1,65 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s4/xy_sep_fpB_03", "fps": "15"}, "name": "textures/sfxs/2021s4/xy_sep_fpB_03"}, "faceCameraMode": {"value": "Direction Horizontal"}, "independent": false, "emissionrate": {"max": "15.0", "min": "5.0"}, "emitterScaleCurve": [], "layer": 6, "emittersize": {"value": "0.5 0.0 0.5"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "timetolive": {"max": "1.0", "min": "0.5"}, "depthtest": {"enable": "true"}, "emitterscale": [], "velocity": {"max": "0.5", "min": "0.2"}, "rotationRange": {"max": "0.0 0.0 225.0", "min": "0.0 0.0 135.0"}, "particlesize": {"max": "0.25 0.25", "min": "0.25 0.25"}, "numparticles": {"value": "3"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s4/xy_sep_fpB_03",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s4/xy_sep_fpB_03"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "15.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 6,
+    "emittersize": {
+      "value": "0.5 0.0 0.5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 225.0",
+      "min": "0.0 0.0 135.0"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.25 0.25"
+    },
+    "numparticles": {
+      "value": "3"
+    }
+  }
+}

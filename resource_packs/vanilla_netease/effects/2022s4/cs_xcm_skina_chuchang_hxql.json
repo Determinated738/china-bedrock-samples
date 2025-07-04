@@ -1,1 +1,140 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": true, "cylinder_frac_num": 32, "cylinder_height": 3.0, "cylinder_radius_down": 0.55, "cylinder_radius_up": 1.8, "delay": 0.71, "delay_in_loop": false, "depth_test": true, "face_camera": false, "fade_distance": 0.0, "first_person_enable": false, "fps": 24, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "layer": 1, "lerp_scale": true, "loop": false, "rot_speed": [0.0, 180.0, 0.0], "scale": [1, 1, 1], "shuffle": false, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2022s4/cs_xcm_skina_chuchang_ssql"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 32,
+    "cylinder_height": 3,
+    "cylinder_radius_down": 0.55,
+    "cylinder_radius_up": 1.8,
+    "delay": 0.71,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 24,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": true,
+    "loop": false,
+    "rot_speed": [
+      0,
+      180,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2022s4/cs_xcm_skina_chuchang_ssql"
+  }
+}

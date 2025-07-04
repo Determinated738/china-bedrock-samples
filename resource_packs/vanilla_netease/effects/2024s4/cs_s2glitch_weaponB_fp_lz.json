@@ -1,41 +1,41 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.35 0.45 0.3"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "8"
-		},
-		"particlesize": {
-			"max": "0.15 0.15",
-			"min": "0.08 0.08"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s4/ss_dino_s2glitch_lz1",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s4/ss_dino_s2glitch_lz1"
-		},
-		"thickness": {
-			"value": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.35 0.45 0.3"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.08 0.08"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s4/ss_dino_s2glitch_lz1",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s4/ss_dino_s2glitch_lz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
 }

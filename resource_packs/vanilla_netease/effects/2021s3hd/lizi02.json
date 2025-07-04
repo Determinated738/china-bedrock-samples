@@ -1,61 +1,57 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "0.9529 1.0000 0.4314 1.0000",
-                "time": "0.0"
-            },
-            {
-                "color": "0.5020 1.0000 0.9020 0.0000",
-                "time": "1.0"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 -1.0 0.0",
-            "min": "0.0 -1.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "3.0",
-            "min": "3.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "1.5 0.0 1.5"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "0.1 0.1",
-            "min": "0.05 0.05"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/2021s3hd/01"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "velocity": {
-            "max": "0.6",
-            "min": "0.3"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9529 1.0000 0.4314 1.0000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.5020 1.0000 0.9020 0.0000",
+        "time": "1.0"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.0 1.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s3hd/01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.3"
     }
+  }
 }

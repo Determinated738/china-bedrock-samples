@@ -1,1 +1,92 @@
-{"particleeffect": {"blend": {"name": "add"}, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "8.0", "min": "8.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 0.2 0.2"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "8"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 90.0", "min": "0.0 0.0 90.0"}, "texture": {"name": "textures/sfxs/2024s1/cs_loong_horseB_tw01"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.5", "min": "0.8"}, "trail": {"colorfade": [{"color": "1.0 0.7568627450980392 0.13333333333333333 0.0", "time": "0.000%"}, {"color": "1.0 0.45098039215686275 0.0 0.4107142857142857", "time": "21.579%"}, {"color": "1.0 0.7019607843137254 0.0 0.0982142857142857", "time": "53.947%"}, {"color": "1.0 1.0 0.0 0.0", "time": "100.000%"}], "facemode": 1, "lifetime": 0.5, "maxnum": 300, "mindistance": 0.01, "texmode": 0, "textile": "2.0 1.0", "useparticlecolor": false, "useparticlewidth": false, "widthfade": [{"time": "0.0%", "value": "0.3799999999999999"}, {"time": "53.0%", "value": "0.3600000000000001"}, {"time": "100.0%", "value": "0.15999999999999992"}], "worldspace": true}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_horseB_tw01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.8"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 0.7568627450980392 0.13333333333333333 0.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 0.45098039215686275 0.0 0.4107142857142857",
+          "time": "21.579%"
+        },
+        {
+          "color": "1.0 0.7019607843137254 0.0 0.0982142857142857",
+          "time": "53.947%"
+        },
+        {
+          "color": "1.0 1.0 0.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 1,
+      "lifetime": 0.5,
+      "maxnum": 300,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "2.0 1.0",
+      "useparticlecolor": false,
+      "useparticlewidth": false,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.3799999999999999"
+        },
+        {
+          "time": "53.0%",
+          "value": "0.3600000000000001"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.15999999999999992"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

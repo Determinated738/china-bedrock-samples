@@ -1,1 +1,136 @@
-{"frameeffect": {"layer": 0, "scale": [1.2, 1.2, 1.2], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "first_person_enable": false, "texture": "textures/sfxs/2022s3/cs_carnival_weapon_attack_di", "delay": 0.02, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "fps": 32, "delay_in_loop": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": false, "blend_mode": 1}}
+{
+  "frameeffect": {
+    "layer": 0,
+    "scale": [
+      1.2,
+      1.2,
+      1.2
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "first_person_enable": false,
+    "texture": "textures/sfxs/2022s3/cs_carnival_weapon_attack_di",
+    "delay": 0.02,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 32,
+    "delay_in_loop": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": false,
+    "blend_mode": 1
+  }
+}

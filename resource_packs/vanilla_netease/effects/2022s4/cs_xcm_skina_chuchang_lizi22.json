@@ -1,1 +1,87 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"1.0 1.0 1.0","value":"Inwards","min":"-1.0 -1.0 -1.0"},"activetime":{"value":"0.2"},"faceCameraMode":{"value":"Direction"},"colorfade":[{"color":"0.9725 1.0000 0.7882 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.4235 0.9375","time":"0.10"},{"color":"1.0000 0.6353 0.0000 0.8482","time":"0.26"},{"color":"1.0000 0.6157 0.0000 0.3214","time":"0.40"}],"emissionrate":{"max":"100.0","min":"100.0"},"emitterScaleCurve":[],"layer":0,"emittersize":{"value":"0.01 0.01 0.01"},"thickness":{"value":"0.0"},"delay":2.4,"emittertype":{"value":"Sphere"},"dampingforce":{"value":"3.0"},"timetolive":{"max":"0.3","min":"0.2"},"texture":{"name":"textures/sfxs/2021s4/cs_dragon_weaponA_skill_01FP_ci"},"emitterscale":[],"velocity":{"max":"-4.0","min":"-6.0"},"blend":{"name":"add"},"particlesize":{"max":"0.03 0.12","min":"0.05 0.25"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.72 0.72","time":"99.5%"}],"numparticles":{"value":"4"}}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "value": "Inwards",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "activetime": {
+      "value": "0.2"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "colorfade": [
+      {
+        "color": "0.9725 1.0000 0.7882 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.4235 0.9375",
+        "time": "0.10"
+      },
+      {
+        "color": "1.0000 0.6353 0.0000 0.8482",
+        "time": "0.26"
+      },
+      {
+        "color": "1.0000 0.6157 0.0000 0.3214",
+        "time": "0.40"
+      }
+    ],
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 0,
+    "emittersize": {
+      "value": "0.01 0.01 0.01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 2.4,
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s4/cs_dragon_weaponA_skill_01FP_ci"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "-4.0",
+      "min": "-6.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.12",
+      "min": "0.05 0.25"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "99.5%"
+      }
+    ],
+    "numparticles": {
+      "value": "4"
+    }
+  }
+}

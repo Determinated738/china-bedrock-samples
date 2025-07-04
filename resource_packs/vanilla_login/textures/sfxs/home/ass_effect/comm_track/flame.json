@@ -1,28 +1,28 @@
 {
-    "frameeffect": {
-        "blend_mode": 1,
-        "cylinder_enable": false,
-        "delay": 0.0,
-        "depth_test": true,
-        "face_camera": true,
-        "fade_distance": 0.0,
-        "fps": 24,
-        "loop": true,
-        "rot_speed": [
-            0.0,
-            0.0,
-            0.0
-        ],
-        "scale": [
-            0.075,
-            0.08125,
-            1.0
-        ],
-        "shuffle": false,
-        "tex_repeat_num": [
-            1,
-            1
-        ],
-        "texture": "textures/sfxs/home/ass_effect/comm_track/0_flame"
-    }
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": false,
+    "delay": 0,
+    "depth_test": true,
+    "face_camera": true,
+    "fade_distance": 0,
+    "fps": 24,
+    "loop": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.075,
+      0.08125,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/home/ass_effect/comm_track/0_flame"
+  }
 }

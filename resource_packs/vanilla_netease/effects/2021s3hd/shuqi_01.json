@@ -1,1 +1,67 @@
-{"particleeffect":{"direction":{"max":"0.0 -1.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"numparticles":{"value":"2"},"colorfade":[{"color":"0.243137 0.756863 0.149020 1.000000","time":"0.0"},{"color":"0.400000 0.792157 0.231373 1.000000","time":"0.33421052631578946"},{"color":"0.913725 1.000000 0.513725 0.000000","time":"1.0"}],"emissionrate":{"max":"2.0","min":"2.0"},"emittersize":{"value":"1.5 0.0 1.5"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.7","min":"0.5"},"particlesize":{"max":"0.04 0.04","min":"0.03 0.03"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.5 0.5","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "colorfade": [
+      {
+        "color": "0.243137 0.756863 0.149020 1.000000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.400000 0.792157 0.231373 1.000000",
+        "time": "0.33421052631578946"
+      },
+      {
+        "color": "0.913725 1.000000 0.513725 0.000000",
+        "time": "1.0"
+      }
+    ],
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "emittersize": {
+      "value": "1.5 0.0 1.5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.7",
+      "min": "0.5"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.03 0.03"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

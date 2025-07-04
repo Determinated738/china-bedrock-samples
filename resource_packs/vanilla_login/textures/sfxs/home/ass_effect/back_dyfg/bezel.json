@@ -1,63 +1,63 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enablecolor": {
-            "enable": "false"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "faceCameraMode": {
-            "value": "Horizontal"
-        },
-        "numparticles": {
-            "value": "1"
-        },
-        "particlesize": {
-            "max": "13.25 11.90",
-            "min": "13.25 11.90"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "rotationRange": {
-            "max": "90.0 0.0 0.0",
-            "min": "90.0 0.0 0.0"
-        },
-        "texture": {
-            "ani": {
-                "fps": "10",
-                "name": "textures/sfxs/home/ass_effect/back_dyfg/0_bezel",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/home/ass_effect/back_dyfg/0_bezel"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "1000",
-            "min": "1000"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "13.25 11.90",
+      "min": "13.25 11.90"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "90.0 0.0 0.0",
+      "min": "90.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/home/ass_effect/back_dyfg/0_bezel",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/home/ass_effect/back_dyfg/0_bezel"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1000",
+      "min": "1000"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

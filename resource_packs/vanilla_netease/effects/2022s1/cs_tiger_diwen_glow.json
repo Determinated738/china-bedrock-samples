@@ -1,1 +1,82 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "layer": 7, "faceCameraMode": {"value": "Horizontal"}, "emissionrate": {"max": "30.0", "min": "50.0"}, "relative": {"enable": "true"}, "particlesize": {"max": "0.75 0.75", "min": "0.75 0.75"}, "activetime": {"value": "0.46"}, "numparticles": {"value": "1"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s1/cs_tiger_chuchang_diwen_glow", "fps": "26"}, "name": "textures/sfxs/2022s1/cs_tiger_chuchang_diwen_glow"}, "thickness": {"value": "0.0"}, "delay": 3.77, "timetolive": {"max": "0.45", "min": "0.47"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "1.2 1.2", "time": "20.0%"}, {"scale": "1.44 1.44", "time": "100.0%"}], "independent": false, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "emitterScaleCurve": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "depthtest": {"enable": "true"}, "emittertype": {"value": "Sphere"}, "velocity": {"max": "0.0", "min": "0.0"}, "blend": {"name": "add"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "layer": 7,
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "50.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "particlesize": {
+      "max": "0.75 0.75",
+      "min": "0.75 0.75"
+    },
+    "activetime": {
+      "value": "0.46"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/cs_tiger_chuchang_diwen_glow",
+        "fps": "26"
+      },
+      "name": "textures/sfxs/2022s1/cs_tiger_chuchang_diwen_glow"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 3.77,
+    "timetolive": {
+      "max": "0.45",
+      "min": "0.47"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "20.0%"
+      },
+      {
+        "scale": "1.44 1.44",
+        "time": "100.0%"
+      }
+    ],
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    }
+  }
+}

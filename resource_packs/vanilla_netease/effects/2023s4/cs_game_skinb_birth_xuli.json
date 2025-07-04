@@ -1,1 +1,78 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "72.9%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "delay": 3.7, "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "2.0"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.7 0.7", "min": "0.7 0.7"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "1.0%"}, {"scale": "1.0 1.0", "time": "23.3%"}, {"scale": "1.16 1.16", "time": "100.0%"}], "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2023s4/cs_game_skinb_dianchuo_xl", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_game_skinb_dianchuo_xl"}, "timetolive": {"max": "0.7", "min": "0.6"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "72.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "delay": 3.7,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "2.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.7 0.7",
+      "min": "0.7 0.7"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "1.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "23.3%"
+      },
+      {
+        "scale": "1.16 1.16",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2023s4/cs_game_skinb_dianchuo_xl",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_game_skinb_dianchuo_xl"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

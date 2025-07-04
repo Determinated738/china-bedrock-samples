@@ -1,1 +1,81 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "0.0824 1.0000 1.0000 0.4375", "time": "3.4%"}, {"color": "0.2039 0.7216 1.0000 1.0000", "time": "9.7%"}, {"color": "0.0000 0.4000 1.0000 0.4643", "time": "47.9%"}, {"color": "0.8510 0.0000 1.0000 0.0000", "time": "100.0%"}], "delay": 1.2, "depthtest": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "numparticles": {"value": "1"}, "particlesize": {"max": "0.4 0.4", "min": "0.35 0.35"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "2.04 2.04", "time": "12.7%"}, {"scale": "2.64 2.64", "time": "100.0%"}], "texture": {"ani": {"fps": "12", "name": "textures/sfxs/2024s1/cs_loong_skinb_chuchang_alpha", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_skinb_chuchang_alpha"}, "timetolive": {"max": "0.5", "min": "0.5"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0824 1.0000 1.0000 0.4375",
+        "time": "3.4%"
+      },
+      {
+        "color": "0.2039 0.7216 1.0000 1.0000",
+        "time": "9.7%"
+      },
+      {
+        "color": "0.0000 0.4000 1.0000 0.4643",
+        "time": "47.9%"
+      },
+      {
+        "color": "0.8510 0.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.2,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.35 0.35"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.04 2.04",
+        "time": "12.7%"
+      },
+      {
+        "scale": "2.64 2.64",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2024s1/cs_loong_skinb_chuchang_alpha",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_skinb_chuchang_alpha"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

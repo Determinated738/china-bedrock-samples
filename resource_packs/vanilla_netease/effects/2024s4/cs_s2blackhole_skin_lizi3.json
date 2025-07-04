@@ -1,85 +1,85 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "33.9%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "60.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.5"
-		},
-		"direction": {
-			"max": "-1.0 0.0 0.0",
-			"min": "-1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "14.0",
-			"min": "14.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.6 1.1 0.9"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.03 0.03"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.66 0.66",
-				"time": "0.3%"
-			},
-			{
-				"scale": "0.84 0.84",
-				"time": "31.0%"
-			},
-			{
-				"scale": "0.8 0.8",
-				"time": "68.7%"
-			},
-			{
-				"scale": "0.6 0.6",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_huo_kuai1"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "1.0",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "33.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "60.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "14.0",
+      "min": "14.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.6 1.1 0.9"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.03 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.66 0.66",
+        "time": "0.3%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "31.0%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "68.7%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_skin_huo_kuai1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
+    }
+  }
 }

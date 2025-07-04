@@ -1,1 +1,112 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.1490 0.3333 1.0000 0.0000", "time": "0.0%"}, {"color": "0.9490 0.7961 1.0000 0.9732", "time": "12.4%"}, {"color": "0.7765 0.8078 1.0000 0.8393", "time": "80.0%"}, {"color": "0.1098 0.4667 1.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "15.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 1.0 0.3"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "numparticles": {"value": "3"}, "particlesize": {"max": "0.03 0.03", "min": "0.01 0.01"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "0.68 0.68", "time": "11.3%"}, {"scale": "0.36 0.36", "time": "22.0%"}, {"scale": "0.56 0.56", "time": "30.0%"}, {"scale": "0.16 0.16", "time": "38.7%"}, {"scale": "0.6 0.6", "time": "76.3%"}, {"scale": "0.0 0.0", "time": "100.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s2/cs_story_weapon_lizi02", "shuffle": false}, "name": "textures/sfxs/2024s2/cs_story_weapon_lizi02"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.2", "min": "0.6"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.1490 0.3333 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9490 0.7961 1.0000 0.9732",
+        "time": "12.4%"
+      },
+      {
+        "color": "0.7765 0.8078 1.0000 0.8393",
+        "time": "80.0%"
+      },
+      {
+        "color": "0.1098 0.4667 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 1.0 0.3"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.01"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.68 0.68",
+        "time": "11.3%"
+      },
+      {
+        "scale": "0.36 0.36",
+        "time": "22.0%"
+      },
+      {
+        "scale": "0.56 0.56",
+        "time": "30.0%"
+      },
+      {
+        "scale": "0.16 0.16",
+        "time": "38.7%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "76.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s2/cs_story_weapon_lizi02",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s2/cs_story_weapon_lizi02"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

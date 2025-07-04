@@ -1,1 +1,95 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.6161", "time": "35.8%"}, {"color": "0.4471 1.0000 1.0000 0.5446", "time": "51.3%"}, {"color": "0.0000 0.9843 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "20.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.3 0.3 0.0"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "20"}, "particlesize": {"max": "0.05 0.05", "min": "0.03 0.03"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "40.0%"}, {"scale": "1.08 1.08", "time": "60.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"ani": {"fps": "10", "name": "textures/sfxs/2024s1/ss_halloween23_weapon_lz", "shuffle": false}, "name": "textures/sfxs/2024s1/ss_halloween23_weapon_lz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.4"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6161",
+        "time": "35.8%"
+      },
+      {
+        "color": "0.4471 1.0000 1.0000 0.5446",
+        "time": "51.3%"
+      },
+      {
+        "color": "0.0000 0.9843 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "20.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.3 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.03 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "40.0%"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2024s1/ss_halloween23_weapon_lz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/ss_halloween23_weapon_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

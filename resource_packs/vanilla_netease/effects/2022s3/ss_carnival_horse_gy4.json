@@ -1,1 +1,52 @@
-{"frameeffect": {"blend_mode": 1, "cylinder_enable": false, "delay": 0.0, "delay_in_loop": false, "depth_test": true, "face_camera": true, "fade_distance": 0.0, "first_person_enable": false, "fps": 2, "frame_color": [[0.4117647058823529, 1.0, 0.7764705882352941, 0.4733333333333334], [0.3333333333333333, 1.0, 1.0, 0.78], [0.4117647058823529, 1.0, 0.7764705882352941, 0.4733333333333334]], "layer": 1, "lerp_scale": true, "loop": true, "rot_speed": [0, 0, 0], "scale": [0.45, 0.45, 1.0], "shuffle": false, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2022s3/ss_carnival_horse_gy4"}}
+{
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": false,
+    "delay": 0,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": true,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 2,
+    "frame_color": [
+      [
+        0.4117647058823529,
+        1,
+        0.7764705882352941,
+        0.4733333333333334
+      ],
+      [
+        0.3333333333333333,
+        1,
+        1,
+        0.78
+      ],
+      [
+        0.4117647058823529,
+        1,
+        0.7764705882352941,
+        0.4733333333333334
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": true,
+    "loop": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2022s3/ss_carnival_horse_gy4"
+  }
+}

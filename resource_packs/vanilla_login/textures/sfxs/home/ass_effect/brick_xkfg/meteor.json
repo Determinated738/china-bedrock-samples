@@ -1,70 +1,70 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 1.0000",
-                "time": "60%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "constantforce": {
-            "value": "-0.6 -1.0 0.0"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "-0.6 -1.0 0.0",
-            "min": "-0.6 -1.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "1.0",
-            "min": "1.0"
-        },
-        "emittersize": {
-            "value": "1.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enabletexture": {
-            "enable": "true"
-        },
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "0.1 2.0",
-            "min": "0.1 1.0"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "rotation": {
-            "max": "-30.0",
-            "min": "-30.0"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/brick_xkfg/0_liuxin"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "2.0",
-            "min": "2.0"
-        },
-        "velocity": {
-            "max": "1.0",
-            "min": "0.3"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "60%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "constantforce": {
+      "value": "-0.6 -1.0 0.0"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "-0.6 -1.0 0.0",
+      "min": "-0.6 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "emittersize": {
+      "value": "1.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.1 2.0",
+      "min": "0.1 1.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotation": {
+      "max": "-30.0",
+      "min": "-30.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/brick_xkfg/0_liuxin"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.3"
     }
+  }
 }

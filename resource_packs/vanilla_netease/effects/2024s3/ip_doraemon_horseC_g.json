@@ -1,69 +1,69 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.0000 0.3176 1.0000 0.1875",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.3412 0.2941 1.0000 0.2946",
-				"time": "42.4%"
-			},
-			{
-				"color": "0.4000 0.0000 1.0000 0.0268",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "-1.0 0.0 0.0",
-			"min": "-0.05 0.0 -0.01",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "6.0",
-			"min": "5.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.0 0.0 0.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"faceCameraMode": {
-			"value": "Horizontal"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.5 0.5",
-			"min": "1.0 1.0"
-		},
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 360.0"
-		},
-		"rotationSpeedRange": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 -1.0"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s3/ip_doraemon_horseC_Smoke05"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.3176 1.0000 0.1875",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3412 0.2941 1.0000 0.2946",
+        "time": "42.4%"
+      },
+      {
+        "color": "0.4000 0.0000 1.0000 0.0268",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-0.05 0.0 -0.01",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "1.0 1.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s3/ip_doraemon_horseC_Smoke05"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

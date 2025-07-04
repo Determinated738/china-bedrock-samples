@@ -1,71 +1,71 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.5"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 1.0000",
-				"time": "26.1%"
-			},
-			{
-				"color": "1.0000 0.6667 0.0000 0.9911",
-				"time": "78.9%"
-			},
-			{
-				"color": "1.0000 0.5020 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 4.9,
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Inwards"
-		},
-		"emissionrate": {
-			"max": "50.0",
-			"min": "30.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "2.5 2.5 2.5"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"particlesize": {
-			"max": "0.07 1.0",
-			"min": "0.07 1.0"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_lizi2"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "5.0",
-			"min": "3.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "26.1%"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.9911",
+        "time": "78.9%"
+      },
+      {
+        "color": "1.0000 0.5020 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 4.9,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.5 2.5 2.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "particlesize": {
+      "max": "0.07 1.0",
+      "min": "0.07 1.0"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_lizi2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "3.0"
+    }
+  }
 }

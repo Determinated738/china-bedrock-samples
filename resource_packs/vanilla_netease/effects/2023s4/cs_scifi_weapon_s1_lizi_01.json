@@ -1,1 +1,92 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "28.2%"}, {"color": "1.0000 1.0000 1.0000 0.8929", "time": "64.5%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "2.0", "min": "2.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Cylinder"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "layer": 0, "numparticles": {"value": "4"}, "particlesize": {"max": "0.35 0.35", "min": "0.35 0.35"}, "prewarm": true, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 90.0", "min": "0.0 0.0 90.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "85.0%"}], "texture": {"ani": {"fps": "12", "name": "textures/sfxs/2023s4/cs_scifi_weapon_s1_01", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_scifi_weapon_s1_01"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.8"}, "velocity": {"max": "0.1", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "28.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8929",
+        "time": "64.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.35 0.35"
+    },
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "85.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2023s4/cs_scifi_weapon_s1_01",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_scifi_weapon_s1_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    }
+  }
+}

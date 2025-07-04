@@ -1,1 +1,32 @@
-{"frameeffect": {"cylinder_radius_down": 0.1, "scale": [1.0, 1.0, 1.0], "shuffle": false, "depth_test": true, "cylinder_height": 1.0, "cylinder_frac_num": 4, "texture": "textures/sfxs/2021s1/cs_zhaoyun_long_b_zishen09", "cylinder_radius_up": 0.5, "delay": 0.0, "fade_distance": 0, "tex_repeat_num": [1, 1], "fps": 15, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": true, "loop": true, "blend_mode": 1}}
+{
+  "frameeffect": {
+    "cylinder_radius_down": 0.1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "cylinder_height": 1,
+    "cylinder_frac_num": 4,
+    "texture": "textures/sfxs/2021s1/cs_zhaoyun_long_b_zishen09",
+    "cylinder_radius_up": 0.5,
+    "delay": 0,
+    "fade_distance": 0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 15,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": true,
+    "loop": true,
+    "blend_mode": 1
+  }
+}

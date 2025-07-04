@@ -1,1 +1,85 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 -0.01", "value": "Direction", "min": "0.0 0.0 -0.01"}, "faceCameraMode": {"value": "Direction"}, "layer": 2, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "colorfade": [{"color": "0.0000 0.9843 1.0000 1.0000", "time": "0.00"}, {"color": "0.1412 0.3333 0.5137 1.0000", "time": "0.02"}, {"color": "0.1412 0.4510 0.6549 1.0000", "time": "0.20"}], "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s1/ss_astral_horse_1", "fps": "15"}, "name": "textures/sfxs/2022s1/ss_astral_horse_1"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.2", "min": "0.1"}, "emittersize": {"value": "0.2 0.1 0.2"}, "emitterscale": [], "velocity": {"max": "0.6", "min": "0.5"}, "blend": {"name": "add"}, "particlesize": {"max": "0.12 0.4", "min": "0.05 0.25"}, "sizedelta": [{"scale": "1.74 1.74", "time": "0.00"}, {"scale": "0.0 0.0", "time": "1.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 -0.01"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 2,
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1412 0.3333 0.5137 1.0000",
+        "time": "0.02"
+      },
+      {
+        "color": "0.1412 0.4510 0.6549 1.0000",
+        "time": "0.20"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/ss_astral_horse_1",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2022s1/ss_astral_horse_1"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "emittersize": {
+      "value": "0.2 0.1 0.2"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.12 0.4",
+      "min": "0.05 0.25"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.74 1.74",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "1.00"
+      }
+    ]
+  }
+}

@@ -1,1 +1,88 @@
-{"animation":{"name":"Take 001","ID":"UANI","length":1.666666,"trackSize":3,"tracks":[{"bone":"bone_rightarm01_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[2.608337,0.769247,-7.2e-05],"quaternion":[1.9e-05,4.3e-05,0.908628,-0.417605],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_rightarm02_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[2.720641,1.581266,2.86267],"quaternion":[0.208074,-0.077489,0.535649,0.814727],"scale":[1.0,1.0,1.0]}]},{"bone":"bone_rightarm05_NTES","chanelMask":3,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[1.018229,1.830821,3.283084],"quaternion":[0.100992,-0.138661,0.679754,0.713097],"scale":[1.0,1.0,1.0]}]}]}}
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 1.666666,
+    "trackSize": 3,
+    "tracks": [
+      {
+        "bone": "bone_rightarm01_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.608337,
+              0.769247,
+              -0.000072
+            ],
+            "quaternion": [
+              0.000019,
+              0.000043,
+              0.908628,
+              -0.417605
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_rightarm02_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.720641,
+              1.581266,
+              2.86267
+            ],
+            "quaternion": [
+              0.208074,
+              -0.077489,
+              0.535649,
+              0.814727
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_rightarm05_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              1.018229,
+              1.830821,
+              3.283084
+            ],
+            "quaternion": [
+              0.100992,
+              -0.138661,
+              0.679754,
+              0.713097
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

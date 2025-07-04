@@ -1,32 +1,32 @@
 {
-    "frameeffect": {
-        "blend_mode": 2,
-        "cylinder_enable": true,
-        "cylinder_frac_num": 4,
-        "cylinder_height": 1.0,
-        "cylinder_radius_down": 0.36,
-        "cylinder_radius_up": 0.36,
-        "delay": 0.0,
-        "depth_test": true,
-        "face_camera": false,
-        "fade_distance": 0.0,
-        "fps": 15,
-        "loop": true,
-        "rot_speed": [
-            0,
-            0,
-            0
-        ],
-        "scale": [
-            1.0,
-            1.0,
-            1.0
-        ],
-        "shuffle": false,
-        "tex_repeat_num": [
-            1,
-            1
-        ],
-        "texture": "textures/sfxs/2021s3txz/cs_ocean_horse01_09liudong"
-    }
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 4,
+    "cylinder_height": 1,
+    "cylinder_radius_down": 0.36,
+    "cylinder_radius_up": 0.36,
+    "delay": 0,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "fps": 15,
+    "loop": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2021s3txz/cs_ocean_horse01_09liudong"
+  }
 }

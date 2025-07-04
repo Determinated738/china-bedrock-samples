@@ -1,1 +1,96 @@
-{"particleeffect": {"emissionrate": {"max": "1.0", "min": "5.0"}, "relative": {"enable": "true"}, "particlesize": {"max": "0.05 0.05", "min": "0.1 0.1"}, "activetime": {"value": "0.5"}, "numparticles": {"value": "20"}, "texture": {"name": "textures/sfxs/2021s1/cs_zhaoyun_long_b_mffgzuoqi_02_0_03"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.5", "min": "0.3"}, "sizedelta": [{"scale": "1.1 1.1", "time": "0.00"}, {"scale": "0.0 0.0", "time": "3.00"}], "independent": false, "direction": {"max": "-0.1 1.0 -0.1", "value": "Direction", "min": "0.1 1.0 0.1"}, "dampingforce": {"value": "1.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "emittersize": {"value": "0.5 0.5 0.5"}, "inactivetime": {"value": "0.3"}, "emitterscale": [], "colorfade": [{"color": "1.0000 0.9176 0.0000 1.0000", "time": "0.00"}, {"color": "1.0000 0.9176 0.0000 1.0000", "time": "0.01"}, {"color": "1.0000 0.3529 0.1373 1.0000", "time": "0.04"}, {"color": "1.0000 0.9725 0.1333 1.0000", "time": "0.05"}, {"color": "0.5686 0.2118 0.1216 1.0000", "time": "0.06"}], "depthtest": {"enable": "true"}, "emittertype": {"value": "Cylinder"}, "velocity": {"max": "0.5", "min": "0.2"}, "blend": {"name": "add"}}}
+{
+  "particleeffect": {
+    "emissionrate": {
+      "max": "1.0",
+      "min": "5.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.1 0.1"
+    },
+    "activetime": {
+      "value": "0.5"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/cs_zhaoyun_long_b_mffgzuoqi_02_0_03"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.1 1.1",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "3.00"
+      }
+    ],
+    "independent": false,
+    "direction": {
+      "max": "-0.1 1.0 -0.1",
+      "value": "Direction",
+      "min": "0.1 1.0 0.1"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.5 0.5 0.5"
+    },
+    "inactivetime": {
+      "value": "0.3"
+    },
+    "emitterscale": [],
+    "colorfade": [
+      {
+        "color": "1.0000 0.9176 0.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.9176 0.0000 1.0000",
+        "time": "0.01"
+      },
+      {
+        "color": "1.0000 0.3529 0.1373 1.0000",
+        "time": "0.04"
+      },
+      {
+        "color": "1.0000 0.9725 0.1333 1.0000",
+        "time": "0.05"
+      },
+      {
+        "color": "0.5686 0.2118 0.1216 1.0000",
+        "time": "0.06"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    }
+  }
+}

@@ -1,1 +1,53 @@
-{"particleeffect":{"enablecolor":{"enable":"false"},"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"depthtest":{"enable":"true"},"independent":false,"emitterScaleCurve":[],"emittersize":{"value":"0.3 0.3 0.2"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.3","min":"0.2"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s2/cs_spacehorse_m_mc_liuguang_16","fps":"0"},"name":"textures/sfxs/2021s2/cs_spacehorse_m_mc_liuguang_16"},"emitterscale":[],"velocity":{"max":"3.0","min":"2.0"},"blend":{"name":"add"},"particlesize":{"max":"0.08 0.2","min":"0.05 0.2"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "independent": false,
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.3 0.3 0.2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s2/cs_spacehorse_m_mc_liuguang_16",
+        "fps": "0"
+      },
+      "name": "textures/sfxs/2021s2/cs_spacehorse_m_mc_liuguang_16"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "3.0",
+      "min": "2.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.08 0.2",
+      "min": "0.05 0.2"
+    }
+  }
+}

@@ -1,70 +1,66 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "0.8863 0.7843 0.0000 0.0000",
-                "time": "0.00"
-            },
-            {
-                "color": "1.0000 0.7294 0.0902 0.0982",
-                "time": "0.18"
-            },
-            {
-                "color": "1.0000 0.3804 0.1725 0.0446",
-                "time": "0.53"
-            },
-            {
-                "color": "1.0000 0.5686 0.4902 0.0000",
-                "time": "0.70"
-            }
-        ],
-        "direction": {
-            "max": "-1.0 0.0 0.0",
-            "min": "-0.05 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "20.0",
-            "min": "10.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Box"
-        },
-        "offsetInCamera": {
-            "value": "-0.5"
-        },
-        "particlesize": {
-            "max": "0.5 0.5",
-            "min": "0.5 0.5"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/2023s2/cs_guochao_skina_sun"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "0.5",
-            "min": "0.7"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.8863 0.7843 0.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.7294 0.0902 0.0982",
+        "time": "0.18"
+      },
+      {
+        "color": "1.0000 0.3804 0.1725 0.0446",
+        "time": "0.53"
+      },
+      {
+        "color": "1.0000 0.5686 0.4902 0.0000",
+        "time": "0.70"
+      }
+    ],
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-0.05 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "offsetInCamera": {
+      "value": "-0.5"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2023s2/cs_guochao_skina_sun"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

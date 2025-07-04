@@ -1,1 +1,81 @@
-{"particleeffect": {"colorfade": [{"color": "0.0000 0.0000 0.0000 0.0000", "time": "0.0%"}, {"color": "0.0941 0.0745 0.0078 1.0000", "time": "29.2%"}, {"color": "0.0784 0.0510 0.0000 1.0000", "time": "63.9%"}, {"color": "0.2078 0.1451 0.0000 0.0000", "time": "100.0%"}], "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Inwards"}, "emissionrate": {"max": "3.0", "min": "3.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.6 0.6 0.6"}, "emittertype": {"value": "Sphere"}, "enableloop": {"enable": "true"}, "numparticles": {"value": "3"}, "particlesize": {"max": "0.01 0.01", "min": "0.02 0.02"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.5 1.5", "time": "0.0%"}, {"scale": "0.74 0.74", "time": "100.0%"}], "texture": {"ani": {"fps": "18", "name": "", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_guochao_skina_victory_00001"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.5", "min": "0.4"}, "velocity": {"max": "0.5", "min": "0.8"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 0.0000 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0941 0.0745 0.0078 1.0000",
+        "time": "29.2%"
+      },
+      {
+        "color": "0.0784 0.0510 0.0000 1.0000",
+        "time": "63.9%"
+      },
+      {
+        "color": "0.2078 0.1451 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.6 0.6 0.6"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.01 0.01",
+      "min": "0.02 0.02"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.5 1.5",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.74 0.74",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "18",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_guochao_skina_victory_00001"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.8"
+    }
+  }
+}

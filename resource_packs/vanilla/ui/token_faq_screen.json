@@ -1,6 +1,5 @@
 {
   "namespace": "token_faq",
-
   "main_panel": {
     "type": "stack_panel",
     "controls": [
@@ -53,23 +52,33 @@
       }
     ]
   },
-
   "scrolling_panel@common.scrolling_panel": {
     "$scrolling_content": "token_faq.main_panel",
     "$show_background": false,
-    "$scroll_size": [ 4, "100%-4px" ],
-    "$scrolling_pane_size|default": [ "100%", "default" ],
+    "$scroll_size": [
+      4,
+      "100%-4px"
+    ],
+    "$scrolling_pane_size|default": [
+      "100%",
+      "default"
+    ],
     "$always_handle_scrolling": true
   },
-
   "token_faq_screen_content": {
     "type": "panel",
     "controls": [
       {
         "dialog@common_dialogs.main_panel_no_buttons": {
           "$title_panel": "common_dialogs.standard_title_label",
-          "$title_size": [ "100% - 14px", 10 ],
-          "size": [ "90%", "90%" ],
+          "$title_size": [
+            "100% - 14px",
+            10
+          ],
+          "size": [
+            "90%",
+            "90%"
+          ],
           "$text_name": "store.tokens.faq",
           "$child_control": "token_faq.scrolling_panel",
           "layer": 2
@@ -81,7 +90,6 @@
     "alpha": 0.65,
     "layer": 1
   },
-
   "token_faq_screen@common.base_screen": {
     "button_mappings": [
       {
@@ -106,22 +114,30 @@
     "$screen_content": "token_faq.token_faq_screen_content",
     "$screen_background_control": "token_faq.background"
   },
-
   "token_content_panel": {
     "type": "stack_panel",
-    "size": [ "100%-4px" , "100%-4px" ],
+    "size": [
+      "100%-4px",
+      "100%-4px"
+    ],
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "controls": [
       {
         "image_panel": {
           "type": "panel",
-          "size": [ "100%", "fill" ],
+          "size": [
+            "100%",
+            "fill"
+          ],
           "controls": [
             {
               "token_info_image": {
                 "type": "image",
-                "size": [ "233%y", "100%" ],
+                "size": [
+                  "233%y",
+                  "100%"
+                ],
                 "texture": "textures/ui/token_info_image"
               }
             }
@@ -132,7 +148,10 @@
         "token_info_text": {
           "type": "label",
           "text": "store.tokens.tokenInfo",
-          "size": [ "100%", "default" ],
+          "size": [
+            "100%",
+            "default"
+          ],
           "font_type": "smooth",
           "font_scale_factor": 1.1,
           "color": "$store_white_text_color"
@@ -140,13 +159,15 @@
       }
     ]
   },
-
   "token_popup_content": {
     "type": "panel",
     "controls": [
       {
         "dialog@common_dialogs.main_panel_one_button": {
-          "size": [ 260, "100% - 70px" ],
+          "size": [
+            260,
+            "100% - 70px"
+          ],
           "$button_panel": "token_faq.token_faq_button_panel",
           "$text_name": "store.tokens.name",
           "$child_control": "token_faq.token_content_panel",
@@ -155,9 +176,11 @@
       }
     ]
   },
-
   "token_faq_button_panel@common_buttons.light_text_button": {
-    "size": [ "100% - 14px", 30 ],
+    "size": [
+      "100% - 14px",
+      30
+    ],
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "$pressed_button_name": "button.faq_screen",
@@ -169,7 +192,6 @@
     "$focus_override_right": "FOCUS_OVERRIDE_STOP",
     "$focus_override_up": "owned_list_0"
   },
-
   "token_popup@common.base_screen": {
     "button_mappings": [
       {
@@ -194,5 +216,4 @@
     "$screen_content": "token_faq.token_popup_content",
     "$screen_background_control": "token_faq.background"
   }
-
 }

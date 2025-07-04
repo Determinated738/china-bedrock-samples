@@ -1,98 +1,98 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "1.1"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "6.3%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 -10.0 0.0"
-		},
-		"dampingforce": {
-			"value": "3.0"
-		},
-		"delay": 1.58,
-		"direction": {
-			"max": "0.0 -0.7 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "55.0",
-			"min": "30.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterpath": [
-			{
-				"offset": "0.0 -1.0 0.0",
-				"rotation": "180.0 0.0 0.0",
-				"time": "0.0"
-			}
-		],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "3.0 4.0 3.0"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Rotate Y"
-		},
-		"layer": 3,
-		"numparticles": {
-			"value": "70"
-		},
-		"particlesize": {
-			"max": "0.09 0.8",
-			"min": "0.0 0.4"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.7 0.7",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.17 1.17",
-				"time": "6.0%"
-			},
-			{
-				"scale": "0.24 0.24",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_lizi03"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.05",
-			"min": "0.7"
-		},
-		"velocity": {
-			"max": "150.0",
-			"min": "10.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "1.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "6.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -10.0 0.0"
+    },
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "delay": 1.58,
+    "direction": {
+      "max": "0.0 -0.7 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "55.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterpath": [
+      {
+        "offset": "0.0 -1.0 0.0",
+        "rotation": "180.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "3.0 4.0 3.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "70"
+    },
+    "particlesize": {
+      "max": "0.09 0.8",
+      "min": "0.0 0.4"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.7 0.7",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.17 1.17",
+        "time": "6.0%"
+      },
+      {
+        "scale": "0.24 0.24",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_lizi03"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.05",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "150.0",
+      "min": "10.0"
+    }
+  }
 }

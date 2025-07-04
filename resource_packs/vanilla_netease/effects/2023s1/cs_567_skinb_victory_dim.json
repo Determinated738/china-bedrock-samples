@@ -1,1 +1,136 @@
-{"frameeffect": {"blend_mode": 1, "cylinder_enable": false, "delay": 0.1, "delay_in_loop": false, "depth_test": true, "face_camera": false, "fade_distance": 0.0, "first_person_enable": false, "fps": 24, "frame_color": [[1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 0.98], [1, 1, 1, 0.98], [1, 1, 1, 0.94], [1, 1, 1, 0.86], [1, 1, 1, 0.7466666666666666], [1, 1, 1, 0.6466666666666667], [1, 1, 1, 0.52], [1, 1, 1, 0.38], [1, 1, 1, 0.1333333333333333]], "layer": 8, "lerp_scale": true, "loop": false, "rot_speed": [0, 0, 0], "scale": [1.0, 1.0, 1.0], "shuffle": false, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2023s1/cs_567_weapon_dm"}}
+{
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": false,
+    "delay": 0.1,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 24,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.98
+      ],
+      [
+        1,
+        1,
+        1,
+        0.98
+      ],
+      [
+        1,
+        1,
+        1,
+        0.94
+      ],
+      [
+        1,
+        1,
+        1,
+        0.86
+      ],
+      [
+        1,
+        1,
+        1,
+        0.7466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.52
+      ],
+      [
+        1,
+        1,
+        1,
+        0.38
+      ],
+      [
+        1,
+        1,
+        1,
+        0.1333333333333333
+      ]
+    ],
+    "layer": 8,
+    "lerp_scale": true,
+    "loop": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2023s1/cs_567_weapon_dm"
+  }
+}

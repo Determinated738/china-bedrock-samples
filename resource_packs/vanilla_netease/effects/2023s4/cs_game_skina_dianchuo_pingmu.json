@@ -1,1 +1,72 @@
-{"particleeffect": {"activetime": {"value": "0.4"}, "blend": {"name": "add"}, "delay": 0.95, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "4.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "2.0 2.0 2.0"}, "emittertype": {"value": "Cylinder"}, "numparticles": {"value": "8"}, "particlesize": {"max": "0.05 0.05", "min": "0.1 0.1"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.24 0.24", "time": "1.7%"}, {"scale": "1.2 1.2", "time": "21.3%"}, {"scale": "1.5 1.5", "time": "46.0%"}, {"scale": "1.47 1.47", "time": "99.0%"}], "texture": {"ani": {"fps": "24", "name": "textures/sfxs/2023s4/cs_game_skina_dianchuo_dianluban", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_game_skina_dianchuo_dianluban"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.4"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "delay": 0.95,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.0 2.0 2.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.24 0.24",
+        "time": "1.7%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "21.3%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "46.0%"
+      },
+      {
+        "scale": "1.47 1.47",
+        "time": "99.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2023s4/cs_game_skina_dianchuo_dianluban",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_game_skina_dianchuo_dianluban"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

@@ -1,1 +1,63 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 1.0","value":"Direction","min":"0.0 0.0 0.0"},"numparticles":{"value":"6"},"blend":{"name":"add"},"colorfade":[{"color":"0.1725 0.6000 1.0000 1.0000","time":"0.00"},{"color":"0.3333 1.0000 1.0000 0.2857","time":"0.80"}],"emissionrate":{"max":"7.0","min":"6.0"},"emitterScaleCurve":[],"layer":11,"texture":{"name":"textures/sfxs/2021s1/yx_fazhen_sanguo_A_lizi"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"1.2","min":"0.8"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.5 0.3 0.0"},"velocity":{"max":"1.2","min":"1.5"},"emitterscale":[],"particlesize":{"max":"0.05 0.05","min":"0.02 0.02"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.1725 0.6000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.3333 1.0000 1.0000 0.2857",
+        "time": "0.80"
+      }
+    ],
+    "emissionrate": {
+      "max": "7.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 11,
+    "texture": {
+      "name": "textures/sfxs/2021s1/yx_fazhen_sanguo_A_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.8"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.5 0.3 0.0"
+    },
+    "velocity": {
+      "max": "1.2",
+      "min": "1.5"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    }
+  }
+}

@@ -1,1 +1,72 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 0.9451 0.3333 1.0000", "time": "0.0%"}, {"color": "1.0000 0.4000 0.0000 0.9643", "time": "51.6%"}, {"color": "0.8745 0.1451 0.0000 0.5893", "time": "85.5%"}, {"color": "1.0000 0.2314 0.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "15.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.5 1.2 0.2"}, "emittertype": {"value": "Box"}, "layer": 2, "numparticles": {"value": "5"}, "particlesize": {"max": "0.45 0.45", "min": "0.3 0.3"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "10", "name": "textures/sfxs/2023s3/cs_elem_horse_huo2", "shuffle": true}, "name": "textures/sfxs/2023s3/cs_elem_horse_huo2"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.5"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.9451 0.3333 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.4000 0.0000 0.9643",
+        "time": "51.6%"
+      },
+      {
+        "color": "0.8745 0.1451 0.0000 0.5893",
+        "time": "85.5%"
+      },
+      {
+        "color": "1.0000 0.2314 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 1.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.45 0.45",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2023s3/cs_elem_horse_huo2",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2023s3/cs_elem_horse_huo2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

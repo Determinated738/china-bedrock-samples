@@ -1,1 +1,77 @@
-{"particleeffect":{"independent":false,"direction":{"max":"-0.05 0.5 -0.03","value":"Direction","min":"0.05 0.0 0.03"},"dampingforce":{"value":"0.3"},"faceCameraMode":{"value":"Direction"},"blend":{"name":"add"},"colorfade":[{"color":"1.0000 1.0000 0.4980 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.2400 1.0000","time":"0.60"}],"emissionrate":{"max":"3.0","min":"2.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.3 0.2 0.1"},"texture":{"ani":{"shuffle":true,"name":"textures/sfxs/2021s4/ss_dragon_fpA_12","fps":"15"},"name":"textures/sfxs/2021s4/ss_dragon_fpA_12"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.35","min":"0.2"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.1","min":"0.0"},"rotationRange":{"max":"-20.0 -40.0 -20.0","min":"20.0 40.0 20.0"},"particlesize":{"max":"0.12 0.12","min":"0.06 0.06"},"numparticles":{"value":"2"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "-0.05 0.5 -0.03",
+      "value": "Direction",
+      "min": "0.05 0.0 0.03"
+    },
+    "dampingforce": {
+      "value": "0.3"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.4980 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 1.0000",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "3.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.3 0.2 0.1"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2021s4/ss_dragon_fpA_12",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s4/ss_dragon_fpA_12"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.35",
+      "min": "0.2"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    },
+    "rotationRange": {
+      "max": "-20.0 -40.0 -20.0",
+      "min": "20.0 40.0 20.0"
+    },
+    "particlesize": {
+      "max": "0.12 0.12",
+      "min": "0.06 0.06"
+    },
+    "numparticles": {
+      "value": "2"
+    }
+  }
+}

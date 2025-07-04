@@ -1,85 +1,85 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.9922 1.0000 0.4863 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.7843 0.0000 1.0000",
-				"time": "35.0%"
-			},
-			{
-				"color": "1.0000 0.3176 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 0.21,
-		"direction": {
-			"max": "0.0 0.0 -1.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "100.0",
-			"min": "100.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.7 0.0 0.7"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"particlesize": {
-			"max": "0.02 0.02",
-			"min": "0.01 0.01"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.8 0.8",
-				"time": "19.3%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "49.0%"
-			},
-			{
-				"scale": "0.86 0.86",
-				"time": "67.7%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinD_fangkuai"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.3",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.5",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9922 1.0000 0.4863 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.7843 0.0000 1.0000",
+        "time": "35.0%"
+      },
+      {
+        "color": "1.0000 0.3176 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.21,
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.7 0.0 0.7"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.01 0.01"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "19.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "49.0%"
+      },
+      {
+        "scale": "0.86 0.86",
+        "time": "67.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/IP_doraemon_S2skinD_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
 }

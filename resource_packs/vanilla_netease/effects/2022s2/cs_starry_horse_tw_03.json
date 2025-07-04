@@ -1,1 +1,88 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 -0.01", "value": "Direction", "min": "0.0 0.0 -0.01"}, "dampingforce": {"value": "5.0"}, "faceCameraMode": {"value": "Direction"}, "layer": 2, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "colorfade": [{"color": "0.0000 0.9843 1.0000 1.0000", "time": "0.00"}, {"color": "0.4157 0.0000 1.0000 1.0000", "time": "0.02"}, {"color": "0.0000 0.4510 1.0000 1.0000", "time": "0.04"}], "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s2/cs_starry_horse_liuguang_21", "fps": "15"}, "name": "textures/sfxs/2022s2/cs_starry_horse_liuguang_21"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.2", "min": "0.1"}, "emittersize": {"value": "0.2 0.1 0.2"}, "emitterscale": [], "velocity": {"max": "3.0", "min": "5.0"}, "blend": {"name": "add"}, "particlesize": {"max": "0.02 0.2", "min": "0.05 0.3"}, "sizedelta": [{"scale": "1.74 1.74", "time": "0.00"}, {"scale": "0.0 0.0", "time": "1.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 -0.01"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 2,
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.4157 0.0000 1.0000 1.0000",
+        "time": "0.02"
+      },
+      {
+        "color": "0.0000 0.4510 1.0000 1.0000",
+        "time": "0.04"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s2/cs_starry_horse_liuguang_21",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2022s2/cs_starry_horse_liuguang_21"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "emittersize": {
+      "value": "0.2 0.1 0.2"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.02 0.2",
+      "min": "0.05 0.3"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.74 1.74",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "1.00"
+      }
+    ]
+  }
+}

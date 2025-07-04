@@ -1,1 +1,73 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.25"},"numparticles":{"value":"3"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"0.0000 0.9529 1.0000 1.0000","time":"0.05"},{"color":"0.3059 0.1843 1.0000 0.8839","time":"0.24"},{"color":"0.6745 0.2157 1.0000 0.3393","time":"0.38"}],"emissionrate":{"max":"40.0","min":"30.0"},"layer":15,"depthtest":{"enable":"false"},"delay":0.15,"timetolive":{"max":"0.38","min":"0.2"},"texture":{"name":"textures/sfxs/2021s1/xy_jiaoyin_saibopengke_sun02"},"blend":{"name":"add"},"particlesize":{"max":"0.7 1.2","min":"1.0 1.5"},"sizedelta":[{"scale":"0.5 0.5","time":"0.0%"},{"scale":"1.6 1.6","time":"54.5%"},{"scale":"1.83 1.83","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.25"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 0.9529 1.0000 1.0000",
+        "time": "0.05"
+      },
+      {
+        "color": "0.3059 0.1843 1.0000 0.8839",
+        "time": "0.24"
+      },
+      {
+        "color": "0.6745 0.2157 1.0000 0.3393",
+        "time": "0.38"
+      }
+    ],
+    "emissionrate": {
+      "max": "40.0",
+      "min": "30.0"
+    },
+    "layer": 15,
+    "depthtest": {
+      "enable": "false"
+    },
+    "delay": 0.15,
+    "timetolive": {
+      "max": "0.38",
+      "min": "0.2"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/xy_jiaoyin_saibopengke_sun02"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.7 1.2",
+      "min": "1.0 1.5"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.5 0.5",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.6 1.6",
+        "time": "54.5%"
+      },
+      {
+        "scale": "1.83 1.83",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

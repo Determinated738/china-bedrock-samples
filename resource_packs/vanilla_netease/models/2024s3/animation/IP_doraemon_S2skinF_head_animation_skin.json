@@ -1,1 +1,167 @@
-{"animation":{"ID":"UANI","length":3.333333,"name":"Take 001","trackSize":6,"tracks":[{"bone":"Bone001","chanelMask":0,"keyFramesSize":1,"keyframes":[{"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"Bone002","chanelMask":3,"keyFramesSize":1,"keyframes":[{"pos":[4.030355,0.017646,0.103816],"quaternion":[-8e-06,-0.0,0.0,1.0],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"Bone003","chanelMask":3,"keyFramesSize":1,"keyframes":[{"pos":[4.236575,0.017645,-2.395745],"quaternion":[-0.0,-0.0,1.0,2.3841863594498136e-07],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"Bone004","chanelMask":3,"keyFramesSize":1,"keyframes":[{"pos":[4.236577,0.017645,2.483798],"quaternion":[-0.0,-0.0,1.0,2.3841863594498136e-07],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"Bone005","chanelMask":3,"keyFramesSize":1,"keyframes":[{"pos":[0.000287,0.017646,-1.000411],"quaternion":[-0.0,-0.0,1.0,2.3841863594498136e-07],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"Bone006","chanelMask":3,"keyFramesSize":1,"keyframes":[{"pos":[0.000288,0.017646,1.009585],"quaternion":[-0.0,-0.0,1.0,2.3841863594498136e-07],"scale":[1.0,1.0,1.0],"time":0.0}]}]},"is_global":true}
+{
+  "animation": {
+    "ID": "UANI",
+    "length": 3.333333,
+    "name": "Take 001",
+    "trackSize": 6,
+    "tracks": [
+      {
+        "bone": "Bone001",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "Bone002",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              4.030355,
+              0.017646,
+              0.103816
+            ],
+            "quaternion": [
+              -0.000008,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "Bone003",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              4.236575,
+              0.017645,
+              -2.395745
+            ],
+            "quaternion": [
+              0,
+              0,
+              1,
+              2.3841863594498136e-7
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "Bone004",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              4.236577,
+              0.017645,
+              2.483798
+            ],
+            "quaternion": [
+              0,
+              0,
+              1,
+              2.3841863594498136e-7
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "Bone005",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              0.000287,
+              0.017646,
+              -1.000411
+            ],
+            "quaternion": [
+              0,
+              0,
+              1,
+              2.3841863594498136e-7
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "Bone006",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              0.000288,
+              0.017646,
+              1.009585
+            ],
+            "quaternion": [
+              0,
+              0,
+              1,
+              2.3841863594498136e-7
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      }
+    ]
+  },
+  "is_global": true
+}

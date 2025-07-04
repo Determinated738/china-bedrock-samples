@@ -1,91 +1,91 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.9098 0.5412 0.0446",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.5268",
-				"time": "19.5%"
-			},
-			{
-				"color": "1.0000 0.5569 0.3529 0.3482",
-				"time": "58.2%"
-			},
-			{
-				"color": "0.5294 0.3569 0.1608 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 1.0 0.0"
-		},
-		"dampingforce": {
-			"value": "4.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "25.0",
-			"min": "18.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.1 0.5"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"numparticles": {
-			"value": "20"
-		},
-		"particlesize": {
-			"max": "0.15 0.15",
-			"min": "0.07 0.07"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.81 0.81",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.35 1.35",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "36",
-				"name": "textures/sfxs/2024s4/ip_doraemon_horseE_ql",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/ip_doraemon_horseE_ql"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "5.0",
-			"min": "4.1"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9098 0.5412 0.0446",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5268",
+        "time": "19.5%"
+      },
+      {
+        "color": "1.0000 0.5569 0.3529 0.3482",
+        "time": "58.2%"
+      },
+      {
+        "color": "0.5294 0.3569 0.1608 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "25.0",
+      "min": "18.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.1 0.5"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.07 0.07"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.81 0.81",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.35 1.35",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "36",
+        "name": "textures/sfxs/2024s4/ip_doraemon_horseE_ql",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/ip_doraemon_horseE_ql"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "4.1"
+    }
+  }
 }

@@ -1,1 +1,99 @@
-{"particleeffect":{"direction":{"max":"0.0 -0.2 0.0","value":"Direction","min":"0.0 0.0 0.0"},"dampingforce":{"value":"0.8"},"numparticles":{"value":"8"},"colorfade":[{"color":"1.0000 0.8784 0.1843 1.0000","time":"0.0%"},{"color":"1.0000 0.0314 0.0314 0.7411","time":"13.4%"},{"color":"1.0000 1.0000 0.1020 1.0000","time":"26.1%"},{"color":"1.0000 0.1412 0.0314 0.1964","time":"40.8%"},{"color":"1.0000 1.0000 0.0000 0.9554","time":"53.7%"},{"color":"1.0000 0.0667 0.0000 0.2768","time":"67.9%"},{"color":"1.0000 0.9686 0.4902 1.0000","time":"100.0%"}],"emissionrate":{"max":"5.0","min":"5.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.2 0.3 0.2"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.8","min":"1.0"},"texture":{"name":"textures/sfxs/2022s2/cs_starry_weapon_lz11"},"emitterscale":[],"velocity":{"max":"0.5","min":"0.3"},"blend":{"name":"add"},"particlesize":{"max":"0.04 0.04","min":"0.03 0.03"},"sizedelta":[{"scale":"0.28 0.28","time":"0.09"},{"scale":"0.64 0.64","time":"0.79"},{"scale":"0.35 0.35","time":"2.00"},{"scale":"0.35 0.35","time":"2.00"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 -0.2 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "0.8"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8784 0.1843 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.0314 0.0314 0.7411",
+        "time": "13.4%"
+      },
+      {
+        "color": "1.0000 1.0000 0.1020 1.0000",
+        "time": "26.1%"
+      },
+      {
+        "color": "1.0000 0.1412 0.0314 0.1964",
+        "time": "40.8%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.9554",
+        "time": "53.7%"
+      },
+      {
+        "color": "1.0000 0.0667 0.0000 0.2768",
+        "time": "67.9%"
+      },
+      {
+        "color": "1.0000 0.9686 0.4902 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.2 0.3 0.2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "1.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s2/cs_starry_weapon_lz11"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.03 0.03"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.28 0.28",
+        "time": "0.09"
+      },
+      {
+        "scale": "0.64 0.64",
+        "time": "0.79"
+      },
+      {
+        "scale": "0.35 0.35",
+        "time": "2.00"
+      },
+      {
+        "scale": "0.35 0.35",
+        "time": "2.00"
+      }
+    ]
+  }
+}

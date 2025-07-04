@@ -1,1 +1,68 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 0.3929", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.4554", "time": "36.3%"}, {"color": "1.0000 1.0000 1.0000 0.2679", "time": "68.7%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "4.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 1.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "20.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 2, "numparticles": {"value": "15"}, "particlesize": {"max": "0.4 0.57", "min": "0.4 0.57"}, "pointFiltering": true, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2024s2/ss_story_horse_luntai", "shuffle": false}, "name": "textures/sfxs/2024s2/ss_story_horse_luntai"}, "timetolive": {"max": "0.4", "min": "0.3"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.3929",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4554",
+        "time": "36.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2679",
+        "time": "68.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.4 0.57",
+      "min": "0.4 0.57"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2024s2/ss_story_horse_luntai",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s2/ss_story_horse_luntai"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

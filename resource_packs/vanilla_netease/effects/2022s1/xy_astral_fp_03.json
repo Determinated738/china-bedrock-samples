@@ -1,1 +1,92 @@
-{"particleeffect": {"layer": 2, "faceCameraMode": {"value": "Direction Horizontal"}, "emissionrate": {"max": "6.0", "min": "6.0"}, "relative": {"enable": "false"}, "particlesize": {"max": "0.65 0.65", "min": "0.65 0.65"}, "numparticles": {"value": "6"}, "texture": {"ani": {"shuffle": false, "name": "", "fps": "12"}, "name": "textures/sfxs/2022s1/xy_astral_fp_1_00000"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.7", "min": "0.7"}, "sizedelta": [{"scale": "1.0 1.0", "time": "2.00"}], "independent": false, "direction": {"max": "0.1 0.0 0.0", "value": "Direction", "min": "0.1 0.0 0.0"}, "dampingforce": {"value": "1.0"}, "emitterScaleCurve": [], "emittersize": {"value": "0.01 0.0 0.01"}, "emitterscale": [], "rotationRange": {"max": "0.0 0.0 90.0", "min": "0.0 0.0 90.0"}, "colorfade": [{"color": "0.0000 0.6510 1.0000 0.2411", "time": "0.00"}, {"color": "0.0000 0.3176 1.0000 0.6339", "time": "0.13"}, {"color": "0.2510 0.2510 1.0000 0.4018", "time": "0.43"}, {"color": "0.6549 0.2627 1.0000 0.0000", "time": "0.70"}], "depthtest": {"enable": "true"}, "emittertype": {"value": "Sphere"}, "velocity": {"max": "0.0", "min": "-0.1"}, "blend": {"name": "add"}}}
+{
+  "particleeffect": {
+    "layer": 2,
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "particlesize": {
+      "max": "0.65 0.65",
+      "min": "0.65 0.65"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "12"
+      },
+      "name": "textures/sfxs/2022s1/xy_astral_fp_1_00000"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.7"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "2.00"
+      }
+    ],
+    "independent": false,
+    "direction": {
+      "max": "0.1 0.0 0.0",
+      "value": "Direction",
+      "min": "0.1 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.01 0.0 0.01"
+    },
+    "emitterscale": [],
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.6510 1.0000 0.2411",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 0.3176 1.0000 0.6339",
+        "time": "0.13"
+      },
+      {
+        "color": "0.2510 0.2510 1.0000 0.4018",
+        "time": "0.43"
+      },
+      {
+        "color": "0.6549 0.2627 1.0000 0.0000",
+        "time": "0.70"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "-0.1"
+    },
+    "blend": {
+      "name": "add"
+    }
+  }
+}

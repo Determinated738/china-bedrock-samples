@@ -1,1 +1,57 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"numparticles":{"value":"3"},"colorfade":[{"color":"0.3098 0.0392 0.5333 0.0000","time":"0.0%"},{"color":"0.1882 0.1882 1.0000 0.2143","time":"12.9%"},{"color":"0.0314 0.4392 0.4118 0.4464","time":"47.4%"},{"color":"0.1882 0.1882 1.0000 0.1875","time":"88.4%"},{"color":"0.2980 0.1373 0.6196 0.0000","time":"100.0%"}],"emissionrate":{"max":"3.0","min":"3.0"},"layer":0,"texture":{"name":"textures/particle/2020s2/2020s2_cs_jian_FP_sun"},"relative":{"enable":"true"},"velocity":{"max":"0.0","min":"0.0"},"rotationRange":{"max":"0.0 0.0 0.0","min":"0.0 0.0 0.0"},"particlesize":{"max":"0.63 0.63","min":"0.6 0.6"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "colorfade": [
+      {
+        "color": "0.3098 0.0392 0.5333 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1882 0.1882 1.0000 0.2143",
+        "time": "12.9%"
+      },
+      {
+        "color": "0.0314 0.4392 0.4118 0.4464",
+        "time": "47.4%"
+      },
+      {
+        "color": "0.1882 0.1882 1.0000 0.1875",
+        "time": "88.4%"
+      },
+      {
+        "color": "0.2980 0.1373 0.6196 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "layer": 0,
+    "texture": {
+      "name": "textures/particle/2020s2/2020s2_cs_jian_FP_sun"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "particlesize": {
+      "max": "0.63 0.63",
+      "min": "0.6 0.6"
+    }
+  }
+}

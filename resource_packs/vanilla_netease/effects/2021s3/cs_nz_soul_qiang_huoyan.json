@@ -1,1 +1,128 @@
-{"frameeffect": {"layer": 1, "scale": [1.25, 1.25, 1.0], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "texture": "textures/sfxs/2021s3/cs_nz_soul_nezha_lvhuo", "delay": 0.0, "fade_distance": 0.0, "tex_repeat_num": [1, 1], "fps": 15, "first_person_enable": false, "face_camera": false, "rot_speed": [0.0, 0.0, 0.0], "cylinder_enable": false, "loop": true, "blend_mode": 1}}
+{
+  "frameeffect": {
+    "layer": 1,
+    "scale": [
+      1.25,
+      1.25,
+      1
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "texture": "textures/sfxs/2021s3/cs_nz_soul_nezha_lvhuo",
+    "delay": 0,
+    "fade_distance": 0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 15,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 1
+  }
+}

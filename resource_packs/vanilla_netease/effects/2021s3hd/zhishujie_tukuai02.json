@@ -1,75 +1,73 @@
 {
-    "particleeffect": {
-        "constantforce": {
-            "value": "0.0 4.0 0.0"
-        },
-        "dampingforce": {
-            "value": "1.0"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 -1.0 0.1",
-            "min": "0.0 -1.0 0.1",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "6.0",
-            "min": "5.0"
-        },
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.4 0.1 0.3"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enablecolor": {
-            "enable": "false"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "numparticles": {
-            "value": "5"
-        },
-        "particlesize": {
-            "max": "0.09 0.09",
-            "min": "0.03 0.03"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "rotation": {
-            "max": "80.0",
-            "min": "0.0"
-        },
-        "rotationspeed": {
-            "max": "60.0",
-            "min": "20.0"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "0.5 0.5",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "name": "textures/sfxs/2021s3hd/tukuai02"
-        },
-        "thickness": {
-            "value": "1.0"
-        },
-        "velocity": {
-            "max": "2.0",
-            "min": "2.0"
-        }
+  "particleeffect": {
+    "constantforce": {
+      "value": "0.0 4.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.1",
+      "min": "0.0 -1.0 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.4 0.1 0.3"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.09 0.09",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotation": {
+      "max": "80.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "60.0",
+      "min": "20.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2021s3hd/tukuai02"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "2.0"
     }
+  }
 }

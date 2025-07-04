@@ -1,1 +1,113 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 0.9451 0.1451 1.0000", "time": "10.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "48.2%"}, {"color": "1.0000 0.7490 0.1137 1.0000", "time": "81.1%"}, {"color": "1.0000 0.0902 0.0902 0.7143", "time": "93.4%"}, {"color": "0.7020 0.0000 0.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "3.0"}, "delay": 0.25, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "disorder": {"increment": "0.4", "interval": "0.1", "max": "0.0 0.1 0.0", "min": "0.0 0.1 0.0"}, "emissionrate": {"max": "50.0", "min": "50.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "2.0 1.0 2.0"}, "emittertype": {"value": "Sphere"}, "numparticles": {"value": "8"}, "particlesize": {"max": "0.1 0.1", "min": "0.15 0.15"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.22 0.22", "time": "17.3%"}, {"scale": "0.8 0.8", "time": "38.7%"}, {"scale": "0.18 0.18", "time": "61.3%"}, {"scale": "0.7 0.7", "time": "83.7%"}, {"scale": "0.26 0.26", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s3/sh_nether_skin_victory_fklz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.5"}, "velocity": {"max": "2.0", "min": "1.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9451 0.1451 1.0000",
+        "time": "10.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "48.2%"
+      },
+      {
+        "color": "1.0000 0.7490 0.1137 1.0000",
+        "time": "81.1%"
+      },
+      {
+        "color": "1.0000 0.0902 0.0902 0.7143",
+        "time": "93.4%"
+      },
+      {
+        "color": "0.7020 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "delay": 0.25,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.4",
+      "interval": "0.1",
+      "max": "0.0 0.1 0.0",
+      "min": "0.0 0.1 0.0"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.0 1.0 2.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "17.3%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "38.7%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "61.3%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "83.7%"
+      },
+      {
+        "scale": "0.26 0.26",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/sh_nether_skin_victory_fklz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "1.0"
+    }
+  }
+}

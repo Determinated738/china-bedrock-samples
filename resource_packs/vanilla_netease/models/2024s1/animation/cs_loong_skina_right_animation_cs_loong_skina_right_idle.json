@@ -1,1 +1,37 @@
-{"animation":{"ID":"UANI","length":2.0,"name":"idle","trackSize":1,"tracks":[{"bone":"Bone074","chanelMask":2,"keyFramesSize":1,"keyframes":[{"pos":[0.0,0.0,0.0],"quaternion":[-0.5,0.499999,0.5,0.499999],"scale":[1.0,1.0,1.0],"time":0.0}]}]},"is_global":true}
+{
+  "animation": {
+    "ID": "UANI",
+    "length": 2,
+    "name": "idle",
+    "trackSize": 1,
+    "tracks": [
+      {
+        "bone": "Bone074",
+        "chanelMask": 2,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              -0.5,
+              0.499999,
+              0.5,
+              0.499999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      }
+    ]
+  },
+  "is_global": true
+}

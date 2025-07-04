@@ -1,129 +1,129 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.8"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.5843 0.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6353 0.0000 1.0000",
-				"time": "27.6%"
-			},
-			{
-				"color": "0.2549 0.7020 1.0000 1.0000",
-				"time": "56.3%"
-			},
-			{
-				"color": "0.3333 0.0000 1.0000 0.9464",
-				"time": "75.8%"
-			},
-			{
-				"color": "0.8902 0.3294 1.0000 0.7411",
-				"time": "91.1%"
-			},
-			{
-				"color": "1.0000 0.3451 0.6078 0.6161",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 1.0 0.0"
-		},
-		"dampingforce": {
-			"value": "5.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"disorder": {
-			"increment": "5.0",
-			"interval": "0.2",
-			"max": "0.0 0.0 0.0",
-			"min": "0.03 0.03 0.03"
-		},
-		"emissionrate": {
-			"max": "20.0",
-			"min": "20.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.2 0.35 0.35"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enableloop": {
-			"enable": "true"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"inactivetime": {
-			"max": "0.3",
-			"min": "0.0"
-		},
-		"independent": true,
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.02 0.02",
-			"min": "0.05 0.05"
-		},
-		"pointFiltering": true,
-		"prewarm": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 360.0"
-		},
-		"rotationSpeedRange": {
-			"max": "0.0 0.0 -360.0",
-			"min": "0.0 0.0 360.0"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.3 0.3",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.7 0.7",
-				"time": "10.7%"
-			},
-			{
-				"scale": "0.36 0.36",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1thunder_weapon_lizi"
-		},
-		"thickness": {
-			"value": "0.9"
-		},
-		"timetolive": {
-			"max": "1.2",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "2.4",
-			"min": "1.2"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.5843 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6353 0.0000 1.0000",
+        "time": "27.6%"
+      },
+      {
+        "color": "0.2549 0.7020 1.0000 1.0000",
+        "time": "56.3%"
+      },
+      {
+        "color": "0.3333 0.0000 1.0000 0.9464",
+        "time": "75.8%"
+      },
+      {
+        "color": "0.8902 0.3294 1.0000 0.7411",
+        "time": "91.1%"
+      },
+      {
+        "color": "1.0000 0.3451 0.6078 0.6161",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "5.0",
+      "interval": "0.2",
+      "max": "0.0 0.0 0.0",
+      "min": "0.03 0.03 0.03"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.35 0.35"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "max": "0.3",
+      "min": "0.0"
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 -360.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.3 0.3",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "10.7%"
+      },
+      {
+        "scale": "0.36 0.36",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1thunder_weapon_lizi"
+    },
+    "thickness": {
+      "value": "0.9"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "2.4",
+      "min": "1.2"
+    }
+  }
 }

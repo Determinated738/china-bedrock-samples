@@ -1,1 +1,81 @@
-{"particleeffect": {"activetime": {"value": "0.6"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "0.4745 0.1255 1.0000 0.8929", "time": "35.0%"}, {"color": "0.0000 0.3176 1.0000 0.0000", "time": "100.0%"}], "delay": 0.15, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "60.0", "min": "50.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Horizontal"}, "layer": 4, "numparticles": {"value": "1"}, "particlesize": {"max": "1.15 1.15", "min": "1.15 1.15"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.5 0.5", "time": "0.00"}, {"scale": "1.6 1.6", "time": "0.16"}, {"scale": "1.7 1.7", "time": "2.00"}], "texture": {"ani": {"fps": "24", "name": "textures/sfxs/2023s1/cs_567_skinb_bs_diwen", "shuffle": false}, "name": "textures/sfxs/2023s1/cs_567_skinb_bs_diwen"}, "timetolive": {"max": "0.6", "min": "0.6"}, "velocity": {"max": "1.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.6"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4745 0.1255 1.0000 0.8929",
+        "time": "35.0%"
+      },
+      {
+        "color": "0.0000 0.3176 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.15,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "60.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "1.15 1.15",
+      "min": "1.15 1.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.5 0.5",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.6 1.6",
+        "time": "0.16"
+      },
+      {
+        "scale": "1.7 1.7",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2023s1/cs_567_skinb_bs_diwen",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/cs_567_skinb_bs_diwen"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.0"
+    }
+  }
+}

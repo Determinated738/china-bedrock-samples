@@ -1,1 +1,17 @@
-{"minecraft:behavior_tree":{"minecraft:name":"break_nearby_block","minecraft:root":{"minecraft:sequence":{"children":[{"minecraft:find_block":{}},{"minecraft:break_block":{}}]}}}}
+{
+  "minecraft:behavior_tree": {
+    "minecraft:name": "break_nearby_block",
+    "minecraft:root": {
+      "minecraft:sequence": {
+        "children": [
+          {
+            "minecraft:find_block": {}
+          },
+          {
+            "minecraft:break_block": {}
+          }
+        ]
+      }
+    }
+  }
+}

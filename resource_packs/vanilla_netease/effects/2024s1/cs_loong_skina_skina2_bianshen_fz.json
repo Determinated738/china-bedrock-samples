@@ -1,1 +1,105 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "5.5%"}, {"color": "1.0000 1.0000 1.0000 0.9286", "time": "48.2%"}, {"color": "0.5569 1.0000 0.9137 0.3929", "time": "62.9%"}, {"color": "0.2275 0.6902 1.0000 0.1071", "time": "82.9%"}, {"color": "0.0000 0.4000 1.0000 0.0000", "time": "100.0%"}], "delay": 0.25, "depthtest": {"enable": "false"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Horizontal"}, "numparticles": {"value": "1"}, "particlesize": {"max": "0.8 0.8", "min": "0.8 0.8"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationSpeedRange": {"max": "0.0 0.0 -90.0", "min": "0.0 0.0 -90.0"}, "sizedelta": [{"scale": "0.2 0.2", "time": "0.0%"}, {"scale": "0.54 0.54", "time": "19.0%"}, {"scale": "1.23 1.23", "time": "48.0%"}, {"scale": "1.41 1.41", "time": "65.0%"}, {"scale": "1.59 1.59", "time": "83.0%"}, {"scale": "1.65 1.65", "time": "100.0%"}], "texture": {"ani": {"fps": "15", "name": "textures/sfxs/2024s1/cs_loong_skina_skina2_bianshen_fz", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_skina_skina2_bianshen_fz"}, "timetolive": {"max": "0.8", "min": "0.8"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "5.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9286",
+        "time": "48.2%"
+      },
+      {
+        "color": "0.5569 1.0000 0.9137 0.3929",
+        "time": "62.9%"
+      },
+      {
+        "color": "0.2275 0.6902 1.0000 0.1071",
+        "time": "82.9%"
+      },
+      {
+        "color": "0.0000 0.4000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.25,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.8 0.8"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 -90.0",
+      "min": "0.0 0.0 -90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.2 0.2",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "19.0%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "48.0%"
+      },
+      {
+        "scale": "1.41 1.41",
+        "time": "65.0%"
+      },
+      {
+        "scale": "1.59 1.59",
+        "time": "83.0%"
+      },
+      {
+        "scale": "1.65 1.65",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2024s1/cs_loong_skina_skina2_bianshen_fz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_skina_skina2_bianshen_fz"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

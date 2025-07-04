@@ -1,67 +1,67 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "0.8196 0.9686 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "0.8196 0.9686 1.0000 1.0000",
-                "time": "20%"
-            },
-            {
-                "color": "0.8196 0.9686 1.0000 0.5000",
-                "time": "60%"
-            },
-            {
-                "color": "0.8196 0.9686 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "-1.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "8.0",
-            "min": "5.0"
-        },
-        "emittersize": {
-            "value": "1.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "numparticles": {
-            "value": "2"
-        },
-        "particlesize": {
-            "max": "0.6 0.4",
-            "min": "0.4 0.4"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "scaled": {
-            "enable": "false"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/brick_xjfg/0_shine_block"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "2.0",
-            "min": "2.0"
-        },
-        "velocity": {
-            "max": "0.2",
-            "min": "0.2"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.8196 0.9686 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "0.8196 0.9686 1.0000 1.0000",
+        "time": "20%"
+      },
+      {
+        "color": "0.8196 0.9686 1.0000 0.5000",
+        "time": "60%"
+      },
+      {
+        "color": "0.8196 0.9686 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "5.0"
+    },
+    "emittersize": {
+      "value": "1.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.6 0.4",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "scaled": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/brick_xjfg/0_shine_block"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.2"
     }
+  }
 }

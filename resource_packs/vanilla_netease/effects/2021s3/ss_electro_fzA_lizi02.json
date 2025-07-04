@@ -1,1 +1,63 @@
-{"particleeffect": {"texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3/ss_electro_fzA_lizi02", "fps": "15"}, "name": "textures/sfxs/2021s3/ss_electro_fzA_lizi02"}, "enablecolor": {"enable": "false"}, "direction": {"max": "0.0 -1.0 0.0", "value": "Direction", "min": "0.0 -1.0 0.0"}, "dampingforce": {"value": "0.5"}, "numparticles": {"value": "4"}, "independent": false, "emissionrate": {"max": "4.0", "min": "4.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Cylinder"}, "timetolive": {"max": "0.5", "min": "0.4"}, "emittersize": {"value": "1.0 0.3 1.0"}, "emitterscale": [], "velocity": {"max": "0.8", "min": "0.8"}, "particlesize": {"max": "0.13 0.13", "min": "0.08 0.08"}}}
+{
+  "particleeffect": {
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/ss_electro_fzA_lizi02",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s3/ss_electro_fzA_lizi02"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.4"
+    },
+    "emittersize": {
+      "value": "1.0 0.3 1.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.8",
+      "min": "0.8"
+    },
+    "particlesize": {
+      "max": "0.13 0.13",
+      "min": "0.08 0.08"
+    }
+  }
+}

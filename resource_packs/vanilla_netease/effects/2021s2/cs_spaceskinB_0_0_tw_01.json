@@ -1,1 +1,79 @@
-{"particleeffect":{"layer":2,"faceCameraMode":{"value":"Direction"},"emissionrate":{"max":"6.0","min":"6.0"},"relative":{"enable":"false"},"particlesize":{"max":"0.14 0.04","min":"0.02 0.06"},"numparticles":{"value":"30"},"texture":{"ani":{"shuffle":true,"name":"textures/sfxs/2021s2/cs_spaceskinA_0_2_tw_01","fps":"15"},"name":"textures/sfxs/2021s2/cs_spaceskinA_0_2_tw_01"},"thickness":{"value":"0.0"},"timetolive":{"max":"0.2","min":"0.1"},"sizedelta":[{"scale":"1.74 1.74","time":"0.00"},{"scale":"0.0 0.0","time":"1.00"}],"independent":false,"direction":{"max":"0.0 0.0 -0.01","value":"Direction","min":"0.0 0.0 -0.01"},"emitterScaleCurve":[],"enableloop":{"enable":"true"},"emittersize":{"value":"0.2 0.6 0.2"},"emitterscale":[],"rotationRange":{"max":"0.0 0.0 90.0","min":"0.0 0.0 90.0"},"colorfade":[],"depthtest":{"enable":"true"},"emittertype":{"value":"Sphere"},"velocity":{"max":"1.5","min":"0.8"},"blend":{"name":"add"}}}
+{
+  "particleeffect": {
+    "layer": 2,
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "particlesize": {
+      "max": "0.14 0.04",
+      "min": "0.02 0.06"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2021s2/cs_spaceskinA_0_2_tw_01",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s2/cs_spaceskinA_0_2_tw_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.74 1.74",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "1.00"
+      }
+    ],
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 -0.01"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.2 0.6 0.2"
+    },
+    "emitterscale": [],
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "colorfade": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "velocity": {
+      "max": "1.5",
+      "min": "0.8"
+    },
+    "blend": {
+      "name": "add"
+    }
+  }
+}

@@ -1,1 +1,80 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 -0.5 1.0","value":"Direction","min":"0.0 -0.3 1.0"},"numparticles":{"value":"5"},"colorfade":[{"color":"1.0000 0.2196 0.2196 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.04"},{"color":"1.0000 0.6510 0.0471 1.0000","time":"0.09"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.18"},{"color":"1.0000 0.2039 0.2039 1.0000","time":"0.49"},{"color":"1.0000 0.9137 0.4039 0.0000","time":"1.00"}],"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"emittersize":{"value":"2.0 0.0 2.0"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"depthtest":{"enable":"true"},"emitterscale":[],"blend":{"name":"add"},"particlesize":{"max":"0.06 0.06","min":"0.03 0.03"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.7 0.7","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 -0.5 1.0",
+      "value": "Direction",
+      "min": "0.0 -0.3 1.0"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.2196 0.2196 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.04"
+      },
+      {
+        "color": "1.0000 0.6510 0.0471 1.0000",
+        "time": "0.09"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.18"
+      },
+      {
+        "color": "1.0000 0.2039 0.2039 1.0000",
+        "time": "0.49"
+      },
+      {
+        "color": "1.0000 0.9137 0.4039 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "2.0 0.0 2.0"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.06 0.06",
+      "min": "0.03 0.03"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

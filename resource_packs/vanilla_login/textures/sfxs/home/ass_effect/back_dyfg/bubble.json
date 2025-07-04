@@ -1,113 +1,113 @@
 {
-    "particleeffect": {
-        "activetime": {
-            "value": "0.8"
-        },
-        "inactivetime": {
-            "value": "1.0"
-        },
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.6000",
-                "time": "20%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.6000",
-                "time": "80%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "dampingforce": {
-            "value": "1.2"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 1.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "5.0",
-            "min": "5.0"
-        },
-        "emitterpath": [
-            {
-                "offset": "-14.5 0.0 0.0",
-                "time": "0.0"
-            },
-            {
-                "offset": "-14.5 0.0 0.0",
-                "time": "0.2"
-            },
-            {
-                "offset": "-14.5 0.0 7.25",
-                "time": "0.2"
-            },
-            {
-                "offset": "-14.5 0.0 7.25",
-                "time": "0.4"
-            },
-            {
-                "offset": "-14.5 0.0 -3.65",
-                "time": "0.4"
-            },
-            {
-                "offset": "-14.5 0.0 -3.65",
-                "time": "0.6"
-            },
-            {
-                "offset": "-14.5 0.0 -7.3",
-                "time": "0.6"
-            },
-            {
-                "offset": "-14.5 0.0 -7.3",
-                "time": "0.8"
-            }
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "numparticles": {
-            "value": "4"
-        },
-        "particlesize": {
-            "max": "0.9 0.9",
-            "min": "0.9 0.9"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/back_dyfg/0_bubble"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "0.9",
-            "min": "0.8"
-        },
-        "velocity": {
-            "max": "3.2",
-            "min": "3.1"
-        }
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "inactivetime": {
+      "value": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6000",
+        "time": "20%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6000",
+        "time": "80%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.2"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "-14.5 0.0 0.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "-14.5 0.0 0.0",
+        "time": "0.2"
+      },
+      {
+        "offset": "-14.5 0.0 7.25",
+        "time": "0.2"
+      },
+      {
+        "offset": "-14.5 0.0 7.25",
+        "time": "0.4"
+      },
+      {
+        "offset": "-14.5 0.0 -3.65",
+        "time": "0.4"
+      },
+      {
+        "offset": "-14.5 0.0 -3.65",
+        "time": "0.6"
+      },
+      {
+        "offset": "-14.5 0.0 -7.3",
+        "time": "0.6"
+      },
+      {
+        "offset": "-14.5 0.0 -7.3",
+        "time": "0.8"
+      }
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.9 0.9",
+      "min": "0.9 0.9"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/back_dyfg/0_bubble"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.9",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "3.2",
+      "min": "3.1"
     }
+  }
 }

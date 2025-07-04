@@ -1,1 +1,96 @@
-{"particleeffect":{"rotationSpeedRange":{"max":"0.0 0.0 0.0","min":"0.0 0.0 90.0"},"direction":{"max":"1.0 -1.0 -1.0","value":"Direction","min":"-1.0 1.0 1.0"},"numparticles":{"value":"6"},"blend":{"name":"add"},"colorfade":[{"color":"0.0000 1.0000 0.4980 1.0000","time":"0.0%"},{"color":"0.0000 1.0000 1.0000 1.0000","time":"13.9%"},{"color":"1.0000 0.3333 1.0000 1.0000","time":"35.5%"},{"color":"0.7725 0.4510 1.0000 1.0000","time":"52.1%"},{"color":"0.0000 0.8353 1.0000 1.0000","time":"76.3%"},{"color":"0.3333 1.0000 1.0000 1.0000","time":"91.3%"},{"color":"0.3333 1.0000 0.4980 0.4911","time":"100.0%"}],"emissionrate":{"max":"6.0","min":"3.0"},"emitterScaleCurve":[],"emittersize":{"value":"1.5 0.6 0.9"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Cylinder"},"timetolive":{"max":"0.5","min":"0.8"},"texture":{"name":"textures/sfxs/2021s1/xy_jiaoyin_saibopengke_lizi"},"emitterscale":[],"velocity":{"max":"0.1","min":"0.1"},"rotationRange":{"max":"0.0 0.0 0.0","min":"0.0 0.0 180.0"},"particlesize":{"max":"0.05 0.05","min":"0.02 0.02"},"sizedelta":[{"scale":"1.0 1.0","time":"19.0%"},{"scale":"0.44 0.44","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "direction": {
+      "max": "1.0 -1.0 -1.0",
+      "value": "Direction",
+      "min": "-1.0 1.0 1.0"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.4980 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 1.0000 1.0000 1.0000",
+        "time": "13.9%"
+      },
+      {
+        "color": "1.0000 0.3333 1.0000 1.0000",
+        "time": "35.5%"
+      },
+      {
+        "color": "0.7725 0.4510 1.0000 1.0000",
+        "time": "52.1%"
+      },
+      {
+        "color": "0.0000 0.8353 1.0000 1.0000",
+        "time": "76.3%"
+      },
+      {
+        "color": "0.3333 1.0000 1.0000 1.0000",
+        "time": "91.3%"
+      },
+      {
+        "color": "0.3333 1.0000 0.4980 0.4911",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "1.5 0.6 0.9"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.8"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/xy_jiaoyin_saibopengke_lizi"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "19.0%"
+      },
+      {
+        "scale": "0.44 0.44",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

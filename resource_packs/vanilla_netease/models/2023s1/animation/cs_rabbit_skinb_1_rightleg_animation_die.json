@@ -1,1 +1,29 @@
-{"animation":{"fields":["time","attr"],"times":[0.0],"poses":[-3.45937,-1e-06,-18.4048],"quats":[],"scales":[],"length":3.0,"tracks":{"bone_guajian_29":{"pos":[0,0]}}},"is_global":true,"version":"0.1.0"}
+{
+  "animation": {
+    "fields": [
+      "time",
+      "attr"
+    ],
+    "times": [
+      0
+    ],
+    "poses": [
+      -3.45937,
+      -0.000001,
+      -18.4048
+    ],
+    "quats": [],
+    "scales": [],
+    "length": 3,
+    "tracks": {
+      "bone_guajian_29": {
+        "pos": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "is_global": true,
+  "version": "0.1.0"
+}

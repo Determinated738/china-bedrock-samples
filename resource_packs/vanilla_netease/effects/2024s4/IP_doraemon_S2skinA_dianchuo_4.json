@@ -1,67 +1,67 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.7686 1.0000 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 1.0000",
-				"time": "6.1%"
-			},
-			{
-				"color": "1.0000 0.5490 0.0000 1.0000",
-				"time": "50.0%"
-			},
-			{
-				"color": "1.0000 0.2314 0.0000 1.0000",
-				"time": "82.9%"
-			},
-			{
-				"color": "1.0000 0.0000 0.7686 0.0446",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "5.0"
-		},
-		"delay": 3.679,
-		"direction": {
-			"max": "-1.0 1.0 0.0",
-			"min": "1.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "130.0",
-			"min": "100.0"
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"particlesize": {
-			"max": "0.05 0.15",
-			"min": "0.05 0.15"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_dianchuo_x"
-		},
-		"timetolive": {
-			"max": "0.1",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "7.0",
-			"min": "5.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.7686 1.0000 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "6.1%"
+      },
+      {
+        "color": "1.0000 0.5490 0.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 0.2314 0.0000 1.0000",
+        "time": "82.9%"
+      },
+      {
+        "color": "1.0000 0.0000 0.7686 0.0446",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 3.679,
+    "direction": {
+      "max": "-1.0 1.0 0.0",
+      "min": "1.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "130.0",
+      "min": "100.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "particlesize": {
+      "max": "0.05 0.15",
+      "min": "0.05 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/ip_doraemon_s2skina_dianchuo_x"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "7.0",
+      "min": "5.0"
+    }
+  }
 }

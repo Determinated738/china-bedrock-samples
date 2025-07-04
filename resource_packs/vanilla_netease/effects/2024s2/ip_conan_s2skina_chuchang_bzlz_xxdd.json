@@ -1,1 +1,137 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9804 0.6824 0.0000", "time": "0.0%"}, {"color": "1.0000 0.9490 0.2235 0.9821", "time": "4.7%"}, {"color": "1.0000 0.6275 0.3804 0.6696", "time": "85.0%"}, {"color": "1.0000 0.3647 0.1137 0.0000", "time": "100.0%"}], "delay": 1.7, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Inwards"}, "emissionrate": {"max": "30.0", "min": "20.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "3.0 3.0 0.0"}, "emittertype": {"value": "Sphere"}, "numparticles": {"value": "16"}, "particlesize": {"max": "0.2 0.2", "min": "0.1 0.1"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "0.94 0.94", "time": "10.3%"}, {"scale": "0.24 0.24", "time": "15.3%"}, {"scale": "1.08 1.08", "time": "24.7%"}, {"scale": "0.22 0.22", "time": "30.0%"}, {"scale": "1.02 1.02", "time": "39.0%"}, {"scale": "0.26 0.26", "time": "44.3%"}, {"scale": "0.92 0.92", "time": "50.0%"}, {"scale": "0.22 0.22", "time": "55.0%"}, {"scale": "0.76 0.76", "time": "62.3%"}, {"scale": "0.16 0.16", "time": "66.3%"}, {"scale": "0.62 0.62", "time": "73.7%"}, {"scale": "0.08 0.08", "time": "80.7%"}, {"scale": "0.5 0.5", "time": "84.7%"}, {"scale": "0.16 0.16", "time": "90.3%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/ip_conan_s2skina_chuchang_lz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.4"}, "velocity": {"max": "3.0", "min": "5.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9804 0.6824 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9490 0.2235 0.9821",
+        "time": "4.7%"
+      },
+      {
+        "color": "1.0000 0.6275 0.3804 0.6696",
+        "time": "85.0%"
+      },
+      {
+        "color": "1.0000 0.3647 0.1137 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.7,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "3.0 3.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "16"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.94 0.94",
+        "time": "10.3%"
+      },
+      {
+        "scale": "0.24 0.24",
+        "time": "15.3%"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "24.7%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "30.0%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "39.0%"
+      },
+      {
+        "scale": "0.26 0.26",
+        "time": "44.3%"
+      },
+      {
+        "scale": "0.92 0.92",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "55.0%"
+      },
+      {
+        "scale": "0.76 0.76",
+        "time": "62.3%"
+      },
+      {
+        "scale": "0.16 0.16",
+        "time": "66.3%"
+      },
+      {
+        "scale": "0.62 0.62",
+        "time": "73.7%"
+      },
+      {
+        "scale": "0.08 0.08",
+        "time": "80.7%"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "84.7%"
+      },
+      {
+        "scale": "0.16 0.16",
+        "time": "90.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/ip_conan_s2skina_chuchang_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "5.0"
+    }
+  }
+}

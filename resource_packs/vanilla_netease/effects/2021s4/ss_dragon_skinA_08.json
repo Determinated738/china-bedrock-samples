@@ -1,1 +1,30 @@
-{"frameeffect": {"layer": 1, "scale": [0.1, 0.16, 0.2], "shuffle": false, "depth_test": true, "texture": "textures/sfxs/2021s4/ss_dragon_skinA_liuguang08", "delay": 0.0, "fade_distance": 0.0, "tex_repeat_num": [1, 1], "fps": 8, "first_person_enable": false, "face_camera": false, "rot_speed": [0.0, 0.0, 0.0], "cylinder_enable": false, "loop": true, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "layer": 1,
+    "scale": [
+      0.1,
+      0.16,
+      0.2
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "texture": "textures/sfxs/2021s4/ss_dragon_skinA_liuguang08",
+    "delay": 0,
+    "fade_distance": 0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 8,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 2
+  }
+}

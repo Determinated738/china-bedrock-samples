@@ -1,68 +1,68 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.6667 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6667 0.0000 0.9732",
-				"time": "35.3%"
-			},
-			{
-				"color": "1.0000 0.6667 0.0000 1.0000",
-				"time": "65.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.2400 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "2.0"
-		},
-		"direction": {
-			"max": "0.0 -1.0 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "5.0",
-			"min": "5.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.0 0.5"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.2 0.2"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s4/cs_s1creat_skinA_lz",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_lz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"velocity": {
-			"max": "1.5",
-			"min": "1.5"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6667 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.9732",
+        "time": "35.3%"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 1.0000",
+        "time": "65.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.0 0.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.2 0.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s4/cs_s1creat_skinA_lz",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinA_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "1.5",
+      "min": "1.5"
+    }
+  }
 }

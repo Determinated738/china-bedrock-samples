@@ -1,1 +1,89 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "0.9686 1.0000 0.6863 1.0000", "time": "14.2%"}, {"color": "1.0000 1.0000 1.0000 0.5893", "time": "62.9%"}, {"color": "0.0000 0.8667 0.9451 0.3125", "time": "83.9%"}, {"color": "0.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "delay": 0.03, "depthtest": {"enable": "false"}, "direction": {"max": "1.0 1.0 1.0", "min": "1.0 1.0 1.0", "value": "Direction"}, "emissionrate": {"max": "5.0", "min": "5.0"}, "enabletexture": {"enable": true}, "independent": true, "layer": 13, "numparticles": {"value": "5"}, "particlesize": {"max": "1.8 1.8", "min": "1.8 1.8"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.41 1.41", "time": "0.0%"}, {"scale": "0.27 0.27", "time": "24.7%"}, {"scale": "1.05 1.05", "time": "50.3%"}, {"scale": "1.26 1.26", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s3/sh_atlan_skin_bianshen_sun"}, "timetolive": {"max": "0.2", "min": "0.15"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9686 1.0000 0.6863 1.0000",
+        "time": "14.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5893",
+        "time": "62.9%"
+      },
+      {
+        "color": "0.0000 0.8667 0.9451 0.3125",
+        "time": "83.9%"
+      },
+      {
+        "color": "0.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.03,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "1.0 1.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "independent": true,
+    "layer": 13,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "1.8 1.8",
+      "min": "1.8 1.8"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.41 1.41",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.27 0.27",
+        "time": "24.7%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "50.3%"
+      },
+      {
+        "scale": "1.26 1.26",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/sh_atlan_skin_bianshen_sun"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.15"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

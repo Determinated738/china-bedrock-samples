@@ -1,1 +1,112 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.9569 1.0000 0.0980 0.0000", "time": "0.0%"}, {"color": "0.8353 1.0000 0.3765 1.0000", "time": "16.1%"}, {"color": "0.3529 1.0000 0.0549 0.4286", "time": "31.8%"}, {"color": "0.0314 1.0000 0.6275 1.0000", "time": "49.7%"}, {"color": "0.2118 1.0000 0.1255 0.4464", "time": "66.8%"}, {"color": "0.7725 1.0000 0.2431 1.0000", "time": "84.7%"}, {"color": "0.9647 1.0000 0.2431 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "100.0", "min": "10.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 0.7 0.1"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "layer": 15, "numparticles": {"value": "5"}, "particlesize": {"max": "0.07 0.07", "min": "0.03 0.03"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.85 0.85", "time": "0.0%"}, {"scale": "0.68 0.68", "time": "20.3%"}, {"scale": "0.88 0.88", "time": "48.3%"}, {"scale": "0.62 0.62", "time": "74.3%"}, {"scale": "0.8 0.8", "time": "100.0%"}], "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2023s4/ss_scifi_weapon_lizi", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_conan_s1skina_lizi"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.6"}, "velocity": {"max": "0.3", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9569 1.0000 0.0980 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8353 1.0000 0.3765 1.0000",
+        "time": "16.1%"
+      },
+      {
+        "color": "0.3529 1.0000 0.0549 0.4286",
+        "time": "31.8%"
+      },
+      {
+        "color": "0.0314 1.0000 0.6275 1.0000",
+        "time": "49.7%"
+      },
+      {
+        "color": "0.2118 1.0000 0.1255 0.4464",
+        "time": "66.8%"
+      },
+      {
+        "color": "0.7725 1.0000 0.2431 1.0000",
+        "time": "84.7%"
+      },
+      {
+        "color": "0.9647 1.0000 0.2431 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.7 0.1"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 15,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.85 0.85",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.68 0.68",
+        "time": "20.3%"
+      },
+      {
+        "scale": "0.88 0.88",
+        "time": "48.3%"
+      },
+      {
+        "scale": "0.62 0.62",
+        "time": "74.3%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2023s4/ss_scifi_weapon_lizi",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_conan_s1skina_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

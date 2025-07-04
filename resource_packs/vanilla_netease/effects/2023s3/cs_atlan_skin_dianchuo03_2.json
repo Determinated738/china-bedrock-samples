@@ -1,1 +1,84 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.5765 1.0000 0.9529 1.0000", "time": "0.0%"}, {"color": "0.0039 1.0000 0.8510 0.7411", "time": "33.9%"}, {"color": "0.1804 0.7569 1.0000 0.7679", "time": "68.9%"}, {"color": "0.7373 1.0000 0.9804 0.0000", "time": "100.0%"}], "dampingforce": {"value": "5.0"}, "delay": 1.6, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Outwards"}, "emissionrate": {"max": "10.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "3.0 3.0 3.0"}, "emittertype": {"value": "Sphere"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "numparticles": {"value": "4"}, "particlesize": {"max": "0.3 0.3", "min": "0.2 0.2"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "10", "name": "textures/sfxs/2023s3/cs_atlan_skin_dianchuo06", "shuffle": false}, "name": "textures/sfxs/2023s3/cs_atlan_skin_dianchuo06"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.3"}, "velocity": {"max": "1.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.5765 1.0000 0.9529 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0039 1.0000 0.8510 0.7411",
+        "time": "33.9%"
+      },
+      {
+        "color": "0.1804 0.7569 1.0000 0.7679",
+        "time": "68.9%"
+      },
+      {
+        "color": "0.7373 1.0000 0.9804 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 1.6,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "3.0 3.0 3.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2023s3/cs_atlan_skin_dianchuo06",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/cs_atlan_skin_dianchuo06"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.0"
+    }
+  }
+}

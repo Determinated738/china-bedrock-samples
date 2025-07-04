@@ -1,1 +1,132 @@
-{"frameeffect": {"blend_mode": 1, "cylinder_enable": false, "delay": 0.5, "delay_in_loop": false, "depth_test": false, "face_camera": true, "fade_distance": 0.0, "first_person_enable": false, "fps": 48, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 0.7533333333333333], [1, 1, 1, 0.6266666666666667], [1, 1, 1, 0.4866666666666667], [1, 1, 1, 0.36], [1, 1, 1, 0.23333333333333328], [1, 1, 1, 0.1333333333333333], [1, 1, 1, 0.020000000000000018]], "layer": 4, "lerp_scale": true, "loop": false, "point_filtering": false, "rot_speed": [0, 0, 0], "scale": [0.7, 0.7, 0.7], "shuffle": false, "sub_layer": 3, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2023s4/cs_game_skina_bianshen_009"}}
+{
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": false,
+    "delay": 0.5,
+    "delay_in_loop": false,
+    "depth_test": false,
+    "face_camera": true,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 48,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.7533333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6266666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.4866666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.36
+      ],
+      [
+        1,
+        1,
+        1,
+        0.23333333333333328
+      ],
+      [
+        1,
+        1,
+        1,
+        0.1333333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.020000000000000018
+      ]
+    ],
+    "layer": 4,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.7,
+      0.7,
+      0.7
+    ],
+    "shuffle": false,
+    "sub_layer": 3,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2023s4/cs_game_skina_bianshen_009"
+  }
+}

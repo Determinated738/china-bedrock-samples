@@ -1,1 +1,98 @@
-{"particleeffect": {"activetime": {"value": "0.35"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0536", "time": "0.00"}, {"color": "0.0000 0.4510 1.0000 0.1429", "time": "0.18"}, {"color": "0.5765 0.2706 1.0000 0.0893", "time": "0.46"}, {"color": "0.4902 0.2039 0.5294 0.0000", "time": "0.60"}], "dampingforce": {"value": "3.0"}, "delay": 0.12, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.3 0.3 0.3"}, "emittertype": {"value": "Sphere"}, "layer": 2, "numparticles": {"value": "3"}, "particlesize": {"max": "1.4 1.4", "min": "1.0 1.0"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 50.0", "min": "0.0 0.0 180.0"}, "sizedelta": [{"scale": "0.87 0.87", "time": "0.0%"}, {"scale": "1.41 1.41", "time": "27.0%"}, {"scale": "1.74 1.74", "time": "99.7%"}], "texture": {"ani": {"fps": "24", "name": "textures/sfxs/2023s3/cs_zhaoyun_skin_bianshen_xianjiesmoke", "shuffle": false}, "name": "textures/sfxs/2023s3/cs_zhaoyun_skin_bianshen_xianjiesmoke"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.5"}, "velocity": {"max": "1.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.35"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0536",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 0.4510 1.0000 0.1429",
+        "time": "0.18"
+      },
+      {
+        "color": "0.5765 0.2706 1.0000 0.0893",
+        "time": "0.46"
+      },
+      {
+        "color": "0.4902 0.2039 0.5294 0.0000",
+        "time": "0.60"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "delay": 0.12,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.3 0.3"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "1.4 1.4",
+      "min": "1.0 1.0"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.87 0.87",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.41 1.41",
+        "time": "27.0%"
+      },
+      {
+        "scale": "1.74 1.74",
+        "time": "99.7%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2023s3/cs_zhaoyun_skin_bianshen_xianjiesmoke",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/cs_zhaoyun_skin_bianshen_xianjiesmoke"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "2.0"
+    }
+  }
+}

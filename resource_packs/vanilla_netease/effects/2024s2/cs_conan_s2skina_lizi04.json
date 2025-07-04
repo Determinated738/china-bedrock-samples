@@ -1,1 +1,98 @@
-{"particleeffect": {"activetime": {"value": "1.0"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.4549 1.0000 0.9843 0.0000", "time": "0.01"}, {"color": "0.2431 0.5098 1.0000 1.0000", "time": "0.15"}, {"color": "0.1176 0.2784 1.0000 0.3750", "time": "0.56"}, {"color": "0.8824 0.2941 1.0000 0.9911", "time": "0.88"}, {"color": "1.0000 0.1922 0.6902 0.0268", "time": "1.50"}], "delay": 3.2, "direction": {"max": "0.0 0.5 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "30.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.6 1.7 1.6"}, "emittertype": {"value": "Cylinder"}, "inactivetime": {"value": "3.0"}, "layer": 15, "particlesize": {"max": "0.06 0.06", "min": "0.1 0.1"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.87 0.87", "time": "0.00"}, {"scale": "0.0 0.0", "time": "1.01"}, {"scale": "0.66 0.66", "time": "1.98"}, {"scale": "0.0 0.0", "time": "3.00"}], "texture": {"ani": {"fps": "16", "name": "", "shuffle": false}, "name": "textures/sfxs/2024s2/cs_atlan_weapon_lz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.5", "min": "1.0"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.4549 1.0000 0.9843 0.0000",
+        "time": "0.01"
+      },
+      {
+        "color": "0.2431 0.5098 1.0000 1.0000",
+        "time": "0.15"
+      },
+      {
+        "color": "0.1176 0.2784 1.0000 0.3750",
+        "time": "0.56"
+      },
+      {
+        "color": "0.8824 0.2941 1.0000 0.9911",
+        "time": "0.88"
+      },
+      {
+        "color": "1.0000 0.1922 0.6902 0.0268",
+        "time": "1.50"
+      }
+    ],
+    "delay": 3.2,
+    "direction": {
+      "max": "0.0 0.5 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.6 1.7 1.6"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "inactivetime": {
+      "value": "3.0"
+    },
+    "layer": 15,
+    "particlesize": {
+      "max": "0.06 0.06",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.87 0.87",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "1.01"
+      },
+      {
+        "scale": "0.66 0.66",
+        "time": "1.98"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "3.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s2/cs_atlan_weapon_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

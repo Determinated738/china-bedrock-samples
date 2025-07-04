@@ -1,84 +1,84 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "2.0"
-		},
-		"colorfade": [
-			{
-				"color": "0.7020 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.1922 1.0000 0.9490 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "2.0"
-		},
-		"delay": 5.8,
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 -0.1 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "10.0",
-			"min": "6.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.5 1.5 1.5"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"layer": 8,
-		"numparticles": {
-			"value": "20"
-		},
-		"particlesize": {
-			"max": "0.04 0.3",
-			"min": "0.06 0.4"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.18 1.18",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.2 1.2",
-				"time": "68.7%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_lizi"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "1.0"
-		},
-		"velocity": {
-			"max": "3.0",
-			"min": "2.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "2.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.7020 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1922 1.0000 0.9490 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "delay": 5.8,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -0.1 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 1.5 1.5"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.04 0.3",
+      "min": "0.06 0.4"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.18 1.18",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "68.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "2.0"
+    }
+  }
 }

@@ -1,1 +1,85 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.9843 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 0.9451 0.1451 0.7143", "time": "16.8%"}, {"color": "0.7373 0.2235 0.1333 0.5893", "time": "58.7%"}, {"color": "1.0000 1.0000 1.0000 0.3214", "time": "86.1%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "1.0", "min": "1.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Cylinder"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "layer": 3, "numparticles": {"value": "2"}, "offsetInCamera": {"value": "-0.05"}, "particlesize": {"max": "0.15 0.3", "min": "0.15 0.3"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "10", "name": "textures/sfxs/2023s3/cs_elem_weapon_style1_luoxuan", "shuffle": false}, "name": "textures/sfxs/2023s3/cs_elem_weapon_style1_luoxuan"}, "thickness": {"value": "0.0"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.9843 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9451 0.1451 0.7143",
+        "time": "16.8%"
+      },
+      {
+        "color": "0.7373 0.2235 0.1333 0.5893",
+        "time": "58.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3214",
+        "time": "86.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "2"
+    },
+    "offsetInCamera": {
+      "value": "-0.05"
+    },
+    "particlesize": {
+      "max": "0.15 0.3",
+      "min": "0.15 0.3"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2023s3/cs_elem_weapon_style1_luoxuan",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/cs_elem_weapon_style1_luoxuan"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.00"}, {"color": "0.9569 1.0000 0.5569 0.8304", "time": "0.10"}, {"color": "1.0000 0.9176 0.2784 0.0000", "time": "0.20"}], "depthtest": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "independent": true, "layer": 3, "numparticles": {"value": "1"}, "particlesize": {"max": "0.18 0.18", "min": "0.18 0.18"}, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 180.0"}, "sizedelta": [{"scale": "0.09 0.09", "time": "0.0%"}, {"scale": "0.6 0.6", "time": "9.7%"}, {"scale": "2.32 2.32", "time": "14.0%"}, {"scale": "2.92 2.92", "time": "99.0%"}], "texture": {"name": "textures/sfxs/2022s4/cs_tarot_weapon_heihong_j_hit_bao"}, "timetolive": {"max": "0.1", "min": "0.1"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.9569 1.0000 0.5569 0.8304",
+        "time": "0.10"
+      },
+      {
+        "color": "1.0000 0.9176 0.2784 0.0000",
+        "time": "0.20"
+      }
+    ],
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "independent": true,
+    "layer": 3,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.18 0.18",
+      "min": "0.18 0.18"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.09 0.09",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "9.7%"
+      },
+      {
+        "scale": "2.32 2.32",
+        "time": "14.0%"
+      },
+      {
+        "scale": "2.92 2.92",
+        "time": "99.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_tarot_weapon_heihong_j_hit_bao"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

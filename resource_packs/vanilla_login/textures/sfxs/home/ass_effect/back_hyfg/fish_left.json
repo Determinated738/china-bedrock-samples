@@ -1,70 +1,70 @@
 {
-    "particleeffect": {
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "1.0 0.0 0.0",
-            "min": "1.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "disorder": {
-            "increment": "0.0",
-            "interval": "0.4",
-            "max": "0.0 0.2 0.0",
-            "min": "0.0 -0.2 0.0"
-        },
-        "emissionrate": {
-            "max": "2.0",
-            "min": "1.0"
-        },
-        "emittersize": {
-            "value": "0.0 5.0 0.0"
-        },
-        "emitterpath": [
-            {
-                "offset": "-30.0 0.0 -10.0",
-                "time": "0.0"
-            },
-            {
-                "offset": "-30.0 0.0 -10.0",
-                "time": "0.5"
-            },
-            {
-                "offset": "5.0 0.0 30.0",
-                "time": "0.5"
-            },
-            {
-                "offset": "5.0 0.0 30.0",
-                "time": "1.0"
-            }
-        ],
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "numparticles": {
-            "value": "20"
-        },
-        "particlesize": {
-            "max": "0.3 0.3",
-            "min": "0.2 0.2"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/back_hyfg/0_clownfish"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "40.0",
-            "min": "40.0"
-        },
-        "velocity": {
-            "max": "2.0",
-            "min": "1.0"
-        }
+  "particleeffect": {
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.0",
+      "interval": "0.4",
+      "max": "0.0 0.2 0.0",
+      "min": "0.0 -0.2 0.0"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "emittersize": {
+      "value": "0.0 5.0 0.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "-30.0 0.0 -10.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "-30.0 0.0 -10.0",
+        "time": "0.5"
+      },
+      {
+        "offset": "5.0 0.0 30.0",
+        "time": "0.5"
+      },
+      {
+        "offset": "5.0 0.0 30.0",
+        "time": "1.0"
+      }
+    ],
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/back_hyfg/0_clownfish"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "40.0",
+      "min": "40.0"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "1.0"
     }
+  }
 }

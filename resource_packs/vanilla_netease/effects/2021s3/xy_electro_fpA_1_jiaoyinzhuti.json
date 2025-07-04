@@ -1,1 +1,63 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 1.0"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3/xy_electro_fpA_dianwanjiaoyin4", "fps": "25"}, "name": "textures/sfxs/2021s3/xy_electro_fpA_dianwanjiaoyin4"}, "faceCameraMode": {"value": "Direction Horizontal"}, "independent": false, "emissionrate": {"max": "7.0", "min": "6.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "emittersize": {"value": "0.45 0.0 0.0"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "timetolive": {"max": "0.6", "min": "0.4"}, "depthtest": {"enable": "true"}, "emitterscale": [], "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "particlesize": {"max": "0.15 0.15", "min": "0.25 0.25"}, "numparticles": {"value": "3"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 1.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/xy_electro_fpA_dianwanjiaoyin4",
+        "fps": "25"
+      },
+      "name": "textures/sfxs/2021s3/xy_electro_fpA_dianwanjiaoyin4"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "7.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.45 0.0 0.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.25 0.25"
+    },
+    "numparticles": {
+      "value": "3"
+    }
+  }
+}

@@ -1,1 +1,85 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.4"},"numparticles":{"value":"20"},"colorfade":[{"color":"1.0000 1.0000 0.6627 0.2768","time":"0.00"},{"color":"0.9804 1.0000 0.5608 0.2232","time":"0.09"},{"color":"1.0000 0.2000 0.0000 0.0000","time":"0.20"}],"emissionrate":{"max":"30.0","min":"20.0"},"emitterScaleCurve":[],"layer":3,"emittersize":{"value":"0.2 0.4 0.4"},"thickness":{"value":"0.0"},"delay":1.0,"emittertype":{"value":"Box"},"dampingforce":{"value":"1.0"},"timetolive":{"max":"0.2","min":"0.1"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2023s2/cs_myth_horse_yanwu3","fps":"32"},"name":"textures/sfxs/2023s1/cs_myth_horse_Smoke05"},"emitterscale":[],"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"1.0 0.5","min":"1.0 0.4"},"sizedelta":[{"scale":"0.54 0.54","time":"0.0%"},{"scale":"1.26 1.26","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.4"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.6627 0.2768",
+        "time": "0.00"
+      },
+      {
+        "color": "0.9804 1.0000 0.5608 0.2232",
+        "time": "0.09"
+      },
+      {
+        "color": "1.0000 0.2000 0.0000 0.0000",
+        "time": "0.20"
+      }
+    ],
+    "emissionrate": {
+      "max": "30.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 3,
+    "emittersize": {
+      "value": "0.2 0.4 0.4"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 1,
+    "emittertype": {
+      "value": "Box"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2023s2/cs_myth_horse_yanwu3",
+        "fps": "32"
+      },
+      "name": "textures/sfxs/2023s1/cs_myth_horse_Smoke05"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "1.0 0.5",
+      "min": "1.0 0.4"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.54 0.54",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.26 1.26",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

@@ -1,1 +1,89 @@
-{"animation":{"ID":"UANI","length":1.333333,"name":"run","trackSize":3,"tracks":[{"bone":"Bone001","chanelMask":1,"keyFramesSize":1,"keyframes":[{"pos":[2.195924,-0.046213,-0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"Bone002","chanelMask":0,"keyFramesSize":1,"keyframes":[{"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0],"time":0.0}]},{"bone":"root","chanelMask":0,"keyFramesSize":1,"keyframes":[{"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0],"time":0.0}]}]},"is_global":true}
+{
+  "animation": {
+    "ID": "UANI",
+    "length": 1.333333,
+    "name": "run",
+    "trackSize": 3,
+    "tracks": [
+      {
+        "bone": "Bone001",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              2.195924,
+              -0.046213,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "Bone002",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      },
+      {
+        "bone": "root",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          }
+        ]
+      }
+    ]
+  },
+  "is_global": true
+}

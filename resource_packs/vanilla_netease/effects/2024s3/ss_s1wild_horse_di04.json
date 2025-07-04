@@ -1,79 +1,79 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.7589",
-				"time": "32.4%"
-			},
-			{
-				"color": "0.0000 0.3490 1.0000 0.1964",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "1.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "6.0",
-			"min": "4.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"inactivetime": {
-			"value": "1.0"
-		},
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "1.0 1.0",
-			"min": "1.0 1.0"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.66 0.66",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.53 1.53",
-				"time": "58.0%"
-			},
-			{
-				"scale": "1.64 1.64",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/ss_s1wild_horse_yan"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "4.0",
-			"min": "3.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7589",
+        "time": "32.4%"
+      },
+      {
+        "color": "0.0000 0.3490 1.0000 0.1964",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "inactivetime": {
+      "value": "1.0"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "1.0 1.0"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.66 0.66",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.53 1.53",
+        "time": "58.0%"
+      },
+      {
+        "scale": "1.64 1.64",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/ss_s1wild_horse_yan"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "4.0",
+      "min": "3.0"
+    }
+  }
 }

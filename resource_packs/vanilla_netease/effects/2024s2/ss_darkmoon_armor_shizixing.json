@@ -1,1 +1,90 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.2510 0.1843 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 0.1373 1.0000 1.0000", "time": "50.0%"}, {"color": "0.9686 0.5059 1.0000 1.0000", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "4.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.4 0.4 0.05"}, "emittertype": {"value": "Box"}, "layer": 3, "numparticles": {"value": "4"}, "particlesize": {"max": "0.03 0.03", "min": "0.02 0.02"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.15 1.15", "time": "0.0%"}, {"scale": "0.0 0.0", "time": "29.7%"}, {"scale": "1.23 1.23", "time": "69.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s2/ss_darkmoon_armor_shizixing", "shuffle": true}, "name": "textures/sfxs/2024s2/ss_darkmoon_armor_shizixing"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.4"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.2510 0.1843 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.1373 1.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "0.9686 0.5059 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.4 0.4 0.05"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.02 0.02"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.15 1.15",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "29.7%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "69.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s2/ss_darkmoon_armor_shizixing",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s2/ss_darkmoon_armor_shizixing"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

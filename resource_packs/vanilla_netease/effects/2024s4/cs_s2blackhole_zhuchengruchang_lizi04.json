@@ -1,1 +1,87 @@
-{"particleeffect": {"activetime": {"value": "0.25"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "24.7%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "51.3%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "76.3%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "delay": 0.35, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "20.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.5 2.5 0.5"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "layer": 8, "numparticles": {"value": "20"}, "particlesize": {"max": "0.24999999999999997 0.30000000000000004", "min": "0.15 0.2"}, "pointFiltering": true, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s4/cs_s2blackhole_zhuchengruchang_lizi01", "shuffle": true}, "name": "textures/sfxs/2024s4/cs_s2blackhole_zhuchengruchang_lizi01"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.6"}, "velocity": {"max": "3.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.25"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "24.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "51.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "76.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "delay": 0.35,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 2.5 0.5"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.24999999999999997 0.30000000000000004",
+      "min": "0.15 0.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s4/cs_s2blackhole_zhuchengruchang_lizi01",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_zhuchengruchang_lizi01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "2.0"
+    }
+  }
+}

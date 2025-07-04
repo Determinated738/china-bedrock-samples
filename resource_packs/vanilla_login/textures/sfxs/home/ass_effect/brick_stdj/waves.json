@@ -1,105 +1,105 @@
 {
-    "particleeffect": {
-        "activetime": {
-            "value": "1.2"
-        },
-        "inactivetime": {
-            "value": "4.0"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 1.0000",
-                "time": "40%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 1.0000",
-                "time": "80%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "constantforce": {
-            "value": "0.02 0.4 0.0"
-        },
-        "dampingforce": {
-            "value": "0.2"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "-0.07 -1.0 0.0",
-            "min": "-0.07 -1.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "2.0",
-            "min": "2.0"
-        },
-        "emitterpath": [
-            {
-                "offset": "2.5 0.0 0.0",
-                "time": "0%"
-            },
-            {
-                "offset": "2.5 0.0 0.0",
-                "time": "34%"
-            },
-            {
-                "offset": "7.5 0.0 0.0",
-                "time": "34%"
-            },
-            {
-                "offset": "7.5 0.0 0.0",
-                "time": "67%"
-            },
-            {
-                "offset": "12.5 0.0 0.0",
-                "time": "67%"
-            },
-            {
-                "offset": "12.5 0.0 0.0",
-                "time": "100%"
-            }
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "2.5 0.15",
-            "min": "2.5 0.15"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "scaled": {
-            "enable": "false"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/brick_stdj/0_wave"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "3.0",
-            "min": "2.5"
-        },
-        "velocity": {
-            "max": "0.80",
-            "min": "0.75"
-        }
+  "particleeffect": {
+    "activetime": {
+      "value": "1.2"
+    },
+    "inactivetime": {
+      "value": "4.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "40%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "80%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.02 0.4 0.0"
+    },
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "-0.07 -1.0 0.0",
+      "min": "-0.07 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "2.5 0.0 0.0",
+        "time": "0%"
+      },
+      {
+        "offset": "2.5 0.0 0.0",
+        "time": "34%"
+      },
+      {
+        "offset": "7.5 0.0 0.0",
+        "time": "34%"
+      },
+      {
+        "offset": "7.5 0.0 0.0",
+        "time": "67%"
+      },
+      {
+        "offset": "12.5 0.0 0.0",
+        "time": "67%"
+      },
+      {
+        "offset": "12.5 0.0 0.0",
+        "time": "100%"
+      }
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "2.5 0.15",
+      "min": "2.5 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "scaled": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/brick_stdj/0_wave"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "3.0",
+      "min": "2.5"
+    },
+    "velocity": {
+      "max": "0.80",
+      "min": "0.75"
     }
+  }
 }

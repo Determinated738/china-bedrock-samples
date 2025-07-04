@@ -1,1 +1,67 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 1.0 0.0"},"numparticles":{"value":"30"},"colorfade":[{"color":"1.0000 0.0000 0.0000 0.0000","time":"0.00"},{"color":"1.0000 0.0000 0.0000 1.0000","time":"0.13"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.59"},{"color":"1.0000 1.0000 0.2400 0.0000","time":"0.80"}],"emissionrate":{"max":"30.0","min":"15.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.5 3.0 0.5"},"texture":{"name":"textures/sfxs/2021s1/yx_fazhen_sanguo_A_lizi"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.8","min":"0.25"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.6000000000000001","min":"0.20000000000000015"},"particlesize":{"max":"0.02 0.02","min":"0.06 0.06"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 1.0000",
+        "time": "0.13"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.59"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "0.80"
+      }
+    ],
+    "emissionrate": {
+      "max": "30.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.5 3.0 0.5"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/yx_fazhen_sanguo_A_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.25"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.6000000000000001",
+      "min": "0.20000000000000015"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.06 0.06"
+    }
+  }
+}

@@ -1,67 +1,61 @@
 {
-    "particleeffect": {
-        "colorfade": [
-
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "5.0",
-            "min": "4.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "faceCameraMode": {
-            "value": "Horizontal"
-        },
-        "independent": false,
-        "layer": 4,
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "0.45 0.45",
-            "min": "0.4 0.4"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            }
-        ],
-        "texture": {
-            "ani": {
-                "fps": "8",
-                "name": "textures/sfxs/2021s3hd/tukeng",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/2021s3hd/tukeng"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "colorfade": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "independent": false,
+    "layer": 4,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.45 0.45",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2021s3hd/tukeng",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2021s3hd/tukeng"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

@@ -1,6 +1,5 @@
 {
   "namespace": "csb_landing",
-
   "landing_content_section@csb.section_base": {
     "controls": [
       {
@@ -9,7 +8,10 @@
       {
         "landing_content": {
           "type": "stack_panel",
-          "size": [ "100%", "100%c" ],
+          "size": [
+            "100%",
+            "100%c"
+          ],
           "controls": [
             {
               "title_stack@csb_landing.title_stack": {}
@@ -25,7 +27,10 @@
             },
             {
               "vertical_small_spacer_2@csb_landing.vertical_small_spacer": {
-                "size": [ "100%", 4 ]
+                "size": [
+                  "100%",
+                  4
+                ]
               }
             }
           ]
@@ -33,25 +38,33 @@
       }
     ]
   },
-
   "horizontal_small_spacer": {
     "type": "panel",
-    "size": [ 2, 0 ]
+    "size": [
+      2,
+      0
+    ]
   },
-
   "vertical_small_spacer": {
     "type": "panel",
-    "size": [ 0, 2 ]
+    "size": [
+      0,
+      2
+    ]
   },
-
   "vertical_large_spacer": {
     "type": "panel",
-    "size": [ 0, 8 ]
+    "size": [
+      0,
+      8
+    ]
   },
-
   "title_stack": {
     "type": "stack_panel",
-    "size": [ "100%", "100%c" ],
+    "size": [
+      "100%",
+      "100%c"
+    ],
     "controls": [
       {
         "title_image_panel@csb_landing.title_image_panel": {}
@@ -69,8 +82,7 @@
               "binding_name_override": "#visible"
             }
           ],
-          "$buy_now_bindings": [
-          ]
+          "$buy_now_bindings": []
         }
       },
       {
@@ -82,8 +94,7 @@
               "binding_name_override": "#visible"
             }
           ],
-          "$buy_now_bindings": [
-          ]
+          "$buy_now_bindings": []
         }
       },
       {
@@ -93,11 +104,17 @@
         "gradient_panel": {
           "ignored": "$pre_release",
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": [
+            "100%",
+            "100%c"
+          ],
           "controls": [
             {
               "label_with_gradient@csb.gradient_content_panel": {
-                "size": [ "100% - 6px", 20 ],
+                "size": [
+                  "100% - 6px",
+                  20
+                ],
                 "$gradient_content": "csb_landing.free_trial_text"
               }
             }
@@ -113,11 +130,17 @@
       {
         "gradient_panel2": {
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": [
+            "100%",
+            "100%c"
+          ],
           "controls": [
             {
               "label_with_gradient2@csb.gradient_content_panel": {
-                "size": [ "100% - 6px", 20 ],
+                "size": [
+                  "100% - 6px",
+                  20
+                ],
                 "$gradient_content": "csb_landing.subscription_includes_text"
               }
             }
@@ -132,17 +155,21 @@
       }
     ]
   },
-
   "subscription_includes_text": {
     "type": "label",
-    "size": [ "100% - 6px", "default" ],
+    "size": [
+      "100% - 6px",
+      "default"
+    ],
     "text": "store.csb.landing.header",
     "color": "$light_button_default_text_color"
   },
-
   "free_trial_text": {
     "type": "label",
-    "size": [ "100% - 6px", "default" ],
+    "size": [
+      "100% - 6px",
+      "default"
+    ],
     "text": "#free_trial_header_text",
     "color": "$light_button_default_text_color",
     "bindings": [
@@ -151,30 +178,43 @@
       }
     ]
   },
-
   "title_space": {
     "type": "panel",
-    "size": [ "100%", 4 ]
+    "size": [
+      "100%",
+      4
+    ]
   },
-
   "title_image_panel": {
     "type": "panel",
-    "size": [ "100%", "100%c" ],
+    "size": [
+      "100%",
+      "100%c"
+    ],
     "controls": [
       {
         "vertical_small_spacer_1@csb_landing.vertical_small_spacer": {
-          "size": [ "100%", 4 ]
+          "size": [
+            "100%",
+            4
+          ]
         }
       },
       {
         "title_image_container": {
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": [
+            "100%",
+            "100%c"
+          ],
           "controls": [
             {
               "title_image": {
                 "type": "image",
-                "size": [ "100%", "15%x" ],
+                "size": [
+                  "100%",
+                  "15%x"
+                ],
                 "texture": "textures/ui/csb_title"
               }
             }
@@ -183,28 +223,35 @@
       },
       {
         "vertical_small_spacer_2@csb_landing.vertical_small_spacer": {
-          "size": [ "100%", 4 ]
+          "size": [
+            "100%",
+            4
+          ]
         }
       }
     ]
   },
-
   "info_stack": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%cm" ],
+    "size": [
+      "100%",
+      "100%cm"
+    ],
     "controls": [
       {
         "info_section_image@csb_landing.info_section_image_with_border": {}
       },
       {
         "info_description_stack_retail@csb_landing.info_description_stack_retail": {
-          "size": [ "fill", "100%c" ]
+          "size": [
+            "fill",
+            "100%c"
+          ]
         }
       }
     ]
   },
-
   "info_description_stack_retail": {
     "type": "stack_panel",
     "controls": [
@@ -222,19 +269,22 @@
       }
     ]
   },
-
   "info_section_stack": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%cm" ]
+    "size": [
+      "100%",
+      "100%cm"
+    ]
   },
-
   "info_section_image_with_border": {
     "type": "image",
     "texture": "textures/ui/csb_welcome_3x6",
-    "size": [ 90, 116 ]
+    "size": [
+      90,
+      116
+    ]
   },
-
   "info_section_text_1@csb_landing.info_section_text": {
     "controls": [
       {
@@ -243,14 +293,16 @@
           "text": "#landing_info_text",
           "font_type": "smooth",
           "color": "$store_white_text_color",
-          "size": [ "100%", "default" ],
+          "size": [
+            "100%",
+            "default"
+          ],
           "bindings": [
             {
               "binding_name": "#landing_info_text"
             }
           ]
         }
-
       },
       {
         "vertical_small_spacer_0@csb_landing.vertical_small_spacer": {}
@@ -324,7 +376,6 @@
       }
     ]
   },
-
   "info_section_text_2@csb_landing.info_section_text": {
     "controls": [
       {
@@ -375,23 +426,30 @@
       }
     ]
   },
-
   "info_section_text": {
     "type": "stack_panel",
-    "size": [ "100%", "100%c" ]
+    "size": [
+      "100%",
+      "100%c"
+    ]
   },
-
   "info_text_bullet": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%cm" ],
+    "size": [
+      "100%",
+      "100%cm"
+    ],
     "$text_bindings|default": [],
     "controls": [
       {
         "info_text_bullet_bullet": {
           "type": "label",
           "text": "•",
-          "size": [ 4, "default" ],
+          "size": [
+            4,
+            "default"
+          ],
           "font_type": "smooth",
           "color": "$store_white_text_color"
         }
@@ -399,14 +457,20 @@
       {
         "bullet_spacer": {
           "type": "panel",
-          "size": [ 4, "100%c" ]
+          "size": [
+            4,
+            "100%c"
+          ]
         }
       },
       {
         "info_text_bullet_body": {
           "type": "label",
           "text": "$info_text_line",
-          "size": [ "fill", "default" ],
+          "size": [
+            "fill",
+            "default"
+          ],
           "font_type": "smooth",
           "color": "$store_white_text_color",
           "bindings": "$text_bindings"
@@ -414,16 +478,21 @@
       }
     ]
   },
-
   "info_text_unbulletted": {
     "type": "panel",
-    "size": [ "100%", "100%cm" ],
+    "size": [
+      "100%",
+      "100%cm"
+    ],
     "controls": [
       {
         "info_text_bullet_body": {
           "type": "label",
           "text": "$info_text_line",
-          "size": [ "100%", "default" ],
+          "size": [
+            "100%",
+            "default"
+          ],
           "font_type": "smooth",
           "color": "$store_white_text_color",
           "bindings": [

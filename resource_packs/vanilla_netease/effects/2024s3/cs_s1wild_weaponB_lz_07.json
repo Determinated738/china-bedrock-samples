@@ -1,70 +1,70 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 0.3333 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.2196 1.0000 0.9490 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Inwards"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.5 1.5 1.5"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.02 0.02",
-			"min": "0.02 0.02"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.8 0.8",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.4 0.4",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s3/cs_s1wild_weaponB_lz_04",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s3/cs_s1wild_weaponB_lz_04"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "2.0",
-			"min": "2.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.3333 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.2196 1.0000 0.9490 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 1.5 1.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.02 0.02"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.8 0.8",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.4 0.4",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s3/cs_s1wild_weaponB_lz_04",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s3/cs_s1wild_weaponB_lz_04"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "2.0"
+    }
+  }
 }

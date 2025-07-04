@@ -1,90 +1,90 @@
 {
-	"frameeffect": {
-		"blend_mode": 2,
-		"cylinder_enable": false,
-		"delay": 2.1,
-		"delay_in_loop": false,
-		"depth_test": true,
-		"face_camera": false,
-		"fade_distance": 0.0,
-		"first_person_enable": false,
-		"fps": 12,
-		"frame_color": [
-			[
-				1,
-				1,
-				1,
-				0.6333333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.62
-			],
-			[
-				1,
-				1,
-				1,
-				0.6599999999999999
-			],
-			[
-				1,
-				1,
-				1,
-				0.6
-			],
-			[
-				1,
-				1,
-				1,
-				0.6133333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.5933333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.5933333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.6133333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.62
-			]
-		],
-		"layer": 1,
-		"lerp_scale": true,
-		"loop": false,
-		"point_filtering": true,
-		"rot_speed": [
-			0,
-			0,
-			0
-		],
-		"scale": [
-			2.2,
-			2.0,
-			1.0
-		],
-		"shuffle": false,
-		"sub_layer": 2,
-		"tex_repeat_num": [
-			1,
-			1
-		],
-		"texture": "textures/sfxs/2024s3/cs_s1wild_skinB_birth_light02"
-	}
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 2.1,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 12,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        0.6333333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.62
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6599999999999999
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6133333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5933333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5933333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6133333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.62
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      2.2,
+      2,
+      1
+    ],
+    "shuffle": false,
+    "sub_layer": 2,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2024s3/cs_s1wild_skinB_birth_light02"
+  }
 }

@@ -1,63 +1,63 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.9725 1.0000 0.6471 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.9843 1.0000 0.6706 1.0000",
-				"time": "50.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.2400 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 1.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "8.0",
-			"min": "8.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.3 0.8 0.8"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"faceCameraMode": {
-			"value": "Rotate Y"
-		},
-		"layer": 6,
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.03 0.03"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s3/ss_s1desert_sheild_lz_01"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "1.0",
-			"min": "2.0"
-		},
-		"velocity": {
-			"max": "0.3",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.9725 1.0000 0.6471 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9843 1.0000 0.6706 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.8 0.8"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s3/ss_s1desert_sheild_lz_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.3"
+    }
+  }
 }

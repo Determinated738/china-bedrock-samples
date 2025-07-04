@@ -1,1 +1,72 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"name": "textures/sfxs/2022s2/xy_starry_fp_lz"}, "numparticles": {"value": "15"}, "colorfade": [], "emissionrate": {"max": "15.0", "min": "5.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "emittersize": {"value": "0.8 0.4 0.6"}, "emitterscale": [], "velocity": {"max": "0.5", "min": "0.2"}, "particlesize": {"max": "0.2 0.2", "min": "0.12 0.12"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "0.84 0.84", "time": "16.3%"}, {"scale": "0.78 0.78", "time": "37.7%"}, {"scale": "0.64 0.64", "time": "63.0%"}, {"scale": "0.34 0.34", "time": "78.0%"}, {"scale": "0.14 0.14", "time": "100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s2/xy_starry_fp_lz"
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "15.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "emittersize": {
+      "value": "0.8 0.4 0.6"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.12 0.12"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "16.3%"
+      },
+      {
+        "scale": "0.78 0.78",
+        "time": "37.7%"
+      },
+      {
+        "scale": "0.64 0.64",
+        "time": "63.0%"
+      },
+      {
+        "scale": "0.34 0.34",
+        "time": "78.0%"
+      },
+      {
+        "scale": "0.14 0.14",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

@@ -1,1 +1,40 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "2.0", "min": "2.0"}, "layer": 6, "numparticles": {"value": "3"}, "particlesize": {"max": "0.5 0.5", "min": "0.5 0.5"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2022s3/xy_carnival_fp_kltt_lzfg", "shuffle": false}, "name": "textures/sfxs/2022s3/xy_carnival_fp_kltt_lzfg"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2022s3/xy_carnival_fp_kltt_lzfg",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2022s3/xy_carnival_fp_kltt_lzfg"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

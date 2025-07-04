@@ -1,68 +1,64 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "0.8039 0.8157 1.0000 0.3304",
-                "time": "0.00"
-            },
-            {
-                "color": "0.8392 0.8235 1.0000 0.3393",
-                "time": "1.00"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "6.0",
-            "min": "8.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "faceCameraMode": {
-            "value": "Horizontal"
-        },
-        "independent": false,
-        "layer": 0,
-        "particlesize": {
-            "max": "1.0 1.0",
-            "min": "0.6 0.6"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "rotationRange": {
-            "max": "0.0 0.0 360.0",
-            "min": "0.0 0.0 0.0"
-        },
-        "texture": {
-            "ani": {
-                "fps": "15",
-                "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_dimianxiaoguo",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_dimianxiaoguo"
-        },
-        "thickness": {
-            "value": "0.0"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.8039 0.8157 1.0000 0.3304",
+        "time": "0.00"
+      },
+      {
+        "color": "0.8392 0.8235 1.0000 0.3393",
+        "time": "1.00"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "independent": false,
+    "layer": 0,
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "0.6 0.6"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 360.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_dimianxiaoguo",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_dimianxiaoguo"
+    },
+    "thickness": {
+      "value": "0.0"
     }
+  }
 }

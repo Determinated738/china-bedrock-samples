@@ -1,71 +1,67 @@
 {
-    "particleeffect": {
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "1.0 1.0 1.0",
-            "min": "-1.0 -1.0 -1.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "100.0",
-            "min": "100.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enablecolor": {
-            "enable": "false"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "1"
-        },
-        "particlesize": {
-            "max": "2.88 0.6",
-            "min": "2.88 0.6"
-        },
-        "rotationRange": {
-            "max": "0.0 180.0 0.0",
-            "min": "0.0 180.0 0.0"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "scaled": {
-            "enable": "false"
-        },
-        "texture": {
-            "ani": {
-                "fps": "10",
-                "name": "textures/sfxs/home/ass_effect/brick_dyfg/0_word",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/home/ass_effect/brick_dyfg/0_word"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "120.0",
-            "min": "120.0"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "2.88 0.6",
+      "min": "2.88 0.6"
+    },
+    "rotationRange": {
+      "max": "0.0 180.0 0.0",
+      "min": "0.0 180.0 0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "scaled": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/home/ass_effect/brick_dyfg/0_word",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/home/ass_effect/brick_dyfg/0_word"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "120.0",
+      "min": "120.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

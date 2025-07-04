@@ -1,1 +1,74 @@
-{"particleeffect": {"colorfade": [], "dampingforce": {"value": "5.0"}, "direction": {"max": "-0.15 0.5 -0.1", "min": "0.5 -0.15 0.3", "value": "Direction"}, "disorder": {"increment": "0.5", "interval": "0.5", "max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0"}, "emissionrate": {"max": "1.8", "min": "1.5"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.1 0.3 0.1"}, "emittertype": {"value": "Sphere"}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.5 0.5", "min": "0.4 0.4"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.12 0.12", "time": "0.00"}, {"scale": "0.24 0.24", "time": "0.23"}, {"scale": "0.32 0.32", "time": "0.56"}, {"scale": "0.26 0.26", "time": "0.93"}, {"scale": "0.08 0.08", "time": "1.29"}], "texture": {"ani": {"fps": "12", "name": "textures/sfxs/2022s3/cs_carnival_weapon_1_firelittle", "shuffle": false}, "name": "textures/sfxs/2022s3/cs_carnival_weapon_1_firelittle"}, "thickness": {"value": "0.0"}}}
+{
+  "particleeffect": {
+    "colorfade": [],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "-0.15 0.5 -0.1",
+      "min": "0.5 -0.15 0.3",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.5",
+      "interval": "0.5",
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "emissionrate": {
+      "max": "1.8",
+      "min": "1.5"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.3 0.1"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.12 0.12",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.24 0.24",
+        "time": "0.23"
+      },
+      {
+        "scale": "0.32 0.32",
+        "time": "0.56"
+      },
+      {
+        "scale": "0.26 0.26",
+        "time": "0.93"
+      },
+      {
+        "scale": "0.08 0.08",
+        "time": "1.29"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2022s3/cs_carnival_weapon_1_firelittle",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2022s3/cs_carnival_weapon_1_firelittle"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
+}

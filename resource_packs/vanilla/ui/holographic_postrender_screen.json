@@ -1,11 +1,9 @@
 {
   "namespace": "holographic_postrender_screen",
-
   "special_render": {
     "type": "custom",
     "renderer": "holographic_postrenderer"
   },
-
   "holographic_postrender_screen@common.base_screen": {
     "send_telemetry": false,
     "screen_not_flushable": true,

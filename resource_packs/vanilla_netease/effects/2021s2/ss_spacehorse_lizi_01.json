@@ -1,1 +1,77 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 -1.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"name": "textures/sfxs/2021s2/ss_spacehorse_pq_lz"}, "faceCameraMode": {"value": "Direction"}, "layer": 2, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "colorfade": [{"color": "0.0000 0.3333 1.0000 1.0000", "time": "0.00"}, {"color": "0.0000 0.6667 1.0000 0.6250", "time": "0.00"}, {"color": "0.6667 0.3333 1.0000 0.3125", "time": "0.01"}], "emissionrate": {"max": "20.0", "min": "20.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.1", "min": "0.1"}, "emittersize": {"value": "0.2 0.0 0.2"}, "emitterscale": [], "velocity": {"max": "0.1", "min": "0.1"}, "blend": {"name": "add"}, "particlesize": {"max": "0.05 0.15", "min": "0.1 0.3"}, "numparticles": {"value": "4"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s2/ss_spacehorse_pq_lz"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 2,
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.3333 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 0.6667 1.0000 0.6250",
+        "time": "0.00"
+      },
+      {
+        "color": "0.6667 0.3333 1.0000 0.3125",
+        "time": "0.01"
+      }
+    ],
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "emittersize": {
+      "value": "0.2 0.0 0.2"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.05 0.15",
+      "min": "0.1 0.3"
+    },
+    "numparticles": {
+      "value": "4"
+    }
+  }
+}

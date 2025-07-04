@@ -1,142 +1,142 @@
 {
-	"frameeffect": {
-		"blend_mode": 1,
-		"cylinder_enable": true,
-		"cylinder_frac_num": 24,
-		"cylinder_height": 1.2,
-		"cylinder_radius_down": 3.0,
-		"cylinder_radius_up": 2.0,
-		"delay": 0.88,
-		"delay_in_loop": false,
-		"depth_test": true,
-		"face_camera": false,
-		"fade_distance": 0.0,
-		"first_person_enable": false,
-		"fps": 32,
-		"frame_color": [
-			[
-				1,
-				1,
-				1,
-				0.3933333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.7533333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				0.9066666666666666
-			],
-			[
-				1,
-				1,
-				1,
-				0.8466666666666667
-			],
-			[
-				1,
-				1,
-				1,
-				0.6866666666666666
-			],
-			[
-				1,
-				1,
-				1,
-				0.5733333333333333
-			],
-			[
-				1,
-				1,
-				1,
-				0.3866666666666667
-			],
-			[
-				1,
-				1,
-				1,
-				0.2866666666666666
-			],
-			[
-				1,
-				1,
-				1,
-				0.3933333333333333
-			]
-		],
-		"layer": 3,
-		"lerp_scale": false,
-		"loop": false,
-		"point_filtering": true,
-		"rot_speed": [
-			0.0,
-			100.0,
-			0.0
-		],
-		"scale": [
-			1.0,
-			1.0,
-			1.0
-		],
-		"shuffle": false,
-		"sub_layer": 0,
-		"tex_repeat_num": [
-			4,
-			1
-		],
-		"texture": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_xql02"
-	}
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 24,
+    "cylinder_height": 1.2,
+    "cylinder_radius_down": 3,
+    "cylinder_radius_up": 2,
+    "delay": 0.88,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 32,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        0.3933333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.7533333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.9066666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6866666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5733333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.3866666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.2866666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.3933333333333333
+      ]
+    ],
+    "layer": 3,
+    "lerp_scale": false,
+    "loop": false,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      100,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      4,
+      1
+    ],
+    "texture": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_xql02"
+  }
 }

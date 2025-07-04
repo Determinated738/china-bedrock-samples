@@ -1,1 +1,85 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.1", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "4.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.4 0.0 0.5"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 4, "numparticles": {"value": "3"}, "particlesize": {"max": "0.2 0.2", "min": "0.3 0.3"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 180.0"}, "sizedelta": [{"scale": "0.48 0.48", "time": "0.0%"}, {"scale": "0.72 0.72", "time": "47.0%"}, {"scale": "0.7 0.7", "time": "100.0%"}], "texture": {"ani": {"fps": "6", "name": "", "shuffle": false}, "name": "textures/sfxs/2023s3/xy_water_fp_hx"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.3"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.4 0.0 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.48 0.48",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "47.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "6",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/xy_water_fp_hx"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

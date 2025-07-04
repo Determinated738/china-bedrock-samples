@@ -1,76 +1,76 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 8.0 0.0"
-		},
-		"dampingforce": {
-			"value": "10.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "30.0",
-			"min": "20.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.5 0.5"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.55 0.55",
-			"min": "0.33 0.33"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "20",
-				"name": "textures/sfxs/2024s4/cs_conan_s1skina_broke_keji02",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_broke_ld"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.58",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "12.0",
-			"min": "10.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 8.0 0.0"
+    },
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.5 0.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.55 0.55",
+      "min": "0.33 0.33"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2024s4/cs_conan_s1skina_broke_keji02",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_broke_ld"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.58",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "12.0",
+      "min": "10.0"
+    }
+  }
 }

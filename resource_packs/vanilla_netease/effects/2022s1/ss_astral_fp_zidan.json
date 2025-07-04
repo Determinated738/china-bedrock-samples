@@ -1,1 +1,61 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s1/ss_astral_fp_zd", "fps": "15"}, "name": "textures/sfxs/2022s1/ss_astral_fp_zd"}, "faceCameraMode": {"value": "Direction Horizontal"}, "independent": false, "emissionrate": {"max": "6.0", "min": "5.0"}, "emitterScaleCurve": [], "layer": 14, "emittersize": {"value": "0.0 0.0 0.0"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "1.5", "min": "1.5"}, "depthtest": {"enable": "true"}, "emitterscale": [], "velocity": {"max": "0.2", "min": "0.2"}, "particlesize": {"max": "0.5 0.5", "min": "0.5 0.5"}, "numparticles": {"value": "5"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/ss_astral_fp_zd",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2022s1/ss_astral_fp_zd"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 14,
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

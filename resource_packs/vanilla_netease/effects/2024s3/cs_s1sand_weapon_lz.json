@@ -1,72 +1,72 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.0000 0.4824 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 0.2667 1.0000 1.0000",
-				"time": "50.3%"
-			},
-			{
-				"color": "0.0000 0.9020 1.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "2.5 0.0 0.0"
-		},
-		"direction": {
-			"max": "1.0 0.0 1.0",
-			"min": "-1.0 0.0 -1.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.1 0.2 0.2"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"particlesize": {
-			"max": "0.03 0.03",
-			"min": "0.05 0.05"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.0 1.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "70.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/cs_s1sand_weapon_lz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.4",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "0.6",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.4824 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.2667 1.0000 1.0000",
+        "time": "50.3%"
+      },
+      {
+        "color": "0.0000 0.9020 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "2.5 0.0 0.0"
+    },
+    "direction": {
+      "max": "1.0 0.0 1.0",
+      "min": "-1.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "70.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/cs_s1sand_weapon_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.3"
+    }
+  }
 }

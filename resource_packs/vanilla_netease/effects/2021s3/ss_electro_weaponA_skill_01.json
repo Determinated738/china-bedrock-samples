@@ -1,29 +1,29 @@
 {
-    "frameeffect": {
-        "blend_mode": 2,
-        "cylinder_enable": false,
-        "delay": 0.0,
-        "depth_test": true,
-        "face_camera": false,
-        "fade_distance": 0.0,
-        "first_person_enable": true,
-        "fps": 12,
-        "loop": true,
-        "rot_speed": [
-            0,
-            0,
-            0
-        ],
-        "scale": [
-            1.0,
-            1.0,
-            1.0
-        ],
-        "shuffle": false,
-        "tex_repeat_num": [
-            1,
-            1
-        ],
-        "texture": "textures/sfxs/2021s3/ss_electro_weaponA_skill_01"
-    }
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 0,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": true,
+    "fps": 12,
+    "loop": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2021s3/ss_electro_weaponA_skill_01"
+  }
 }

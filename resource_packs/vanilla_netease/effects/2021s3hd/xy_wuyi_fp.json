@@ -1,1 +1,60 @@
-{"particleeffect":{"enablecolor":{"enable":"false"},"direction":{"max":"0.0 0.0 0.01","value":"Direction","min":"0.0 0.0 0.01"},"depthtest":{"enable":"true"},"faceCameraMode":{"value":"Direction Horizontal"},"independent":false,"emissionrate":{"max":"5.0","min":"3.0"},"emitterScaleCurve":[],"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s3hd/51_jiaoyin","fps":"12"},"name":"textures/sfxs/2021s3hd/51_jiaoyin"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Cylinder"},"emittersize":{"value":"0.5 0.0 0.0"},"emitterscale":[],"velocity":{"max":"0.1","min":"0.1"},"rotationRange":{"max":"0.0 0.0 200.0","min":"0.0 0.0 160.0"},"particlesize":{"max":"0.9 0.9","min":"0.6 0.6"},"numparticles":{"value":"5"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 0.01"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3hd/51_jiaoyin",
+        "fps": "12"
+      },
+      "name": "textures/sfxs/2021s3hd/51_jiaoyin"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "emittersize": {
+      "value": "0.5 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 200.0",
+      "min": "0.0 0.0 160.0"
+    },
+    "particlesize": {
+      "max": "0.9 0.9",
+      "min": "0.6 0.6"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

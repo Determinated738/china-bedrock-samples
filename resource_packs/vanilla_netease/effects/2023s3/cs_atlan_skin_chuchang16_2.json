@@ -1,1 +1,138 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": false, "delay": 1.0, "delay_in_loop": false, "depth_test": true, "face_camera": false, "fade_distance": 0.0, "first_person_enable": false, "fps": 15, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 0.9866666666666667], [1, 1, 1, 0.9533333333333334], [1, 1, 1, 0.92], [1, 1, 1, 0.88], [1, 1, 1, 0.8], [1, 1, 1, 0.72], [1, 1, 1, 0.5466666666666666], [1, 1, 1, 0.33999999999999997], [1, 1, 1, 0.0]], "layer": 1, "lerp_scale": true, "loop": false, "point_filtering": true, "rot_speed": [0, 0, 0], "scale": [1.18, 1.18, 1.18], "shuffle": false, "sub_layer": 0, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2023s3/cs_atlan_skin_chuchang12_2"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 1,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 15,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.9866666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.9533333333333334
+      ],
+      [
+        1,
+        1,
+        1,
+        0.92
+      ],
+      [
+        1,
+        1,
+        1,
+        0.88
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8
+      ],
+      [
+        1,
+        1,
+        1,
+        0.72
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.33999999999999997
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1.18,
+      1.18,
+      1.18
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2023s3/cs_atlan_skin_chuchang12_2"
+  }
+}

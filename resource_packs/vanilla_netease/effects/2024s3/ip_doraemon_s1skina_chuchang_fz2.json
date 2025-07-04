@@ -1,72 +1,72 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.5804 1.0000 0.9882 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.8980 0.2980 0.5000",
-				"time": "13.9%"
-			},
-			{
-				"color": "1.0000 0.4667 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 1.95,
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "50.0",
-			"min": "50.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Horizontal"
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.8 0.8",
-			"min": "0.8 0.8"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.95 1.95",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/ip_doraemon_s1skina_chuchang_fz"
-		},
-		"timetolive": {
-			"max": "0.3",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.5804 1.0000 0.9882 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.8980 0.2980 0.5000",
+        "time": "13.9%"
+      },
+      {
+        "color": "1.0000 0.4667 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.95,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.8 0.8"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.95 1.95",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/ip_doraemon_s1skina_chuchang_fz"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
 }

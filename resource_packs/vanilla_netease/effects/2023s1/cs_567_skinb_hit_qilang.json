@@ -1,1 +1,69 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.8393", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.6071", "time": "100.0%"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.2 1.2 1.2"}, "emittertype": {"value": "Sphere"}, "enabletexture": {"enable": true}, "layer": 0, "numparticles": {"value": "5"}, "particlesize": {"max": "0.3 0.3", "min": "0.2 0.2"}, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2023s1/cs_567_skinb_hit_huo", "shuffle": false}, "name": "textures/sfxs/2023s1/cs_567_skinb_hit_huo"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.5"}, "velocity": {"max": "2.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.8393",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6071",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 1.2 1.2"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2023s1/cs_567_skinb_hit_huo",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/cs_567_skinb_hit_huo"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "2.0"
+    }
+  }
+}

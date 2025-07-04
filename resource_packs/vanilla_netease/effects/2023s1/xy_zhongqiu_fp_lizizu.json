@@ -1,1 +1,81 @@
-{"particleeffect":{"direction":{"max":"0.0 -0.6 0.0","value":"Direction","min":"0.0 -0.3 0.0"},"dampingforce":{"value":"5.0"},"numparticles":{"value":"3"},"colorfade":[{"color":"0.9882 1.0000 0.2784 1.0000","time":"0.00"},{"color":"1.0000 0.5490 0.4000 1.0000","time":"0.40"},{"color":"1.0000 1.0000 0.8039 1.0000","time":"0.73"},{"color":"1.0000 1.0000 0.2400 0.0000","time":"1.00"}],"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"layer":3,"emittersize":{"value":"1.5 0.0 1.5"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu","fps":"8"},"name":"textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu"},"emitterscale":[],"velocity":{"max":"0.5","min":"0.2"},"blend":{"name":"add"},"particlesize":{"max":"0.16 0.16","min":"0.1 0.1"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.6 0.6","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 -0.6 0.0",
+      "value": "Direction",
+      "min": "0.0 -0.3 0.0"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "colorfade": [
+      {
+        "color": "0.9882 1.0000 0.2784 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.5490 0.4000 1.0000",
+        "time": "0.40"
+      },
+      {
+        "color": "1.0000 1.0000 0.8039 1.0000",
+        "time": "0.73"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 3,
+    "emittersize": {
+      "value": "1.5 0.0 1.5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu",
+        "fps": "8"
+      },
+      "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.16 0.16",
+      "min": "0.1 0.1"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

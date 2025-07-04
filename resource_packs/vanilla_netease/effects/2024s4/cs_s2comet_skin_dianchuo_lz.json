@@ -1,75 +1,75 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "51.1%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "55.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"delay": 0.8,
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "30.0",
-			"min": "30.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.2 1.2 1.2"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 9,
-		"numparticles": {
-			"value": "15"
-		},
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.06 0.06"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_weapon_fllz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "8.0",
-			"min": "5.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "51.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "55.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 0.8,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 1.2 1.2"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 9,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.06 0.06"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_weapon_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "5.0"
+    }
+  }
 }

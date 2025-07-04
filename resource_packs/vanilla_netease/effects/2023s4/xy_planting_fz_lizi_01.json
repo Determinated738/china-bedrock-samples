@@ -1,1 +1,94 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 0.4392 0.0000", "time": "0.0%"}, {"color": "0.6157 1.0000 0.3608 1.0000", "time": "22.4%"}, {"color": "0.3333 1.0000 0.3333 1.0000", "time": "71.3%"}, {"color": "0.1137 1.0000 0.6745 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 -1.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "8.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 0.3 1.0"}, "emittertype": {"value": "Cylinder"}, "enabletexture": {"enable": true}, "layer": 10, "particlesize": {"max": "0.1 0.1", "min": "0.06 0.06"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.22 0.22", "time": "0.0%"}, {"scale": "0.78 0.78", "time": "27.3%"}, {"scale": "0.46 0.46", "time": "52.0%"}, {"scale": "0.66 0.66", "time": "71.3%"}, {"scale": "0.28 0.28", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_atlan_weapon_lizi"}, "thickness": {"value": "0.4"}, "timetolive": {"max": "1.0", "min": "0.5"}, "velocity": {"max": "0.1", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.4392 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.6157 1.0000 0.3608 1.0000",
+        "time": "22.4%"
+      },
+      {
+        "color": "0.3333 1.0000 0.3333 1.0000",
+        "time": "71.3%"
+      },
+      {
+        "color": "0.1137 1.0000 0.6745 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.3 1.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 10,
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.06 0.06"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.22 0.22",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.78 0.78",
+        "time": "27.3%"
+      },
+      {
+        "scale": "0.46 0.46",
+        "time": "52.0%"
+      },
+      {
+        "scale": "0.66 0.66",
+        "time": "71.3%"
+      },
+      {
+        "scale": "0.28 0.28",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_atlan_weapon_lizi"
+    },
+    "thickness": {
+      "value": "0.4"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.2"
+    }
+  }
+}

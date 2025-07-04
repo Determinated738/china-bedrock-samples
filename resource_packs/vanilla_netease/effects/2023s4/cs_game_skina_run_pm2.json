@@ -1,1 +1,74 @@
-{"particleeffect": {"blend": {"name": "add"}, "dampingforce": {"value": "2.0"}, "delay": 0.2, "direction": {"max": "0.0 -1.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "2.0", "min": "2.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.7 0.4", "min": "0.7 0.4"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "90.0 90.0 0.0", "min": "90.0 90.0 0.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}], "texture": {"ani": {"fps": "48", "name": "textures/sfxs/2023s4/cs_game_skina_run_ql", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_game_skina_run_ql"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.3"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "delay": 0.2,
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.7 0.4",
+      "min": "0.7 0.4"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "90.0 90.0 0.0",
+      "min": "90.0 90.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "48",
+        "name": "textures/sfxs/2023s4/cs_game_skina_run_ql",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_game_skina_run_ql"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

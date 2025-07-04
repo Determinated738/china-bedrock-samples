@@ -1,1 +1,67 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"ani": {"shuffle": true, "name": "textures/sfxs/2021s3/yx_electro_fpB_02", "fps": "10"}, "name": "textures/sfxs/2021s3/yx_electro_fpB_02"}, "faceCameraMode": {"value": "Direction Horizontal"}, "colorfade": [], "emissionrate": {"max": "3.0", "min": "4.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.6", "min": "0.5"}, "emittersize": {"value": "0.6 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.7", "min": "0.4"}, "particlesize": {"max": "0.15 0.15", "min": "0.25 0.25"}, "sizedelta": [{"scale": "1.0 1.0", "time": "5.7%"}], "numparticles": {"value": "4"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2021s3/yx_electro_fpB_02",
+        "fps": "10"
+      },
+      "name": "textures/sfxs/2021s3/yx_electro_fpB_02"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "3.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "emittersize": {
+      "value": "0.6 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.7",
+      "min": "0.4"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.25 0.25"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "5.7%"
+      }
+    ],
+    "numparticles": {
+      "value": "4"
+    }
+  }
+}

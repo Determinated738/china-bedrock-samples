@@ -1,76 +1,74 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.000000 1.000000 1.000000 0.000000",
-                "time": "0%"
-            },
-            {
-                "color": "1.000000 1.000000 1.000000 1.000000",
-                "time": "10%"
-            },
-            {
-                "color": "1.000000 1.000000 1.000000 1.000000",
-                "time": "80%"
-            },
-            {
-                "color": "1.000000 1.000000 1.000000 0.000000",
-                "time": "100%"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 1.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "10.0",
-            "min": "2.0"
-        },
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "1.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "enabletexture": {
-            "enable": "true"
-        },
-        "faceCameraMode": {
-            "value": "None"
-        },
-        "numparticles": {
-            "value": "20"
-        },
-        "particlesize": {
-            "max": "0.12 0.12",
-            "min": "0.04 0.04"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/brick_hyfg/0_qipao"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "2.5",
-            "min": "0.7"
-        },
-        "velocity": {
-            "max": "1.0",
-            "min": "0.6"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.000000 1.000000 1.000000 0.000000",
+        "time": "0%"
+      },
+      {
+        "color": "1.000000 1.000000 1.000000 1.000000",
+        "time": "10%"
+      },
+      {
+        "color": "1.000000 1.000000 1.000000 1.000000",
+        "time": "80%"
+      },
+      {
+        "color": "1.000000 1.000000 1.000000 0.000000",
+        "time": "100%"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "2.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "None"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.12 0.12",
+      "min": "0.04 0.04"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/brick_hyfg/0_qipao"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.5",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.6"
     }
+  }
 }

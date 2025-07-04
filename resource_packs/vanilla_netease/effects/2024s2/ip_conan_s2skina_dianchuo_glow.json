@@ -1,1 +1,138 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": false, "delay": 3.49, "delay_in_loop": false, "depth_test": true, "face_camera": false, "fade_distance": 0.0, "first_person_enable": false, "fps": 10, "frame_color": [[1, 1, 1, 0.0], [1, 1, 1, 0.12], [1, 1, 1, 0.2533333333333333], [1, 1, 1, 0.36], [1, 1, 1, 0.5533333333333333], [1, 1, 1, 0.7866666666666666], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 0.8866666666666667], [1, 1, 1, 0.7466666666666666], [1, 1, 1, 0.6466666666666667], [1, 1, 1, 0.43999999999999995], [1, 1, 1, 0.2866666666666666], [1, 1, 1, 0.12], [1, 1, 1, 0.0]], "layer": 1, "lerp_scale": true, "loop": false, "point_filtering": false, "rot_speed": [0, 0, 0], "scale": [3.5, 2.5, 3.5], "shuffle": false, "sub_layer": 0, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_glow"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 3.49,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 10,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0.12
+      ],
+      [
+        1,
+        1,
+        1,
+        0.2533333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.36
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5533333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.7866666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8866666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.7466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.6466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.43999999999999995
+      ],
+      [
+        1,
+        1,
+        1,
+        0.2866666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.12
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      3.5,
+      2.5,
+      3.5
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_glow"
+  }
+}

@@ -1,74 +1,74 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.4000 0.7922 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 0.6824 1.0000 0.9911",
-				"time": "20.8%"
-			},
-			{
-				"color": "0.3490 0.3608 1.0000 1.0000",
-				"time": "73.9%"
-			},
-			{
-				"color": "0.4118 0.4196 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "3.0"
-		},
-		"direction": {
-			"max": "0.0 -1.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "1.0",
-			"min": "2.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.0 0.0 1.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"particlesize": {
-			"max": "0.25 0.25",
-			"min": "0.35 0.35"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s3/ip_doraemon_fz_yinfu_lz",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s3/ip_doraemon_fz_yinfu_lz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "1.0",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "1.0",
-			"min": "1.5"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.4000 0.7922 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.6824 1.0000 0.9911",
+        "time": "20.8%"
+      },
+      {
+        "color": "0.3490 0.3608 1.0000 1.0000",
+        "time": "73.9%"
+      },
+      {
+        "color": "0.4118 0.4196 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.0 1.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.35 0.35"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s3/ip_doraemon_fz_yinfu_lz",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s3/ip_doraemon_fz_yinfu_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "1.5"
+    }
+  }
 }

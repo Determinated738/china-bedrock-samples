@@ -1,1 +1,71 @@
-{"particleeffect":{"direction":{"max":"0.0 -1.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"numparticles":{"value":"5"},"colorfade":[{"color":"0.9529 1.0000 0.0000 1.0000","time":"0.0%"},{"color":"1.0000 0.0314 0.0000 1.0000","time":"20.0%"},{"color":"1.0000 1.0000 0.0000 0.6071","time":"38.2%"},{"color":"1.0000 0.5843 0.0000 1.0000","time":"61.1%"},{"color":"1.0000 0.0000 0.0157 0.7054","time":"100.0%"}],"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"layer":15,"emittersize":{"value":"1.0 0.02 1.0"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.8","min":"0.8"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"emitterscale":[],"velocity":{"max":"0.3","min":"0.2"},"blend":{"name":"add"},"particlesize":{"max":"0.03 0.03","min":"0.01 0.01"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "colorfade": [
+      {
+        "color": "0.9529 1.0000 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.0314 0.0000 1.0000",
+        "time": "20.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.6071",
+        "time": "38.2%"
+      },
+      {
+        "color": "1.0000 0.5843 0.0000 1.0000",
+        "time": "61.1%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0157 0.7054",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 15,
+    "emittersize": {
+      "value": "1.0 0.02 1.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.8"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.01"
+    }
+  }
+}

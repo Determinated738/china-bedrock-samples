@@ -1,1 +1,74 @@
-{"animation":{"name":"Take 001","ID":"UANI","length":3.333333,"trackSize":1,"tracks":[{"bone":"box","chanelMask":4,"keyFramesSize":3,"keyframes":[{"time":0.0,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[9.9e-05,9.9e-05,9.9e-05]},{"time":1.666666,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[0.000199,0.000199,9.9e-05]},{"time":3.333333,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[9.9e-05,9.9e-05,9.9e-05]}]}]}}
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 3.333333,
+    "trackSize": 1,
+    "tracks": [
+      {
+        "bone": "box",
+        "chanelMask": 4,
+        "keyFramesSize": 3,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.000099,
+              0.000099,
+              0.000099
+            ]
+          },
+          {
+            "time": 1.666666,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.000199,
+              0.000199,
+              0.000099
+            ]
+          },
+          {
+            "time": 3.333333,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.000099,
+              0.000099,
+              0.000099
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

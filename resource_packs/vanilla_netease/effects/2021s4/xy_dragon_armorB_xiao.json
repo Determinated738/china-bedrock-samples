@@ -1,1 +1,55 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 -0.1","value":"Direction","min":"0.0 0.0 -0.1"},"numparticles":{"value":"3"},"colorfade":[{"color":"0.8902 0.0471 1.0000 1.0000","time":"0.00"},{"color":"0.1882 0.0471 1.0000 1.0000","time":"0.50"}],"emitterScaleCurve":[],"emittersize":{"value":"0.05 0.15 0.0"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Hemisphere"},"timetolive":{"max":"0.5","min":"0.5"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.8","min":"0.5"},"particlesize":{"max":"0.02 0.02","min":"0.01 0.01"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 -0.1",
+      "value": "Direction",
+      "min": "0.0 0.0 -0.1"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "colorfade": [
+      {
+        "color": "0.8902 0.0471 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1882 0.0471 1.0000 1.0000",
+        "time": "0.50"
+      }
+    ],
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.05 0.15 0.0"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.01 0.01"
+    }
+  }
+}

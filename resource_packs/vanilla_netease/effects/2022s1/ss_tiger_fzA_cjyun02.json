@@ -1,1 +1,63 @@
-{"frameeffect": {"layer": 1, "scale": [0.8, 1.0, 0.8], "shuffle": false, "depth_test": true, "frame_color": [[1.0, 0.9568627450980393, 0.4823529411764706, 1.0], [0.9529411764705882, 1.0, 0.6196078431372549, 1.0], [0.9803921568627451, 1.0, 0.5764705882352941, 1.0], [0.9647058823529412, 1.0, 0.6313725490196078, 1.0], [1.0, 0.9568627450980393, 0.4823529411764706, 1.0]], "texture": "textures/sfxs/2022s1/ss_tiger_fzA_yun01", "delay": 0.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "fps": 5, "first_person_enable": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": true, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "layer": 1,
+    "scale": [
+      0.8,
+      1,
+      0.8
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        0.9568627450980393,
+        0.4823529411764706,
+        1
+      ],
+      [
+        0.9529411764705882,
+        1,
+        0.6196078431372549,
+        1
+      ],
+      [
+        0.9803921568627451,
+        1,
+        0.5764705882352941,
+        1
+      ],
+      [
+        0.9647058823529412,
+        1,
+        0.6313725490196078,
+        1
+      ],
+      [
+        1,
+        0.9568627450980393,
+        0.4823529411764706,
+        1
+      ]
+    ],
+    "texture": "textures/sfxs/2022s1/ss_tiger_fzA_yun01",
+    "delay": 0,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 5,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 2
+  }
+}

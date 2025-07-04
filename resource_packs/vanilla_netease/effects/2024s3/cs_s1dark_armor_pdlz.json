@@ -1,76 +1,76 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.7529 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.5020 0.9765 1.0000 1.0000",
-				"time": "47.9%"
-			},
-			{
-				"color": "0.0980 0.4000 0.4706 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "4.0",
-			"min": "6.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.1 0.2 0.1"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "6"
-		},
-		"particlesize": {
-			"max": "0.03 0.03",
-			"min": "0.05 0.05"
-		},
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.25 1.25",
-				"time": "54.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/cs_s1dark_armor_fllz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "0.6",
-			"min": "0.4"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.7529 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.5020 0.9765 1.0000 1.0000",
+        "time": "47.9%"
+      },
+      {
+        "color": "0.0980 0.4000 0.4706 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.2 0.1"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.25 1.25",
+        "time": "54.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/cs_s1dark_armor_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.4"
+    }
+  }
 }

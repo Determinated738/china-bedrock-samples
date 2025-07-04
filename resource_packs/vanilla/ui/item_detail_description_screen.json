@@ -1,10 +1,15 @@
 {
   "namespace": "item_description",
-
   "base_label": {
     "type": "label",
-    "size": [ "100% - 8px", "default" ],
-    "offset": [ 3, 0 ],
+    "size": [
+      "100% - 8px",
+      "default"
+    ],
+    "offset": [
+      3,
+      0
+    ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "layer": 1,
@@ -12,17 +17,22 @@
     "font_type": "smooth",
     "text_alignment": "left"
   },
-
   "summary_text_panel": {
     "type": "stack_panel",
-    "size": [ "100%", "100%c" ],
+    "size": [
+      "100%",
+      "100%c"
+    ],
     "orientation": "vertical",
     "controls": [
       {
         "title_panel": {
           "type": "input_panel",
           "focus_enabled": true,
-          "size": [ "100%", "100%c + 1px" ],
+          "size": [
+            "100%",
+            "100%c + 1px"
+          ],
           "controls": [
             {
               "pack_title@item_description.base_label": {
@@ -42,7 +52,10 @@
       {
         "contents_description_panel": {
           "type": "panel",
-          "size": [ "100%", "100%c + 3px" ],
+          "size": [
+            "100%",
+            "100%c + 3px"
+          ],
           "controls": [
             {
               "contents_description@item_description.base_label": {
@@ -61,7 +74,10 @@
       {
         "author_panel": {
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": [
+            "100%",
+            "100%c"
+          ],
           "controls": [
             {
               "author_label@item_description.base_label": {
@@ -77,11 +93,16 @@
           ]
         }
       },
-      { "pad@pdp.vertical_padding_2px": {} },
+      {
+        "pad@pdp.vertical_padding_2px": {}
+      },
       {
         "description_panel": {
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": [
+            "100%",
+            "100%c"
+          ],
           "controls": [
             {
               "contents_description@item_description.base_label": {
@@ -97,39 +118,59 @@
           ]
         }
       },
-      { "bottom_padding@pdp.vertical_padding_2px": {} }
+      {
+        "bottom_padding@pdp.vertical_padding_2px": {}
+      }
     ]
   },
-
   "description@common.scrolling_panel": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100% - 2px", "100%" ],
-    "$scrolling_pane_size": [ "100%", "100%" ],
-    "$scrolling_pane_offset": [ 0, 0 ],
-    "$scroll_size": [ 5, "100% - 4px" ],
+    "size": [
+      "100% - 2px",
+      "100%"
+    ],
+    "$scrolling_pane_size": [
+      "100%",
+      "100%"
+    ],
+    "$scrolling_pane_offset": [
+      0,
+      0
+    ],
+    "$scroll_size": [
+      5,
+      "100% - 4px"
+    ],
     "$scrolling_content": "item_description.summary_text_panel",
-    "$scroll_bar_left_padding_size": [ 0, 0 ],
+    "$scroll_bar_left_padding_size": [
+      0,
+      0
+    ],
     "$show_background": false,
     "$bar_visible": false
   },
-
   "screen_content": {
     "type": "panel",
-    "size": [ "100%", "100%" ],
+    "size": [
+      "100%",
+      "100%"
+    ],
     "controls": [
       {
         "dialog@common_dialogs.main_panel_no_buttons": {
-          "size": [ "50%", "60%" ],
+          "size": [
+            "50%",
+            "60%"
+          ],
           "$child_control": "item_description.description",
           "$text_name": "store.offerDescription.title",
           "$dialog_background_texture": "textures/ui/store_banner_no_border",
-          "$fill_alpha": 1.0
+          "$fill_alpha": 1
         }
       }
     ]
   },
-
   "item_description_screen@common.base_screen": {
     "force_render_below": true,
     "$screen_content": "item_description.screen_content",

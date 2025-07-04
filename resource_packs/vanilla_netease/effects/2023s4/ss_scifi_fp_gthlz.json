@@ -1,1 +1,44 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "4.0", "min": "4.0"}, "layer": 6, "numparticles": {"value": "4"}, "particlesize": {"max": "0.3 0.3", "min": "0.3 0.3"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s4/ss_scifi_fp_lzfg", "shuffle": false}, "name": "textures/sfxs/2023s4/ss_scifi_fp_lzfg"}, "timetolive": {"max": "0.6", "min": "0.6"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s4/ss_scifi_fp_lzfg",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/ss_scifi_fp_lzfg"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

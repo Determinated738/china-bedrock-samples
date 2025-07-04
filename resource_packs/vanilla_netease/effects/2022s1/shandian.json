@@ -1,1 +1,107 @@
-{"particleeffect":{"independent":false,"direction":{"max":"1.0 1.0 1.0","value":"Outwards","min":"-1.0 -1.0 -1.0"},"dampingforce":{"value":"10.0"},"numparticles":{"value":"2"},"blend":{"name":"add"},"colorfade":[{"color":"0.0627 1.0000 0.9255 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.03"},{"color":"0.0431 0.7765 1.0000 1.0000","time":"0.09"},{"color":"0.4745 1.0000 1.0000 0.9643","time":"0.14"},{"color":"0.1922 0.6902 1.0000 1.0000","time":"0.18"},{"color":"0.3059 1.0000 0.6902 0.9911","time":"0.22"},{"color":"0.9922 1.0000 0.8157 1.0000","time":"0.28"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.30"},{"color":"0.2039 0.9216 1.0000 1.0000","time":"0.40"},{"color":"0.2392 1.0000 1.0000 1.0000","time":"0.52"},{"color":"0.6314 0.9843 1.0000 0.7768","time":"0.60"}],"emissionrate":{"max":"15.0","min":"10.0"},"emitterScaleCurve":[],"layer":12,"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2022s1/cs_tiger_soul_chuchang_shandian","fps":"32"},"name":"textures/sfxs/2022s1/cs_tiger_soul_chuchang_shandian"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.6","min":"0.5"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.01 0.01 0.01"},"velocity":{"max":"4.0","min":"3.0"},"emitterscale":[],"particlesize":{"max":"0.5 0.5","min":"0.3 0.3"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "value": "Outwards",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0627 1.0000 0.9255 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.03"
+      },
+      {
+        "color": "0.0431 0.7765 1.0000 1.0000",
+        "time": "0.09"
+      },
+      {
+        "color": "0.4745 1.0000 1.0000 0.9643",
+        "time": "0.14"
+      },
+      {
+        "color": "0.1922 0.6902 1.0000 1.0000",
+        "time": "0.18"
+      },
+      {
+        "color": "0.3059 1.0000 0.6902 0.9911",
+        "time": "0.22"
+      },
+      {
+        "color": "0.9922 1.0000 0.8157 1.0000",
+        "time": "0.28"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.30"
+      },
+      {
+        "color": "0.2039 0.9216 1.0000 1.0000",
+        "time": "0.40"
+      },
+      {
+        "color": "0.2392 1.0000 1.0000 1.0000",
+        "time": "0.52"
+      },
+      {
+        "color": "0.6314 0.9843 1.0000 0.7768",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "15.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 12,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/cs_tiger_soul_chuchang_shandian",
+        "fps": "32"
+      },
+      "name": "textures/sfxs/2022s1/cs_tiger_soul_chuchang_shandian"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.01 0.01 0.01"
+    },
+    "velocity": {
+      "max": "4.0",
+      "min": "3.0"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.3 0.3"
+    }
+  }
+}

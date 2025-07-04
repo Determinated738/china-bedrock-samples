@@ -1,57 +1,57 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"dampingforce": {
-			"value": "5.0"
-		},
-		"delay": 9.7,
-		"depthtest": {
-			"enable": "false"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "40.0",
-			"min": "40.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "3.0 3.0 3.0"
-		},
-		"emittertype": {
-			"value": "Hemisphere"
-		},
-		"layer": 7,
-		"numparticles": {
-			"value": "40"
-		},
-		"particlesize": {
-			"max": "0.15 0.15",
-			"min": "0.03 0.03"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_huo_kuai1"
-		},
-		"thickness": {
-			"value": "1.0"
-		},
-		"timetolive": {
-			"max": "0.7",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "18.0",
-			"min": "15.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 9.7,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "40.0",
+      "min": "40.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "3.0 3.0 3.0"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "layer": 7,
+    "numparticles": {
+      "value": "40"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.03 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_skin_huo_kuai1"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "18.0",
+      "min": "15.0"
+    }
+  }
 }

@@ -1,1 +1,52 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": false, "delay": 0.0, "delay_in_loop": false, "depth_test": true, "face_camera": true, "fade_distance": 0.0, "first_person_enable": false, "fps": 2, "frame_color": [[0.00784313725490196, 0.9176470588235294, 1.0, 0.21999999999999997], [0.2235294117647059, 0.9647058823529412, 1.0, 0.36], [0.00784313725490196, 0.9176470588235294, 1.0, 0.21999999999999997]], "layer": 1, "lerp_scale": true, "loop": true, "rot_speed": [0, 0, 0], "scale": [0.6, 0.6, 1.0], "shuffle": false, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2022s4/cs_tarot_weapon_gy"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 0,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": true,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 2,
+    "frame_color": [
+      [
+        0.00784313725490196,
+        0.9176470588235294,
+        1,
+        0.21999999999999997
+      ],
+      [
+        0.2235294117647059,
+        0.9647058823529412,
+        1,
+        0.36
+      ],
+      [
+        0.00784313725490196,
+        0.9176470588235294,
+        1,
+        0.21999999999999997
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": true,
+    "loop": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.6,
+      0.6,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2022s4/cs_tarot_weapon_gy"
+  }
+}

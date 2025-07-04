@@ -1,1 +1,242 @@
-{"animation":{"name":"Take 001","ID":"UANI","length":1.066666,"trackSize":6,"tracks":[{"bone":"Bone001","chanelMask":0,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0]}]},{"bone":"Bone002","chanelMask":1,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.908262,-0.00025,-2e-06],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0]}]},{"bone":"Bone003","chanelMask":0,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0]}]},{"bone":"Bone004","chanelMask":3,"keyFramesSize":5,"keyframes":[{"time":0.0,"pos":[-0.0,-0.0,-2.448999],"quaternion":[0.0,0.707106,0.0,0.707107],"scale":[1.0,1.0,1.0]},{"time":0.266666,"pos":[-0.082542,-0.097906,-2.971996],"quaternion":[-0.001609,0.706556,0.001965,0.707651],"scale":[1.0,1.0,1.0]},{"time":0.533333,"pos":[0.0,-0.23257,-3.494992],"quaternion":[-0.000849,0.707083,0.000849,0.707129],"scale":[1.0,1.0,1.0]},{"time":0.8,"pos":[0.083958,-0.12522,-2.971996],"quaternion":[0.000282,0.707722,0.000106,0.70649],"scale":[1.0,1.0,1.0]},{"time":1.066666,"pos":[0.0,0.0,-2.448999],"quaternion":[0.0,0.707106,0.0,0.707107],"scale":[1.0,1.0,1.0]}]},{"bone":"bind","chanelMask":0,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0]}]},{"bone":"root","chanelMask":0,"keyFramesSize":1,"keyframes":[{"time":0.0,"pos":[0.0,0.0,0.0],"quaternion":[0.0,0.0,0.0,1.0],"scale":[1.0,1.0,1.0]}]}]}}
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 1.066666,
+    "trackSize": 6,
+    "tracks": [
+      {
+        "bone": "Bone001",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "Bone002",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.908262,
+              -0.00025,
+              -0.000002
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "Bone003",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "Bone004",
+        "chanelMask": 3,
+        "keyFramesSize": 5,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              -2.448999
+            ],
+            "quaternion": [
+              0,
+              0.707106,
+              0,
+              0.707107
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 0.266666,
+            "pos": [
+              -0.082542,
+              -0.097906,
+              -2.971996
+            ],
+            "quaternion": [
+              -0.001609,
+              0.706556,
+              0.001965,
+              0.707651
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 0.533333,
+            "pos": [
+              0,
+              -0.23257,
+              -3.494992
+            ],
+            "quaternion": [
+              -0.000849,
+              0.707083,
+              0.000849,
+              0.707129
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 0.8,
+            "pos": [
+              0.083958,
+              -0.12522,
+              -2.971996
+            ],
+            "quaternion": [
+              0.000282,
+              0.707722,
+              0.000106,
+              0.70649
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1.066666,
+            "pos": [
+              0,
+              0,
+              -2.448999
+            ],
+            "quaternion": [
+              0,
+              0.707106,
+              0,
+              0.707107
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bind",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "root",
+        "chanelMask": 0,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

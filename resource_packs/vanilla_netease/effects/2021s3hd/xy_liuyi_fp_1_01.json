@@ -1,1 +1,120 @@
-{"particleeffect": {"constantforce": {"value": "0.0 1.5 0.0"}, "independent": false, "direction": {"max": "0.0 -0.8 0.6", "value": "Direction", "min": "0.0 -0.5 0.3"}, "rotationSpeedRange": {"max": "0.0 0.0 50.0", "min": "0.0 0.0 -20.0"}, "numparticles": {"value": "5"}, "texture": {"ani": {"shuffle": true, "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu", "fps": "4"}, "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu"}, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 0.0"}, "colorfade": [{"color": "0.3765 1.0000 1.0000 1.0000", "time": "0.00"}, {"color": "0.9490 0.5647 1.0000 1.0000", "time": "0.00"}, {"color": "0.2275 0.8980 1.0000 1.0000", "time": "0.00"}, {"color": "1.0000 0.0549 0.0706 1.0000", "time": "0.00"}, {"color": "0.9608 0.3882 1.0000 1.0000", "time": "0.13"}, {"color": "0.8353 1.0000 0.3804 1.0000", "time": "0.25"}, {"color": "1.0000 0.2784 0.4118 1.0000", "time": "0.39"}, {"color": "1.0000 1.0000 0.0000 0.9821", "time": "0.67"}, {"color": "1.0000 0.6314 0.3059 1.0000", "time": "0.87"}, {"color": "1.0000 0.9176 0.5020 0.0000", "time": "1.50"}], "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "1.5 0.3 0.4"}, "emitterscale": [], "velocity": {"max": "1.5", "min": "1.0"}, "blend": {"name": "add"}, "particlesize": {"max": "0.2 0.2", "min": "0.15 0.15"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.7 0.7", "time": "100.0%"}, {"scale": "0.7 0.7", "time": "100.0%"}]}}
+{
+  "particleeffect": {
+    "constantforce": {
+      "value": "0.0 1.5 0.0"
+    },
+    "independent": false,
+    "direction": {
+      "max": "0.0 -0.8 0.6",
+      "value": "Direction",
+      "min": "0.0 -0.5 0.3"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 -20.0"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu",
+        "fps": "4"
+      },
+      "name": "textures/sfxs/2021s3hd/xy_liuyi_fp_lizizu"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.3765 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.9490 0.5647 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.2275 0.8980 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.0549 0.0706 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.9608 0.3882 1.0000 1.0000",
+        "time": "0.13"
+      },
+      {
+        "color": "0.8353 1.0000 0.3804 1.0000",
+        "time": "0.25"
+      },
+      {
+        "color": "1.0000 0.2784 0.4118 1.0000",
+        "time": "0.39"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.9821",
+        "time": "0.67"
+      },
+      {
+        "color": "1.0000 0.6314 0.3059 1.0000",
+        "time": "0.87"
+      },
+      {
+        "color": "1.0000 0.9176 0.5020 0.0000",
+        "time": "1.50"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "1.5 0.3 0.4"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "1.5",
+      "min": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.15 0.15"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

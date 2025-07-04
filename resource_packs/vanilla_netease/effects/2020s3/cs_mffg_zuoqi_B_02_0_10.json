@@ -1,100 +1,96 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.0000 0.9843 0.4667 0.0000",
-                "time": "0.00"
-            },
-            {
-                "color": "1.0000 0.9137 0.4118 0.1961",
-                "time": "0.20"
-            },
-            {
-                "color": "1.0000 0.9216 0.2980 0.0784",
-                "time": "0.40"
-            },
-            {
-                "color": "1.0000 0.9216 0.2980 0.0000",
-                "time": "0.50"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 -1.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "50.0",
-            "min": "10.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.1 0.7 0.1"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "20"
-        },
-        "particlesize": {
-            "max": "0.6 0.6",
-            "min": "0.4 0.4"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "0.9 0.9",
-                "time": "20.0%"
-            },
-            {
-                "scale": "0.91 0.91",
-                "time": "40.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "60.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "80.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "name": "textures/particle/2020s3/cs_mffg_zuoqi_B_01_0_01"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "0.5",
-            "min": "0.5"
-        },
-        "velocity": {
-            "max": "0.7",
-            "min": "0.5"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.9843 0.4667 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.9137 0.4118 0.1961",
+        "time": "0.20"
+      },
+      {
+        "color": "1.0000 0.9216 0.2980 0.0784",
+        "time": "0.40"
+      },
+      {
+        "color": "1.0000 0.9216 0.2980 0.0000",
+        "time": "0.50"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.7 0.1"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.91 0.91",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/2020s3/cs_mffg_zuoqi_B_01_0_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.7",
+      "min": "0.5"
     }
+  }
 }

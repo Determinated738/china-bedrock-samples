@@ -1,1 +1,100 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "colorfade": [{"color": "0.2784 0.0667 0.0275 0.0000", "time": "0.0%"}, {"color": "0.3098 0.0235 0.0235 0.0625", "time": "4.2%"}, {"color": "0.1922 0.0000 0.0000 0.4018", "time": "7.9%"}, {"color": "0.2784 0.0000 0.0000 0.3750", "time": "87.1%"}, {"color": "0.0510 0.0000 0.0000 0.1696", "time": "93.4%"}, {"color": "0.4941 0.0000 0.0000 0.0000", "time": "100.0%"}], "delay": 0.7, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "30.0", "min": "30.0"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "2.8 2.8", "min": "2.8 2.8"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.52 0.52", "time": "0.0%"}, {"scale": "0.96 0.96", "time": "5.7%"}, {"scale": "1.2 1.2", "time": "20.0%"}, {"scale": "2.65 2.65", "time": "21.0%"}, {"scale": "1.96 1.96", "time": "23.0%"}, {"scale": "1.75 1.75", "time": "82.0%"}, {"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_zhuchengchuchang_glowdi01"}, "timetolive": {"max": "4.5", "min": "4.5"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "0.2784 0.0667 0.0275 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3098 0.0235 0.0235 0.0625",
+        "time": "4.2%"
+      },
+      {
+        "color": "0.1922 0.0000 0.0000 0.4018",
+        "time": "7.9%"
+      },
+      {
+        "color": "0.2784 0.0000 0.0000 0.3750",
+        "time": "87.1%"
+      },
+      {
+        "color": "0.0510 0.0000 0.0000 0.1696",
+        "time": "93.4%"
+      },
+      {
+        "color": "0.4941 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.7,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "2.8 2.8",
+      "min": "2.8 2.8"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.52 0.52",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.96 0.96",
+        "time": "5.7%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "20.0%"
+      },
+      {
+        "scale": "2.65 2.65",
+        "time": "21.0%"
+      },
+      {
+        "scale": "1.96 1.96",
+        "time": "23.0%"
+      },
+      {
+        "scale": "1.75 1.75",
+        "time": "82.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_skin_zhuchengchuchang_glowdi01"
+    },
+    "timetolive": {
+      "max": "4.5",
+      "min": "4.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

@@ -1,1 +1,77 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.0%"},{"color":"1.0000 1.0000 0.0000 0.6161","time":"55.0%"},{"color":"0.6196 0.1059 0.0588 0.4107","time":"82.9%"},{"color":"0.6745 0.0275 0.0275 0.0000","time":"100.0%"}],"emissionrate":{"max":"8.0","min":"10.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.35 0.2 0.35"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"1.0","min":"0.6"},"texture":{"name":"textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"},"emitterscale":[],"velocity":{"max":"0.1","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"0.05 0.05","min":"0.1 0.1"},"sizedelta":[{"scale":"0.2 0.2","time":"0.0%"},{"scale":"0.38 0.38","time":"49.7%"},{"scale":"0.2 0.2","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.6161",
+        "time": "55.0%"
+      },
+      {
+        "color": "0.6196 0.1059 0.0588 0.4107",
+        "time": "82.9%"
+      },
+      {
+        "color": "0.6745 0.0275 0.0275 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "8.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.35 0.2 0.35"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.1 0.1"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.2 0.2",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.38 0.38",
+        "time": "49.7%"
+      },
+      {
+        "scale": "0.2 0.2",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

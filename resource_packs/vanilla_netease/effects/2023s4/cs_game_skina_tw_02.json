@@ -1,1 +1,79 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.0235 0.8471 0.0784 0.1786", "time": "0.00"}, {"color": "0.0000 1.0000 0.1490 0.3036", "time": "0.02"}, {"color": "1.0000 0.4471 0.8275 0.1696", "time": "0.06"}, {"color": "1.0000 0.0196 1.0000 0.0714", "time": "0.11"}, {"color": "0.4784 0.0000 0.5608 0.0000", "time": "0.20"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "0.0 0.0 -0.01", "min": "0.0 0.0 -0.01", "value": "Direction"}, "emissionrate": {"max": "30.0", "min": "30.0"}, "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "20"}, "particlesize": {"max": "0.3 0.15", "min": "0.2 0.1"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 -90.0", "min": "0.0 0.0 -90.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.86 0.86", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s4/cs_game_skina_star03"}, "timetolive": {"max": "0.2", "min": "0.1"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0235 0.8471 0.0784 0.1786",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 1.0000 0.1490 0.3036",
+        "time": "0.02"
+      },
+      {
+        "color": "1.0000 0.4471 0.8275 0.1696",
+        "time": "0.06"
+      },
+      {
+        "color": "1.0000 0.0196 1.0000 0.0714",
+        "time": "0.11"
+      },
+      {
+        "color": "0.4784 0.0000 0.5608 0.0000",
+        "time": "0.20"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "min": "0.0 0.0 -0.01",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.3 0.15",
+      "min": "0.2 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -90.0",
+      "min": "0.0 0.0 -90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.86 0.86",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s4/cs_game_skina_star03"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

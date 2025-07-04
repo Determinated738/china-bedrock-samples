@@ -1,1 +1,44 @@
-{"particleeffect": {"direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "1.0", "min": "2.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.7 2.0 0.7"}, "emittertype": {"value": "Box"}, "particlesize": {"max": "1.55 1.55", "min": "1.1 1.1"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "12", "name": "textures/sfxs/2024s1/cs_long_horse_sd02", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_long_horse_sd02"}, "thickness": {"value": "0.0"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.7 2.0 0.7"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "particlesize": {
+      "max": "1.55 1.55",
+      "min": "1.1 1.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2024s1/cs_long_horse_sd02",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_long_horse_sd02"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

@@ -1,1 +1,46 @@
-{"particleeffect": {"direction": {"max": "1.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "5.0"}, "enablecolor": {"enable": "false"}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 2, "numparticles": {"value": "3"}, "particlesize": {"max": "0.6 0.6", "min": "0.6 0.6"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "15", "name": "textures/sfxs/2023s2/cs_fantacy_horse_jy", "shuffle": false}, "name": "textures/sfxs/2023s2/cs_fantacy_horse_jy"}, "timetolive": {"max": "0.5", "min": "0.5"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.6 0.6"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2023s2/cs_fantacy_horse_jy",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s2/cs_fantacy_horse_jy"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

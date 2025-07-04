@@ -1,1 +1,82 @@
-{"particleeffect": {"activetime": {"value": "2.0"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.9765 1.0000 0.5020 0.0000", "time": "0.0%"}, {"color": "0.9882 1.0000 0.1922 1.0000", "time": "10.5%"}, {"color": "1.0000 0.6941 0.1647 1.0000", "time": "28.4%"}, {"color": "1.0000 0.3843 0.0784 1.0000", "time": "61.8%"}, {"color": "1.0000 0.3608 0.1490 0.0000", "time": "100.0%"}], "dampingforce": {"value": "1.0"}, "delay": 1.0, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "5.0", "min": "3.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.8 1.3 0.5"}, "emittertype": {"value": "Box"}, "inactivetime": {"value": "4.5"}, "numparticles": {"value": "5"}, "particlesize": {"max": "0.15 0.15", "min": "0.25 0.25"}, "pointFiltering": true, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s4/cs_scifi_horse_style1_rj", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_scifi_horse_style1_rj"}, "thickness": {"value": "0.0"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "2.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9765 1.0000 0.5020 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9882 1.0000 0.1922 1.0000",
+        "time": "10.5%"
+      },
+      {
+        "color": "1.0000 0.6941 0.1647 1.0000",
+        "time": "28.4%"
+      },
+      {
+        "color": "1.0000 0.3843 0.0784 1.0000",
+        "time": "61.8%"
+      },
+      {
+        "color": "1.0000 0.3608 0.1490 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 1,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 1.3 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "inactivetime": {
+      "value": "4.5"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.25 0.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s4/cs_scifi_horse_style1_rj",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_scifi_horse_style1_rj"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

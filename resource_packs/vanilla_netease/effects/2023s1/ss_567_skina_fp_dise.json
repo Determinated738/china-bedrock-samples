@@ -1,1 +1,80 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.6000 1.0000 0.1339", "time": "0.0%"}, {"color": "0.0000 0.2314 1.0000 0.2321", "time": "10.0%"}, {"color": "0.4000 0.0000 1.0000 0.1964", "time": "75.3%"}, {"color": "0.4039 0.0000 0.4863 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 -0.01", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "7.0", "min": "5.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "numparticles": {"value": "6"}, "particlesize": {"max": "0.5 0.6", "min": "0.5 0.6"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "sizedelta": [{"scale": "1.56 1.56", "time": "0.0%"}, {"scale": "1.23 1.23", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s1/ss_567_skina_fp_dise", "shuffle": false}, "name": "textures/sfxs/2023s1/ss_567_skina_fp_dise"}, "timetolive": {"max": "1.0", "min": "0.7"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.6000 1.0000 0.1339",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.2314 1.0000 0.2321",
+        "time": "10.0%"
+      },
+      {
+        "color": "0.4000 0.0000 1.0000 0.1964",
+        "time": "75.3%"
+      },
+      {
+        "color": "0.4039 0.0000 0.4863 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "7.0",
+      "min": "5.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.5 0.6",
+      "min": "0.5 0.6"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.56 1.56",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s1/ss_567_skina_fp_dise",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/ss_567_skina_fp_dise"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

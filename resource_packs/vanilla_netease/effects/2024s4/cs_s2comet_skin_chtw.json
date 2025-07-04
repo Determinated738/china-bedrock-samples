@@ -1,112 +1,112 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.5843 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.4824 1.0000 1.0000 0.4911",
-				"time": "10.8%"
-			},
-			{
-				"color": "0.2549 0.9647 1.0000 0.4107",
-				"time": "53.2%"
-			},
-			{
-				"color": "0.3961 0.9725 1.0000 0.3214",
-				"time": "87.4%"
-			},
-			{
-				"color": "0.2510 1.0000 0.9765 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "20.0",
-			"min": "20.0"
-		},
-		"layer": 10,
-		"particlesize": {
-			"max": "0.2 0.4",
-			"min": "0.2 0.4"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 90.0",
-			"min": "0.0 0.0 90.0"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.0 1.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "65.7%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/particle/2024s4/cs_s2comet_skin_chuchang_chtuowei"
-		},
-		"timetolive": {
-			"max": "0.3",
-			"min": "0.3"
-		},
-		"trail": {
-			"colorfade": [
-				{
-					"color": "1.0 1.0 1.0 0.5625",
-					"time": "0.000%"
-				},
-				{
-					"color": "1.0 1.0 1.0 0.375",
-					"time": "47.895%"
-				},
-				{
-					"color": "1.0 1.0 1.0 0.0",
-					"time": "100.000%"
-				}
-			],
-			"facemode": 0,
-			"lifetime": 0.35,
-			"maxnum": 200,
-			"mindistance": 0.01,
-			"texmode": 0,
-			"textile": "0.5 0.5",
-			"useparticlecolor": true,
-			"useparticlewidth": true,
-			"widthfade": [
-				{
-					"time": "0.0%",
-					"value": "0.9000000000000002"
-				},
-				{
-					"time": "59.0%",
-					"value": "0.8500000000000002"
-				},
-				{
-					"time": "100.0%",
-					"value": "0.0"
-				}
-			],
-			"worldspace": true
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.5843 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4824 1.0000 1.0000 0.4911",
+        "time": "10.8%"
+      },
+      {
+        "color": "0.2549 0.9647 1.0000 0.4107",
+        "time": "53.2%"
+      },
+      {
+        "color": "0.3961 0.9725 1.0000 0.3214",
+        "time": "87.4%"
+      },
+      {
+        "color": "0.2510 1.0000 0.9765 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "layer": 10,
+    "particlesize": {
+      "max": "0.2 0.4",
+      "min": "0.2 0.4"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "65.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/2024s4/cs_s2comet_skin_chuchang_chtuowei"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 1.0 1.0 0.5625",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.375",
+          "time": "47.895%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.35,
+      "maxnum": 200,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "0.5 0.5",
+      "useparticlecolor": true,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.9000000000000002"
+        },
+        {
+          "time": "59.0%",
+          "value": "0.8500000000000002"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.0"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

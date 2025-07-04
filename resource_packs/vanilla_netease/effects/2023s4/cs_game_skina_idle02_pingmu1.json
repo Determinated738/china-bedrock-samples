@@ -1,1 +1,53 @@
-{"particleeffect": {"activetime": {"value": "0.1"}, "dampingforce": {"value": "20.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "1.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "50.0", "min": "50.0"}, "faceCameraMode": {"value": "Direction Horizontal"}, "numparticles": {"value": "1"}, "particlesize": {"max": "0.35 0.35", "min": "0.35 0.35"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "115.0 100.0 182.0", "min": "115.0 100.0 182.0"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s4/cs_game_skina_klptw_01", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_game_skina_klptw_01"}, "timetolive": {"max": "0.55", "min": "0.55"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "dampingforce": {
+      "value": "20.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.35 0.35"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "115.0 100.0 182.0",
+      "min": "115.0 100.0 182.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s4/cs_game_skina_klptw_01",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_game_skina_klptw_01"
+    },
+    "timetolive": {
+      "max": "0.55",
+      "min": "0.55"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

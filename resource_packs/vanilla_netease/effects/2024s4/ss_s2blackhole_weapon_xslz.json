@@ -1,68 +1,68 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.2054",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "2.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Inwards"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.8 0.8 0.8"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "7"
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.01 0.01"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationSpeedRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 0.0"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.0 1.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.4 0.4",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/ss_s2blackhole_weapon_xshk"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.7",
-			"min": "0.7"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2054",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.8 0.8"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.01 0.01"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.4 0.4",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/ss_s2blackhole_weapon_xshk"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.7"
+    }
+  }
 }

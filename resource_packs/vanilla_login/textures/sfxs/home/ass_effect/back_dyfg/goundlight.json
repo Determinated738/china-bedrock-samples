@@ -1,118 +1,118 @@
 {
-    "particleeffect": {
-        "activetime": {
-            "value": "0.2"
-        },
-        "inactivetime": {
-            "value": "0.9"
-        },
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "0%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.1000",
-                "time": "30%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.1000",
-                "time": "70%"
-            },
-            {
-                "color": "1.0000 1.0000 1.0000 0.0000",
-                "time": "100%"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "20.0",
-            "min": "20.0"
-        },
-        "emitterpath": [
-            {
-                "offset": "-0.6 0.0 -4.4",
-                "time": "0%"
-            },
-            {
-                "offset": "-0.6 0.0 -4.4",
-                "time": "20%"
-            },
-            {
-                "offset": "-0.5 0.0 -11.5",
-                "time": "20%"
-            },
-            {
-                "offset": "-0.5 0.0 -11.5",
-                "time": "40%"
-            },
-            {
-                "offset": "-7.5 0.0 0.6",
-                "time": "40%"
-            },
-            {
-                "offset": "-7.5 0.0 0.6",
-                "time": "60%"
-            },
-            {
-                "offset": "-8.8 0.0 -4.3",
-                "time": "60%"
-            },
-            {
-                "offset": "-8.8 0.0 -4.3",
-                "time": "80%"
-            },
-            {
-                "offset": "4.6 0.0 -8.2",
-                "time": "80%"
-            },
-            {
-                "offset": "4.6 0.0 -8.2",
-                "time": "100%"
-            }
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "numparticles": {
-            "value": "5"
-        },
-        "particlesize": {
-            "max": "1.0 1.0",
-            "min": "1.0 1.0"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "texture": {
-            "name": "textures/sfxs/home/ass_effect/back_dyfg/0_goundlight"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "0.7",
-            "min": "0.7"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "inactivetime": {
+      "value": "0.9"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1000",
+        "time": "30%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1000",
+        "time": "70%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100%"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "-0.6 0.0 -4.4",
+        "time": "0%"
+      },
+      {
+        "offset": "-0.6 0.0 -4.4",
+        "time": "20%"
+      },
+      {
+        "offset": "-0.5 0.0 -11.5",
+        "time": "20%"
+      },
+      {
+        "offset": "-0.5 0.0 -11.5",
+        "time": "40%"
+      },
+      {
+        "offset": "-7.5 0.0 0.6",
+        "time": "40%"
+      },
+      {
+        "offset": "-7.5 0.0 0.6",
+        "time": "60%"
+      },
+      {
+        "offset": "-8.8 0.0 -4.3",
+        "time": "60%"
+      },
+      {
+        "offset": "-8.8 0.0 -4.3",
+        "time": "80%"
+      },
+      {
+        "offset": "4.6 0.0 -8.2",
+        "time": "80%"
+      },
+      {
+        "offset": "4.6 0.0 -8.2",
+        "time": "100%"
+      }
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "1.0 1.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/home/ass_effect/back_dyfg/0_goundlight"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

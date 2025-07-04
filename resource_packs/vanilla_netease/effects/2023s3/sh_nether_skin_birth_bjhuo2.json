@@ -1,1 +1,77 @@
-{"particleeffect": {"activetime": {"value": "2.0"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.8214", "time": "14.7%"}, {"color": "1.0000 1.0000 1.0000 0.7589", "time": "76.8%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "delay": 5.65, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "7.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "2.8 0.0 0.0"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Rotate Y"}, "numparticles": {"value": "12"}, "particlesize": {"max": "0.8 0.8", "min": "0.4 0.4"}, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s3/sh_nether_skin_birth_bjhuo", "shuffle": false}, "name": "textures/sfxs/2023s3/sh_nether_skin_birth_bjhuo"}, "thickness": {"value": "0.0"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "2.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8214",
+        "time": "14.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7589",
+        "time": "76.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 5.65,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "7.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.8 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "numparticles": {
+      "value": "12"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s3/sh_nether_skin_birth_bjhuo",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/sh_nether_skin_birth_bjhuo"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

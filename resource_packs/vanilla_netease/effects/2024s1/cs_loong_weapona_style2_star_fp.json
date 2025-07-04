@@ -1,1 +1,63 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.8980 0.6314 1.0000 0.0000", "time": "0.0%"}, {"color": "0.9961 0.9333 1.0000 0.2946", "time": "48.9%"}, {"color": "0.8980 0.6314 1.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "8.0", "min": "8.0"}, "particlesize": {"max": "0.15 0.1", "min": "0.15 0.1"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.5 1.5", "time": "50.7%"}, {"scale": "0.03 0.03", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/cs_loong_weapona_star"}, "timetolive": {"max": "0.3", "min": "0.3"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.8980 0.6314 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9961 0.9333 1.0000 0.2946",
+        "time": "48.9%"
+      },
+      {
+        "color": "0.8980 0.6314 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "8.0"
+    },
+    "particlesize": {
+      "max": "0.15 0.1",
+      "min": "0.15 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "50.7%"
+      },
+      {
+        "scale": "0.03 0.03",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_weapona_star"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

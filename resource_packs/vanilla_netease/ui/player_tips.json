@@ -1,25 +1,37 @@
 {
   "namespace": "player_tips",
   "apply_button@common.button": {
-    "$control_alpha": 1.0,
+    "$control_alpha": 1,
     "$default_texture": "textures/netease/common/button/default",
     "$hover_texture": "textures/netease/common/button/hover",
     "$is_new_nine_slice": true,
-    "$label_color": [ 0.0, 0.0, 0.0 ],
+    "$label_color": [
+      0,
+      0,
+      0
+    ],
     "$label_font_scale_factor": 0.82,
     "$label_font_size": "normal",
     "$label_layer": 13,
-    "$label_offset": [ 0, 0 ],
+    "$label_offset": [
+      0,
+      0
+    ],
     "$label_text": "申请好友",
     "$nine_slice_buttom": 0,
     "$nine_slice_left": 0,
     "$nine_slice_right": 0,
     "$nine_slice_top": 0,
-    "$nineslice_size": [ 0, 0, 0, 0 ],
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
     "$pressed_button_name": "button.apply_click",
     "$pressed_texture": "textures/netease/common/button/pressed",
     "$texture_layer": 2,
-    "alpha": 1.0,
+    "alpha": 1,
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "bindings": [
@@ -29,7 +41,10 @@
         "binding_type": "collection_details"
       }
     ],
-    "clip_offset": [ 0, 0 ],
+    "clip_offset": [
+      0,
+      0
+    ],
     "clips_children": false,
     "controls": [
       {
@@ -49,12 +64,24 @@
     "enabled": true,
     "is_handle_button_move_event": true,
     "layer": 10,
-    "max_size": [ 0, 0 ],
-    "min_size": [ 0, 0 ],
-    "offset": [ 0, "50%" ],
+    "max_size": [
+      0,
+      0
+    ],
+    "min_size": [
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      "50%"
+    ],
     "priority": 0,
     "propagate_alpha": false,
-    "size": [ "50%", "20%" ],
+    "size": [
+      "50%",
+      "20%"
+    ],
     "visible": true
   },
   "button_label": {
@@ -64,7 +91,10 @@
     "font_size": "$label_font_size",
     "font_type": "smooth",
     "layer": "$label_layer",
-    "max_size": [ "100%", "100%" ],
+    "max_size": [
+      "100%",
+      "100%"
+    ],
     "offset": "$label_offset",
     "shadow": false,
     "text": "$label_text",
@@ -96,25 +126,37 @@
     "type": "image"
   },
   "kick_button@common.button": {
-    "$control_alpha": 1.0,
+    "$control_alpha": 1,
     "$default_texture": "textures/netease/common/button/default",
     "$hover_texture": "textures/netease/common/button/hover",
     "$is_new_nine_slice": true,
-    "$label_color": [ 0.0, 0.0, 0.0 ],
+    "$label_color": [
+      0,
+      0,
+      0
+    ],
     "$label_font_scale_factor": 0.82,
     "$label_font_size": "normal",
     "$label_layer": 13,
-    "$label_offset": [ 0, 0 ],
+    "$label_offset": [
+      0,
+      0
+    ],
     "$label_text": "踢除玩家",
     "$nine_slice_buttom": 0,
     "$nine_slice_left": 0,
     "$nine_slice_right": 0,
     "$nine_slice_top": 0,
-    "$nineslice_size": [ 0, 0, 0, 0 ],
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
     "$pressed_button_name": "button.kick_click",
     "$pressed_texture": "textures/netease/common/button/pressed",
     "$texture_layer": 2,
-    "alpha": 1.0,
+    "alpha": 1,
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "bindings": [
@@ -124,7 +166,10 @@
         "binding_type": "collection_details"
       }
     ],
-    "clip_offset": [ 0, 0 ],
+    "clip_offset": [
+      0,
+      0
+    ],
     "clips_children": false,
     "controls": [
       {
@@ -144,12 +189,24 @@
     "enabled": true,
     "is_handle_button_move_event": true,
     "layer": 10,
-    "max_size": [ 0, 0 ],
-    "min_size": [ 0, 0 ],
-    "offset": [ 0, "75%" ],
+    "max_size": [
+      0,
+      0
+    ],
+    "min_size": [
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      "75%"
+    ],
     "priority": 0,
     "propagate_alpha": false,
-    "size": [ "50%", "20%" ],
+    "size": [
+      "50%",
+      "20%"
+    ],
     "visible": true
   },
   "player_tips_screen@common.base_screen": {
@@ -164,7 +221,10 @@
     "anchor_to": "top_left",
     "enabled": true,
     "layer": 12,
-    "size": [ "43%", "43%" ],
+    "size": [
+      "43%",
+      "43%"
+    ],
     "texture": "#selected_player_head_image",
     "texture_file_system": "RawPath",
     "type": "image",
@@ -178,18 +238,31 @@
   "back_ground_image": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", "100%" ],
+    "size": [
+      "100%",
+      "100%"
+    ],
     "type": "image",
     "texture": "textures/ui/White",
-    "color": [ 0.8, 0.8, 0.8 ],
+    "color": [
+      0.8,
+      0.8,
+      0.8
+    ],
     "layer": 10
   },
   "player_level_panel": {
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "layer": 10,
-    "offset": [ 0.0, "22%" ],
-    "size": [ "36%", "10%" ],
+    "offset": [
+      0,
+      "22%"
+    ],
+    "size": [
+      "36%",
+      "10%"
+    ],
     "type": "stack_panel",
     "orientation": "horizontal",
     "controls": [
@@ -197,10 +270,20 @@
         "player_level_first": {
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "color": [ 0, 0, 0 ],
+          "color": [
+            0,
+            0,
+            0
+          ],
           "layer": 10,
-          "offset": [ 0.0, 0.0 ],
-          "size": [ "default", "default" ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "default",
+            "default"
+          ],
           "text": "#player_level_first_name",
           "text_alignment": "left",
           "type": "label",
@@ -211,10 +294,20 @@
       },
       {
         "player_level_second": {
-          "color": [ 0, 0, 0 ],
+          "color": [
+            0,
+            0,
+            0
+          ],
           "layer": 10,
-          "offset": [ 0.0, 0.0 ],
-          "size": [ "default", "default" ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "default",
+            "default"
+          ],
           "text": "#player_level_second_name",
           "text_alignment": "left",
           "type": "label",
@@ -228,10 +321,20 @@
   "player_name": {
     "anchor_from": "top_right",
     "anchor_to": "top_right",
-    "color": [ 0, 0, 0 ],
+    "color": [
+      0,
+      0,
+      0
+    ],
     "layer": 11,
-    "offset": [ 0, 0 ],
-    "size": [ "57%", "12%" ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "57%",
+      "12%"
+    ],
     "text": "#username",
     "text_alignment": "center",
     "type": "label",
@@ -256,8 +359,14 @@
         "selected_player_growth_level_panel": {
           "visible": true,
           "type": "panel",
-          "size": [ "20%", "20%" ],
-          "offset": [ "44%", "15%" ],
+          "size": [
+            "20%",
+            "20%"
+          ],
+          "offset": [
+            "44%",
+            "15%"
+          ],
           "anchor_to": "top_left",
           "anchor_from": "top_left",
           "controls": [
@@ -265,7 +374,10 @@
               "selected_player_growth_level_texture": {
                 "type": "image",
                 "texture": "#selected_player_growth_level_icon_texture1",
-                "size": [ "100%", "100%" ],
+                "size": [
+                  "100%",
+                  "100%"
+                ],
                 "layer": 16,
                 "bindings": [
                   {
@@ -279,7 +391,10 @@
               "selected_player_growth_level_frame": {
                 "type": "image",
                 "texture": "#selected_player_growth_level_icon_frame1",
-                "size": [ "100%", "100%" ],
+                "size": [
+                  "100%",
+                  "100%"
+                ],
                 "layer": 15,
                 "bindings": [
                   {
@@ -293,7 +408,10 @@
               "selected_player_growth_level_star": {
                 "type": "image",
                 "texture": "#selected_player_growth_level_icon_star1",
-                "size": [ "100%", "100%" ],
+                "size": [
+                  "100%",
+                  "100%"
+                ],
                 "layer": 17,
                 "bindings": [
                   {
@@ -328,7 +446,10 @@
     "layer": 10,
     "offset": "$tips_offset",
     "priority": 0,
-    "size": [ 75, 75 ],
+    "size": [
+      75,
+      75
+    ],
     "type": "panel",
     "visible": true
   },
@@ -346,25 +467,37 @@
   },
   "properties": {},
   "report_button@common.button": {
-    "$control_alpha": 1.0,
+    "$control_alpha": 1,
     "$default_texture": "textures/netease/common/button/default",
     "$hover_texture": "textures/netease/common/button/hover",
     "$is_new_nine_slice": true,
-    "$label_color": [ 0.0, 0.0, 0.0 ],
+    "$label_color": [
+      0,
+      0,
+      0
+    ],
     "$label_font_scale_factor": 0.82,
     "$label_font_size": "normal",
     "$label_layer": 13,
-    "$label_offset": [ 0, 0 ],
+    "$label_offset": [
+      0,
+      0
+    ],
     "$label_text": "举报玩家",
     "$nine_slice_buttom": 0,
     "$nine_slice_left": 0,
     "$nine_slice_right": 0,
     "$nine_slice_top": 0,
-    "$nineslice_size": [ 0, 0, 0, 0 ],
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
     "$pressed_button_name": "button.report_click",
     "$pressed_texture": "textures/netease/common/button/pressed",
     "$texture_layer": 2,
-    "alpha": 1.0,
+    "alpha": 1,
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "bindings": [
@@ -374,7 +507,10 @@
         "binding_type": "collection_details"
       }
     ],
-    "clip_offset": [ 0, 0 ],
+    "clip_offset": [
+      0,
+      0
+    ],
     "clips_children": false,
     "controls": [
       {
@@ -394,34 +530,58 @@
     "enabled": true,
     "is_handle_button_move_event": true,
     "layer": 10,
-    "max_size": [ 0, 0 ],
-    "min_size": [ 0, 0 ],
-    "offset": [ 0, "50%" ],
+    "max_size": [
+      0,
+      0
+    ],
+    "min_size": [
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      "50%"
+    ],
     "priority": 0,
     "propagate_alpha": false,
-    "size": [ "50%", "20%" ],
+    "size": [
+      "50%",
+      "20%"
+    ],
     "visible": true
   },
   "shield_button@common.button": {
-    "$control_alpha": 1.0,
+    "$control_alpha": 1,
     "$default_texture": "textures/netease/common/button/default",
     "$hover_texture": "textures/netease/common/button/hover",
     "$is_new_nine_slice": true,
-    "$label_color": [ 0.0, 0.0, 0.0 ],
+    "$label_color": [
+      0,
+      0,
+      0
+    ],
     "$label_font_scale_factor": 0.82,
     "$label_font_size": "normal",
     "$label_layer": 13,
-    "$label_offset": [ 0, 0 ],
+    "$label_offset": [
+      0,
+      0
+    ],
     "$label_text": "屏蔽发言",
     "$nine_slice_buttom": 0,
     "$nine_slice_left": 0,
     "$nine_slice_right": 0,
     "$nine_slice_top": 0,
-    "$nineslice_size": [ 0, 0, 0, 0 ],
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
     "$pressed_button_name": "button.shield_click",
     "$pressed_texture": "textures/netease/common/button/pressed",
     "$texture_layer": 2,
-    "alpha": 1.0,
+    "alpha": 1,
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "bindings": [
@@ -431,7 +591,10 @@
         "binding_type": "collection_details"
       }
     ],
-    "clip_offset": [ 0, 0 ],
+    "clip_offset": [
+      0,
+      0
+    ],
     "clips_children": false,
     "controls": [
       {
@@ -451,12 +614,24 @@
     "enabled": true,
     "is_handle_button_move_event": true,
     "layer": 10,
-    "max_size": [ 0, 0 ],
-    "min_size": [ 0, 0 ],
-    "offset": [ 0, "75%" ],
+    "max_size": [
+      0,
+      0
+    ],
+    "min_size": [
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      "75%"
+    ],
     "priority": 0,
     "propagate_alpha": false,
-    "size": [ "50%", "20%" ],
+    "size": [
+      "50%",
+      "20%"
+    ],
     "visible": true
   }
 }

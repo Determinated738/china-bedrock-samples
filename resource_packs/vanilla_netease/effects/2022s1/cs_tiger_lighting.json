@@ -1,1 +1,72 @@
-{"particleeffect": {"constantforce": {"value": "0.0 -0.01 0.0"}, "enablecolor": {"enable": "false"}, "layer": 9, "emissionrate": {"max": "30.0", "min": "20.0"}, "relative": {"enable": "false"}, "particlesize": {"max": "0.55 0.55", "min": "0.2 0.2"}, "activetime": {"value": "0.6"}, "numparticles": {"value": "5"}, "texture": {"ani": {"shuffle": true, "name": "textures/sfxs/2022s1/xiaoshandian", "fps": "30"}, "name": "textures/sfxs/2022s1/xiaoshandian"}, "thickness": {"value": "0.0"}, "delay": 3.85, "timetolive": {"max": "0.4", "min": "0.75"}, "independent": false, "direction": {"max": "1.0 1.0 1.0", "value": "Direction", "min": "-1.0 -1.0 -1.0"}, "dampingforce": {"value": "6.0"}, "emitterScaleCurve": [], "emittersize": {"value": "1.5 0.2 1.5"}, "emitterscale": [], "rotationRange": {"max": "45.0 0.0 45.0", "min": "-45.0 0.0 -45.0"}, "depthtest": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "velocity": {"max": "7.0", "min": "4.0"}}}
+{
+  "particleeffect": {
+    "constantforce": {
+      "value": "0.0 -0.01 0.0"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "layer": 9,
+    "emissionrate": {
+      "max": "30.0",
+      "min": "20.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "particlesize": {
+      "max": "0.55 0.55",
+      "min": "0.2 0.2"
+    },
+    "activetime": {
+      "value": "0.6"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2022s1/xiaoshandian",
+        "fps": "30"
+      },
+      "name": "textures/sfxs/2022s1/xiaoshandian"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 3.85,
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.75"
+    },
+    "independent": false,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "value": "Direction",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "1.5 0.2 1.5"
+    },
+    "emitterscale": [],
+    "rotationRange": {
+      "max": "45.0 0.0 45.0",
+      "min": "-45.0 0.0 -45.0"
+    },
+    "depthtest": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "velocity": {
+      "max": "7.0",
+      "min": "4.0"
+    }
+  }
+}

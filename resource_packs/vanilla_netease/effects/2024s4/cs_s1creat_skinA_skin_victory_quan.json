@@ -1,38 +1,38 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.6"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"faceCameraMode": {
-			"value": "Horizontal"
-		},
-		"numparticles": {
-			"value": "1"
-		},
-		"particlesize": {
-			"max": "0.8 0.8",
-			"min": "0.8 0.8"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "24",
-				"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_quan",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_quan"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.6"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.8 0.8"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_quan",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_quan"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }
