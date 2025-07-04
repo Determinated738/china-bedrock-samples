@@ -1,0 +1,73 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.9732",
+				"time": "73.2%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.1875",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "0.2"
+		},
+		"direction": {
+			"max": "0.0 0.0 -1.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "36.0",
+			"min": "36.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.06 0.06 0.3"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"inactivetime": {
+			"value": "4.0"
+		},
+		"numparticles": {
+			"value": "36"
+		},
+		"particlesize": {
+			"max": "0.16 0.16",
+			"min": "0.08 0.08"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "12",
+				"name": "textures/sfxs/2024s4/ss_s2reskin_skinc_hq",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ss_s2reskin_skinc_hq"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.3",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.5"
+		}
+	}
+}

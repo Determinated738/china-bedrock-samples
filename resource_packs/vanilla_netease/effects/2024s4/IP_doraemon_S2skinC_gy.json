@@ -1,0 +1,54 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.1250",
+				"time": "14.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.1696",
+				"time": "77.1%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "1.8 2.6",
+			"min": "1.8 2.6"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinC_glow"
+		},
+		"timetolive": {
+			"max": "2.0",
+			"min": "2.0"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

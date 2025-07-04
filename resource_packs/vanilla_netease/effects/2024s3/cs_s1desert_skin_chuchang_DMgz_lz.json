@@ -1,0 +1,70 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "1.7"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.4667 0.0000 1.0000 1.0000",
+				"time": "25.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 5.8,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "-1.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "12.5",
+			"min": "17.5"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "2.4 3.0 0.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 7,
+		"numparticles": {
+			"value": "100"
+		},
+		"particlesize": {
+			"max": "0.04 0.04",
+			"min": "0.1 0.1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_d"
+		},
+		"thickness": {
+			"value": "1.0"
+		},
+		"timetolive": {
+			"max": "1.5",
+			"min": "1.0"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

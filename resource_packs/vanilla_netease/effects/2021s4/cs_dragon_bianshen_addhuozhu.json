@@ -1,0 +1,30 @@
+{
+    "frameeffect": {
+        "blend_mode": 2,
+        "cylinder_enable": false,
+        "delay": 0.3,
+        "depth_test": true,
+        "face_camera": true,
+        "fade_distance": 0.0,
+        "first_person_enable": false,
+        "fps": 36,
+        "layer": 15,
+        "loop": false,
+        "rot_speed": [
+            0,
+            0,
+            0
+        ],
+        "scale": [
+            2.6,
+            2.6,
+            2.6
+        ],
+        "shuffle": false,
+        "tex_repeat_num": [
+            1,
+            1
+        ],
+        "texture": "textures/sfxs/2021s4/cs_dragon_bianshen_fire_add"
+    }
+}

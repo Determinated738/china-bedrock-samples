@@ -1,0 +1,88 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "2.0"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.6471 1.0000 0.9882 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 1.0000 0.9333 1.0000",
+				"time": "17.9%"
+			},
+			{
+				"color": "0.5843 0.0000 1.0000 1.0000",
+				"time": "82.4%"
+			},
+			{
+				"color": "0.2275 0.0431 0.4824 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 0.1,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "30.0",
+			"min": "30.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "12.0 6.0 0.5"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"layer": 7,
+		"numparticles": {
+			"value": "20"
+		},
+		"offsetInCamera": {
+			"value": "6.0"
+		},
+		"particlesize": {
+			"max": "0.1 0.1",
+			"min": "0.15 0.15"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.5 0.5",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.08 1.08",
+				"time": "53.3%"
+			},
+			{
+				"scale": "0.55 0.55",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_skin_chuchang_xingguang1"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "3.0",
+			"min": "1.5"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

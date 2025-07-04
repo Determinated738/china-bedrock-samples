@@ -1,0 +1,84 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "35.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "68.4%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "0.1"
+		},
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Inwards"
+		},
+		"emissionrate": {
+			"max": "10.0",
+			"min": "6.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.8 1.0 1.8"
+		},
+		"emittertype": {
+			"value": "Cone"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"particlesize": {
+			"max": "0.12 0.12",
+			"min": "0.08 0.08"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.86 0.86",
+				"time": "40.3%"
+			},
+			{
+				"scale": "0.86 0.86",
+				"time": "64.7%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/ss_s2blackhole_fz_lizi"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.7",
+			"min": "0.9"
+		},
+		"velocity": {
+			"max": "0.3",
+			"min": "0.4"
+		}
+	}
+}

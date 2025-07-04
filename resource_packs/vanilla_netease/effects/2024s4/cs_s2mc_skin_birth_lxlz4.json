@@ -1,0 +1,87 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.4"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.2679",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"delay": 3.96,
+		"direction": {
+			"max": "-1.0 0.0 -1.0",
+			"min": "-1.0 0.0 -1.0",
+			"value": "Direction"
+		},
+		"disorder": {
+			"increment": "0.6",
+			"interval": "0.1",
+			"max": "-0.3 -0.3 -0.3",
+			"min": "0.3 0.3 0.3"
+		},
+		"emissionrate": {
+			"max": "70.0",
+			"min": "70.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.0 1.0 0.1"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "116"
+		},
+		"particlesize": {
+			"max": "0.4 0.4",
+			"min": "0.3 0.3"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.7 0.7",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.2 1.2",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "12",
+				"name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_lx",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_lx"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.41",
+			"min": "0.36"
+		},
+		"velocity": {
+			"max": "8.0",
+			"min": "2.0"
+		}
+	}
+}

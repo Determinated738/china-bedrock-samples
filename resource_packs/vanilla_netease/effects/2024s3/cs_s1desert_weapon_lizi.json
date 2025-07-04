@@ -1,0 +1,83 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.4471 0.8824 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.6000 1.0000 1.0000",
+				"time": "23.2%"
+			},
+			{
+				"color": "0.9020 0.3451 1.0000 1.0000",
+				"time": "61.6%"
+			},
+			{
+				"color": "0.6784 0.2275 1.0000 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "-1.0 -0.2 0.0",
+			"min": "0.0 0.2 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "8.0",
+			"min": "5.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.4 0.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.04 0.04",
+			"min": "0.08 0.08"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.17 1.17",
+				"time": "49.3%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/cs_s1desert_weapon_fllz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.8",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "0.8",
+			"min": "0.5"
+		}
+	}
+}

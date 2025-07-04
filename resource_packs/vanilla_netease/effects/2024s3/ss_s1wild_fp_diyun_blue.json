@@ -1,0 +1,76 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.0824 0.5608 0.4902 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.2392 0.3137 1.0000 0.2768",
+				"time": "12.4%"
+			},
+			{
+				"color": "0.5961 0.3608 1.0000 0.3304",
+				"time": "43.2%"
+			},
+			{
+				"color": "0.4706 0.0706 0.4353 0.1875",
+				"time": "83.2%"
+			},
+			{
+				"color": "0.2549 0.0431 0.3804 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "6.0",
+			"min": "10.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction Horizontal"
+		},
+		"layer": 0,
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.65 0.9",
+			"min": "0.65 0.9"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 180.0",
+			"min": "0.0 0.0 180.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "10",
+				"name": "textures/sfxs/2024s3/ss_s1wild_fp_diyun_blue",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/ss_s1wild_fp_diyun_blue"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.4"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.0"
+		}
+	}
+}

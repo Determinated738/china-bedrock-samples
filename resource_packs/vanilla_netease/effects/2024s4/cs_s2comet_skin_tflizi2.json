@@ -1,0 +1,80 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.0314 0.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.4000 0.0000 1.0000 1.0000",
+				"time": "50.5%"
+			},
+			{
+				"color": "0.0000 0.9020 1.0000 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "0.7"
+		},
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "15.0",
+			"min": "15.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.4 0.8"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"layer": 10,
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.06 0.06",
+			"min": "0.04 0.04"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.45 0.45",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.35 1.35",
+				"time": "51.7%"
+			},
+			{
+				"scale": "0.4 0.4",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_skin_chuchang_kuai"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.4",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "1.0",
+			"min": "0.7"
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.9"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "51.1%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 0.0 -10.0"
+		},
+		"dampingforce": {
+			"value": "3.5"
+		},
+		"delay": 2.15,
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.20000000000000004 0.4 0.20000000000000015"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "3"
+		},
+		"particlesize": {
+			"max": "0.5 0.5",
+			"min": "0.4 0.4"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 -180.0",
+			"min": "0.0 0.0 180.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "24",
+				"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_02",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_04"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "5.0",
+			"min": "1.0"
+		}
+	}
+}

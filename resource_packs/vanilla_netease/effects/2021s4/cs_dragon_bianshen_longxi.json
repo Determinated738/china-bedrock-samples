@@ -1,0 +1,72 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "0.7"
+        },
+        "blend": {
+            "name": "add"
+        },
+        "dampingforce": {
+            "value": "4.4"
+        },
+        "delay": 0.2,
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 -1.0 0.0",
+            "min": "0.0 -0.8 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "8.0",
+            "min": "8.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "2.0 0.5 2.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "independent": false,
+        "layer": 15,
+        "numparticles": {
+            "value": "8"
+        },
+        "particlesize": {
+            "max": "0.15 0.15",
+            "min": "0.05 0.05"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "texture": {
+            "ani": {
+                "fps": "16",
+                "name": "textures/sfxs/2021s4/cs_dragon_bianshen_smoke_ADD",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2021s4/cs_dragon_bianshen_smoke_ADD"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.7",
+            "min": "0.3"
+        },
+        "velocity": {
+            "max": "2.5",
+            "min": "1.7"
+        }
+    }
+}

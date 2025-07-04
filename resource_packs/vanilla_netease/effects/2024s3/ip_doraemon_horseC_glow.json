@@ -1,0 +1,67 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.0000 0.7333 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.4314 1.0000 0.1786",
+				"time": "41.8%"
+			},
+			{
+				"color": "0.0000 0.0157 0.1412 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 -0.01",
+			"min": "0.0 0.0 -0.01",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "15.0",
+			"min": "10.0"
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"numparticles": {
+			"value": "7"
+		},
+		"offsetInCamera": {
+			"value": "-0.03"
+		},
+		"particlesize": {
+			"max": "0.8 0.8",
+			"min": "0.8 0.8"
+		},
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.05 1.05",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.85 0.85",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/ip_doraemon_horseC_sun"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.45"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

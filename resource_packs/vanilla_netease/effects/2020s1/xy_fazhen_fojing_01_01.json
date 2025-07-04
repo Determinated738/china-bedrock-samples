@@ -1,0 +1,72 @@
+{
+    "particleeffect": {
+        "colorfade": [
+            {
+                "color": "1.0000 0.9098 0.4000 0.0000",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 0.7804 0.2275 1.0000",
+                "time": "0.50"
+            },
+            {
+                "color": "1.0000 0.8706 0.3451 0.0000",
+                "time": "1.00"
+            }
+        ],
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 -1.0 0.0",
+            "min": "0.0 -1.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "2.0",
+            "min": "1.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.6 1.0 1.6"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "faceCameraMode": {
+            "value": "Direction"
+        },
+        "independent": false,
+        "particlesize": {
+            "max": "0.3 0.3",
+            "min": "0.1 0.1"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            }
+        ],
+        "texture": {
+            "name": "textures/particle/2020s1/xy_fazhen_fojing_01_01"
+        },
+        "thickness": {
+            "value": "0"
+        },
+        "velocity": {
+            "max": "2.0",
+            "min": "1.0"
+        }
+    }
+}

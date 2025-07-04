@@ -1,0 +1,72 @@
+{
+    "particleeffect": {
+        "colorfade": [
+
+        ],
+        "dampingforce": {
+            "value": "0.5"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 0.0",
+            "min": "0.0 0.0 -1.0",
+            "value": "Direction"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.0 1.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "independent": false,
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            },
+            {
+                "scale": "-0.05 -0.05",
+                "time": "20.0%"
+            },
+            {
+                "scale": "0.685 0.685",
+                "time": "40.0%"
+            },
+            {
+                "scale": "0.171 0.171",
+                "time": "60.0%"
+            },
+            {
+                "scale": "0.531 0.531",
+                "time": "80.0%"
+            },
+            {
+                "scale": "0.279 0.279",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "name": "textures/particle/2020s3/ss_fazhen_mofa_lizi_sk"
+        },
+        "thickness": {
+            "value": "0"
+        }
+    }
+}

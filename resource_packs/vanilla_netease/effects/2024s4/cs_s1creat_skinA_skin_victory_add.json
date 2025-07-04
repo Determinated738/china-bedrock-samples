@@ -1,0 +1,40 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.6"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "1.0 1.0",
+			"min": "1.0 1.0"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "40",
+				"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_add",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_victory_add"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.5"
+		}
+	}
+}

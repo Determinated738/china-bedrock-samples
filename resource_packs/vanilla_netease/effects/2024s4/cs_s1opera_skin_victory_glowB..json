@@ -1,0 +1,66 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 0.7333 0.1922 0.8839",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.6588 0.3608 0.9821",
+				"time": "38.2%"
+			},
+			{
+				"color": "1.0000 0.5373 0.3843 0.8393",
+				"time": "83.4%"
+			},
+			{
+				"color": "0.9961 1.0000 0.6863 0.1250",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Rotate Y"
+		},
+		"layer": 2,
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "0.5 1.75",
+			"min": "0.5 1.75"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "32",
+				"name": "textures/sfxs/2024s4/cs_s1opera_skin_victory_glowB",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s1opera_skin_victory_glowB"
+		},
+		"timetolive": {
+			"max": "0.45",
+			"min": "0.45"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

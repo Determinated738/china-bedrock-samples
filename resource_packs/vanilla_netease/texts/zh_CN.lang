@@ -1,0 +1,656 @@
+commands.clone.outOfWorld=无法访问世界外的方块	#
+commands.compare.outOfWorld=无法访问世界外的方块	#
+commands.custom.success=自定义命令执行成功	#
+commands.generic.protocol.mismatch=所提供的协议版本与 我的世界 协议版本不符	#
+commands.gettopsolidblock.description=会获得特定位置下方的顶部非空气区块的位置	#
+commands.gettopsolidblock.notfound=特定位置下方没有固体区块	#
+commands.kick.no.permissions=您没有使用此踢人命令的权限。	#
+commands.kick.no.player=请提供你想要踢出的玩家名称  #
+commands.kill.description=击败实体（玩家、生物等）。	#
+commands.save-on.alreadyOn=已打开世界保存。	#						###
+commands.scoreboard.description=跟踪并显示各种目标的分数							###
+commands.spawnpoint.success.single=将 %1$s 的生成点设置为 (%2$d, %3$d, %4$d)	#
+commands.spreadplayers.failure.players=无法将 %1$s 个玩家传送至 %2$s,%3$s 周围（玩家数量过多 - 最大玩家数为 %4$s）	#
+commands.spreadplayers.failure.teams=无法将 %1$s 个队伍传送至 %2$s,%3$s 周围（玩家数量过多 - 最大队伍数为 %4$s）	#
+commands.spreadplayers.spreading.players=正在将 %1$s 个玩家传送至距离 %3$s,%4$s 周围 %2$s 个方块（最小距离 %5$s 个方块）	#
+commands.spreadplayers.spreading.teams=正在将 %1$s 个队伍传送至距离 %3$s,%4$s 周围 %2$s 个方块（最小距离 %5$s 个方块）	#
+commands.spreadplayers.success.players=已将 %1$s 个玩家成功传送至 %2$s,%3$s 周围	#
+commands.spreadplayers.success.teams=已将 %1$s 个队伍成功传送至 %2$s,%3$s 周围	#
+commands.tellraw.error.withNotArray=原始文本中的“with”域必须包含一个数组。示例："rawtext":[{"translate": "chat.type.announcement", "with": [ "value1", "value2" ]}]	#
+commands.tickingarea-list.chunks=区块	### 代表着世界中的一个区块
+commands.tickingarea-list.to=到		### 使用的语境是"from position to other position"
+commands.title.success=标题命令执行成功	#
+commands.trigger.disabled=触发器 %1$s 没有启用	#
+commands.trigger.invalidObjective=触发器名称 %1$s 无效	#
+commands.trigger.success=触发器 %1$s 已随 %2$s %3$s 改变	#
+commands.videostream.description=尝试连接到 WebSocket 服务器以发送视频流。	#
+commands.videostreamaction.description=执行与视频流相关的操作。	#
+commands.worldbuilder.description=切换世界建造者状态。	#
+
+realmsWorld.notAvailable=你的设备不支持 我的世界 领域。	#
+realmsWorld.realmsDescription=领域是 我的世界 里的私人世界，可供你和你的好友随时游玩。	#
+realmsWorld.realmsDescription.paragraph2=即使领域的主人离线，您仍然可以进入该领域并使用任何运行我的世界的设备玩游戏！	#
+realmsWorld.realmsDescription.Beta.line1=领域是种简单安全的方法，能与好友分享 我的世界 中的世界，但在使用 我的世界 测试版时无法使用。	#
+realmsWorld.newRealm=新领域	#
+
+realmsPlusUpgradeNotice.body=您的 Realms 订阅已升级为 Realms Plus。现在您无需花费额外的费用，即可访问来自市场的 50 多个内容包。至多 10 名玩家可以同时玩，并且他们可以访问您的 Realm 内的所有订阅内容——免费地！	#
+
+networkWorld.no_joinable_friends_label=你的好友现在没在玩 我的世界。	#
+networkWorld.multiplayerPrivilegesBlocked=由于您 Microsoft 账户的设置问题，您无法进行在线多人游戏。在 aka.ms/accountsettings 查看并更改您的隐私设置。	#
+
+realmsSettingsScreen.backupInfo=你可以用该列表中的一项备份来替换你领域上的世界。	#
+realmsSettingsScreen.maxPlayersLabelFormat=%d 名成员	#
+realmsSettingsScreen.subscriptionLabelFormat=每隔 %d 天更新	#
+realmsSettingsScreen.consumableToSubscriptionTransitionInfo=您现在无法扩展您的 Realm。我们现在已经在 Xbox 上推出了 Realms 的订阅，您可以在您的 Realm 于 %d 天内过期后立即购买新的订阅。但是别担心！我们将免费送您 14 天的有效期，您的 Realm 将保持在线，所以您将有足够的时间扩展它。	#
+
+xbl.savePurchase.description.line1=想要从任何启用了我的世界商店的系统玩购买的任何内容？用免费的 Microsoft 账号登录，并同步您已购买的皮肤、材质、地图和混搭包，即可使用它们并在《我的世界》中畅玩。	#
+
+demo.help.title=我的世界试玩模式	#
+
+disconnectionScreen.internalError.cantFindLocalWithUpdateTips=加载此世界时出错，请尝试通过重新登录并更新启动器解决此问题。	#
+
+feature.endcity=末地城	#
+feature.fortress=下界堡垒	#
+feature.mansion=林地府邸	#
+feature.missingno=未知特性	#
+feature.ruins=水下遗迹	#
+
+feed.goToFeed=喂养	#
+
+gui.minecraftWorld=我的世界 的世界	#
+gui.minecraftBundle=我的世界捆绑包	#
+gui.pickWorld=浏览 我的世界 中的世界	#
+gui.edu.exitGameWarningCaption=Minecraft 教育版		### Use Minecraft 教育版 in zh_CN translation
+gui.edu.exitGameWarningMessage=离开 Minecraft 教育版?		### Use 离开 Minecraft 教育版? in zh_CN translation
+
+updateScreen.packs.updateRequired=请更新到最新版本，以下载您在我的世界市场购买的包。	#
+
+immersive_reader.error.identity_failure=连接到沉浸式阅读器时出现了问题。请重启《Minecraft 教育版》并重试。	#
+
+level.export.started=存档导出已开始...	#
+level.import.started=存档导入已开始...	#
+level.export.success=存档导出成功完成	#
+level.import.success=存档导入成功完成	#
+level.export.failed=存档导出失败	#
+level.import.failed=存档导入失败	#
+level.import.failed.incompatibleEdition=存档导入失败：出现了不支持的格式。	#
+
+library.welcome.1=欢迎来到《Minecraft 教育版 免费试用》库！	#
+library.item.sharepopup.title=分享链接	#
+
+mcoServer.title=我的世界Online世界	#
+
+menu.howToPlay.generalMessage=面向新老玩家的 我的世界 百科全书。	#
+menu.online=我的世界领域	#
+menu.quiz=参加测验	#
+
+multiplayer.info1=我的世界 多人模式还未完成，但我们	#
+
+offer.category.resourcepack=纹理包	#
+
+options.activateExperimentalGameplay.activate=启用实验性玩法
+options.broadcast.permissionError=您无权使用此功能。在 aka.ms/accountsettings 查看并更改您的隐私设置。	#
+options.dev_render_attach_pos.head_pos=模型位置	#
+options.dev_use_fast_chunk_culling=使用快速区块挑选	#
+options.dev_useRetailXboxSandbox=使用少量 MSA 沙盒	#
+options.dev_clearPurchaseInventory=重设硬币和权利	#
+options.dev_resetTreatmentsToDefault=重置为默认值	#
+options.dev_clearTreatments=清除处理	#
+options.enableUITextToSpeech=启用 UI 屏幕阅读器（会导致部分设备游戏卡顿，请谨慎开启）	#
+options.loadWorldAnyway=仍要加载世界
+options.realms.checkInvites=管理Realms成员邀请
+options.resourceOptimization.enableConcatenatedResources=开启资源缓存		#
+options.particleRenderDistance=粒子能见度	#
+options.snooper.desc=我们意在通过收集你的设备的相关信息，以帮助我们改进我的世界。所有的数据都是匿名的，并已经全部列在下方。我们承诺不会用这些数据进行非法行为。但如果你想要取消匿名信息反馈，您随时都可以将其关闭！	#
+options.touch=触摸屏	#
+options.usetouchpad=准星瞄准	#
+options.viewSubscriptions.realmsPlus.detail=50 多项内容和您专属的 Realm 服务器	#
+options.viewSubscriptions.twoPlayers=可让至多 2 名玩家同时访问您自己的 Realm 服务器	#
+options.multiplayerDisabled=无法在多人游戏中使用这个世界中启用的内容。	#
+options.enableEducation=启用教育版？	#
+options.enableEducation.message=会启用教育版化学功能。教育玩法可能会破坏你的世界。如果您选择继续，我们将以 [EDU] 为开头复制你的世界。	#
+options.enableEducationCreate.message=会启用教育版化学功能。其在您创建了世界之后将无法关闭。请注意，这些功能在具有中高内存的桌面设备上表现最好。	#
+options.experimentalWorldLoad=加载实验性玩法世界？
+options.experimentalWorldLoad.message=这个世界使用了正在开发中的特性。它可能随时会崩溃、损坏或停止工作。
+options.unlink_msa.confirm.warning=警告：取消链接后，您将无法在您的账户 %s 上存储您在 "PlayStation 4" 系统上完成的进度或进行的购买。	#
+options.betaNewDeathScreenToggle=新的“你失败了”屏幕（实验性）	#
+options.buttonSize=移动按钮大小	#
+options.destroyvibration=破坏方块时振动	#
+options.forceSprint=强制疾跑
+
+options.graphics_level=画质等级
+options.graphics_level.level1=流畅
+options.graphics_level.level2=标准
+options.graphics_level.level3=高清
+options.graphics_level.self_define=(自定义)
+options.graphics_level.recommend=(推荐)
+
+pauseScreen.feed=信息提要	#
+
+hudScreen.tooltip.sleep=睡觉	#
+
+playscreen.noLegacyWorldsFound.body=未发现来自其他版本的 我的世界 的世界。	#
+
+permissions.AddFriends=由于您 Microsoft 账户的设置问题，您无法添加好友。 您可以在 aka.ms/accountsettings 上的“隐私和在线安全”设置中进行更改。	#
+permissions.MultiplayerSessions=由于您 Microsoft 账户的设置问题，您无法在 Realms 上玩。 您可以在 aka.ms/accountsettings 上的“隐私和在线安全”设置中进行更改。	#
+permissions.Communications=由于您 Microsoft 账户的设置问题，您无法与其他玩家聊天。 您可以在 aka.ms/accountsettings 上的“隐私和在线安全”设置中进行更改。	#
+permissions.MultiplayerSessionsOnConsole=您的 Microsoft 账户上的 Xbox 设置不允许进行多人游戏。在 aka.ms/accountsettings 上查看您的“隐私和在线安全”设置，确保您拥有 Xbox Live Gold 并且您的设置允许进行多人游戏。	#
+
+portfolioScreen.export=导出相册#
+
+profileScreen.reload=重新加载
+
+progressScreen.message.unkownError=发生了错误	#
+
+resourcePack.description.default.behaviorPacks=默认的 我的世界 游戏玩法。	#
+resourcePack.crashRecovery.message=检测到游戏出现崩溃。	#
+resourcePack.incompatibleMemory.resolution=此分辨率与您的设备不兼容，因为您的设备内存不足。	#
+resourcePack.incompatibleMemory.pack=此资源包与您的设备不兼容，因为该设备内存不足。	#
+
+storageManager.contentType.resourcePack=资源包	#
+storageManager.mcpack=我的世界资源包	#
+storageManager.mcaddon=我的世界Addon#
+storageManager.mcworld=我的世界存档	#
+
+resourcepack.City=城市纹理包	#
+resourcepack.Plastic=塑料纹理包	#
+resourcepack.Natural=自然纹理包	#
+resourcepack.Fantasy=魔幻纹理包	#
+
+selectServer.defaultName=我的世界 服务器	#
+
+selectWorld.hardcoreMode.info=失败后世界将会删除	#
+selectWorld.worldTags.experimental=实验性
+
+skinpack.Education=教育版皮肤	#
+
+skins.information.invalidCustomSkin=选择的图像不能作为我的世界皮肤	#
+
+soundCategory.master=主音量	#
+
+store.realmsPlus.nowActive=该设备上的 Realms Plus 现已激活。现在您无需花费额外的费用，即可访问来自市场的 50 多个内容包。至多 10 名玩家可以同时在您的 Realms 上玩，并且他们可以访问您的 Realm 内的所有订阅内容——免费地！	#
+store.realmsPlus.startTrial.title=立即开始您的免费 30 天试用！	#
+store.realmsPlus.startTrial.description=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！首月是免费的，之后您将被收取 %s/月的费用，并且您可以随时取消。	#
+store.realmsPlus.noTrial.description=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！您的定期服务期为 30 天，价格为 %s:minecoin:。	#
+store.realmsPlus.noTrial.description.iap=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！您的定期服务期为 30 天，价格为 %s。	#
+store.realmsPlus.recurring.offerTrial=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！首月是免费的，之后您将被收取 %s/月的费用，并且您可以随时取消。	#
+store.realmsPlus.recurring.withoutTrial=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！您将被收取 %s/月的费用，并且您可以随时取消。	#
+store.realmsPlus.consumable.offerTrial=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！前 30 天是免费的，之后您可以按 %s 的价格续费 30 天。	#
+store.realmsPlus.consumable.withoutTrial=您的 Realm 和 50 多个市场包将立即可用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！您的定期服务期为 30 天，价格为 %s。	#
+store.realmsPlus.landing.info2.line4=- 为期 1 个月的免费试用	#
+store.realmsPlus.faq.answer1=每月只需支付较低的价格，即可无限访问 50 多个超棒的《我的世界》的世界、材质包、皮肤包、混搭包，一个可同时容纳至多 10 名玩家的个人 Realms 服务器，以及用于存储您的世界的专属云存储空间。	#
+store.realmsPlus.faq.answer7=Realms Plus 成员可以无限制访问 50 多个超棒的《我的世界》的世界、材质包、皮肤包和混搭包，直到订阅被取消/过期，或者包不再在目录中。	#
+store.realmsPlus.content.contentDescription=畅享精彩的《我的世界》内容！有了 Realms Plus，您可以立即访问 50 多个市场物品，例如混搭包、世界、皮肤包和史诗级冒险——而且每个月都会添加新的内容。您的内容将存储在您专属的个人服务器上，并且可以在任何您享有 Realms 和《我的世界》市场的平台上进行使用。至多 10 名玩家可以同时玩，并且他们可以免费访问您的 Realm 内的世界！	#
+store.realmsPlus.freeTrial=开始为期一个月的免费试用	#
+store.popup.rtx.msg=此世界拥有启用了光线追踪的资源包。您的设备与高级照明和材质功能不兼容，因此该世界将无法应用任何高级效果。您想下载并加入吗？	#
+store.mashup.texturePack=纹理包	#
+store.purchase.success=你刚刚购买了：%s	#
+store.featured.realms.desc=和您的好友一起体验游玩儿 我的世界 的最佳方式。	#
+store.createdBy=作者：%s	#
+store.fetchingItem=正在连接到市场…	#
+store.itemDetail.back=详情	#
+
+stream.unavailable.account_not_bound=在通过Twitch直播我的世界之前，你需要在mojang.com上绑定你的Twitch账户。是否马上开启？	#
+stream.unavailable.account_not_migrated=在您通过Twitch直播我的世界之前，您需要将您的我的世界账号转移至一个Mojang账号。是否马上开始？	#
+stream.unavailable.library_arch_mismatch=您用于启动我的世界的自定义Java版本与运行启动器的Java版本结构不同。请确保两者相同，即都是32位或都是64位。	#
+
+sunsetting.popup.sunset.ios_android=此设备不再受到支持。您已收到此设备的最终更新。从现在开始，您可以继续在世界中进行创造，也可以继续使用在市场中购买的物品（包括 Minecoins）。您的 Realms 将继续运行，除非 Realm 所有者选择在另一台设备上进行更新。您将无法收到最新的更新版本，且将无法与继续接收更新的设备或 Realms 玩多人游戏。您也将无法连接到某些服务器。%s单击按钮了解更多信息，包括将世界转移到新设备的方法。我们知道这会给您带来不便，我们衷心感谢您为这款游戏付出的时间，希望能在更新后的设备上再次与您相会。	#
+sunsetting.popup.pendingSunset.gearvr_win10=我们即将无法支持此设备。目前您仍能够继续收到更新，但到我们下一次重大更新为止，您将收到此设备的最后一次更新。对于给您带来的不便，我们深表歉意。%s收到最终更新后，您仍然可以在您的世界中进行游戏，并使用您在市场购买的物品（包括 Minecoins）。但是，您将无法在此设备上访问多人游戏或 Realms。您将无法收到最新的更新版本，且将无法与继续接收更新的设备或 Realms 进行游戏。您也将无法连接到某些服务器。%s单击按钮了解更多信息，包括将世界转移到新设备的方法。	#
+sunsetting.popup.pendingSunset.dx10=我们即将无法支持此图形设备。目前您仍能够继续收到更新，但到我们下一次重大更新为止，您将收到此设备的最后一次更新。对于给您带来的不便，我们深表歉意。%s收到最终更新后，您仍然可以在您的世界中进行游戏，并使用您在市场购买的物品（包括 Minecoins）。由此设备管理的 Realms 将继续运行，除非 Realm 所有者选择在另一台设备上进行更新。您将无法收到最新的更新版本，且将无法与继续接收更新的设备或 Realms 玩多人游戏。您也将无法连接到某些服务器。%s单击按钮了解更多信息，包括将世界转移到新设备的方法。	#
+
+structure_block.structure_name=结构名称	#
+structure_block.mode.save.experimental=保存（实验性）	#
+structure_block.mode.load.experimental=加载（实验性）	#
+structure_block.experimental=“世界选项” 中的 “使用实验玩法”设置必须打开才能使用 “建筑方块”。	#
+
+worldConversionErrorPrompt.message.upload=出错了。我们无法转换您的世界。您可以稍后通过转到旧世界并按 Y 来向我们发送您的世界。或者立即向我们发送您的世界，以便我们可以进行进一步调查。	#
+
+trial.tabbed_upsell.minecraft.title=我的世界 	#
+
+xbox.dev_wrongSandboxSigninFailed.line1=无法登录至%s沙盒。请更改沙盒并重新启动 我的世界，或者使用另一个账号登录。重新启动时沙盒将为%s。 	#
+xbox.achievementssignin.line1=成就和玩家分数表示您在 我的世界 中的进度。	#
+xbox.thirdpartysignin.line1=炫酷的迷你小游戏和全新玩家正在等着你！但首先，'%s' 想要知道你是谁。	#
+xbox.thirdpartysignin.line2=你需要登录 Xbox Live 后连接！	#
+xbox.externalServer.line1=服务器提供了一些最有创意的方式供您玩我的世界！您只需要登入，我们就可确保您有权限与不认识的人在线玩游戏。	#
+
+content.import.failed.subtitle_premiumcontent=这个世界中的内容不受《Minecraft 教育版》支持。	#
+
+worldConversion.feedback.failed.msg=糟糕！我们未能收到您的世界。请尝试检查您的网络连接，或者稍后重新发送它。	#
+
+externalServerScreen.addServer=添加服务器	#
+
+tips.game.8=使用幻翼膜来修理您的翅鞘。	#
+tips.game.16=进行潜行或者穿着寒冰行者靴子以便在岩浆方块上安全地行走。	#
+tips.game.22=翅鞘可以用来滑翔，它们会出现在末地之城的船中！	#
+tips.game.23=通过打开实验性游戏内容选项来测试一些新的功能！	#
+tips.game.24=三叉戟由水鬼掉落，可以被握住或投掷。	#
+tips.game.25=被骷髅箭杀死的怪物有机会掉落音乐唱片。	#
+tips.game.28=正是像您这样的人创造了资源中心中的内容！	#
+tips.game.29=您知道吗？有几个社区创建者靠创造资源中心的内容为生。	#
+tips.game.32=访问资源中心，发现新的世界和冒险。	#
+tips.game.33=您可以申请成为一名开发者！	#
+tips.game.34=您可以申请成为一名开发者！	#
+tips.game.35=绿宝石矿石是《我的世界》中最稀有的矿石！它们只出现在峭壁生物群系中！。	#
+tips.game.36=驯服骷髅马时无需马鞍。	#
+tips.game.42=僵尸会在沉入水下时变成水鬼。	#
+tips.game.44=使用焰火会提高翅鞘在半空中的速度。只要……确保它们不爆炸就好，否则会让您疼得够呛！	#
+tips.game.48=不要让树漂浮	#
+tips.game.51=MINECON 全球大会是一项全球性的互动直播活动。带上您的物品，加入我们的派对吧！	#
+tips.game.57=你可以与猪灵交换	#
+tips.game.58=修剪蜂窝或蜂巢以获得蜂房，并使用瓶子获取蜂蜜	#
+tips.game.59=将营火放置在蜂窝或蜂巢下，以和平的方式收获蜂蜜。蜜蜂们会感谢你的。	#
+tips.game.60=在下界重生需要充能的重生锚	#
+tips.game.61=你可以使用萤石为重生锚充能	#
+
+hbui.Account.switchAccountButton=切换账户	#
+hbui.Account.signOutButton=注销	#
+hbui.Account.readPatchNotesButton=阅读补丁说明	#
+hbui.Account.leaveFeedbackButton=留下反馈	#
+hbui.Achievements.header=成就	#
+hbui.Achievements.labelHoursPlayed=已游戏时长	#
+hbui.Achievements.labelAchievements=成就	#
+hbui.Achievements.labelGamerScore=玩家得分	#
+hbui.Achievements.labelWorldsPlayed=玩过的世界数	#
+hbui.Help.title=帮助	#
+hbui.Help.howToPlayButton=游戏指南	#
+hbui.Help.faqButton=常见问题解答	#
+hbui.Help.patchNotesButton=补丁说明	#
+hbui.Help.closeButton=关闭	#
+hbui.MainMenu.signInLabel=登录	#
+hbui.MainMenu.helpLabel=帮助	#
+hbui.MainMenu.invitesLabel=新的邀请	#
+hbui.MainMenu.friendsLabel=在线	#
+hbui.MainMenu.newWorld=游戏	#
+hbui.MainMenu.store=市场	#
+hbui.MainMenu.profile=皮肤	#
+hbui.MainMenu.achievements=成就	#
+hbui.MainMenu.settings=设置	#
+hbui.MainMenu.recentWorldHeader=最近玩的	#
+hbui.MainMenu.marketPlaceHeader=市场精选	#
+hbui.MainMenu.realmsHeader=领域	#
+hbui.MainMenu.viewAllHeader=查看全部	#
+hbui.MainMenu.heroVignette=上次玩的	#
+hbui.MainMenu.heroResumeButton=继续	#
+hbui.MainMenu.heroPlayButton=继续世界	#
+hbui.MainMenu.survival=生存	#
+hbui.MainMenu.creative=创造	#
+hbui.MainMenu.miniGame=迷你小游戏	#
+hbui.Settings.trueLabel=打开	#
+hbui.Settings.falseLabel=关闭	#
+hbui.Settings.sensitivity=灵敏度	#
+hbui.Settings.invertYAxis=反转 Y 轴	#
+hbui.Settings.autojump=自动跳跃	#
+hbui.Settings.fullKeyboardGameplay=全键盘访问	#
+hbui.Settings.customKeyboardLayout=自定义键盘布局	#
+
+dr.equip_piece=装备
+dr.notification.equipped_piece=你装备了 %s  #
+dr.rarity.optional=稀有度	#
+dr.rarity.optional.common=普通	#
+dr.rarity.optional.epic=史诗	#
+dr.rarity.optional.legendary=传说	#
+dr.rarity.optional.rare=稀有	#
+dr.rarity.optional.uncommon=非凡	#
+dr.classic_skins.right_side.author_minecraft=Minecraft出品  #
+dr.classic_skins.purchasable=可购买	#
+dr.header.customization=角色创建者	#
+dr.notification.to_persona=正在切换至角色创建者	#
+
+onlinePlay.notRated=线上游戏未分级	#
+onlinePlay.message=线上游戏可能会含有聊天消息或其他用户创作的内容，这些内容未经评级，可能并不适合所有年龄段。	#
+onlinePlay.doNotShowAgain=不再显示此窗口	#
+onlinePlay.proceed=继续	#
+onlinePlay.Back=返回	#
+
+## 中国版新增翻译条目
+
+common.back=返回
+common.confirm=确认
+common.the=的
+
+login.enterWorld=进入我的世界
+login.userCenter=用户中心
+login.notice=公告
+login.failure=登录失败
+login.userAgreement=用户协议
+login.waiting=更新包下载中..
+login.updatefinish=更新完毕
+login.offlinetext=无法连接至服务器，检测到已经作为“%s”登录，是否以离线模式启动？
+
+firstRenameWindow.renamePrompt=您已经成功登陆，设置一个昵称吧
+
+start01.emptyWorldHint1=还没有进行过单人游戏
+start01.emptyWorldHint2=快去新建世界吧！
+start01.createWorld=创建世界
+start01.worldName=世界名称
+start01.gameMode=游戏模式
+start01.worldType=世界类型
+start01.alwaysDaytime=一直白天
+start01.alwaysDaytimeHint=请先勾选开启作弊选项
+start01.cheatMode=作弊模式
+start01.worldSeed=世界种子
+start01.more=更多
+start01.superFlat=超平坦
+start01.traditional=传统
+start01.worldSetting=世界设置
+start01.enterWorld=进入世界
+start01.worldNameEmpty=世界名称不能为空
+start01.worldNameSensitive=世界名称包含敏感词
+start01.worldNameExceedLength=世界名称已达到字数限制
+start01.deleteWorld=是否确认删除本世界？
+start01.moreSeed=更多种子
+start01.skin=皮肤
+start01.invalidGameVersion=当前游戏版本过低，无法进入游戏。请下载最新版本
+start01.account=账号：
+start01.password=密码：
+start01.mod=功能玩法
+start01.material=材质光影
+start01.detail=详细信息
+start01.backup=备份
+start01.backupTitle=请输入游戏备份的名称
+start01.confirmDelete=确定删除
+start01.deleteHint=吗？
+start01.localCreate=#本地新建
+start01.loadHint1=将
+start01.loadHint2=装载到
+start01.loadMaterial=装载
+start01.unloadMaterial=卸下
+start01.selectedMaterial=使用中：
+start01.secondTypeTag1=#假数据，游戏地图子类
+
+local_skin.name=本地皮肤
+
+skin_select.skin_type=皮肤类别
+skin_select.use_skin=使用
+skin_select.Standard=标准包
+skin_select.Premium=付费包
+skin_select.skinmgr=皮肤管理
+skin_select.canuse=可用的皮肤
+skin_select.perview=预览
+skin_select.using=使用中
+skin_select.use=启用
+skin_select.nv1=女性01
+skin_select.nv2=女性02
+skin_select.nv3=女性03
+skin_select.nv4=女性04
+skin_select.nv5=女性05
+
+chat.targetOffline=好友不在线，发送失败
+chat.policyForbidden=有违政策
+chat.msgBlock=该玩家已关闭消息接受功能
+chat.sensativeWords=含有敏感词，发送失败
+chat.selfOffline=你已经与服务器断开连接，请稍后重新发送
+chat.selfOnline=已重新连接上网络
+
+start00.serverRoom=租赁服大厅
+start00.localRoom=局域网游戏
+start00.singleGame=单人游戏
+start00.resourceCenter=资源中心
+start00.lastPlayed=最近游戏
+start00.gameName=游戏名称
+start00.quickLaunch=快速启动
+start00.start=启动
+start00.new=新鲜事
+start00.chat=好友
+start00.media=社区
+start00.game=游戏
+start00.player=我
+
+lanGame.onlineHall=联机大厅
+lanGame.lan=局域网
+lanGame.createLanRoom=创建局域网房间
+lanGame.createOnlineRoom=创建联机房间
+lanGame.lanRoom=局域网房间
+lanGame.emptyRoomHint=当前局域网没有房间哟可以去创建
+lanGame.emptyRoomHint1=当前联机大厅没有房间哟可以去创建
+lanGame.createRoom=创建房间
+lanGame.Wait=请等待
+lanGame.connectStyle=联机模式
+lanGame.createRoomHint0=联机大厅可以与各地朋友一起玩游戏
+lanGame.createRoomHint1=局域网房间可以与局域网下的朋友一起玩游戏
+lanGame.roomName=房间名称
+lanGame.inputRoomHint=点击输入名称
+lanGame.gameMap=游戏地图
+lanGame.createWorld=新建世界
+lanGame.createRoomHint2=当前没有世界，请先去新建世界吧
+lanGame.connectStyle1=连接模式
+lanGame.maxNumber=最大人数
+lanGame.maxPlayerNumber=最大玩家数：
+lanGame.curPlayers=当前玩家：
+lanGame.enterGame=进入游戏
+lanGame.curRoomInfoHint=让好友扫描加入房间
+lanGame.waitForHostToEnter=等待房主进入游戏
+lanGame.wifiConnect=Wifi连接
+lanGame.hotSpotConnect=热点连接
+lanGame.blueToothConnect=蓝牙连接
+lanGame.visibility=房间公开性
+lanGame.everyoneCanSee=所有人可见
+lanGame.friendsCanSee=好友可见
+lanGame.lan1=局域网——
+lanGame.wan1=联机大厅——
+lanGame.lanRoomInfoHint=退出房间会关闭当前房间
+lanGame.fullRoom=当前房间已满
+lanGame.roomNameEmpty=房间名称不可为空
+lanGame.roomNameExceedLength=房间名称达到最大长度
+lanGame.roomNameSensitive=房间名称包含敏感词
+lanGame.scan=扫一扫
+lanGame.recentRoom=最近加入的房间
+lanGame.refreshList=刷新房间
+lanGame.roomDoesNotExisted=房间不存在
+lanGame.networkUnavailable=网络连接错误，请检查网络设置
+lanGame.noRecentRoomHint1=最近无加入
+lanGame.noRecentRoomHint2=逛逛大厅或创建房间吧
+lanGame.pullUpToNextPage=上拉进入下一页
+lanGame.pullUpToRefresh=继续上拉刷新列表
+lanGame.pullDownToPrePage=下拉进入上一页
+lanGame.pullDownToRefresh=下拉刷新
+
+lamGame.canLeftGo=可以放开啦
+
+lanGame.alreadyInRoom=已经加入房间
+lanGame.joinRoomFail=加入失败
+lanGame.networkDisconnect=网络异常，与游戏连接断开，即将返回主界面
+lanGame.searchCancel=取消
+
+playerWindow.rename=重命名
+playerWindow.logout=退出登录
+playerWindow.me=我
+
+renameWindow.rename=昵称修改
+renameWindow.nickname=我的昵称
+renameWindow.confirm=确认修改
+renameWindow.nicknameTooShort=昵称太短
+renameWindow.nicknameTooLong=昵称太长
+renameWindow.nicknameUnchanged=新昵称和原昵称不能相同
+renameWindow.nicknameExists=昵称已被占用
+renameWindow.nicknameRenameCountLeft=本周次数剩余%d次
+renameWindow.nicknameCanNotRenameDueToNoCount=本周没有可修改昵称的次数
+renameWindow.nicknameTimeout=连接服务器超时
+renameWindow.nicknameEmpty=昵称不能为空
+renameWindow.nicknameBusy=服务器繁忙
+renameWindow.nicknamePushFailed=昵称传输失败
+renameWindow.nicknameTransfering=数据传输中
+renameWindow.nicknameInternalError=内部错误
+renameWindow.nicknameInvalid=用户名不合法
+renameWindow.sensitiveWord=昵称含敏感词
+
+disconnect.networkUnavailable=网络不可用
+
+item.tropicalSchoolAnenome.name=海葵	#
+item.tropicalSchoolRedLippedBenny.name=红唇鳚鱼	#
+
+itemGroup.name.seaplants=珊瑚装饰	#
+
+menu.voice_setting=语音管理	#
+menu.playerlist=玩家列表	#
+
+options.receiveVoice=收听其他玩家（所有游戏）	#
+options.receiveVoice2=收听其他玩家（当前游戏）	#
+options.openMicrophone=开启麦克风（所有游戏）	#
+options.openMicrophone2=开启麦克风（当前游戏）	#
+options.traditioncontrols=十字键操作	#
+options.oldctrl=十字键操作	#
+
+options.openFoldMenu=开启综合按键	#
+options.openVoice=启用聊天语音转文本	#
+neteaseoptions.auxiliary=辅助功能
+neteaseoptions.auxiliary.title=辅助功能
+
+playScreen.realmsTrialWorld=30 天免费试玩	#
+
+progressScreen.waitinghoststart=等待房主开启游戏......	#
+progressScreen.hostnostartgame=房主尚未开启游戏，请耐心等待。	#
+progressScreen.title.rtc_reconnecting=正在尝试语音重连，请耐心等待......	#
+
+store.search.filter.uninstalled=未安装	#
+store.search.sort_menu.Uninstalled=未安装	#
+
+tile.nautilus.name=鹦鹉螺块	#
+
+content.import.started.resource_pack=已开始导入资源包 '%s'	#
+content.import.started.behavior_pack=已开始导入行为包 '%s'	#
+content.import.started.world_template=已开始导入世界模板 '%s'	#
+
+neteaseStore.title=商店	#
+neteaseStore.search_place_holder=输入要查找的商品名称	#
+neteaseStore.search_result_empty=未找到相关的商品	#
+neteaseStore.not_enough_money=余额不足，是否前往充值	#
+neteaseStore.buy_item=购买	#
+neteaseStore.too_fast=购买太频繁，请稍后重试	#
+neteaseStore.time_expired=购买超时	#
+neteaseStore.purchase_progress=正在购买，稍后即可完成	#
+neteaseStore.points_not_enough=剩余货币不足	#
+neteaseStore.goto_purchase=前往充值	#
+neteaseStore.buy_succ=商品已成功购买	#
+neteaseStore.buy_failed=商品购买失败	#
+neteaseStore.no_expire_day=永久		#
+neteaseStore.item_expire_day=%d天		#
+neteaseStore.buy_item_expire_day=%Y年%m月%d日 %R到期		#
+neteaseStore.not_for_sale=非卖品	#
+
+neteaseVoice.send_btn_text=发送
+neteaseVoice.finish_btn_text=完成
+neteaseVoice.cancel_btn_text=取消
+neteaseVoice.recording=录制中...
+neteaseVoice.transing=正在转化中...
+neteaseVoice.recordfinish=录制完成
+neteaseVoice.nopermission=权限不足，无法录音
+neteaseVoice.recordfailed=录音失败
+neteaseVoice.tooshort=内容过短无法发送
+
+netease.report.title=社交界面
+netease.report.text.friend=申请好友
+netease.report.option.friend=申请
+netease.report.friend.dialog.message=好友邀请已发送
+netease.report.friend.dialog.warning=已经是好友，申请失败
+netease.report.friend.dialog.forbid=频繁添加，请稍后再试
+netease.report.friend.dialog.failed=添加好友失败，请稍后再试
+netease.report.text.report=举报玩家
+netease.report.option.report=举报
+netease.report.report.dialog.title=选择举报类型
+netease.report.report.option.bad_player=恶意玩家
+netease.report.report.option.bad_nickname=不雅昵称
+netease.report.report.option.language_violence=语言暴力
+netease.report.report.option.bad_information=发布不良信息
+netease.report.report.option.game_plug=外挂
+netease.report.report.option.other=其他
+netease.report.report.record.title=选择举报证据
+netease.report.report.record.error=请选择至少一项举报内容
+netease.report.text.record.title=选择举报证据
+netease.report.report.record.warning=最多可以选择10条记录作为证据
+netease.report.report.record.hint=举报成功，美化游戏环境人人有责。
+netease.report.text.shield=屏蔽玩家发言
+netease.report.kick_failed.shield=踢玩家失败。不是房主不能踢除玩家
+netease.report.shield.dialog.message=已屏蔽该玩家发言
+netease.report.cancel_shield.dialog.message=已解除屏蔽该玩家发言
+netease.report.option.shield=屏蔽
+netease.report.option.dont_shield=解除屏蔽
+netease.report.text.kick=踢除玩家
+netease.report.kick.if_kick_message=是否确认踢除玩家？
+netease.report.option.kick=踢除
+netease.report.kick.hint=你已被房主踢出房间
+netease.report.cancel=取消
+netease.permission.takeScreenError=请在系统设置中打开存储权限以开启截屏功能
+netease.permission.audioPermissionError=请在系统设置中打开麦克风权限以开启游戏内语音
+netease.permission.ngVoicePermissionError=请在系统设置中打开储存和麦克风权限以开启游戏语音转文字
+netease.permission.ngVoicePermissionFine=权限获取成功
+
+netease.warn_anti_addiction.verify=实名登记	#
+netease.warn_anti_addiction.hint=由于您是未实名账号，剩余游戏时间§4不足%d分钟§f，请尽快完成§b实名登记	#
+netease.warn_anti_addiction.verified.hint=距离休息时间§4不足15分钟§f，请合理安排游戏时间	#
+
+entity.phantom.name=幻翼		#
+item.phantom_membrane.name=幻翼膜	#
+tipped_arrow.effect.slowFalling=缓降之箭	#
+action.interact.read=读	#
+commands.closechat.success=关闭聊天	#
+
+createWorldScreen.gameMode.serverDefault=默认	#
+
+permissions.nocheats.turnoff=关闭作弊	#
+permissions.nocheats.turnon=开启作弊	#
+permissions.ability.mine=采集方块	#
+permissions.ability.build=放置方块	#
+commands.scoreboard.players.set.multiple.success=将 %2$d 个实体的 [%1$s] 设为 %3$d	#
+createWorldScreen.commandblocksenabled=启用命令方块	#
+commands.scoreboard.players.remove.multiple.success=从 %3$d 个实体的 [%2$s] 中移除 %1$d	#
+chat.font=字体	#
+commands.scoreboard.players.offlinePlayerName=玩家下线	#
+commands.scoreboard.players.remove.success=从 %3$s 的 [%2$s] 中移除 %1$d (当前为 %4$d)	#
+key.menuTabLeft=向左切换选项卡	#
+key.menuTabRight=向右切换选项卡		#
+hostOption.codeBuilder=代码编辑器	#
+key.codeBuilder=代码编辑器	#
+options.codeBuilder=代码编辑器	#
+item.crossbow.name=弩	#
+tile.smooth_quartz_stairs.name=平滑石英楼梯	#
+
+commands.removeedunpc.description=删除地图内所有NPC	#
+commands.removeedunpc.success=已删除NPC	#
+commands.enableedunpc.description=是否允许在地图内生成NPC: true允许, false禁止	#
+commands.enableedunpc.success.enable=已允许地图内生成NPC	#
+commands.enableedunpc.success.disable=已禁止地图内生成NPC	#
+
+mobileAuthenticate.title=绑定手机号	#
+mobileAuthenticate.guide.content=进行聊天需要绑定手机号，请前往绑定	#
+mobileAuthenticate.guide.cancel=取消	#
+mobileAuthenticate.guide.binding=前往绑定	#
+mobileAuthenticate.cancel=取消	#
+mobileAuthenticate.binding=绑定	#
+mobileAuthenticate.number.title=手机号码	#
+mobileAuthenticate.number.error=输入的手机号码有误	#
+mobileAuthenticate.code.title=验证码	#
+mobileAuthenticate.code.hint=输入收到的验证码	#
+mobileAuthenticate.code.request=获取验证码	#
+mobileAuthenticate.result.wrong=验证码错误	#
+mobileAuthenticate.result.success=绑定成功	#
+
+reconnectionScreen.reconnect=服务器断开连接,是否重连？	#
+
+report_cheat.confirm=前往举报
+report_cheat.content=是否前往客户端举报？
+
+growLevel.wood=橡木
+growLevel.albizia=合欢木
+growLevel.sand=沙块
+growLevel.stone=圆石
+growLevel.iron=精铁
+growLevel.emerald=绿宝石
+growLevel.gold=黄金
+growLevel.diamond=钻石
+growLevel.purpur=紫珀
+growLevel.bedrock=基岩
+
+growLevel.one=Ⅰ
+growLevel.two=Ⅱ
+growLevel.three=Ⅲ
+growLevel.four=Ⅳ
+growLevel.five=Ⅴ
+
+commonds.gamemode.permissionFailure=当前玩法有特定选项,无法更改
+commonds.gamerule.permissionFailure=当前玩法有特定选项,无法更改
+
+netease.jarves.replayStarted = [贾维斯录像重播]录像名称为[%s]的重播已经开始	#
+netease.jarves.replayEnded = [贾维斯录像重播]录像名称为[%s]的重播已经结束	#
+netease.jarves.recordStarted = [贾维斯录像重播]录像名称为[%s]的录像已经开始	#
+netease.jarves.recordEnded = [贾维斯录像重播]录像名称为[%s]的录像已经结束	#

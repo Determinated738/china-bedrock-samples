@@ -1,0 +1,154 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.2857",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.7857",
+				"time": "3.7%"
+			},
+			{
+				"color": "0.1725 1.0000 0.9451 1.0000",
+				"time": "15.3%"
+			},
+			{
+				"color": "1.0000 0.4353 0.7765 0.9732",
+				"time": "53.7%"
+			},
+			{
+				"color": "0.8314 0.4392 1.0000 0.7232",
+				"time": "79.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.3036",
+				"time": "99.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "5.0"
+		},
+		"delay": 2.2,
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.0 0.0 0.0"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "50"
+		},
+		"particlesize": {
+			"max": "0.01 0.01",
+			"min": "0.03 0.03"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.0 1.0",
+				"time": "1.3%"
+			},
+			{
+				"scale": "0.65 0.65",
+				"time": "25.7%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/cs_s1wild_skinB_dc_lizi"
+		},
+		"thickness": {
+			"value": "1.0"
+		},
+		"timetolive": {
+			"max": "0.15",
+			"min": "0.35"
+		},
+		"trail": {
+			"colorfade": [
+				{
+					"color": "0.5058823529411764 1.0 1.0 1.0",
+					"time": "0.000%"
+				},
+				{
+					"color": "0.19215686274509805 0.6509803921568628 1.0 1.0",
+					"time": "22.632%"
+				},
+				{
+					"color": "1.0 0.5411764705882353 0.996078431372549 1.0",
+					"time": "59.474%"
+				},
+				{
+					"color": "1.0 0.4627450980392157 0.2980392156862745 0.6339285714285714",
+					"time": "83.421%"
+				},
+				{
+					"color": "1.0 0.5843137254901961 0.28627450980392155 0.0",
+					"time": "100.000%"
+				}
+			],
+			"facemode": 0,
+			"lifetime": 0.15,
+			"maxnum": 32,
+			"mindistance": 0.01,
+			"texmode": 2,
+			"textile": "1.0 1.0",
+			"useparticlecolor": false,
+			"useparticlewidth": true,
+			"widthfade": [
+				{
+					"time": "0.0%",
+					"value": "1.04"
+				},
+				{
+					"time": "39.0%",
+					"value": "0.9000000000000001"
+				},
+				{
+					"time": "100.0%",
+					"value": "0.0"
+				}
+			],
+			"worldspace": true
+		},
+		"velocity": {
+			"max": "9.0",
+			"min": "6.0"
+		}
+	}
+}

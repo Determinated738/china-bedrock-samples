@@ -1,0 +1,61 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "33.9%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.2 0.4 0.2"
+		},
+		"emittertype": {
+			"value": "Cone"
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"particlesize": {
+			"max": "1.0 1.3",
+			"min": "1.0 1.3"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 180.0 0.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "10",
+				"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_ql2",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_ql2"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.0"
+		}
+	}
+}

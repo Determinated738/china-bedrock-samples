@@ -1,0 +1,70 @@
+{
+	"particleeffect": {
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "2.0",
+			"min": "2.0"
+		},
+		"numparticles": {
+			"value": "2"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "15",
+				"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_di",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_di"
+		},
+		"trail": {
+			"colorfade": [
+				{
+					"color": "1.0 0.0 0.0 0.0",
+					"time": "0.000%"
+				},
+				{
+					"color": "1.0 0.0 0.0 0.9821428571428571",
+					"time": "8.158%"
+				},
+				{
+					"color": "0.0 0.0 0.0 0.6696428571428572",
+					"time": "22.632%"
+				},
+				{
+					"color": "0.0 0.0 0.0 0.0",
+					"time": "100.000%"
+				}
+			],
+			"facemode": 1,
+			"lifetime": 0.5,
+			"maxnum": 100,
+			"mindistance": 0.1,
+			"texmode": 0,
+			"textile": "1.0 1.0",
+			"useparticlecolor": false,
+			"useparticlewidth": true,
+			"widthfade": [
+				{
+					"time": "0.0%",
+					"value": "1.4500000000000002"
+				},
+				{
+					"time": "100.0%",
+					"value": "0.0"
+				}
+			],
+			"worldspace": true
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

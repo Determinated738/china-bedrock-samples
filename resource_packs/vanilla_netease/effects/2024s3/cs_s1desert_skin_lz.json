@@ -1,0 +1,70 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.8706 0.5569 0.0471 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.6157 0.0000 1.0000",
+				"time": "71.1%"
+			},
+			{
+				"color": "1.0000 0.7137 0.0392 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "0.05"
+		},
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.3 0.3 0.5"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "15"
+		},
+		"particlesize": {
+			"max": "0.04 0.04",
+			"min": "0.02 0.02"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "8",
+				"name": "",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/cs_s1desert_skin_d"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "0.3",
+			"min": "0.1"
+		}
+	}
+}

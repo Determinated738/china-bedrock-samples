@@ -1,0 +1,101 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "0.8"
+        },
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 0.7373 0.8431 0.4821",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 0.3961 0.7608 0.4554",
+                "time": "0.30"
+            },
+            {
+                "color": "1.0000 0.7412 0.9333 0.0000",
+                "time": "0.85"
+            }
+        ],
+        "dampingforce": {
+            "value": "2.8"
+        },
+        "delay": 0.1,
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "1.0 1.0 1.0",
+            "min": "-1.0 -1.0 -1.0",
+            "value": "Outwards"
+        },
+        "emissionrate": {
+            "max": "30.0",
+            "min": "20.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.02 0.0 0.02"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "independent": false,
+        "layer": 8,
+        "numparticles": {
+            "value": "2"
+        },
+        "particlesize": {
+            "max": "0.55 0.55",
+            "min": "0.45 0.45"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "rotationRange": {
+            "max": "150.0 40.0 -25.0",
+            "min": "140.0 -20.0 -45.0"
+        },
+        "rotationSpeedRange": {
+            "max": "0.0 0.0 150.0",
+            "min": "0.0 0.0 50.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "2.6 2.6",
+                "time": "0.0%"
+            },
+            {
+                "scale": "2.56 2.56",
+                "time": "99.3%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "16",
+                "name": "textures/sfxs/2021s4/cs_dragon_bianshen_heisekuoquan",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2021s4/cs_dragon_bianshen_heisekuoquan"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.85",
+            "min": "0.75"
+        },
+        "velocity": {
+            "max": "2.8",
+            "min": "1.5"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "frameeffect": {
+        "blend_mode": 1,
+        "cylinder_enable": true,
+        "cylinder_frac_num": 4,
+        "cylinder_height": 0.6,
+        "cylinder_radius_down": 1.0,
+        "cylinder_radius_up": 1.0,
+        "delay": 0.0,
+        "depth_test": true,
+        "face_camera": false,
+        "fade_distance": 0.0,
+        "fps": 0,
+        "loop": true,
+        "rot_speed": [
+            0,
+            0,
+            0
+        ],
+        "scale": [
+            0.125,
+            0.125,
+            0.125
+        ],
+        "shuffle": false,
+        "tex_repeat_num": [
+            10,
+            1
+        ],
+        "texture": "textures/sfxs/home/ass_effect/comm_track/0_track"
+    }
+}

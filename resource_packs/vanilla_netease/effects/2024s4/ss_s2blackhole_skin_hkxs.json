@@ -1,0 +1,57 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 0.0000 0.6786",
+				"time": "50.8%"
+			},
+			{
+				"color": "1.0000 1.0000 0.2400 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "1.0"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Inwards"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.66 0.6 0.6"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "4"
+		},
+		"particlesize": {
+			"max": "0.04 0.04",
+			"min": "0.01 0.01"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/ss_s2blackhole_skin_dhk"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.4",
+			"min": "0.4"
+		}
+	}
+}

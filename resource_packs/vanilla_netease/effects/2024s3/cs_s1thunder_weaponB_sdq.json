@@ -1,0 +1,28 @@
+{
+	"particleeffect": {
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"numparticles": {
+			"value": "2"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "16",
+				"name": "textures/sfxs/2024s3/cs_s1thunder_weaponB_sdq",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/cs_s1thunder_weaponB_sdq"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

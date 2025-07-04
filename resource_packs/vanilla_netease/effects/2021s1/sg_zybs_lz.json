@@ -1,0 +1,95 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.682353 0.121569 0.901961 1.000000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.843137 0.039216 1.000000 1.000000",
+        "time": "0.06989473684210527"
+      },
+      {
+        "color": "1.000000 0.007843 1.000000 1.000000",
+        "time": "0.16000000000000003"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "70.0"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "1.5 0.0 1.5"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.15 0.14",
+      "min": "0.1 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.6999999999999997 1.6999999999999997",
+        "time": "25.3%"
+      },
+      {
+        "scale": "1.0499999999999998 1.0499999999999998",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "textures/sfxs/2021s1/sg_zhbq_lz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2021s1/sg_zhbq_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "9.0",
+      "min": "7.0"
+    }
+  }
+}

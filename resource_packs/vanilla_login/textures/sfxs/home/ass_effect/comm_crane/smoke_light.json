@@ -1,0 +1,82 @@
+{
+    "particleeffect": {
+        "colorfade": [
+            {
+                "color": "0.9020 0.8784 0.8314 1.0000",
+                "time": "0%"
+            },
+            {
+                "color": "0.7373 0.7373 0.7373 0.7589",
+                "time": "70%"
+            },
+            {
+                "color": "0.6039 0.6039 0.6039 0.0000",
+                "time": "100%"
+            }
+        ],
+        "dampingforce": {
+            "value": "3.0"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 1.0 1.0",
+            "min": "-0.1 -1.0 -1.0",
+            "value": "Outwards"
+        },
+        "emissionrate": {
+            "max": "10.0",
+            "min": "8.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.1 0.3 0.3"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "independent": false,
+        "particlesize": {
+            "max": "0.3 0.3",
+            "min": "0.23 0.23"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "0.93 0.93",
+                "time": "0.0%"
+            },
+            {
+                "scale": "1.2 1.2",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "10",
+                "name": "textures/sfxs/home/ass_effect/comm_crane/0_smoke",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/home/ass_effect/comm_crane/0_smoke"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.8",
+            "min": "0.5"
+        },
+        "velocity": {
+            "max": "1.2",
+            "min": "0.8"
+        }
+    }
+}

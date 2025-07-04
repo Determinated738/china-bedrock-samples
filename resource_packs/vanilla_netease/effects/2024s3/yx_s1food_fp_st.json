@@ -1,0 +1,76 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "67.6%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"direction": {
+			"max": "0.0 -1.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.4 0.6 0.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"layer": 2,
+		"particlesize": {
+			"max": "0.7 1.0",
+			"min": "1.0 2.2"
+		},
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 -360.0",
+			"min": "0.0 0.0 360.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "10.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/yx_s1food_fp_st"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.7"
+		}
+	}
+}

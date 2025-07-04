@@ -1,0 +1,72 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "0.0000 0.0000 0.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "20.0%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "38.2%"
+			},
+			{
+				"color": "0.6510 0.0510 0.0000 1.0000",
+				"time": "39.2%"
+			},
+			{
+				"color": "0.6510 0.0510 0.0000 1.0000",
+				"time": "51.6%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "52.9%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 0.9911",
+				"time": "65.8%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "2.5"
+		},
+		"direction": {
+			"max": "0.0 0.3 0.0",
+			"min": "-1.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "10.0",
+			"min": "5.0"
+		},
+		"numparticles": {
+			"value": "5"
+		},
+		"particlesize": {
+			"max": "0.03 0.03",
+			"min": "0.05 0.05"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/ss_s2tianxia_skin_lizi"
+		},
+		"timetolive": {
+			"max": "0.8",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "1.0",
+			"min": "0.5"
+		}
+	}
+}

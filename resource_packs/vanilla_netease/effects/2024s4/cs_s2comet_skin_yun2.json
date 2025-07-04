@@ -1,0 +1,43 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.3098 0.9922 1.0000 0.1875",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.2863 0.8353 1.0000 0.3571",
+				"time": "50.3%"
+			},
+			{
+				"color": "0.3686 0.9922 1.0000 0.1518",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "0.15 0.15",
+			"min": "0.15 0.15"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_skin_sun"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

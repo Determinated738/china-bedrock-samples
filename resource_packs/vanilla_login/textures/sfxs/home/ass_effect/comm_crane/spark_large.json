@@ -1,0 +1,85 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "1.0"
+        },
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 1.0000 1.0000 1.0000",
+                "time": "0%"
+            },
+            {
+                "color": "1.0000 1.0000 0.2400 1.0000",
+                "time": "100%"
+            }
+        ],
+        "dampingforce": {
+            "value": "10.0"
+        },
+        "delay": 0.7,
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 1.0 0.0",
+            "min": "0.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "1.0",
+            "min": "1.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.0 0.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "faceCameraMode": {
+            "value": "Direction"
+        },
+        "inactivetime": {
+            "value": "2.0"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "2"
+        },
+        "particlesize": {
+            "max": "0.05 0.85",
+            "min": "0.05 0.85"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "0.0 0.0",
+                "time": "0.0%"
+            },
+            {
+                "scale": "1.0 1.0",
+                "time": "25.0%"
+            },
+            {
+                "scale": "1.0 1.0",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "name": "textures/sfxs/home/ass_effect/comm_crane/0_beam"
+        },
+        "thickness": {
+            "value": "0.0"
+        }
+    }
+}

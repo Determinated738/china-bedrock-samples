@@ -1,0 +1,69 @@
+{
+	"particleeffect": {
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "3.0",
+			"min": "3.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 1.0 0.7"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 2,
+		"numparticles": {
+			"value": "3"
+		},
+		"particlesize": {
+			"max": "0.2 0.2",
+			"min": "0.1 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.6 0.6",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.17 1.17",
+				"time": "41.0%"
+			},
+			{
+				"scale": "1.26 1.26",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "10",
+				"name": "textures/sfxs/2024s4/cs_s2comet_skin_chuchang_lizi",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s2comet_skin_chuchang_lizi"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.4",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

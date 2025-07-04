@@ -1,0 +1,98 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.4549 1.0000 0.9843 0.0000",
+				"time": "0.00"
+			},
+			{
+				"color": "1.0000 0.9686 0.0000 0.9732",
+				"time": "0.15"
+			},
+			{
+				"color": "0.0000 0.7333 1.0000 0.3571",
+				"time": "0.55"
+			},
+			{
+				"color": "0.9843 1.0000 0.0000 1.0000",
+				"time": "0.89"
+			},
+			{
+				"color": "1.0000 0.5490 0.0000 0.0625",
+				"time": "1.50"
+			}
+		],
+		"delay": 3.91,
+		"direction": {
+			"max": "0.0 0.5 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "30.0",
+			"min": "30.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.6 1.7 1.6"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"layer": 15,
+		"numparticles": {
+			"value": "5"
+		},
+		"particlesize": {
+			"max": "0.06 0.06",
+			"min": "0.1 0.1"
+		},
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.87 0.87",
+				"time": "0.00"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "1.01"
+			},
+			{
+				"scale": "0.66 0.66",
+				"time": "1.98"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "3.00"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "16",
+				"name": "",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_dianchuo_x"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "1.2",
+			"min": "0.8"
+		},
+		"velocity": {
+			"max": "0.2",
+			"min": "0.1"
+		}
+	}
+}

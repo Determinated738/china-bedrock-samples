@@ -1,0 +1,94 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.15"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 0.7804 0.9176 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.5843 0.7451 1.0000",
+				"time": "25.5%"
+			},
+			{
+				"color": "1.0000 0.3529 0.5255 0.9196",
+				"time": "48.7%"
+			},
+			{
+				"color": "0.9765 0.2078 1.0000 0.5446",
+				"time": "71.6%"
+			},
+			{
+				"color": "0.3725 0.1647 1.0000 0.0179",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 4.0 0.0"
+		},
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"delay": 0.75,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 0.4 1.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"inactivetime": {
+			"value": "0.85"
+		},
+		"numparticles": {
+			"value": "2"
+		},
+		"particlesize": {
+			"max": "0.05 0.4",
+			"min": "0.05 0.2"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.46 0.46",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.93 0.93",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/IP_doraemon_S1skinC_01"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "0.5",
+			"min": "0.2"
+		}
+	}
+}

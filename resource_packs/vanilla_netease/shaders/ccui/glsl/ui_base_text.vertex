@@ -1,0 +1,138 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+#define MCPE_NETEASE
+
+// To use centroid sampling we need to have version 300 es shaders, which requires changing:
+// attribute to in
+// varying to out when in vertex shaders or in when in fragment shaders
+// defining an out vec4 FragColor and replacing uses of gl_FragColor with FragColor
+// texture2D to texture
+#if __VERSION__ >= 300
+#define attribute in
+#define varying out
+
+#ifdef MSAA_FRAMEBUFFER_ENABLED
+#define _centroid centroid
+#else
+#define _centroid
+#endif
+#endif
+
+
+#ifndef _UNIFORM_WORLD_CONSTANTS_H
+#define _UNIFORM_WORLD_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+layout(binding = 1) uniform WorldConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(WorldConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM MAT4 WORLDVIEWPROJ;
+UNIFORM MAT4 WORLD;
+UNIFORM MAT4 WORLDVIEW;
+UNIFORM MAT4 PROJ;
+#ifdef MCPE_NETEASE
+UNIFORM MAT4 VIEWPROJ;
+#endif
+END_UNIFORM_BLOCK
+
+#endif
+
+#ifndef _UNIFORM_UI_TRANSFORMS_CONSTANTS_H
+#define _UNIFORM_UI_TRANSFORMS_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+#extension GL_ARB_enhanced_layouts : enable
+layout(binding = 3) uniform UITransformsConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(UITransformsConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM highp mat4 TRANSFORM;
+#ifdef MCPE_NETEASE
+UNIFORM highp mat4 TEXTCOLORS;
+#endif
+END_UNIFORM_BLOCK
+
+#endif
+
+
+#ifdef ENABLE_FULL_PRECISION_POSITION
+attribute POS3 POSITION;
+#else
+attribute POS4 POSITION;
+#endif
+
+attribute vec4 COLOR;
+attribute vec2 TEXCOORD_0;
+
+varying vec4 color;
+varying vec2 uv;
+
+#ifdef ENABLE_TEXT_COLOR_GRADIENT
+varying vec2 colorInterpolation;
+#endif
+
+void main()
+{
+#ifdef ENABLE_FULL_PRECISION_POSITION
+	gl_Position = WORLDVIEWPROJ * vec4(POSITION.xyz, 1.0);
+#else
+	gl_Position = WORLDVIEWPROJ * POSITION;
+#endif
+
+	vec2 temp = gl_Position.xy - TRANSFORM[0].xy;
+#ifdef ENABLE_TEXT_COLOR_GRADIENT
+	colorInterpolation = vec2(
+		TRANSFORM[0][2] * abs(temp.x) * TRANSFORM[2].z,
+		TRANSFORM[0][3] * abs(temp.y) * TRANSFORM[2].w
+	);
+#endif
+	gl_Position.xy = TRANSFORM[0].xy + TRANSFORM[0][2] * TRANSFORM[1].xy * temp.x + TRANSFORM[0][3] * TRANSFORM[1].zw * temp.y;
+
+	color = COLOR;
+
+	uv = TEXCOORD_0;
+}

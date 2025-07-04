@@ -1,0 +1,56 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"dampingforce": {
+			"value": "5.0"
+		},
+		"delay": 9.72,
+		"depthtest": {
+			"enable": "false"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Outwards"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "12.0 2.0 10.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"layer": 7,
+		"numparticles": {
+			"value": "50"
+		},
+		"particlesize": {
+			"max": "0.2 0.2",
+			"min": "0.1 0.1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_huo_kuai1"
+		},
+		"thickness": {
+			"value": "1.0"
+		},
+		"timetolive": {
+			"max": "1.0",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "8.0",
+			"min": "5.0"
+		}
+	}
+}

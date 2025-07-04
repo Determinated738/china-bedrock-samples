@@ -1,0 +1,83 @@
+{
+    "particleeffect": {
+        "colorfade": [
+            {
+                "color": "1.000000 1.000000 1.000000 0.000000",
+                "time": "0%"
+            },
+            {
+                "color": "1.000000 1.000000 1.000000 1.000000",
+                "time": "5%"
+            },
+            {
+                "color": "1.000000 1.000000 1.000000 1.000000",
+                "time": "95%"
+            },
+            {
+                "color": "1.000000 1.000000 1.000000 0.000000",
+                "time": "100%"
+            }
+        ],
+        "dampingforce": {
+            "value": "0.5"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 1.0 0.0",
+            "min": "0.0 -1.0 0.0",
+            "value": "Direction"
+        },
+        "disorder": {
+            "increment": "0.0",
+            "interval": "0.4",
+            "max": "0.0 0.08 0.0",
+            "min": "0.0 -0.08 0.0"
+        },
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.0 4.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "true"
+        },
+        "enabletexture": {
+            "enable": "true"
+        },
+        "numparticles": {
+            "value": "5"
+        },
+        "particlesize": {
+            "max": "0.4 0.4",
+            "min": "0.2 0.2"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "texture": {
+            "ani": {
+                "fps": "0",
+                "name": "textures/sfxs/home/ass_effect/brick_hyfg/0_fish",
+                "shuffle": true
+            },
+            "name": "textures/sfxs/home/ass_effect/brick_hyfg/0_fish"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "50.0",
+            "min": "30.0"
+        },
+        "velocity": {
+            "max": "0.05",
+            "min": "0.00"
+        }
+    }
+}

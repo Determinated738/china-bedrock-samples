@@ -1,0 +1,90 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "10.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.9911",
+				"time": "49.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.2857",
+				"time": "68.4%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.0 0.0 0.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "0.1 0.2",
+			"min": "0.1 0.2"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 45.0 0.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "16",
+				"name": "textures/sfxs/2024s4/ss_s2tianxia_armor_tw",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ss_s2tianxia_armor_tw"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.6"
+		},
+		"trail": {
+			"facemode": 0,
+			"lifetime": 0.17,
+			"maxnum": 40,
+			"mindistance": 0.01,
+			"texmode": 0,
+			"textile": "1.0 1.0",
+			"useparticlecolor": false,
+			"useparticlewidth": true,
+			"worldspace": true
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

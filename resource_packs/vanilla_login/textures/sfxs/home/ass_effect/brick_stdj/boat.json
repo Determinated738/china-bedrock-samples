@@ -1,0 +1,88 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "1.0"
+        },
+        "inactivetime": {
+            "value": "500"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 1.0000 1.0000 0.0000",
+                "time": "0%"
+            },
+            {
+                "color": "1.0000 1.0000 1.0000 1.0000",
+                "time": "0.1%"
+            },
+            {
+                "color": "1.0000 1.0000 1.0000 1.0000",
+                "time": "99.9%"
+            },
+            {
+                "color": "1.0000 1.0000 1.0000 0.0000",
+                "time": "100%"
+            }
+        ],
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "1.0 1.0 1.0",
+            "min": "-1.0 -1.0 -1.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "3.0",
+            "min": "1.0"
+        },
+        "emittersize": {
+            "value": "0.0 0.3 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "emitterpath": [
+            {
+                "offset": "0.4 0.0 0.0",
+                "time": "0%"
+            },
+            {
+                "offset": "-0.4 0.0 0.0",
+                "time": "100%"
+            }
+        ],
+        "enabletexture": {
+            "enable": "true"
+        },
+        "numparticles": {
+            "value": "2"
+        },
+        "particlesize": {
+            "max": "1.4 0.9",
+            "min": "1.4 0.9"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "texture": {
+            "ani": {
+                "fps": "0",
+                "name": "textures/sfxs/home/ass_effect/brick_stdj/0_boat",
+                "shuffle": true
+            },
+            "name": "textures/sfxs/home/ass_effect/brick_stdj/0_boat"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "500",
+            "min": "500"
+        },
+        "velocity": {
+            "max": "0.0",
+            "min": "0.0"
+        }
+    }
+}

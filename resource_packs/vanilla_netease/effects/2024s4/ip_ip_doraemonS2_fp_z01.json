@@ -1,0 +1,75 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.5982",
+				"time": "23.2%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.5982",
+				"time": "55.3%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0625",
+				"time": "79.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "10.0"
+		},
+		"direction": {
+			"max": "0.0 0.01 0.0",
+			"min": "0.0 0.01 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "2.0",
+			"min": "5.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction Horizontal"
+		},
+		"layer": 2,
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.35 0.9",
+			"min": "0.35 0.9"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 180.0 180.0",
+			"min": "0.0 180.0 180.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "10",
+				"name": "textures/sfxs/2024s4/ip_ip_doraemonS2_fp_z01",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ip_ip_doraemonS2_fp_z01"
+		},
+		"velocity": {
+			"max": "-0.1",
+			"min": "-0.1"
+		}
+	}
+}

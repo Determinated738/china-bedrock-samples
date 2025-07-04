@@ -1,0 +1,97 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.4"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.9961 0.9843 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.4667 0.0000 1.0000 1.0000",
+				"time": "79.7%"
+			},
+			{
+				"color": "1.0000 0.9686 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 -1.0 0.0"
+		},
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"delay": 15.3,
+		"direction": {
+			"max": "0.0 -1.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Outwards"
+		},
+		"disorder": {
+			"increment": "0.0",
+			"interval": "0.05",
+			"max": "0.1 0.0 0.1",
+			"min": "-0.1 0.0 -0.1"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.1 0.1 0.1"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 9,
+		"numparticles": {
+			"value": "100"
+		},
+		"particlesize": {
+			"max": "0.06 0.06",
+			"min": "0.1 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "30.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "80.0%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_d"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.7",
+			"min": "0.5"
+		}
+	}
+}

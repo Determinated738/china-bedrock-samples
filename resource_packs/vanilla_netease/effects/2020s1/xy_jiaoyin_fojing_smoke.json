@@ -1,0 +1,84 @@
+{
+    "particleeffect": {
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 0.5490 0.0000 0.1176",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 0.2314 0.0000 0.1961",
+                "time": "0.15"
+            },
+            {
+                "color": "1.0000 0.2314 0.0000 0.0000",
+                "time": "0.50"
+            }
+        ],
+        "dampingforce": {
+            "value": "15.0"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 0.1",
+            "min": "0.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "30.0",
+            "min": "20.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.0 1.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "20"
+        },
+        "particlesize": {
+            "max": "0.6 0.6",
+            "min": "0.5 0.5"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "15",
+                "name": "textures/particle/2020s1/xy_jiaoyin_fojing_smoke",
+                "shuffle": false
+            },
+            "name": "textures/particle/2020s1/xy_jiaoyin_fojing_smoke"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.5",
+            "min": "0.6"
+        },
+        "velocity": {
+            "max": "0.0",
+            "min": "0.0"
+        }
+    }
+}

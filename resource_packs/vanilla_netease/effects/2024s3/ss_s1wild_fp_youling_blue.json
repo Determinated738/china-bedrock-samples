@@ -1,0 +1,33 @@
+{
+	"particleeffect": {
+		"direction": {
+			"max": "0.0 -1.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"layer": 5,
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "0.38 0.38",
+			"min": "0.42 0.42"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "22",
+				"name": "textures/sfxs/2024s3/ss_s1wild_fp_yueling_blue",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/ss_s1wild_fp_yueling_blue"
+		},
+		"velocity": {
+			"max": "0.5",
+			"min": "0.2"
+		}
+	}
+}

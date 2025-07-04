@@ -1,0 +1,385 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+precision highp float;
+
+// To use centroid sampling we need to have version 300 es shaders, which requires changing:
+// attribute to in
+// varying to out when in vertex shaders or in when in fragment shaders
+// defining an out vec4 FragColor and replacing uses of gl_FragColor with FragColor
+// texture2D to texture
+#if __VERSION__ >= 300
+
+#ifdef MSAA_FRAMEBUFFER_ENABLED
+#define _centroid centroid
+#else
+#define _centroid
+#endif
+
+// version 300 code
+_centroid in vec2 uv;
+
+#define varying in
+#define texture2D texture
+out vec4 FragColor;
+#define gl_FragColor FragColor
+
+#else
+
+// version 100 code
+varying vec2 uv;
+
+#endif
+
+#ifndef _UNIFORM_WORLD_CONSTANTS_H
+#define _UNIFORM_WORLD_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+layout(binding = 1) uniform WorldConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(WorldConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM MAT4 WORLDVIEWPROJ;
+UNIFORM MAT4 WORLD;
+UNIFORM MAT4 WORLDVIEW;
+UNIFORM MAT4 PROJ;
+#ifdef MCPE_NETEASE
+UNIFORM MAT4 VIEWPROJ;
+#endif
+END_UNIFORM_BLOCK
+
+#endif
+
+#ifndef _UNIFORM_ENTITY_CONSTANTS_H
+#define _UNIFORM_ENTITY_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+uniform ActorConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(ActorConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM vec4 OVERLAY_COLOR;
+UNIFORM vec4 TILE_LIGHT_COLOR;
+UNIFORM vec2 TILE_LIGHT_INTENSITY;
+UNIFORM vec4 CHANGE_COLOR;
+UNIFORM vec4 GLINT_COLOR;
+UNIFORM vec4 UV_ANIM;
+UNIFORM vec2 UV_OFFSET;
+UNIFORM vec2 UV_ROTATION;
+UNIFORM vec2 GLINT_UV_SCALE;
+UNIFORM vec4 MULTIPLICATIVE_TINT_CHANGE_COLOR;
+END_UNIFORM_BLOCK
+
+#endif
+
+
+#ifndef _UNIFORM_PER_FRAME_CONSTANTS_H
+#define _UNIFORM_PER_FRAME_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+layout(binding = 2) uniform PerFrameConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(PerFrameConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM vec3 VIEW_POS;
+#ifdef MCPE_NETEASE
+// TIME will loop from [0, 210]
+// make sure your shader handles the case when it transitions from 210 to 0
+#endif
+UNIFORM float TIME;
+#ifdef MCPE_NETEASE
+UNIFORM vec4 BLEND_COLOR;
+UNIFORM vec4 USER_FOR_COLOR_NEAR;
+UNIFORM vec4 USER_FOR_COLOR_FAR;
+
+UNIFORM vec4 LIGHT_NUM_STRENGTH;
+UNIFORM vec4 LIGHT_POS_RANGE_0;
+UNIFORM vec4 LIGHT_COLOR_ATTEN_0;
+UNIFORM vec4 LIGHT_DIR_TYPE_0;
+UNIFORM vec4 LIGHT_FALLOFF_COS_0;
+
+UNIFORM vec4 LIGHT_POS_RANGE_1;
+UNIFORM vec4 LIGHT_COLOR_ATTEN_1;
+UNIFORM vec4 LIGHT_DIR_TYPE_1;
+UNIFORM vec4 LIGHT_FALLOFF_COS_1;
+
+UNIFORM vec4 LIGHT_POS_RANGE_2;
+UNIFORM vec4 LIGHT_COLOR_ATTEN_2;
+UNIFORM vec4 LIGHT_DIR_TYPE_2;
+UNIFORM vec4 LIGHT_FALLOFF_COS_2;
+
+UNIFORM vec4 PLANAR_SHADOW_PARAMS1;
+UNIFORM vec4 PLANAR_SHADOW_PARAMS2;
+UNIFORM vec4 PLANAR_SHADOW_PARAMS3;
+UNIFORM vec4 PLANAR_SHADOW_PARAMS4;
+#endif
+UNIFORM vec4 FOG_COLOR;
+UNIFORM vec2 FOG_CONTROL;
+UNIFORM float RENDER_DISTANCE;
+UNIFORM float FAR_CHUNKS_DISTANCE;
+UNIFORM float OCCLUSION_HEIGHT_OFFSET;
+END_UNIFORM_BLOCK
+
+#endif
+
+#ifndef _UNIFORM_SHADER_CONSTANTS_H
+#define _UNIFORM_SHADER_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+#extension GL_ARB_enhanced_layouts : enable
+layout(binding = 3) uniform ShaderConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(ShaderConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM vec4 CURRENT_COLOR;
+UNIFORM vec4 DARKEN;
+UNIFORM vec3 TEXTURE_DIMENSIONS;
+UNIFORM float HUD_OPACITY;
+UNIFORM MAT4 UV_TRANSFORM;
+END_UNIFORM_BLOCK
+
+#endif
+
+#if !defined(TEXEL_AA) || !defined(TEXEL_AA_FEATURE)
+#define USE_TEXEL_AA 0
+#else
+#define USE_TEXEL_AA 1
+#endif
+
+#ifdef ALPHA_TEST
+#define USE_ALPHA_TEST 1
+#else
+#define USE_ALPHA_TEST 0
+#endif
+
+#if __VERSION__ >= 300
+
+#ifndef _UNIFORM_SHADER_CONSTANTS_H
+#define _UNIFORM_SHADER_CONSTANTS_H
+
+#ifndef _UNIFORM_MACRO_H
+#define _UNIFORM_MACRO_H
+
+#ifdef MCPE_PLATFORM_NX
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) uniform x {
+#define END_UNIFORM_BLOCK };
+#define UNIFORM 
+#else
+// Unfortunately this macro does not work on old Amazon platforms #define BEGIN_UNIFORM_BLOCK(x) 
+#define END_UNIFORM_BLOCK
+#define UNIFORM uniform 
+#endif
+
+#if __VERSION__ >= 420
+#define LAYOUT_BINDING(x) layout(binding = x)
+#else
+#define LAYOUT_BINDING(x) 
+#endif
+
+#endif
+
+
+#ifdef MCPE_PLATFORM_NX
+#extension GL_ARB_enhanced_layouts : enable
+layout(binding = 3) uniform ShaderConstants {
+#endif
+// BEGIN_UNIFORM_BLOCK(ShaderConstants) - unfortunately this macro does not work on old Amazon platforms so using above 3 lines instead
+UNIFORM vec4 CURRENT_COLOR;
+UNIFORM vec4 DARKEN;
+UNIFORM vec3 TEXTURE_DIMENSIONS;
+UNIFORM float HUD_OPACITY;
+UNIFORM MAT4 UV_TRANSFORM;
+END_UNIFORM_BLOCK
+
+#endif
+
+
+#if USE_TEXEL_AA
+
+const float TEXEL_AA_LOD_CONSERVATIVE = -1.0;
+const float TEXEL_AA_LOD_RELAXED = 2.0;
+
+vec4 texture2D_AA(in sampler2D source, in highp vec2 originalUV) {
+
+	highp vec2 dUV_dX = dFdx(originalUV) * TEXTURE_DIMENSIONS.xy;
+	highp vec2 dUV_dY = dFdy(originalUV) * TEXTURE_DIMENSIONS.xy;
+
+	highp vec2 delU = vec2(dUV_dX.x, dUV_dY.x);
+	highp vec2 delV = vec2(dUV_dX.y, dUV_dY.y);
+	highp vec2 adjustmentScalar = max(1.0 / vec2(length(delU), length(delV)), 1.0);
+
+	highp vec2 fractionalTexel = fract(originalUV * TEXTURE_DIMENSIONS.xy);
+	highp vec2 adjustedFractionalTexel = clamp(fractionalTexel * adjustmentScalar, 0.0, 0.5) + clamp(fractionalTexel * adjustmentScalar - (adjustmentScalar - 0.5), 0.0, 0.5);
+
+	highp float lod = log2(sqrt(max(dot(dUV_dX, dUV_dX), dot(dUV_dY, dUV_dY))) * 2.0);
+	highp float samplingMode = smoothstep(TEXEL_AA_LOD_RELAXED, TEXEL_AA_LOD_CONSERVATIVE, lod);
+
+	highp vec2 adjustedUV = (adjustedFractionalTexel + floor(originalUV * TEXTURE_DIMENSIONS.xy)) / TEXTURE_DIMENSIONS.xy;
+	lowp vec4 blendedSample = texture2D(source, mix(originalUV, adjustedUV, samplingMode));
+
+	#if USE_ALPHA_TEST
+		return vec4(blendedSample.rgb, mix(blendedSample.a, smoothstep(1.0/2.0, 1.0, blendedSample.a), samplingMode));
+	#else
+		return blendedSample;
+	#endif
+}
+
+#endif // USE_TEXEL_AA
+
+#endif //__VERSION__ >= 300
+
+
+LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0; // base map
+LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // color map
+LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // emissive
+
+#define _Base_Tiling vec2(2.0,2.0)//<name:基本纹理平铺>
+#define _Depth_1 -9.8000//<name:深度偏移1>
+#define _Emissive_1 1.0000//<name:自发光强度1>
+#define _Depth_2 13.5000//<name:深度偏移2>
+#define _Emissive_2 0.5000//<name:自发光强度2>
+#define _Emissive_add 0.6300//<name:自发光-增加>
+#define _Emissive_tiling vec2(4.0,4.0)//<name:炫光纹理平铺>
+#define _Depth_3 20.0000//<name:深度偏移-炫光>
+#define _Emissive_add_total 1.0000//<name:炫光强度>
+#define _Power 1.0000//<name:Emissive Power>
+#define _FRES_SCALE 0.1000//<name:反射强度>
+
+const float FROM_255_TO_1 = 1.0 / 255.0;
+
+varying vec4 fogColor;
+varying vec3 worldPos;
+varying vec3 worldNormal;
+varying vec3 tangentViewDir;
+
+vec2 bumpoffset(vec2 texCoords, vec3 _tangentViewDir, float height) {
+	_tangentViewDir = normalize(_tangentViewDir);
+	vec2 p = _tangentViewDir.xy * (height * 0.05);
+	return texCoords + p;
+}
+
+void main() {
+	vec3 worldViewDir = normalize(worldPos - VIEW_POS);
+	float frensnelVal = 1.0 - dot(worldNormal, worldViewDir);
+	frensnelVal = clamp(_FRES_SCALE * frensnelVal * frensnelVal, 0.0, 1.0);
+
+	// 偏移1
+	vec2 uv_1 = bumpoffset(uv, tangentViewDir, _Depth_1);
+	// sample the texture
+	mediump vec4 col_1 = texture2D(TEXTURE_0, fract(uv_1 * _Base_Tiling));
+	// 偏移2
+	vec2 uv_2 = bumpoffset(uv, tangentViewDir, _Depth_2);
+	// sample the texture
+	mediump vec4 col_2 = texture2D(TEXTURE_0, fract(uv_2 * _Base_Tiling));
+	// 偏移3
+	vec2 uv_3 = bumpoffset(uv, tangentViewDir, _Depth_3);
+	mediump vec4 emissive_col = texture2D(TEXTURE_2, fract(uv_3 * _Emissive_tiling));
+	mediump float col_lerp = texture2D(TEXTURE_0, uv).x;
+
+	col_1 = col_1 * _Emissive_1;
+	col_2 = col_2 * _Emissive_2;
+	mediump vec4 col = mix(col_1, col_2, col_lerp);
+	// col = saturate(col);
+
+	// 五彩颜色
+	vec2 color_uv = vec2(uv.x, 0.99);
+	mediump vec4 wucai_col_bright = texture2D(TEXTURE_1, color_uv); // 亮色
+	color_uv.y = 0.01;
+	mediump vec4 wucai_col_dark = texture2D(TEXTURE_1, color_uv); // 暗色
+
+	col = mix(wucai_col_dark, wucai_col_bright, pow(col.x, _Power)) * (col.x + _Emissive_add); // 亮暗部颜色过渡
+	col += emissive_col * col.x * _Emissive_add_total; // 丰富颜色
+	col += frensnelVal; // 反射
+
+	// apply fog
+	col.rgb = mix(col.rgb, fogColor.rgb, fogColor.a);
+
+#ifdef USE_OVERLAY
+	col.rgb = mix(col.rgb, OVERLAY_COLOR.rgb, OVERLAY_COLOR.a);
+#endif // USE_OVERLAY
+
+	gl_FragColor = vec4(col.rgb, 1.0);
+}

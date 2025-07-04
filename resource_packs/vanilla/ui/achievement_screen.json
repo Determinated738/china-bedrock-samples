@@ -1,0 +1,13 @@
+{
+ "namespace":"achievement",
+ "empty_progress_bar_icon":{
+  "type":"image",
+  "texture":"textures/ui/experiencebarempty"
+ },
+ "full_progress_bar_icon_base":{
+  "type":"image",
+  "texture":"textures/ui/experiencebarfull",
+  "clip_direction":"left",
+  "clip_pixelperfect":false
+ }
+}

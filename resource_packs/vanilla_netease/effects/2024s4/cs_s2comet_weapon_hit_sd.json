@@ -1,0 +1,47 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "1.0"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.5 0.5 0.5"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"particlesize": {
+			"max": "0.15 0.15",
+			"min": "0.2 0.2"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "16",
+				"name": "textures/sfxs/2024s4/cs_s2comet_weapon_sd",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2024s4/cs_s2comet_weapon_sd"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.3",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

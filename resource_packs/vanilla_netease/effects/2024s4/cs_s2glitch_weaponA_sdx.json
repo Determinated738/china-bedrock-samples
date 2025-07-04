@@ -1,0 +1,47 @@
+{
+	"particleeffect": {
+		"constantforce": {
+			"value": "0.0 1.0 0.0"
+		},
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.2 0.02"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"numparticles": {
+			"value": "6"
+		},
+		"particlesize": {
+			"max": "0.01 0.1",
+			"min": "0.01 0.1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2glitch_weaponA_sdx"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.1",
+			"min": "0.05"
+		},
+		"velocity": {
+			"max": "2.0",
+			"min": "1.0"
+		}
+	}
+}

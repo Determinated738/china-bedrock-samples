@@ -1,0 +1,88 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0179",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "14.2%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "57.1%"
+			},
+			{
+				"color": "1.0000 0.7490 0.0000 0.3304",
+				"time": "77.1%"
+			},
+			{
+				"color": "1.0000 0.4157 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "4.0",
+			"min": "4.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 0.5 1.5"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"enableloop": {
+			"enable": "true"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "3"
+		},
+		"particlesize": {
+			"max": "0.3 0.3",
+			"min": "0.2 0.2"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.0 1.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "8",
+				"name": "textures/sfxs/2024s3/ss_s1sand_fz_nlz",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/ss_s1sand_fz_nlz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}
