@@ -9,3 +9,7 @@ The official international repository for Bedrock Edition samples is available a
 ## Why does this exist?
 
 To provide an easier way for users to access the latest game assets without needing to manually extract or locate them from the game files themselves.
+
+## What version is this based on?
+
+The current information is based on 3.4.5 iOS version of the game.
