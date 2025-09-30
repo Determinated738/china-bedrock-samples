@@ -594,14 +594,14 @@ void neteaseModelCommonFrag(inout vec4 color) {
 #endif // NETEASE_FRAGMENT_COMMON_H
 #line 5
 
-const vec4 DRAWLINE_PARAM = vec4(0.6, 0.8, 1.0, 0.025); // (Ãè±ßÑÕÉ«RGB, Ãè±ß¿í¶È±¶ÂÊ)
+const vec4 DRAWLINE_PARAM = vec4(0.6, 0.8, 1.0, 0.025); // (æè¾¹é¢œè‰²RGB, æè¾¹å®½åº¦å€ç‡)
 
 varying vec4 fogColor;
 
 void main() {
 	vec4 color = vec4(DRAWLINE_PARAM.rgb, 1.0);
 
-	// ÎíĞ§¹û
+	// é›¾æ•ˆæœ
 	applyFog(color, fogColor);
 
 	gl_FragColor = color;

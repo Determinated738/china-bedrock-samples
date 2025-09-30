@@ -426,8 +426,8 @@ vec2 calculateFrameAnimUV(vec2 uv, float gridRowInverse, float gridColInverse, f
 }
 #endif
 
-#define _Dissolve_Speed 0.8000//<name:ÈÜ½âËÙ¶È>
-#define _Move_Offset 0.2500//<name:ÒÆ¶¯¾àÀë>
+#define _Dissolve_Speed 0.8000//<name:æº¶è§£é€Ÿåº¦>
+#define _Move_Offset 0.2500//<name:ç§»åŠ¨è·ç¦»>
 
 varying float poszOS;
 varying vec3 positionWS;

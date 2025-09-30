@@ -599,7 +599,7 @@ LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1;
 #if defined(GLINT) && defined(USE_BLOOM)
 LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2;
 #endif
-// LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // ×î¶àÔÊĞíËÄÕÅÌùÍ¼
+// LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // æœ€å¤šå…è®¸å››å¼ è´´å›¾
 
 varying vec4 light;
 varying vec4 fogColor;
@@ -619,29 +619,29 @@ const float reflectIntensity = 0.05;
 #endif
 
 void main() {
-	// ¸ù¾İuv»ñÈ¡ÎÆÀíÉ« Èç¹ûÊÇÓÃÁËNO_TEXTUREºêÔò»á·µ»Ø 1.0
+	// æ ¹æ®uvè·å–çº¹ç†è‰² å¦‚æœæ˜¯ç”¨äº†NO_TEXTUREå®åˆ™ä¼šè¿”å› 1.0
 	vec4 color = getSampledColor(TEXTURE_0, uv);
 	vec4 tex = color;
 
-	// ÔÓÏîµÄÄÚÖÃºê¹¦ÄÜ
+	// æ‚é¡¹çš„å†…ç½®å®åŠŸèƒ½
 	neteaseModelCommonFrag(color);
 
-	// ¼ÓÈëÊÜ»÷±äºìµÈĞ§¹û
+	// åŠ å…¥å—å‡»å˜çº¢ç­‰æ•ˆæœ
 	applyOverlayColor(color);
 
-	// ¸½Ä§±äÉ«Ğ§¹û Ê¹ÓÃTEXTURE_1
+	// é™„é­”å˜è‰²æ•ˆæœ ä½¿ç”¨TEXTURE_1
 	applyGlint(TEXTURE_1, color);
 
-	// ¹âÕÕ¼ÆËã
+	// å…‰ç…§è®¡ç®—
 #if defined(GLINT) && defined(USE_BLOOM)
-	// ´øÓĞ¸½Ä§Ğ§¹ûµÄ²ÄÖÊÕ¼ÓÃÁËTEXTURE_1 Òò´ËÕâÀïÊ¹ÓÃTEXTURE_2×÷Îª·¢¹âÕÚÕÖÌùÍ¼
+	// å¸¦æœ‰é™„é­”æ•ˆæœçš„æè´¨å ç”¨äº†TEXTURE_1 å› æ­¤è¿™é‡Œä½¿ç”¨TEXTURE_2ä½œä¸ºå‘å…‰é®ç½©è´´å›¾
 	lowp float emissive = getEmissive(TEXTURE_2, uv);
 #else
 	lowp float emissive = getEmissive(TEXTURE_1, uv);
 #endif
 
-	//·´Éä. 
-	//µØ°åÓ¦¸Ã²»»áÓĞ¸½Ä§±äÉ«Ğ§¹û£¬ÓÃTEXTURE_1
+	//åå°„. 
+	//åœ°æ¿åº”è¯¥ä¸ä¼šæœ‰é™„é­”å˜è‰²æ•ˆæœï¼Œç”¨TEXTURE_1
 	vec3 reflectColor = vec3(0.0, 0.0, 0.0);
 #ifdef RNGL_REFLECT
 	reflectColor = getReflectColor(TEXTURE_1, clipPos, worldSpaceNormal.xyz, viewDir, reflectIntensity);
@@ -650,13 +650,13 @@ void main() {
 #ifdef RNGL_LOCAL_LIGHT
 	vec4 lightCol = getLightColor(worldSpacePos, worldSpaceNormal);
 	vec4 totalLight = light.rgba * LIGHT_NUM_STRENGTH.y + vec4(lightCol.xyz, 1.0);
-	// bloomMask³¬¹ıãĞÖµÊ± ±¾Ìå·¢¹â ·ñÔòÓ¦ÓÃÄ¬ÈÏ¹âÕÕ
+	// bloomMaskè¶…è¿‡é˜ˆå€¼æ—¶ æœ¬ä½“å‘å…‰ å¦åˆ™åº”ç”¨é»˜è®¤å…‰ç…§
 	color.rgb *= (emissive < 0.1) ? (totalLight.rgb + reflectColor) : vec3(emissive);
 #else
 	color.rgb *= (emissive < 0.1) ? (light.rgb + reflectColor) : vec3(emissive);
 #endif
 
-	// ÎíĞ§¹û
+	// é›¾æ•ˆæœ
 	applyFog(color, fogColor);
 
 	gl_FragColor = color;

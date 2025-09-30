@@ -186,7 +186,7 @@ LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0;
 LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1;
 LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2;
 
-uniform vec4 EXTRA_VECTOR1; // (red 扫描颜色r, green 扫描颜色g, blue 扫描颜色b, freq 频率)
+uniform vec4 EXTRA_VECTOR1; // (red 鎵弿棰滆壊r, green 鎵弿棰滆壊g, blue 鎵弿棰滆壊b, freq 棰戠巼)
 
 highp vec3 get_world_position(vec2 uv, float z) {
 	highp vec4 pos_clip = vec4(uv, z, 1.0) * 2.0 - 1.0;

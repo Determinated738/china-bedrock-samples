@@ -1,0 +1,35 @@
+{
+  "namespace": "common_buttons",
+  "edit_button_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "netease_edit_box@common.text_edit_box": {
+          "layer": 15,
+          "size": [
+            "90%",
+            "100%"
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$text_box_name": "netease_multiplayer_slogan_drop_down_edit",
+          "$text_edit_box_content_binding_name": "#netease_multiplayer_slogan_drop_down_content",
+          "$place_holder_text": "netease.multiplayer.room_name_edit_place_holder_text",
+          "$text_edit_box_placeholder_content_binding_name": "#placeholder_realm_name",
+          "max_length": 64
+        }
+      },
+      {
+        "edit_button_panel@common_buttons.new_ui_button_panel": {
+          "size": [
+            "10%",
+            "100%"
+          ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "layer": 1
+        }
+      }
+    ]
+  }
+}

@@ -600,51 +600,51 @@ LAYOUT_BINDING(0) uniform sampler2D TEXTURE_1;  // merge_texture
 LAYOUT_BINDING(0) uniform sampler2D TEXTURE_2;  // holo_gradient
 LAYOUT_BINDING(0) uniform sampler2D TEXTURE_3;  // texture_character
 
-#define EMISSION_STRENGTH 5.0000//<name:◊‘∑¢π‚«ø∂»>
+#define EMISSION_STRENGTH 5.0000//<name:Ëá™ÂèëÂÖâÂº∫Â∫¶>
 
-#define HOLO_PATTERN_TILE 1.0000//<name:øÿ÷∆ƒ⁄≤„–Œ◊¥Õº≤„shapeµƒuvÀı∑≈>
+#define HOLO_PATTERN_TILE 1.0000//<name:ÊéßÂà∂ÂÜÖÂ±ÇÂΩ¢Áä∂ÂõæÂ±ÇshapeÁöÑuvÁº©Êîæ>
 
-// Iridescent Film ≤ ∫Á±°ƒ§øÿ÷∆–ßπ˚≤Œ ˝
-#define IS_USE_SECOND 1.0000//<name:ø™∆Ù≤ ∫Á±°ƒ§øÿ÷∆–ßπ˚>
-#define USE_TRIP_MAP_HOLO_NOISE 1.0000//<name:ø™∆Ù∂‘»´œ¢‘Î…˘ π”√»˝√Ê”≥…‰>
-#define IRIDESCENT_COLOR_CHANGE_MULTIPLIER 2.0000//<name:≤ ∫Á∫Áƒ§µƒ»¶ ˝>
-#define IRIDESCENT_NOISE_INFLUENCE 1.0000//<name:≤ ∫Á∫Áƒ§ ‹noise»≈∂Øµƒ–ßπ˚±Ìœ÷>
-#define IRIDESCENT_NOISE_TILE 1.0000//<name:noise»≈∂Øuvtile>
-#define IRIDESCENT_SURFACE_NORMAL_INFLUENCE 0.5000//<name:∑®œﬂøÿ÷∆∑ΩœÚ»≈∂Ø>
-#define IRIDESCENT_RANGE 180.0000//<name:≤ ∫Á∫Áƒ§µƒ¥÷œ∏∑∂Œß±Ìœ÷>
-#define IRIDESCENT_ROTATE -50.0000//<name:øÿ÷∆∫Áƒ§≥ˆœ÷µƒŒª÷√>
-#define IRIDESCENT_SECOND_STRENGTH 0.6600//<name:øÿ÷∆≤ ∫Á∫Áƒ§≤„µƒ—’…´«ø»ı>
+// Iridescent Film ÂΩ©ËôπËñÑËÜúÊéßÂà∂ÊïàÊûúÂèÇÊï∞
+#define IS_USE_SECOND 1.0000//<name:ÂºÄÂêØÂΩ©ËôπËñÑËÜúÊéßÂà∂ÊïàÊûú>
+#define USE_TRIP_MAP_HOLO_NOISE 1.0000//<name:ÂºÄÂêØÂØπÂÖ®ÊÅØÂô™Â£∞‰ΩøÁî®‰∏âÈù¢Êò†Â∞Ñ>
+#define IRIDESCENT_COLOR_CHANGE_MULTIPLIER 2.0000//<name:ÂΩ©ËôπËôπËÜúÁöÑÂúàÊï∞>
+#define IRIDESCENT_NOISE_INFLUENCE 1.0000//<name:ÂΩ©ËôπËôπËÜúÂèónoiseÊâ∞Âä®ÁöÑÊïàÊûúË°®Áé∞>
+#define IRIDESCENT_NOISE_TILE 1.0000//<name:noiseÊâ∞Âä®uvtile>
+#define IRIDESCENT_SURFACE_NORMAL_INFLUENCE 0.5000//<name:Ê≥ïÁ∫øÊéßÂà∂ÊñπÂêëÊâ∞Âä®>
+#define IRIDESCENT_RANGE 180.0000//<name:ÂΩ©ËôπËôπËÜúÁöÑÁ≤óÁªÜËåÉÂõ¥Ë°®Áé∞>
+#define IRIDESCENT_ROTATE -50.0000//<name:ÊéßÂà∂ËôπËÜúÂá∫Áé∞ÁöÑ‰ΩçÁΩÆ>
+#define IRIDESCENT_SECOND_STRENGTH 0.6600//<name:ÊéßÂà∂ÂΩ©ËôπËôπËÜúÂ±ÇÁöÑÈ¢úËâ≤Âº∫Âº±>
 
-// Shine …¡∂ØŒ∆¿Ì≤„
-#define SHINE_RANGE 40.0000//<name:…¡∂ØŒ∆¿Ì≤„µƒ∑∂Œß>
-#define SHINE_ROTATE 135.0000//<name:…¡∂ØŒ∆¿Ì≤„µƒ∑ΩœÚ>
-#define SHINE_SHAPE_SIZE 2.0000//<name:…¡∂ØŒ∆¿Ì≤„µƒ‘≠µ„¥Û–°øÿ÷∆>
+// Shine Èó™Âä®Á∫πÁêÜÂ±Ç
+#define SHINE_RANGE 40.0000//<name:Èó™Âä®Á∫πÁêÜÂ±ÇÁöÑËåÉÂõ¥>
+#define SHINE_ROTATE 135.0000//<name:Èó™Âä®Á∫πÁêÜÂ±ÇÁöÑÊñπÂêë>
+#define SHINE_SHAPE_SIZE 2.0000//<name:Èó™Âä®Á∫πÁêÜÂ±ÇÁöÑÂéüÁÇπÂ§ßÂ∞èÊéßÂà∂>
 
 // Texture Control
-#define TEXTURE_UV_SCALE1 0.6000//<name:Ã˘Õº1¥Û–°>
-#define TEXTURE_U_OFFSET1 0.3750//<name:Ã˘Õº1u∑ΩœÚµƒ∆´“∆>
-#define TEXTURE_V_OFFSET1 -0.1000//<name:Ã˘Õº1v∑ΩœÚµƒ∆´“∆>
+#define TEXTURE_UV_SCALE1 0.6000//<name:Ë¥¥Âõæ1Â§ßÂ∞è>
+#define TEXTURE_U_OFFSET1 0.3750//<name:Ë¥¥Âõæ1uÊñπÂêëÁöÑÂÅèÁßª>
+#define TEXTURE_V_OFFSET1 -0.1000//<name:Ë¥¥Âõæ1vÊñπÂêëÁöÑÂÅèÁßª>
 
-#define TEXTURE_UV_SCALE2 0.5800//<name:Ã˘Õº2¥Û–°>
-#define TEXTURE_U_OFFSET2 -0.1250//<name:Ã˘Õº2u∑ΩœÚµƒ∆´“∆>
-#define TEXTURE_V_OFFSET2 -0.1200//<name:Ã˘Õº2v∑ΩœÚµƒ∆´“∆>
+#define TEXTURE_UV_SCALE2 0.5800//<name:Ë¥¥Âõæ2Â§ßÂ∞è>
+#define TEXTURE_U_OFFSET2 -0.1250//<name:Ë¥¥Âõæ2uÊñπÂêëÁöÑÂÅèÁßª>
+#define TEXTURE_V_OFFSET2 -0.1200//<name:Ë¥¥Âõæ2vÊñπÂêëÁöÑÂÅèÁßª>
 
 #define INPUT_LOW 60.0000//<name:InputLow>
 #define INPUT_HIGH 1.5000//<name:InputHigh>
 #define TARGET_LOW -60.0000//<name:TargetLow>
 #define TARGET_HIGH 1.5000//<name:TargetHigh>
 
-// Advanced Parameters øÿ÷∆¿ÿ…‰∫Áƒ§µ◊≤„≤ø∑÷
-#define USE_TRIP_MAP_HOLO 0.0000//<name:ø™∆Ù∏˘æ›uvΩ¯––»˝√Ê”≥…‰>
-#define HOLO_BG_COLOR vec3(49.0,0.0,83.0)//<name:±≥æ∞—’…´>
-#define HOLO_BG_COLOR_AMOUNT 0.3000//<name:±≥æ∞∫Õ¿ÿ…‰–ßπ˚ªÏ∫œ>
-#define HOLO_COLOR_CHANGE_MULTIPLIER 2.0000//<name:¿ÿ…‰∫Áƒ§µƒ≤„ ˝>
-#define HOLO_PATTERN_INFLUENCE 0.0000//<name:¿ÿ…‰∫Áƒ§µƒŒª÷√>
-#define HOLO_PATTERN_DEPTH 200.0000//<name:øÿ÷∆…Ó∂»depth±Ìœ÷>
-// #define RANDOM_DIRECTION vec4(31.0, 67.0, 255.0, 255.0)//<name:¿ÿ…‰∫Áƒ§∑ΩœÚ>
-#define BG_HOLO_INTENSITY 1.0000//<name:øÿ÷∆¿ÿ…‰≤„∫ÕÃ˘Õºµƒ—’…´>
-#define DIFFUSE_BLEED_INTO_HOLO 0.0000//<name:øÿ÷∆¿ÿ…‰≤„∫ÕÃ˘Õºµƒ—’…´µƒªÏ∫œ>
-#define DIFFUSE_HOLO_LERP 0.0000//<name:øÿ÷∆¿ÿ…‰≤„∫ÕÃ˘Õºµƒ—’…´µƒªÏ∫œ>
+// Advanced Parameters ÊéßÂà∂Èï≠Â∞ÑËôπËÜúÂ∫ïÂ±ÇÈÉ®ÂàÜ
+#define USE_TRIP_MAP_HOLO 0.0000//<name:ÂºÄÂêØÊ†πÊçÆuvËøõË°å‰∏âÈù¢Êò†Â∞Ñ>
+#define HOLO_BG_COLOR vec3(49.0,0.0,83.0)//<name:ËÉåÊôØÈ¢úËâ≤>
+#define HOLO_BG_COLOR_AMOUNT 0.3000//<name:ËÉåÊôØÂíåÈï≠Â∞ÑÊïàÊûúÊ∑∑Âêà>
+#define HOLO_COLOR_CHANGE_MULTIPLIER 2.0000//<name:Èï≠Â∞ÑËôπËÜúÁöÑÂ±ÇÊï∞>
+#define HOLO_PATTERN_INFLUENCE 0.0000//<name:Èï≠Â∞ÑËôπËÜúÁöÑ‰ΩçÁΩÆ>
+#define HOLO_PATTERN_DEPTH 200.0000//<name:ÊéßÂà∂Ê∑±Â∫¶depthË°®Áé∞>
+// #define RANDOM_DIRECTION vec4(31.0, 67.0, 255.0, 255.0)//<name:Èï≠Â∞ÑËôπËÜúÊñπÂêë>
+#define BG_HOLO_INTENSITY 1.0000//<name:ÊéßÂà∂Èï≠Â∞ÑÂ±ÇÂíåË¥¥ÂõæÁöÑÈ¢úËâ≤>
+#define DIFFUSE_BLEED_INTO_HOLO 0.0000//<name:ÊéßÂà∂Èï≠Â∞ÑÂ±ÇÂíåË¥¥ÂõæÁöÑÈ¢úËâ≤ÁöÑÊ∑∑Âêà>
+#define DIFFUSE_HOLO_LERP 0.0000//<name:ÊéßÂà∂Èï≠Â∞ÑÂ±ÇÂíåË¥¥ÂõæÁöÑÈ¢úËâ≤ÁöÑÊ∑∑Âêà>
 
 varying vec4 light;
 
@@ -789,11 +789,11 @@ vec4 vip_mirrorholo() {
 void main() {
     vec4 color = vip_mirrorholo();
 
-    // ‘”œÓµƒƒ⁄÷√∫Íπ¶ƒ‹
+    // ÊùÇÈ°πÁöÑÂÜÖÁΩÆÂÆèÂäüËÉΩ
 	neteaseModelCommonFrag(color);
-	// º”»Î ‹ª˜±‰∫Ïµ»–ßπ˚
+	// Âä†ÂÖ•ÂèóÂáªÂèòÁ∫¢Á≠âÊïàÊûú
 	applyOverlayColor(color);
-    // π‚’’º∆À„
+    // ÂÖâÁÖßËÆ°ÁÆó
 	// lowp float emissive = getEmissive(TEXTURE_1, uv);
 	// color.rgb *= (emissive < 0.1) ? light.rgb : vec3(emissive);
 	color.rgb = color.a * color.rgb * light.rgb + (1.0 - color.a) * color.rgb;

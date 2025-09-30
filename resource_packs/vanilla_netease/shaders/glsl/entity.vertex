@@ -484,7 +484,7 @@ vec3 getViewDir(POS4 entitySpacePosition) {
 
 void calculateSpecificProcess(inout POS4 entitySpacePosition, in POS4 entitySpaceNormal) {
 #ifdef NETEASE_DRAWLINE
-	// ·Å´óÂÖÀª
+	// æ”¾å¤§è½®å»“
 	entitySpacePosition = entitySpacePosition + normalize(entitySpaceNormal) * OVERLAY_COLOR.a;
 #endif
 #ifdef NETEASE_METALLIC
@@ -498,8 +498,8 @@ void calculateSpecificProcess(inout POS4 entitySpacePosition, in POS4 entitySpac
 
 #line 4
 
-varying vec4 light; // ¹âÕÕÖµ vec4(r, g, b, a)
-varying vec4 fogColor; // ÎíÉ«ÓëÎíÇ¿¶È vec4(r, g, b, ÎíÇ¿¶È)
+varying vec4 light; // å…‰ç…§å€¼ vec4(r, g, b, a)
+varying vec4 fogColor; // é›¾è‰²ä¸é›¾å¼ºåº¦ vec4(r, g, b, é›¾å¼ºåº¦)
 
 #ifdef RNGL_LOCAL_LIGHT
 varying vec4 worldSpacePos;
@@ -508,26 +508,26 @@ varying vec4 worldSpaceNormal;
 
 void main() {
 	POS4 entitySpacePosition, entitySpaceNormal;
-	// ¼ÆËã¶¥µã¶¯»­ µÃµ½Ä£ĞÍ¿Õ¼äÎ»ÖÃÓë·¨Ïß
+	// è®¡ç®—é¡¶ç‚¹åŠ¨ç”» å¾—åˆ°æ¨¡å‹ç©ºé—´ä½ç½®ä¸æ³•çº¿
 	getEntitySpacePositionAndNormal(entitySpacePosition, entitySpaceNormal);
 
-	calculateOverlayColor(); // ÊÜÉË±äºìµÈĞ§¹û
-	calculateGlint(); // ¼ÆËã¸½Ä§Ğ§¹ûÏà¹Ø±äÁ¿
+	calculateOverlayColor(); // å—ä¼¤å˜çº¢ç­‰æ•ˆæœ
+	calculateGlint(); // è®¡ç®—é™„é­”æ•ˆæœç›¸å…³å˜é‡
 
-	// °üº¬ÆäËûÄÚÖÃºêÏà¹ØµÄvarying¼ÆËã
+	// åŒ…å«å…¶ä»–å†…ç½®å®ç›¸å…³çš„varyingè®¡ç®—
 	entityCommonVert();
 
-	// ¼ÆËãÄ¬ÈÏµÄMC¶¥µã¹âÕÕ
+	// è®¡ç®—é»˜è®¤çš„MCé¡¶ç‚¹å…‰ç…§
 	light = getLightColor(entitySpacePosition, entitySpaceNormal);
 
-	// ±äÁ¿uvÒÑ¾­ÔÚÍ·ÎÄ¼şÖĞÔ¤ÏÈÉùÃ÷ ÕâÀïÊ¹ÓÃTEXCOORD_0×÷ÎªuvÖµ
+	// å˜é‡uvå·²ç»åœ¨å¤´æ–‡ä»¶ä¸­é¢„å…ˆå£°æ˜ è¿™é‡Œä½¿ç”¨TEXCOORD_0ä½œä¸ºuvå€¼
 	uv = TEXCOORD_0;
-	// ¼ÆËã¶¥µãuv °üÀ¨MCÖ§³ÖµÄUVĞòÁĞÖ¡Ğ§¹û
+	// è®¡ç®—é¡¶ç‚¹uv åŒ…æ‹¬MCæ”¯æŒçš„UVåºåˆ—å¸§æ•ˆæœ
 	applyUVAnim(uv);
 
 	calculateSpecificProcess(entitySpacePosition, entitySpaceNormal);
 
-	// ±ä»»µ½Í¶Ó°¿Õ¼ä
+	// å˜æ¢åˆ°æŠ•å½±ç©ºé—´
 	POS4 projSpacePos = WORLDVIEWPROJ * entitySpacePosition;
 	gl_Position = projSpacePos;
 
@@ -537,6 +537,6 @@ void main() {
 	worldSpaceNormal.xyz = normalize(worldSpaceNormal.xyz);
 #endif
 
-	// ¸ù¾İÍ¶Ó°Î»ÖÃ ¼ÆËãÎíµÄĞ§¹û
+	// æ ¹æ®æŠ•å½±ä½ç½® è®¡ç®—é›¾çš„æ•ˆæœ
 	fogColor = getFogColor(projSpacePos);
 }

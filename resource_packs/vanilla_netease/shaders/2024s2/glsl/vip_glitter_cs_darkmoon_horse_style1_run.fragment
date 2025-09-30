@@ -600,23 +600,23 @@ LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // base_mask01
 LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // inside_color
 LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // small01
 
-#define GLITTER_COLOR vec3(255.0,255.0,255.0)//<name:ÉÁµãÑÕÉ«,color:255>
-#define TWICE_MORE_SPARKLE 1.0000//<name:¿ªÆôË«²ãÉÁµã>
-#define GLITTER_INTENSITY 10.0000//<name:ÉÁµãÁÁ¶È>
-#define GLITTER_SIZE 0.0010//<name:ÉÁµã´óĞ¡>
+#define GLITTER_COLOR vec3(255.0,255.0,255.0)//<name:é—ªç‚¹é¢œè‰²,color:255>
+#define TWICE_MORE_SPARKLE 1.0000//<name:å¼€å¯åŒå±‚é—ªç‚¹>
+#define GLITTER_INTENSITY 10.0000//<name:é—ªç‚¹äº®åº¦>
+#define GLITTER_SIZE 0.0010//<name:é—ªç‚¹å¤§å°>
 
-#define MASK_UV_SCALE0 vec2(5.0,5.0)//<name:ÕÚÕÖ0Ëõ·Å>
-#define MASK_UV_FLOW0 vec2(0.05,0.126)//<name:ÕÚÕÖ0Á÷¶¯>
+#define MASK_UV_SCALE0 vec2(5.0,5.0)//<name:é®ç½©0ç¼©æ”¾>
+#define MASK_UV_FLOW0 vec2(0.05,0.126)//<name:é®ç½©0æµåŠ¨>
 
-#define MASK_UV_SCALE1 vec2(23.0,23.0)//<name:ÕÚÕÖ1Ëõ·Å>
-#define MASK_UV_FLOW1 vec2(-0.1,-0.416)//<name:ÕÚÕÖ1Á÷¶¯>
+#define MASK_UV_SCALE1 vec2(23.0,23.0)//<name:é®ç½©1ç¼©æ”¾>
+#define MASK_UV_FLOW1 vec2(-0.1,-0.416)//<name:é®ç½©1æµåŠ¨>
 
-#define INSIDE_NOISE_UV_SCALE vec2(5.0,5.0)//<name:ÄÚ²¿É«Ëõ·Å>
-#define INSIDE_NOISE_UV_FLOW vec2(0.1,0.1)//<name:ÄÚ²¿Á÷¶¯>
+#define INSIDE_NOISE_UV_SCALE vec2(5.0,5.0)//<name:å†…éƒ¨è‰²ç¼©æ”¾>
+#define INSIDE_NOISE_UV_FLOW vec2(0.1,0.1)//<name:å†…éƒ¨æµåŠ¨>
 
-#define IS_USE_ALPHA 0.1500//<name:ÊÇ·ñÊ¹ÓÃÍ¸Ã÷¶È>
-#define EMISSIVE_SHADER_ENABLED 1.0000//<name:ÄÚ²¿·¢¹â>
-#define EMISSIVE_BASECOLOR_ENABLED 1.0000//<name:±¾Ìå·¢¹â>
+#define IS_USE_ALPHA 0.1500//<name:æ˜¯å¦ä½¿ç”¨é€æ˜åº¦>
+#define EMISSIVE_SHADER_ENABLED 1.0000//<name:å†…éƒ¨å‘å…‰>
+#define EMISSIVE_BASECOLOR_ENABLED 1.0000//<name:æœ¬ä½“å‘å…‰>
 
 const vec3 glitterColor = GLITTER_COLOR / 255.0;
 
@@ -647,11 +647,11 @@ vec2 MFTriplanarUV(float tiling){
 }
 
 vec4 vip_glitter(){
-	// ¸ù¾İuv»ñÈ¡ÎÆÀíÉ« Èç¹ûÊÇÓÃÁËNO_TEXTUREºêÔò»á·µ»Ø 1.0
+	// æ ¹æ®uvè·å–çº¹ç†è‰² å¦‚æœæ˜¯ç”¨äº†NO_TEXTUREå®åˆ™ä¼šè¿”å› 1.0
 	vec4 color = getSampledColor(TEXTURE_0, uv);
 	vec2 baseMask = getSampledColor(TEXTURE_1, uv).rg;
 
-	// Ô­²ÄÖÊÓĞÒ»¸ö»ùÓÚÏà»úÎ»ÖÃµÄÔëÉù µ«ÊÇ¿´ÆğÀ´¶Ô×îÖÕĞ§¹ûÓ°Ïì²»´ó ¾ÍÃ»ÓĞ¼ÓÈë
+	// åŸæè´¨æœ‰ä¸€ä¸ªåŸºäºç›¸æœºä½ç½®çš„å™ªå£° ä½†æ˜¯çœ‹èµ·æ¥å¯¹æœ€ç»ˆæ•ˆæœå½±å“ä¸å¤§ å°±æ²¡æœ‰åŠ å…¥
 	vec2 triplanarUV = MFTriplanarUV(1.0 / GLITTER_SIZE);
 	float glitterBlend = getSampledColor(TEXTURE_3, triplanarUV).r;
 	if (TWICE_MORE_SPARKLE >= 0.5){
@@ -691,14 +691,14 @@ vec4 vip_glitter(){
 void main() {
 	vec4 color = vip_glitter();
 
-	// ÔÓÏîµÄÄÚÖÃºê¹¦ÄÜ
+	// æ‚é¡¹çš„å†…ç½®å®åŠŸèƒ½
 	neteaseModelCommonFrag(color);
-	// ¼ÓÈëÊÜ»÷±äºìµÈĞ§¹û
+	// åŠ å…¥å—å‡»å˜çº¢ç­‰æ•ˆæœ
 	applyOverlayColor(color);
-	// ¸½Ä§±äÉ«Ğ§¹û Ê¹ÓÃTEXTURE_1
+	// é™„é­”å˜è‰²æ•ˆæœ ä½¿ç”¨TEXTURE_1
 	applyGlint(TEXTURE_1, color);
 
-	// ÎíĞ§¹û
+	// é›¾æ•ˆæœ
 	applyFog(color, fogColor);
 
 	gl_FragColor = color;

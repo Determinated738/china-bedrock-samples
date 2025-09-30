@@ -342,21 +342,21 @@ const float FROM_255_TO_1 = 1.0 / 255.0;
 varying vec3 worldNormal;
 varying vec3 worldViewDir;
 
-#define Color_F vec3(56,46,10)//<name:ÑÕÉ«,color:255>
-#define COLOR_MODE 1.0000//<name:ÑÕÉ«Ä£Ê½0³Ë1¼Ó>
-#define MIN_ALPHA 1.0000//<name:×îÐ¡Í¸Ã÷¶È>
-#define __xx__ 0.0//<name:¹âÕÕ-------------->
-#define FRES_SCALE 1.00//<name:·´ÉäÇ¿¶ÈËõ·Å>
-#define FRES_BIAS 0.20//<name:·´ÉäÇ¿¶È¼Ó¼õ>
-#define ETA 1.2000//<name:ÕÛÉäÂÊ>
-#define DISPARSION_F 0.5000//<name:ÕÛÉä¹âÇ¿¶È>
-#define dispersionSpeed_F 0.6000//<name:ÕÛÉä¹âÁ÷¶¯ËÙ¶È>
-#define __yy__ 0.0//<name:ÉÁµã-------------->
-#define shineInt_F 1.00//<name:ÉÁµãÇ¿¶È>
-#define StarsDensity_F 0.30//<name:ÉÁµãÃÜ¶È>
-#define STAR_SIZE 2.00//<name:ÉÁµã´óÐ¡>
-#define UV_PARA vec2(1.0,256.0)//<name:ÉÁË¸ËÙ¶È_ÉÁË¸»®·Ö´óÐ¡>
-#define UV_SCALE vec2(2.0,2.0)//<name:ÉÁµãUVËõ·Å>
+#define Color_F vec3(56,46,10)//<name:é¢œè‰²,color:255>
+#define COLOR_MODE 1.0000//<name:é¢œè‰²æ¨¡å¼0ä¹˜1åŠ >
+#define MIN_ALPHA 1.0000//<name:æœ€å°é€æ˜Žåº¦>
+#define __xx__ 0.0//<name:å…‰ç…§-------------->
+#define FRES_SCALE 1.00//<name:åå°„å¼ºåº¦ç¼©æ”¾>
+#define FRES_BIAS 0.20//<name:åå°„å¼ºåº¦åŠ å‡>
+#define ETA 1.2000//<name:æŠ˜å°„çŽ‡>
+#define DISPARSION_F 0.5000//<name:æŠ˜å°„å…‰å¼ºåº¦>
+#define dispersionSpeed_F 0.6000//<name:æŠ˜å°„å…‰æµåŠ¨é€Ÿåº¦>
+#define __yy__ 0.0//<name:é—ªç‚¹-------------->
+#define shineInt_F 1.00//<name:é—ªç‚¹å¼ºåº¦>
+#define StarsDensity_F 0.30//<name:é—ªç‚¹å¯†åº¦>
+#define STAR_SIZE 2.00//<name:é—ªç‚¹å¤§å°>
+#define UV_PARA vec2(1.0,256.0)//<name:é—ªçƒé€Ÿåº¦_é—ªçƒåˆ’åˆ†å¤§å°>
+#define UV_SCALE vec2(2.0,2.0)//<name:é—ªç‚¹UVç¼©æ”¾>
 
 const vec3 colorF = Color_F * FROM_255_TO_1;
 

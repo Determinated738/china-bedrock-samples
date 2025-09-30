@@ -272,31 +272,31 @@ vec4 texture2D_AA(in sampler2D source, in highp vec2 originalUV) {
 #endif //__VERSION__ >= 300
 
 
-LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0; // Ãè±ßÍ¼
-LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // ²¨ÎÆ»ìºÏÌùÍ¼(R:µ×Í¼, G:²¨ÎÆÌùÍ¼, B:²¨ÎÆ¸ßÁÁÕÚÕÖ&ÈÅ¶¯ÌùÍ¼)
-LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // MatCapÌùÍ¼(AÍ¨µÀÎªÍ¸Ã÷¶È¿ØÖÆ)
-LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // ìÅ¹âÌùÍ¼
+LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0; // æè¾¹å›¾
+LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // æ³¢çº¹æ··åˆè´´å›¾(R:åº•å›¾, G:æ³¢çº¹è´´å›¾, B:æ³¢çº¹é«˜äº®é®ç½©&æ‰°åŠ¨è´´å›¾)
+LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // MatCapè´´å›¾(Aé€šé“ä¸ºé€æ˜åº¦æ§åˆ¶)
+LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // ç‚«å…‰è´´å›¾
 
 varying vec3 worldDir;
 varying vec3 worldNormal;
 varying vec3 viewNormal;
 varying vec3 viewPos;
 
-#define _OutlineColor vec3(255.0,255.0,255.0)// <name:Ãè±ßÑÕÉ«µ÷Õû>
-#define _MainTexPannerSpeed vec2(0.03,0.5)// <name:µ×Í¼ÒÆ¶¯ËÙ¶È>
-#define _TurbulenceIntensity 0.0950// <name:ÈÅ¶¯Ç¿¶È>
-#define _TurbulenceTexPannerSpeed vec2(-0.3,-0.08)// <name:ÈÅ¶¯ÌùÍ¼ÒÆ¶¯ËÙ¶È>
-#define _MatCapIntensity 0.1200// <name:MatCapÇ¿¶È>
-#define _AlphaControl 0.8000// <name:Í¸Ã÷¶È¿ØÖÆ>
-#define _FlashColor vec3(10.0,0.0,24.0)// <name:ìÅ¹âÑÕÉ«>
-#define _FlashTexPannerSpeed vec2(0.0,0.4)// <name:ìÅ¹âÌùÍ¼ÒÆ¶¯ËÙ¶È>
-#define _BaseColor vec3(30.0,120.0,205.0)// <name:»ù´¡ÑÕÉ«>
-#define _BaseColor2 vec3(70.0,100.0,250.0)// <name:»ù´¡ÑÕÉ«2>
-#define _WaveColor vec3(177.0,250.0,255.0)// <name:²¨ÎÆÑÕÉ«>
-#define _WaveTiling vec2(6.0,6.0)//<name:²¨ÎÆÆ½ÆÌÂÊ>
-#define _FrensnelColor vec3(0.0,0.0,255.0)// <name:·ÆÄù¶ûÑÕÉ«(add)>
-#define _FrensnelPower 0.1000// <name:·ÆÄù¶ûpow>
-#define _PixelNum 240.0000// <name:ÏñËØ»¯³ß´ç>
+#define _OutlineColor vec3(255.0,255.0,255.0)// <name:æè¾¹é¢œè‰²è°ƒæ•´>
+#define _MainTexPannerSpeed vec2(0.03,0.5)// <name:åº•å›¾ç§»åŠ¨é€Ÿåº¦>
+#define _TurbulenceIntensity 0.0950// <name:æ‰°åŠ¨å¼ºåº¦>
+#define _TurbulenceTexPannerSpeed vec2(-0.3,-0.08)// <name:æ‰°åŠ¨è´´å›¾ç§»åŠ¨é€Ÿåº¦>
+#define _MatCapIntensity 0.1200// <name:MatCapå¼ºåº¦>
+#define _AlphaControl 0.8000// <name:é€æ˜åº¦æ§åˆ¶>
+#define _FlashColor vec3(10.0,0.0,24.0)// <name:ç‚«å…‰é¢œè‰²>
+#define _FlashTexPannerSpeed vec2(0.0,0.4)// <name:ç‚«å…‰è´´å›¾ç§»åŠ¨é€Ÿåº¦>
+#define _BaseColor vec3(30.0,120.0,205.0)// <name:åŸºç¡€é¢œè‰²>
+#define _BaseColor2 vec3(70.0,100.0,250.0)// <name:åŸºç¡€é¢œè‰²2>
+#define _WaveColor vec3(177.0,250.0,255.0)// <name:æ³¢çº¹é¢œè‰²>
+#define _WaveTiling vec2(6.0,6.0)//<name:æ³¢çº¹å¹³é“ºç‡>
+#define _FrensnelColor vec3(0.0,0.0,255.0)// <name:è²æ¶…å°”é¢œè‰²(add)>
+#define _FrensnelPower 0.1000// <name:è²æ¶…å°”pow>
+#define _PixelNum 240.0000// <name:åƒç´ åŒ–å°ºå¯¸>
 
 const mediump float from_255 = 1.0 / 255.0;
 
@@ -311,7 +311,7 @@ void main() {
 
 	vec2 new_uv = MC_Pixelation(uv, _PixelNum);
 	vec2 alpha_uv = clamp(new_uv, 0.0, 1.0);
-	// ÈÅ¶¯
+	// æ‰°åŠ¨
 	vec2 uv_TurbulenceTex = new_uv * _WaveTiling;
 	vec2 pannerUV = TIME * _TurbulenceTexPannerSpeed;
 	uv_TurbulenceTex += MC_Pixelation(pannerUV, _PixelNum);
@@ -319,7 +319,7 @@ void main() {
 	tur *= _TurbulenceIntensity;
 	new_uv += MC_Pixelation(vec2(tur, tur), _PixelNum);
 
-	// µ×Í¼ ²¨ÎÆÁÁ°µ ²¨ÎÆ
+	// åº•å›¾ æ³¢çº¹äº®æš— æ³¢çº¹
 	vec2 uv_mainTex = new_uv * _WaveTiling;
 	uv_mainTex += TIME * _MainTexPannerSpeed;
 	vec3 mixColor = texture2D(TEXTURE_1, fract(uv_mainTex)).rgb;
@@ -328,7 +328,7 @@ void main() {
 
 	FinalColor = mix(FinalColor, _WaveColor * from_255, mixColor.g * mixColor.b);
 
-	// ìÅ¹â
+	// ç‚«å…‰
 	vec2 uv_flashTex = new_uv;
 	uv_flashTex += TIME * _FlashTexPannerSpeed;
 	vec3 flashColor = texture2D(TEXTURE_3, fract(uv_flashTex)).xyz;
@@ -344,11 +344,11 @@ void main() {
 
 	vec3 col = mix(FinalColor, FinalColor + _FrensnelColor * from_255, frensnelVal);
 
-	// Ãè±ß
+	// æè¾¹
 	vec4 outlineColor = texture2D(TEXTURE_0, uv);
 	col = mix(col, outlineColor.rgb * _OutlineColor * from_255, outlineColor.a);
 
-	// Í¸Ã÷¶Èmask
+	// é€æ˜åº¦mask
 	mediump float alpha = texture2D(TEXTURE_2, alpha_uv).a * _AlphaControl;
 	alpha = clamp(mix(alpha, alpha + 0.15, outlineColor.a), 0.0, 1.0);
 

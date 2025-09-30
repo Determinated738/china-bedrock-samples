@@ -234,33 +234,33 @@ vec4 texture2D_AA(in sampler2D source, in highp vec2 originalUV) {
 
 LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0;
 
-uniform vec4 EXTRA_VECTOR1; // (density Ñ©»¨ÃÜ¶È, strength Ñ©»¨Ç¿¶È, snow_size Ñ©»¨´óĞ¡, noise_fps ÔëÉùÆµÂÊ)
-uniform vec4 EXTRA_VECTOR2; // (black_zone ºÚ±ßÕ¼ÆÁÄ»±ÈÂÊ, ?, ?, ?)
+uniform vec4 EXTRA_VECTOR1; // (density é›ªèŠ±å¯†åº¦, strength é›ªèŠ±å¼ºåº¦, snow_size é›ªèŠ±å¤§å°, noise_fps å™ªå£°é¢‘ç‡)
+uniform vec4 EXTRA_VECTOR2; // (black_zone é»‘è¾¹å å±å¹•æ¯”ç‡, ?, ?, ?)
 
 void main(){
 	vec4 base_color = texture( TEXTURE_0, uv );
 	float time_flow = floor(TIME * EXTRA_VECTOR1.a) / EXTRA_VECTOR1.a;
 
-	// °×ÔëÉù
+	// ç™½å™ªå£°
 	vec2 snow_uv = floor(uv * vec2(1.6, 0.9) * (2048.0 / EXTRA_VECTOR1.b)) * EXTRA_VECTOR1.b;
 	float r = rand(snow_uv + time_flow);
 	r = step(1.0 - EXTRA_VECTOR1.r, r);
 
-	// ×İÏòµÄËæ»ú»®ºÛ Ôö¼Ó³Â¾ÉµÄ¹Û¸Ğ
+	// çºµå‘çš„éšæœºåˆ’ç—• å¢åŠ é™ˆæ—§çš„è§‚æ„Ÿ
 	float glitch = rand(uv.xx * 1024.0 + time_flow);
 	glitch = step(0.999, glitch);
 
-	// ÑÕÉ«ÂË¾µ µş¼Ó»Ò¶È¸Ğ ÈÃ»­Ãæ·¢¾É
+	// é¢œè‰²æ»¤é•œ å åŠ ç°åº¦æ„Ÿ è®©ç”»é¢å‘æ—§
 	float gray = dot(base_color.rgb, vec3(0.2126729, 0.7151522, 0.0721750));
 	base_color.rgb = vec3(gray * 0.4) + base_color.rgb * vec3(0.6, 0.55, 0.5);
 
-	// ÖĞĞÄµÄÔëÉùĞèÒªµ­³ö ·ÀÖ¹ÕÚµ²ÊÓÒ°
+	// ä¸­å¿ƒçš„å™ªå£°éœ€è¦æ·¡å‡º é˜²æ­¢é®æŒ¡è§†é‡
 	float dist_to_center = length(uv - vec2(0.5, 0.5));
 	dist_to_center *= dist_to_center;
 
 	vec3 final_color = base_color.rgb + vec3((r + glitch) * EXTRA_VECTOR1.g * dist_to_center);
 
-	// µçÓ°ºÚ±ß
+	// ç”µå½±é»‘è¾¹
 	float black_zone = step(min(uv.y, 1.0 - uv.y), EXTRA_VECTOR2.r * 0.5);
 	final_color = (1.0 - black_zone) * final_color.rgb;
 

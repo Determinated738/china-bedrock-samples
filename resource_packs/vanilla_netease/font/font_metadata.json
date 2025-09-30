@@ -93,6 +93,15 @@
       "font_file": "font/FZLTDHJW_3",
       "lowPerformanceCompatible": true,
       "isCocosFont": true
+    },
+    {
+      "font_format": "ttf",
+      "font_name": "unifont-16.0.04",
+      "version": 1,
+      "font_file": "font/unifont-16.0.04",
+      "lowPerformanceCompatible": true,
+      "isLazyLoadCocosFont": false,
+      "isCocosFont": true
     }
   ],
   "font_aliases": [

@@ -362,14 +362,14 @@ LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // diamond
 
 const float FROM_255_TO_1 = 1.0 / 255.0;
 
-#define _Dissolve_Speed 0.8000//<name:ÈÜ½âËÙ¶È>
-#define _Dissolve_Highlight_Width 0.2000//<name:ÈÜ½âÁÁ±ß¿í¶È>
-#define _Highlight_Intentsity 1.0000//<name:ÈÜ½âÁÁ±ßÇ¿¶È>
-#define _Diamond_Move_Speed 0.0000//<name:×êÊ¯ÎÆÀí²¨¶¯ËÙ¶È>
+#define _Dissolve_Speed 0.8000//<name:æº¶è§£é€Ÿåº¦>
+#define _Dissolve_Highlight_Width 0.2000//<name:æº¶è§£äº®è¾¹å®½åº¦>
+#define _Highlight_Intentsity 1.0000//<name:æº¶è§£äº®è¾¹å¼ºåº¦>
+#define _Diamond_Move_Speed 0.0000//<name:é’»çŸ³çº¹ç†æ³¢åŠ¨é€Ÿåº¦>
 
-#define _Diamond_UV_Scale vec2(1.0, 1.0)//<name:×êÊ¯ÎÆÀíËõ·Å>
-#define _Diamond_Tint vec3(255.0,255.0,255.0)//<name:×êÊ¯ÑÕÉ«>
-#define _Highlight_Color vec3(220.0,100.0,240.0)//<name:ÈÜ½â¸ß¹âÑÕÉ«>
+#define _Diamond_UV_Scale vec2(1.0, 1.0)//<name:é’»çŸ³çº¹ç†ç¼©æ”¾>
+#define _Diamond_Tint vec3(255.0,255.0,255.0)//<name:é’»çŸ³é¢œè‰²>
+#define _Highlight_Color vec3(220.0,100.0,240.0)//<name:æº¶è§£é«˜å…‰é¢œè‰²>
 
 const vec3 _diamond_tint = _Diamond_Tint * FROM_255_TO_1;
 const vec3 _hightlight_color = _Highlight_Color * FROM_255_TO_1;

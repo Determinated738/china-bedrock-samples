@@ -482,7 +482,7 @@ vec3 getViewDir(POS4 entitySpacePosition) {
 
 void calculateSpecificProcess(inout POS4 entitySpacePosition, in POS4 entitySpaceNormal) {
 #ifdef NETEASE_DRAWLINE
-	// ·Å´óÂÖÀª
+	// æ”¾å¤§è½®å»“
 	entitySpacePosition = entitySpacePosition + normalize(entitySpaceNormal) * OVERLAY_COLOR.a;
 #endif
 #ifdef NETEASE_METALLIC

@@ -344,23 +344,23 @@ varying vec3 worldNormal;
 varying vec3 worldViewDir;
 varying vec4 light;
 
-#define Color_F vec3(50.0,60.0,100.0)//<name:—’…´,color:255>
-#define LIGHT_ENABLED 1.0000//<name: π”√π‚’’>
-#define COLOR_MODE 1.0000//<name:—’…´ƒ£ Ω0≥À1º”>
-#define MIN_ALPHA 0.0000//<name:◊Ó–°Õ∏√˜∂»>
-#define __xx__ 0.0000//<name:π‚’’-------------->
-#define USE_BLOOM 1.0000//<name: π”√Bloom(tex2)>
-#define FRES_SCALE 1.0000//<name:∑¥…‰«ø∂»Àı∑≈>
-#define FRES_BIAS 1.0000//<name:∑¥…‰«ø∂»º”ºı>
-#define ETA 1.3000//<name:’€…‰¬ >
-#define DISPARSION_F 0.0000//<name:’€…‰π‚«ø∂»>
-#define dispersionSpeed_F 0.26//<name:’€…‰π‚¡˜∂ØÀŸ∂»>
-#define __yy__ 0.0//<name:…¡µ„-------------->
-#define shineInt_F 1.00//<name:…¡µ„«ø∂»>
-#define StarsDensity_F 0.30//<name:…¡µ„√‹∂»>
-#define STAR_SIZE 2.00//<name:…¡µ„¥Û–°>
-#define UV_PARA vec2(1.0,256.0)//<name:…¡À∏ÀŸ∂»_…¡À∏ªÆ∑÷¥Û–°>
-#define UV_SCALE vec2(2.0,2.0)//<name:…¡µ„UVÀı∑≈>
+#define Color_F vec3(50.0,60.0,100.0)//<name:È¢úËâ≤,color:255>
+#define LIGHT_ENABLED 1.0000//<name:‰ΩøÁî®ÂÖâÁÖß>
+#define COLOR_MODE 1.0000//<name:È¢úËâ≤Ê®°Âºè0‰πò1Âä†>
+#define MIN_ALPHA 0.0000//<name:ÊúÄÂ∞èÈÄèÊòéÂ∫¶>
+#define __xx__ 0.0000//<name:ÂÖâÁÖß-------------->
+#define USE_BLOOM 1.0000//<name:‰ΩøÁî®Bloom(tex2)>
+#define FRES_SCALE 1.0000//<name:ÂèçÂ∞ÑÂº∫Â∫¶Áº©Êîæ>
+#define FRES_BIAS 1.0000//<name:ÂèçÂ∞ÑÂº∫Â∫¶Âä†Âáè>
+#define ETA 1.3000//<name:ÊäòÂ∞ÑÁéá>
+#define DISPARSION_F 0.0000//<name:ÊäòÂ∞ÑÂÖâÂº∫Â∫¶>
+#define dispersionSpeed_F 0.26//<name:ÊäòÂ∞ÑÂÖâÊµÅÂä®ÈÄüÂ∫¶>
+#define __yy__ 0.0//<name:Èó™ÁÇπ-------------->
+#define shineInt_F 1.00//<name:Èó™ÁÇπÂº∫Â∫¶>
+#define StarsDensity_F 0.30//<name:Èó™ÁÇπÂØÜÂ∫¶>
+#define STAR_SIZE 2.00//<name:Èó™ÁÇπÂ§ßÂ∞è>
+#define UV_PARA vec2(1.0,256.0)//<name:Èó™ÁÉÅÈÄüÂ∫¶_Èó™ÁÉÅÂàíÂàÜÂ§ßÂ∞è>
+#define UV_SCALE vec2(2.0,2.0)//<name:Èó™ÁÇπUVÁº©Êîæ>
 
 const vec3 colorF = Color_F * FROM_255_TO_1;
 
@@ -464,7 +464,7 @@ void main() {
 	}
 
 	gl_FragColor = vec4(result, alphaMask);
-	// º”»Î ‹ª˜±‰∫Ïµ»–ßπ˚
+	// Âä†ÂÖ•ÂèóÂáªÂèòÁ∫¢Á≠âÊïàÊûú
 #ifdef USE_OVERLAY
 	gl_FragColor.rgb = mix(gl_FragColor.rgb, OVERLAY_COLOR.rgb, OVERLAY_COLOR.a);
 #endif // USE_OVERLAY

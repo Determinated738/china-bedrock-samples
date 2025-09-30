@@ -384,9 +384,9 @@ vec2 calculateFrameAnimUV(vec2 uv, float gridRowInverse, float gridColInverse, f
 
 LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // mix color
 
-#define _Dissolve_Speed 0.5000//<name:ÈÜ½âËÙ¶È>
-#define _Move_Offset 0.1000//<name:ÒÆ¶¯¾àÀë>
-#define _Didssolve_Dir vec3(1.0,0.0,0.0)//<name:ÈÜ½â·½Ïò>
+#define _Dissolve_Speed 0.5000//<name:æº¶è§£é€Ÿåº¦>
+#define _Move_Offset 0.1000//<name:ç§»åŠ¨è·ç¦»>
+#define _Didssolve_Dir vec3(1.0,0.0,0.0)//<name:æº¶è§£æ–¹å‘>
 
 varying float offsetRate;
 varying vec3 positionWS;

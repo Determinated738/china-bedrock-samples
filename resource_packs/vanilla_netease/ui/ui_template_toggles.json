@@ -95,5 +95,11 @@
         }
       }
     ]
+  },
+  "edit_toggle_unchecked@common_toggles.toggle_unchecked": {
+    "$ui_button_panel": "common_buttons.edit_button_panel"
+  },
+  "edit_toggle_unchecked_hover_with_chevron@common_toggles.toggle_unchecked_hover_with_chevron": {
+    "$ui_button_panel": "common_buttons.edit_button_panel"
   }
 }

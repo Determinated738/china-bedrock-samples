@@ -1216,6 +1216,33 @@
       }
     ]
   },
+  "edit_options_dropdown_toggle_button_state_content@settings_common.default_options_dropdown_toggle_button_state_content": {
+    "$options_dropdown_toggle_left_padding": [
+      0,
+      "100%"
+    ]
+  },
+  "edit_options_dropdown_toggle_control@common_toggles.light_template_toggle": {
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "$button_type_panel|default": "settings_common.edit_options_dropdown_toggle_button_state_content",
+    "$unchecked_hover_control": "common_toggles.edit_toggle_unchecked_hover_with_chevron",
+    "$checked_hover_control": "common_toggles.toggle_checked_hover_with_chevron",
+    "$unchecked_control": "common_toggles.edit_toggle_unchecked",
+    "enabled": "$enabled",
+    "$toggle_enabled_binding_name|default": "$option_enabled_binding_name",
+    "$toggle_enabled_binding_type|default": "global",
+    "$toggle_binding_type|default": "global",
+    "variables": [
+      {
+        "requires": "(not $option_enabled_binding_name or not $enabled)",
+        "$toggle_enabled_binding_name": "#not_data_bound",
+        "$toggle_enabled_binding_type": "none"
+      }
+    ]
+  },
   "options_dropdown_toggle_control@common_toggles.light_template_toggle": {
     "size": [
       "100%",
@@ -1256,6 +1283,9 @@
       }
     ]
   },
+  "netease_edit_option_dropdown_control@settings_common.option_dropdown_control": {
+    "$dropdown_toggle": "settings_common.edit_options_dropdown_toggle_control"
+  },
   "option_dropdown_control": {
     "type": "panel",
     "$option_dropdown_size|default": [
@@ -1272,7 +1302,7 @@
     "controls": [
       {
         "dropdown@$option_dropdown_type": {
-          "$dropdown_toggle": "settings_common.options_dropdown_toggle_control",
+          "$dropdown_toggle|default": "settings_common.options_dropdown_toggle_control",
           "$dropdown_background": "$dropdown_background_control",
           "$dropdown_content|default": "unset_dropdown_content",
           "$dropdown_name|default": "unset $dropdown_name",
@@ -1524,6 +1554,9 @@
   },
   "option_slider@settings_common.option_generic": {
     "$control_name": "settings_common.option_slider_control"
+  },
+  "edit_option_dropdown@settings_common.option_generic": {
+    "$control_name": "settings_common.netease_edit_option_dropdown_control"
   },
   "option_dropdown@settings_common.option_generic": {
     "$control_name": "settings_common.option_dropdown_control"
@@ -1865,6 +1898,180 @@
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "controls": [
+      {
+        "netease_multiplayer_tips_panel": {
+          "type": "input_panel",
+          "layer": 3018,
+          "visible": false,
+          "bindings": [
+            {
+              "binding_name": "(#netease_multiplayer_game_show_tips or False)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "bg": {
+                "type": "image",
+                "size": [
+                  "200%",
+                  "200%"
+                ],
+                "alpha": 0.4,
+                "color": [
+                  0,
+                  0,
+                  0
+                ],
+                "texture": "textures/ui/gameChatExtension/new/white"
+              }
+            },
+            {
+              "main_panel": {
+                "type": "panel",
+                "size": [
+                  180,
+                  138
+                ],
+                "layer": 2,
+                "controls": [
+                  {
+                    "bg": {
+                      "type": "image",
+                      "texture": "textures/ui/dialog_background_hollow_5"
+                    }
+                  },
+                  {
+                    "title_txt": {
+                      "type": "label",
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "offset": [
+                        0,
+                        4
+                      ],
+                      "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "$button_text": "netease.multiplayer.tips_panel.title",
+                      "text": "$button_text"
+                    }
+                  },
+                  {
+                    "close_btn@common.button": {
+                      "$pressed_button_name": "#netease_multiplayer_game_tips_close",
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
+                      "offset": [
+                        -1,
+                        1
+                      ],
+                      "size": [
+                        16,
+                        16
+                      ],
+                      "layer": 3,
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "image",
+                            "texture": "textures/ui/close_button_default"
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "image",
+                            "texture": "textures/ui/close_button_default_light"
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "image",
+                            "texture": "textures/ui/close_button_default_light"
+                          }
+                        }
+                      ],
+                      "bindings": [
+                        {
+                          "binding_name": "#netease_multiplayer_game_tips_button_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "content_panel": {
+                      "type": "panel",
+                      "offset": [
+                        0,
+                        -13
+                      ],
+                      "size": [
+                        165,
+                        81
+                      ],
+                      "layer": 13,
+                      "controls": [
+                        {
+                          "content_bg": {
+                            "type": "image",
+                            "alpha": 0.9,
+                            "color": [
+                              0.8,
+                              0.8,
+                              0.8
+                            ],
+                            "texture": "textures/ui/background_with_border"
+                          }
+                        },
+                        {
+                          "desc_txt": {
+                            "type": "label",
+                            "size": [
+                              130,
+                              "default"
+                            ],
+                            "text": "#netease_multiplayer_game_tips_content",
+                            "bindings": [
+                              {
+                                "binding_name": "#netease_multiplayer_game_tips_content"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "confirm_btn@common_buttons.light_text_button": {
+                            "$pressed_button_name": "#netease_multiplayer_game_tips_confirm",
+                            "$button_text": "netease.multiplayer.tips_panel.confirm",
+                            "offset": [
+                              0,
+                              61
+                            ],
+                            "size": [
+                              70,
+                              26
+                            ],
+                            "layer": 3,
+                            "bindings": [
+                              {
+                                "binding_name": "#netease_multiplayer_game_tips_button_visible",
+                                "binding_name_override": "#visible"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
       {
         "dialog_titles@settings_common.dialog_titles": {}
       },

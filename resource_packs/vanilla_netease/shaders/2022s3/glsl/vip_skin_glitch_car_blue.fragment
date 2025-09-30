@@ -396,16 +396,16 @@ vec4 glitch_car(){
 
 	vec4 blockGlitch = texture2D(TEXTURE_0, glitchUV);
 	float alphaBlock = blockGlitch.a;
-	alphaBlock = step(0.1, alphaBlock); //±ß¿ò´ó¿éÈÅ¶¯µÄmask
+	alphaBlock = step(0.1, alphaBlock); //è¾¹æ¡†å¤§å—æ‰°åŠ¨çš„mask
 	vec4 glitchCol = blockGlitch;
 
 	//small block
 	float blockGlitchSmall = texture2D(TEXTURE_2, glitchUV2).r;
 	blockGlitchSmall = step(0.1, blockGlitchSmall) * maskTex.g; // use G channel to mask scanning area
 
-	vec4 noiseTex = texture2D(TEXTURE_1, uv2);     //¹ÊÕÏÎÆÀí noiseTex.a É¨ÃèÇø£¬ÎŞÈÅ¶¯
-	float tempMask = min(blockGlitchSmall, noiseTex.a); //É¨ÃèÇø£¬Ğ¡¿é
-	float allGlitchAlpha = clamp(tempMask + alphaBlock, 0.0, 1.0); //¿é×´¹ÊÕÏ¶¶¶¯´ó+Ğ¡
+	vec4 noiseTex = texture2D(TEXTURE_1, uv2);     //æ•…éšœçº¹ç† noiseTex.a æ‰«æåŒºï¼Œæ— æ‰°åŠ¨
+	float tempMask = min(blockGlitchSmall, noiseTex.a); //æ‰«æåŒºï¼Œå°å—
+	float allGlitchAlpha = clamp(tempMask + alphaBlock, 0.0, 1.0); //å—çŠ¶æ•…éšœæŠ–åŠ¨å¤§+å°
 	allGlitchAlpha = step(0.1, allGlitchAlpha);
 	
 	blockGlitchSmall = lerp1(0.0, blockGlitchSmall, noiseTex.a);

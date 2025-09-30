@@ -872,13 +872,13 @@
   },
   "component_button@pause.pause_button_template": {
     "$pressed_button_name": "",
-    "$button_text": "组件",
+    "$button_text": "模组",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle"
   },
   "asset_center_button@pause.pause_button_template": {
     "$pressed_button_name": "",
-    "$button_text": "资源中心",
+    "$button_text": "模组中心",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle"
   },
@@ -2235,7 +2235,7 @@
                         "85%+0px",
                         "60%+0px"
                       ],
-                      "text": "请装备『我的好友』组件开启邀请功能",
+                      "text": "请装备『我的好友』模组开启邀请功能",
                       "type": "label"
                     }
                   }
@@ -2281,10 +2281,13 @@
         }
       },
       {
-        "lobby_setting_button@pause.lobby_setting_button": {}
+        "lobby_setting_button@pause.lobby_setting_button": {
+          "ignored": "($is_netease)"
+        }
       },
       {
         "horizontal_padding@pause.horizontal_padding": {
+          "ignored": "($is_netease)",
           "size": [
             "4px",
             0
@@ -2413,7 +2416,9 @@
         "can_not_invite_text@pause.can_not_invite_text": {}
       },
       {
-        "single_game_info_panel_invite_panel@pause.single_game_info_panel_invite_panel": {}
+        "single_game_info_panel_invite_panel@pause.single_game_info_panel_invite_panel": {
+          "ignored": "($is_netease)"
+        }
       }
     ]
   },

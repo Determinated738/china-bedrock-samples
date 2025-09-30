@@ -550,203 +550,132 @@
     ],
     "visible": true
   },
-  "button_horse_transform@common.button": {
-    "$default_texture": "textures/netease/vip_transform/btn01@3x",
-    "$hover_texture": "textures/netease/vip_transform/btn01@3x",
-    "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
-    "$nine_slice_buttom": 0,
-    "$nine_slice_left": 0,
-    "$nine_slice_right": 0,
-    "$nine_slice_top": 0,
+  "btn_horse_transform@common.button": {
     "$pressed_button_name": "button.horse_transform",
-    "$texture_layer": 2,
-    "anchor_from": "left_middle",
-    "anchor_to": "left_middle",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
     "controls": [
       {
-        "default@fold_menu.default": {}
-      },
-      {
-        "hover@fold_menu.hover": {}
-      },
-      {
-        "pressed@fold_menu.pressed": {}
-      },
-      {
-        "img_horse": {
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "is_new_nine_slice": true,
-          "layer": 3,
-          "nine_slice_buttom": 0,
-          "nine_slice_left": 0,
-          "nine_slice_right": 0,
-          "nine_slice_top": 0,
-          "offset": [
-            0,
-            0
-          ],
-          "size": [
-            20,
-            20
-          ],
-          "texture": "textures/netease/vip_transform/icon02@3x",
-          "type": "image",
-          "texture_file_system": "",
-          "visible": true,
-          "zip_folder": ""
+        "default": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03@3x",
+          "type": "image"
         }
-      }
-    ],
-    "layer": 3,
-    "offset": [
-      24,
-      0
-    ],
-    "size": [
-      21,
-      21
-    ],
-    "type": "button",
-    "visible": false,
-    "bindings": [
-      {
-        "binding_name": "#horse_transform_enabled",
-        "binding_name_override": "#visible"
-      }
-    ]
-  },
-  "button_skin_transform@common.button": {
-    "$default_texture": "textures/netease/vip_transform/btn01@3x",
-    "$hover_texture": "textures/netease/vip_transform/btn01@3x",
-    "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
-    "$nine_slice_buttom": 0,
-    "$nine_slice_left": 0,
-    "$nine_slice_right": 0,
-    "$nine_slice_top": 0,
-    "$pressed_button_name": "button.skin_transform",
-    "$texture_layer": 2,
-    "anchor_from": "left_middle",
-    "anchor_to": "left_middle",
-    "controls": [
-      {
-        "default@fold_menu.default": {}
       },
       {
-        "hover@fold_menu.hover": {}
-      },
-      {
-        "pressed@fold_menu.pressed": {}
-      },
-      {
-        "img_skin": {
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "is_new_nine_slice": true,
-          "layer": 3,
-          "nine_slice_buttom": 0,
-          "nine_slice_left": 0,
-          "nine_slice_right": 0,
-          "nine_slice_top": 0,
-          "offset": [
-            0,
-            0
-          ],
-          "size": [
-            20,
-            20
-          ],
-          "texture": "textures/netease/vip_transform/icon01@3x",
-          "type": "image",
-          "texture_file_system": "",
-          "visible": true,
-          "zip_folder": ""
+        "hover": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03@3x",
+          "type": "image"
         }
-      }
-    ],
-    "layer": 3,
-    "offset": [
-      3,
-      0
-    ],
-    "size": [
-      21,
-      21
-    ],
-    "type": "button",
-    "visible": false,
-    "bindings": [
+      },
       {
-        "binding_name": "#skin_transform_enabled",
-        "binding_name_override": "#visible"
+        "pressed": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "label_horse_transform@fold_menu.label_horse_transform": {}
+      },
+      {
+        "img_horse_transform@fold_menu.img_horse_transform": {}
       }
-    ]
+    ],
+    "layer": 1,
+    "size": [
+      "33.33%+0 px",
+      "100%"
+    ],
+    "visible": false
   },
-  "button_weapon_transform@common.button": {
-    "$default_texture": "textures/netease/vip_transform/btn01@3x",
-    "$hover_texture": "textures/netease/vip_transform/btn01@3x",
-    "$pressed_texture": "textures/netease/vip_transform/btn01_click@3x",
-    "$nine_slice_buttom": 0,
-    "$nine_slice_left": 0,
-    "$nine_slice_right": 0,
-    "$nine_slice_top": 0,
+  "btn_weapon_transform@common.button": {
     "$pressed_button_name": "button.weapon_transform",
-    "$texture_layer": 2,
-    "anchor_from": "left_middle",
-    "anchor_to": "left_middle",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
     "controls": [
       {
-        "default@fold_menu.default": {}
-      },
-      {
-        "hover@fold_menu.hover": {}
-      },
-      {
-        "pressed@fold_menu.pressed": {}
-      },
-      {
-        "img_skin": {
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "is_new_nine_slice": true,
-          "layer": 3,
-          "nine_slice_buttom": 0,
-          "nine_slice_left": 0,
-          "nine_slice_right": 0,
-          "nine_slice_top": 0,
-          "offset": [
-            0,
-            0
-          ],
-          "size": [
-            20,
-            20
-          ],
-          "texture": "textures/netease/vip_transform/icon03@3x",
-          "type": "image",
-          "texture_file_system": "",
-          "visible": true,
-          "zip_folder": ""
+        "default": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03@3x",
+          "type": "image"
         }
+      },
+      {
+        "hover": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "label_weapon_transform@fold_menu.label_weapon_transform": {}
+      },
+      {
+        "img_weapon_transform@fold_menu.img_weapon_transform": {}
       }
     ],
-    "layer": 3,
-    "offset": [
-      45,
-      0
+    "visible": false,
+    "size": [
+      "33.33%+0 px",
+      "100%"
+    ]
+  },
+  "btn_transform@common.button": {
+    "$pressed_button_name": "button.skin_transform",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "default": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "layer": 2,
+          "keep_ratio": false,
+          "texture": "textures/netease/voice_trans/btn03_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "label_transform@fold_menu.label_transform": {}
+      },
+      {
+        "img_transform@fold_menu.img_transform": {}
+      }
     ],
     "size": [
-      21,
-      21
+      "33.33%+0 px",
+      "100%"
     ],
-    "type": "button",
-    "visible": false,
-    "bindings": [
-      {
-        "binding_name": "#weapon_transform_enabled",
-        "binding_name_override": "#visible"
-      }
-    ]
+    "visible": false
   },
   "fold_menu_dialog_screen@common.base_screen": {
     "controls": [
@@ -804,18 +733,6 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "controls": [
-      {
-        "label_auto_transform@fold_menu.label_auto_transform": {}
-      },
-      {
-        "button_skin_transform@fold_menu.button_skin_transform": {}
-      },
-      {
-        "button_horse_transform@fold_menu.button_horse_transform": {}
-      },
-      {
-        "button_weapon_transform@fold_menu.button_weapon_transform": {}
-      },
       {
         "auto_transform_toggle@settings_common.option_toggle": {
           "anchor_from": "top_right",
@@ -1067,6 +984,75 @@
     "visible": true,
     "zip_folder": ""
   },
+  "img_transform": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      6,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/ui/icon04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": false,
+    "zip_folder": ""
+  },
+  "img_horse_transform": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      6,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/ui/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": false,
+    "zip_folder": ""
+  },
+  "img_weapon_transform": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "is_new_nine_slice": true,
+    "layer": 3,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      6,
+      0
+    ],
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/ui/icon02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": false,
+    "zip_folder": ""
+  },
   "label_screenshot": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
@@ -1134,16 +1120,16 @@
       64,
       64
     ],
-    "text": "开启手动变身:",
+    "text": "变身按钮外显:",
     "text_alignment": "left",
     "type": "label",
+    "visible": true,
     "bindings": [
       {
-        "binding_name": "#label_auto_transform_visible",
+        "binding_name": "#vip_transform_visible",
         "binding_name_override": "#visible"
       }
-    ],
-    "visible": true
+    ]
   },
   "label_speechseting": {
     "anchor_from": "top_left",
@@ -1170,6 +1156,84 @@
     "text_alignment": "left",
     "type": "label",
     "visible": true
+  },
+  "label_transform": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.298,
+      0.298,
+      0.298,
+      1
+    ],
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      0,
+      0
+    ],
+    "shadow": false,
+    "size": [
+      "default",
+      "default"
+    ],
+    "text": "变身",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": false
+  },
+  "label_horse_transform": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.298,
+      0.298,
+      0.298,
+      1
+    ],
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      0,
+      0
+    ],
+    "shadow": false,
+    "size": [
+      "default",
+      "default"
+    ],
+    "text": "坐骑变身",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": false
+  },
+  "label_weapon_transform": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.298,
+      0.298,
+      0.298,
+      1
+    ],
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      0,
+      0
+    ],
+    "shadow": false,
+    "size": [
+      "default",
+      "default"
+    ],
+    "text": "武器变身",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": false
   },
   "namespace": "fold_menu",
   "panel_foldmenu": {
@@ -1300,184 +1364,45 @@
         }
       },
       {
-        "panel_transform": {
+        "panel_transform_button": {
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
           "controls": [
             {
-              "img_vip_transform@fold_menu.img_vip_transform": {}
+              "btn_transform@fold_menu.btn_transform": {}
+            },
+            {
+              "btn_horse_transform@fold_menu.btn_horse_transform": {}
+            },
+            {
+              "btn_weapon_transform@fold_menu.btn_weapon_transform": {}
             }
           ],
           "size": [
             "100%",
             32
           ],
-          "type": "panel"
+          "type": "panel",
+          "visible": true
         }
       },
       {
-        "panel_hud": {
+        "panel_transform": {
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
+          "controls": [
+            {
+              "img_vip_transform@fold_menu.img_vip_transform": {}
+            },
+            {
+              "label_auto_transform@fold_menu.label_auto_transform": {}
+            }
+          ],
           "size": [
-            "100%+0px",
+            "100%",
             32
           ],
           "type": "panel",
-          "controls": [
-            {
-              "bg": {
-                "anchor_from": "top_left",
-                "anchor_to": "top_left",
-                "is_new_nine_slice": true,
-                "layer": 0,
-                "nine_slice_buttom": 0,
-                "nine_slice_left": 0,
-                "nine_slice_right": 0,
-                "nine_slice_top": 0,
-                "offset": [
-                  0,
-                  0
-                ],
-                "size": [
-                  "100.0%+0.0px",
-                  "100%"
-                ],
-                "texture": "textures/netease/vip_transform/panel01@3x",
-                "type": "image",
-                "uv": [
-                  0,
-                  0
-                ],
-                "uv_size": [
-                  0,
-                  0
-                ]
-              }
-            },
-            {
-              "hud_toggle@settings_common.option_toggle": {
-                "anchor_from": "right_middle",
-                "anchor_to": "right_middle",
-                "size": [
-                  32,
-                  26
-                ],
-                "offset": [
-                  0,
-                  0
-                ],
-                "$option_binding_name": "#hud_toggle",
-                "$option_enabled_binding_name": "#hud_enabled",
-                "$toggle_name": "hud_toggle",
-                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-                "$toggle_binding_condition": "always_when_visible",
-                "visible": true,
-                "layer": 1
-              }
-            },
-            {
-              "label": {
-                "anchor_from": "left_middle",
-                "anchor_to": "left_middle",
-                "auto_expand": false,
-                "font_size": "normal",
-                "layer": 1,
-                "offset": [
-                  8,
-                  0
-                ],
-                "shadow": false,
-                "text": "屏幕HUD:",
-                "text_alignment": "left",
-                "type": "label",
-                "visible": true
-              }
-            }
-          ],
-          "visible": false
-        }
-      },
-      {
-        "panel_camera": {
-          "anchor_from": "top_middle",
-          "anchor_to": "top_middle",
-          "size": [
-            "100%+0px",
-            32
-          ],
-          "type": "panel",
-          "controls": [
-            {
-              "bg": {
-                "anchor_from": "top_left",
-                "anchor_to": "top_left",
-                "is_new_nine_slice": true,
-                "layer": 0,
-                "nine_slice_buttom": 0,
-                "nine_slice_left": 0,
-                "nine_slice_right": 0,
-                "nine_slice_top": 0,
-                "offset": [
-                  0,
-                  0
-                ],
-                "size": [
-                  "100.0%+0.0px",
-                  "100%"
-                ],
-                "texture": "textures/netease/vip_transform/panel01@3x",
-                "type": "image",
-                "uv": [
-                  0,
-                  0
-                ],
-                "uv_size": [
-                  0,
-                  0
-                ]
-              }
-            },
-            {
-              "camera_toggle@settings_common.option_toggle": {
-                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-                "$option_binding_name": "#camera_toggle",
-                "$option_enabled_binding_name": "#camera_enabled",
-                "$toggle_binding_condition": "always_when_visible",
-                "$toggle_name": "camera_toggle",
-                "anchor_from": "right_middle",
-                "anchor_to": "right_middle",
-                "offset": [
-                  0,
-                  0
-                ],
-                "size": [
-                  32,
-                  26
-                ],
-                "visible": true,
-                "layer": 1
-              }
-            },
-            {
-              "label": {
-                "anchor_from": "left_middle",
-                "anchor_to": "left_middle",
-                "auto_expand": false,
-                "font_size": "normal",
-                "layer": 1,
-                "offset": [
-                  8,
-                  0
-                ],
-                "shadow": false,
-                "text": "变身镜头演出:",
-                "text_alignment": "left",
-                "type": "label",
-                "visible": true
-              }
-            }
-          ],
           "visible": false
         }
       }

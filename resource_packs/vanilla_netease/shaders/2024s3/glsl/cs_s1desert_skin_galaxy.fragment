@@ -298,7 +298,7 @@ LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0;
 LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1;
 LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2;
 
-#define UV_SCALE vec2(4.0,4.0)// name: UVËõ·Å
+#define UV_SCALE vec2(4.0,4.0)// name: UVç¼©æ”¾
 #define UV_FLOW vec2(-0.02,-0.02)// name: UV_FLOW
 
 // 0 MUL 1 ADD

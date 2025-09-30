@@ -304,7 +304,7 @@ varying vec4 fogColor;
 varying vec4 eyeDir;
 varying vec3 worldSpaceNormal;
 
-#define UV_SCALE vec2(3.0,3.0)// name: UVËõ·Å
+#define UV_SCALE vec2(3.0,3.0)// name: UVç¼©æ”¾
 #define UV_FLOW vec2(-0.02,-0.02)// name: UV_FLOW
 
 // 0 MUL 1 ADD

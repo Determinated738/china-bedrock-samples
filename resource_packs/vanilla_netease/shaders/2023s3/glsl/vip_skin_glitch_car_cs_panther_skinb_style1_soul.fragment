@@ -276,19 +276,19 @@ LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0; // base map
 LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // noise map
 LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // mask map
 
-#define Emission 0.00//<name:×ÜÌå·¢¹â³Ì¶È>
-#define VertSpeed 25.00// <name: ¹ÊÕÏÎÆÀí¶¶¶¯ËÙ¶È>
-#define VertMoveAmount 0.15//<name: ¹ÊÕÏÎÆÀí¶¶¶¯³Ì¶È>
-#define Amplitude 2.68//<name: ¹ÊÕÏÎÆÀí¶¶¶¯·ù¶È>
+#define Emission 0.00//<name:æ€»ä½“å‘å…‰ç¨‹åº¦>
+#define VertSpeed 25.00// <name: æ•…éšœçº¹ç†æŠ–åŠ¨é€Ÿåº¦>
+#define VertMoveAmount 0.15//<name: æ•…éšœçº¹ç†æŠ–åŠ¨ç¨‹åº¦>
+#define Amplitude 2.68//<name: æ•…éšœçº¹ç†æŠ–åŠ¨å¹…åº¦>
 
-#define NoiseStep 1000.00//<name: ¹ÊÕÏÎÆÀí³öÏÖµÄ¼äĞªµ÷Õû>
-#define Frequency 0.02// <name: ×ÜÆµÂÊ>
+#define NoiseStep 1000.00//<name: æ•…éšœçº¹ç†å‡ºç°çš„é—´æ­‡è°ƒæ•´>
+#define Frequency 0.02// <name: æ€»é¢‘ç‡>
 
-#define Block_Offset 0.07//<name: ´ó¿éÈÅ¶¯Æ«ÒÆ¶È>
-#define Block_Amount 0.15//<name: ´ó¿éÈÅ¶¯ÊıÁ¿>
-#define Block_LinesWidth 10.00//<name: ´ó¿éÈÅ¶¯Ïß¿í¶È>
-#define JITTER_COLOR vec3(71.0,255.0,236.0)//<name: Ğ¡¿éÈÅ¶¯_É¨ÃèÇøÓòÑÕÉ«>
-#define Block_small_add 1.00//<name: Ğ¡¿éÈÅ¶¯Ïß¿í¶È_ÔÚ¿é×´ÈÅ¶¯Ïß¿í¶ÈµÄÊıÖµÉÏÔö¼Ó>
+#define Block_Offset 0.07//<name: å¤§å—æ‰°åŠ¨åç§»åº¦>
+#define Block_Amount 0.15//<name: å¤§å—æ‰°åŠ¨æ•°é‡>
+#define Block_LinesWidth 10.00//<name: å¤§å—æ‰°åŠ¨çº¿å®½åº¦>
+#define JITTER_COLOR vec3(71.0,255.0,236.0)//<name: å°å—æ‰°åŠ¨_æ‰«æåŒºåŸŸé¢œè‰²>
+#define Block_small_add 1.00//<name: å°å—æ‰°åŠ¨çº¿å®½åº¦_åœ¨å—çŠ¶æ‰°åŠ¨çº¿å®½åº¦çš„æ•°å€¼ä¸Šå¢åŠ >
 
 const float FROM_255_TO_1 = 1.0 / 255.0;
 const vec3 jitterColor = JITTER_COLOR * FROM_255_TO_1;
@@ -393,16 +393,16 @@ void main() {
 
 	vec4 blockGlitch = texture2D(TEXTURE_0, glitchUV);
 	float alphaBlock = blockGlitch.a;
-	alphaBlock = step(0.1, alphaBlock); //±ß¿ò´ó¿éÈÅ¶¯µÄmask
+	alphaBlock = step(0.1, alphaBlock); //è¾¹æ¡†å¤§å—æ‰°åŠ¨çš„mask
 	vec4 glitchCol = blockGlitch;
 
 	//small block
 	float blockGlitchSmall = texture2D(TEXTURE_2, glitchUV2).r;
 	blockGlitchSmall = step(0.1, blockGlitchSmall) * maskTex.g; // use G channel to mask scanning area
 
-	vec4 noiseTex = texture2D(TEXTURE_1, fract(uv2));     //¹ÊÕÏÎÆÀí noiseTex.a É¨ÃèÇø£¬ÎŞÈÅ¶¯
-	float tempMask = min(blockGlitchSmall, noiseTex.a); //É¨ÃèÇø£¬Ğ¡¿é
-	float allGlitchAlpha = clamp(tempMask + alphaBlock, 0.0, 1.0); //¿é×´¹ÊÕÏ¶¶¶¯´ó+Ğ¡
+	vec4 noiseTex = texture2D(TEXTURE_1, fract(uv2));     //æ•…éšœçº¹ç† noiseTex.a æ‰«æåŒºï¼Œæ— æ‰°åŠ¨
+	float tempMask = min(blockGlitchSmall, noiseTex.a); //æ‰«æåŒºï¼Œå°å—
+	float allGlitchAlpha = clamp(tempMask + alphaBlock, 0.0, 1.0); //å—çŠ¶æ•…éšœæŠ–åŠ¨å¤§+å°
 	allGlitchAlpha = step(0.1, allGlitchAlpha);
 	
 	blockGlitchSmall = lerp(0.0, blockGlitchSmall, noiseTex.a);

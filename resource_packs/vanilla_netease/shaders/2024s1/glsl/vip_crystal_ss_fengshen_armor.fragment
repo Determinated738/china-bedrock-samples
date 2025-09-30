@@ -316,17 +316,17 @@ LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0; // base map
 LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // color map
 LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // emissive
 
-#define _Base_Tiling vec2(1.0,1.0)//<name:»ù±¾ÎÆÀíÆ½ÆÌ>
-#define _Depth_1 -9.8000//<name:Éî¶ÈÆ«ÒÆ1>
-#define _Emissive_1 1.0000//<name:×Ô·¢¹âÇ¿¶È1>
-#define _Depth_2 13.5000//<name:Éî¶ÈÆ«ÒÆ2>
-#define _Emissive_2 0.2000//<name:×Ô·¢¹âÇ¿¶È2>
-#define _Emissive_add 0.5200//<name:×Ô·¢¹â-Ôö¼Ó>
-#define _Emissive_tiling vec2(1.5,1.5)//<name:ìÅ¹âÎÆÀíÆ½ÆÌ>
-#define _Depth_3 15.0000//<name:Éî¶ÈÆ«ÒÆ-ìÅ¹â>
-#define _Emissive_add_total 0.1000//<name:ìÅ¹âÇ¿¶È>
+#define _Base_Tiling vec2(1.0,1.0)//<name:åŸºæœ¬çº¹ç†å¹³é“º>
+#define _Depth_1 -9.8000//<name:æ·±åº¦åç§»1>
+#define _Emissive_1 1.0000//<name:è‡ªå‘å…‰å¼ºåº¦1>
+#define _Depth_2 13.5000//<name:æ·±åº¦åç§»2>
+#define _Emissive_2 0.2000//<name:è‡ªå‘å…‰å¼ºåº¦2>
+#define _Emissive_add 0.5200//<name:è‡ªå‘å…‰-å¢åŠ >
+#define _Emissive_tiling vec2(1.5,1.5)//<name:ç‚«å…‰çº¹ç†å¹³é“º>
+#define _Depth_3 15.0000//<name:æ·±åº¦åç§»-ç‚«å…‰>
+#define _Emissive_add_total 0.1000//<name:ç‚«å…‰å¼ºåº¦>
 #define _Power 2.0000//<name:Emissive Power>
-#define _FRES_SCALE 0.0800//<name:·´ÉäÇ¿¶È>
+#define _FRES_SCALE 0.0800//<name:åå°„å¼ºåº¦>
 
 const float FROM_255_TO_1 = 1.0 / 255.0;
 
@@ -346,15 +346,15 @@ void main() {
 	float frensnelVal = 1.0 - dot(worldNormal, worldViewDir);
 	frensnelVal = clamp(_FRES_SCALE * frensnelVal * frensnelVal, 0.0, 1.0);
 
-	// Æ«ÒÆ1
+	// åç§»1
 	vec2 uv_1 = bumpoffset(uv, tangentViewDir, _Depth_1);
 	// sample the texture
 	mediump vec4 col_1 = texture2D(TEXTURE_0, fract(uv_1 * _Base_Tiling));
-	// Æ«ÒÆ2
+	// åç§»2
 	vec2 uv_2 = bumpoffset(uv, tangentViewDir, _Depth_2);
 	// sample the texture
 	mediump vec4 col_2 = texture2D(TEXTURE_0, fract(uv_2 * _Base_Tiling));
-	// Æ«ÒÆ3
+	// åç§»3
 	vec2 uv_3 = bumpoffset(uv, tangentViewDir, _Depth_3);
 	mediump vec4 emissive_col = texture2D(TEXTURE_2, fract(uv_3 * _Emissive_tiling));
 	mediump float col_lerp = texture2D(TEXTURE_0, uv).x;
@@ -364,15 +364,15 @@ void main() {
 	mediump vec4 col = mix(col_1, col_2, col_lerp);
 	// col = saturate(col);
 
-	// Îå²ÊÑÕÉ«
+	// äº”å½©é¢œè‰²
 	vec2 color_uv = vec2(uv.x, 0.99);
-	mediump vec4 wucai_col_bright = texture2D(TEXTURE_1, color_uv); // ÁÁÉ«
+	mediump vec4 wucai_col_bright = texture2D(TEXTURE_1, color_uv); // äº®è‰²
 	color_uv.y = 0.01;
-	mediump vec4 wucai_col_dark = texture2D(TEXTURE_1, color_uv); // °µÉ«
+	mediump vec4 wucai_col_dark = texture2D(TEXTURE_1, color_uv); // æš—è‰²
 
-	col = mix(wucai_col_dark, wucai_col_bright, pow(col.x, _Power)) * (col.x + _Emissive_add); // ÁÁ°µ²¿ÑÕÉ«¹ı¶É
-	col += emissive_col * col.x * _Emissive_add_total; // ·á¸»ÑÕÉ«
-	col += frensnelVal; // ·´Éä
+	col = mix(wucai_col_dark, wucai_col_bright, pow(col.x, _Power)) * (col.x + _Emissive_add); // äº®æš—éƒ¨é¢œè‰²è¿‡æ¸¡
+	col += emissive_col * col.x * _Emissive_add_total; // ä¸°å¯Œé¢œè‰²
+	col += frensnelVal; // åå°„
 
 	// apply fog
 	col.rgb = mix(col.rgb, fogColor.rgb, fogColor.a);

@@ -297,18 +297,18 @@ vec4 texture2D_AA(in sampler2D source, in highp vec2 originalUV) {
 LAYOUT_BINDING(0) uniform sampler2D TEXTURE_0; // albedo
 LAYOUT_BINDING(1) uniform sampler2D TEXTURE_1; // flame
 
-#define UV_SCALE vec2(2.0,2.0)// <name: uvËõ·Å>
-#define UV_FLOW vec2(-0.1,0.15)// <name: uvÁ÷¶¯ËÙ¶È>
-#define FLOW_AXIS 1.0000// <name:Á÷¶¯×ø±êÖá_0X1Y2Z>
+#define UV_SCALE vec2(2.0,2.0)// <name: uvç¼©æ”¾>
+#define UV_FLOW vec2(-0.1,0.15)// <name: uvæµåŠ¨é€Ÿåº¦>
+#define FLOW_AXIS 1.0000// <name:æµåŠ¨åæ ‡è½´_0X1Y2Z>
 
 // 0 MUL 1 ADD
-#define GRADIENT_MODE 0.00// <name: ½¥±äÄ£Ê½_0³Ë1¼Ó>
-#define GRADIENT_COLOR vec3(500.0,180.0,60.0)// <name: ½¥±äÉ«Æðµã>
-#define DELTA_COLOR_HORIZONTAL vec3(100.0,120.0,60.0)// <name: ºáÏò½¥±äÉ«±ä»¯>
-#define DELTA_COLOR_VERTICAL vec3(150.0,220.0,60.0)// <name: ×ÝÏò½¥±äÉ«±ä»¯>
+#define GRADIENT_MODE 0.00// <name: æ¸å˜æ¨¡å¼_0ä¹˜1åŠ >
+#define GRADIENT_COLOR vec3(500.0,180.0,60.0)// <name: æ¸å˜è‰²èµ·ç‚¹>
+#define DELTA_COLOR_HORIZONTAL vec3(100.0,120.0,60.0)// <name: æ¨ªå‘æ¸å˜è‰²å˜åŒ–>
+#define DELTA_COLOR_VERTICAL vec3(150.0,220.0,60.0)// <name: çºµå‘æ¸å˜è‰²å˜åŒ–>
 
-#define FRESNEL_OFFSET 0.0500// <name: ±ßÔµ·´ÉäÁÁ¶È>
-#define FRESNEL_COLOR vec3(40.0,80.0,60.0)// <name: ±ßÔµ·´ÉäÉ«>
+#define FRESNEL_OFFSET 0.0500// <name: è¾¹ç¼˜åå°„äº®åº¦>
+#define FRESNEL_COLOR vec3(40.0,80.0,60.0)// <name: è¾¹ç¼˜åå°„è‰²>
 
 const float PI = 3.1415926535;
 const float INV_PI = 1.0 / PI;

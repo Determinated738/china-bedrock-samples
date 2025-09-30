@@ -1,0 +1,478 @@
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 3.333333,
+    "trackSize": 18,
+    "tracks": [
+      {
+        "bone": "Bone006_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -0.106588,
+              -5.811452865600586e-7,
+              -12.567689
+            ],
+            "quaternion": [
+              -0.499999,
+              0.499999,
+              0.5,
+              0.5
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_20_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.053699,
+              -3.08119,
+              -2.02839
+            ],
+            "quaternion": [
+              -2.016455482589663e-7,
+              8.884155136001937e-7,
+              0.984693,
+              -0.174296
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_21_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.053702,
+              2.868407,
+              -2.028399
+            ],
+            "quaternion": [
+              -0.174296,
+              -0.984693,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_22_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.429707,
+              -3.777517,
+              -0.58132
+            ],
+            "quaternion": [
+              0.169536,
+              -0.675965,
+              -0.628495,
+              0.345429
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_23_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.42971,
+              3.56441,
+              -0.581332
+            ],
+            "quaternion": [
+              0.345429,
+              0.628495,
+              0.675964,
+              0.169537
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_24_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.2888,
+              1.258724,
+              -0.54634
+            ],
+            "quaternion": [
+              -0.011754,
+              0.745801,
+              0.035655,
+              0.665109
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_25_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.288746,
+              1.258739,
+              0.546279
+            ],
+            "quaternion": [
+              0.665108,
+              0.035655,
+              0.745801,
+              -0.011754
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_28_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.552778,
+              -3.20294,
+              0.718873
+            ],
+            "quaternion": [
+              0.148716,
+              -0.812476,
+              -0.356023,
+              0.437049
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_29_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.552781,
+              2.989413,
+              0.718863
+            ],
+            "quaternion": [
+              0.443909,
+              0.354753,
+              0.808748,
+              0.151725
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_30_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.458284,
+              -0.041135,
+              -1.193773
+            ],
+            "quaternion": [
+              0.053525,
+              0.707864,
+              -0.069022,
+              0.700926
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_31_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.47752,
+              -0.041438,
+              1.050631
+            ],
+            "quaternion": [
+              -0.706892,
+              0.068567,
+              -0.701907,
+              -0.054108
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_34_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -0.483792,
+              -0.455862,
+              2.774098
+            ],
+            "quaternion": [
+              -0.003529,
+              -0.922651,
+              -0.000449,
+              0.385618
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_35_NTES",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              6.665948,
+              -0.000002,
+              4.011861847175169e-7
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_36_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.70206,
+              -2.326943,
+              2.791688
+            ],
+            "quaternion": [
+              0.143151,
+              -0.849791,
+              -0.083835,
+              0.500333
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_38_NTES",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              6.522278,
+              7.37607479095459e-7,
+              -3.084953164034232e-7
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_39_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              6.522277,
+              9.5367431640625e-7,
+              0
+            ],
+            "quaternion": [
+              0.014247,
+              -0.433344,
+              0.055497,
+              0.899405
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_56_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              9.181047,
+              1.13565,
+              -0.85529
+            ],
+            "quaternion": [
+              -0.820439,
+              0.004149,
+              -0.568792,
+              0.057759
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_58_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              9.393421,
+              1.020745,
+              -0.418971
+            ],
+            "quaternion": [
+              -0.877279,
+              -0.005401,
+              -0.437787,
+              0.196706
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -440,23 +440,23 @@ vec3 getViewDir(POS4 entitySpacePosition) {
 
 #line 4
 
-const vec4 DRAWLINE_PARAM = vec4(0.6, 0.8, 1.0, 0.025); // (Ãè±ßÑÕÉ«RGB, Ãè±ß¿í¶È±¶ÂÊ)
+const vec4 DRAWLINE_PARAM = vec4(0.6, 0.8, 1.0, 0.025); // (æè¾¹é¢œè‰²RGB, æè¾¹å®½åº¦å€ç‡)
 
-varying vec4 fogColor; // ÎíÉ«ÓëÎíÇ¿¶È vec4(r, g, b, ÎíÇ¿¶È)
+varying vec4 fogColor; // é›¾è‰²ä¸é›¾å¼ºåº¦ vec4(r, g, b, é›¾å¼ºåº¦)
 
 void main() {
 	POS4 entitySpacePosition, entitySpaceNormal;
-	// ¼ÆËã¶¥µã¶¯»­ µÃµ½Ä£ĞÍ¿Õ¼äÎ»ÖÃÓë·¨Ïß
+	// è®¡ç®—é¡¶ç‚¹åŠ¨ç”» å¾—åˆ°æ¨¡å‹ç©ºé—´ä½ç½®ä¸æ³•çº¿
 	getEntitySpacePositionAndNormal(entitySpacePosition, entitySpaceNormal);
 
-	// ·Å´óÂÖÀª
+	// æ”¾å¤§è½®å»“
 	vec3 vertexDir = normalize(entitySpacePosition.xyz - vec3(0.0, 0.5, 0.0));
 	entitySpacePosition.xyz += vertexDir * DRAWLINE_PARAM.a;
 
-	// ±ä»»µ½Í¶Ó°¿Õ¼ä
+	// å˜æ¢åˆ°æŠ•å½±ç©ºé—´
 	POS4 projSpacePos = WORLDVIEWPROJ * entitySpacePosition;
 	gl_Position = projSpacePos;
 
-	// ¸ù¾İÍ¶Ó°Î»ÖÃ ¼ÆËãÎíµÄĞ§¹û
+	// æ ¹æ®æŠ•å½±ä½ç½® è®¡ç®—é›¾çš„æ•ˆæœ
 	fogColor = getFogColor(projSpacePos);
 }

@@ -383,9 +383,9 @@ vec2 calculateFrameAnimUV(vec2 uv, float gridRowInverse, float gridColInverse, f
 #endif
 
 /**********GLITCH**********/
-#define NoiseSize 0.20//<name:É¨ÃèÇø´óÐ¡>
-#define NoiseScrollingSpeed 0.70//<name:É¨ÃèÇøÔË¶¯ËÙ¶È>
-#define jitterDir 2.00//<name:¶¶¶¯×ø±êÖá_X0Y1Z2>
+#define NoiseSize 0.20//<name:æ‰«æåŒºå¤§å°>
+#define NoiseScrollingSpeed 0.70//<name:æ‰«æåŒºè¿åŠ¨é€Ÿåº¦>
+#define jitterDir 2.00//<name:æŠ–åŠ¨åæ ‡è½´_X0Y1Z2>
 
 varying vec2 uv2;
 /**********GLITCH**********/
