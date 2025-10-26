@@ -1228,9 +1228,6 @@
       "100%"
     ],
     "$button_type_panel|default": "settings_common.edit_options_dropdown_toggle_button_state_content",
-    "$unchecked_hover_control": "common_toggles.edit_toggle_unchecked_hover_with_chevron",
-    "$checked_hover_control": "common_toggles.toggle_checked_hover_with_chevron",
-    "$unchecked_control": "common_toggles.edit_toggle_unchecked",
     "enabled": "$enabled",
     "$toggle_enabled_binding_name|default": "$option_enabled_binding_name",
     "$toggle_enabled_binding_type|default": "global",
@@ -1240,6 +1237,37 @@
         "requires": "(not $option_enabled_binding_name or not $enabled)",
         "$toggle_enabled_binding_name": "#not_data_bound",
         "$toggle_enabled_binding_type": "none"
+      }
+    ],
+    "controls": [
+      {
+        "overall@common_toggles.edit_toggle_unchecked": {
+          "visible": true
+        }
+      },
+      {
+        "unchecked@$unchecked_control": {}
+      },
+      {
+        "checked@$checked_control": {}
+      },
+      {
+        "unchecked_hover@$unchecked_hover_control": {}
+      },
+      {
+        "checked_hover@$checked_hover_control": {}
+      },
+      {
+        "unchecked_locked@$unchecked_locked_control": {}
+      },
+      {
+        "checked_locked@$checked_locked_control": {}
+      },
+      {
+        "unchecked_locked_hover@$unchecked_locked_hover_control": {}
+      },
+      {
+        "checked_locked_hover@$checked_locked_hover_control": {}
       }
     ]
   },

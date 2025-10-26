@@ -653,6 +653,48 @@
             {
               "move.ceshi_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ceshi_run_anim_run"
             },
+            {
+              "move.cs_s6flowerdragon_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s6flowerdragon_skin_run_anim_run"
+            },
+            {
+              "move.cs_s6flowerdragon_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s6flowerdragon_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s6flowerdragon_skin_idle_anim_idle": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s6flowerdragon_skin_idle_anim_idle"
+            },
+            {
+              "move.ss_s5catgirl_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s5catgirl_skin_run_anim_run"
+            },
+            {
+              "move.ss_s5catgirl_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s5catgirl_skin_walk_anim_run"
+            },
+            {
+              "move.ss_s5catgirl_skina_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s5catgirl_skina_run_anim_run"
+            },
+            {
+              "move.ss_s5catgirl_skina_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s5catgirl_skina_walk_anim_run"
+            },
+            {
+              "move.ss_s5catgirl_skinb_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s5catgirl_skinb_run_anim_run"
+            },
+            {
+              "move.ss_s5catgirl_skinb_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s5catgirl_skinb_walk_anim_run"
+            },
+            {
+              "move.ss_s6bear_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s6bear_skin_run_anim_run"
+            },
+            {
+              "move.ss_s6bear_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s6bear_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s6firedragon_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s6firedragon_skin_run_anim_run"
+            },
+            {
+              "move.cs_s6firedragon_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s6firedragon_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s6firedragon_skin_idle_anim_idle": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s6firedragon_skin_idle_anim_idle"
+            },
             "cape",
             {
               "riding.arms": "query.is_riding && !query.mod.vip_ride && !query.mod.vip_ride_low"
