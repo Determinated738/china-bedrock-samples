@@ -4324,7 +4324,7 @@
         "parent": "waist",
         "pivot": [
           0,
-          24,
+          16,
           0
         ],
         "cubes": [
@@ -4344,6 +4344,15 @@
               24
             ]
           }
+        ]
+      },
+      {
+        "name": "jacketDown",
+        "parent": "bodyDown",
+        "pivot": [
+          0,
+          16.25,
+          0
         ]
       },
       {

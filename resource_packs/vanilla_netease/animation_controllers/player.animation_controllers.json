@@ -704,6 +704,48 @@
             {
               "move.cs_s6cyber_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s6cyber_skin_walk_anim_run"
             },
+            {
+              "move.ss_s5angel_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s5angel_skin_run_anim_run"
+            },
+            {
+              "move.ss_s5angel_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s5angel_skin_walk_anim_run"
+            },
+            {
+              "move.ss_s5angel_skina_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s5angel_skina_run_anim_run"
+            },
+            {
+              "move.ss_s5angel_skina_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s5angel_skina_walk_anim_run"
+            },
+            {
+              "move.ss_s5angel_skinb_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s5angel_skinb_run_anim_run"
+            },
+            {
+              "move.ss_s5angel_skinb_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s5angel_skinb_walk_anim_run"
+            },
+            {
+              "move.cs_s6yaksha_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s6yaksha_skin_idle_anim_idle_junei"
+            },
+            {
+              "move.cs_s6yaksha_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s6yaksha_skin_run_anim_run"
+            },
+            {
+              "move.cs_s6yaksha_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s6yaksha_skin_walk_anim_run"
+            },
+            {
+              "move.ss_s6nuncat_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s6nuncat_skin_run_anim_run"
+            },
+            {
+              "move.ss_s6nuncat_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s6nuncat_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s6jiaolong_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s6jiaolong_skin_idle_anim_idle_junei"
+            },
+            {
+              "move.cs_s6jiaolong_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s6jiaolong_skin_run_anim_run"
+            },
+            {
+              "move.cs_s6jiaolong_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s6jiaolong_skin_walk_anim_run"
+            },
             "cape",
             {
               "riding.arms": "query.is_riding && !query.mod.vip_ride && !query.mod.vip_ride_low"
@@ -737,6 +779,9 @@
             },
             {
               "riding.cs_s5fire_horse_ride": "query.mod.cs_s5fire_horse_ride"
+            },
+            {
+              "riding.cs_s6yaksha_horse_ride": "query.mod.cs_s6yaksha_horse_ride"
             },
             "holding",
             {

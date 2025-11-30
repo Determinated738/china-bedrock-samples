@@ -1,0 +1,972 @@
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 1,
+    "trackSize": 37,
+    "tracks": [
+      {
+        "bone": "bone01",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -5.168591314941295e-7,
+              -11.824359,
+              -12.716489
+            ],
+            "quaternion": [
+              0.498951,
+              0.501046,
+              0.498951,
+              0.501046
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone02",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              21.376699,
+              0,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone03",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.865382,
+              0.137412,
+              -3.022929
+            ],
+            "quaternion": [
+              0.011965,
+              0.140311,
+              -0.090881,
+              0.985855
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone04",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              5.781013,
+              0,
+              0
+            ],
+            "quaternion": [
+              0.015063,
+              0.20898,
+              0.194689,
+              0.958225
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone05",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.785069,
+              0.000003,
+              -0.000002
+            ],
+            "quaternion": [
+              0.003255,
+              -0.040594,
+              -0.244557,
+              0.968779
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone06",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.928005,
+              0,
+              9.448268087908218e-7
+            ],
+            "quaternion": [
+              -0.006788,
+              -0.251472,
+              -0.063783,
+              0.965736
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone07",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              5.08882,
+              0.143174,
+              2.567487
+            ],
+            "quaternion": [
+              -0.953841,
+              -0.169094,
+              -0.246433,
+              -0.029385
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone11",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.682548,
+              -0.930852,
+              -1.913269
+            ],
+            "quaternion": [
+              0.097902,
+              0.058943,
+              -0.025454,
+              0.993122
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone12",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              9.197719,
+              0,
+              -8.286733645945787e-7
+            ],
+            "quaternion": [
+              0.037174,
+              0.219206,
+              -0.048005,
+              0.973787
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone13",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              7.633251,
+              -0.000001,
+              0
+            ],
+            "quaternion": [
+              0.034685,
+              -0.363418,
+              -0.061976,
+              0.928914
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone14",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              11.54802,
+              -0.000003,
+              1.303128982499402e-7
+            ],
+            "quaternion": [
+              0.026349,
+              0.096879,
+              0.021838,
+              0.994707
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone15",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              6.904675,
+              -7.409358318000159e-7,
+              -0.000001
+            ],
+            "quaternion": [
+              -0.071404,
+              0.210328,
+              -0.015405,
+              0.974897
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone16",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              4.667831,
+              -0.928299,
+              1.973387
+            ],
+            "quaternion": [
+              -0.989939,
+              -0.078103,
+              -0.114042,
+              -0.030227
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone21",
+        "chanelMask": 2,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              0.018512,
+              0.06656,
+              -0.222688,
+              0.972438
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone22",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.99247,
+              -0.000002,
+              0.000001
+            ],
+            "quaternion": [
+              0.005309,
+              -0.012519,
+              0.061097,
+              0.998039
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone23",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              14.263509,
+              -0.000003,
+              0.000003
+            ],
+            "quaternion": [
+              -0.00614,
+              -0.216028,
+              0.182565,
+              0.959147
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone24",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              7.525705,
+              0,
+              -0.000002
+            ],
+            "quaternion": [
+              0.000808,
+              0.002226,
+              -0.244185,
+              0.969725
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone25",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.379699,
+              0,
+              -0.000001
+            ],
+            "quaternion": [
+              -0.038755,
+              0.325911,
+              -0.116614,
+              0.937379
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone26",
+        "chanelMask": 2,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "quaternion": [
+              -0.995436,
+              0.093644,
+              0.018142,
+              -0.002919
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone30",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              0.405441,
+              0.429984,
+              0
+            ],
+            "quaternion": [
+              0,
+              0,
+              0.990412,
+              0.138142
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone32",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.17926,
+              2.045814,
+              -5.012879
+            ],
+            "quaternion": [
+              -0.264973,
+              -0.114142,
+              0.928212,
+              0.234908
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone34",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              7.886276,
+              -1.58649,
+              -3.903725
+            ],
+            "quaternion": [
+              0.628875,
+              -0.089713,
+              -0.433208,
+              0.639373
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone35",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              1.741612,
+              0.000002,
+              0.000001
+            ],
+            "quaternion": [
+              -0.095997,
+              -0.14701,
+              -0.699859,
+              0.692364
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone36",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.962259,
+              0.000002,
+              0.000001
+            ],
+            "quaternion": [
+              0.108533,
+              0.110653,
+              0.751854,
+              0.640852
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone37",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              1.308642,
+              0.000001,
+              9.320879144070204e-7
+            ],
+            "quaternion": [
+              -0.260318,
+              -0.200289,
+              -0.737622,
+              0.589941
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone42",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.845062,
+              2.568896,
+              -6.222836
+            ],
+            "quaternion": [
+              -0.098145,
+              0.187585,
+              0.215494,
+              0.953279
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone43",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.408514,
+              1.480656,
+              -6.259678
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone44",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.627666,
+              -5.569897325585771e-7,
+              -0.000003
+            ],
+            "quaternion": [
+              -0.046983,
+              0.035621,
+              0.003655,
+              0.998253
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone45",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              18.094419,
+              4.285215,
+              -6.60463
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone46",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              3.88431,
+              7.520430358454178e-7,
+              -7.987255230545998e-7
+            ],
+            "quaternion": [
+              0.036353,
+              0.069988,
+              -0.309792,
+              0.947527
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone47",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.408514,
+              1.480656,
+              6.259678
+            ],
+            "quaternion": [
+              -0.92196,
+              0.215532,
+              -0.286323,
+              -0.146813
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone50",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              18.09443,
+              4.285219,
+              6.604623
+            ],
+            "quaternion": [
+              -0.927232,
+              -0.328969,
+              -0.174794,
+              -0.038294
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone52",
+        "chanelMask": 1,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              3.257448,
+              -4.863976,
+              -0.000001
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone53",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              6.181674,
+              5.536542,
+              6.418992
+            ],
+            "quaternion": [
+              0.077975,
+              -0.212986,
+              0.334831,
+              0.914573
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone54",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              9.364521,
+              5.648035,
+              7.335699
+            ],
+            "quaternion": [
+              0.040986,
+              -0.223795,
+              0.175422,
+              0.957842
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone55",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              7.749267,
+              -0.620647,
+              -1.278504
+            ],
+            "quaternion": [
+              -0.002412,
+              0.101607,
+              0.023614,
+              0.994541
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone56",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              6.539817,
+              0.694066,
+              -5.857501
+            ],
+            "quaternion": [
+              -0.004551,
+              0.159343,
+              0.028188,
+              0.98681
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

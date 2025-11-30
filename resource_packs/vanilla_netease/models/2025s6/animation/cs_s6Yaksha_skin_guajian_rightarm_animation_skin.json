@@ -1,0 +1,36 @@
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 3.333333,
+    "trackSize": 1,
+    "tracks": [
+      {
+        "bone": "rightarm_NTES",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              -5.442489,
+              -0.016388,
+              -24.022619
+            ],
+            "quaternion": [
+              -0.5,
+              -0.499999,
+              -0.5,
+              0.499999
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
