@@ -601,8 +601,8 @@ LAYOUT_BINDING(2) uniform sampler2D TEXTURE_2; // inside_color
 LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // small01
 
 #define GLITTER_COLOR vec3(255.0,255.0,255.0)//<name:闪点颜色,color:255>
-#define TWICE_MORE_SPARKLE 1.0000//<name:开启双层闪点>
-#define GLITTER_INTENSITY 10.0000//<name:闪点亮度>
+#define TWICE_MORE_SPARKLE 0.0000//<name:开启双层闪点>
+#define GLITTER_INTENSITY 1000.0000//<name:闪点亮度>
 #define GLITTER_SIZE 0.0010//<name:闪点大小>
 
 #define MASK_UV_SCALE0 vec2(5.0,5.0)//<name:遮罩0缩放>
@@ -614,7 +614,7 @@ LAYOUT_BINDING(3) uniform sampler2D TEXTURE_3; // small01
 #define INSIDE_NOISE_UV_SCALE vec2(4.0,4.0)//<name:内部色缩放>
 #define INSIDE_NOISE_UV_FLOW vec2(0.0,0.0)//<name:内部流动>
 
-#define IS_USE_ALPHA 0.0000//<name:是否使用透明度>
+#define IS_USE_ALPHA 0.2000//<name:是否使用透明度>
 #define EMISSIVE_SHADER_ENABLED 1.0000//<name:内部发光>
 #define EMISSIVE_BASECOLOR_ENABLED 1.0000//<name:本体发光>
 

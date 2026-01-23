@@ -2057,10 +2057,10 @@
       0
     ],
     "$label_text": "移除成员",
-    "$nine_slice_buttom": 0,
-    "$nine_slice_left": 0,
-    "$nine_slice_right": 0,
-    "$nine_slice_top": 0,
+    "$nine_slice_buttom": 15,
+    "$nine_slice_left": 15,
+    "$nine_slice_right": 15,
+    "$nine_slice_top": 15,
     "$nineslice_size": [
       0,
       0,
@@ -2130,10 +2130,10 @@
             0
           ],
           "$label_text": "邀请好友",
-          "$nine_slice_buttom": 0,
-          "$nine_slice_left": 0,
-          "$nine_slice_right": 0,
-          "$nine_slice_top": 0,
+          "$nine_slice_buttom": 15,
+          "$nine_slice_left": 15,
+          "$nine_slice_right": 15,
+          "$nine_slice_top": 15,
           "$nineslice_size": [
             0,
             0,
@@ -2275,7 +2275,7 @@
       {
         "horizontal_padding1@pause.horizontal_padding": {
           "size": [
-            "4px",
+            "1px",
             0
           ]
         }
@@ -2289,7 +2289,7 @@
         "horizontal_padding@pause.horizontal_padding": {
           "ignored": "($is_netease)",
           "size": [
-            "4px",
+            "1px",
             0
           ]
         }
@@ -2300,7 +2300,7 @@
       {
         "horizontal_padding@pause.horizontal_padding": {
           "size": [
-            "4px",
+            "1px",
             0
           ]
         }

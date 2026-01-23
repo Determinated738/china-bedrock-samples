@@ -1780,7 +1780,19 @@
     "is_showing_menu": true,
     "render_game_behind": true,
     "render_only_when_topmost": true,
-    "should_steal_mouse": false
+    "should_steal_mouse": false,
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "key.emote",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ]
   },
   "tag_img": {
     "anchor_from": "top_middle",

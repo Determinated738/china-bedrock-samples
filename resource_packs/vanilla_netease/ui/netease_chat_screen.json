@@ -34,6 +34,45 @@
     ],
     "texture": "textures/ui/paste"
   },
+  "tab_image_panel": {
+    "type": "panel",
+    "size": [
+      17,
+      17
+    ],
+    "controls": [
+      {
+        "host_image@host_options.button_label": {
+          "$button_text_color": "$text_color",
+          "$button_text": "Tab"
+        }
+      }
+    ]
+  },
+  "up_image": {
+    "type": "image",
+    "size": [
+      14,
+      14
+    ],
+    "texture": "textures/ui/btn_category_down_arrow"
+  },
+  "down_image": {
+    "type": "image",
+    "size": [
+      14,
+      14
+    ],
+    "texture": "textures/ui/btn_category_up_arrow"
+  },
+  "voice_image": {
+    "type": "image",
+    "size": [
+      14,
+      14
+    ],
+    "texture": "textures/netease/voice_trans/icon02@3x"
+  },
   "gear_image": {
     "type": "image",
     "size": [
@@ -257,6 +296,86 @@
       },
       {
         "button_label@netease_chat.button_label": {}
+      },
+      {
+        "line_image": {
+          "property_bag": {
+            "#netease_chat_name_line": 0
+          },
+          "bindings": [
+            {
+              "binding_name": "#netease_chat_name_line",
+              "binding_name_override": "#alpha"
+            }
+          ],
+          "nineslice_size": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "layer": "$texture_layer",
+          "texture": "textures/ui/White",
+          "is_new_nine_slice": true,
+          "keep_ratio": false,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "offset": [
+            1,
+            -1
+          ],
+          "size": [
+            "100%sm-6px",
+            0.5
+          ],
+          "type": "image",
+          "visible": true
+        }
+      },
+      {
+        "line_image2": {
+          "property_bag": {
+            "#netease_chat_name_line": 0
+          },
+          "bindings": [
+            {
+              "binding_name": "#netease_chat_name_line",
+              "binding_name_override": "#alpha"
+            }
+          ],
+          "nineslice_size": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "layer": "$texture_layer",
+          "texture": "textures/ui/White",
+          "is_new_nine_slice": true,
+          "keep_ratio": false,
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "offset": [
+            1.5,
+            -0.5
+          ],
+          "size": [
+            "100%sm-6px",
+            0.5
+          ],
+          "type": "image",
+          "visible": true
+        }
       }
     ],
     "default_control": "default",
@@ -274,6 +393,32 @@
     ],
     "type": "button",
     "visible": true
+  },
+  "tab_button@common_buttons.light_text_form_fitting_button": {
+    "size": [
+      27,
+      27
+    ],
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "$pressed_button_name": "button.chat_autocomplete",
+    "$button_type_panel": "netease_chat.tab_image_panel",
+    "visible": false
+  },
+  "command_up_button@netease_chat.small_button": {
+    "$button_content": "netease_chat.up_image",
+    "$pressed_button_name": "button.chat_previous_message",
+    "visible": false
+  },
+  "command_down_button@netease_chat.small_button": {
+    "$button_content": "netease_chat.down_image",
+    "$pressed_button_name": "button.chat_next_message",
+    "visible": false
+  },
+  "voice_button@netease_chat.small_button": {
+    "$button_content": "netease_chat.voice_image",
+    "$pressed_button_name": "button.voice",
+    "visible": false
   },
   "default": {
     "size": [
@@ -779,6 +924,18 @@
         }
       },
       {
+        "tab_button@netease_chat.tab_button": {}
+      },
+      {
+        "command_up_button@netease_chat.command_up_button": {}
+      },
+      {
+        "command_down_button@netease_chat.command_down_button": {}
+      },
+      {
+        "voice_button@netease_chat.voice_button": {}
+      },
+      {
         "chat_settings@netease_chat.chat_settings_button": {}
       },
       {
@@ -1007,14 +1164,6 @@
               }
             },
             {
-              "popup_dialog_factory": {
-                "type": "factory",
-                "control_ids": {
-                  "toast_message": "@chat.popup_toast"
-                }
-              }
-            },
-            {
               "chat_header_content_area": {
                 "type": "stack_panel",
                 "orientation": "horizontal",
@@ -1131,8 +1280,513 @@
             }
           ]
         }
+      },
+      {
+        "friends_button@netease_chat.friends_button": {}
+      },
+      {
+        "bg_left": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_right",
+          "type": "image",
+          "texture": "textures/ui/StoreTopBar",
+          "size": [
+            50,
+            23
+          ]
+        }
+      },
+      {
+        "bg_right": {
+          "anchor_from": "top_right",
+          "anchor_to": "top_left",
+          "type": "image",
+          "texture": "textures/ui/StoreTopBar",
+          "size": [
+            50,
+            23
+          ]
+        }
       }
     ]
+  },
+  "friends_button@common.button": {
+    "type": "button",
+    "$control_alpha": 1,
+    "$default_texture": "textures/ui/chat/friends_default",
+    "$hover_texture": "textures/ui/chat/friends_hover",
+    "$is_new_nine_slice": false,
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      2,
+      1,
+      1,
+      4
+    ],
+    "$pressed_button_name": "%netease_editor_template_namespace.click",
+    "$pressed_texture": "textures/ui/chat/friends_pressed",
+    "$texture_layer": 2,
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [
+      70,
+      "default"
+    ],
+    "button_mappings": [],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": false,
+    "pressed_control": "pressed",
+    "visible": false,
+    "controls": [
+      {
+        "default@netease_editor_template_namespace.default": {
+          "color": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "hover@netease_editor_template_namespace.hover": {
+          "color": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "pressed@netease_editor_template_namespace.pressed": {
+          "color": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "friend_panel": {
+          "type": "stack_panel",
+          "offset": [
+            0,
+            -1
+          ],
+          "size": [
+            "100%c+0px",
+            "100%cm+0px"
+          ],
+          "layer": 7,
+          "orientation": "horizontal",
+          "controls": [
+            {
+              "friend_icon": {
+                "type": "image",
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle",
+                "size": [
+                  14,
+                  14
+                ],
+                "layer": 1,
+                "texture": "textures/ui/chat/friends"
+              }
+            },
+            {
+              "label_text_panel": {
+                "type": "panel",
+                "size": [
+                  "100%c+6px",
+                  14
+                ],
+                "layer": 2,
+                "controls": [
+                  {
+                    "label": {
+                      "type": "label",
+                      "anchor_from": "right_middle",
+                      "anchor_to": "right_middle",
+                      "layer": 1,
+                      "color": [
+                        0.2470588235294118,
+                        0.2549019607843137,
+                        0.2392156862745098
+                      ],
+                      "font_type": "default",
+                      "text": "neteaseChat.friends.text",
+                      "text_alignment": "center"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hint": {
+          "type": "image",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [
+            6,
+            6
+          ],
+          "layer": 12,
+          "keep_ratio": false,
+          "texture": "textures/ui/button_red",
+          "visible": false
+        }
+      }
+    ]
+  },
+  "voice_popups_panel": {
+    "type": "image",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      "30%+0px",
+      -30
+    ],
+    "size": [
+      142,
+      81
+    ],
+    "layer": 1,
+    "texture": "textures/ui/dialog_background_hollow_3",
+    "visible": false,
+    "controls": [
+      {
+        "bg": {
+          "type": "image",
+          "size": [
+            "100%+-4px",
+            "100%+-4px"
+          ],
+          "layer": -1,
+          "alpha": 0.6,
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "keep_ratio": false,
+          "texture": "textures/ui/control_white"
+        }
+      },
+      {
+        "close_button@common.button": {
+          "$is_new_nine_slice": false,
+          "$nine_slice_buttom": 0,
+          "$nine_slice_left": 0,
+          "$nine_slice_right": 0,
+          "$nine_slice_top": 0,
+          "$nineslice_size": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "$default_texture": "textures/ui/close_button_default",
+          "$hover_texture": "textures/ui/close_button_hover",
+          "$label_color": [
+            1,
+            1,
+            1
+          ],
+          "$pressed_button_name": "",
+          "$pressed_texture": "textures/ui/close_button_pressed",
+          "$texture_layer": 2,
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "button_mappings": [],
+          "controls": [
+            {
+              "default@netease_chat.default": {
+                "size": [
+                  "100%+0px",
+                  "100%+0px"
+                ]
+              }
+            },
+            {
+              "hover@netease_chat.hover": {
+                "size": [
+                  "100%+0px",
+                  "100%+0px"
+                ]
+              }
+            },
+            {
+              "pressed@netease_chat.pressed": {
+                "size": [
+                  "100%+0px",
+                  "100%+0px"
+                ]
+              }
+            }
+          ],
+          "default_control": "default",
+          "hover_control": "hover",
+          "is_handle_button_move_event": false,
+          "layer": 2,
+          "offset": [
+            -5,
+            5
+          ],
+          "pressed_control": "pressed",
+          "size": [
+            15,
+            15
+          ]
+        }
+      },
+      {
+        "label": {
+          "type": "label",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            7
+          ],
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "font_type": "unicode",
+          "text": "neteaseChat.voice_popup.title"
+        }
+      },
+      {
+        "setting_panel": {
+          "type": "stack_panel",
+          "offset": [
+            0,
+            6
+          ],
+          "size": [
+            "100%cm+0px",
+            "100%c+0px"
+          ],
+          "layer": 0,
+          "controls": [
+            {
+              "say": {
+                "type": "panel",
+                "size": [
+                  "100%c+0px",
+                  "100%cm+0px"
+                ],
+                "layer": 0,
+                "controls": [
+                  {
+                    "switch_button@common.button": {
+                      "type": "button",
+                      "$control_alpha": 1,
+                      "$default_texture": "textures/ui/toggle_off",
+                      "$hover_texture": "textures/ui/toggle_off_hover",
+                      "$is_new_nine_slice": false,
+                      "$nine_slice_buttom": 0,
+                      "$nine_slice_left": 0,
+                      "$nine_slice_right": 0,
+                      "$nine_slice_top": 0,
+                      "$nineslice_size": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "$pressed_button_name": "%netease_editor_template_namespace.click",
+                      "$pressed_texture": "textures/ui/toggle_off_hover",
+                      "$texture_layer": 2,
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "size": [
+                        30,
+                        20
+                      ],
+                      "button_mappings": [],
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "is_handle_button_move_event": true,
+                      "pressed_control": "pressed",
+                      "propagate_alpha": true,
+                      "controls": [
+                        {
+                          "default@netease_editor_template_namespace.default": {}
+                        },
+                        {
+                          "hover@netease_editor_template_namespace.hover": {}
+                        },
+                        {
+                          "pressed@netease_editor_template_namespace.pressed": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "label": {
+                      "type": "label",
+                      "anchor_from": "right_middle",
+                      "anchor_to": "right_middle",
+                      "font_type": "unicode",
+                      "text": "neteaseChat.voice_popup.say",
+                      "text_alignment": "center"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "listen": {
+                "type": "panel",
+                "size": [
+                  "100%c+0px",
+                  "100%cm+0px"
+                ],
+                "layer": 1,
+                "controls": [
+                  {
+                    "switch_button@common.button": {
+                      "type": "button",
+                      "$control_alpha": 1,
+                      "$default_texture": "textures/ui/toggle_off",
+                      "$hover_texture": "textures/ui/toggle_off_hover",
+                      "$is_new_nine_slice": false,
+                      "$nine_slice_buttom": 0,
+                      "$nine_slice_left": 0,
+                      "$nine_slice_right": 0,
+                      "$nine_slice_top": 0,
+                      "$nineslice_size": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "$pressed_button_name": "%netease_editor_template_namespace.click",
+                      "$pressed_texture": "textures/ui/toggle_off_hover",
+                      "$texture_layer": 2,
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "size": [
+                        30,
+                        20
+                      ],
+                      "button_mappings": [],
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "is_handle_button_move_event": true,
+                      "pressed_control": "pressed",
+                      "propagate_alpha": true,
+                      "controls": [
+                        {
+                          "default@netease_editor_template_namespace.default": {}
+                        },
+                        {
+                          "hover@netease_editor_template_namespace.hover": {}
+                        },
+                        {
+                          "pressed@netease_editor_template_namespace.pressed": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "label": {
+                      "type": "label",
+                      "anchor_from": "right_middle",
+                      "anchor_to": "right_middle",
+                      "font_type": "unicode",
+                      "text": "neteaseChat.voice_popup.listen",
+                      "text_alignment": "center"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "game_tip": {
+    "type": "image",
+    "texture": "textures/ui/gameTipBorder",
+    "layer": 50,
+    "min_size": [
+      "default",
+      30
+    ],
+    "size": [
+      "100%c",
+      "100%cm"
+    ],
+    "offset": [
+      10,
+      -40
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "alpha": "@netease_chat.game_tips_alpha_0_1",
+    "propagate_alpha": true,
+    "visible": false,
+    "controls": [
+      {
+        "game_tip_label": {
+          "type": "label",
+          "layer": 1,
+          "text_alignment": "left",
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "max_size": [
+            120,
+            100
+          ],
+          "line_padding": 1.5,
+          "text": ""
+        }
+      },
+      {
+        "arrow_image": {
+          "type": "image",
+          "anchor_from": "bottom_left",
+          "anchor_to": "top_left",
+          "texture": "textures/ui/gameTipArrow_down",
+          "keep_ratio": false,
+          "size": [
+            20,
+            12
+          ],
+          "offset": [
+            2,
+            -3
+          ]
+        }
+      }
+    ]
+  },
+  "game_tips_alpha_0_1": {
+    "anim_type": "alpha",
+    "duration": 0.5,
+    "from": 0,
+    "next": "@netease_chat.game_tips_alpha_1_wait",
+    "to": 1
+  },
+  "game_tips_alpha_1_wait": {
+    "anim_type": "alpha",
+    "duration": 3,
+    "from": 1,
+    "next": "",
+    "to": 1
   },
   "netease_chat_screen@common.base_screen": {
     "close_on_player_hurt": true,
@@ -1253,6 +1907,12 @@
             "player_tips": "@player_tips.player_panel"
           }
         }
+      },
+      {
+        "voice_popups_panel@netease_chat.voice_popups_panel": {}
+      },
+      {
+        "game_tip@netease_chat.game_tip": {}
       }
     ]
   },

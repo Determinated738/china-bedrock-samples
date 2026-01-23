@@ -91,7 +91,7 @@
                         "100.0%+0.0px",
                         "100.0%+0.0px"
                       ],
-                      "texture": "textures/ui/nor",
+                      "texture": "textures/ui/btn_01",
                       "type": "image"
                     }
                   },
@@ -104,8 +104,8 @@
                       },
                       "renderer": "inventory_item_renderer",
                       "size": [
-                        "90.0%+0.0px",
-                        "90.0%+0.0px"
+                        "70.0%+0.0px",
+                        "70.0%+0.0px"
                       ],
                       "type": "custom"
                     }
@@ -119,8 +119,22 @@
                         "75.0%+0.0px",
                         "75.0%+0.0px"
                       ],
-                      "texture": "textures/ui/nor",
+                      "texture": "textures/ui/btn_01",
                       "type": "image"
+                    }
+                  },
+                  {
+                    "selectFrame": {
+                      "type": "image",
+                      "texture": "textures/ui/btn_selected",
+                      "clip_direction": "left",
+                      "clip_ratio": 0,
+                      "layer": 10,
+                      "size": [
+                        "100.0%+0.0px",
+                        "100.0%+0.0px"
+                      ],
+                      "visible": false
                     }
                   }
                 ],

@@ -2236,12 +2236,18 @@
       {
         "netease_multiplayer_game_allow_pc_toggle@settings_common.option_toggle": {
           "$option_binding_name": "#netease_multiplayer_game_allow_pc_toggle",
-          "$option_label": "netease.multiplayer.allow_pc_toggle",
+          "$option_label": "#text",
           "$toggle_name": "netease_multiplayer_game_allow_pc_toggle",
           "bindings": [
             {
               "binding_name": "#netease_multiplayer_game_enable",
               "binding_name_override": "#enabled"
+            }
+          ],
+          "$label_bindings": [
+            {
+              "binding_name": "#netease_multiplayer_game_allow_pc_toggle_label",
+              "binding_name_override": "#text"
             }
           ]
         }

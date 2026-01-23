@@ -177,7 +177,7 @@
                 ],
                 "controls": [
                   {
-                    "report_options_panel@report.report_options_panel": {}
+                    "report_options_with_voice_panel@report.report_options_with_voice_panel": {}
                   }
                 ]
               }
@@ -256,7 +256,7 @@
       }
     ]
   },
-  "report_options_panel": {
+  "report_options_with_voice_panel": {
     "type": "panel",
     "size": [
       "100%",
@@ -269,7 +269,7 @@
           "text": "玩家名称：",
           "offset": [
             "5%",
-            "15%-3px"
+            "10%-3px"
           ],
           "size": [
             50,
@@ -297,7 +297,7 @@
           ],
           "offset": [
             "5%+50px",
-            "15%-8px"
+            "10%-8px"
           ],
           "anchor_to": "top_left",
           "anchor_from": "top_left",
@@ -362,7 +362,7 @@
           "text": "#pn_title",
           "offset": [
             "5%+70px",
-            "15%-3px"
+            "10%-3px"
           ],
           "size": [
             100,
@@ -380,16 +380,70 @@
         }
       },
       {
-        "inner_friend_panel@report.inner_friend_panel": {}
+        "options_panel_normal": {
+          "type": "panel",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "bindings": [
+            {
+              "binding_name": "(not #voice_feature_visible)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "inner_friend_panel@report.inner_friend_panel": {}
+            },
+            {
+              "inner_report_panel@report.inner_report_panel": {}
+            },
+            {
+              "inner_shield_panel@report.inner_shield_panel": {}
+            },
+            {
+              "inner_kick_panel@report.inner_kick_panel": {}
+            }
+          ]
+        }
       },
       {
-        "inner_report_panel@report.inner_report_panel": {}
-      },
-      {
-        "inner_shield_panel@report.inner_shield_panel": {}
-      },
-      {
-        "inner_kick_panel@report.inner_kick_panel": {}
+        "options_panel_with_voice": {
+          "type": "panel",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "bindings": [
+            {
+              "binding_name": "#voice_feature_visible",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "scrolling_panel@common.scrolling_panel": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  "-20%",
+                  "15%"
+                ],
+                "size": [
+                  "100%",
+                  "80%"
+                ],
+                "$show_background": false,
+                "$scrolling_content": "report.voice_options_content_panel",
+                "$scroll_size": [
+                  5,
+                  "100% - 4px"
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   },
@@ -475,6 +529,173 @@
     "$b_text": "netease.report.option.kick",
     "$panel_prefix": "kick"
   },
+  "voice_options_content_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "inner_friend_panel_voice@report.inner_friend_panel_voice": {}
+      },
+      {
+        "inner_report_panel_voice@report.inner_report_panel_voice": {}
+      },
+      {
+        "inner_shield_panel_voice@report.inner_shield_panel_voice": {}
+      },
+      {
+        "inner_shield_voice_panel@report.inner_shield_voice_panel": {}
+      },
+      {
+        "inner_shield_ban_voice_panel@report.inner_shield_ban_voice_panel": {}
+      },
+      {
+        "inner_kick_panel_voice@report.inner_kick_panel_voice": {}
+      }
+    ]
+  },
+  "inner_friend_panel_voice@report.inner_panel_template": {
+    "offset": [
+      "-20%",
+      0
+    ],
+    "$option_name": "netease.report.text.friend",
+    "$bp_name": "button.report_friend",
+    "$b_text": "netease.report.option.friend",
+    "$panel_prefix": "friend"
+  },
+  "inner_report_panel_voice@report.inner_panel_template": {
+    "offset": [
+      "-20%",
+      0
+    ],
+    "$option_name": "netease.report.text.report",
+    "$bp_name": "button.report_report",
+    "$b_text": "netease.report.option.report",
+    "$panel_prefix": "report"
+  },
+  "inner_shield_panel_voice": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "offset": [
+      "-20%",
+      0
+    ],
+    "$panel_prefix": "shield",
+    "controls": [
+      {
+        "option_label@report.option_label": {
+          "$option_name": "netease.report.text.shield"
+        }
+      },
+      {
+        "option_toggle@report.option_toggle": {
+          "size": [
+            "50%",
+            28
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle"
+        }
+      }
+    ]
+  },
+  "inner_shield_voice_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "offset": [
+      "-20%",
+      0
+    ],
+    "$panel_prefix": "shield_voice",
+    "controls": [
+      {
+        "option_label@report.option_label": {
+          "$option_name": "netease.report.voice.shield"
+        }
+      },
+      {
+        "option_toggle@report.option_toggle": {
+          "$toggle_name": "shield_voice_toggle",
+          "$toggle_state_binding_name": "#shield_voice_toggle_state",
+          "size": [
+            "50%",
+            28
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle"
+        }
+      }
+    ]
+  },
+  "inner_shield_ban_voice_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "offset": [
+      "-20%",
+      0
+    ],
+    "$panel_prefix": "ban_voice",
+    "controls": [
+      {
+        "option_label@report.option_label": {
+          "$option_name": "netease.report.voice.ban"
+        }
+      },
+      {
+        "option_toggle@report.option_toggle": {
+          "$toggle_name": "ban_voice_toggle",
+          "$toggle_state_binding_name": "#ban_voice_toggle_state",
+          "size": [
+            "50%",
+            28
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle"
+        }
+      }
+    ]
+  },
+  "inner_kick_panel_voice@report.inner_panel_template": {
+    "offset": [
+      "-20%",
+      0
+    ],
+    "$option_name": "netease.report.text.kick",
+    "$bp_name": "button.report_kick",
+    "$b_text": "netease.report.option.kick",
+    "$panel_prefix": "kick"
+  },
   "vertical_padding": {
     "type": "panel",
     "size": [
@@ -508,6 +729,16 @@
       },
       {
         "other_panel@report.other_panel": {}
+      },
+      {
+        "voice_report_panel@report.voice_report_panel": {
+          "bindings": [
+            {
+              "binding_name": "#voice_feature_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
       }
     ]
   },
@@ -755,7 +986,7 @@
     ],
     "offset": [
       0,
-      "30%"
+      "25%"
     ],
     "$panel_prefix": "language_violence",
     "$option_name": "netease.report.report.option.language_violence"
@@ -767,7 +998,7 @@
     ],
     "offset": [
       "50%",
-      "30%"
+      "25%"
     ],
     "$panel_prefix": "bad_information",
     "$option_name": "netease.report.report.option.bad_information"
@@ -779,7 +1010,7 @@
     ],
     "offset": [
       0,
-      "60%"
+      "50%"
     ],
     "$panel_prefix": "game_plug",
     "$option_name": "netease.report.report.option.game_plug"
@@ -791,10 +1022,22 @@
     ],
     "offset": [
       "50%",
-      "60%"
+      "50%"
     ],
     "$panel_prefix": "other",
     "$option_name": "netease.report.report.option.other"
+  },
+  "voice_report_panel@report.toggle_template_panel": {
+    "size": [
+      "50%",
+      "20%"
+    ],
+    "offset": [
+      0,
+      "75%"
+    ],
+    "$panel_prefix": "voice_report",
+    "$option_name": "netease.report.report.option.voice_report"
   },
   "top_bar": {
     "type": "image",
@@ -1079,6 +1322,46 @@
                 ]
               }
             }
+          ]
+        }
+      },
+      {
+        "icon_panel_voice": {
+          "type": "panel",
+          "layer": 1,
+          "size": [
+            "100%c",
+            "100%"
+          ],
+          "controls": [
+            {
+              "dropdown_icon_image": {
+                "type": "image",
+                "texture": "textures/gui/newgui/voice_icon03.png",
+                "size": [
+                  15,
+                  15
+                ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#player_is_speaking",
+              "binding_type": "collection",
+              "binding_collection_name": "players_collection",
+              "binding_name_override": "#visible",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      },
+      {
+        "player_button_padding_2": {
+          "type": "panel",
+          "size": [
+            4,
+            0
           ]
         }
       },

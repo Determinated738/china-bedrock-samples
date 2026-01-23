@@ -12,4 +12,4 @@ To provide an easier way for users to access the latest game assets without need
 
 ## What version is this based on?
 
-The current information is based on 3.6.15 iOS version of the game.
+The current information is based on 3.6.50 iOS version of the game.

@@ -1,0 +1,62 @@
+{
+  "animation": {
+    "name": "Take 001",
+    "ID": "UANI",
+    "length": 3.333333,
+    "trackSize": 2,
+    "tracks": [
+      {
+        "bone": "bone_06",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              2.716171,
+              0,
+              1.8098140230904392e-7
+            ],
+            "quaternion": [
+              0,
+              0,
+              -0.255311,
+              0.966858
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "bone": "bone_07",
+        "chanelMask": 3,
+        "keyFramesSize": 1,
+        "keyframes": [
+          {
+            "time": 0,
+            "pos": [
+              8.688709,
+              0.066595,
+              4.812697
+            ],
+            "quaternion": [
+              -0.350629,
+              -0.614051,
+              -0.614051,
+              0.350629
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
