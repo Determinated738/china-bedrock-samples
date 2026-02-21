@@ -1,0 +1,84 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "24.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "75.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "1.0 -0.5 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.30000000000000004 1.2000000000000002 2.7755575615628914e-17"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "4"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "0.27 0.27",
+      "min": "0.2 0.2"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_lz01",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_lz01"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "2.4",
+      "min": "1.6"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

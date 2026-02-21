@@ -1,0 +1,85 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2411",
+        "time": "8.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1161",
+        "time": "49.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "83.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "delay": 2.9,
+    "direction": {
+      "max": "-0.2 1.0 -0.1",
+      "min": "0.2 0.0 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 9,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "3.0 6.0",
+      "min": "3.0 6.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2025s7/CS_s7BaiGu_skin_birth_ctlz2"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.75",
+      "min": "0.75"
+    },
+    "velocity": {
+      "max": "10.0",
+      "min": "10.0"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "colorfade": [
+      {
+        "color": "0.8157 0.9882 1.0000 0.0982",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8706 0.9882 1.0000 1.0000",
+        "time": "14.2%"
+      },
+      {
+        "color": "0.8941 0.9922 1.0000 0.6696",
+        "time": "69.7%"
+      },
+      {
+        "color": "0.8980 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "delay": 0.3,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.1 0.8"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "offsetInCamera": {
+      "value": "-1.0"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.2 0.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.4 0.4",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.0 2.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "1",
+        "name": "textures/sfxs/2025s7/ss_s6Mechanical_Craft_yd",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/ss_s6Mechanical_Craft_yd"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "3.0"
+    }
+  }
+}

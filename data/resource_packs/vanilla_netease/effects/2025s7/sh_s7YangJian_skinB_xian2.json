@@ -1,0 +1,121 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.1490 0.1490 1.0000",
+        "time": "11.6%"
+      },
+      {
+        "color": "1.0000 0.7725 0.2431 1.0000",
+        "time": "19.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "24.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "81.6%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterpath": [
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 -23.0 5.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 -17.0 -100.0",
+        "time": "0.5"
+      },
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 17.0 -100.0",
+        "time": "0.5"
+      },
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 23.0 170.0",
+        "time": "1.0"
+      },
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 -23.0 5.0",
+        "time": "1.0"
+      }
+    ],
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "111"
+    },
+    "particlesize": {
+      "max": "0.05 0.6",
+      "min": "0.03 0.4"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.76 0.76",
+        "time": "24.0%"
+      },
+      {
+        "scale": "0.68 0.68",
+        "time": "54.7%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_xian1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_xian1"
+    },
+    "timetolive": {
+      "max": "2.5",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.8",
+      "min": "0.8"
+    }
+  }
+}

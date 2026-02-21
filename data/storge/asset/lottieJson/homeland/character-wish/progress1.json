@@ -1,0 +1,5299 @@
+{
+  "v": "5.6.9",
+  "fr": 30,
+  "ip": 60,
+  "op": 96,
+  "w": 512,
+  "h": 512,
+  "nm": "预合成 6",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 612,
+      "h": 792,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmQAAAMYAgMAAAAY6BMhAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAADFBMVEVHcEz7/vX9//v////xA+iKAAAAA3RSTlMAGUAXqixWAAABNElEQVR42u3WMW6DQBAFUFYiPUgh5yESB0gkrwsfwIXv49pVkNgmRyThAO6/kvdO8PWZYafrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4JlxWUKDja/zHJmsTPUzM9hY6ymzs5drq2NisL7e2j2ys/LW2hY5aOW8bttH5Ne8PPZbHRI7u3zvLbKz8UhWu9TOTplzdiSbIzt77Jm7OZzXtWX+z6bWviI766bf1+k9s7Prdh8iOyuxV9BS61Iyz+1yiry2h64MpY9srO/6zPnnT5lzg83HgsaynQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8oPzvsrgEp9G10AAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 612,
+      "h": 792,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    },
+    {
+      "id": "image_2",
+      "w": 612,
+      "h": 792,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    },
+    {
+      "id": "comp_0",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": -4,
+                  "s": [
+                    410.75,
+                    253.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -31.64,
+                    29.362,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 3,
+                  "s": [
+                    477.081,
+                    222.067,
+                    0
+                  ],
+                  "to": [
+                    17.468,
+                    -16.21,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 14,
+                  "s": [
+                    508.125,
+                    192.5,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 32,
+                  "s": [
+                    528.75,
+                    175.125,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": -4,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 14,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 32,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 3,
+          "op": 40,
+          "st": -4,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": -3,
+                  "s": [
+                    410.75,
+                    253.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -31.64,
+                    29.362,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 4,
+                  "s": [
+                    458.081,
+                    211.567,
+                    0
+                  ],
+                  "to": [
+                    17.468,
+                    -16.21,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 12,
+                  "s": [
+                    500.125,
+                    179.5,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 26,
+                  "s": [
+                    520.75,
+                    162.125,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": -3,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 12,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 26,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 4,
+          "op": 41,
+          "st": -3,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    400.25,
+                    256.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    7.906,
+                    -17.749,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    382.581,
+                    322.317,
+                    0
+                  ],
+                  "to": [
+                    -11.794,
+                    26.479,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 32,
+                  "s": [
+                    351.97,
+                    404.084,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 32,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    420.25,
+                    259.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    7.906,
+                    -17.749,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    402.581,
+                    325.317,
+                    0
+                  ],
+                  "to": [
+                    -11.794,
+                    26.479,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    371.97,
+                    407.084,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    414.75,
+                    246.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    13.906,
+                    -9.749,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    375.581,
+                    268.817,
+                    0
+                  ],
+                  "to": [
+                    -23.735,
+                    16.64,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 34,
+                  "s": [
+                    320.97,
+                    310.584,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 34,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 6,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    411.25,
+                    272.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    7.906,
+                    -17.749,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    393.581,
+                    338.317,
+                    0
+                  ],
+                  "to": [
+                    -11.794,
+                    26.479,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    362.97,
+                    420.084,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 7,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    421.75,
+                    273.125,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    7.906,
+                    -17.749,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    404.081,
+                    338.817,
+                    0
+                  ],
+                  "to": [
+                    -11.794,
+                    26.479,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 28,
+                  "s": [
+                    373.47,
+                    420.584,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 28,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 8,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    430.75,
+                    278.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -4.176,
+                    -18.976,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    452.581,
+                    349.317,
+                    0
+                  ],
+                  "to": [
+                    1.206,
+                    5.479,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 20,
+                  "s": [
+                    472.97,
+                    434.084,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 20,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 9,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    424.75,
+                    247.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -13.676,
+                    -20.976,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    462.081,
+                    312.317,
+                    0
+                  ],
+                  "to": [
+                    3.064,
+                    4.7,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "t": 17,
+                  "s": [
+                    490.97,
+                    373.584,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 17,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 10,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    458.25,
+                    266.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -13.676,
+                    -20.976,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    514.581,
+                    348.817,
+                    0
+                  ],
+                  "to": [
+                    3.064,
+                    4.7,
+                    0
+                  ],
+                  "ti": [
+                    -3.41,
+                    -4.292,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 12,
+                  "s": [
+                    540.97,
+                    383.584,
+                    0
+                  ],
+                  "to": [
+                    11.537,
+                    14.52,
+                    0
+                  ],
+                  "ti": [
+                    -0.5,
+                    -0.417,
+                    0
+                  ]
+                },
+                {
+                  "t": 32,
+                  "s": [
+                    565.47,
+                    421.584,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 33,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 11,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    408.25,
+                    232.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -28.176,
+                    -16.476,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    517.081,
+                    274.817,
+                    0
+                  ],
+                  "to": [
+                    4.843,
+                    2.832,
+                    0
+                  ],
+                  "ti": [
+                    -4.639,
+                    -2.92,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 12,
+                  "s": [
+                    550.97,
+                    290.584,
+                    0
+                  ],
+                  "to": [
+                    13.537,
+                    8.52,
+                    0
+                  ],
+                  "ti": [
+                    -0.333,
+                    -0.583,
+                    0
+                  ]
+                },
+                {
+                  "t": 33,
+                  "s": [
+                    598.581,
+                    315.317,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 33,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 12,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    408.25,
+                    232.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -28.176,
+                    -16.476,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    472.581,
+                    263.317,
+                    0
+                  ],
+                  "to": [
+                    18.974,
+                    11.096,
+                    0
+                  ],
+                  "ti": [
+                    -1.083,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 21,
+                  "s": [
+                    512.581,
+                    288.317,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 21,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 13,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    408.25,
+                    232.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -31.88,
+                    -7.003,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    484.081,
+                    247.817,
+                    0
+                  ],
+                  "to": [
+                    25.474,
+                    5.596,
+                    0
+                  ],
+                  "ti": [
+                    -1.083,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 19,
+                  "s": [
+                    525.581,
+                    258.817,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 19,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 14,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    442.75,
+                    226.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -43.099,
+                    2.375,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    569.081,
+                    229.817,
+                    0
+                  ],
+                  "to": [
+                    21.968,
+                    -1.21,
+                    0
+                  ],
+                  "ti": [
+                    -1.083,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 16,
+                  "s": [
+                    642.081,
+                    231.817,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 16,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 15,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    442.75,
+                    226.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -31.64,
+                    29.362,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    490.081,
+                    184.567,
+                    0
+                  ],
+                  "to": [
+                    17.468,
+                    -16.21,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    532.125,
+                    152.5,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    552.75,
+                    135.125,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 14,
+                  "s": [
+                    65,
+                    65,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 16,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    435.75,
+                    238.625,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -4.661,
+                    29.859,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    445.581,
+                    170.067,
+                    0
+                  ],
+                  "to": [
+                    2.911,
+                    -18.646,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    450.625,
+                    126.5,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    452.25,
+                    105.625,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    50,
+                    50,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 17,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    432.75,
+                    199.125,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    -4.661,
+                    29.859,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    442.581,
+                    130.567,
+                    0
+                  ],
+                  "to": [
+                    2.911,
+                    -18.646,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    447.625,
+                    87,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    449.25,
+                    66.125,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 18,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    404.25,
+                    186.125,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    9.411,
+                    18.713,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    369.081,
+                    127.067,
+                    0
+                  ],
+                  "to": [
+                    -8.999,
+                    -17.892,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    342.625,
+                    75,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    331.25,
+                    49.625,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    60,
+                    60,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 19,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    432.75,
+                    237.875,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    13.411,
+                    11.213,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    390.581,
+                    205.567,
+                    0
+                  ],
+                  "to": [
+                    -15.365,
+                    -12.846,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    368.625,
+                    189.5,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 34,
+                  "s": [
+                    354.75,
+                    179.625,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 34,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 20,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    423,
+                    229.375,
+                    0
+                  ],
+                  "to": [
+                    -1.834,
+                    -0.173,
+                    0
+                  ],
+                  "ti": [
+                    13.411,
+                    11.213,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 7,
+                  "s": [
+                    380.831,
+                    197.067,
+                    0
+                  ],
+                  "to": [
+                    -15.365,
+                    -12.846,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    358.875,
+                    181,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    345,
+                    171.125,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    55,
+                    55,
+                    100
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 21,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    418.375,
+                    229.5,
+                    0
+                  ],
+                  "to": [
+                    -3.935,
+                    -0.372,
+                    0
+                  ],
+                  "ti": [
+                    37.628,
+                    18.795,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 8,
+                  "s": [
+                    306.308,
+                    174.033,
+                    0
+                  ],
+                  "to": [
+                    -35.679,
+                    -17.821,
+                    0
+                  ],
+                  "ti": [
+                    0.385,
+                    0.345,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    267.25,
+                    155.5,
+                    0
+                  ],
+                  "to": [
+                    -0.792,
+                    -0.708,
+                    0
+                  ],
+                  "ti": [
+                    0.542,
+                    0.542,
+                    0
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    236.25,
+                    141.25,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    70,
+                    70,
+                    100
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 22,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    413,
+                    234,
+                    0
+                  ],
+                  "to": [
+                    -7.666,
+                    -0.724,
+                    0
+                  ],
+                  "ti": [
+                    45.966,
+                    3.343,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 8,
+                  "s": [
+                    299.907,
+                    217.868,
+                    0
+                  ],
+                  "to": [
+                    -36.954,
+                    -2.687,
+                    0
+                  ],
+                  "ti": [
+                    14.73,
+                    1.392,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    246.913,
+                    212.583,
+                    0
+                  ],
+                  "to": [
+                    -57.575,
+                    -5.441,
+                    0
+                  ],
+                  "ti": [
+                    0.083,
+                    0.042,
+                    0
+                  ]
+                },
+                {
+                  "t": 42,
+                  "s": [
+                    200.163,
+                    205.708,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 42,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 23,
+          "ty": 2,
+          "nm": "lizi_00067.ai",
+          "cl": "ai",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 0,
+                  "s": [
+                    413,
+                    234,
+                    0
+                  ],
+                  "to": [
+                    -7.666,
+                    -0.724,
+                    0
+                  ],
+                  "ti": [
+                    45.966,
+                    3.343,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 8,
+                  "s": [
+                    281.657,
+                    223.368,
+                    0
+                  ],
+                  "to": [
+                    -36.954,
+                    -2.687,
+                    0
+                  ],
+                  "ti": [
+                    14.73,
+                    1.392,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.833,
+                    "y": 0.833
+                  },
+                  "o": {
+                    "x": 0.167,
+                    "y": 0.167
+                  },
+                  "t": 15,
+                  "s": [
+                    224.413,
+                    219.833,
+                    0
+                  ],
+                  "to": [
+                    -57.575,
+                    -5.441,
+                    0
+                  ],
+                  "ti": [
+                    0.333,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    180.663,
+                    216.583,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                306,
+                396,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "i": {
+                    "x": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ],
+                    "y": [
+                      0.833,
+                      0.833,
+                      0.833
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ],
+                    "y": [
+                      0.167,
+                      0.167,
+                      0.167
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "t": 36,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 44,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 0,
+      "nm": "J_家园广场_角色心愿_220525",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            187,
+            259,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            372,
+            250,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "w": 744,
+      "h": 500,
+      "ip": 59,
+      "op": 103,
+      "st": 59,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "guangshu_113_00000.ai",
+      "cl": "ai",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 64,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 76,
+              "s": [
+                21.6
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 83,
+              "s": [
+                2
+              ]
+            },
+            {
+              "t": 84,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 60,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 64,
+              "s": [
+                15
+              ]
+            },
+            {
+              "t": 83,
+              "s": [
+                40
+              ]
+            }
+          ],
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            254,
+            251.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            306,
+            396,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833,
+                  0.833,
+                  0.833
+                ],
+                "y": [
+                  0.833,
+                  0.833,
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167,
+                  0.167,
+                  0.167
+                ],
+                "y": [
+                  0.167,
+                  0.167,
+                  0.167
+                ]
+              },
+              "t": 60,
+              "s": [
+                117,
+                117,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833,
+                  0.833,
+                  0.833
+                ],
+                "y": [
+                  0.833,
+                  0.833,
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167,
+                  0.167,
+                  0.167
+                ],
+                "y": [
+                  0.167,
+                  0.167,
+                  0.167
+                ]
+              },
+              "t": 63,
+              "s": [
+                172,
+                172,
+                100
+              ]
+            },
+            {
+              "t": 83,
+              "s": [
+                192,
+                192,
+                100
+              ]
+            }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": true,
+          "mode": "n",
+          "pt": {
+            "a": 0,
+            "k": {
+              "i": [
+                [
+                  41.932,
+                  0
+                ],
+                [
+                  29.552,
+                  -23.311
+                ],
+                [
+                  -38.095,
+                  17.525
+                ],
+                [
+                  -21.575,
+                  36.779
+                ]
+              ],
+              "o": [
+                [
+                  -41.932,
+                  0
+                ],
+                [
+                  -42.605,
+                  33.608
+                ],
+                [
+                  47.246,
+                  -21.734
+                ],
+                [
+                  27.457,
+                  -46.806
+                ]
+              ],
+              "v": [
+                [
+                  302.27,
+                  357.289
+                ],
+                [
+                  249.341,
+                  386.119
+                ],
+                [
+                  295.41,
+                  454.552
+                ],
+                [
+                  361.469,
+                  396.67
+                ]
+              ],
+              "c": true
+            },
+            "ix": 1
+          },
+          "o": {
+            "a": 0,
+            "k": 100,
+            "ix": 3
+          },
+          "x": {
+            "a": 0,
+            "k": 0,
+            "ix": 4
+          },
+          "nm": "蒙版 1"
+        }
+      ],
+      "ip": 60,
+      "op": 193,
+      "st": 40,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "guangshu_110_00000.ai",
+      "cl": "ai",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 64,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 76,
+              "s": [
+                21.6
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 83,
+              "s": [
+                2
+              ]
+            },
+            {
+              "t": 84,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 60,
+              "s": [
+                -43
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 64,
+              "s": [
+                -58
+              ]
+            },
+            {
+              "t": 83,
+              "s": [
+                -88
+              ]
+            }
+          ],
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            254,
+            251.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            306,
+            396,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833,
+                  0.833,
+                  0.833
+                ],
+                "y": [
+                  0.833,
+                  0.833,
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167,
+                  0.167,
+                  0.167
+                ],
+                "y": [
+                  0.167,
+                  0.167,
+                  0.167
+                ]
+              },
+              "t": 60,
+              "s": [
+                105,
+                105,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833,
+                  0.833,
+                  0.833
+                ],
+                "y": [
+                  0.833,
+                  0.833,
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167,
+                  0.167,
+                  0.167
+                ],
+                "y": [
+                  0.167,
+                  0.167,
+                  0.167
+                ]
+              },
+              "t": 63,
+              "s": [
+                160,
+                160,
+                100
+              ]
+            },
+            {
+              "t": 83,
+              "s": [
+                180,
+                180,
+                100
+              ]
+            }
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": true,
+          "mode": "n",
+          "pt": {
+            "a": 0,
+            "k": {
+              "i": [
+                [
+                  24.53,
+                  0
+                ],
+                [
+                  0,
+                  -31.744
+                ],
+                [
+                  -24.53,
+                  0
+                ],
+                [
+                  0,
+                  31.744
+                ]
+              ],
+              "o": [
+                [
+                  -24.53,
+                  0
+                ],
+                [
+                  0,
+                  31.744
+                ],
+                [
+                  24.53,
+                  0
+                ],
+                [
+                  0,
+                  -31.744
+                ]
+              ],
+              "v": [
+                [
+                  304.036,
+                  336.969
+                ],
+                [
+                  259.621,
+                  394.447
+                ],
+                [
+                  304.036,
+                  451.925
+                ],
+                [
+                  348.452,
+                  394.447
+                ]
+              ],
+              "c": true
+            },
+            "ix": 1
+          },
+          "o": {
+            "a": 0,
+            "k": 100,
+            "ix": 3
+          },
+          "x": {
+            "a": 0,
+            "k": 0,
+            "ix": 4
+          },
+          "nm": "蒙版 1"
+        }
+      ],
+      "ip": 60,
+      "op": 193,
+      "st": 40,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

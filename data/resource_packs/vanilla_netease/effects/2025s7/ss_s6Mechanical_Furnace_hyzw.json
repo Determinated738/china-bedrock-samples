@@ -1,0 +1,59 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.6902 0.9451 1.0000 0.6607",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.6902 0.9451 1.0000 0.6696",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.2 0.2 0.2",
+      "min": "-0.2 -0.2 -0.2",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.1 1.1 0.3"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_zhy2",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_zhy2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.2"
+    }
+  }
+}

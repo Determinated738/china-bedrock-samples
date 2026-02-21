@@ -1,0 +1,43 @@
+{
+  "particleeffect": {
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2025s7/cs_s7WuKong_weapon_sd2",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/cs_s7WuKong_weapon_sd2"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

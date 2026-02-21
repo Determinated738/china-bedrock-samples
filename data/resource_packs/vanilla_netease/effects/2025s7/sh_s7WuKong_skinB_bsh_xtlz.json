@@ -1,0 +1,81 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9804 1.0000 0.7569 0.1518",
+        "time": "16.3%"
+      },
+      {
+        "color": "1.0000 0.9686 0.0000 0.9107",
+        "time": "34.2%"
+      },
+      {
+        "color": "1.0000 0.6353 0.0000 0.2232",
+        "time": "52.4%"
+      },
+      {
+        "color": "1.0000 0.4157 0.0000 0.5179",
+        "time": "68.4%"
+      },
+      {
+        "color": "1.0000 0.3176 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 1.4 1.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 10,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.4 0.2",
+      "min": "0.04 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2025s7/sh_s7WuKong_skinB_ctmblz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

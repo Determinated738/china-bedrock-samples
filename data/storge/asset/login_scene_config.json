@@ -1,0 +1,413 @@
+{
+  "camera": {
+    "fov": 56,
+    "fps": 50,
+    "pos": [
+      0,
+      0,
+      0
+    ],
+    "tar": [
+      0,
+      0,
+      -1
+    ]
+  },
+  "object": [
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yh2.json",
+      "pos": [
+        72,
+        -5,
+        -20
+      ],
+      "rot": [
+        0,
+        90,
+        -30
+      ],
+      "scale": 10,
+      "effect_visible": 1
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yh.json",
+      "pos": [
+        50,
+        5,
+        -20
+      ],
+      "rot": [
+        0,
+        90,
+        -30
+      ],
+      "scale": 10,
+      "effect_visible": 1
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yh3.json",
+      "pos": [
+        40,
+        10,
+        -8
+      ],
+      "rot": [
+        0,
+        90,
+        -30
+      ],
+      "scale": 10,
+      "effect_visible": 1
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua04_chunhua.json",
+      "pos": [
+        70,
+        5,
+        -8
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.5,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua04_rise.json",
+      "pos": [
+        70,
+        5,
+        -8
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.5,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang1.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        5.6,
+        -30.6
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang1.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        -8,
+        5.5
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang1.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        25.1,
+        -9
+      ],
+      "rot": [
+        -5,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang2.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        19.4,
+        6.1
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang2.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        19.4,
+        -23.9
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang3.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        -8,
+        -23.9
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/2024_Q2_chuang3.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        0,
+        5.5,
+        12.1
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 10,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "frm": "effects/mtl.json",
+      "model": "v2_unvisible_bind",
+      "pos": [
+        -9.5,
+        5.9,
+        -8.4
+      ],
+      "rot": [
+        -5,
+        90,
+        0
+      ],
+      "scale": 40,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua02_rise.json",
+      "pos": [
+        70,
+        0,
+        -25
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua02_trace.json",
+      "pos": [
+        70,
+        0,
+        -25
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua02_dot.json",
+      "pos": [
+        70,
+        0,
+        -25
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua01_rise.json",
+      "pos": [
+        70,
+        5,
+        -30
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.4,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua01_dot.json",
+      "pos": [
+        70,
+        5,
+        -30
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.4,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua01_trace.json",
+      "pos": [
+        70,
+        5,
+        -30
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.4,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua03_chunhua.json",
+      "pos": [
+        72,
+        3,
+        -26
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "effect_visible": 2
+    },
+    {
+      "bone": "root",
+      "model": "v2_unvisible_bind",
+      "par": "effects/2024_Q2_yanhua03_rise.json",
+      "pos": [
+        72,
+        3,
+        -26
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "effect_visible": 2
+    },
+    {
+      "model": "login_diye",
+      "pos": [
+        90,
+        -1.2,
+        -15.5
+      ],
+      "rot": [
+        0,
+        90,
+        0
+      ],
+      "scale": 0.3
+    },
+    {
+      "model": "login_01_05",
+      "pos": [
+        65,
+        -35,
+        -19
+      ],
+      "rot": [
+        -7,
+        90,
+        0
+      ],
+      "scale": 10
+    }
+  ],
+  "texture_map": {
+    "day": {
+      "login_diye": "login_baitian2",
+      "login_01_05": "login_day01"
+    },
+    "night": {
+      "login_diye": "login_yedi",
+      "login_01_05": "login_texture05"
+    }
+  }
+}

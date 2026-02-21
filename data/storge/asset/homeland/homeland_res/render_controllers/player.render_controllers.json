@@ -1,0 +1,120 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.first_person": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "part_visibility": [
+        {
+          "*": false
+        }
+      ]
+    },
+    "controller.render.player.third_person": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "part_visibility": [
+        {
+          "*": true
+        }
+      ]
+    },
+    "controller.render.player.map": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "part_visibility": [
+        {
+          "*": false
+        }
+      ]
+    },
+    "controller.render.player.first_person_bloom": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.bloom"
+        }
+      ],
+      "textures": [
+        "Texture.default",
+        "Texture.bloom"
+      ],
+      "part_visibility": [
+        {
+          "*": false
+        }
+      ]
+    },
+    "controller.render.player.third_person_bloom": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.bloom"
+        }
+      ],
+      "textures": [
+        "Texture.default",
+        "Texture.bloom"
+      ],
+      "part_visibility": [
+        {
+          "*": true
+        }
+      ]
+    },
+    "controller.render.player.rngl": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.rngl_default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "part_visibility": [
+        {
+          "*": true
+        }
+      ]
+    },
+    "controller.render.player.rngl_bloom": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.rngl_bloom"
+        }
+      ],
+      "textures": [
+        "Texture.default",
+        "Texture.bloom"
+      ],
+      "part_visibility": [
+        {
+          "*": true
+        }
+      ]
+    }
+  }
+}

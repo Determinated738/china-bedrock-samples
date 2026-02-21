@@ -1,0 +1,97 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.2353 0.2353 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.0667 0.0000 1.0000",
+        "time": "17.9%"
+      },
+      {
+        "color": "0.8549 0.0471 0.0471 1.0000",
+        "time": "55.0%"
+      },
+      {
+        "color": "0.7216 0.0706 0.0706 1.0000",
+        "time": "80.5%"
+      },
+      {
+        "color": "0.4118 0.0157 0.0157 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 2.8,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "2.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "0.0 -0.6 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "enableloop": {
+      "enable": "true"
+    },
+    "layer": 3,
+    "particlesize": {
+      "max": "1.5 1.5",
+      "min": "1.5 1.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 666.0",
+      "min": "0.0 0.0 -666.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.87 0.87",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.17 1.17",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/CS_s7BaiGu_skin_birth_sun"
+    },
+    "timetolive": {
+      "max": "0.9",
+      "min": "0.9"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "5.0"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "grid_hierarchy_radii": [
+    20,
+    28,
+    60
+  ],
+  "before_diffuse_fade_out": 0.2,
+  "after_diffuse_fade_out": 0.5,
+  "start_diffuse_fade_out": 28,
+  "end_diffuse_fade_out": 40,
+  "start_specular_fade_out": 20,
+  "end_specular_fade_out": 30,
+  "enable_fade_out_diffuse": true,
+  "enable_fade_out_specular": true
+}

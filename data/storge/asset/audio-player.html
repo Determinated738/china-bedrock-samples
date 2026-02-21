@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MC Audio</title>
+</head>
+
+<body>
+  <audio id="mc-audio" />
+</body>
+<script>
+  (function () {
+    const audio = document.getElementById('mc-audio')
+
+    function recurPostMessage(info) {
+      try {
+        const str = JSON.stringify(info)
+        window.postMessage(str)
+      } catch (err) {
+        setTimeout(() => {
+          recurPostMessage(info)
+        }, 300)
+      }
+    }
+
+    function Sound() {
+    }
+    Sound.prototype.load = function (src) {
+      if (!audio) { return }
+      audio.setAttribute('src', src)
+      audio.load()
+
+      audio.onloadeddata = function () {
+        if (typeof (this.buffered) !== 'undefined' && this.buffered.length > 0) {
+          this.addEventListener('progress', function () {
+            recurPostMessage({ type: 4, msg: this.buffered.end(0) })
+          })
+        }
+      }
+
+      audio.oncanplay = function (error) {
+        recurPostMessage({ type: 0, msg: audio.duration })
+      }
+
+      audio.onerror = function (error) {
+        recurPostMessage({ type: 100, msg: error })
+      }
+
+      this.audio = audio
+    }
+    Sound.prototype.play = function () {
+      const _this = this
+      audio.ontimeupdate = function () {
+        const pos = _this.getCurrentTime()
+        recurPostMessage({ type: 2, msg: pos })
+      }
+
+      audio.onended = function () {
+        recurPostMessage({ type: 3 })
+      }
+      const p = audio.play()
+      if (p) {
+        p.then(() => {
+          recurPostMessage({ type: 1 })
+        }).catch((error) => {
+          recurPostMessage({ type: 101, msg: error })
+        })
+      }
+    }
+    Sound.prototype.pause = function () {
+      this.audio.pause()
+    }
+    Sound.prototype.getCurrentTime = function () {
+      return this.audio.currentTime
+    }
+    Sound.prototype.setCurrentTime = function (seconds) {
+      this.audio.currentTime = seconds
+    }
+    window.MCAudioPlayer = new Sound()
+  })()
+</script>
+
+</html>

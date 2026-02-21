@@ -1,0 +1,106 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "3.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "10.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "75.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "8.25"
+    },
+    "delay": 1.9,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "9.0"
+    },
+    "particlesize": {
+      "max": "8.25 4.25",
+      "min": "8.25 4.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 -90.0 90.0",
+      "min": "0.0 -90.0 90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.15 0.15",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "10.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "22",
+        "name": "textures/sfxs/2025s7/sh_s7YangJian_skin_dc1_gf2",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/sh_s7YangJian_skin_dc1_gf2"
+    },
+    "timetolive": {
+      "max": "1.3000000000000003",
+      "min": "1.3000000000000003"
+    },
+    "velocity": {
+      "max": "50.0",
+      "min": "50.0"
+    }
+  }
+}

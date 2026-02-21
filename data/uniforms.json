@@ -1,0 +1,634 @@
+{
+  "RenderChunkConstants": [
+    {
+      "Name": "CHUNK_ORIGIN_AND_SCALE",
+      "Type": "Float4"
+    },
+    {
+      "Name": "CHUNK_WORLD_POS_MOD_VALUE",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RENDER_CHUNK_FOG_ALPHA",
+      "Type": "Float1"
+    },
+    {
+      "Name": "BLOCK_LIGHT_TYPE",
+      "Type": "Float1"
+    }
+  ],
+  "ActorConstants": [
+    {
+      "Name": "OVERLAY_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "TILE_LIGHT_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "TILE_LIGHT_INTENSITY",
+      "Type": "Float2"
+    },
+    {
+      "Name": "CHANGE_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "GLINT_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_ANIM",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_OFFSET",
+      "Type": "Float2"
+    },
+    {
+      "Name": "UV_ROTATION",
+      "Type": "Float2"
+    },
+    {
+      "Name": "GLINT_UV_SCALE",
+      "Type": "Float2"
+    },
+    {
+      "Name": "MULTIPLICATIVE_TINT_CHANGE_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "HIDE_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "HIDE_COLOR_FRAGMENT",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_FRAME_ANIM_PARAM",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_ACTOR_UNIFORM1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_ACTOR_UNIFORM2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_ACTOR_UNIFORM3",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_ACTOR_UNIFORM4",
+      "Type": "Float4"
+    }
+  ],
+  "PerFrameConstants": [
+    {
+      "Name": "VIEW_POS",
+      "Type": "Float3"
+    },
+    {
+      "Name": "TIME",
+      "Type": "Float1"
+    },
+    {
+      "Name": "BLEND_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "USER_FOR_COLOR_NEAR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "USER_FOR_COLOR_FAR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PLANAR_SHADOW_PARAMS1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PLANAR_SHADOW_PARAMS2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PLANAR_SHADOW_PARAMS3",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PLANAR_SHADOW_PARAMS4",
+      "Type": "Float4"
+    },
+    {
+      "Name": "FOG_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "FOG_CONTROL",
+      "Type": "Float2"
+    },
+    {
+      "Name": "RENDER_DISTANCE",
+      "Type": "Float1"
+    },
+    {
+      "Name": "FAR_CHUNKS_DISTANCE",
+      "Type": "Float1"
+    },
+    {
+      "Name": "OCCLUSION_HEIGHT_OFFSET",
+      "Type": "Float1"
+    },
+    {
+      "Name": "LIGHT_NUM_STRENGTH",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_POS_RANGE_0",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_COLOR_ATTEN_0",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_DIR_TYPE_0",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_FALLOFF_COS_0",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_POS_RANGE_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_COLOR_ATTEN_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_DIR_TYPE_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_FALLOFF_COS_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_POS_RANGE_2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_COLOR_ATTEN_2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_DIR_TYPE_2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LIGHT_FALLOFF_COS_2",
+      "Type": "Float4"
+    }
+  ],
+  "WorldConstants": [
+    {
+      "Name": "WORLDVIEWPROJ",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLD",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLDVIEW",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "PROJ",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "VIEWPROJ",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLDVIEW_INV",
+      "Type": "Matrix4x4"
+    }
+  ],
+  "ImGuiConstants": [
+    {
+      "Name": "ProjectionMatrix",
+      "Type": "Matrix4x4"
+    }
+  ],
+  "AnimationConstants": [
+    {
+      "Name": "BONES",
+      "Type": "Matrix4x4",
+      "Elements": 8
+    },
+    {
+      "Name": "BONES_70",
+      "Type": "Matrix3x4",
+      "Elements": 70
+    },
+    {
+      "Name": "INSTANCE_WORLDMAT_50",
+      "Type": "Matrix4x3",
+      "Elements": 50
+    }
+  ],
+  "LegacyAnimationConstants": [
+    {
+      "Name": "BONE",
+      "Type": "Matrix4x4"
+    }
+  ],
+  "WorldConstantsStereographic": [
+    {
+      "Name": "WORLDVIEWPROJ_STEREO",
+      "Type": "Matrix4x4",
+      "Elements": 2
+    },
+    {
+      "Name": "WORLD_STEREO",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "WORLDVIEW_STEREO",
+      "Type": "Matrix4x4",
+      "Elements": 2
+    },
+    {
+      "Name": "PROJ_STEREO",
+      "Type": "Matrix4x4",
+      "Elements": 2
+    }
+  ],
+  "ShaderConstants": [
+    {
+      "Name": "CURRENT_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "DARKEN",
+      "Type": "Float4"
+    },
+    {
+      "Name": "TEXTURE_DIMENSIONS",
+      "Type": "Float3"
+    },
+    {
+      "Name": "HUD_OPACITY",
+      "Type": "Float1"
+    },
+    {
+      "Name": "UV_TRANSFORM",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "MSAA_SAMPLECOUNT",
+      "Type": "Int1"
+    }
+  ],
+  "WeatherConstants": [
+    {
+      "Name": "POSITION_OFFSET",
+      "Type": "Float4"
+    },
+    {
+      "Name": "VELOCITY",
+      "Type": "Float4"
+    },
+    {
+      "Name": "ALPHA",
+      "Type": "Float4"
+    },
+    {
+      "Name": "VIEW_POSITION",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SIZE_SCALE",
+      "Type": "Float4"
+    },
+    {
+      "Name": "FORWARD",
+      "Type": "Float4"
+    },
+    {
+      "Name": "UV_INFO",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PARTICLE_BOX",
+      "Type": "Float4"
+    }
+  ],
+  "FlipbookTextureConstants": [
+    {
+      "Name": "V_OFFSET",
+      "Type": "Float1"
+    },
+    {
+      "Name": "V_BLEND_OFFSET",
+      "Type": "Float1"
+    }
+  ],
+  "EffectsConstants": [
+    {
+      "Name": "EFFECT_UV_OFFSET",
+      "Type": "Float2"
+    }
+  ],
+  "BannerConstants": [
+    {
+      "Name": "BANNER_COLORS",
+      "Type": "Float4",
+      "Elements": 7
+    },
+    {
+      "Name": "BANNER_UV_OFFSETS_AND_SCALES",
+      "Type": "Float4",
+      "Elements": 7
+    }
+  ],
+  "PatternConstants": [
+    {
+      "Name": "PATTERN_COLORS",
+      "Type": "Float4",
+      "Elements": 7
+    },
+    {
+      "Name": "PATTERN_UV_OFFSETS_AND_SCALES",
+      "Type": "Float4",
+      "Elements": 7
+    },
+    {
+      "Name": "PATTERN_COUNT",
+      "Type": "Float1"
+    }
+  ],
+  "TextConstants": [
+    {
+      "Name": "GLYPH_SMOOTH_RADIUS",
+      "Type": "Float1"
+    },
+    {
+      "Name": "GLYPH_CUTOFF",
+      "Type": "Float1"
+    },
+    {
+      "Name": "OUTLINE_CUTOFF",
+      "Type": "Float1"
+    },
+    {
+      "Name": "OUTLINE_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SHADOW_SMOOTH_RADIUS",
+      "Type": "Float1"
+    },
+    {
+      "Name": "SHADOW_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SHADOW_OFFSET",
+      "Type": "Float2"
+    },
+    {
+      "Name": "IS_ICON_FONT",
+      "Type": "Int1"
+    }
+  ],
+  "InterFrameConstants": [
+    {
+      "Name": "TOTAL_REAL_WORLD_TIME",
+      "Type": "Float1"
+    },
+    {
+      "Name": "CUBE_MAP_ROTATION",
+      "Type": "Matrix4x4"
+    }
+  ],
+  "DebugConstants": [
+    {
+      "Name": "TEXTURE_ARRAY_INDEX_0",
+      "Type": "Float1"
+    }
+  ],
+  "UITransformsConstants": [
+    {
+      "Name": "TRANSFORM",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "TEXTCOLORS",
+      "Type": "Matrix4x4"
+    }
+  ],
+  "UIGlobalPixelConstants": [
+    {
+      "Name": "VIEWPORT_SIZE",
+      "Type": "Float2"
+    }
+  ],
+  "UIStandardPrimitivePixelConstants": [
+    {
+      "Name": "SHADER_TYPE",
+      "Type": "Int1"
+    }
+  ],
+  "UIStandardPrimitiveAdditionalPixelConstants": [
+    {
+      "Name": "PRIM_PROPS_0",
+      "Type": "Float4"
+    },
+    {
+      "Name": "PRIM_PROPS_1",
+      "Type": "Float4"
+    }
+  ],
+  "UIEffectsPixelConstants": [
+    {
+      "Name": "COEFFICIENTS",
+      "Type": "Float4",
+      "Elements": 3
+    },
+    {
+      "Name": "PIXEL_OFFSETS",
+      "Type": "Float4",
+      "Elements": 6
+    }
+  ],
+  "UIRenoirShaderVSConstants": [
+    {
+      "Name": "COORD_TRANSFORM",
+      "Type": "Matrix4x4"
+    },
+    {
+      "Name": "RENOIR_SHADER_VS_PROPS_0",
+      "Type": "Float4"
+    }
+  ],
+  "UIRenoirShaderPSConstants": [
+    {
+      "Name": "RENOIR_SHADER_PS_PROPS_0",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RENOIR_SHADER_PS_PROPS_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RENOIR_SHADER_PS_PROPS_2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RENOIR_SHADER_PS_PROPS_3",
+      "Type": "Float4"
+    }
+  ],
+  "SfxConstants": [
+    {
+      "Name": "EXTRA_VECTOR1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_VECTOR2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_VECTOR3",
+      "Type": "Float4"
+    },
+    {
+      "Name": "EXTRA_VECTOR4",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SUN_DIR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "WATER_TEXTURE_UV_RANGE",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SKY_NEAR_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "SKY_FAR_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RAIN_NEAR_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "RAIN_FAR_COLOR",
+      "Type": "Float4"
+    },
+    {
+      "Name": "COLOR_MAPPING_PARAM",
+      "Type": "Float4"
+    },
+    {
+      "Name": "VIGNETTE_VECTOR4_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "VIGNETTE_VECTOR4_2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "COLOR_AJUSTMENT_VECTOR4_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "COLOR_AJUSTMENT_VECTOR4_2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "LENS_STAIN_VECTOR3_1",
+      "Type": "Float3"
+    },
+    {
+      "Name": "LENS_STAIN_VECTOR4_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "DEPTH_OF_FIELD_VECTOR4_1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "DEPTH_OF_FIELD_FLOAT1_1",
+      "Type": "Float1"
+    },
+    {
+      "Name": "GAUSSIAN_BLUR_VECTOR1_1",
+      "Type": "Float1"
+    },
+    {
+      "Name": "COMMON_BLOCK_GEO_FLOAT1_1",
+      "Type": "Float1"
+    },
+    {
+      "Name": "WORLD_PARAMETERS",
+      "Type": "Float3"
+    },
+    {
+      "Name": "TIME_PARAMETERS",
+      "Type": "Float2"
+    },
+    {
+      "Name": "PLAYER_POSITION",
+      "Type": "Float3"
+    },
+    {
+      "Name": "WEATHER_PARAMETERS",
+      "Type": "Float3"
+    },
+    {
+      "Name": "CAMERA_POSITION",
+      "Type": "Float3"
+    },
+    {
+      "Name": "SKY_COLOR",
+      "Type": "Float3"
+    },
+    {
+      "Name": "MATERIAL_INSTANCE_PARAM1",
+      "Type": "Float4"
+    },
+    {
+      "Name": "MATERIAL_INSTANCE_PARAM2",
+      "Type": "Float4"
+    },
+    {
+      "Name": "MATERIAL_INSTANCE_PARAM3",
+      "Type": "Float4"
+    },
+    {
+      "Name": "MATERIAL_INSTANCE_PARAM4",
+      "Type": "Float4"
+    }
+  ],
+  "UITextPSConstants": [
+    {
+      "Name": "BITMAP",
+      "Type": "Float1"
+    }
+  ]
+}

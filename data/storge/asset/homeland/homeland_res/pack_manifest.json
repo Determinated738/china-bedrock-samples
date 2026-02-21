@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "homeland",
+    "name": "homeland",
+    "uuid": "990fe72f-b64c-422e-be70-a6cce0945b51",
+    "version": [
+      0,
+      0,
+      108
+    ],
+    "min_engine_version": [
+      1,
+      13,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "homeland",
+      "type": "resources",
+      "uuid": "e77047c4-fb85-43ea-948a-2a7b92c4f942",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

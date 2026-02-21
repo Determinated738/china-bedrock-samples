@@ -1,0 +1,84 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9569 0.6118 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "13.7%"
+      },
+      {
+        "color": "1.0000 0.4706 0.0902 1.0000",
+        "time": "49.5%"
+      },
+      {
+        "color": "0.9255 0.3686 0.0000 0.7589",
+        "time": "77.1%"
+      },
+      {
+        "color": "0.5294 0.1765 0.0667 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.3 0.0",
+      "min": "0.0 0.2 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 1.0 0.15"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.3 0.3",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.64 0.64",
+        "time": "53.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2025s7/ss_s7BaiGu_weaponA_lizi2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

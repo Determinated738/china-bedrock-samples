@@ -1,0 +1,75 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.2157 0.0196 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4000 0.0000 1.0000 1.0000",
+        "time": "21.3%"
+      },
+      {
+        "color": "0.2980 0.6980 1.0000 1.0000",
+        "time": "33.4%"
+      },
+      {
+        "color": "0.4000 0.0000 1.0000 1.0000",
+        "time": "45.0%"
+      },
+      {
+        "color": "0.2980 0.6980 1.0000 1.0000",
+        "time": "58.9%"
+      },
+      {
+        "color": "0.4000 0.0000 1.0000 1.0000",
+        "time": "74.7%"
+      },
+      {
+        "color": "0.5765 0.0549 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.3 0.2"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.04 0.04"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2025s7/ss_s5SpiderGirl_skin_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.9",
+      "min": "0.6"
+    }
+  }
+}

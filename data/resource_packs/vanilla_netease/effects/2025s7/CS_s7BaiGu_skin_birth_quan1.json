@@ -1,0 +1,111 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.9"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.4353 0.1529 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9333 0.0000 0.7500",
+        "time": "20.0%"
+      },
+      {
+        "color": "0.8549 0.0471 0.0471 0.7946",
+        "time": "46.6%"
+      },
+      {
+        "color": "0.7216 0.0706 0.0706 0.7143",
+        "time": "83.2%"
+      },
+      {
+        "color": "0.4118 0.0157 0.0157 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 2.5,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "4.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "0.0 -0.6 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "1.5 1.5",
+      "min": "1.5 1.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 666.0",
+      "min": "0.0 0.0 -666.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.84 0.84",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.38 1.38",
+        "time": "29.3%"
+      },
+      {
+        "scale": "1.92 1.92",
+        "time": "64.0%"
+      },
+      {
+        "scale": "1.95 1.95",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2025s7/CS_s7BaiGu_skin_birth_bo1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/CS_s7BaiGu_skin_birth_bo1"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "5.0"
+    }
+  }
+}
