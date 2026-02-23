@@ -1,0 +1,80 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.1"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 0.6353 0.1843 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.4784 0.0549 1.0000",
+				"time": "41.8%"
+			},
+			{
+				"color": "1.0000 0.6196 0.1804 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "5.0"
+		},
+		"direction": {
+			"max": "-1.0 -1.0 -1.0",
+			"min": "1.0 1.0 1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "30.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 3,
+		"numparticles": {
+			"value": "4"
+		},
+		"particlesize": {
+			"max": "0.04 0.04",
+			"min": "0.03 0.03"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.04 1.04",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.84 1.84",
+				"time": "23.3%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "0",
+				"name": "textures/sfxs/2024s3/s1desert_weaponss_yumao",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2024s3/s1desert_weaponss_yumao"
+		},
+		"timetolive": {
+			"max": "0.4",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "4.0",
+			"min": "3.0"
+		}
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"frames": [
+		{
+			"filename": "sp_00000.png",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 128,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 128,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 128,
+				"h": 128
+			}
+		},
+		{
+			"filename": "sp_00001.png",
+			"frame": {
+				"x": 128,
+				"y": 0,
+				"w": 128,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 128,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 128,
+				"h": 128
+			}
+		},
+		{
+			"filename": "sp_00002.png",
+			"frame": {
+				"x": 0,
+				"y": 128,
+				"w": 128,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 128,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 128,
+				"h": 128
+			}
+		},
+		{
+			"filename": "sp_00003.png",
+			"frame": {
+				"x": 128,
+				"y": 128,
+				"w": 128,
+				"h": 128
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 128,
+				"h": 128
+			},
+			"sourceSize": {
+				"w": 128,
+				"h": 128
+			}
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "sh_s7WuKong_skin_jb_sp.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 256,
+			"h": 256
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:bf130b0f2e98d03c90c79c0869eee0f9:533cf6d7927e70836c72f02fd143261e:b4f832b1c1ea2da939c27bea2cf06474$"
+	}
+}

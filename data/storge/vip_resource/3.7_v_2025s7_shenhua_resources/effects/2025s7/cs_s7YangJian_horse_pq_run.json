@@ -1,0 +1,60 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "50.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 0.0 0.0",
+			"min": "1.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "7.0",
+			"min": "10.0"
+		},
+		"enableloop": {
+			"enable": "true"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"layer": 3,
+		"numparticles": {
+			"value": "20"
+		},
+		"particlesize": {
+			"max": "0.7 2.0",
+			"min": "0.7 2.0"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "30",
+				"name": "textures/sfxs/2025s7/cs_s7YangJian_horse_pq",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/cs_s7YangJian_horse_pq"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

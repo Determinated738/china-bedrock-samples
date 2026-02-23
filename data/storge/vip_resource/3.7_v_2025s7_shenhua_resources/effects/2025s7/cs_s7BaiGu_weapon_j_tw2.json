@@ -1,0 +1,53 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2025s7/cs_s7BaiGu_weapon_j_tw2"
+		},
+		"trail": {
+			"colorfade": [
+				{
+					"color": "1.0 1.0 1.0 1.0",
+					"time": "0.000%"
+				},
+				{
+					"color": "1.0 1.0 1.0 0.0",
+					"time": "100.000%"
+				}
+			],
+			"facemode": 1,
+			"lifetime": 0.2,
+			"maxnum": 1000,
+			"mindistance": 0.01,
+			"texmode": 2,
+			"textile": "1.0 1.0",
+			"useparticlecolor": false,
+			"useparticlewidth": true,
+			"widthfade": [
+				{
+					"time": "0.0%",
+					"value": "0.0"
+				},
+				{
+					"time": "20.333333333333332%",
+					"value": "0.5"
+				}
+			],
+			"worldspace": true
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

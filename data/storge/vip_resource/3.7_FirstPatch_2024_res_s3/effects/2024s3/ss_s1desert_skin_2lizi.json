@@ -1,0 +1,72 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.4157 0.1843 1.0000 0.0179",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.3882 0.1451 1.0000 0.7321",
+				"time": "8.4%"
+			},
+			{
+				"color": "0.3490 0.1333 1.0000 1.0000",
+				"time": "28.2%"
+			},
+			{
+				"color": "1.0000 0.8431 0.0431 0.9732",
+				"time": "50.5%"
+			},
+			{
+				"color": "1.0000 0.8431 0.0431 0.7589",
+				"time": "76.1%"
+			},
+			{
+				"color": "1.0000 0.8431 0.0431 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 1.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.0 0.55 1.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"numparticles": {
+			"value": "15"
+		},
+		"particlesize": {
+			"max": "0.1 0.1",
+			"min": "0.1 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "0",
+				"name": "textures/sfxs/2024s3/ss_s1desert_skin_1lz",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2024s3/ss_s1desert_skin_1lz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.3",
+			"min": "0.5"
+		}
+	}
+}

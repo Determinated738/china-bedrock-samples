@@ -1,0 +1,72 @@
+{
+    "particleeffect": {
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 0.3255 0.1922 0.2000",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 0.7255 0.1686 1.0000",
+                "time": "0.10"
+            },
+            {
+                "color": "0.9059 1.0000 0.0471 0.0000",
+                "time": "0.50"
+            }
+        ],
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 1.0 0.0",
+            "min": "0.0 1.0 0.0",
+            "value": "Direction"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.7 0.0 0.0"
+        },
+        "emittertype": {
+            "value": "Box"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "4"
+        },
+        "particlesize": {
+            "max": "0.1 0.1",
+            "min": "0.05 0.05"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            }
+        ],
+        "texture": {
+            "name": "textures/sfxs/2020s4/cs_szdgpf_03"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.5",
+            "min": "0.5"
+        },
+        "velocity": {
+            "max": "0.5",
+            "min": "0.2"
+        }
+    }
+}

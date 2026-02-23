@@ -1,0 +1,33 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"faceCameraMode": {
+			"value": "Rotate Y"
+		},
+		"numparticles": {
+			"value": "3"
+		},
+		"particlesize": {
+			"max": "0.21 0.21",
+			"min": "0.21 0.21"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "12",
+				"name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_bs",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_bs"
+		}
+	}
+}

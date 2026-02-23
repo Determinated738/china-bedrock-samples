@@ -1,0 +1,102 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 0.0000 0.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.0000 0.0000 1.0000",
+				"time": "20.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.6518",
+				"time": "79.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 -0.01 0.0"
+		},
+		"direction": {
+			"max": "0.0 -1.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "25.0",
+			"min": "25.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.23 0.01 0.23"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"numparticles": {
+			"value": "25"
+		},
+		"particlesize": {
+			"max": "0.05 0.2",
+			"min": "0.05 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.1 0.1",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.54 0.54",
+				"time": "6.3%"
+			},
+			{
+				"scale": "0.84 0.84",
+				"time": "18.7%"
+			},
+			{
+				"scale": "1.26 1.26",
+				"time": "47.0%"
+			},
+			{
+				"scale": "1.35 1.35",
+				"time": "66.0%"
+			},
+			{
+				"scale": "1.47 1.47",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2025s7/sh_s7wukong_skin01_lz2"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.2",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

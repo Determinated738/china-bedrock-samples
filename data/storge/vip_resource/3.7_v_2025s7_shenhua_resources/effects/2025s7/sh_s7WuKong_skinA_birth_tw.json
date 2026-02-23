@@ -1,0 +1,75 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 0.2400 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"layer": 3,
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "1.0 1.0",
+			"min": "1.0 1.0"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2025s7/Tex_trail_line"
+		},
+		"timetolive": {
+			"max": "5.0",
+			"min": "5.0"
+		},
+		"trail": {
+			"colorfade": [
+				{
+					"color": "1.0 1.0 1.0 0.625",
+					"time": "0.000%"
+				},
+				{
+					"color": "1.0 1.0 1.0 0.0",
+					"time": "100.000%"
+				}
+			],
+			"facemode": 0,
+			"lifetime": 0.6,
+			"maxnum": 64,
+			"mindistance": 0.01,
+			"texmode": 0,
+			"textile": "1.0 1.0",
+			"useparticlecolor": false,
+			"useparticlewidth": true,
+			"widthfade": [
+				{
+					"time": "0.0%",
+					"value": "1.0"
+				},
+				{
+					"time": "100.0%",
+					"value": "0.2"
+				}
+			],
+			"worldspace": true
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "20.0",
+			"min": "20.0"
+		},
+		"numparticles": {
+			"value": "1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_weapon_hit_tw"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.5"
+		},
+		"trail": {
+			"colorfade": [
+				{
+					"color": "1.0 1.0 1.0 1.0",
+					"time": "0.000%"
+				},
+				{
+					"color": "0.807843137254902 0.984313725490196 1.0 0.9642857142857143",
+					"time": "23.684%"
+				},
+				{
+					"color": "0.2549019607843137 0.7137254901960784 1.0 0.1696428571428571",
+					"time": "50.789%"
+				},
+				{
+					"color": "0.011764705882352941 0.4392156862745098 1.0 0.0",
+					"time": "100.000%"
+				}
+			],
+			"facemode": 1,
+			"lifetime": 0.1,
+			"maxnum": 32,
+			"mindistance": 0.01,
+			"texmode": 0,
+			"textile": "1.0 1.0",
+			"useparticlecolor": false,
+			"useparticlewidth": false,
+			"widthfade": [
+				{
+					"time": "0.0%",
+					"value": "0.98"
+				},
+				{
+					"time": "100.0%",
+					"value": "0.15000000000000013"
+				}
+			],
+			"worldspace": true
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

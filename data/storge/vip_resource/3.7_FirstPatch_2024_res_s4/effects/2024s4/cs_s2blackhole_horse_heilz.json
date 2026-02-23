@@ -1,0 +1,86 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "0.0000 0.0000 0.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "10.0%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 1.0000",
+				"time": "68.2%"
+			},
+			{
+				"color": "0.0000 0.0000 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "0.2"
+		},
+		"direction": {
+			"max": "-0.15 0.75 1.0",
+			"min": "-1.0 -0.3 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "20.0",
+			"min": "33.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.3 0.7 0.3"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"layer": 4,
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.05 0.05",
+			"min": "0.02 0.02"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.5 0.5",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.9 0.9",
+				"time": "5.0%"
+			},
+			{
+				"scale": "0.8 0.8",
+				"time": "69.0%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2blackhole_horse_firelz"
+		},
+		"thickness": {
+			"value": "0.3"
+		},
+		"timetolive": {
+			"max": "1.1",
+			"min": "0.45"
+		},
+		"velocity": {
+			"max": "0.5",
+			"min": "0.2"
+		}
+	}
+}

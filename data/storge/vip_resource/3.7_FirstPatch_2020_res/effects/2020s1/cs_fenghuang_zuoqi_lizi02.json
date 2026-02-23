@@ -1,0 +1,107 @@
+{
+    "particleeffect": {
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 0.8980 0.2980 1.0000",
+                "time": "0.00"
+            },
+            {
+                "color": "0.6706 0.1765 0.0863 1.0000",
+                "time": "0.30"
+            },
+            {
+                "color": "0.3882 0.0235 0.0588 1.0000",
+                "time": "0.70"
+            }
+        ],
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "1.0 0.0 0.0",
+            "min": "1.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "100.0",
+            "min": "70.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "3.0 2.0 0.5"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "15"
+        },
+        "particlesize": {
+            "max": "0.8 0.8",
+            "min": "0.4 0.4"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            },
+            {
+                "scale": "0.7 0.7",
+                "time": "20.0%"
+            },
+            {
+                "scale": "0.79 0.79",
+                "time": "40.0%"
+            },
+            {
+                "scale": "0.763 0.763",
+                "time": "60.0%"
+            },
+            {
+                "scale": "0.771 0.771",
+                "time": "80.0%"
+            },
+            {
+                "scale": "0.769 0.769",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "30",
+                "name": "textures/sfxs/2020s1/cs_fenghuang_zuoqi_huo09",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2020s1/cs_fenghuang_zuoqi_huo09"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.3",
+            "min": "0.2"
+        },
+        "velocity": {
+            "max": "0.0",
+            "min": "0.0"
+        }
+    }
+}

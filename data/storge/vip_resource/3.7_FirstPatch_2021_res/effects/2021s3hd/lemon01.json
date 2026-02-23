@@ -1,0 +1,78 @@
+{
+    "particleeffect": {
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 0.01",
+            "min": "0.0 0.0 0.01",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "5.0",
+            "min": "4.0"
+        },
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.2 0.0 0.1"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "faceCameraMode": {
+            "value": "Direction Horizontal"
+        },
+        "numparticles": {
+            "value": "4"
+        },
+        "particlesize": {
+            "max": "0.5 0.5",
+            "min": "0.4 0.4"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "rotation": {
+            "max": "250.0",
+            "min": "130.0"
+        },
+        "rotationspeed": {
+            "max": "50.0",
+            "min": "-80.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.06 1.06",
+                "time": "0.0%"
+            },
+            {
+                "scale": "0.5 0.5",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "16",
+                "name": "textures/sfxs/2021s3hd/ningmeng",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2021s3hd/ningmeng"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "1.2",
+            "min": "0.8"
+        },
+        "velocity": {
+            "max": "0.1",
+            "min": "0.0"
+        }
+    }
+}

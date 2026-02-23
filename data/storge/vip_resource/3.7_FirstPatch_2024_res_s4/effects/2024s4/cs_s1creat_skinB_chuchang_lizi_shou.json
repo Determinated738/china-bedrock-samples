@@ -1,0 +1,60 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.7"
+		},
+		"dampingforce": {
+			"value": "0.5"
+		},
+		"delay": 3.5,
+		"direction": {
+			"max": "-0.1 -0.1 -0.1",
+			"min": "0.1 0.10000000000000014 0.1",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "15.0",
+			"min": "15.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "6"
+		},
+		"particlesize": {
+			"max": "0.2 0.2",
+			"min": "0.3 0.3"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.17 1.17",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.75 0.75",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "22",
+				"name": "textures/sfxs/2024s4/cs_s1creat_skinB_maolizi",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s1creat_skinB_maolizi"
+		},
+		"timetolive": {
+			"max": "0.8",
+			"min": "0.6"
+		},
+		"velocity": {
+			"max": "0.2",
+			"min": "0.5"
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"dampingforce": {
+			"value": "1.0"
+		},
+		"delay": 0.1,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "1.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.2 0.15"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"particlesize": {
+			"max": "0.1 0.3",
+			"min": "0.25 0.4"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "30",
+				"name": "textures/sfxs/2024s4/cs_s2comet_weapon_tiao",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s2comet_weapon_tiao"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.3",
+			"min": "0.2"
+		}
+	}
+}

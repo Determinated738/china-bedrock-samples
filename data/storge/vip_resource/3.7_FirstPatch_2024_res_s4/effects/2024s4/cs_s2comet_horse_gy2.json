@@ -1,0 +1,57 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.2902 0.8706 1.0000 0.6607",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.4510 0.2353 1.0000 0.3214",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "30.0",
+			"min": "30.0"
+		},
+		"numparticles": {
+			"value": "30"
+		},
+		"particlesize": {
+			"max": "0.4 0.4",
+			"min": "0.3 0.3"
+		},
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.02 1.02",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.78 0.78",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_horse_sun"
+		},
+		"timetolive": {
+			"max": "0.1",
+			"min": "0.1"
+		},
+		"velocity": {
+			"max": "2.0",
+			"min": "0.8"
+		}
+	}
+}

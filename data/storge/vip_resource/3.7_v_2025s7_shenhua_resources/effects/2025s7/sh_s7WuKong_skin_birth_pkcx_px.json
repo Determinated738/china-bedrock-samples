@@ -1,0 +1,79 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "1.0"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.0235 0.3961 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.9765 0.9922 1.0000 1.0000",
+				"time": "12.6%"
+			},
+			{
+				"color": "0.1647 0.9333 1.0000 0.9018",
+				"time": "50.8%"
+			},
+			{
+				"color": "0.0118 0.3059 1.0000 0.2679",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 0.0 0.01"
+		},
+		"delay": 11.35,
+		"direction": {
+			"max": "0.0 0.0 -1.0",
+			"min": "0.0 0.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "100.0",
+			"min": "100.0"
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"layer": 10,
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "1.0 1.2",
+			"min": "1.0 1.2"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 -90.0",
+			"min": "0.0 0.0 -90.0"
+		},
+		"rotationSpeedRange": {
+			"max": "0.0 0.0 -1.0",
+			"min": "0.0 0.0 0.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "50",
+				"name": "textures/sfxs/2025s7/sh_s7WuKong_skinA_birth_pkbf1",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/sh_s7WuKong_skinA_birth_pkbf1"
+		},
+		"timetolive": {
+			"max": "0.12",
+			"min": "0.12"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

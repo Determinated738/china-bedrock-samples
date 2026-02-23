@@ -1,0 +1,60 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.15"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.0549 0.6078 1.0000 0.4732",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.3490 1.0000 0.7679",
+				"time": "21.1%"
+			},
+			{
+				"color": "0.0000 0.0000 1.0000 0.5982",
+				"time": "60.3%"
+			},
+			{
+				"color": "0.2118 0.0000 0.7490 0.0089",
+				"time": "100.0%"
+			}
+		],
+		"delay": 3.09,
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"layer": 0,
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "0.8 0.8",
+			"min": "1.0 1.0"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql3"
+		},
+		"timetolive": {
+			"max": "0.3",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

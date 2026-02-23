@@ -1,0 +1,84 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "2.5"
+		},
+		"colorfade": [
+			{
+				"color": "0.7020 1.0000 1.0000 0.5982",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.4235 1.0000 0.9529 0.5714",
+				"time": "72.9%"
+			},
+			{
+				"color": "0.4000 0.9529 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "8.0",
+			"min": "6.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 1.5 0.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"layer": 6,
+		"numparticles": {
+			"value": "30"
+		},
+		"particlesize": {
+			"max": "0.1 0.1",
+			"min": "0.15 0.15"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.18 1.18",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.2 1.2",
+				"time": "68.7%"
+			},
+			{
+				"scale": "1.2 1.2",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_lizi"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "1.2",
+			"min": "0.6"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.0"
+		}
+	}
+}

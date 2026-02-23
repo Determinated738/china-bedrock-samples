@@ -1,0 +1,70 @@
+{
+    "particleeffect": {
+        "constantforce": {
+            "value": "0.0 0.0 0.2"
+        },
+        "dampingforce": {
+            "value": "1.0"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 -1.0 1.0",
+            "min": "0.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "10.0",
+            "min": "8.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.0 0.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "8"
+        },
+        "particlesize": {
+            "max": "0.02 0.02",
+            "min": "0.02 0.02"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "texture": {
+            "ani": {
+                "fps": "30",
+                "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_xingdian",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_xingdian"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "1.1",
+            "min": "1.1"
+        },
+        "velocity": {
+            "max": "1.0",
+            "min": "2.0"
+        }
+    }
+}

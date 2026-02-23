@@ -1,0 +1,108 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.0"
+    },
+    "animlodbias": {
+      "value": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0 1.0 1.0 1.0",
+        "time": "0.0"
+      },
+      {
+        "color": "0.333333 0.666667 1.0 1.0",
+        "time": "0.0"
+      },
+      {
+        "color": "1.0 0.666667 1.0 1.0",
+        "time": "0.0"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "emittersize": {
+      "value": "1.3 0.6 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enablecolor": {
+      "enable": "true"
+    },
+    "enableloop": {
+      "enable": "false"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "material": {
+      "name": "materials/particles.material"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "sizedelta": {
+      "add": "0.0",
+      "mul": "1.0"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10.0",
+        "name": "textures/particle/2020s3/ss_jiaoyin_mofa_lizi01_sk"
+      },
+      "name": "textures/particle/2020s3/ss_jiaoyin_mofa_lizi01_sk"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.5"
+    }
+  }
+}

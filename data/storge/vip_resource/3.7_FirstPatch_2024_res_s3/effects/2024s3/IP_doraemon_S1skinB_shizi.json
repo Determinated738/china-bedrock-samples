@@ -1,0 +1,108 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.15"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.6118 1.0000 0.9882 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "20.8%"
+			},
+			{
+				"color": "0.0000 1.0000 1.0000 1.0000",
+				"time": "39.5%"
+			},
+			{
+				"color": "0.3412 0.6824 1.0000 1.0000",
+				"time": "60.0%"
+			},
+			{
+				"color": "0.5922 0.1804 1.0000 1.0000",
+				"time": "80.3%"
+			},
+			{
+				"color": "0.6745 0.0588 0.9804 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "5.0"
+		},
+		"delay": 0.75,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Outwards"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "2.0 1.5 1.5"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"inactivetime": {
+			"value": "0.85"
+		},
+		"numparticles": {
+			"value": "2"
+		},
+		"particlesize": {
+			"max": "0.05 0.05",
+			"min": "0.03 0.03"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.05 1.05",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "26.7%"
+			},
+			{
+				"scale": "1.08 1.08",
+				"time": "49.7%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "0",
+				"name": "textures/sfxs/2024s3/IP_doraemon_S1skinB_xx",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2024s3/IP_doraemon_S1skinB_xx"
+		},
+		"thickness": {
+			"value": "1.0"
+		},
+		"timetolive": {
+			"max": "0.66",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

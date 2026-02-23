@@ -1,0 +1,68 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 0.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 0.2400 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "20.0",
+			"min": "10.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.0 0.0 1.0"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"numparticles": {
+			"value": "100"
+		},
+		"particlesize": {
+			"max": "0.04 0.04",
+			"min": "0.07 0.07"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.4 0.4",
+				"time": "58.7%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/ip_doraemonS2_fz_lz_1"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.7"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.5"
+		}
+	}
+}

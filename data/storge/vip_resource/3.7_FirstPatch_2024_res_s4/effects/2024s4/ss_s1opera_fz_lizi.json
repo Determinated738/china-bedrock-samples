@@ -1,0 +1,82 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.9686 0.5098 0.9196",
+				"time": "35.0%"
+			},
+			{
+				"color": "1.0000 0.8784 0.2549 0.6786",
+				"time": "70.3%"
+			},
+			{
+				"color": "1.0000 0.4667 0.0275 0.2500",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "10.0",
+			"min": "6.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 0.5 1.5"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"layer": 4,
+		"particlesize": {
+			"max": "0.08 0.08",
+			"min": "0.05 0.05"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.4 0.4",
+				"time": "0.3%"
+			},
+			{
+				"scale": "0.88 0.88",
+				"time": "29.3%"
+			},
+			{
+				"scale": "0.32 0.32",
+				"time": "66.7%"
+			},
+			{
+				"scale": "0.86 0.86",
+				"time": "98.7%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/ss_s1opera_fz_lizi"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.4"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+    "particleeffect": {
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "1.0000 1.0000 0.1176 0.0000",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 0.8078 0.2196 1.0000",
+                "time": "0.30"
+            },
+            {
+                "color": "1.0000 0.3176 0.0000 1.0000",
+                "time": "1.00"
+            },
+            {
+                "color": "1.0000 0.3176 0.0000 1.0000",
+                "time": "0.00"
+            }
+        ],
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 0.0",
+            "min": "0.0 0.0 -1.0",
+            "value": "Direction"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.5 1.5 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "independent": false,
+        "particlesize": {
+            "max": "0.05 0.05",
+            "min": "0.1 0.1"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "rotationRange": {
+            "max": "0.0 0.0 360.0",
+            "min": "0.0 0.0 0.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "5",
+                "name": "textures/particle/2020s3/ss_fazhen_mofa_lizi02_sk",
+                "shuffle": false
+            },
+            "name": "textures/particle/2020s3/ss_fazhen_mofa_lizi02_sk"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "1.5",
+            "min": "1.0"
+        },
+        "velocity": {
+            "max": "0.3",
+            "min": "0.5"
+        }
+    }
+}

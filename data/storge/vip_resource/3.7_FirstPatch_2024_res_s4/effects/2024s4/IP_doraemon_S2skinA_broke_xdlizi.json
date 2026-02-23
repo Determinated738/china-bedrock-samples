@@ -1,0 +1,77 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.0000 1.0000 0.8353 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 0.3843 1.0000 0.5536",
+				"time": "46.1%"
+			},
+			{
+				"color": "0.1843 0.6078 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 10.0 0.0"
+		},
+		"dampingforce": {
+			"value": "6.0"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Outwards"
+		},
+		"emissionrate": {
+			"max": "15.0",
+			"min": "10.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.0 1.0 1.0"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.22 0.22",
+			"min": "0.11 0.11"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "20",
+				"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_broke_xdlz",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_broke_xdlz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.65",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "6.0",
+			"min": "4.0"
+		}
+	}
+}

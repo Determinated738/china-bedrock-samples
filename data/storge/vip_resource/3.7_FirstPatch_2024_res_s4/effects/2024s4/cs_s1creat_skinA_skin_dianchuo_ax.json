@@ -1,0 +1,95 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "24.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "50.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.3929",
+				"time": "64.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "1.0"
+		},
+		"delay": 3.6,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "1.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "10.0",
+			"min": "5.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.0 0.0 0.0"
+		},
+		"emittertype": {
+			"value": "Cone"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "7"
+		},
+		"particlesize": {
+			"max": "0.05 0.05",
+			"min": "0.03 0.03"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.8 0.8",
+				"time": "31.7%"
+			},
+			{
+				"scale": "0.95 0.95",
+				"time": "83.7%"
+			},
+			{
+				"scale": "1.2 1.2",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_ax"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.4"
+		},
+		"velocity": {
+			"max": "1.5",
+			"min": "0.5"
+		}
+	}
+}

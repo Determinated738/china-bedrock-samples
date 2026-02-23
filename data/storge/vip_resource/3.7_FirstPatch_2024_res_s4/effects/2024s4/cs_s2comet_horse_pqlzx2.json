@@ -1,0 +1,80 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "0.0000 0.9176 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.1373 0.9569 1.0000 1.0000",
+				"time": "69.7%"
+			},
+			{
+				"color": "1.0000 1.0000 0.0000 1.0000",
+				"time": "69.7%"
+			},
+			{
+				"color": "1.0000 1.0000 0.2400 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "15.0",
+			"min": "20.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.2 0.2"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"faceCameraMode": {
+			"value": "Direction Horizontal"
+		},
+		"numparticles": {
+			"value": "20"
+		},
+		"particlesize": {
+			"max": "0.6 0.05",
+			"min": "0.3 0.03"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 90.0",
+			"min": "0.0 90.0 90.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.0 1.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.55 0.55",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_horse_fllz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.1",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "2.0",
+			"min": "4.0"
+		}
+	}
+}

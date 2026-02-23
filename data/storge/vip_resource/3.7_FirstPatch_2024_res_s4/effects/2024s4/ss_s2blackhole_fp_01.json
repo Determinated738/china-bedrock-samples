@@ -1,0 +1,79 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.5179",
+				"time": "4.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "12.4%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "67.1%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.5268",
+				"time": "85.3%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "2.0",
+			"min": "2.0"
+		},
+		"enableloop": {
+			"enable": "true"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction Horizontal"
+		},
+		"numparticles": {
+			"value": "7"
+		},
+		"particlesize": {
+			"max": "0.85 0.85",
+			"min": "0.85 0.85"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 180.0",
+			"min": "0.0 0.0 180.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "22",
+				"name": "textures/sfxs/2024s4/ss_s2blackhole_fp_01",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ss_s2blackhole_fp_01"
+		},
+		"timetolive": {
+			"max": "1.0",
+			"min": "0.8"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.0"
+		}
+	}
+}

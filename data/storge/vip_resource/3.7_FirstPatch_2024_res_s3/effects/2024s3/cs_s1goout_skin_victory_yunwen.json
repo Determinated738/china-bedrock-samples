@@ -1,0 +1,82 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.7500",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 0.0000 1.0000",
+				"time": "15.3%"
+			},
+			{
+				"color": "1.0000 0.7216 0.9412 1.0000",
+				"time": "46.3%"
+			},
+			{
+				"color": "1.0000 0.0000 0.8667 1.0000",
+				"time": "92.9%"
+			},
+			{
+				"color": "1.0000 0.3882 0.9490 0.1875",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"delay": 0.3,
+		"direction": {
+			"max": "0.0 -1.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.2 0.3 1.2"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"faceCameraMode": {
+			"value": "Rotate Y"
+		},
+		"layer": 7,
+		"numparticles": {
+			"value": "6"
+		},
+		"particlesize": {
+			"max": "0.1 0.1",
+			"min": "0.02 0.02"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s3/cs_s1goout_skin_victory_lizi"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.05"
+		},
+		"velocity": {
+			"max": "5.0",
+			"min": "1.0"
+		}
+	}
+}

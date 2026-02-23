@@ -1,0 +1,57 @@
+{
+	"particleeffect": {
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.7232",
+				"time": "38.7%"
+			},
+			{
+				"color": "0.6667 0.6667 0.6667 0.0089",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "20.0",
+			"min": "10.0"
+		},
+		"numparticles": {
+			"value": "20"
+		},
+		"particlesize": {
+			"max": "0.15 0.15",
+			"min": "0.1 0.1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 360.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "22",
+				"name": "textures/sfxs/2024s4/ip_doraemon_weaponA_hit_yanwulz4",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ip_doraemon_weaponA_hit_yanwulz4"
+		},
+		"timetolive": {
+			"max": "0.8",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

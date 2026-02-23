@@ -1,0 +1,76 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"colorfade": [
+			{
+				"color": "0.0000 1.0000 0.7490 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0000 1.0000 0.5333 1.0000",
+				"time": "39.7%"
+			},
+			{
+				"color": "0.0000 1.0000 0.7490 0.8125",
+				"time": "68.9%"
+			},
+			{
+				"color": "1.0000 0.0667 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "7.5"
+		},
+		"direction": {
+			"max": "1.0 -1.0 1.0",
+			"min": "-1.0 1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "30.0",
+			"min": "20.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"numparticles": {
+			"value": "4"
+		},
+		"particlesize": {
+			"max": "0.16 0.16",
+			"min": "0.12 0.12"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.3%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "30.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_broke_fk"
+		},
+		"timetolive": {
+			"max": "0.58",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "10.0",
+			"min": "8.0"
+		}
+	}
+}

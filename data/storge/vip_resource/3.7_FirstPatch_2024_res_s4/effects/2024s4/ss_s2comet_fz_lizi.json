@@ -1,0 +1,84 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.4510 0.9725 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.3451 0.9490 1.0000 0.9196",
+				"time": "35.0%"
+			},
+			{
+				"color": "0.1647 0.9176 1.0000 0.6786",
+				"time": "70.3%"
+			},
+			{
+				"color": "0.0314 0.9529 1.0000 0.2500",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "10.0",
+			"min": "6.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 0.5 1.5"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"particlesize": {
+			"max": "0.06 0.06",
+			"min": "0.1 0.1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.4 0.4",
+				"time": "0.3%"
+			},
+			{
+				"scale": "0.88 0.88",
+				"time": "29.3%"
+			},
+			{
+				"scale": "0.32 0.32",
+				"time": "66.7%"
+			},
+			{
+				"scale": "0.86 0.86",
+				"time": "98.7%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/ss_s2comet_fz_lizi"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.8",
+			"min": "0.6"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

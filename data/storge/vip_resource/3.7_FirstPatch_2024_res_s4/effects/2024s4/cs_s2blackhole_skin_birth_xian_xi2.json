@@ -1,0 +1,67 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.3"
+		},
+		"colorfade": [
+			{
+				"color": "0.0314 0.0118 0.0000 0.8571",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0863 0.0000 0.0000 0.6696",
+				"time": "100.0%"
+			}
+		],
+		"delay": 9.2,
+		"depthtest": {
+			"enable": "false"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Inwards"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "15.0 6.0 10.0"
+		},
+		"emittertype": {
+			"value": "Hemisphere"
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"layer": 7,
+		"numparticles": {
+			"value": "50"
+		},
+		"particlesize": {
+			"max": "0.3 1.0",
+			"min": "0.3 1.0"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_birth_xian01"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.2",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "10.0",
+			"min": "10.0"
+		}
+	}
+}

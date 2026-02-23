@@ -1,0 +1,192 @@
+{
+	"animation": {
+		"name": "Take 001",
+		"ID": "UANI",
+		"length": 3.333333,
+		"trackSize": 7,
+		"tracks": [
+			{
+				"bone": "body_NTES",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							-0.106588,
+							-5.960463909104874E-07,
+							-12.567689
+						],
+						"quaternion": [
+							-0.499999,
+							0.499999,
+							0.5,
+							0.5
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "leftarm_NTES",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							11.57151,
+							-6.124588,
+							5E-06
+						],
+						"quaternion": [
+							9.09963603135111E-07,
+							-0.0,
+							1.0,
+							-1.3E-05
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "leftleg_NTES",
+				"chanelMask": 2,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"quaternion": [
+							4E-06,
+							0.003906,
+							0.999992,
+							-1.3626635109176277E-07
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "leftlegdown_NTES",
+				"chanelMask": 1,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							6.42406,
+							1E-06,
+							1E-06
+						],
+						"quaternion": [
+							0.0,
+							0.0,
+							0.0,
+							1.0
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "rightarm_NTES",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							11.57151,
+							5.911413,
+							-0.0
+						],
+						"quaternion": [
+							9.253063240066695E-07,
+							-0.001532,
+							0.999998,
+							-1E-05
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "rightleg_NTES",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							-0.143424,
+							1.870409,
+							-2E-06
+						],
+						"quaternion": [
+							6E-06,
+							-0.0,
+							1.0,
+							-1.1920899112283223E-07
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "rightlegdown_NTES",
+				"chanelMask": 2,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"quaternion": [
+							0.00294,
+							1E-06,
+							-0.0,
+							0.999995
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			}
+		]
+	}
+}

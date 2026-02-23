@@ -1,0 +1,51 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.7569 1.0000 0.7020 0.2054",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.7412 1.0000 0.6824 0.3661",
+				"time": "26.1%"
+			},
+			{
+				"color": "0.8667 1.0000 0.7804 0.5357",
+				"time": "52.9%"
+			},
+			{
+				"color": "0.6941 1.0000 0.6078 0.3214",
+				"time": "75.5%"
+			},
+			{
+				"color": "0.9216 1.0000 0.1843 0.1786",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"numparticles": {
+			"value": "2"
+		},
+		"particlesize": {
+			"max": "0.15 0.15",
+			"min": "0.15 0.15"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s3/custom_sun"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

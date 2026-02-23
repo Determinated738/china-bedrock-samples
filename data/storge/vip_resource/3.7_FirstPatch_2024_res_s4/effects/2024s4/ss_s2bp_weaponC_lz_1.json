@@ -1,0 +1,46 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"direction": {
+			"max": "0.0 1.0 0.0",
+			"min": "0.0 1.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "5.0",
+			"min": "5.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.2 0"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"numparticles": {
+			"value": "35"
+		},
+		"particlesize": {
+			"max": "0.03 0.03",
+			"min": "0.03 0.03"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "0",
+				"name": "textures/sfxs/2024s4/ss_s2bp_weaponC_lz",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/ss_s2bp_weaponC_lz"
+		},
+		"thickness": {
+			"value": "0"
+		}
+	}
+}

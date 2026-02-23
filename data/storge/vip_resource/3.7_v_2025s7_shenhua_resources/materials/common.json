@@ -1,0 +1,28 @@
+[
+	{
+		"path": "materials/ui3D.material"
+	},
+	{
+		"path": "materials/ui.material"
+	},
+	{
+		"path": "materials/ccui.material"
+	},
+	{
+		"path": "materials/sfx.material"
+	},
+	// Entity.material can be loaded by vanilla/materials/fancy.json in RenderMaterialGroup::Switchable
+	// Below lines will trigger a second load for netease entity material and vanilla entity material in RenderMaterialGroup::common, but both netease skeleton model and vanilla entity are used with RenderMaterialGroup::Switchable instead.
+	//{
+	//	"path": "materials/entity.material"
+	//},
+	{
+		"path": "materials/particles.material"
+	},
+	{
+		"path": "materials/postprocess.material"
+	},
+	{
+		"path": "materials/sky.material"
+	}
+]

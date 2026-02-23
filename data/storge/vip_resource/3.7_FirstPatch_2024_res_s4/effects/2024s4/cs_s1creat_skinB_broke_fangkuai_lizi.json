@@ -1,0 +1,85 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.6549 1.0000 0.9608 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "15.8%"
+			},
+			{
+				"color": "0.4118 0.9922 1.0000 1.0000",
+				"time": "28.7%"
+			},
+			{
+				"color": "0.8706 0.2157 1.0000 1.0000",
+				"time": "52.1%"
+			},
+			{
+				"color": "0.0000 1.0000 1.0000 1.0000",
+				"time": "68.7%"
+			},
+			{
+				"color": "0.0902 0.2549 1.0000 1.0000",
+				"time": "85.8%"
+			},
+			{
+				"color": "0.5255 0.1098 1.0000 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "8.0"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Outwards"
+		},
+		"emissionrate": {
+			"max": "30.0",
+			"min": "20.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.8 0.8 0.8"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"numparticles": {
+			"value": "5"
+		},
+		"particlesize": {
+			"max": "0.08 0.08",
+			"min": "0.05 0.05"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s1creat_skinB_broke_kuai"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.45",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "7.0",
+			"min": "5.0"
+		}
+	}
+}

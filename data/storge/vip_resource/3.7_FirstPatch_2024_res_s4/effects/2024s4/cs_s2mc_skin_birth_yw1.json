@@ -1,0 +1,120 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"colorfade": [
+			{
+				"color": "0.0000 0.0000 0.4980 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.7321",
+				"time": "10.3%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "18.4%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "29.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.9107",
+				"time": "49.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.5089",
+				"time": "81.1%"
+			},
+			{
+				"color": "0.0000 0.0000 0.4980 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 2.0 0.0"
+		},
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"delay": 4.9,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Outwards"
+		},
+		"emissionrate": {
+			"max": "100.0",
+			"min": "100.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 0.2 1.5"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"layer": 5,
+		"numparticles": {
+			"value": "40"
+		},
+		"particlesize": {
+			"max": "0.2 0.2",
+			"min": "0.1 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 666.0",
+			"min": "0.0 0.0 -666.0"
+		},
+		"rotationSpeedRange": {
+			"max": "0.0 0.0 200.0",
+			"min": "0.0 0.0 -200.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.4 0.4",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "10.0%"
+			},
+			{
+				"scale": "1.35 1.35",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "12",
+				"name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_hc",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_hc"
+		},
+		"thickness": {
+			"value": "0.8"
+		},
+		"timetolive": {
+			"max": "0.4",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "3.0",
+			"min": "2.0"
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "75.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "3.0"
+		},
+		"delay": 4.05,
+		"direction": {
+			"max": "1.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.6 0.6 0.6"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 9,
+		"particlesize": {
+			"max": "0.08 0.08",
+			"min": "0.03 0.03"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2comet_skin_weapon_fllz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.4"
+		},
+		"velocity": {
+			"max": "7.0",
+			"min": "12.0"
+		}
+	}
+}

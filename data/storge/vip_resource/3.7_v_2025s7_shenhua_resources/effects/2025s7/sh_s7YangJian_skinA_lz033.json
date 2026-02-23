@@ -1,0 +1,80 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "24.7%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "50.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "75.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 -0.5 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Outwards"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.3 0.5 2.7755575615628914e-17"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 2,
+		"numparticles": {
+			"value": "20"
+		},
+		"offsetInCamera": {
+			"value": "-0.1"
+		},
+		"particlesize": {
+			"max": "0.05 0.05",
+			"min": "0.03 0.03"
+		},
+		"pointFiltering": true,
+		"prewarm": true,
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "0",
+				"name": "textures/sfxs/2025s7/sh_s7YangJian_skinA_lz03",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2025s7/sh_s7YangJian_skinA_lz03"
+		},
+		"thickness": {
+			"value": "0.30000000000000016"
+		},
+		"timetolive": {
+			"max": "1.2",
+			"min": "0.8"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

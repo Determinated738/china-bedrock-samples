@@ -1,0 +1,105 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 0.9529 0.8039 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "23.2%"
+			},
+			{
+				"color": "1.0000 0.9216 0.7569 0.2946",
+				"time": "46.3%"
+			},
+			{
+				"color": "1.0000 0.9294 0.8431 0.9375",
+				"time": "71.8%"
+			},
+			{
+				"color": "1.0000 0.5020 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 2.6,
+		"direction": {
+			"max": "0.0 0.1 0.0",
+			"min": "0.0 0.1 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "5.0",
+			"min": "5.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.5 1.8 1.5"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"inactivetime": {
+			"value": "2.5"
+		},
+		"layer": 10,
+		"particlesize": {
+			"max": "0.2 0.2",
+			"min": "0.1 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.64 0.64",
+				"time": "22.3%"
+			},
+			{
+				"scale": "0.22 0.22",
+				"time": "47.7%"
+			},
+			{
+				"scale": "0.56 0.56",
+				"time": "71.3%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "99.7%"
+			},
+			{
+				"scale": "0.0 0.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_star"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.47",
+			"min": "0.3"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

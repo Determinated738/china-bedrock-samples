@@ -1,0 +1,77 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.1843 0.1843 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.0667 1.0000 1.0000 0.5179",
+				"time": "17.9%"
+			},
+			{
+				"color": "0.2275 0.4078 1.0000 0.4554",
+				"time": "45.0%"
+			},
+			{
+				"color": "0.4667 0.1098 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"numparticles": {
+			"value": "1"
+		},
+		"particlesize": {
+			"max": "1.0 1.0",
+			"min": "1.0 1.0"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.2 1.2",
+				"time": "20.0%"
+			},
+			{
+				"scale": "1.8 1.8",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "40",
+				"name": "textures/sfxs/2024s3/cs_s1desert_skin_victory_gy",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/cs_s1desert_skin_victory_gy"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

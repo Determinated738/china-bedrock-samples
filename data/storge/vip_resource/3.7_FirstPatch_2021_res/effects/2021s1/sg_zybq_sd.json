@@ -1,0 +1,49 @@
+{
+  "particleeffect": {
+    "colorfade": [
+
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "1.2 1.75",
+      "min": "1.2 1.75"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "textures/sfxs/2021s1/sg_zhbq_sd",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2021s1/sg_zhbq_sd"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "0.5412 0.0000 0.0000 1.0000",
+				"time": "50.0%"
+			},
+			{
+				"color": "0.0902 0.0000 0.0000 1.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 2.5,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "5.0",
+			"min": "20.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterpath": [
+			{
+				"offset": "0.0 -0.6 0.0",
+				"rotation": "0.0 0.0 0.0",
+				"time": "0.0"
+			}
+		],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "2.0 2.0 2.0"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"enableloop": {
+			"enable": "true"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 5,
+		"numparticles": {
+			"value": "20"
+		},
+		"particlesize": {
+			"max": "0.5 0.5",
+			"min": "0.3 0.3"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "20",
+				"name": "textures/sfxs/2025s7/CS_s7BaiGu_skin_birth_sd",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/CS_s7BaiGu_skin_birth_sd"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

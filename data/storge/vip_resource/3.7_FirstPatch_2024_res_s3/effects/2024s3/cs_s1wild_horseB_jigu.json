@@ -1,0 +1,28 @@
+{
+	"particleeffect": {
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"particlesize": {
+			"max": "0.1 0.1",
+			"min": "0.02 0.02"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"texture": {
+			"ani": {
+				"fps": "10",
+				"name": "textures/sfxs/2024s3/cs_s1wild_horseB_xxxxx",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s3/cs_s1wild_horseB_xxxxx"
+		},
+		"timetolive": {
+			"max": "0.5",
+			"min": "0.5"
+		}
+	}
+}

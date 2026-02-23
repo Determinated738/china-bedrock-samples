@@ -1,0 +1,82 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "2.0"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.00"
+			},
+			{
+				"color": "1.0000 0.9176 0.0000 1.0000",
+				"time": "0.40"
+			},
+			{
+				"color": "1.0000 0.7843 0.0000 1.0000",
+				"time": "0.99"
+			},
+			{
+				"color": "1.0000 0.5020 0.0000 0.0000",
+				"time": "1.50"
+			}
+		],
+		"delay": 3.918,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "4.0",
+			"min": "3.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "1.4 1.6 1.4"
+		},
+		"emittertype": {
+			"value": "Cylinder"
+		},
+		"layer": 15,
+		"numparticles": {
+			"value": "5"
+		},
+		"particlesize": {
+			"max": "0.1 0.1",
+			"min": "0.15 0.15"
+		},
+		"relative": {
+			"enable": "false"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.87 0.87",
+				"time": "0.00"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "16",
+				"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_dianchuo_03",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_dianchuo_03"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "1.2",
+			"min": "0.6"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

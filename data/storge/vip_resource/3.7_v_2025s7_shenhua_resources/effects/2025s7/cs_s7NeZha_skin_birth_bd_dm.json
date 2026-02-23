@@ -1,0 +1,86 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.15"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.8980 0.4745 1.0000",
+				"time": "19.7%"
+			},
+			{
+				"color": "1.0000 0.7843 0.0000 1.0000",
+				"time": "41.3%"
+			},
+			{
+				"color": "1.0000 0.3333 0.0000 0.6250",
+				"time": "68.2%"
+			},
+			{
+				"color": "1.0000 0.2510 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 3.2,
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "100.0",
+			"min": "100.0"
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"layer": 4,
+		"numparticles": {
+			"value": "2"
+		},
+		"offsetInCamera": {
+			"value": "-0.01"
+		},
+		"particlesize": {
+			"max": "5.0 5.0",
+			"min": "4.0 4.0"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 360.0",
+			"min": "0.0 0.0 0.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.58 0.58",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "26",
+				"name": "textures/sfxs/2025s7/cs_s7NeZha_skin_birth_bd_03",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/cs_s7NeZha_skin_birth_bd_03"
+		},
+		"timetolive": {
+			"max": "0.2",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

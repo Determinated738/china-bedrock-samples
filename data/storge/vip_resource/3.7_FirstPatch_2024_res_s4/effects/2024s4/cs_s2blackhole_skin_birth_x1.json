@@ -1,0 +1,77 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "5.0"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.3661",
+				"time": "28.2%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.3482",
+				"time": "79.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 0.25,
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"layer": 4,
+		"numparticles": {
+			"value": "2"
+		},
+		"particlesize": {
+			"max": "1.5 1.5",
+			"min": "0.6 0.6"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 360.0",
+			"min": "0.0 0.0 0.0"
+		},
+		"rotationSpeedRange": {
+			"max": "0.0 0.0 100.0",
+			"min": "0.0 0.0 100.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.96 0.96",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.51 0.51",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_birth_xing2"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

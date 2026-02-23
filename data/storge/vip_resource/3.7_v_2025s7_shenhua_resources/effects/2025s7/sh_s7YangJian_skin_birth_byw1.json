@@ -1,0 +1,76 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.1"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0893",
+				"time": "8.2%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "13.9%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "45.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "50.5%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 3.2,
+		"direction": {
+			"max": "-1.0 0.0 0.0",
+			"min": "-1.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "3000.0",
+			"min": "3000.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction Horizontal"
+		},
+		"layer": 3,
+		"numparticles": {
+			"value": "2"
+		},
+		"particlesize": {
+			"max": "6.0 3.0",
+			"min": "6.0 3.0"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "-90.0 90.0 -5.0",
+			"min": "-90.0 90.0 -5.0"
+		},
+		"texture": {
+			"ani": {
+				"fps": "20",
+				"name": "textures/sfxs/2025s7/sh_s7YangJian_skin_birth_byw1",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/sh_s7YangJian_skin_birth_byw1"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

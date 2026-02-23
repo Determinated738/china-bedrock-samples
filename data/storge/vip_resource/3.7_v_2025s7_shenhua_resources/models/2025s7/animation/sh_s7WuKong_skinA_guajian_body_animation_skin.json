@@ -1,0 +1,192 @@
+{
+	"animation": {
+		"name": "Take 001",
+		"ID": "UANI",
+		"length": 3.333333,
+		"trackSize": 7,
+		"tracks": [
+			{
+				"bone": "boneA_33",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							-5.553536,
+							0.053335,
+							1.582984
+						],
+						"quaternion": [
+							0.26865,
+							0.654082,
+							0.654085,
+							-0.268652
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "boneA_34",
+				"chanelMask": 1,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							2.867156,
+							0.0,
+							-0.0
+						],
+						"quaternion": [
+							0.0,
+							0.0,
+							0.0,
+							1.0
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "boneA_42",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							-0.292539,
+							1.948343,
+							9E-06
+						],
+						"quaternion": [
+							1E-06,
+							-1E-06,
+							0.813664,
+							0.581334
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "boneA_44",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							1.613364,
+							0.082504,
+							-2.585566
+						],
+						"quaternion": [
+							-0.254517,
+							-0.03357,
+							0.309619,
+							0.915548
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "boneA_45",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							5.620107,
+							-3.442085,
+							1.134856
+						],
+						"quaternion": [
+							-0.07872,
+							0.124815,
+							-0.253383,
+							0.956044
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "boneA_47",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							1.194501,
+							-0.043327,
+							4.295167
+						],
+						"quaternion": [
+							-0.003398,
+							-0.987809,
+							-0.000535,
+							0.15563
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			},
+			{
+				"bone": "boneA_48",
+				"chanelMask": 3,
+				"keyFramesSize": 1,
+				"keyframes": [
+					{
+						"time": 0.0,
+						"pos": [
+							3.998597,
+							1.089614,
+							0.340742
+						],
+						"quaternion": [
+							0.56739,
+							-0.41091,
+							-0.081621,
+							0.708913
+						],
+						"scale": [
+							1.0,
+							1.0,
+							1.0
+						]
+					}
+				]
+			}
+		]
+	}
+}

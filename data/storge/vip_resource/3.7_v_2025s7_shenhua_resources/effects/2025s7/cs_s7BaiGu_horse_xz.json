@@ -1,0 +1,38 @@
+{
+	"particleeffect": {
+		"direction": {
+			"max": "0.0 -1.0 0.0",
+			"min": "0.0 -1.0 0.0",
+			"value": "Direction"
+		},
+		"faceCameraMode": {
+			"value": "Direction Horizontal"
+		},
+		"numparticles": {
+			"value": "20"
+		},
+		"particlesize": {
+			"max": "0.6 -0.6",
+			"min": "0.6 -0.6"
+		},
+		"relative": {
+			"enable": "false"
+		},
+		"texture": {
+			"ani": {
+				"fps": "22",
+				"name": "textures/sfxs/2025s7/cs_s7BaiGu_horse_xz",
+				"shuffle": false
+			},
+			"name": "textures/sfxs/2025s7/cs_s7BaiGu_horse_xz"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.6"
+		},
+		"velocity": {
+			"max": "0.1",
+			"min": "0.1"
+		}
+	}
+}

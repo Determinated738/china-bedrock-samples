@@ -1,0 +1,83 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "0.25"
+        },
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+
+        ],
+        "dampingforce": {
+            "value": "4.0"
+        },
+        "delay": 0.2,
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 -0.01 0.0",
+            "min": "0.0 -0.1 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "60.0",
+            "min": "50.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterpath": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.8 0.0 1.8"
+        },
+        "emittertype": {
+            "value": "Cylinder"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "20"
+        },
+        "particlesize": {
+            "max": "0.05 0.05",
+            "min": "0.02 0.02"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            },
+            {
+                "scale": "1.0 1.0",
+                "time": "50.0%"
+            },
+            {
+                "scale": "1.0 1.0",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "name": "textures/sfxs/2021s3/fangkuai0000"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.6",
+            "min": "0.4"
+        },
+        "velocity": {
+            "max": "6.0",
+            "min": "5.0"
+        }
+    }
+}

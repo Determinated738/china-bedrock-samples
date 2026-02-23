@@ -1,0 +1,113 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "0.8"
+        },
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "0.1529 0.0588 0.1725 0.0000",
+                "time": "0.00"
+            },
+            {
+                "color": "0.1725 0.0392 0.1765 1.0000",
+                "time": "0.03"
+            },
+            {
+                "color": "0.3804 0.1843 0.6549 1.0000",
+                "time": "0.09"
+            },
+            {
+                "color": "1.0000 0.2549 0.9647 1.0000",
+                "time": "0.18"
+            },
+            {
+                "color": "0.1686 0.0706 0.3373 0.9643",
+                "time": "0.27"
+            },
+            {
+                "color": "0.0471 0.0039 0.0627 0.0000",
+                "time": "0.80"
+            }
+        ],
+        "dampingforce": {
+            "value": "3.0"
+        },
+        "delay": 0.2,
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 0.0",
+            "min": "0.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "20.0",
+            "min": "30.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.0 0.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "independent": false,
+        "layer": 10,
+        "numparticles": {
+            "value": "1"
+        },
+        "particlesize": {
+            "max": "1.5 1.5",
+            "min": "1.2 1.2"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "rotationRange": {
+            "max": "0.0 0.0 50.0",
+            "min": "0.0 0.0 180.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "0.5 0.5",
+                "time": "0.0%"
+            },
+            {
+                "scale": "1.3 1.3",
+                "time": "20.0%"
+            },
+            {
+                "scale": "1.5 1.5",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "24",
+                "name": "textures/sfxs/2021s4/cs_dragon_bianshen_xianjiesmoke",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2021s4/cs_dragon_bianshen_xianjiesmoke"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.8",
+            "min": "0.8"
+        },
+        "velocity": {
+            "max": "3.0",
+            "min": "3.0"
+        }
+    }
+}

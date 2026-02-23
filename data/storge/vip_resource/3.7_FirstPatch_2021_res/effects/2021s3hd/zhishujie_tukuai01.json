@@ -1,0 +1,77 @@
+{
+    "particleeffect": {
+        "colorfade": [
+
+        ],
+        "constantforce": {
+            "value": "0.0 4.0 0.0"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 -1.0 0.5",
+            "min": "0.0 -1.0 0.3",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "6.0",
+            "min": "5.0"
+        },
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.4 0.0 0.2"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "numparticles": {
+            "value": "4"
+        },
+        "particlesize": {
+            "max": "0.08 0.08",
+            "min": "0.04 0.04"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "rotation": {
+            "max": "180.0",
+            "min": "0.0"
+        },
+        "rotationspeed": {
+            "max": "50.0",
+            "min": "20.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "0.6 0.6",
+                "time": "0.0%"
+            },
+            {
+                "scale": "1.0 1.0",
+                "time": "20.0%"
+            },
+            {
+                "scale": "0.6 0.6",
+                "time": "100.0%"
+            }
+        ],
+        "texture": {
+            "name": "textures/sfxs/2021s3hd/tukuai"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.7",
+            "min": "0.5"
+        },
+        "velocity": {
+            "max": "1.3",
+            "min": "1.0"
+        }
+    }
+}

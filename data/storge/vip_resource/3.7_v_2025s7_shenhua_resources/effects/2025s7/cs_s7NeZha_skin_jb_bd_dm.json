@@ -1,0 +1,75 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.2"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.7961 0.8000 1.0000",
+				"time": "25.3%"
+			},
+			{
+				"color": "1.0000 0.3961 0.4039 1.0000",
+				"time": "44.2%"
+			},
+			{
+				"color": "1.0000 0.0000 0.3176 0.3661",
+				"time": "70.8%"
+			},
+			{
+				"color": "1.0000 0.0000 0.5176 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"faceCameraMode": {
+			"value": "Horizontal"
+		},
+		"layer": 8,
+		"numparticles": {
+			"value": "1"
+		},
+		"offsetInCamera": {
+			"value": "-0.5"
+		},
+		"particlesize": {
+			"max": "1.25 1.25",
+			"min": "1.25 1.25"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.0 1.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2025s7/custom_sun"
+		},
+		"timetolive": {
+			"max": "0.2",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

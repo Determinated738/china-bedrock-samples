@@ -1,0 +1,101 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.3"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "85.8%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 0.2143",
+				"time": "100.0%"
+			}
+		],
+		"dampingforce": {
+			"value": "5.0"
+		},
+		"delay": 1.58,
+		"direction": {
+			"max": "0.0 1.0 0.8",
+			"min": "0.0 0.5 -0.8",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "40.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.0 0.8 1.0"
+		},
+		"emittertype": {
+			"value": "Cone"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"layer": 5,
+		"numparticles": {
+			"value": "8"
+		},
+		"particlesize": {
+			"max": "0.15 0.15",
+			"min": "0.1 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 666.0",
+			"min": "0.0 0.0 -666.0"
+		},
+		"rotationSpeedRange": {
+			"max": "0.0 0.0 50.0",
+			"min": "0.0 0.0 -20.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.7 0.7",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.17 1.17",
+				"time": "6.0%"
+			},
+			{
+				"scale": "0.51 0.51",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "0",
+				"name": "textures/sfxs/2024s4/cs_s2comet_skin_victory_liziC",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2024s4/cs_s2comet_skin_victory_liziC"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.7",
+			"min": "0.2"
+		},
+		"velocity": {
+			"max": "12.0",
+			"min": "25.0"
+		}
+	}
+}

@@ -1,0 +1,901 @@
+{
+	"cs_s7NiuMoWang_skin_guajian_body": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_body_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_body_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_body_animation_idle.json",
+			"run": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_body_animation_run.json"
+		},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_body_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_body_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_head": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_head_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_head_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_head_animation_idle.json",
+			"run": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_head_animation_run.json"
+		},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_head_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_head_skeleton.json",
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2",
+			"tex3": "2025s7/cs_s7NiuMoWang_skin_star"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_leftarm": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_leftarm_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_leftarm_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_leftarmdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_leftarmdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_leftarmdown_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_leftleg": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_leftleg_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_leftleg_skeleton.json",
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_leftlegdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_leftlegdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_leftlegdown_skeleton.json",
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_pifeng": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_pifeng_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_pifeng_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_pifeng_animation_idle.json",
+			"run": "2025s7/animation/cs_s7NiuMoWang_skin_guajian_pifeng_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_pifeng_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_pifeng_skeleton.json",
+		"splitBonesGroup": {
+			"body_NTES": {
+				"material": "cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+					"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+					"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2",
+					"tex3": "2025s7/cs_s7NiuMoWang_skin_star"
+				}
+			},
+			"bone_01": {
+				"material": "cs_s7NiuMoWang_skin_glitterdj_2025s7_cs_s7NiuMoWang_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+					"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+					"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2",
+					"tex3": "2025s7/cs_s7NiuMoWang_skin_star"
+				}
+			},
+			"bone_02": {
+				"material": "cs_s7NiuMoWang_skin_glitterdj_2025s7_cs_s7NiuMoWang_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+					"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+					"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2",
+					"tex3": "2025s7/cs_s7NiuMoWang_skin_star"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7NiuMoWang_skin_guajian_rightarm": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_rightarm_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_rightarm_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_rightarmdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_rightarmdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_rightarmdown_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_rightleg": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_rightleg_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_rightleg_skeleton.json",
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"cs_s7NiuMoWang_skin_guajian_rightlegdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/cs_s7NiuMoWang_skin_guajian_rightlegdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7NiuMoWang_skin_guajian_rightlegdown_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex0": "2025s7/cs_s7NiuMoWang_skin_guajian",
+			"tex1": "2025s7/cs_s7NiuMoWang_skin_mask",
+			"tex2": "2025s7/cs_s7NiuMoWang_skin_mat2"
+		}
+	},
+	"ss_s7ChangE_weapon": {
+		"animation": {},
+		"dy_load": true,
+		"material": [],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7ChangE_weapon_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7ChangE_weapon_skeleton.json",
+		"splitBonesGroup": {
+			"Bone001": {
+				"material": "vip_glitter_lb_2025s7_ss_s7ChangE_weapon",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_weapon",
+					"tex1": "2025s7/ss_s7ChangE_weapon_hb",
+					"tex2": "2025s7/ss_s7ChangE_weapon_hongtex2",
+					"tex3": "2025s7/cs_loong_weaponb_star"
+				}
+			},
+			"Bone002": {
+				"material": "vip_glitter_tuzi_2025s7_ss_s7ChangE_weapon",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_weapon",
+					"tex1": "2025s7/ss_s7ChangE_weapon_hb",
+					"tex2": "2025s7/ss_s7ChangE_weapon_hongtex3",
+					"tex3": "2025s7/cs_loong_weaponb_star"
+				}
+			},
+			"Bone003": {
+				"material": "vip_glitter_lb_2025s7_ss_s7ChangE_weapon",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_weapon",
+					"tex1": "2025s7/ss_s7ChangE_weapon_hb",
+					"tex2": "2025s7/ss_s7ChangE_weapon_hongtex2",
+					"tex3": "2025s7/cs_loong_weaponb_star"
+				}
+			},
+			"Bone004": {
+				"material": "vip_glitter_lb_2025s7_ss_s7ChangE_weapon",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_weapon",
+					"tex1": "2025s7/ss_s7ChangE_weapon_hb",
+					"tex2": "2025s7/ss_s7ChangE_weapon_hongtex2",
+					"tex3": "2025s7/cs_loong_weaponb_star"
+				}
+			}
+		},
+		"texture": {},
+		"useSplitMeshes": true
+	},
+	"ss_s7ChangE_horse1": {
+		"animation": {
+			"idle": "2025s7/animation/ss_s7ChangE_horse1_animation_idle.json",
+			"jump": "2025s7/animation/ss_s7ChangE_horse1_animation_jump.json",
+			"run": "2025s7/animation/ss_s7ChangE_horse1_animation_run.json",
+			"walk": "2025s7/animation/ss_s7ChangE_horse1_animation_walk.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/ss_s7ChangE_horse1_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7ChangE_horse1_skeleton.json",
+		"splitBonesGroup": {
+			"Bone001": {
+				"material": "ss_s7ChangE_horse_glitter_2025s7_ss_s7ChangE_horse",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_horse",
+					"tex1": "2025s7/ss_s7ChangE_horse_mask",
+					"tex2": "2025s7/ss_s7ChangE_horse_diam",
+					"tex3": "2025s7/ss_s7ChangE_horse_star2"
+				}
+			},
+			"Bone002": {
+				"material": "ss_s7ChangE_horse_glitter_2025s7_ss_s7ChangE_horse",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_horse",
+					"tex1": "2025s7/ss_s7ChangE_horse_mask",
+					"tex2": "2025s7/ss_s7ChangE_horse_tex2",
+					"tex3": "2025s7/ss_s7ChangE_horse_star2"
+				}
+			},
+			"Bone021": {
+				"material": "ss_s7ChangE_horse_glitter_2025s7_ss_s7ChangE_horse",
+				"texture": {
+					"tex0": "2025s7/ss_s7ChangE_horse",
+					"tex1": "2025s7/ss_s7ChangE_horse_mask",
+					"tex2": "2025s7/ss_s7ChangE_horse_diam",
+					"tex3": "2025s7/ss_s7ChangE_horse_star2"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"ss_s7BaJie_skin_guajian_body": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_body_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_body_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex2": "2025s7/ss_s7BaJie_skin_tex2",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_head": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_head_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_head_skeleton.json",
+		"texture": {
+			"tex0": "2025s7/ss_s7BaJie_skin_guajian",
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex2": "2025s7/ss_s7BaJie_skin_tex",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_leftarm": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_leftarm_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_leftarm_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_leftarmdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_leftarmdown_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_leftarmdown_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_leftleg": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_leftleg_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_leftleg_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_leftlegdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_leftlegdown_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_leftlegdown_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_rightarm": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_rightarm_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_rightarm_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_rightarmdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_rightarmdown_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_rightarmdown_skeleton.json",
+		"splitBonesGroup": {},
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_rightleg": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_rightleg_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_rightleg_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"ss_s7BaJie_skin_guajian_rightlegdown": {
+		"animation": {},
+		"dy_load": true,
+		"material": [
+			"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin"
+		],
+		"material_cpu": [],
+		"mesh": "2025s7/mesh/ss_s7BaJie_skin_guajian_rightlegdown_mesh.json",
+		"skeleton": "2025s7/skeleton/ss_s7BaJie_skin_guajian_rightlegdown_skeleton.json",
+		"texture": {
+			"tex1": "2025s7/ss_s7BaJie_skin_mask",
+			"tex3": "2025s7/ss_s7BaJie_skin_star"
+		}
+	},
+	"cs_s7ChangE_skin_guajian_beishi": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7ChangE_skin_guajian_beishi_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7ChangE_skin_guajian_beishi_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7ChangE_skin_guajian_beishi_animation_idle.json",
+			"run": "2025s7/animation/cs_s7ChangE_skin_guajian_beishi_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_beishi_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_beishi_skeleton.json",
+		"splitBonesGroup": {
+			"Bone062": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone064": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone065": {
+				"material": "_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+				}
+			},
+			"body_NTES": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7ChangE_skin_guajian_body": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7ChangE_skin_guajian_body_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7ChangE_skin_guajian_body_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7ChangE_skin_guajian_body_animation_idle.json",
+			"run": "2025s7/animation/cs_s7ChangE_skin_guajian_body_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_body_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_body_skeleton.json",
+		"splitBonesGroup": {
+			"Bone072": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone073": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone080": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone082": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone084": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone088": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone093": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone098": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"body_NTES": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7ChangE_skin_guajian_head": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7ChangE_skin_guajian_head_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7ChangE_skin_guajian_head_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7ChangE_skin_guajian_head_animation_idle.json",
+			"run": "2025s7/animation/cs_s7ChangE_skin_guajian_head_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_head_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_head_skeleton.json",
+		"splitBonesGroup": {
+			"Bone001": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone002": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"head_NTES": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"root": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7ChangE_skin_guajian_leftarm": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7ChangE_skin_guajian_leftarm_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7ChangE_skin_guajian_leftarm_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7ChangE_skin_guajian_leftarm_animation_idle.json",
+			"run": "2025s7/animation/cs_s7ChangE_skin_guajian_leftarm_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_leftarm_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_leftarm_skeleton.json",
+		"splitBonesGroup": {
+			"Bone017": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone021": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone025": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone029": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone033": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone037": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone042": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"leftarm_NTES": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7ChangE_skin_guajian_leftarmdown": {
+		"animation": {},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_leftarmdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_leftarmdown_skeleton.json",
+		"texture": {
+			"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+		}
+	},
+	"cs_s7ChangE_skin_guajian_leftleg": {
+		"animation": {},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_leftleg_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_leftleg_skeleton.json",
+		"texture": {
+			"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+		}
+	},
+	"cs_s7ChangE_skin_guajian_leftlegdown": {
+		"animation": {},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_leftlegdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_leftlegdown_skeleton.json",
+		"texture": {
+			"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+		}
+	},
+	"cs_s7ChangE_skin_guajian_qunzi": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7ChangE_skin_guajian_qunzi_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7ChangE_skin_guajian_qunzi_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7ChangE_skin_guajian_qunzi_animation_idle.json",
+			"run": "2025s7/animation/cs_s7ChangE_skin_guajian_qunzi_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_qunzi_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_qunzi_skeleton.json",
+		"splitBonesGroup": {
+			"Bone134": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone138": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"body_NTES": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7ChangE_skin_guajian_rightarm": {
+		"animation": {
+			"chuchang": "2025s7/animation/cs_s7ChangE_skin_guajian_rightarm_animation_chuchang.json",
+			"dianchuo": "2025s7/animation/cs_s7ChangE_skin_guajian_rightarm_animation_dianchuo.json",
+			"idle": "2025s7/animation/cs_s7ChangE_skin_guajian_rightarm_animation_idle.json",
+			"run": "2025s7/animation/cs_s7ChangE_skin_guajian_rightarm_animation_run.json"
+		},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_rightarm_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_rightarm_skeleton.json",
+		"splitBonesGroup": {
+			"Bone018": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone022": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone026": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone030": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone034": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone038": {
+				"material": "cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"Bone041": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam2",
+					"tex3": "2025s7/cs_s7ChangE_skin_star2"
+				}
+			},
+			"rightarm_NTES": {
+				"material": "cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin",
+				"texture": {
+					"tex0": "2025s7/cs_s7ChangE_skin_guajian",
+					"tex1": "2025s7/cs_s7ChangE_skin_mask",
+					"tex2": "2025s7/cs_s7ChangE_skin_diam3"
+				}
+			}
+		},
+		"useSplitMeshes": true
+	},
+	"cs_s7ChangE_skin_guajian_rightarmdown": {
+		"animation": {},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_rightarmdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_rightarmdown_skeleton.json",
+		"texture": {
+			"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+		}
+	},
+	"cs_s7ChangE_skin_guajian_rightleg": {
+		"animation": {},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_rightleg_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_rightleg_skeleton.json",
+		"texture": {
+			"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+		}
+	},
+	"cs_s7ChangE_skin_guajian_rightlegdown": {
+		"animation": {},
+		"dy_load": true,
+		"mesh": "2025s7/mesh/cs_s7ChangE_skin_guajian_rightlegdown_mesh.json",
+		"skeleton": "2025s7/skeleton/cs_s7ChangE_skin_guajian_rightlegdown_skeleton.json",
+		"texture": {
+			"tex1": "4d_skin/cs_s7ChangE_skin_bloom"
+		}
+	}
+}

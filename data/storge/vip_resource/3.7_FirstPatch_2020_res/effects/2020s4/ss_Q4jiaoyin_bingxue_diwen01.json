@@ -1,0 +1,84 @@
+{
+    "particleeffect": {
+        "colorfade": [
+            {
+                "color": "1.0000 1.0000 1.0000 1.0000",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 1.0000 1.0000 1.0000",
+                "time": "0.06"
+            }
+        ],
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 1.0",
+            "min": "0.0 0.0 1.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "4.0",
+            "min": "5.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.0 0.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "faceCameraMode": {
+            "value": "Direction Horizontal"
+        },
+        "independent": false,
+        "numparticles": {
+            "value": "5"
+        },
+        "particlesize": {
+            "max": "0.5 0.2",
+            "min": "0.5 0.2"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "rotationRange": {
+            "max": "0.0 0.0 90.0",
+            "min": "0.0 0.0 90.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "2.0 2.0",
+                "time": "2.00"
+            },
+            {
+                "scale": "2.0 2.0",
+                "time": "0.00"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "15",
+                "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_diwen",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/2020s4/ss_Q4jiaoyin_bingxue_diwen"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.5",
+            "min": "0.5"
+        }
+    }
+}

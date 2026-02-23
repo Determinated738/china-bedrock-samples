@@ -1,0 +1,78 @@
+{
+    "particleeffect": {
+        "colorfade": [
+            {
+                "color": "1.0000 0.9412 0.2902 1.0000",
+                "time": "0.00"
+            },
+            {
+                "color": "1.0000 0.7294 0.2549 1.0000",
+                "time": "0.10"
+            },
+            {
+                "color": "1.0000 0.4000 0.0980 1.0000",
+                "time": "0.50"
+            }
+        ],
+        "dampingforce": {
+            "value": "15.0"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 0.0 0.5",
+            "min": "0.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.8 0.02 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "independent": false,
+        "layer": 6,
+        "particlesize": {
+            "max": "0.2 0.2",
+            "min": "0.1 0.1"
+        },
+        "relative": {
+            "enable": "false"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.0 1.0",
+                "time": "0.0%"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "15",
+                "name": "textures/particle/2020s1/xy_jiaoyin_fojing_lizi02",
+                "shuffle": false
+            },
+            "name": "textures/particle/2020s1/xy_jiaoyin_fojing_lizi02"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.5",
+            "min": "0.3"
+        },
+        "velocity": {
+            "max": "0.0",
+            "min": "0.0"
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "2.8"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 0.9804 0.3961 0.3482",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.9804 0.3961 1.0000",
+				"time": "12.9%"
+			},
+			{
+				"color": "1.0000 0.2824 0.0000 0.4286",
+				"time": "72.9%"
+			},
+			{
+				"color": "0.3373 0.1882 0.1176 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"constantforce": {
+			"value": "0.0 -5.0 0.0"
+		},
+		"dampingforce": {
+			"value": "4.0"
+		},
+		"direction": {
+			"max": "1.0 1.0 -1.0",
+			"min": "-1.0 1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "50.0",
+			"min": "50.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.2 0.4 0.4"
+		},
+		"emittertype": {
+			"value": "Sphere"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"faceCameraMode": {
+			"value": "Direction"
+		},
+		"layer": 4,
+		"numparticles": {
+			"value": "25"
+		},
+		"offsetInCamera": {
+			"value": "-0.5"
+		},
+		"particlesize": {
+			"max": "0.3 0.15",
+			"min": "0.2 0.1"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "false"
+		},
+		"rotationRange": {
+			"max": "0.0 0.0 90.0",
+			"min": "0.0 0.0 90.0"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.0 1.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "0.26 0.26",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2025s7/Tex_ctmblz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.4"
+		},
+		"velocity": {
+			"max": "18.0",
+			"min": "12.0"
+		}
+	}
+}

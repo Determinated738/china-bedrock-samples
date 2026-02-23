@@ -1,0 +1,69 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.3"
+		},
+		"dampingforce": {
+			"value": "3.5"
+		},
+		"delay": 0.2,
+		"direction": {
+			"max": "-1.0 1.0 -1.0",
+			"min": "1.0 1.0 1.0",
+			"value": "Direction"
+		},
+		"disorder": {
+			"increment": "5.0",
+			"interval": "0.0",
+			"max": "0.5 0.5 0.5",
+			"min": "0.5 0.5 0.5"
+		},
+		"emissionrate": {
+			"max": "30.0",
+			"min": "30.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "2.2 0.35 2.2"
+		},
+		"emittertype": {
+			"value": "Hemisphere"
+		},
+		"numparticles": {
+			"value": "30"
+		},
+		"particlesize": {
+			"max": "0.15 0.15",
+			"min": "0.03 0.03"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.02 1.02",
+				"time": "50.3%"
+			},
+			{
+				"scale": "0.42 0.42",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2024s4/cs_s2mc_skin_victory_lizi1"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.9",
+			"min": "0.5"
+		},
+		"velocity": {
+			"max": "7.0",
+			"min": "2.0"
+		}
+	}
+}

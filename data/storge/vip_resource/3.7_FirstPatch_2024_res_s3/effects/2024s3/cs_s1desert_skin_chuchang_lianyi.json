@@ -1,0 +1,72 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.5"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "0.3176 0.0000 1.0000 0.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "12.6%"
+			},
+			{
+				"color": "0.5490 0.0000 1.0000 1.0000",
+				"time": "52.1%"
+			},
+			{
+				"color": "0.4510 0.0000 1.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 0.0",
+			"min": "0.0 0.0 0.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "7.0",
+			"min": "5.0"
+		},
+		"layer": 4,
+		"particlesize": {
+			"max": "2.0 2.0",
+			"min": "2.0 2.0"
+		},
+		"pointFiltering": true,
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.0 0.0",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "100.0%"
+			}
+		],
+		"texture": {
+			"ani": {
+				"fps": "16",
+				"name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_lianyi",
+				"shuffle": true
+			},
+			"name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_lianyi"
+		},
+		"timetolive": {
+			"max": "1.0",
+			"min": "0.7"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

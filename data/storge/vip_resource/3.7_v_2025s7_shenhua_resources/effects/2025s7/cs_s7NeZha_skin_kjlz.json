@@ -1,0 +1,83 @@
+{
+	"particleeffect": {
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 0.7373 0.9961 0.1518",
+				"time": "16.3%"
+			},
+			{
+				"color": "0.8941 0.2745 1.0000 0.9107",
+				"time": "34.2%"
+			},
+			{
+				"color": "1.0000 0.0000 0.7333 0.2232",
+				"time": "52.4%"
+			},
+			{
+				"color": "1.0000 0.0000 0.4314 0.5179",
+				"time": "68.4%"
+			},
+			{
+				"color": "1.0000 0.0000 0.0157 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"direction": {
+			"max": "0.0 0.0 -1.0",
+			"min": "0.0 0.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "6.0",
+			"min": "6.0"
+		},
+		"emitterScaleCurve": [],
+		"emitterscale": [],
+		"emittersize": {
+			"value": "0.8 0.2 0.2"
+		},
+		"emittertype": {
+			"value": "Box"
+		},
+		"numparticles": {
+			"value": "6"
+		},
+		"offsetInCamera": {
+			"value": "-0.1"
+		},
+		"particlesize": {
+			"max": "0.15 0.05",
+			"min": "0.04 0.1"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "1.0 1.0",
+				"time": "0.0%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2025s7/Tex_ctmblz"
+		},
+		"thickness": {
+			"value": "0.0"
+		},
+		"timetolive": {
+			"max": "0.6",
+			"min": "0.4"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"particleeffect": {
+		"activetime": {
+			"value": "0.1"
+		},
+		"blend": {
+			"name": "add"
+		},
+		"colorfade": [
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "0.0%"
+			},
+			{
+				"color": "1.0000 1.0000 1.0000 1.0000",
+				"time": "44.2%"
+			},
+			{
+				"color": "1.0000 0.8980 0.4745 1.0000",
+				"time": "84.2%"
+			},
+			{
+				"color": "1.0000 0.7843 0.0000 0.5893",
+				"time": "94.5%"
+			},
+			{
+				"color": "1.0000 0.2510 0.0000 0.0000",
+				"time": "100.0%"
+			}
+		],
+		"delay": 3.2,
+		"depthtest": {
+			"enable": "false"
+		},
+		"direction": {
+			"max": "1.0 1.0 1.0",
+			"min": "-1.0 -1.0 -1.0",
+			"value": "Direction"
+		},
+		"emissionrate": {
+			"max": "100.0",
+			"min": "100.0"
+		},
+		"enabletexture": {
+			"enable": true
+		},
+		"layer": 7,
+		"numparticles": {
+			"value": "1"
+		},
+		"offsetInCamera": {
+			"value": "-0.5"
+		},
+		"particlesize": {
+			"max": "1.5 1.5",
+			"min": "1.5 1.5"
+		},
+		"relative": {
+			"enable": "true"
+		},
+		"sizedelta": [
+			{
+				"scale": "0.57 0.57",
+				"time": "0.0%"
+			},
+			{
+				"scale": "1.0 1.0",
+				"time": "99.7%"
+			}
+		],
+		"texture": {
+			"name": "textures/sfxs/2025s7/cs_s7NeZha_skin_birth_bd_04"
+		},
+		"timetolive": {
+			"max": "0.15",
+			"min": "0.15"
+		},
+		"velocity": {
+			"max": "0.0",
+			"min": "0.0"
+		}
+	}
+}
