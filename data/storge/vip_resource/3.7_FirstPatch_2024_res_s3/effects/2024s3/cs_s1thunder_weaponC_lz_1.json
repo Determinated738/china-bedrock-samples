@@ -1,101 +1,101 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.8"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.5843 0.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6353 0.0000 1.0000",
-				"time": "27.6%"
-			},
-			{
-				"color": "0.2549 0.7020 1.0000 1.0000",
-				"time": "56.3%"
-			},
-			{
-				"color": "0.3333 0.0000 1.0000 0.9464",
-				"time": "75.8%"
-			},
-			{
-				"color": "0.8902 0.3294 1.0000 0.7411",
-				"time": "91.1%"
-			},
-			{
-				"color": "1.0000 0.3451 0.6078 0.6161",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 1.0 0.0"
-		},
-		"dampingforce": {
-			"value": "5.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"disorder": {
-			"increment": "5.0",
-			"interval": "0.2",
-			"max": "0.0 0.0 0.0",
-			"min": "0.03 0.03 0.03"
-		},
-		"emissionrate": {
-			"max": "200.0",
-			"min": "300.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"inactivetime": {
-			"max": "0.3",
-			"min": "0.0"
-		},
-		"particlesize": {
-			"max": "0.04 0.04",
-			"min": "0.02 0.02"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "19.7%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "69.7%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/cs_s1thunder_weaponC_lz_1"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "1.0"
-		},
-		"velocity": {
-			"max": "1.5",
-			"min": "1.2"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.5843 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6353 0.0000 1.0000",
+        "time": "27.6%"
+      },
+      {
+        "color": "0.2549 0.7020 1.0000 1.0000",
+        "time": "56.3%"
+      },
+      {
+        "color": "0.3333 0.0000 1.0000 0.9464",
+        "time": "75.8%"
+      },
+      {
+        "color": "0.8902 0.3294 1.0000 0.7411",
+        "time": "91.1%"
+      },
+      {
+        "color": "1.0000 0.3451 0.6078 0.6161",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "5.0",
+      "interval": "0.2",
+      "max": "0.0 0.0 0.0",
+      "min": "0.03 0.03 0.03"
+    },
+    "emissionrate": {
+      "max": "200.0",
+      "min": "300.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "max": "0.3",
+      "min": "0.0"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.02 0.02"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "19.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "69.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/cs_s1thunder_weaponC_lz_1"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "1.5",
+      "min": "1.2"
+    }
+  }
 }

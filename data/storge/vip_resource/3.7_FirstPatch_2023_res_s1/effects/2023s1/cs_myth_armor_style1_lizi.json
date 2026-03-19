@@ -1,1 +1,84 @@
-{"particleeffect":{"direction":{"max":"-1.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"numparticles":{"value":"7"},"colorfade":[{"color":"0.4196 0.9922 1.0000 1.0000","time":"0.0%"},{"color":"0.0000 0.6510 1.0000 1.0000","time":"41.1%"},{"color":"0.7725 0.2353 1.0000 1.0000","time":"100.0%"}],"emissionrate":{"max":"7.0","min":"4.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.2 0.2 0.7"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.8","min":"0.5"},"texture":{"name":"textures/sfxs/2022s3/cs_zhuge_skin_fllz"},"emitterscale":[],"velocity":{"max":"0.5","min":"0.3"},"blend":{"name":"add"},"particlesize":{"max":"0.03 0.03","min":"0.01 0.01"},"sizedelta":[{"scale":"0.0 0.0","time":"0.0%"},{"scale":"1.25 1.25","time":"19.7%"},{"scale":"0.0 0.0","time":"54.0%"},{"scale":"1.8 1.8","time":"81.7%"},{"scale":"0.0 0.0","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "colorfade": [
+      {
+        "color": "0.4196 0.9922 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.6510 1.0000 1.0000",
+        "time": "41.1%"
+      },
+      {
+        "color": "0.7725 0.2353 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "7.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.2 0.2 0.7"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s3/cs_zhuge_skin_fllz"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.01"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.25 1.25",
+        "time": "19.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "54.0%"
+      },
+      {
+        "scale": "1.8 1.8",
+        "time": "81.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

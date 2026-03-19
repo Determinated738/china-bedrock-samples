@@ -1,1 +1,66 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 -0.6 0.0","value":"Direction","min":"0.0 -0.5 0.0"},"numparticles":{"value":"4"},"colorfade":[{"color":"0.3137 0.8196 1.0000 1.0000","time":"0.00"},{"color":"0.3294 0.6314 1.0000 0.9018","time":"0.22"},{"color":"0.1608 0.3843 1.0000 0.0000","time":"0.60"}],"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"emittersize":{"value":"1.0 0.0 1.0"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.6","min":"0.5"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.6","min":"0.4"},"blend":{"name":"add"},"particlesize":{"max":"0.04 0.04","min":"0.02 0.02"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 -0.6 0.0",
+      "value": "Direction",
+      "min": "0.0 -0.5 0.0"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "colorfade": [
+      {
+        "color": "0.3137 0.8196 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.3294 0.6314 1.0000 0.9018",
+        "time": "0.22"
+      },
+      {
+        "color": "0.1608 0.3843 1.0000 0.0000",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "1.0 0.0 1.0"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.02 0.02"
+    }
+  }
+}

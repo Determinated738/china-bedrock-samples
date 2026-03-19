@@ -1,107 +1,107 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.2000 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6745 0.2980 0.7500",
-				"time": "9.5%"
-			},
-			{
-				"color": "1.0000 0.8157 0.1490 1.0000",
-				"time": "29.5%"
-			},
-			{
-				"color": "1.0000 0.6353 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "12.0",
-			"min": "6.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.5 0.8"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "12"
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.1 0.1"
-		},
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.3 0.3",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "12.5%"
-			},
-			{
-				"scale": "0.55 0.55",
-				"time": "25.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "37.5%"
-			},
-			{
-				"scale": "0.55 0.55",
-				"time": "50.7%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "62.5%"
-			},
-			{
-				"scale": "0.45 0.45",
-				"time": "75.7%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "87.5%"
-			},
-			{
-				"scale": "0.35 0.35",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/ss_s1desert_horse_lz1"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "1.0",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "1.0",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.2000 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6745 0.2980 0.7500",
+        "time": "9.5%"
+      },
+      {
+        "color": "1.0000 0.8157 0.1490 1.0000",
+        "time": "29.5%"
+      },
+      {
+        "color": "1.0000 0.6353 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "12.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.5 0.8"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "12"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.3 0.3",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "12.5%"
+      },
+      {
+        "scale": "0.55 0.55",
+        "time": "25.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "37.5%"
+      },
+      {
+        "scale": "0.55 0.55",
+        "time": "50.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "62.5%"
+      },
+      {
+        "scale": "0.45 0.45",
+        "time": "75.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "87.5%"
+      },
+      {
+        "scale": "0.35 0.35",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/ss_s1desert_horse_lz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.3"
+    }
+  }
 }

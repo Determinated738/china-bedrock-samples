@@ -1,71 +1,71 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "14.0"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.0000 1.0000 0.7020 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 0.8667 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "-1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "5.0",
-			"min": "2.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "2.5 3.5 0.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 3,
-		"numparticles": {
-			"value": "100"
-		},
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.5 0.5"
-		},
-		"prewarm": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "24",
-				"name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_men_lz",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_men_lz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "2.0",
-			"min": "1.5"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "14.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.7020 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.8667 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.5 3.5 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.5 0.5"
+    },
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_men_lz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1desert_skinB_chuchang_men_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

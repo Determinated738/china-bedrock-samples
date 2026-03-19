@@ -1,107 +1,107 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.1882 0.4980 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6824 0.7804 1.0000",
-				"time": "27.1%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "35.0%"
-			},
-			{
-				"color": "1.0000 0.6314 0.7725 0.9732",
-				"time": "45.0%"
-			},
-			{
-				"color": "1.0000 0.3882 0.5725 0.7946",
-				"time": "61.3%"
-			},
-			{
-				"color": "0.4784 0.1686 0.9412 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "1.0",
-			"min": "2.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.5 0.4 1.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.15 0.15",
-			"min": "0.12 0.12"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.02 1.02",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.96 0.96",
-				"time": "17.7%"
-			},
-			{
-				"scale": "0.99 0.99",
-				"time": "40.7%"
-			},
-			{
-				"scale": "0.9 0.9",
-				"time": "64.0%"
-			},
-			{
-				"scale": "1.05 1.05",
-				"time": "83.7%"
-			},
-			{
-				"scale": "0.93 0.93",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/IP_doraemon_S1skinC_2"
-		},
-		"thickness": {
-			"value": "1.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.2",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.1882 0.4980 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6824 0.7804 1.0000",
+        "time": "27.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "35.0%"
+      },
+      {
+        "color": "1.0000 0.6314 0.7725 0.9732",
+        "time": "45.0%"
+      },
+      {
+        "color": "1.0000 0.3882 0.5725 0.7946",
+        "time": "61.3%"
+      },
+      {
+        "color": "0.4784 0.1686 0.9412 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.4 1.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.12 0.12"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.02 1.02",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.96 0.96",
+        "time": "17.7%"
+      },
+      {
+        "scale": "0.99 0.99",
+        "time": "40.7%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "64.0%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "83.7%"
+      },
+      {
+        "scale": "0.93 0.93",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/IP_doraemon_S1skinC_2"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
 }

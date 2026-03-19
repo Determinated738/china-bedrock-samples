@@ -1,1 +1,88 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.3"},"faceCameraMode":{"value":"Rotate Y"},"colorfade":[{"color":"1.0000 1.0000 1.0000 0.0000","time":"0.0%"},{"color":"1.0000 1.0000 1.0000 0.8571","time":"10.8%"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"18.7%"},{"color":"0.8039 1.0000 0.3412 1.0000","time":"30.3%"},{"color":"0.8275 1.0000 0.6314 0.1696","time":"58.7%"},{"color":"0.0824 0.5569 1.0000 0.0000","time":"100.0%"}],"emissionrate":{"max":"50.0","min":"30.0"},"layer":2,"depthtest":{"enable":"false"},"delay":2.0,"timetolive":{"max":"0.36","min":"0.36"},"texture":{"name":"textures/particle/2020s2/2020s2_cs_jian_FP_sun"},"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"0.35 0.35","min":"0.3 0.3"},"sizedelta":[{"scale":"1.6 1.6","time":"0.0%"},{"scale":"2.52 2.52","time":"38.3%"},{"scale":"2.72 2.72","time":"100.0%"}],"numparticles":{"value":"1"}}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.3"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8571",
+        "time": "10.8%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "18.7%"
+      },
+      {
+        "color": "0.8039 1.0000 0.3412 1.0000",
+        "time": "30.3%"
+      },
+      {
+        "color": "0.8275 1.0000 0.6314 0.1696",
+        "time": "58.7%"
+      },
+      {
+        "color": "0.0824 0.5569 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "layer": 2,
+    "depthtest": {
+      "enable": "false"
+    },
+    "delay": 2,
+    "timetolive": {
+      "max": "0.36",
+      "min": "0.36"
+    },
+    "texture": {
+      "name": "textures/particle/2020s2/2020s2_cs_jian_FP_sun"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.3 0.3"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.6 1.6",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.52 2.52",
+        "time": "38.3%"
+      },
+      {
+        "scale": "2.72 2.72",
+        "time": "100.0%"
+      }
+    ],
+    "numparticles": {
+      "value": "1"
+    }
+  }
+}

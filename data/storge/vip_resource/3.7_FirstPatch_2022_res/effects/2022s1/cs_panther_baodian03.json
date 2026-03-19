@@ -1,1 +1,65 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "activetime": {"value": "0.3"}, "numparticles": {"value": "1"}, "independent": false, "relative": {"enable": "true"}, "emissionrate": {"max": "60.0", "min": "80.0"}, "emitterScaleCurve": [], "layer": 14, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "delay": 2.81, "emittertype": {"value": "Sphere"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s1/cs_panther_chuchang_baodian", "fps": "36"}, "name": "textures/sfxs/2022s1/cs_panther_chuchang_baodian"}, "emittersize": {"value": "0.0 0.0 0.0"}, "velocity": {"max": "0.0", "min": "0.0"}, "emitterscale": [], "timetolive": {"max": "0.2", "min": "0.35"}, "blend": {"name": "add"}, "particlesize": {"max": "1.9 1.9", "min": "1.9 1.9"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.3"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "independent": false,
+    "relative": {
+      "enable": "true"
+    },
+    "emissionrate": {
+      "max": "60.0",
+      "min": "80.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 14,
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 2.81,
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/cs_panther_chuchang_baodian",
+        "fps": "36"
+      },
+      "name": "textures/sfxs/2022s1/cs_panther_chuchang_baodian"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "emitterscale": [],
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.35"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "1.9 1.9",
+      "min": "1.9 1.9"
+    }
+  }
+}

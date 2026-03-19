@@ -1,1 +1,72 @@
-{"particleeffect": {"activetime": {"value": "0.7"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.7686 1.0000 0.0893", "time": "0.0%"}, {"color": "0.0000 0.5176 1.0000 0.4375", "time": "17.6%"}, {"color": "1.0000 0.4000 1.0000 0.1429", "time": "55.0%"}, {"color": "1.0000 0.4392 0.9569 0.0179", "time": "100.0%"}], "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "20.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "numparticles": {"value": "5"}, "particlesize": {"max": "0.5 0.3", "min": "0.5 0.3"}, "relative": {"enable": "false"}, "texture": {"name": "textures/sfxs/2024s1/cs_loong_skinb_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.3"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.7"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.7686 1.0000 0.0893",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.5176 1.0000 0.4375",
+        "time": "17.6%"
+      },
+      {
+        "color": "1.0000 0.4000 1.0000 0.1429",
+        "time": "55.0%"
+      },
+      {
+        "color": "1.0000 0.4392 0.9569 0.0179",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.5 0.3",
+      "min": "0.5 0.3"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_skinb_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

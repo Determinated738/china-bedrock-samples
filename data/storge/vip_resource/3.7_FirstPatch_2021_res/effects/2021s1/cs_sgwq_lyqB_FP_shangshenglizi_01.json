@@ -1,1 +1,75 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 1.0 0.0", "value": "Direction", "min": "0.0 1.0 0.0"}, "dampingforce": {"value": "2.0"}, "numparticles": {"value": "3"}, "texture": {"name": "textures/sfxs/2021s1/cs_sgwq_lyqB_faguanglizi"}, "colorfade": [], "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Box"}, "timetolive": {"max": "0.6", "min": "0.6"}, "emittersize": {"value": "0.0 0.8 0.8"}, "emitterscale": [{"value": "0.480", "time": "0.0"}, {"value": "0.200", "time": "0.6"}], "velocity": {"max": "2.0", "min": "1.0"}, "particlesize": {"max": "0.02 0.02", "min": "0.02 0.02"}, "sizedelta": [{"scale": "0.8 0.8", "time": "0.0%"}, {"scale": "0.4 0.4", "time": "49.7%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/cs_sgwq_lyqB_faguanglizi"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "emittersize": {
+      "value": "0.0 0.8 0.8"
+    },
+    "emitterscale": [
+      {
+        "value": "0.480",
+        "time": "0.0"
+      },
+      {
+        "value": "0.200",
+        "time": "0.6"
+      }
+    ],
+    "velocity": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.02 0.02"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.8 0.8",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.4 0.4",
+        "time": "49.7%"
+      }
+    ]
+  }
+}

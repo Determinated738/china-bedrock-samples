@@ -1,1 +1,28 @@
-{"frameeffect": {"scale": [0.33, 0.33, 0.31], "shuffle": false, "depth_test": true, "texture": "textures/sfxs/2021s2/cs_spaceskinA_0_0_lg_01", "delay": 0.0, "fade_distance": 0, "tex_repeat_num": [1, 1], "fps": 8, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": true, "blend_mode": 1}}
+{
+  "frameeffect": {
+    "scale": [
+      0.33,
+      0.33,
+      0.31
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "texture": "textures/sfxs/2021s2/cs_spaceskinA_0_0_lg_01",
+    "delay": 0,
+    "fade_distance": 0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 8,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 1
+  }
+}

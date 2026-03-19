@@ -1,106 +1,106 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.3839",
-				"time": "10.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "13.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "85.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 0.20000000000000004,
-		"depthtest": {
-			"enable": "false"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "3000.0",
-			"min": "3000.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 5,
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "4.5 4.5",
-			"min": "4.5 4.5"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "3.5 3.5",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "10.7%"
-			},
-			{
-				"scale": "0.95 0.95",
-				"time": "36.3%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "58.7%"
-			},
-			{
-				"scale": "0.95 0.95",
-				"time": "79.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "95.0%"
-			},
-			{
-				"scale": "0.4 0.4",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "20",
-				"name": "textures/sfxs/2025s7/sh_s7YangJian_skin_dc2_bd1",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2025s7/sh_s7YangJian_skin_dc2_bd1"
-		},
-		"timetolive": {
-			"max": "1.7000000000000002",
-			"min": "1.7000000000000002"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3839",
+        "time": "10.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "13.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "85.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.20000000000000004,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 5,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "4.5 4.5",
+      "min": "4.5 4.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "3.5 3.5",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "10.7%"
+      },
+      {
+        "scale": "0.95 0.95",
+        "time": "36.3%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "58.7%"
+      },
+      {
+        "scale": "0.95 0.95",
+        "time": "79.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "95.0%"
+      },
+      {
+        "scale": "0.4 0.4",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2025s7/sh_s7YangJian_skin_dc2_bd1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/sh_s7YangJian_skin_dc2_bd1"
+    },
+    "timetolive": {
+      "max": "1.7000000000000002",
+      "min": "1.7000000000000002"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

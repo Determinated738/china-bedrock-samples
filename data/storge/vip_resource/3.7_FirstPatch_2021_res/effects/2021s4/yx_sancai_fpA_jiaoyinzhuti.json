@@ -1,1 +1,61 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "activetime": {"value": "0.1"}, "faceCameraMode": {"value": "Horizontal"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s4/yx_sancai_fpA_jiaoyinzhuti1", "fps": "12"}, "name": "textures/sfxs/2021s4/yx_sancai_fpA_jiaoyinzhuti1"}, "emitterpath": [], "colorfade": [], "emissionrate": {"max": "9.0", "min": "8.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "inactivetime": {"value": "0.1"}, "emittersize": {"value": "0.65 0.0 0.0"}, "emitterscale": [], "timetolive": {"max": "0.8", "min": "0.6"}, "particlesize": {"max": "0.4 0.4", "min": "0.2 0.2"}, "numparticles": {"value": "8"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.1"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s4/yx_sancai_fpA_jiaoyinzhuti1",
+        "fps": "12"
+      },
+      "name": "textures/sfxs/2021s4/yx_sancai_fpA_jiaoyinzhuti1"
+    },
+    "emitterpath": [],
+    "colorfade": [],
+    "emissionrate": {
+      "max": "9.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "inactivetime": {
+      "value": "0.1"
+    },
+    "emittersize": {
+      "value": "0.65 0.0 0.0"
+    },
+    "emitterscale": [],
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.2 0.2"
+    },
+    "numparticles": {
+      "value": "8"
+    }
+  }
+}

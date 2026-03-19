@@ -1,61 +1,59 @@
 {
-    "particleeffect": {
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "5.0",
-            "min": "4.0"
-        },
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enablecolor": {
-            "enable": "false"
-        },
-        "faceCameraMode": {
-            "value": "Rotate Y"
-        },
-        "layer": 5,
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "0.6 0.6",
-            "min": "0.4 0.4"
-        },
-        "relative": {
-            "enable": "false"
-        },
-        "texture": {
-            "ani": {
-                "fps": "8",
-                "name": "textures/sfxs/2021s3hd/tree",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/2021s3hd/tree"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "1.0",
-            "min": "1.0"
-        },
-        "velocity": {
-            "max": "0.0",
-            "min": "0.0"
-        }
+  "particleeffect": {
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "layer": 5,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2021s3hd/tree",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2021s3hd/tree"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
     }
+  }
 }

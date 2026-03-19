@@ -1,1 +1,84 @@
-{"particleeffect": {"activetime": {"value": "5.0"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "10.0%"}, {"color": "1.0000 1.0000 1.0000 0.1875", "time": "19.7%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "30.0%"}, {"color": "1.0000 1.0000 1.0000 0.1964", "time": "40.3%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "50.0%"}, {"color": "1.0000 1.0000 1.0000 0.2500", "time": "57.4%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "70.0%"}, {"color": "1.0000 1.0000 1.0000 0.2411", "time": "82.1%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "enabletexture": {"enable": true}, "inactivetime": {"value": "2.8"}, "layer": 3, "numparticles": {"value": "1"}, "particlesize": {"max": "0.25 0.25", "min": "0.23 0.23"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "8", "name": "textures/sfxs/2024s2/ip_conan_s2skinc_xxlizi01", "shuffle": false}, "name": "textures/sfxs/2024s2/ip_conan_s2skinc_xxlizi01"}, "timetolive": {"max": "5.0", "min": "5.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "5.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "10.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1875",
+        "time": "19.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "30.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1964",
+        "time": "40.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2500",
+        "time": "57.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "70.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2411",
+        "time": "82.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "2.8"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.23 0.23"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2024s2/ip_conan_s2skinc_xxlizi01",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s2/ip_conan_s2skinc_xxlizi01"
+    },
+    "timetolive": {
+      "max": "5.0",
+      "min": "5.0"
+    }
+  }
+}

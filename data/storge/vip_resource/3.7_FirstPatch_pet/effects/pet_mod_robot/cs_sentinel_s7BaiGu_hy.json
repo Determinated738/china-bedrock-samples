@@ -1,1 +1,90 @@
-{"particleeffect":{"colorfade":[{"color":"1.0000 1.0000 1.0000 0.0000","time":"0.0%"},{"color":"1.0000 1.0000 1.0000 1.0000","time":"50.0%"},{"color":"1.0000 1.0000 1.0000 0.0000","time":"100.0%"}],"direction":{"max":"0.0 0.0 0.0","min":"0.0 0.0 -1.0","value":"Direction"},"emissionrate":{"max":"7.0","min":"5.0"},"emitterScaleCurve":[],"emitterscale":[],"emittersize":{"value":"0.25 0.1 0.0"},"emittertype":{"value":"Sphere"},"enableloop":{"enable":"true"},"enabletexture":{"enable":true},"faceCameraMode":{"value":"Direction"},"independent":true,"numparticles":{"value":"100"},"particlesize":{"max":"0.2 0.2","min":"0.3 0.3"},"pointFiltering":true,"prewarm":true,"relative":{"enable":"true"},"sizedelta":[{"scale":"0.0 0.0","time":"0.0%"},{"scale":"1.0 1.0","time":"40.0%"},{"scale":"1.1 1.1","time":"100.0%"}],"texture":{"ani":{"fps":"16","name":"textures/sfxs/pet_mod_robot/cs_sentinel_s7BaiGu_hy","shuffle":false},"name":"textures/sfxs/pet_mod_robot/cs_sentinel_s7BaiGu_hy"},"thickness":{"value":"0.0"},"timetolive":{"max":"1.0","min":"0.5"},"velocity":{"max":"0.3","min":"0.0"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "7.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.25 0.1 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.3 0.3"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "40.0%"
+      },
+      {
+        "scale": "1.1 1.1",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/pet_mod_robot/cs_sentinel_s7BaiGu_hy",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/pet_mod_robot/cs_sentinel_s7BaiGu_hy"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.0"
+    }
+  }
+}

@@ -1,1 +1,109 @@
-{"particleeffect": {"activetime": {"value": "0.15"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "24.7%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "60.5%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "5.0"}, "delay": 3.63, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "50.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.8 2.5 1.8"}, "emittertype": {"value": "Cone"}, "enabletexture": {"enable": true}, "numparticles": {"value": "30"}, "particlesize": {"max": "0.13 0.13", "min": "0.05 0.05"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.1 0.1", "time": "0.0%"}, {"scale": "0.94 0.94", "time": "22.0%"}, {"scale": "0.18 0.18", "time": "51.3%"}, {"scale": "0.9 0.9", "time": "74.0%"}, {"scale": "0.18 0.18", "time": "99.7%"}, {"scale": "0.18 0.18", "time": "100.0%"}, {"scale": "0.18 0.18", "time": "100.0%"}], "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_lizi", "shuffle": true}, "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_lizi"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.7", "min": "0.3"}, "velocity": {"max": "8.0", "min": "3.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.15"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "24.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "60.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 3.63,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.8 2.5 1.8"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "particlesize": {
+      "max": "0.13 0.13",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.1 0.1",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.94 0.94",
+        "time": "22.0%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "51.3%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "74.0%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "99.7%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_lizi",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "3.0"
+    }
+  }
+}

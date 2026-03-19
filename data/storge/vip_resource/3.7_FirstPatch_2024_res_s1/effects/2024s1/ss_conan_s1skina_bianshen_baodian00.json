@@ -1,1 +1,73 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.8157 0.8706 1.0000 0.0000", "time": "0.0%"}, {"color": "0.7765 0.7686 1.0000 0.0804", "time": "9.7%"}, {"color": "0.7176 0.6980 1.0000 0.3482", "time": "24.2%"}, {"color": "0.6431 0.7098 1.0000 0.0804", "time": "47.9%"}, {"color": "0.5294 0.5686 0.7451 0.0179", "time": "79.2%"}, {"color": "0.6078 0.6078 0.8353 0.0000", "time": "100.0%"}], "depthtest": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "15.0"}, "faceCameraMode": {"value": "Horizontal"}, "layer": 2, "numparticles": {"value": "2"}, "particlesize": {"max": "2.0 2.0", "min": "1.9 1.9"}, "relative": {"enable": "true"}, "texture": {"name": "textures/sfxs/2024s1/ss_conan_s1skina_bianshen_sun02"}, "timetolive": {"max": "0.5", "min": "0.5"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.8157 0.8706 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7765 0.7686 1.0000 0.0804",
+        "time": "9.7%"
+      },
+      {
+        "color": "0.7176 0.6980 1.0000 0.3482",
+        "time": "24.2%"
+      },
+      {
+        "color": "0.6431 0.7098 1.0000 0.0804",
+        "time": "47.9%"
+      },
+      {
+        "color": "0.5294 0.5686 0.7451 0.0179",
+        "time": "79.2%"
+      },
+      {
+        "color": "0.6078 0.6078 0.8353 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "15.0"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "2.0 2.0",
+      "min": "1.9 1.9"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/ss_conan_s1skina_bianshen_sun02"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

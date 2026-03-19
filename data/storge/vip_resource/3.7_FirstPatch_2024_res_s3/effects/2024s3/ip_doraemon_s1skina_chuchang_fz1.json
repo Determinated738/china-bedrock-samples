@@ -1,69 +1,69 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.5804 1.0000 0.9882 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6667 0.0000 0.5000",
-				"time": "13.9%"
-			},
-			{
-				"color": "1.0000 0.4667 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 5.7,
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "50.0",
-			"min": "50.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.7 0.7",
-			"min": "0.7 0.7"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.95 1.95",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/ip_doraemon_s1skina_chuchang_fz"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.5804 1.0000 0.9882 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.5000",
+        "time": "13.9%"
+      },
+      {
+        "color": "1.0000 0.4667 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 5.7,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.7 0.7",
+      "min": "0.7 0.7"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.95 1.95",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/ip_doraemon_s1skina_chuchang_fz"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
 }

@@ -1,1 +1,78 @@
-{"particleeffect": {"independent": false, "direction": {"max": "1.0 1.0 1.0", "value": "Direction", "min": "-1.0 -1.0 -1.0"}, "dampingforce": {"value": "2.0"}, "numparticles": {"value": "4"}, "texture": {"name": "textures/sfxs/2022s2/fangkuai00"}, "colorfade": [{"color": "0.1608 0.7333 1.0000 0.0000", "time": "0.00"}, {"color": "0.2549 0.7647 1.0000 1.0000", "time": "0.16"}, {"color": "0.6353 0.1922 1.0000 0.0446", "time": "0.30"}, {"color": "0.2353 0.3765 1.0000 0.5804", "time": "0.56"}, {"color": "0.4667 0.1137 1.0000 0.0000", "time": "1.00"}], "emissionrate": {"max": "4.0", "min": "3.0"}, "emitterScaleCurve": [], "layer": 11, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "1.0", "min": "0.3"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "2.0", "min": "1.0"}, "blend": {"name": "add"}, "particlesize": {"max": "0.04 0.04", "min": "0.02 0.02"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "value": "Direction",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s2/fangkuai00"
+    },
+    "colorfade": [
+      {
+        "color": "0.1608 0.7333 1.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.2549 0.7647 1.0000 1.0000",
+        "time": "0.16"
+      },
+      {
+        "color": "0.6353 0.1922 1.0000 0.0446",
+        "time": "0.30"
+      },
+      {
+        "color": "0.2353 0.3765 1.0000 0.5804",
+        "time": "0.56"
+      },
+      {
+        "color": "0.4667 0.1137 1.0000 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "4.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 11,
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.3"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.02 0.02"
+    }
+  }
+}

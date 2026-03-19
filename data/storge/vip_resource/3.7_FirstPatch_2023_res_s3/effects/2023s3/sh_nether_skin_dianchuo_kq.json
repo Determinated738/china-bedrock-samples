@@ -1,1 +1,94 @@
-{"particleeffect": {"activetime": {"value": "0.25"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.3929", "time": "0.0%"}, {"color": "1.0000 0.9529 0.2941 0.3839", "time": "20.5%"}, {"color": "1.0000 0.4824 0.1843 0.2589", "time": "43.2%"}, {"color": "0.6902 0.3412 0.2706 0.1071", "time": "70.5%"}, {"color": "0.4588 0.2549 0.1569 0.0000", "time": "100.0%"}], "delay": 0.42, "direction": {"max": "-0.2 -0.2 -0.2", "min": "0.2 0.2 0.2", "value": "Outwards"}, "emissionrate": {"max": "20.0", "min": "15.0"}, "fadedistance": {"value": "2.0"}, "layer": 11, "numparticles": {"value": "3"}, "particlesize": {"max": "0.55 0.55", "min": "0.65 0.65"}, "relative": {"enable": "true"}, "rotationRange": {"max": "110.0 -20.0 -80.0", "min": "90.0 20.0 80.0"}, "rotationSpeedRange": {"max": "0.0 0.0 60.0", "min": "0.0 0.0 70.0"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.00"}, {"scale": "2.12 2.12", "time": "0.21"}, {"scale": "2.96 2.96", "time": "2.00"}], "texture": {"ani": {"fps": "13", "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_yan", "shuffle": false}, "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_yan"}, "timetolive": {"max": "0.7", "min": "0.9"}, "velocity": {"max": "0.8", "min": "0.4"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.25"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.3929",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9529 0.2941 0.3839",
+        "time": "20.5%"
+      },
+      {
+        "color": "1.0000 0.4824 0.1843 0.2589",
+        "time": "43.2%"
+      },
+      {
+        "color": "0.6902 0.3412 0.2706 0.1071",
+        "time": "70.5%"
+      },
+      {
+        "color": "0.4588 0.2549 0.1569 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.42,
+    "direction": {
+      "max": "-0.2 -0.2 -0.2",
+      "min": "0.2 0.2 0.2",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "15.0"
+    },
+    "fadedistance": {
+      "value": "2.0"
+    },
+    "layer": 11,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.55 0.55",
+      "min": "0.65 0.65"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "110.0 -20.0 -80.0",
+      "min": "90.0 20.0 80.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 60.0",
+      "min": "0.0 0.0 70.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "2.12 2.12",
+        "time": "0.21"
+      },
+      {
+        "scale": "2.96 2.96",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "13",
+        "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_yan",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_yan"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.9"
+    },
+    "velocity": {
+      "max": "0.8",
+      "min": "0.4"
+    }
+  }
+}

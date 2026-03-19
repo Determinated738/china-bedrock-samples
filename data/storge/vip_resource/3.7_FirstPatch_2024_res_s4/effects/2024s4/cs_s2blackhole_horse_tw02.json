@@ -1,119 +1,119 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "13.2%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0089",
-				"time": "39.2%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "3.0",
-			"min": "3.0"
-		},
-		"enableloop": {
-			"enable": "true"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "1.4 1.0",
-			"min": "1.4 1.0"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.0 1.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "60.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "22",
-				"name": "textures/sfxs/2024s4/cs_s2blackhole_horse_tw07",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_horse_tw07"
-		},
-		"timetolive": {
-			"max": "10.0",
-			"min": "10.0"
-		},
-		"trail": {
-			"colorfade": [
-				{
-					"color": "1.0 1.0 1.0 1.0",
-					"time": "0.000%"
-				},
-				{
-					"color": "1.0 1.0 1.0 1.0",
-					"time": "38.684%"
-				},
-				{
-					"color": "1.0 1.0 1.0 0.6964285714285714",
-					"time": "75.789%"
-				},
-				{
-					"color": "1.0 1.0 1.0 0.0",
-					"time": "100.000%"
-				}
-			],
-			"facemode": 0,
-			"lifetime": 0.3,
-			"maxnum": 200,
-			"mindistance": 0.01,
-			"texmode": 2,
-			"textile": "1.0 1.0",
-			"useparticlecolor": false,
-			"useparticlewidth": true,
-			"widthfade": [
-				{
-					"time": "0.0%",
-					"value": "0.55"
-				},
-				{
-					"time": "99.66666666666667%",
-					"value": "0.5"
-				}
-			],
-			"worldspace": true
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "13.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0089",
+        "time": "39.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "1.4 1.0",
+      "min": "1.4 1.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "22",
+        "name": "textures/sfxs/2024s4/cs_s2blackhole_horse_tw07",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_horse_tw07"
+    },
+    "timetolive": {
+      "max": "10.0",
+      "min": "10.0"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "38.684%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.6964285714285714",
+          "time": "75.789%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.3,
+      "maxnum": 200,
+      "mindistance": 0.01,
+      "texmode": 2,
+      "textile": "1.0 1.0",
+      "useparticlecolor": false,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.55"
+        },
+        {
+          "time": "99.66666666666667%",
+          "value": "0.5"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

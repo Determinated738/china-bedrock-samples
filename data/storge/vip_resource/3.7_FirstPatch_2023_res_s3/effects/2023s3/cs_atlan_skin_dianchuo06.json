@@ -1,1 +1,64 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.3333 0.9686 1.0000 0.0982", "time": "0.0%"}, {"color": "0.6118 1.0000 0.9882 0.0625", "time": "100.0%"}], "dampingforce": {"value": "5.0"}, "delay": 3.0, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "4.0", "min": "4.0"}, "emitterpath": [{"offset": "0.0 0.0 0.0", "time": "0.0"}, {"offset": "0.0 -4.0 0.0", "time": "0.1"}], "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "2"}, "particlesize": {"max": "1.0 1.0", "min": "1.0 1.0"}, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "8", "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang_qiliu", "shuffle": false}, "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang_qiliu"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.3333 0.9686 1.0000 0.0982",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.6118 1.0000 0.9882 0.0625",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 3,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "0.0 0.0 0.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "0.0 -4.0 0.0",
+        "time": "0.1"
+      }
+    ],
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "1.0 1.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang_qiliu",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang_qiliu"
+    }
+  }
+}

@@ -1,1 +1,69 @@
-{"particleeffect": {"activetime": {"value": "1.0"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.6667 1.0000 0.4464", "time": "0.0%"}, {"color": "0.0000 0.6667 1.0000 0.2232", "time": "71.3%"}, {"color": "0.0000 0.0000 1.0000 0.0000", "time": "100.0%"}], "delay": 1.7, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "6.0"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "2.0 2.0", "min": "2.0 2.0"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.9 0.9", "time": "0.0%"}, {"scale": "0.74 0.74", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s1/cs_rabbit_skina_chuchang05", "shuffle": false}, "name": "textures/sfxs/2023s1/cs_rabbit_skina_chuchang05"}, "timetolive": {"max": "1.5", "min": "1.5"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.6667 1.0000 0.4464",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.6667 1.0000 0.2232",
+        "time": "71.3%"
+      },
+      {
+        "color": "0.0000 0.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.7,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "2.0 2.0",
+      "min": "2.0 2.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.9 0.9",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.74 0.74",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s1/cs_rabbit_skina_chuchang05",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/cs_rabbit_skina_chuchang05"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.5"
+    }
+  }
+}

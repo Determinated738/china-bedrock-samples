@@ -1,1 +1,76 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.7020 1.0000 0.0000", "time": "0.0%"}, {"color": "0.0000 0.9529 1.0000 1.0000", "time": "26.3%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "69.5%"}, {"color": "1.0000 0.7843 0.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.3 0.3 0.2"}, "emittertype": {"value": "Box"}, "faceCameraMode": {"value": "Direction"}, "layer": 5, "numparticles": {"value": "2"}, "particlesize": {"max": "0.13 0.35", "min": "0.13 0.35"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.2"}, "velocity": {"max": "2.0", "min": "1.5"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.7020 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.9529 1.0000 1.0000",
+        "time": "26.3%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "69.5%"
+      },
+      {
+        "color": "1.0000 0.7843 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.3 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 5,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.13 0.35",
+      "min": "0.13 0.35"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "1.5"
+    }
+  }
+}

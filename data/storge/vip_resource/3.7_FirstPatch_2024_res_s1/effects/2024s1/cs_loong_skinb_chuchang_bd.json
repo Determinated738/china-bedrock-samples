@@ -1,1 +1,86 @@
-{"particleeffect": {"activetime": {"value": "0.1"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "0.6000 0.9686 1.0000 1.0000", "time": "18.9%"}, {"color": "1.0000 0.5608 0.9961 0.5089", "time": "46.3%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "delay": 3.98, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "30.0", "min": "30.0"}, "enabletexture": {"enable": true}, "layer": 3, "numparticles": {"value": "7"}, "particlesize": {"max": "0.45 0.45", "min": "0.3 0.3"}, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 360.0"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "2.22 2.22", "time": "16.0%"}, {"scale": "2.64 2.64", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2024s1/cs_loong_skinb_dianchuo_bd", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_skinb_dianchuo_bd"}, "timetolive": {"max": "0.25", "min": "0.25"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.6000 0.9686 1.0000 1.0000",
+        "time": "18.9%"
+      },
+      {
+        "color": "1.0000 0.5608 0.9961 0.5089",
+        "time": "46.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 3.98,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.45 0.45",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.22 2.22",
+        "time": "16.0%"
+      },
+      {
+        "scale": "2.64 2.64",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s1/cs_loong_skinb_dianchuo_bd",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_skinb_dianchuo_bd"
+    },
+    "timetolive": {
+      "max": "0.25",
+      "min": "0.25"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

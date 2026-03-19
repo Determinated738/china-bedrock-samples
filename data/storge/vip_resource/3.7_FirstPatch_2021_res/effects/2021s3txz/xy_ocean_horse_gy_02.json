@@ -1,1 +1,65 @@
-{"particleeffect":{"independent":false,"direction":{"max":"1.0 1.0 1.0","value":"Direction","min":"-1.0 -1.0 -1.0"},"faceCameraMode":{"value":"Horizontal"},"blend":{"name":"add"},"colorfade":[{"color":"1.0000 0.3333 0.0000 0.1071","time":"0.00"},{"color":"1.0000 0.6667 0.0000 0.0804","time":"1.00"}],"emissionrate":{"max":"5.0","min":"3.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.0 0.0 0.0"},"texture":{"name":"textures/sfxs/2021s1/cs_sgzy_ylfz_jin_fk"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.0","min":"0.0"},"rotationRange":{"max":"90.0 105.0 0.0","min":"90.0 105.0 0.0"},"particlesize":{"max":"0.3 0.1","min":"0.3 0.1"},"numparticles":{"value":"5"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "value": "Direction",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.3333 0.0000 0.1071",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.0804",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/cs_sgzy_ylfz_jin_fk"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "rotationRange": {
+      "max": "90.0 105.0 0.0",
+      "min": "90.0 105.0 0.0"
+    },
+    "particlesize": {
+      "max": "0.3 0.1",
+      "min": "0.3 0.1"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

@@ -1,69 +1,69 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.7589",
-				"time": "35.8%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.4286",
-				"time": "70.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "6.0",
-			"min": "6.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"layer": 3,
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.5 0.6",
-			"min": "0.5 0.6"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 180.0 180.0",
-			"min": "0.0 180.0 180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "24",
-				"name": "textures/sfxs/2024s3/ip_doraemon_fp_di",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/ip_doraemon_fp_01_di"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7589",
+        "time": "35.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4286",
+        "time": "70.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "6.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.5 0.6",
+      "min": "0.5 0.6"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 180.0 180.0",
+      "min": "0.0 180.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2024s3/ip_doraemon_fp_di",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/ip_doraemon_fp_01_di"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
 }

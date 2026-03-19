@@ -1,1 +1,54 @@
-{"particleeffect": {"blend": {"name": "add"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "6.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.5 1.5 1.5"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "5"}, "particlesize": {"max": "0.6 0.6", "min": "0.8 0.8"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "1", "name": "textures/sfxs/2023s4/ss_game_horse_guzhangtiao_01", "shuffle": true}, "name": "textures/sfxs/2023s4/ss_game_horse_guzhangtiao_01"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.1", "min": "0.1"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 1.5 1.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.8 0.8"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "1",
+        "name": "textures/sfxs/2023s4/ss_game_horse_guzhangtiao_01",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2023s4/ss_game_horse_guzhangtiao_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

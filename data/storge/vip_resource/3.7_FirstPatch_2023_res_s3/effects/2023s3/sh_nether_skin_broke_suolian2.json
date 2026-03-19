@@ -1,1 +1,45 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "numparticles": {"value": "1"}, "offsetInCamera": {"value": "-0.02"}, "particlesize": {"max": "0.6 0.8", "min": "0.6 0.8"}, "relative": {"enable": "true"}, "rotationRange": {"max": "200.0 0.0 0.0", "min": "200.0 0.0 0.0"}, "texture": {"ani": {"fps": "36", "name": "textures/sfxs/2023s3/sh_nether_skin_broke_suolian", "shuffle": false}, "name": "textures/sfxs/2023s3/sh_nether_skin_broke_suolian"}, "timetolive": {"max": "0.4", "min": "0.4"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.02"
+    },
+    "particlesize": {
+      "max": "0.6 0.8",
+      "min": "0.6 0.8"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "200.0 0.0 0.0",
+      "min": "200.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "36",
+        "name": "textures/sfxs/2023s3/sh_nether_skin_broke_suolian",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/sh_nether_skin_broke_suolian"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "dampingforce": {"value": "6.0"}, "delay": 4.35, "depthtest": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Outwards"}, "emissionrate": {"max": "70.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 1.0 1.0"}, "emittertype": {"value": "Box"}, "layer": 3, "numparticles": {"value": "15"}, "particlesize": {"max": "0.03 0.03", "min": "0.05 0.05"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.35 1.35", "time": "34.0%"}, {"scale": "0.24 0.24", "time": "60.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/cs_loong_skinb_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.6"}, "velocity": {"max": "3.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "delay": 4.35,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "70.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 1.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.35 1.35",
+        "time": "34.0%"
+      },
+      {
+        "scale": "0.24 0.24",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_skinb_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "2.0"
+    }
+  }
+}

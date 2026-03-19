@@ -1,1 +1,78 @@
-{"particleeffect": {"activetime": {"value": "0.8"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.4375", "time": "0.0%"}, {"color": "0.1451 0.6000 1.0000 0.2411", "time": "72.4%"}, {"color": "0.0431 0.1373 0.4549 0.0000", "time": "100.0%"}], "dampingforce": {"value": "3.0"}, "delay": 3.0, "direction": {"max": "-0.2 -1.0 0.0", "min": "-0.2 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "2.0", "min": "2.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Horizontal"}, "layer": 0, "numparticles": {"value": "3"}, "particlesize": {"max": "2.5 2.5", "min": "2.5 2.5"}, "pointFiltering": true, "relative": {"enable": "false"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.00"}, {"scale": "1.0 1.0", "time": "2.00"}], "texture": {"ani": {"fps": "12", "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang13", "shuffle": false}, "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang13"}, "timetolive": {"max": "1.5", "min": "1.5"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.4375",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1451 0.6000 1.0000 0.2411",
+        "time": "72.4%"
+      },
+      {
+        "color": "0.0431 0.1373 0.4549 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "delay": 3,
+    "direction": {
+      "max": "-0.2 -1.0 0.0",
+      "min": "-0.2 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "2.5 2.5",
+      "min": "2.5 2.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang13",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/cs_atlan_skin_chuchang13"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

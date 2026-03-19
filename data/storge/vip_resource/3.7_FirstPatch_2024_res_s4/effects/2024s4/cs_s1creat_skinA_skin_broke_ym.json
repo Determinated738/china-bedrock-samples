@@ -1,70 +1,70 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.9911",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.9732",
-				"time": "62.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.7232",
-				"time": "82.1%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "4.0"
-		},
-		"direction": {
-			"max": "1.0 -1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "15.0",
-			"min": "10.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"numparticles": {
-			"value": "8"
-		},
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.25 0.25"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s4/cs_s1desert_skin_broke_z",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_broke_ym"
-		},
-		"timetolive": {
-			"max": "0.65",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "5.0",
-			"min": "4.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.9911",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9732",
+        "time": "62.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7232",
+        "time": "82.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "1.0 -1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "10.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.25 0.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s4/cs_s1desert_skin_broke_z",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_broke_ym"
+    },
+    "timetolive": {
+      "max": "0.65",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "4.0"
+    }
+  }
 }

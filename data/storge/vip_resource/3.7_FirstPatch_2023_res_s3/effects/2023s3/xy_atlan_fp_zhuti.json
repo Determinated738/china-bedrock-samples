@@ -1,1 +1,60 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.5625", "time": "25.8%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 10, "particlesize": {"max": "0.6 0.5", "min": "0.6 0.5"}, "pointFiltering": true, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2023s3/xy_atlan_fp_zhuti2", "shuffle": false}, "name": "textures/sfxs/2023s3/xy_atlan_fp_zhuti2"}, "timetolive": {"max": "0.5", "min": "0.5"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5625",
+        "time": "25.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 10,
+    "particlesize": {
+      "max": "0.6 0.5",
+      "min": "0.6 0.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2023s3/xy_atlan_fp_zhuti2",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/xy_atlan_fp_zhuti2"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

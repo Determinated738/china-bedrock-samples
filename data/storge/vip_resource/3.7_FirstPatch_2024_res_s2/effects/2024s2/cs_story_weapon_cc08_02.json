@@ -1,1 +1,54 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.1607", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.1339", "time": "20.0%"}, {"color": "1.0000 1.0000 1.0000 0.1607", "time": "71.8%"}, {"color": "1.0000 1.0000 1.0000 0.1161", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "4.0", "min": "4.0"}, "enabletexture": {"enable": true}, "numparticles": {"value": "4"}, "particlesize": {"max": "0.15 0.15", "min": "0.15 0.15"}, "relative": {"enable": "true"}, "texture": {"name": "textures/sfxs/2024s2/cs_story_weapon_guang"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.1607",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1339",
+        "time": "20.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1607",
+        "time": "71.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1161",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s2/cs_story_weapon_guang"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

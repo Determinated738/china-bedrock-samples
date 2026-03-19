@@ -1,107 +1,107 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.5089",
-				"time": "30.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "43.2%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "53.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.8839",
-				"time": "68.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.5357",
-				"time": "79.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Inwards"
-		},
-		"emissionrate": {
-			"max": "3.0",
-			"min": "2.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterpath": [
-			{
-				"offset": "0.0 0.0 0.0",
-				"rotation": "0.0 0.0 0.0",
-				"time": "0.0"
-			},
-			{
-				"offset": "0.0 0.0 0.0",
-				"rotation": "0.0 0.0 0.0",
-				"time": "0.5"
-			}
-		],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "2.2 2.2 1.6"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"layer": 4,
-		"numparticles": {
-			"value": "5"
-		},
-		"offsetInCamera": {
-			"value": "-0.2"
-		},
-		"particlesize": {
-			"max": "0.4 0.45",
-			"min": "0.3 0.4"
-		},
-		"pointFiltering": true,
-		"prewarm": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "8",
-				"name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_tw1",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_tw1"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "1.15",
-			"min": "1.15"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5089",
+        "time": "30.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "43.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "53.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8839",
+        "time": "68.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5357",
+        "time": "79.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterpath": [
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "0.0 0.0 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.5"
+      }
+    ],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.2 2.2 1.6"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "5"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "0.4 0.45",
+      "min": "0.3 0.4"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_tw1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/sh_s7YangJian_skinB_tw1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.15",
+      "min": "1.15"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    }
+  }
 }

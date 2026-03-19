@@ -1,74 +1,74 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "13.9%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.6786",
-				"time": "68.9%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 0.8,
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 9,
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.25 0.25",
-			"min": "0.25 0.25"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.39 0.39",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.87 0.87",
-				"time": "44.3%"
-			},
-			{
-				"scale": "0.93 0.93",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_weapon_hit_nlq"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "13.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6786",
+        "time": "68.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.8,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 9,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.25 0.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.39 0.39",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.87 0.87",
+        "time": "44.3%"
+      },
+      {
+        "scale": "0.93 0.93",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_weapon_hit_nlq"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

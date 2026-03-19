@@ -1,1 +1,65 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 0.01", "value": "Direction", "min": "0.0 0.0 0.0"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3/ss_electro_fpA_wuxianpu_01", "fps": "10"}, "name": "textures/sfxs/2021s3/ss_electro_fpA_wuxianpu_01"}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 0, "colorfade": [], "emissionrate": {"max": "7.0", "min": "7.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.3", "min": "0.3"}, "particlesize": {"max": "0.3 0.62", "min": "0.3 0.62"}, "sizedelta": [{"scale": "1.2 1.2", "time": "0.00"}, {"scale": "1.17 1.17", "time": "0.31"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/ss_electro_fpA_wuxianpu_01",
+        "fps": "10"
+      },
+      "name": "textures/sfxs/2021s3/ss_electro_fpA_wuxianpu_01"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 0,
+    "colorfade": [],
+    "emissionrate": {
+      "max": "7.0",
+      "min": "7.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "particlesize": {
+      "max": "0.3 0.62",
+      "min": "0.3 0.62"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.2 1.2",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.17 1.17",
+        "time": "0.31"
+      }
+    ]
+  }
+}

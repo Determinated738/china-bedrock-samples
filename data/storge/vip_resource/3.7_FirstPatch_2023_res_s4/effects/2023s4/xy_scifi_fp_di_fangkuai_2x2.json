@@ -1,1 +1,63 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "51.3%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "5.0", "min": "3.0"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 3, "numparticles": {"value": "2"}, "particlesize": {"max": "0.28 0.28", "min": "0.28 0.28"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 180.0 180.0", "min": "0.0 180.0 180.0"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s4/xy_scifi_fp_2X2", "shuffle": true}, "name": "textures/sfxs/2023s4/xy_scifi_fp_2X2"}, "timetolive": {"max": "0.37", "min": "0.37"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "51.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.28 0.28",
+      "min": "0.28 0.28"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 180.0 180.0",
+      "min": "0.0 180.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s4/xy_scifi_fp_2X2",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2023s4/xy_scifi_fp_2X2"
+    },
+    "timetolive": {
+      "max": "0.37",
+      "min": "0.37"
+    }
+  }
+}

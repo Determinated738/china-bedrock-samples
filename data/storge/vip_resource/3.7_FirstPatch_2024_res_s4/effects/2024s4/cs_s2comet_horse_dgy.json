@@ -1,48 +1,48 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.3882 0.9412 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.2588 0.9294 1.0000 0.4911",
-				"time": "48.4%"
-			},
-			{
-				"color": "0.4667 1.0000 0.9569 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "5.0",
-			"min": "5.0"
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.35 0.5",
-			"min": "0.35 0.5"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_horse_sun"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.3882 0.9412 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.2588 0.9294 1.0000 0.4911",
+        "time": "48.4%"
+      },
+      {
+        "color": "0.4667 1.0000 0.9569 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.35 0.5",
+      "min": "0.35 0.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_horse_sun"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

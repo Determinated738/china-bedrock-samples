@@ -1,1 +1,88 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 1.0 0.0", "value": "Direction", "min": "0.0 1.0 0.0"}, "dampingforce": {"value": "2.0"}, "numparticles": {"value": "3"}, "texture": {"ani": {"shuffle": false, "name": "", "fps": "10"}, "name": "textures/sfxs/2021s1/cs_sgwq_lyqB_faguanglizi"}, "colorfade": [], "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Cylinder"}, "timetolive": {"max": "0.6", "min": "0.6"}, "emittersize": {"value": "0.0 0.8 0.6"}, "emitterscale": [{"value": "1.000", "time": "0.0"}, {"value": "0.000", "time": "0.5983333333333334"}, {"value": "0.000", "time": "0.6"}, {"value": "0.000", "time": "0.5966666666666667"}], "velocity": {"max": "2.0", "min": "1.0"}, "particlesize": {"max": "0.06 0.06", "min": "0.04 0.04"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.00"}, {"scale": "0.0 0.0", "time": "1.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "10"
+      },
+      "name": "textures/sfxs/2021s1/cs_sgwq_lyqB_faguanglizi"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "emittersize": {
+      "value": "0.0 0.8 0.6"
+    },
+    "emitterscale": [
+      {
+        "value": "1.000",
+        "time": "0.0"
+      },
+      {
+        "value": "0.000",
+        "time": "0.5983333333333334"
+      },
+      {
+        "value": "0.000",
+        "time": "0.6"
+      },
+      {
+        "value": "0.000",
+        "time": "0.5966666666666667"
+      }
+    ],
+    "velocity": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "particlesize": {
+      "max": "0.06 0.06",
+      "min": "0.04 0.04"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "1.00"
+      }
+    ]
+  }
+}

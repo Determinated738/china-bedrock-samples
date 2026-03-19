@@ -1,1 +1,73 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 -0.01","value":"Direction","min":"0.0 0.0 -0.01"},"numparticles":{"value":"50"},"rotationRange":{"max":"0.0 -90.0 -90.0","min":"0.0 90.0 -90.0"},"colorfade":[{"color":"0.0000 0.0353 0.3569 0.0000","time":"0.00"},{"color":"0.5176 0.0000 0.9686 0.0982","time":"0.09"},{"color":"0.0000 0.3059 0.8706 0.0625","time":"0.18"},{"color":"0.0000 0.7843 1.0000 0.0000","time":"1.00"}],"emissionrate":{"max":"50.0","min":"50.0"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2022s2/cs_starry_horse_yanwu","fps":"0"},"name":"textures/sfxs/2022s2/cs_starry_horse_yanwu"},"relative":{"enable":"true"},"velocity":{"max":"0.1","min":"0.1"},"blend":{"name":"add"},"particlesize":{"max":"0.2 0.25","min":"0.25 0.3"},"sizedelta":[{"scale":"1.44 1.44","time":"0.00"},{"scale":"0.0 0.0","time":"0.36"}],"faceCameraMode":{"value":"Direction"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 -0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 -0.01"
+    },
+    "numparticles": {
+      "value": "50"
+    },
+    "rotationRange": {
+      "max": "0.0 -90.0 -90.0",
+      "min": "0.0 90.0 -90.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.0353 0.3569 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.5176 0.0000 0.9686 0.0982",
+        "time": "0.09"
+      },
+      {
+        "color": "0.0000 0.3059 0.8706 0.0625",
+        "time": "0.18"
+      },
+      {
+        "color": "0.0000 0.7843 1.0000 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s2/cs_starry_horse_yanwu",
+        "fps": "0"
+      },
+      "name": "textures/sfxs/2022s2/cs_starry_horse_yanwu"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.2 0.25",
+      "min": "0.25 0.3"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.44 1.44",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "0.36"
+      }
+    ],
+    "faceCameraMode": {
+      "value": "Direction"
+    }
+  }
+}

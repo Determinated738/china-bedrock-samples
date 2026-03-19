@@ -1,74 +1,74 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.0000 0.0000 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 0.0000 0.0000 0.2857",
-				"time": "17.9%"
-			},
-			{
-				"color": "0.0000 0.0000 0.0000 0.3036",
-				"time": "35.0%"
-			},
-			{
-				"color": "0.0000 0.0000 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 -1.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "15.0",
-			"min": "15.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"numparticles": {
-			"value": "15"
-		},
-		"particlesize": {
-			"max": "1.2 1.2",
-			"min": "1.2 1.2"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.08 1.08",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.2 1.2",
-				"time": "99.3%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_tw",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_tw"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "3.0",
-			"min": "4.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 0.0000 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.2857",
+        "time": "17.9%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.3036",
+        "time": "35.0%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "1.2 1.2",
+      "min": "1.2 1.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.08 1.08",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "99.3%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s4/cs_s2tianxia_horse_tw",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s2tianxia_horse_tw"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "4.0"
+    }
+  }
 }

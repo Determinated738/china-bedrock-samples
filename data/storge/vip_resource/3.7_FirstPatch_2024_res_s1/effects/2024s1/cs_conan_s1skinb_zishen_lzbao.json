@@ -1,1 +1,83 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "7.4%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "72.1%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "delay": 2.05, "direction": {"max": "-0.3 1.0 -0.5", "min": "0.3 1.0 0.5", "value": "Direction"}, "emissionrate": {"max": "12.0", "min": "20.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.4 1.2 0.8"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "inactivetime": {"value": "2.62"}, "layer": 5, "numparticles": {"value": "6"}, "particlesize": {"max": "0.16 0.16", "min": "0.07 0.07"}, "relative": {"enable": "true"}, "rotationRange": {"max": "-45.0 -45.0 180.0", "min": "45.0 45.0 -180.0"}, "texture": {"ani": {"fps": "36", "name": "textures/sfxs/2024s1/cs_conan_s1skinb_zishen_lizibao", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_conan_s1skinb_zishen_lizibao"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.2", "min": "0.7"}, "velocity": {"max": "1.0", "min": "0.4"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "7.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "72.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 2.05,
+    "direction": {
+      "max": "-0.3 1.0 -0.5",
+      "min": "0.3 1.0 0.5",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "12.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.4 1.2 0.8"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "2.62"
+    },
+    "layer": 5,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.16 0.16",
+      "min": "0.07 0.07"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "-45.0 -45.0 180.0",
+      "min": "45.0 45.0 -180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "36",
+        "name": "textures/sfxs/2024s1/cs_conan_s1skinb_zishen_lizibao",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_conan_s1skinb_zishen_lizibao"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.4"
+    }
+  }
+}

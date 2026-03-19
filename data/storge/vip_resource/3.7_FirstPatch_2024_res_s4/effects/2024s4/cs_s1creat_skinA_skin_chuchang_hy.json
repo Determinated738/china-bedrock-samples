@@ -1,94 +1,94 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.6902 0.0627 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6902 0.0627 1.0000",
-				"time": "16.8%"
-			},
-			{
-				"color": "1.0000 0.6902 0.0627 1.0000",
-				"time": "39.5%"
-			},
-			{
-				"color": "0.0118 1.0000 0.7882 1.0000",
-				"time": "63.2%"
-			},
-			{
-				"color": "0.0118 1.0000 0.7843 0.3929",
-				"time": "73.2%"
-			},
-			{
-				"color": "0.0275 1.0000 0.8863 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 5.4,
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "45.0",
-			"min": "65.0"
-		},
-		"faceCameraMode": {
-			"value": "Rotate Y"
-		},
-		"numparticles": {
-			"value": "1"
-		},
-		"particlesize": {
-			"max": "1.5 1.5",
-			"min": "1.5 1.5"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "6.3%"
-			},
-			{
-				"scale": "0.9 0.9",
-				"time": "19.0%"
-			},
-			{
-				"scale": "0.93 0.93",
-				"time": "62.3%"
-			},
-			{
-				"scale": "1.83 1.83",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "12",
-				"name": "",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_chuchang_sun"
-		},
-		"timetolive": {
-			"max": "0.25",
-			"min": "0.25"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6902 0.0627 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6902 0.0627 1.0000",
+        "time": "16.8%"
+      },
+      {
+        "color": "1.0000 0.6902 0.0627 1.0000",
+        "time": "39.5%"
+      },
+      {
+        "color": "0.0118 1.0000 0.7882 1.0000",
+        "time": "63.2%"
+      },
+      {
+        "color": "0.0118 1.0000 0.7843 0.3929",
+        "time": "73.2%"
+      },
+      {
+        "color": "0.0275 1.0000 0.8863 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 5.4,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "45.0",
+      "min": "65.0"
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "1.5 1.5",
+      "min": "1.5 1.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "6.3%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "19.0%"
+      },
+      {
+        "scale": "0.93 0.93",
+        "time": "62.3%"
+      },
+      {
+        "scale": "1.83 1.83",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s1creat_skinA_skin_chuchang_sun"
+    },
+    "timetolive": {
+      "max": "0.25",
+      "min": "0.25"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

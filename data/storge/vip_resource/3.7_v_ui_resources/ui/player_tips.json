@@ -11,8 +11,14 @@
     "type": "panel",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ 100.0, 85.0 ],
-    "$tips_offset | default": [ 0, 0 ],
+    "size": [
+      100,
+      85
+    ],
+    "$tips_offset | default": [
+      0,
+      0
+    ],
     "offset": "$tips_offset",
     "layer": 20,
     "controls": [
@@ -21,8 +27,14 @@
           "type": "image",
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 5.0, 5.0 ],
-          "size": [ 30.0, "100%x" ],
+          "offset": [
+            5,
+            5
+          ],
+          "size": [
+            30,
+            "100%x"
+          ],
           "layer": 2,
           "enabled": true,
           "texture": "#selected_player_head_image",
@@ -39,11 +51,24 @@
                 "type": "label",
                 "anchor_from": "top_right",
                 "anchor_to": "top_left",
-                "offset": [ 2.0, 0.0 ],
-                "size": [ 60.0, "default" ],
-                "max_size": [ "default", 20.0 ],
+                "offset": [
+                  2,
+                  0
+                ],
+                "size": [
+                  60,
+                  "default"
+                ],
+                "max_size": [
+                  "default",
+                  20
+                ],
                 "layer": 2,
-                "color": [ 0.0, 0.0, 0.0 ],
+                "color": [
+                  0,
+                  0,
+                  0
+                ],
                 "font_type": "unicode",
                 "text": "#username",
                 "controls": [
@@ -53,7 +78,11 @@
                       "anchor_from": "bottom_left",
                       "anchor_to": "top_left",
                       "layer": 2,
-                      "color": [ 0.0, 0.0, 0.0 ],
+                      "color": [
+                        0,
+                        0,
+                        0
+                      ],
                       "font_type": "unicode",
                       "text": "neteaseChat.playertip.level_before",
                       "controls": [
@@ -63,7 +92,11 @@
                             "anchor_from": "bottom_right",
                             "anchor_to": "bottom_left",
                             "layer": 2,
-                            "color": [ 0.0, 0.0, 0.0 ],
+                            "color": [
+                              0,
+                              0,
+                              0
+                            ],
                             "font_type": "unicode",
                             "text": "#player_level"
                           }
@@ -77,7 +110,10 @@
             {
               "border": {
                 "type": "image",
-                "size": [ "100%+2px", "100%x" ],
+                "size": [
+                  "100%+2px",
+                  "100%x"
+                ],
                 "layer": 1,
                 "texture": "textures/ui/black_border"
               }
@@ -92,8 +128,14 @@
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "layer": 4,
-          "offset": [ 4, -27 ],
-          "size": [ 45, 20 ]
+          "offset": [
+            4,
+            -27
+          ],
+          "size": [
+            45,
+            20
+          ]
         }
       },
       {
@@ -105,8 +147,14 @@
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "layer": 4,
-          "offset": [ 4, -5 ],
-          "size": [ 45, 20 ]
+          "offset": [
+            4,
+            -5
+          ],
+          "size": [
+            45,
+            20
+          ]
         }
       },
       {
@@ -116,8 +164,14 @@
           "anchor_from": "bottom_right",
           "anchor_to": "bottom_right",
           "layer": 4,
-          "offset": [ -4, -27 ],
-          "size": [ 45, 20 ]
+          "offset": [
+            -4,
+            -27
+          ],
+          "size": [
+            45,
+            20
+          ]
         }
       },
       {
@@ -127,8 +181,14 @@
           "anchor_from": "bottom_right",
           "anchor_to": "bottom_right",
           "layer": 4,
-          "offset": [ -4, -5 ],
-          "size": [ 45, 20 ],
+          "offset": [
+            -4,
+            -5
+          ],
+          "size": [
+            45,
+            20
+          ],
           "bindings": [
             {
               "binding_name": "#netease_chat_kick_button_visible",

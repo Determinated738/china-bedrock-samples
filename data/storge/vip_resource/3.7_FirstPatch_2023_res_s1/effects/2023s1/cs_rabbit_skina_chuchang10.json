@@ -1,1 +1,83 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.1"},"numparticles":{"value":"1"},"enabletexture":{"enable":true},"rotationRange":{"max":"0.0 0.0 90.0","min":"0.0 0.0 90.0"},"colorfade":[{"color":"0.0000 1.0000 1.0000 0.0000","time":"0.0%"},{"color":"0.0000 1.0000 1.0000 1.0000","time":"13.2%"},{"color":"0.0000 0.0000 1.0000 0.0000","time":"100.0%"}],"emissionrate":{"max":"100.0","min":"100.0"},"depthtest":{"enable":"false"},"delay":0.9,"timetolive":{"max":"0.2","min":"0.2"},"texture":{"name":"textures/particle/2020s2/2020s2_cs_jian_FP_sun"},"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"2.0 2.0","min":"2.0 2.0"},"sizedelta":[{"scale":"0.24 0.24","time":"0.0%"},{"scale":"0.6 0.6","time":"25.7%"},{"scale":"1.14 1.14","time":"51.3%"},{"scale":"1.5 1.5","time":"99.3%"}]}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.1"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 1.0000 1.0000 1.0000",
+        "time": "13.2%"
+      },
+      {
+        "color": "0.0000 0.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "depthtest": {
+      "enable": "false"
+    },
+    "delay": 0.9,
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "texture": {
+      "name": "textures/particle/2020s2/2020s2_cs_jian_FP_sun"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "2.0 2.0",
+      "min": "2.0 2.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.24 0.24",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "25.7%"
+      },
+      {
+        "scale": "1.14 1.14",
+        "time": "51.3%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "99.3%"
+      }
+    ]
+  }
+}

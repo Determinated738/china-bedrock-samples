@@ -1,1 +1,81 @@
-{"particleeffect": {"activetime": {"value": "0.8"}, "colorfade": [{"color": "0.2118 0.2118 0.2118 1.0000", "time": "0.0%"}, {"color": "0.1216 0.1216 0.1216 1.0000", "time": "49.5%"}, {"color": "0.0000 0.0000 0.0000 0.0000", "time": "100.0%"}], "delay": 8.3, "direction": {"max": "-0.1 1.0 -0.1", "min": "0.1 0.0 0.1", "value": "Direction"}, "emissionrate": {"max": "8.0", "min": "10.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.15 0.2 0.35"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "inactivetime": {"max": "8.8", "min": "8.8"}, "particlesize": {"max": "0.02 0.02", "min": "0.04 0.04"}, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 360.0"}, "rotationSpeedRange": {"max": "0.0 0.0 -20.0", "min": "0.0 0.0 20.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/ss_thanks23_armor_yumao"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.6"}, "velocity": {"max": "0.2", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "colorfade": [
+      {
+        "color": "0.2118 0.2118 0.2118 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1216 0.1216 0.1216 1.0000",
+        "time": "49.5%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 8.3,
+    "direction": {
+      "max": "-0.1 1.0 -0.1",
+      "min": "0.1 0.0 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.15 0.2 0.35"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "max": "8.8",
+      "min": "8.8"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.04 0.04"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 -20.0",
+      "min": "0.0 0.0 20.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/ss_thanks23_armor_yumao"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.5"
+    }
+  }
+}

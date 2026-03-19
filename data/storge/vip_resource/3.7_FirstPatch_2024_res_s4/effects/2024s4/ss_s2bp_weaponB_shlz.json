@@ -1,88 +1,88 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.0000 1.0000 0.8510 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 1.0000 0.7490 1.0000",
-				"time": "28.7%"
-			},
-			{
-				"color": "0.0000 0.8667 1.0000 1.0000",
-				"time": "73.7%"
-			},
-			{
-				"color": "0.0000 0.5686 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 -0.4 0.0"
-		},
-		"dampingforce": {
-			"value": "5.0"
-		},
-		"direction": {
-			"max": "0.0 0.0 1.0",
-			"min": "0.0 0.0 1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "3.0",
-			"min": "5.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.15 0.15 0.2"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "100"
-		},
-		"particlesize": {
-			"max": "0.02 0.02",
-			"min": "0.03 0.03"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "20.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "60.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/ss_s2bp_weaponB_shlz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.55",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.8510 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 1.0000 0.7490 1.0000",
+        "time": "28.7%"
+      },
+      {
+        "color": "0.0000 0.8667 1.0000 1.0000",
+        "time": "73.7%"
+      },
+      {
+        "color": "0.0000 0.5686 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -0.4 0.0"
+    },
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.15 0.15 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.03 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "20.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/ss_s2bp_weaponB_shlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.55",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.3"
+    }
+  }
 }

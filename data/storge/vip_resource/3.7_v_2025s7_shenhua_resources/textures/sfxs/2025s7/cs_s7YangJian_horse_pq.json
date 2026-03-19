@@ -1,352 +1,352 @@
 {
-	"frames": [
-		{
-			"filename": "penqi_00.png",
-			"frame": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_01.png",
-			"frame": {
-				"x": 128,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_02.png",
-			"frame": {
-				"x": 256,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_03.png",
-			"frame": {
-				"x": 384,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_04.png",
-			"frame": {
-				"x": 0,
-				"y": 128,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_05.png",
-			"frame": {
-				"x": 128,
-				"y": 128,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_06.png",
-			"frame": {
-				"x": 256,
-				"y": 128,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_07.png",
-			"frame": {
-				"x": 384,
-				"y": 128,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_08.png",
-			"frame": {
-				"x": 0,
-				"y": 256,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_09.png",
-			"frame": {
-				"x": 128,
-				"y": 256,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_10.png",
-			"frame": {
-				"x": 256,
-				"y": 256,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_11.png",
-			"frame": {
-				"x": 384,
-				"y": 256,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_12.png",
-			"frame": {
-				"x": 0,
-				"y": 384,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_13.png",
-			"frame": {
-				"x": 128,
-				"y": 384,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_14.png",
-			"frame": {
-				"x": 256,
-				"y": 384,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		},
-		{
-			"filename": "penqi_15.png",
-			"frame": {
-				"x": 384,
-				"y": 384,
-				"w": 128,
-				"h": 128
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 128,
-				"h": 128
-			},
-			"sourceSize": {
-				"w": 128,
-				"h": 128
-			}
-		}
-	],
-	"meta": {
-		"app": "http://www.texturepacker.com",
-		"version": "1.0",
-		"image": "cs_s7YangJian_horse_pq.png",
-		"format": "RGBA8888",
-		"size": {
-			"w": 512,
-			"h": 512
-		},
-		"scale": "1",
-		"smartupdate": "$TexturePacker:SmartUpdate:ad19d253a3d26d31a62c15b389d0179d$"
-	}
+  "frames": [
+    {
+      "filename": "penqi_00.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_01.png",
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_02.png",
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_03.png",
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_04.png",
+      "frame": {
+        "x": 0,
+        "y": 128,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_05.png",
+      "frame": {
+        "x": 128,
+        "y": 128,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_06.png",
+      "frame": {
+        "x": 256,
+        "y": 128,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_07.png",
+      "frame": {
+        "x": 384,
+        "y": 128,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_08.png",
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_09.png",
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_10.png",
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_11.png",
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_12.png",
+      "frame": {
+        "x": 0,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_13.png",
+      "frame": {
+        "x": 128,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_14.png",
+      "frame": {
+        "x": 256,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "filename": "penqi_15.png",
+      "frame": {
+        "x": 384,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "version": "1.0",
+    "image": "cs_s7YangJian_horse_pq.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 512
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:ad19d253a3d26d31a62c15b389d0179d$"
+  }
 }

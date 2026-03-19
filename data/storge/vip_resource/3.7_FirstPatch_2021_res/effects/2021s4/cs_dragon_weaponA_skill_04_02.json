@@ -1,1 +1,93 @@
-{"particleeffect":{"independent":true,"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.2"},"numparticles":{"value":"2"},"rotationRange":{"max":"0.0 0.0 -180.0","min":"0.0 0.0 180.0"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"1.0000 1.0000 1.0000 0.8214","time":"0.14"},{"color":"1.0000 1.0000 1.0000 0.0000","time":"0.25"}],"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s4/cs_dragon_weaponA_skill_02_04","fps":"15"},"name":"textures/sfxs/2021s4/cs_dragon_weaponA_skill_02_04"},"emitterScaleCurve":[],"layer":2,"depthtest":{"enable":"false"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.25","min":"0.25"},"emittersize":{"value":"0.0 0.0 0.0"},"emitterscale":[],"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"Opaque"},"particlesize":{"max":"0.15 0.15","min":"0.15 0.15"},"sizedelta":[{"scale":"0.09 0.09","time":"0.0%"},{"scale":"0.44 0.44","time":"19.7%"},{"scale":"2.16 2.16","time":"43.7%"},{"scale":"2.32 2.32","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": true,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8214",
+        "time": "0.14"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.25"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s4/cs_dragon_weaponA_skill_02_04",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s4/cs_dragon_weaponA_skill_02_04"
+    },
+    "emitterScaleCurve": [],
+    "layer": 2,
+    "depthtest": {
+      "enable": "false"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.25",
+      "min": "0.25"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "Opaque"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.15 0.15"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.09 0.09",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.44 0.44",
+        "time": "19.7%"
+      },
+      {
+        "scale": "2.16 2.16",
+        "time": "43.7%"
+      },
+      {
+        "scale": "2.32 2.32",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

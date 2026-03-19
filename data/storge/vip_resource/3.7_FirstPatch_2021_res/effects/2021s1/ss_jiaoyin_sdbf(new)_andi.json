@@ -1,1 +1,73 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "faceCameraMode": {"value": "Horizontal"}, "layer": 0, "colorfade": [{"color": "1.0000 0.7843 0.0000 0.1161", "time": "0.00"}, {"color": "0.1373 0.6275 1.0000 0.2321", "time": "0.35"}, {"color": "0.3216 0.1529 0.4196 0.1875", "time": "0.81"}], "texture": {"name": "textures/sfxs/2021s1/ss_jiaoyin_sdbf(new)_glow_soft"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "timetolive": {"max": "0.9", "min": "0.8"}, "emittersize": {"value": "0.5 0.0 0.0"}, "emitterscale": [], "particlesize": {"max": "0.8 0.8", "min": "0.6 0.6"}, "sizedelta": [{"scale": "1.26 1.26", "time": "0.00"}, {"scale": "1.18 1.18", "time": "0.40"}, {"scale": "0.84 0.84", "time": "2.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 0,
+    "colorfade": [
+      {
+        "color": "1.0000 0.7843 0.0000 0.1161",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1373 0.6275 1.0000 0.2321",
+        "time": "0.35"
+      },
+      {
+        "color": "0.3216 0.1529 0.4196 0.1875",
+        "time": "0.81"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2021s1/ss_jiaoyin_sdbf(new)_glow_soft"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.9",
+      "min": "0.8"
+    },
+    "emittersize": {
+      "value": "0.5 0.0 0.0"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.6 0.6"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.26 1.26",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.18 1.18",
+        "time": "0.40"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "2.00"
+      }
+    ]
+  }
+}

@@ -1,1 +1,90 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"numparticles":{"value":"4"},"colorfade":[{"color":"1.0000 0.3333 0.0000 1.0000","time":"0.00"},{"color":"1.0000 0.6667 0.0000 1.0000","time":"0.27"},{"color":"1.0000 0.9412 0.0784 1.0000","time":"0.53"},{"color":"0.9961 1.0000 0.6510 1.0000","time":"0.80"}],"emissionrate":{"max":"4.0","min":"5.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.1 0.1 0.1"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s4/cs_dragon_horseA01_mylz","fps":"6"},"name":"textures/sfxs/2021s4/cs_dragon_horseA01_mylz"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Cone"},"timetolive":{"max":"0.8","min":"0.4"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.4","min":"0.3"},"rotationRange":{"max":"0.0 0.0 -90.0","min":"0.0 0.0 90.0"},"particlesize":{"max":"0.08 0.08","min":"0.2 0.2"},"sizedelta":[{"scale":"0.81 0.81","time":"0.00"},{"scale":"1.62 1.62","time":"1.18"},{"scale":"2.22 2.22","time":"2.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.3333 0.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 1.0000",
+        "time": "0.27"
+      },
+      {
+        "color": "1.0000 0.9412 0.0784 1.0000",
+        "time": "0.53"
+      },
+      {
+        "color": "0.9961 1.0000 0.6510 1.0000",
+        "time": "0.80"
+      }
+    ],
+    "emissionrate": {
+      "max": "4.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s4/cs_dragon_horseA01_mylz",
+        "fps": "6"
+      },
+      "name": "textures/sfxs/2021s4/cs_dragon_horseA01_mylz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.4"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.2 0.2"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.81 0.81",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.62 1.62",
+        "time": "1.18"
+      },
+      {
+        "scale": "2.22 2.22",
+        "time": "2.00"
+      }
+    ]
+  }
+}

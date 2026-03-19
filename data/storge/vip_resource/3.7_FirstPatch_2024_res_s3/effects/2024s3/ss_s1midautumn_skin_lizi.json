@@ -1,85 +1,85 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.9375",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "8.7%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "89.2%"
-			},
-			{
-				"color": "0.6667 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "10.0",
-			"min": "8.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.2 2.0 0.6"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "6"
-		},
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.04 0.04"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.58 0.58",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "7.7%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "51.7%"
-			},
-			{
-				"scale": "0.18 0.18",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s3/ss_s1midautumn_skin_lizi",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s3/ss_s1midautumn_skin_lizi"
-		},
-		"thickness": {
-			"value": "0.3"
-		},
-		"timetolive": {
-			"max": "1.0",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.9375",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "8.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "89.2%"
+      },
+      {
+        "color": "0.6667 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 2.0 0.6"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.04 0.04"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.58 0.58",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "7.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "51.7%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s3/ss_s1midautumn_skin_lizi",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s3/ss_s1midautumn_skin_lizi"
+    },
+    "thickness": {
+      "value": "0.3"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    }
+  }
 }

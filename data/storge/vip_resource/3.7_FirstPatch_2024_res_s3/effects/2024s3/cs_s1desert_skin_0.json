@@ -1,68 +1,68 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 0.8353 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.8353 0.0000 0.6964",
-				"time": "7.9%"
-			},
-			{
-				"color": "0.4510 0.0000 1.0000 1.0000",
-				"time": "30.8%"
-			},
-			{
-				"color": "0.0000 0.0000 0.0000 1.0000",
-				"time": "82.9%"
-			},
-			{
-				"color": "0.0000 0.0000 0.0000 0.1964",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 1.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.5 0.8 0.9"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "15"
-		},
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.03 0.03"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "8",
-				"name": "",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1desert_skin_d"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.5",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.8353 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.8353 0.0000 0.6964",
+        "time": "7.9%"
+      },
+      {
+        "color": "0.4510 0.0000 1.0000 1.0000",
+        "time": "30.8%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 1.0000",
+        "time": "82.9%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.1964",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.8 0.9"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1desert_skin_d"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    }
+  }
 }

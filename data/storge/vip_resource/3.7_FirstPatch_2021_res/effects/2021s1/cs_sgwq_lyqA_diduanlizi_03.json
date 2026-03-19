@@ -1,1 +1,62 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 1.0 0.0", "value": "Direction", "min": "0.0 1.0 0.0"}, "numparticles": {"value": "2"}, "colorfade": [{"color": "0.2196 0.4118 0.7020 0.0000", "time": "0.00"}, {"color": "0.1765 0.4353 0.6314 1.0000", "time": "0.11"}, {"color": "0.2431 0.4549 0.6392 1.0000", "time": "0.55"}, {"color": "0.0000 0.0275 0.3098 1.0000", "time": "1.00"}], "texture": {"name": "textures/sfxs/2021s1/cs_sgwq_lyqA_lizi"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Cylinder"}, "emittersize": {"value": "0.0 0.4 0.4"}, "emitterscale": [], "velocity": {"max": "0.8", "min": "0.4"}, "particlesize": {"max": "0.03 0.04", "min": "0.03 0.04"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "colorfade": [
+      {
+        "color": "0.2196 0.4118 0.7020 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1765 0.4353 0.6314 1.0000",
+        "time": "0.11"
+      },
+      {
+        "color": "0.2431 0.4549 0.6392 1.0000",
+        "time": "0.55"
+      },
+      {
+        "color": "0.0000 0.0275 0.3098 1.0000",
+        "time": "1.00"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2021s1/cs_sgwq_lyqA_lizi"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "emittersize": {
+      "value": "0.0 0.4 0.4"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.8",
+      "min": "0.4"
+    },
+    "particlesize": {
+      "max": "0.03 0.04",
+      "min": "0.03 0.04"
+    }
+  }
+}

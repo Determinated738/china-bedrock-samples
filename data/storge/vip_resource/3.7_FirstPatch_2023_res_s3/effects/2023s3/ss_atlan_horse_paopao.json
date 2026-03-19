@@ -1,1 +1,82 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "26.1%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "100.0%"}], "dampingforce": {"value": "1.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "-1.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "4.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "2.0 2.0 2.0"}, "emittertype": {"value": "Sphere"}, "enabletexture": {"enable": true}, "numparticles": {"value": "6"}, "particlesize": {"max": "0.15 0.15", "min": "0.1 0.1"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.36 0.36", "time": "0.00"}, {"scale": "1.05 1.05", "time": "0.98"}, {"scale": "1.02 1.02", "time": "1.98"}], "texture": {"name": "textures/sfxs/2023s3/ss_atlan_horse_paopao"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.0", "min": "0.6"}, "velocity": {"max": "0.3", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "26.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.0 2.0 2.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.36 0.36",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "0.98"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "1.98"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/ss_atlan_horse_paopao"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

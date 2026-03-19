@@ -1,1 +1,108 @@
-{"particleeffect":{"layer":10,"emissionrate":{"max":"10.0","min":"15.0"},"relative":{"enable":"true"},"particlesize":{"max":"0.05 0.05","min":"0.02 0.02"},"activetime":{"value":"0.85"},"numparticles":{"value":"3"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"delay":0.18,"timetolive":{"max":"0.85","min":"0.6"},"sizedelta":[{"scale":"0.7 0.7","time":"0.0%"},{"scale":"1.0 1.0","time":"45.0%"},{"scale":"0.7 0.7","time":"100.0%"}],"independent":false,"direction":{"max":"0.0 -1.0 0.0","value":"Direction","min":"0.0 -0.8 0.0"},"dampingforce":{"value":"2.4"},"emitterScaleCurve":[],"emittersize":{"value":"1.8 1.0 1.8"},"emitterscale":[],"colorfade":[{"color":"0.6392 0.1412 0.7373 0.0000","time":"0.00"},{"color":"1.0000 0.6745 0.6745 1.0000","time":"0.14"},{"color":"1.0000 0.6000 0.8431 1.0000","time":"0.30"},{"color":"0.8549 0.3294 1.0000 1.0000","time":"0.23"},{"color":"0.3216 0.1451 0.4980 1.0000","time":"0.43"},{"color":"0.8118 0.4863 1.0000 0.8929","time":"0.52"},{"color":"0.4353 0.1725 0.4549 0.6607","time":"0.72"},{"color":"0.2039 0.0784 0.2784 0.0000","time":"0.85"}],"depthtest":{"enable":"true"},"emittertype":{"value":"Sphere"},"velocity":{"max":"3.8","min":"3.0"},"blend":{"name":"add"}}}
+{
+  "particleeffect": {
+    "layer": 10,
+    "emissionrate": {
+      "max": "10.0",
+      "min": "15.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "activetime": {
+      "value": "0.85"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.18,
+    "timetolive": {
+      "max": "0.85",
+      "min": "0.6"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.7 0.7",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "45.0%"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "100.0%"
+      }
+    ],
+    "independent": false,
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -0.8 0.0"
+    },
+    "dampingforce": {
+      "value": "2.4"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "1.8 1.0 1.8"
+    },
+    "emitterscale": [],
+    "colorfade": [
+      {
+        "color": "0.6392 0.1412 0.7373 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.6745 0.6745 1.0000",
+        "time": "0.14"
+      },
+      {
+        "color": "1.0000 0.6000 0.8431 1.0000",
+        "time": "0.30"
+      },
+      {
+        "color": "0.8549 0.3294 1.0000 1.0000",
+        "time": "0.23"
+      },
+      {
+        "color": "0.3216 0.1451 0.4980 1.0000",
+        "time": "0.43"
+      },
+      {
+        "color": "0.8118 0.4863 1.0000 0.8929",
+        "time": "0.52"
+      },
+      {
+        "color": "0.4353 0.1725 0.4549 0.6607",
+        "time": "0.72"
+      },
+      {
+        "color": "0.2039 0.0784 0.2784 0.0000",
+        "time": "0.85"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "velocity": {
+      "max": "3.8",
+      "min": "3.0"
+    },
+    "blend": {
+      "name": "add"
+    }
+  }
+}

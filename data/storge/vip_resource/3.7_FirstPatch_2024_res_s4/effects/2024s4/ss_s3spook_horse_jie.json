@@ -1,64 +1,64 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.3804 0.7176 0.5373 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.3804 0.7176 0.5373 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.6"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "7.0",
-			"min": "5.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.5 0.5"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "7"
-		},
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.2 0.2"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "10",
-				"name": "textures/sfxs/2024s4/ss_s3spook_horse_quan",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/ss_s3spook_horse_quan"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.7"
-		},
-		"velocity": {
-			"max": "0.8",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.3804 0.7176 0.5373 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3804 0.7176 0.5373 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.6"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "7.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.5 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.2 0.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2024s4/ss_s3spook_horse_quan",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/ss_s3spook_horse_quan"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.8",
+      "min": "1.0"
+    }
+  }
 }

@@ -1,1 +1,90 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 0.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "49.2%"}, {"color": "0.0000 0.7020 1.0000 1.0000", "time": "49.7%"}, {"color": "0.0000 0.7020 1.0000 1.0000", "time": "100.0%"}], "constantforce": {"value": "0.0 1.0 0.0"}, "dampingforce": {"value": "4.0"}, "direction": {"max": "1.0 0.0 1.0", "min": "-1.0 1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 0.8 0.2"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "numparticles": {"value": "100"}, "particlesize": {"max": "0.02 0.02", "min": "0.04 0.04"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "80.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/ss_darkmoon_weapon_lz_2"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.8"}, "velocity": {"max": "0.6", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "49.2%"
+      },
+      {
+        "color": "0.0000 0.7020 1.0000 1.0000",
+        "time": "49.7%"
+      },
+      {
+        "color": "0.0000 0.7020 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "1.0 0.0 1.0",
+      "min": "-1.0 1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.8 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.04 0.04"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/ss_darkmoon_weapon_lz_2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.2"
+    }
+  }
+}

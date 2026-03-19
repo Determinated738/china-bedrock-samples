@@ -1,99 +1,99 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.3176 0.4353 0.6118 0.5179",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.2627 0.3569 0.7020 0.8661",
-				"time": "5.3%"
-			},
-			{
-				"color": "0.2431 0.2157 0.6314 0.6607",
-				"time": "60.0%"
-			},
-			{
-				"color": "0.3412 0.3412 0.7059 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "20.0",
-			"min": "20.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.1 0.15 0.05"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"inactivetime": {
-			"value": "1.0"
-		},
-		"layer": 4,
-		"numparticles": {
-			"value": "20"
-		},
-		"offsetInCamera": {
-			"value": "-0.05"
-		},
-		"particlesize": {
-			"max": "0.15 0.15",
-			"min": "0.1 0.1"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.8 0.8",
-				"time": "29.7%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "5",
-				"name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_smoke",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_smoke"
-		},
-		"thickness": {
-			"value": "1.0"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.3176 0.4353 0.6118 0.5179",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.2627 0.3569 0.7020 0.8661",
+        "time": "5.3%"
+      },
+      {
+        "color": "0.2431 0.2157 0.6314 0.6607",
+        "time": "60.0%"
+      },
+      {
+        "color": "0.3412 0.3412 0.7059 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.15 0.05"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "1.0"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "20"
+    },
+    "offsetInCamera": {
+      "value": "-0.05"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "29.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "5",
+        "name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_smoke",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/ss_s6Mechanical_Furnace_smoke"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "1.0"
+    }
+  }
 }

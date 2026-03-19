@@ -1,1 +1,84 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9686 0.0314 1.0000", "time": "0.0%"}, {"color": "0.0000 0.4314 1.0000 0.9018", "time": "48.4%"}, {"color": "0.2863 0.8353 1.0000 0.4911", "time": "78.7%"}, {"color": "0.2157 0.0196 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "4.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emissionrate": {"max": "30.0", "min": "20.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 1.0 1.0"}, "emittertype": {"value": "Sphere"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.07 0.07", "min": "0.1 0.1"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "6", "name": "textures/sfxs/2024s2/cs_conan_s1skinb_broke_xx", "shuffle": true}, "name": "textures/sfxs/2024s2/cs_conan_s1skinb_broke_xx"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.45", "min": "0.3"}, "velocity": {"max": "3.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9686 0.0314 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.4314 1.0000 0.9018",
+        "time": "48.4%"
+      },
+      {
+        "color": "0.2863 0.8353 1.0000 0.4911",
+        "time": "78.7%"
+      },
+      {
+        "color": "0.2157 0.0196 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 1.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "6",
+        "name": "textures/sfxs/2024s2/cs_conan_s1skinb_broke_xx",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s2/cs_conan_s1skinb_broke_xx"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.45",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "2.0"
+    }
+  }
+}

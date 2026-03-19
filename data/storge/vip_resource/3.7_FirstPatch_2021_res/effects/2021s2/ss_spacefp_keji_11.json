@@ -1,1 +1,90 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 0.1","value":"Direction","min":"0.0 0.0 0.0"},"faceCameraMode":{"value":"Direction"},"blend":{"name":"add"},"colorfade":[{"color":"0.0000 1.0000 0.7843 0.3661","time":"0.00"},{"color":"0.1922 0.6510 1.0000 0.9107","time":"0.00"},{"color":"0.7373 1.0000 0.6627 0.8750","time":"0.00"},{"color":"1.0000 0.5725 0.9804 0.7946","time":"0.00"},{"color":"0.2000 0.3059 1.0000 0.5625","time":"0.01"},{"color":"0.2549 0.7137 1.0000 0.3750","time":"0.04"}],"emissionrate":{"max":"5.0","min":"10.0"},"emitterScaleCurve":[],"layer":2,"texture":{"ani":{"shuffle":false,"name":"","fps":"15"},"name":"textures/sfxs/2021s1/xy_jiaoyin_saibopengke_lizi"},"enableloop":{"enable":"true"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.6","min":"0.6"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.6 0.2 0.45"},"velocity":{"max":"0.6","min":"0.5"},"thickness":{"value":"0.0"},"emitterscale":[],"particlesize":{"max":"0.08 0.08","min":"0.05 0.05"},"numparticles":{"value":"4"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.1",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.7843 0.3661",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1922 0.6510 1.0000 0.9107",
+        "time": "0.00"
+      },
+      {
+        "color": "0.7373 1.0000 0.6627 0.8750",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.5725 0.9804 0.7946",
+        "time": "0.00"
+      },
+      {
+        "color": "0.2000 0.3059 1.0000 0.5625",
+        "time": "0.01"
+      },
+      {
+        "color": "0.2549 0.7137 1.0000 0.3750",
+        "time": "0.04"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 2,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s1/xy_jiaoyin_saibopengke_lizi"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.6 0.2 0.45"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.05 0.05"
+    },
+    "numparticles": {
+      "value": "4"
+    }
+  }
+}

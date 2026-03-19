@@ -1,82 +1,82 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.9732",
-				"time": "49.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 -3.0 -10.0"
-		},
-		"dampingforce": {
-			"value": "3.5"
-		},
-		"delay": 3.9,
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "100.0",
-			"min": "100.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.8 0.7999999999999999 0.7999999999999999"
-		},
-		"emittertype": {
-			"value": "Cone"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.4 0.4",
-			"min": "0.30000000000000004 0.30000000000000004"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 -180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "24",
-				"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_02",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_04"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.19999999999999998"
-		},
-		"velocity": {
-			"max": "5.0",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9732",
+        "time": "49.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -3.0 -10.0"
+    },
+    "dampingforce": {
+      "value": "3.5"
+    },
+    "delay": 3.9,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.7999999999999999 0.7999999999999999"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.30000000000000004 0.30000000000000004"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_02",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_04"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.19999999999999998"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "1.0"
+    }
+  }
 }

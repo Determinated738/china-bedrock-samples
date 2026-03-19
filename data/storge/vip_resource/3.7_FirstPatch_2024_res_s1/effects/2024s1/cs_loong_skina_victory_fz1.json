@@ -1,1 +1,101 @@
-{"particleeffect": {"activetime": {"value": "0.1"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9686 0.5961 0.0000", "time": "0.0%"}, {"color": "1.0000 0.9529 0.2902 1.0000", "time": "5.5%"}, {"color": "1.0000 0.4314 0.1686 0.9286", "time": "48.2%"}, {"color": "0.5647 0.2902 0.2000 0.8304", "time": "66.1%"}, {"color": "0.2431 0.1255 0.0902 0.5179", "time": "85.0%"}, {"color": "0.1137 0.0902 0.0784 0.0000", "time": "100.0%"}], "depthtest": {"enable": "false"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "50.0", "min": "50.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Horizontal"}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.9 0.9", "min": "0.9 0.9"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.2 0.2", "time": "0.0%"}, {"scale": "0.54 0.54", "time": "19.0%"}, {"scale": "1.23 1.23", "time": "48.0%"}, {"scale": "1.41 1.41", "time": "65.0%"}, {"scale": "1.59 1.59", "time": "83.0%"}, {"scale": "1.65 1.65", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/cs_loong_skina_victory_sun"}, "timetolive": {"max": "0.2", "min": "0.2"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9686 0.5961 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9529 0.2902 1.0000",
+        "time": "5.5%"
+      },
+      {
+        "color": "1.0000 0.4314 0.1686 0.9286",
+        "time": "48.2%"
+      },
+      {
+        "color": "0.5647 0.2902 0.2000 0.8304",
+        "time": "66.1%"
+      },
+      {
+        "color": "0.2431 0.1255 0.0902 0.5179",
+        "time": "85.0%"
+      },
+      {
+        "color": "0.1137 0.0902 0.0784 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.9 0.9",
+      "min": "0.9 0.9"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.2 0.2",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "19.0%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "48.0%"
+      },
+      {
+        "scale": "1.41 1.41",
+        "time": "65.0%"
+      },
+      {
+        "scale": "1.59 1.59",
+        "time": "83.0%"
+      },
+      {
+        "scale": "1.65 1.65",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_skina_victory_sun"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

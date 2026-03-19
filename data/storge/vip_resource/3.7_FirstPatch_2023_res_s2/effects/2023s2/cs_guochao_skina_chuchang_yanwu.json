@@ -1,1 +1,70 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"-1.0 0.0 0.0","value":"Direction","min":"-0.05 0.0 0.0"},"activetime":{"value":"0.3"},"texture":{"name":"textures/particle/2020s2/2020s2_cs_jian_FP_sun"},"colorfade":[{"color":"0.8863 0.7843 0.0000 0.0000","time":"0.00"},{"color":"1.0000 0.7294 0.0902 0.1696","time":"0.19"},{"color":"1.0000 0.3804 0.1725 0.0446","time":"0.53"},{"color":"1.0000 0.5686 0.4902 0.0000","time":"0.70"}],"emissionrate":{"max":"20.0","min":"10.0"},"emitterScaleCurve":[],"depthtest":{"enable":"false"},"thickness":{"value":"0.0"},"delay":2.4,"emittertype":{"value":"Box"},"timetolive":{"max":"0.5","min":"0.7"},"emittersize":{"value":"0.0 0.0 0.0"},"emitterscale":[],"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"0.8 0.8","min":"1.0 1.0"}}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "value": "Direction",
+      "min": "-0.05 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.3"
+    },
+    "texture": {
+      "name": "textures/particle/2020s2/2020s2_cs_jian_FP_sun"
+    },
+    "colorfade": [
+      {
+        "color": "0.8863 0.7843 0.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.7294 0.0902 0.1696",
+        "time": "0.19"
+      },
+      {
+        "color": "1.0000 0.3804 0.1725 0.0446",
+        "time": "0.53"
+      },
+      {
+        "color": "1.0000 0.5686 0.4902 0.0000",
+        "time": "0.70"
+      }
+    ],
+    "emissionrate": {
+      "max": "20.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "false"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 2.4,
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.7"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "1.0 1.0"
+    }
+  }
+}

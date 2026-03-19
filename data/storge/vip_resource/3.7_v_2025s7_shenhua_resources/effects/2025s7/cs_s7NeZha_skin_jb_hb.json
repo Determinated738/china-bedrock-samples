@@ -1,142 +1,142 @@
 {
-	"frameeffect": {
-		"blend_mode": 1,
-		"cylinder_enable": true,
-		"cylinder_frac_num": 32,
-		"cylinder_height": 2.4,
-		"cylinder_radius_down": 0.2,
-		"cylinder_radius_up": 1.4,
-		"delay": 0.1,
-		"delay_in_loop": false,
-		"depth_test": true,
-		"face_camera": false,
-		"fade_distance": 0.0,
-		"first_person_enable": false,
-		"fps": 20,
-		"frame_color": [
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			]
-		],
-		"layer": 0,
-		"lerp_scale": true,
-		"loop": false,
-		"point_filtering": true,
-		"rot_speed": [
-			0,
-			0,
-			0
-		],
-		"scale": [
-			0.64,
-			0.64,
-			0.64
-		],
-		"shuffle": false,
-		"sub_layer": 0,
-		"tex_repeat_num": [
-			2,
-			1
-		],
-		"texture": "textures/sfxs/2025s7/cs_s7NeZha_skin_jb_hb"
-	}
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 32,
+    "cylinder_height": 2.4,
+    "cylinder_radius_down": 0.2,
+    "cylinder_radius_up": 1.4,
+    "delay": 0.1,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 20,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "layer": 0,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.64,
+      0.64,
+      0.64
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      2,
+      1
+    ],
+    "texture": "textures/sfxs/2025s7/cs_s7NeZha_skin_jb_hb"
+  }
 }

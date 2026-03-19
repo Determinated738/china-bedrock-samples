@@ -1,1 +1,80 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.8784 0.1882 1.0000", "time": "0.0%"}, {"color": "1.0000 0.4510 0.0000 1.0000", "time": "29.2%"}, {"color": "0.8392 0.0510 0.0510 0.8304", "time": "58.9%"}, {"color": "0.4588 0.0392 0.0392 0.0000", "time": "100.0%"}], "direction": {"max": "-1.0 1.0 -1.0", "min": "1.0 -1.0 1.0", "value": "Direction"}, "emissionrate": {"max": "8.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 0.2 0.2"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "8"}, "particlesize": {"max": "0.07 0.07", "min": "0.04 0.04"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.2 1.2", "time": "24.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s3/sh_nether_skin2_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.5"}, "velocity": {"max": "0.1", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8784 0.1882 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.4510 0.0000 1.0000",
+        "time": "29.2%"
+      },
+      {
+        "color": "0.8392 0.0510 0.0510 0.8304",
+        "time": "58.9%"
+      },
+      {
+        "color": "0.4588 0.0392 0.0392 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "-1.0 1.0 -1.0",
+      "min": "1.0 -1.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.04 0.04"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "24.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/sh_nether_skin2_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    }
+  }
+}

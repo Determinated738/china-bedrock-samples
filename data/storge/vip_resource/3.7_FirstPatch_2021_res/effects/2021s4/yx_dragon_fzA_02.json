@@ -1,1 +1,72 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"numparticles":{"value":"4"},"colorfade":[{"color":"1.0000 0.6000 0.7725 1.0000","time":"0.00"},{"color":"1.0000 0.6353 0.6863 0.8839","time":"0.38"},{"color":"1.0000 0.7176 0.7922 0.4375","time":"0.56"},{"color":"1.0000 0.8353 0.8392 0.0000","time":"0.60"}],"emissionrate":{"max":"8.0","min":"2.0"},"emitterScaleCurve":[],"emittersize":{"value":"1.0 0.0 1.0"},"texture":{"ani":{"shuffle":false,"name":"","fps":"15"},"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.6","min":"0.3"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.8","min":"0.2"},"particlesize":{"max":"0.03 0.03","min":"0.02 0.02"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6000 0.7725 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.6353 0.6863 0.8839",
+        "time": "0.38"
+      },
+      {
+        "color": "1.0000 0.7176 0.7922 0.4375",
+        "time": "0.56"
+      },
+      {
+        "color": "1.0000 0.8353 0.8392 0.0000",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "8.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "1.0 0.0 1.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "15"
+      },
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.8",
+      "min": "0.2"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.02 0.02"
+    }
+  }
+}

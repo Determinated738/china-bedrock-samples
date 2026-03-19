@@ -1,66 +1,66 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.2588 0.7059 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.3333 0.8471 1.0000 0.6339",
-				"time": "18.7%"
-			},
-			{
-				"color": "0.3647 0.8941 1.0000 0.6518",
-				"time": "74.2%"
-			},
-			{
-				"color": "0.2627 0.8784 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.66 0.66",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.95 1.95",
-				"time": "26.3%"
-			},
-			{
-				"scale": "0.66 0.66",
-				"time": "50.0%"
-			},
-			{
-				"scale": "1.89 1.89",
-				"time": "77.7%"
-			},
-			{
-				"scale": "0.63 0.63",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_weapon_sun"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.2588 0.7059 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3333 0.8471 1.0000 0.6339",
+        "time": "18.7%"
+      },
+      {
+        "color": "0.3647 0.8941 1.0000 0.6518",
+        "time": "74.2%"
+      },
+      {
+        "color": "0.2627 0.8784 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.66 0.66",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.95 1.95",
+        "time": "26.3%"
+      },
+      {
+        "scale": "0.66 0.66",
+        "time": "50.0%"
+      },
+      {
+        "scale": "1.89 1.89",
+        "time": "77.7%"
+      },
+      {
+        "scale": "0.63 0.63",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_weapon_sun"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

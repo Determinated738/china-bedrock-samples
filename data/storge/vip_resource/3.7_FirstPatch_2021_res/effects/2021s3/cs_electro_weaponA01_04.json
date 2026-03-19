@@ -1,1 +1,60 @@
-{"particleeffect": {"independent": false, "direction": {"max": "-1.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "dampingforce": {"value": "1.0"}, "numparticles": {"value": "4"}, "colorfade": [{"color": "1.0000 0.9098 0.4549 1.0000", "time": "0.00"}, {"color": "1.0000 0.5412 0.2353 1.0000", "time": "0.50"}, {"color": "0.5686 0.0431 0.0431 0.8929", "time": "1.00"}], "texture": {"name": "textures/sfxs/2021s3/cs_electro_weaponA01_02_0_03"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "true"}, "emittertype": {"value": "Box"}, "emittersize": {"value": "0.4 0.2 0.6"}, "emitterscale": [], "blend": {"name": "add"}, "particlesize": {"max": "0.01 0.01", "min": "0.01 0.01"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9098 0.4549 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.5412 0.2353 1.0000",
+        "time": "0.50"
+      },
+      {
+        "color": "0.5686 0.0431 0.0431 0.8929",
+        "time": "1.00"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2021s3/cs_electro_weaponA01_02_0_03"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "emittersize": {
+      "value": "0.4 0.2 0.6"
+    },
+    "emitterscale": [],
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.01 0.01",
+      "min": "0.01 0.01"
+    }
+  }
+}

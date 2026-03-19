@@ -1,1 +1,92 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"dampingforce":{"value":"0.5"},"numparticles":{"value":"30"},"texture":{"name":"textures/particle/2020s2/2020s2_cs_jian_FP_sun"},"colorfade":[{"color":"1.0000 0.2588 0.2706 0.0000","time":"0.00"},{"color":"1.0000 0.2980 0.3098 0.3922","time":"0.30"},{"color":"1.0000 0.4588 0.4667 0.0000","time":"0.60"}],"emissionrate":{"max":"60.0","min":"30.0"},"emitterScaleCurve":[],"depthtest":{"enable":"true"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.6","min":"0.6"},"emittersize":{"value":"0.0 1.0 0.0"},"emitterscale":[],"velocity":{"max":"0.5","min":"0.5"},"particlesize":{"max":"0.3 0.3","min":"0.2 0.2"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"-0.05 -0.05","time":"20.0%"},{"scale":"0.685 0.685","time":"40.0%"},{"scale":"0.171 0.171","time":"60.0%"},{"scale":"0.531 0.531","time":"80.0%"},{"scale":"0.279 0.279","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "texture": {
+      "name": "textures/particle/2020s2/2020s2_cs_jian_FP_sun"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.2588 0.2706 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.2980 0.3098 0.3922",
+        "time": "0.30"
+      },
+      {
+        "color": "1.0000 0.4588 0.4667 0.0000",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "60.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "emittersize": {
+      "value": "0.0 1.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "-0.05 -0.05",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.685 0.685",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.171 0.171",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.531 0.531",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.279 0.279",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

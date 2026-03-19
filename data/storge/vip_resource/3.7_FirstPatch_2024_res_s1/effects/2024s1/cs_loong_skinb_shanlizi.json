@@ -1,1 +1,66 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.8863 0.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 0.8000 0.0000 1.0000", "time": "50.0%"}, {"color": "0.2784 0.8706 1.0000 1.0000", "time": "50.8%"}, {"color": "0.2510 0.8000 1.0000 1.0000", "time": "100.0%"}], "direction": {"max": "0.0 1.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.15 0.15 0.1"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "5"}, "particlesize": {"max": "0.05 0.05", "min": "0.02 0.02"}, "relative": {"enable": "false"}, "texture": {"name": "textures/sfxs/2024s1/cs_loong_skinb_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.5"}, "velocity": {"max": "0.5", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8863 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.8000 0.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "0.2784 0.8706 1.0000 1.0000",
+        "time": "50.8%"
+      },
+      {
+        "color": "0.2510 0.8000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.15 0.15 0.1"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_loong_skinb_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    }
+  }
+}

@@ -1,93 +1,93 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "3.0"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "50.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.6518",
-				"time": "79.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.2"
-		},
-		"delay": 5.0,
-		"direction": {
-			"max": "0.0 0.0 -1.0",
-			"min": "0.0 0.0 -1.0",
-			"value": "Direction"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"inactivetime": {
-			"value": "5.0"
-		},
-		"numparticles": {
-			"value": "1"
-		},
-		"particlesize": {
-			"max": "0.3 0.3",
-			"min": "0.3 0.3"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.1 0.1",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.54 0.54",
-				"time": "6.3%"
-			},
-			{
-				"scale": "0.84 0.84",
-				"time": "18.7%"
-			},
-			{
-				"scale": "1.26 1.26",
-				"time": "47.0%"
-			},
-			{
-				"scale": "1.35 1.35",
-				"time": "66.0%"
-			},
-			{
-				"scale": "1.47 1.47",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2025s7/sh_s7WuKong_skin_6zzy",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2025s7/sh_s7WuKong_skin_6zzy"
-		},
-		"timetolive": {
-			"max": "0.12",
-			"min": "0.12"
-		},
-		"velocity": {
-			"max": "0.2",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "3.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "50.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6518",
+        "time": "79.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "delay": 5,
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "5.0"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.3 0.3"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.1 0.1",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "6.3%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "18.7%"
+      },
+      {
+        "scale": "1.26 1.26",
+        "time": "47.0%"
+      },
+      {
+        "scale": "1.35 1.35",
+        "time": "66.0%"
+      },
+      {
+        "scale": "1.47 1.47",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2025s7/sh_s7WuKong_skin_6zzy",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/sh_s7WuKong_skin_6zzy"
+    },
+    "timetolive": {
+      "max": "0.12",
+      "min": "0.12"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.2"
+    }
+  }
 }

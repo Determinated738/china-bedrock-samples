@@ -1,73 +1,73 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "5.8%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "60.0",
-			"min": "60.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterpath": [
-			{
-				"offset": "0.0 -2.7 0.0",
-				"rotation": "0.0 0.0 0.0",
-				"time": "0.0"
-			}
-		],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "3.0 7.0 3.0"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"layer": 6,
-		"numparticles": {
-			"value": "25"
-		},
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.1 0.1"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_lizi01"
-		},
-		"thickness": {
-			"value": "1.0"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.15"
-		},
-		"velocity": {
-			"max": "30.0",
-			"min": "80.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "5.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "60.0",
+      "min": "60.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterpath": [
+      {
+        "offset": "0.0 -2.7 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "3.0 7.0 3.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "25"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_lizi01"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.15"
+    },
+    "velocity": {
+      "max": "30.0",
+      "min": "80.0"
+    }
+  }
 }

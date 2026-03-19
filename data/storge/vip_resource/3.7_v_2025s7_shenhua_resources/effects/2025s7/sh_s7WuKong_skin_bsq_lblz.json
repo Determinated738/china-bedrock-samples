@@ -1,124 +1,124 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "5.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.8393",
-				"time": "61.3%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.5536",
-				"time": "84.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.2"
-		},
-		"direction": {
-			"max": "0.0 1.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "5.0",
-			"min": "5.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.2 0.4 0.05"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.02 0.02"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 360.0",
-			"min": "0.0 0.0 0.0"
-		},
-		"rotationSpeedRange": {
-			"max": "0.0 0.0 60.0",
-			"min": "0.0 0.0 0.0"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.5 0.5",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.28 0.28",
-				"time": "10.0%"
-			},
-			{
-				"scale": "1.02 1.02",
-				"time": "18.0%"
-			},
-			{
-				"scale": "0.38 0.38",
-				"time": "32.3%"
-			},
-			{
-				"scale": "1.02 1.02",
-				"time": "49.0%"
-			},
-			{
-				"scale": "0.38 0.38",
-				"time": "61.0%"
-			},
-			{
-				"scale": "0.76 0.76",
-				"time": "75.0%"
-			},
-			{
-				"scale": "0.2 0.2",
-				"time": "84.0%"
-			},
-			{
-				"scale": "0.48 0.48",
-				"time": "95.7%"
-			},
-			{
-				"scale": "0.08 0.08",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2025s7/sh_s7WuKong_skin_lblz"
-		},
-		"thickness": {
-			"value": "1.0"
-		},
-		"timetolive": {
-			"max": "1.2",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "0.4",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "5.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8393",
+        "time": "61.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5536",
+        "time": "84.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.4 0.05"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.02 0.02"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 360.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 60.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.5 0.5",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.28 0.28",
+        "time": "10.0%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "18.0%"
+      },
+      {
+        "scale": "0.38 0.38",
+        "time": "32.3%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "49.0%"
+      },
+      {
+        "scale": "0.38 0.38",
+        "time": "61.0%"
+      },
+      {
+        "scale": "0.76 0.76",
+        "time": "75.0%"
+      },
+      {
+        "scale": "0.2 0.2",
+        "time": "84.0%"
+      },
+      {
+        "scale": "0.48 0.48",
+        "time": "95.7%"
+      },
+      {
+        "scale": "0.08 0.08",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2025s7/sh_s7WuKong_skin_lblz"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
 }

@@ -1,1 +1,96 @@
-{"particleeffect":{"independent":false,"direction":{"max":"-1.0 0.0 0.0","value":"Direction","min":"-1.0 0.0 0.0"},"texture":{"ani":{"shuffle":false,"name":"textures/particle/2020s3/2020s3_csby_mffgzuoqi_BS_03","fps":"30"},"name":"textures/particle/2020s3/2020s3_csby_mffgzuoqi_BS_03"},"numparticles":{"value":"2"},"colorfade":[{"color":"1.0000 0.9451 0.1686 1.0000","time":"0.00"},{"color":"0.3255 0.2118 0.0275 1.0000","time":"0.40"}],"emissionrate":{"max":"10.0","min":"5.0"},"emitterScaleCurve":[],"enableloop":{"enable":"true"},"depthtest":{"enable":"true"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"1.0","min":"0.6"},"emittersize":{"value":"0.5 1.5 0.5"},"emitterscale":[],"velocity":{"max":"1.0","min":"0.3"},"blend":{"name":"add"},"particlesize":{"max":"0.1 0.1","min":"0.2 0.2"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.9 0.9","time":"20.0%"},{"scale":"0.91 0.91","time":"40.0%"},{"scale":"0.909 0.909","time":"60.0%"},{"scale":"0.909 0.909","time":"80.0%"},{"scale":"0.909 0.909","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "value": "Direction",
+      "min": "-1.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/particle/2020s3/2020s3_csby_mffgzuoqi_BS_03",
+        "fps": "30"
+      },
+      "name": "textures/particle/2020s3/2020s3_csby_mffgzuoqi_BS_03"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9451 0.1686 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.3255 0.2118 0.0275 1.0000",
+        "time": "0.40"
+      }
+    ],
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "emittersize": {
+      "value": "0.5 1.5 0.5"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "1.0",
+      "min": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.2 0.2"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.91 0.91",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

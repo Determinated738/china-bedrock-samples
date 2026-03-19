@@ -1,1 +1,62 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 1.0","value":"Direction","min":"0.0 0.0 0.0"},"dampingforce":{"value":"3.0"},"numparticles":{"value":"5"},"colorfade":[{"color":"1.0000 0.3333 0.0000 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.2400 1.0000","time":"0.50"}],"emissionrate":{"max":"15.0","min":"15.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.7 0.7 0.7"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.5","min":"0.5"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"3.5","min":"2.5"},"particlesize":{"max":"0.04 0.04","min":"0.02 0.02"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.3333 0.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 1.0000",
+        "time": "0.50"
+      }
+    ],
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.7 0.7 0.7"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "3.5",
+      "min": "2.5"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.02 0.02"
+    }
+  }
+}

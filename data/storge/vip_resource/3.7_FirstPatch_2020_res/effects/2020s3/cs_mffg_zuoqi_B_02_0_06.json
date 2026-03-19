@@ -1,104 +1,100 @@
 {
-    "particleeffect": {
-        "colorfade": [
-            {
-                "color": "1.0000 0.9686 0.5216 0.0000",
-                "time": "0.00"
-            },
-            {
-                "color": "1.0000 0.9686 0.5216 1.0000",
-                "time": "0.25"
-            },
-            {
-                "color": "1.0000 0.9686 0.5216 0.0000",
-                "time": "0.50"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 -1.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "5.0",
-            "min": "3.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.2 0.2 0.2"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enablecolor": {
-            "enable": "false"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "0.15 0.15",
-            "min": "0.1 0.1"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "rotationRange": {
-            "max": "0.0 0.0 360.0",
-            "min": "0.0 0.0 -360.0"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "0.9 0.9",
-                "time": "20.0%"
-            },
-            {
-                "scale": "0.91 0.91",
-                "time": "40.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "60.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "80.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "ani": {
-                "fps": "5",
-                "name": "textures/particle/2020s3/cs_mffg_zuoqi_B_02_0_04",
-                "shuffle": false
-            },
-            "name": "textures/particle/2020s3/cs_mffg_zuoqi_B_02_0_04"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "velocity": {
-            "max": "0.7",
-            "min": "0.5"
-        }
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.9686 0.5216 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.9686 0.5216 1.0000",
+        "time": "0.25"
+      },
+      {
+        "color": "1.0000 0.9686 0.5216 0.0000",
+        "time": "0.50"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 360.0",
+      "min": "0.0 0.0 -360.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.91 0.91",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "5",
+        "name": "textures/particle/2020s3/cs_mffg_zuoqi_B_02_0_04",
+        "shuffle": false
+      },
+      "name": "textures/particle/2020s3/cs_mffg_zuoqi_B_02_0_04"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.7",
+      "min": "0.5"
     }
+  }
 }

@@ -1,1 +1,94 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.9804 0.7451 1.0000", "time": "0.0%"}, {"color": "1.0000 0.9765 0.2706 1.0000", "time": "21.1%"}, {"color": "1.0000 0.4941 0.1333 1.0000", "time": "49.2%"}, {"color": "1.0000 0.2980 0.0196 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "2.0", "min": "3.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.45 0.45 0.35"}, "emittertype": {"value": "Sphere"}, "enableloop": {"enable": "true"}, "layer": 3, "numparticles": {"value": "6"}, "particlesize": {"max": "0.04 0.04", "min": "0.06 0.06"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 -180.0", "min": "0.0 0.0 180.0"}, "sizedelta": [{"scale": "1.04 1.04", "time": "0.0%"}, {"scale": "1.84 1.84", "time": "23.3%"}, {"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2024s1/cs_loong_skina_sd2", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_skina_sd2"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.0", "min": "0.5"}, "velocity": {"max": "0.3", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9804 0.7451 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9765 0.2706 1.0000",
+        "time": "21.1%"
+      },
+      {
+        "color": "1.0000 0.4941 0.1333 1.0000",
+        "time": "49.2%"
+      },
+      {
+        "color": "1.0000 0.2980 0.0196 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.45 0.45 0.35"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.06 0.06"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.04 1.04",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.84 1.84",
+        "time": "23.3%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s1/cs_loong_skina_sd2",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_skina_sd2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.5"
+    }
+  }
+}

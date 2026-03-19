@@ -1,87 +1,87 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.1"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.5804 1.0000 0.9882 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.1686 0.9333 1.0000 0.9821",
-				"time": "7.9%"
-			},
-			{
-				"color": "0.1294 0.5804 1.0000 0.7589",
-				"time": "24.2%"
-			},
-			{
-				"color": "0.1765 0.1569 0.7255 0.4554",
-				"time": "57.1%"
-			},
-			{
-				"color": "0.1137 0.0902 0.0784 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 0.3,
-		"depthtest": {
-			"enable": "false"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "50.0",
-			"min": "50.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Horizontal"
-		},
-		"layer": 2,
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "1.0 1.0",
-			"min": "1.0 1.0"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.2 1.2",
-				"time": "16.0%"
-			},
-			{
-				"scale": "1.95 1.95",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/cs_s1dark_skin_victory_sun"
-		},
-		"timetolive": {
-			"max": "0.2",
-			"min": "0.2"
-		},
-		"velocity": {
-			"max": "0.1",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.5804 1.0000 0.9882 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1686 0.9333 1.0000 0.9821",
+        "time": "7.9%"
+      },
+      {
+        "color": "0.1294 0.5804 1.0000 0.7589",
+        "time": "24.2%"
+      },
+      {
+        "color": "0.1765 0.1569 0.7255 0.4554",
+        "time": "57.1%"
+      },
+      {
+        "color": "0.1137 0.0902 0.0784 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.3,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "1.0 1.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "16.0%"
+      },
+      {
+        "scale": "1.95 1.95",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/cs_s1dark_skin_victory_sun"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
 }

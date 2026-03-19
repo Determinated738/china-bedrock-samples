@@ -1,1 +1,99 @@
-{"frameeffect": {"layer": 1, "scale": [0.6, 0.6, 0.6], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "texture": "textures/sfxs/2021s1/cs_zuoqi_yushizi_b_huo_27", "delay": 0.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "fps": 10, "first_person_enable": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": true, "blend_mode": 1}}
+{
+  "frameeffect": {
+    "layer": 1,
+    "scale": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "texture": "textures/sfxs/2021s1/cs_zuoqi_yushizi_b_huo_27",
+    "delay": 0,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 10,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 1
+  }
+}

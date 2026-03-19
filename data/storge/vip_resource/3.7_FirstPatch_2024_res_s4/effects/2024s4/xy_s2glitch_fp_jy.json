@@ -1,71 +1,71 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "13.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.9911",
-				"time": "46.3%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.4821",
-				"time": "72.4%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "10.0"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "4.0",
-			"min": "4.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction Horizontal"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.36 0.36",
-			"min": "0.36 0.36"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 -180.0",
-			"min": "0.0 0.0 -180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "textures/sfxs/2024s4/xy_s2glitch_fp_jy",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/xy_s2glitch_fp_jy"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "13.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9911",
+        "time": "46.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4821",
+        "time": "72.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.36 0.36",
+      "min": "0.36 0.36"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -180.0",
+      "min": "0.0 0.0 -180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s4/xy_s2glitch_fp_jy",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/xy_s2glitch_fp_jy"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    }
+  }
 }

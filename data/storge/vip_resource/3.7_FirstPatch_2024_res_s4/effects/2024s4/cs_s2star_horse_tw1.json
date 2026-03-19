@@ -1,74 +1,74 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"layer": 3,
-		"particlesize": {
-			"max": "0.6 0.6",
-			"min": "0.6 0.6"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2star_horse_tw1"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"trail": {
-			"colorfade": [
-				{
-					"color": "1.0 0.0 0.01568627450980392 0.0",
-					"time": "0.000%"
-				},
-				{
-					"color": "1.0 0.0 0.5333333333333333 0.5535714285714286",
-					"time": "22.632%"
-				},
-				{
-					"color": "1.0 0.0 0.9529411764705882 0.2053571428571429",
-					"time": "54.737%"
-				},
-				{
-					"color": "0.8352941176470589 0.0 1.0 0.0",
-					"time": "100.000%"
-				}
-			],
-			"facemode": 0,
-			"lifetime": 0.7,
-			"maxnum": 100,
-			"mindistance": 0.01,
-			"texmode": 0,
-			"textile": "1.0 1.0",
-			"useparticlecolor": false,
-			"useparticlewidth": false,
-			"widthfade": [
-				{
-					"time": "0.0%",
-					"value": "0.0"
-				},
-				{
-					"time": "5.0%",
-					"value": "0.5"
-				},
-				{
-					"time": "100.0%",
-					"value": "0.7"
-				}
-			],
-			"worldspace": true
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "layer": 3,
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.6 0.6"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2star_horse_tw1"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 0.0 0.01568627450980392 0.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 0.0 0.5333333333333333 0.5535714285714286",
+          "time": "22.632%"
+        },
+        {
+          "color": "1.0 0.0 0.9529411764705882 0.2053571428571429",
+          "time": "54.737%"
+        },
+        {
+          "color": "0.8352941176470589 0.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.7,
+      "maxnum": 100,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "1.0 1.0",
+      "useparticlecolor": false,
+      "useparticlewidth": false,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.0"
+        },
+        {
+          "time": "5.0%",
+          "value": "0.5"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.7"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

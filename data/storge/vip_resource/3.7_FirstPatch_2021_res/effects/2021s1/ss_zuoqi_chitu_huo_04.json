@@ -1,1 +1,71 @@
-{"particleeffect": {"independent": false, "direction": {"max": "1.0 0.0 0.4", "value": "Direction", "min": "0.6 -0.2 0.4"}, "numparticles": {"value": "3"}, "colorfade": [{"color": "1.0000 0.9333 0.0000 0.0000", "time": "0.00"}, {"color": "1.0000 0.0000 0.0000 1.0000", "time": "0.12"}, {"color": "1.0000 0.2941 0.1176 0.0000", "time": "0.24"}], "texture": {"name": "textures/sfxs/2021s1/ss_zuoqi_chitu_huo_01"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.3", "min": "0.2"}, "emittersize": {"value": "0.2 0.1 0.1"}, "emitterscale": [], "velocity": {"max": "0.3", "min": "0.2"}, "blend": {"name": "add"}, "particlesize": {"max": "0.03 0.03", "min": "0.01 0.01"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "1.0 0.0 0.4",
+      "value": "Direction",
+      "min": "0.6 -0.2 0.4"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9333 0.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 1.0000",
+        "time": "0.12"
+      },
+      {
+        "color": "1.0000 0.2941 0.1176 0.0000",
+        "time": "0.24"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2021s1/ss_zuoqi_chitu_huo_01"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "emittersize": {
+      "value": "0.2 0.1 0.1"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.01"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ]
+  }
+}

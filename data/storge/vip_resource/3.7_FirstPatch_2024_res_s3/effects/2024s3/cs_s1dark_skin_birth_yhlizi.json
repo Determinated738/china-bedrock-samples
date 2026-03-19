@@ -1,79 +1,79 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "2.0"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "31.6%"
-			},
-			{
-				"color": "0.7882 0.9725 1.0000 1.0000",
-				"time": "65.3%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "-1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "6.0",
-			"min": "4.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.0 2.5 2.0"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"layer": 3,
-		"numparticles": {
-			"value": "6"
-		},
-		"particlesize": {
-			"max": "0.4 0.4",
-			"min": "0.6 0.6"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "20",
-				"name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_yhlizi",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_yhlizi"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "1.2"
-		},
-		"velocity": {
-			"max": "0.3",
-			"min": "0.2"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "2.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "31.6%"
+      },
+      {
+        "color": "0.7882 0.9725 1.0000 1.0000",
+        "time": "65.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 2.5 2.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.6 0.6"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_yhlizi",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_yhlizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "1.2"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
 }

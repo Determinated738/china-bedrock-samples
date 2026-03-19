@@ -1,1 +1,82 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 0.2549 0.5357", "time": "0.0%"}, {"color": "1.0000 0.6627 0.2784 0.4911", "time": "33.4%"}, {"color": "1.0000 0.3647 0.0000 0.1786", "time": "59.2%"}, {"color": "0.5255 0.0510 0.0510 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "5.0", "min": "8.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.0 0.0"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "numparticles": {"value": "8"}, "particlesize": {"max": "0.5 0.5", "min": "0.5 0.5"}, "pointFiltering": true, "relative": {"enable": "false"}, "rotationRange": {"max": "180.0 0.0 0.0", "min": "180.0 0.0 0.0"}, "texture": {"ani": {"fps": "12", "name": "textures/sfxs/2023s4/yx_future_fp_zhuti2", "shuffle": false}, "name": "textures/sfxs/2023s4/yx_future_fp_zhuti2"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.4"}, "velocity": {"max": "0.3", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.2549 0.5357",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6627 0.2784 0.4911",
+        "time": "33.4%"
+      },
+      {
+        "color": "1.0000 0.3647 0.0000 0.1786",
+        "time": "59.2%"
+      },
+      {
+        "color": "0.5255 0.0510 0.0510 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "180.0 0.0 0.0",
+      "min": "180.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2023s4/yx_future_fp_zhuti2",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/yx_future_fp_zhuti2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.1"
+    }
+  }
+}

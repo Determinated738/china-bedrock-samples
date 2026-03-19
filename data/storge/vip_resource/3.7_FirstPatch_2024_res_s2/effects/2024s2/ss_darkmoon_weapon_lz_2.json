@@ -1,1 +1,84 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.0000 1.0000 0.8863 1.0000", "time": "0.0%"}, {"color": "0.0000 1.0000 0.8863 1.0000", "time": "49.5%"}, {"color": "0.5843 0.0000 1.0000 1.0000", "time": "49.7%"}, {"color": "0.5843 0.0000 1.0000 1.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "3.0", "min": "2.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.25 0.5 0.07"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.05 0.05", "min": "0.07 0.07"}, "pointFiltering": true, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "50.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/ss_darkmoon_weapon_xx"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.3"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.8863 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 1.0000 0.8863 1.0000",
+        "time": "49.5%"
+      },
+      {
+        "color": "0.5843 0.0000 1.0000 1.0000",
+        "time": "49.7%"
+      },
+      {
+        "color": "0.5843 0.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.25 0.5 0.07"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.07 0.07"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/ss_darkmoon_weapon_xx"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

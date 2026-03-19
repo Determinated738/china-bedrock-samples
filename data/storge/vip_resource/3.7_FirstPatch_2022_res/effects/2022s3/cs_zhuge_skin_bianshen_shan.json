@@ -1,1 +1,136 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": false, "delay": 0.03, "delay_in_loop": false, "depth_test": true, "face_camera": true, "fade_distance": 0.0, "first_person_enable": false, "fps": 5, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "layer": 1, "lerp_scale": false, "loop": false, "rot_speed": [0, 0, 0], "scale": [1.2, 1.2, 1.0], "shuffle": false, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2022s3/cs_zhuge_skin_bianshen_shan2"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 0.03,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": true,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 5,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "layer": 1,
+    "lerp_scale": false,
+    "loop": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1.2,
+      1.2,
+      1
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2022s3/cs_zhuge_skin_bianshen_shan2"
+  }
+}

@@ -1,69 +1,69 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.2510 0.0431 0.5843 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.3059 0.0196 0.7294 1.0000",
-				"time": "33.2%"
-			},
-			{
-				"color": "0.7216 0.3765 1.0000 0.8214",
-				"time": "73.7%"
-			},
-			{
-				"color": "0.8157 0.6510 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "30.0",
-			"min": "50.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.3 0.12 0.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.15 0.15"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "1.0 1.0 0.0",
-			"min": "3.0 3.0 0.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "12",
-				"name": "textures/sfxs/2024s3/cs_s1desert_skin_hlz",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1desert_skin_hlz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.2510 0.0431 0.5843 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3059 0.0196 0.7294 1.0000",
+        "time": "33.2%"
+      },
+      {
+        "color": "0.7216 0.3765 1.0000 0.8214",
+        "time": "73.7%"
+      },
+      {
+        "color": "0.8157 0.6510 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "50.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.12 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.15 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "1.0 1.0 0.0",
+      "min": "3.0 3.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2024s3/cs_s1desert_skin_hlz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1desert_skin_hlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    }
+  }
 }

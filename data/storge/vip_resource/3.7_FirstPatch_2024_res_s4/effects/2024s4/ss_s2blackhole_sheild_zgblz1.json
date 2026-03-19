@@ -1,74 +1,74 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "27.1%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "61.3%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0268",
-				"time": "100.0%"
-			}
-		],
-		"depthtest": {
-			"enable": "false"
-		},
-		"direction": {
-			"max": "0.0 -1.0 -1.0",
-			"min": "0.0 1.0 1.0",
-			"value": "Inwards"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.0 1.0 1.0"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.03 0.03"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 50.0",
-			"min": "0.0 0.0 -50.0"
-		},
-		"rotationSpeedRange": {
-			"max": "0.0 0.0 50.0",
-			"min": "0.0 0.0 50.0"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/ss_s2blackhole_sheild_dan"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.4",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "0.7",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "27.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "61.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0268",
+        "time": "100.0%"
+      }
+    ],
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 -1.0 -1.0",
+      "min": "0.0 1.0 1.0",
+      "value": "Inwards"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 1.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.03 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 -50.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 50.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/ss_s2blackhole_sheild_dan"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.7",
+      "min": "0.3"
+    }
+  }
 }

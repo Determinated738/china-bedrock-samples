@@ -1,1 +1,69 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"texture":{"name":"textures/sfxs/2021s1/cs_sgzy_ylfz_jin_fk"},"faceCameraMode":{"value":"Direction"},"colorfade":[{"color":"1.0000 0.0000 1.0000 1.0000","time":"0.00"},{"color":"0.0000 0.6667 1.0000 0.7321","time":"0.68"},{"color":"0.3333 1.0000 1.0000 0.0000","time":"0.80"}],"emissionrate":{"max":"3.0","min":"5.0"},"emitterScaleCurve":[],"depthtest":{"enable":"true"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.8","min":"0.5"},"emittersize":{"value":"0.1 0.1 0.2"},"emitterscale":[],"velocity":{"max":"2.0","min":"1.0"},"blend":{"name":"add"},"particlesize":{"max":"0.03 0.03","min":"0.05 0.05"},"numparticles":{"value":"5"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/cs_sgzy_ylfz_jin_fk"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 0.6667 1.0000 0.7321",
+        "time": "0.68"
+      },
+      {
+        "color": "0.3333 1.0000 1.0000 0.0000",
+        "time": "0.80"
+      }
+    ],
+    "emissionrate": {
+      "max": "3.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "emittersize": {
+      "value": "0.1 0.1 0.2"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

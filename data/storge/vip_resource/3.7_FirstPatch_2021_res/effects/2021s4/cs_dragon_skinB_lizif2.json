@@ -1,1 +1,75 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 1.0 0.0"},"dampingforce":{"value":"1.5"},"faceCameraMode":{"value":"Direction"},"emitterScaleCurve":[],"colorfade":[{"color":"1.0000 0.9569 0.3294 1.0000","time":"0.00"},{"color":"0.0000 1.0000 1.0000 1.0000","time":"0.26"},{"color":"1.0000 1.0000 0.4980 1.0000","time":"0.70"}],"emissionrate":{"max":"3.0","min":"2.0"},"emitterpath":[],"emittersize":{"value":"0.4 0.8 1.0"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s4/cs_dragon_horseA01_mylz","fps":"0"},"name":"textures/sfxs/2021s4/cs_dragon_horseA01_mylz"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.35","min":"0.7"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"-0.3","min":"-1.5"},"particlesize":{"max":"0.04 0.04","min":"0.1 0.1"},"numparticles":{"value":"2"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.5"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "colorfade": [
+      {
+        "color": "1.0000 0.9569 0.3294 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 1.0000 1.0000 1.0000",
+        "time": "0.26"
+      },
+      {
+        "color": "1.0000 1.0000 0.4980 1.0000",
+        "time": "0.70"
+      }
+    ],
+    "emissionrate": {
+      "max": "3.0",
+      "min": "2.0"
+    },
+    "emitterpath": [],
+    "emittersize": {
+      "value": "0.4 0.8 1.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s4/cs_dragon_horseA01_mylz",
+        "fps": "0"
+      },
+      "name": "textures/sfxs/2021s4/cs_dragon_horseA01_mylz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.35",
+      "min": "0.7"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "-0.3",
+      "min": "-1.5"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.1 0.1"
+    },
+    "numparticles": {
+      "value": "2"
+    }
+  }
+}

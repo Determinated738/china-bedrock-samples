@@ -1,1 +1,67 @@
-{"particleeffect":{"colorfade":[{"color":"0.0000 1.0000 0.9176 1.0000","time":"0.0%"},{"color":"0.0000 1.0000 0.9176 1.0000","time":"100.0%"}],"direction":{"max":"0.0 0.0 -1.0","min":"0.0 0.0 -1.0","value":"Direction"},"emissionrate":{"max":"5.0","min":"10.0"},"emitterScaleCurve":[],"emitterscale":[],"emittersize":{"value":"0.4 0.1 0.4"},"emittertype":{"value":"Box"},"particlesize":{"max":"0.03 0.03","min":"0.1 0.1"},"pointFiltering":true,"relative":{"enable":"true"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"1.0 1.0","time":"50.0%"},{"scale":"0.0 0.0","time":"100.0%"}],"texture":{"name":"textures/sfxs/pet_squid/cs_squid_s7WuKong_kjlz"},"thickness":{"value":"0.0"},"timetolive":{"max":"1.1","min":"0.7"},"velocity":{"max":"0.8","min":"0.4"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 1.0000 0.9176 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 1.0000 0.9176 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.4 0.1 0.4"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/pet_squid/cs_squid_s7WuKong_kjlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.1",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.8",
+      "min": "0.4"
+    }
+  }
+}

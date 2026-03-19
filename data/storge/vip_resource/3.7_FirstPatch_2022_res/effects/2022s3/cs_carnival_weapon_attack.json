@@ -1,1 +1,136 @@
-{"frameeffect": {"layer": 4, "scale": [1.1, 1.1, 1.1], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "first_person_enable": false, "texture": "textures/sfxs/2022s3/cs_starry_weapon_fire", "delay": 0.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "fps": 28, "delay_in_loop": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": false, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "layer": 4,
+    "scale": [
+      1.1,
+      1.1,
+      1.1
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "first_person_enable": false,
+    "texture": "textures/sfxs/2022s3/cs_starry_weapon_fire",
+    "delay": 0,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 28,
+    "delay_in_loop": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": false,
+    "blend_mode": 2
+  }
+}

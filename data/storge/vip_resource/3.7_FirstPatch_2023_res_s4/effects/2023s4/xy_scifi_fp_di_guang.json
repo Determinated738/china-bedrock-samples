@@ -1,1 +1,54 @@
-{"particleeffect": {"colorfade": [{"color": "0.4157 0.4431 1.0000 0.1429", "time": "0.0%"}, {"color": "0.4157 0.4431 1.0000 0.4821", "time": "39.5%"}, {"color": "0.4157 0.4431 1.0000 0.1339", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "4.0", "min": "3.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Horizontal"}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.42 0.42", "min": "0.42 0.42"}, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 180.0 180.0", "min": "0.0 180.0 180.0"}, "texture": {"name": "textures/sfxs/2023s4/xy_scifi_fp_sun"}, "timetolive": {"max": "0.5", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.4157 0.4431 1.0000 0.1429",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4157 0.4431 1.0000 0.4821",
+        "time": "39.5%"
+      },
+      {
+        "color": "0.4157 0.4431 1.0000 0.1339",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "3.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.42 0.42",
+      "min": "0.42 0.42"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 180.0 180.0",
+      "min": "0.0 180.0 180.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2023s4/xy_scifi_fp_sun"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    }
+  }
+}

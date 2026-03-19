@@ -1,1 +1,90 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 -1.0 1.0", "value": "Direction", "min": "0.0 -0.7 0.8"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3/ss_xyj_fpA_smoke", "fps": "5"}, "name": "textures/sfxs/2021s3/ss_xyj_fpA_smoke"}, "numparticles": {"value": "6"}, "colorfade": [{"color": "1.0000 0.9333 0.1804 1.0000", "time": "0.00"}, {"color": "1.0000 0.2000 0.8549 1.0000", "time": "0.06"}, {"color": "1.0000 1.0000 0.0000 0.9732", "time": "0.13"}, {"color": "1.0000 0.1451 0.1569 0.9107", "time": "0.21"}, {"color": "0.5333 0.0510 0.1020 0.6786", "time": "0.32"}, {"color": "0.5882 0.0745 0.5020 0.3750", "time": "1.00"}], "emissionrate": {"max": "6.0", "min": "5.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "1.5 0.0 1.5"}, "emitterscale": [], "velocity": {"max": "1.0", "min": "0.5"}, "particlesize": {"max": "0.13 0.13", "min": "0.06 0.06"}, "sizedelta": [{"scale": "0.7 0.7", "time": "0.0%"}, {"scale": "0.9 0.9", "time": "50.0%"}, {"scale": "1.2 1.2", "time": "100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 -1.0 1.0",
+      "value": "Direction",
+      "min": "0.0 -0.7 0.8"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/ss_xyj_fpA_smoke",
+        "fps": "5"
+      },
+      "name": "textures/sfxs/2021s3/ss_xyj_fpA_smoke"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9333 0.1804 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.2000 0.8549 1.0000",
+        "time": "0.06"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.9732",
+        "time": "0.13"
+      },
+      {
+        "color": "1.0000 0.1451 0.1569 0.9107",
+        "time": "0.21"
+      },
+      {
+        "color": "0.5333 0.0510 0.1020 0.6786",
+        "time": "0.32"
+      },
+      {
+        "color": "0.5882 0.0745 0.5020 0.3750",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "1.5 0.0 1.5"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "particlesize": {
+      "max": "0.13 0.13",
+      "min": "0.06 0.06"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.7 0.7",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "50.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

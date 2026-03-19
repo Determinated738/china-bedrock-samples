@@ -1,1 +1,76 @@
-{"particleeffect":{"direction":{"max":"0.0 -0.4 0.6","value":"Direction","min":"0.0 -0.1 0.1"},"numparticles":{"value":"2"},"enabletexture":{"enable":true},"colorfade":[{"color":"0.2745 1.0000 0.2353 1.0000","time":"0.0%"},{"color":"0.4863 1.0000 0.3451 1.0000","time":"69.2%"},{"color":"1.0000 1.0000 0.2400 0.0000","time":"100.0%"}],"emissionrate":{"max":"5.0","min":"5.0"},"emitterScaleCurve":[],"enableloop":{"enable":"true"},"emittersize":{"value":"1.6 1.0 1.2"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.8","min":"0.8"},"texture":{"ani":{"shuffle":false,"name":"","fps":"10"},"name":"textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"},"emitterscale":[],"velocity":{"max":"0.5","min":"0.2"},"disorder":{"max":"0.1 0.1 0.1","interval":"0.02","increment":"0.02","min":"0.04 0.04 0.04"},"particlesize":{"max":"0.08 0.08","min":"0.03 0.03"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 -0.4 0.6",
+      "value": "Direction",
+      "min": "0.0 -0.1 0.1"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "colorfade": [
+      {
+        "color": "0.2745 1.0000 0.2353 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4863 1.0000 0.3451 1.0000",
+        "time": "69.2%"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "1.6 1.0 1.2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.8"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "",
+        "fps": "10"
+      },
+      "name": "textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.5",
+      "min": "0.2"
+    },
+    "disorder": {
+      "max": "0.1 0.1 0.1",
+      "interval": "0.02",
+      "increment": "0.02",
+      "min": "0.04 0.04 0.04"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.03 0.03"
+    }
+  }
+}

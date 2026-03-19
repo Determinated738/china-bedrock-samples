@@ -1,1 +1,107 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.6157 0.8471 0.0000", "time": "0.00"}, {"color": "0.9451 0.3255 1.0000 1.0000", "time": "0.20"}, {"color": "0.4353 0.0588 1.0000 0.8571", "time": "0.48"}, {"color": "0.2314 0.0000 1.0000 0.0000", "time": "0.70"}], "constantforce": {"value": "0.0 0.5 0.0"}, "direction": {"max": "-0.05 1.0 -0.05", "min": "0.05 0.0 0.05", "value": "Direction"}, "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.19999999999999998 0.1 0.19999999999999998"}, "emittertype": {"value": "Cone"}, "layer": 15, "numparticles": {"value": "3"}, "particlesize": {"max": "0.03 0.03", "min": "0.05 0.05"}, "pointFiltering": true, "prewarm": true, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.00"}, {"scale": "1.2 1.2", "time": "0.36"}, {"scale": "0.0 0.0", "time": "0.82"}, {"scale": "1.6 1.6", "time": "1.27"}, {"scale": "0.0 0.0", "time": "1.78"}, {"scale": "1.1 1.1", "time": "2.00"}, {"scale": "0.0 0.0", "time": "2.00"}], "texture": {"ani": {"fps": "10", "name": "", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_567_weapon_FGLZ"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.7", "min": "0.5"}, "velocity": {"max": "0.3", "min": "0.4"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6157 0.8471 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.9451 0.3255 1.0000 1.0000",
+        "time": "0.20"
+      },
+      {
+        "color": "0.4353 0.0588 1.0000 0.8571",
+        "time": "0.48"
+      },
+      {
+        "color": "0.2314 0.0000 1.0000 0.0000",
+        "time": "0.70"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.5 0.0"
+    },
+    "direction": {
+      "max": "-0.05 1.0 -0.05",
+      "min": "0.05 0.0 0.05",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.19999999999999998 0.1 0.19999999999999998"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "layer": 15,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "0.36"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "0.82"
+      },
+      {
+        "scale": "1.6 1.6",
+        "time": "1.27"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "1.78"
+      },
+      {
+        "scale": "1.1 1.1",
+        "time": "2.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_567_weapon_FGLZ"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.4"
+    }
+  }
+}

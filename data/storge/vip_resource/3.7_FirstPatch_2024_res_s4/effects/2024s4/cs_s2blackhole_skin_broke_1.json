@@ -1,42 +1,42 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.25"
-		},
-		"dampingforce": {
-			"value": "6.0"
-		},
-		"delay": 0.02,
-		"direction": {
-			"max": "1.0 -1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "20.0",
-			"min": "20.0"
-		},
-		"numparticles": {
-			"value": "20"
-		},
-		"particlesize": {
-			"max": "0.11 0.11",
-			"min": "0.05 0.05"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_broke_kuai1"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "9.0",
-			"min": "5.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.25"
+    },
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "delay": 0.02,
+    "direction": {
+      "max": "1.0 -1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.11 0.11",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_skin_broke_kuai1"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "9.0",
+      "min": "5.0"
+    }
+  }
 }

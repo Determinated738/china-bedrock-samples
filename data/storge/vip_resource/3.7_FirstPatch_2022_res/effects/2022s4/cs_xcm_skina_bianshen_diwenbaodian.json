@@ -1,1 +1,52 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.5"},"numparticles":{"value":"1"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.50"},{"color":"1.0000 1.0000 0.2400 1.0000","time":"1.00"}],"layer":2,"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s3/diwenbaodian","fps":"20"},"name":"textures/sfxs/2021s3/diwenbaodian"},"relative":{"enable":"true"},"velocity":{"max":"0.0","min":"0.0"},"particlesize":{"max":"1.5 1.5","min":"1.5 1.5"},"faceCameraMode":{"value":"Horizontal"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.5"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.50"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 1.0000",
+        "time": "1.00"
+      }
+    ],
+    "layer": 2,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/diwenbaodian",
+        "fps": "20"
+      },
+      "name": "textures/sfxs/2021s3/diwenbaodian"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "particlesize": {
+      "max": "1.5 1.5",
+      "min": "1.5 1.5"
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    }
+  }
+}

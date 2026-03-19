@@ -1,81 +1,81 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.5216 0.8980 0.0089",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.5765 0.8549 1.0000",
-				"time": "28.7%"
-			},
-			{
-				"color": "1.0000 0.5765 0.8549 1.0000",
-				"time": "68.7%"
-			},
-			{
-				"color": "1.0000 0.5216 0.8980 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.2"
-		},
-		"direction": {
-			"max": "0.0 -1.0 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "5.0",
-			"min": "3.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.25 0.25 0.25"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.1 0.1"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"rotationSpeedRange": {
-			"max": "0.0 0.0 -210.0",
-			"min": "0.0 0.0 210.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "0",
-				"name": "textures/sfxs/2024s3/ss_s1bp_weaponB_hua",
-				"shuffle": true
-			},
-			"name": "textures/sfxs/2024s3/ss_s1bp_weaponB_hua"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.9",
-			"min": "0.6"
-		},
-		"velocity": {
-			"max": "0.6",
-			"min": "0.4"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.5216 0.8980 0.0089",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.5765 0.8549 1.0000",
+        "time": "28.7%"
+      },
+      {
+        "color": "1.0000 0.5765 0.8549 1.0000",
+        "time": "68.7%"
+      },
+      {
+        "color": "1.0000 0.5216 0.8980 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.25 0.25 0.25"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 -210.0",
+      "min": "0.0 0.0 210.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s3/ss_s1bp_weaponB_hua",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s3/ss_s1bp_weaponB_hua"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.9",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.4"
+    }
+  }
 }

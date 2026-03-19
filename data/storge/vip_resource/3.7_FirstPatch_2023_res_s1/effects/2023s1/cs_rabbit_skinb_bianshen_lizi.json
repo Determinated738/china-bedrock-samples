@@ -1,1 +1,111 @@
-{"particleeffect":{"relative":{"enable":"true"},"direction":{"max":"0.0 -0.01 0.0","value":"Direction","min":"0.0 -0.1 0.0"},"activetime":{"value":"0.8"},"numparticles":{"value":"20"},"colorfade":[{"color":"1.0000 0.9686 0.0000 1.0000","time":"0.00"},{"color":"1.0000 0.2000 0.0000 0.7143","time":"0.15"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.33"},{"color":"1.0000 1.0000 0.0000 0.3929","time":"0.52"},{"color":"1.0000 0.5490 0.0000 1.0000","time":"0.71"},{"color":"1.0000 0.0000 0.0000 0.0000","time":"0.90"}],"emissionrate":{"max":"15.0","min":"20.0"},"emitterScaleCurve":[],"emittersize":{"value":"1.5 0.5 1.5"},"thickness":{"value":"0.0"},"delay":0.2,"emittertype":{"value":"Cylinder"},"dampingforce":{"value":"2.0"},"timetolive":{"max":"0.7","min":"0.9"},"texture":{"name":"textures/sfxs/2023s1/cs_rabbit_skina_fk"},"emitterscale":[],"velocity":{"max":"4.5","min":"5.0"},"blend":{"name":"add"},"particlesize":{"max":"0.06 0.06","min":"0.04 0.04"},"sizedelta":[{"scale":"0.45 0.45","time":"0.0%"},{"scale":"1.68 1.68","time":"18.3%"},{"scale":"0.57 0.57","time":"33.3%"},{"scale":"1.5 1.5","time":"50.7%"},{"scale":"0.39 0.39","time":"66.3%"},{"scale":"1.02 1.02","time":"83.3%"},{"scale":"0.0 0.0","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "relative": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 -0.01 0.0",
+      "value": "Direction",
+      "min": "0.0 -0.1 0.0"
+    },
+    "activetime": {
+      "value": "0.8"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9686 0.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.2000 0.0000 0.7143",
+        "time": "0.15"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.33"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.3929",
+        "time": "0.52"
+      },
+      {
+        "color": "1.0000 0.5490 0.0000 1.0000",
+        "time": "0.71"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.0000",
+        "time": "0.90"
+      }
+    ],
+    "emissionrate": {
+      "max": "15.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "1.5 0.5 1.5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.2,
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.9"
+    },
+    "texture": {
+      "name": "textures/sfxs/2023s1/cs_rabbit_skina_fk"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "4.5",
+      "min": "5.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.06 0.06",
+      "min": "0.04 0.04"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.45 0.45",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.68 1.68",
+        "time": "18.3%"
+      },
+      {
+        "scale": "0.57 0.57",
+        "time": "33.3%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "50.7%"
+      },
+      {
+        "scale": "0.39 0.39",
+        "time": "66.3%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "83.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

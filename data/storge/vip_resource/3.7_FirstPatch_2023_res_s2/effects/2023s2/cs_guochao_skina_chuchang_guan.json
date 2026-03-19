@@ -1,1 +1,138 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": false, "delay": 1.11, "delay_in_loop": false, "depth_test": true, "face_camera": true, "fade_distance": 0.0, "first_person_enable": false, "fps": 40, "frame_color": [[1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0], [1, 1, 1, 1.0]], "layer": 3, "lerp_scale": true, "loop": false, "point_filtering": false, "rot_speed": [0, 0, 0], "scale": [0.8, 1.4, 1.2], "shuffle": false, "sub_layer": 2, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2023s2/cs_guochao_skina_chuchang_guangzhu"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": false,
+    "delay": 1.11,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": true,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 40,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "layer": 3,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.8,
+      1.4,
+      1.2
+    ],
+    "shuffle": false,
+    "sub_layer": 2,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2023s2/cs_guochao_skina_chuchang_guangzhu"
+  }
+}

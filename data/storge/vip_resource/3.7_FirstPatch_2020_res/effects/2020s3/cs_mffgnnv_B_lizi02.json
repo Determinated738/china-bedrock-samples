@@ -1,1 +1,92 @@
-{"particleeffect":{"independent":false,"direction":{"max":"1.0 0.0 1.0","value":"Direction","min":"-1.0 -1.0 -1.0"},"texture":{"name":"textures/particle/2020s3/cs_mffgnnv_A_fk"},"numparticles":{"value":"15"},"colorfade":[{"color":"1.0000 0.6745 0.9412 0.0000","time":"0.00"},{"color":"1.0000 0.4745 0.9569 1.0000","time":"0.30"},{"color":"0.4902 0.0549 0.4902 0.0000","time":"0.60"}],"emissionrate":{"max":"100.0","min":"5.0"},"emitterScaleCurve":[],"depthtest":{"enable":"true"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.6","min":"0.6"},"emittersize":{"value":"1.7 2.5 1.3"},"emitterscale":[],"velocity":{"max":"0.9","min":"0.5"},"blend":{"name":"add"},"particlesize":{"max":"0.3 0.3","min":"0.1 0.1"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.8 0.8","time":"20.0%"},{"scale":"0.84 0.84","time":"40.0%"},{"scale":"0.832 0.832","time":"60.0%"},{"scale":"0.834 0.834","time":"80.0%"},{"scale":"0.833 0.833","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "1.0 0.0 1.0",
+      "value": "Direction",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "texture": {
+      "name": "textures/particle/2020s3/cs_mffgnnv_A_fk"
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6745 0.9412 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.4745 0.9569 1.0000",
+        "time": "0.30"
+      },
+      {
+        "color": "0.4902 0.0549 0.4902 0.0000",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "100.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.6"
+    },
+    "emittersize": {
+      "value": "1.7 2.5 1.3"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.9",
+      "min": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.1 0.1"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.832 0.832",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.834 0.834",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.833 0.833",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

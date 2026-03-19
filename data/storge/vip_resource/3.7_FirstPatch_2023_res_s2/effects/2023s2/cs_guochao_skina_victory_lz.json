@@ -1,1 +1,91 @@
-{"particleeffect":{"direction":{"max":"0.0 -1.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"activetime":{"value":"0.8"},"colorfade":[{"color":"1.0000 0.8118 0.0588 0.0000","time":"0.0%"},{"color":"1.0000 0.9255 0.0667 0.6964","time":"10.3%"},{"color":"1.0000 0.8235 0.1098 1.0000","time":"35.0%"},{"color":"0.1412 0.1216 0.0235 1.0000","time":"60.5%"},{"color":"0.0000 0.0000 0.0000 1.0000","time":"77.9%"},{"color":"0.0000 0.0000 0.0000 0.6696","time":"88.7%"},{"color":"0.0000 0.0000 0.0000 0.0000","time":"100.0%"}],"emitterScaleCurve":[],"layer":10,"emittersize":{"value":"1.0 1.0 1.0"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Cylinder"},"dampingforce":{"value":"1.0"},"timetolive":{"max":"1.35","min":"0.5"},"texture":{"name":"textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"},"emitterscale":[],"velocity":{"max":"3.5","min":"2.0"},"disorder":{"max":"0.8 0.0 0.8","interval":"0.25","increment":"0.0","min":"-0.8 0.0 -0.8"},"particlesize":{"max":"0.08 0.08","min":"0.04 0.04"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.2 0.2","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "activetime": {
+      "value": "0.8"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8118 0.0588 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9255 0.0667 0.6964",
+        "time": "10.3%"
+      },
+      {
+        "color": "1.0000 0.8235 0.1098 1.0000",
+        "time": "35.0%"
+      },
+      {
+        "color": "0.1412 0.1216 0.0235 1.0000",
+        "time": "60.5%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 1.0000",
+        "time": "77.9%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.6696",
+        "time": "88.7%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emitterScaleCurve": [],
+    "layer": 10,
+    "emittersize": {
+      "value": "1.0 1.0 1.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "1.35",
+      "min": "0.5"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "3.5",
+      "min": "2.0"
+    },
+    "disorder": {
+      "max": "0.8 0.0 0.8",
+      "interval": "0.25",
+      "increment": "0.0",
+      "min": "-0.8 0.0 -0.8"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.04 0.04"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.2 0.2",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

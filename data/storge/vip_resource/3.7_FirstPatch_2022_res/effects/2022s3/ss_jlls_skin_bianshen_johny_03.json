@@ -1,1 +1,86 @@
-{"particleeffect": {"activetime": {"value": "0.8"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "100.0%"}], "delay": 0.1, "depthtest": {"enable": "false"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Direction"}, "emissionrate": {"max": "100.0", "min": "100.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 1.5 0.0"}, "emittertype": {"value": "Sphere"}, "enabletexture": {"enable": true}, "inactivetime": {"value": "0.0"}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.8 0.8", "min": "0.4 0.4"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.35 0.35", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2022s3/ss_jlls_skin_bianshen_johny_lightening", "shuffle": true}, "name": "textures/sfxs/2022s3/ss_jlls_skin_bianshen_johny_lightening"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.2", "min": "0.2"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.1,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 1.5 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.35 0.35",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2022s3/ss_jlls_skin_bianshen_johny_lightening",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2022s3/ss_jlls_skin_bianshen_johny_lightening"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

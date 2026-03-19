@@ -1,1 +1,68 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 0.3333 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 0.3333 1.0000 1.0000", "time": "51.3%"}, {"color": "1.0000 0.3333 1.0000 0.1161", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "direction": {"max": "-0.1 0.0 0.0", "min": "0.1 0.5 1.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "5.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.1 0.1 0.1"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "5"}, "particlesize": {"max": "0.05 0.05", "min": "0.01 0.01"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.92 0.92", "time": "66.3%"}, {"scale": "0.1 0.1", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s3/cs_zhaoyun_long_01_fangkuai"}, "thickness": {"value": "0.0"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.3333 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.3333 1.0000 1.0000",
+        "time": "51.3%"
+      },
+      {
+        "color": "1.0000 0.3333 1.0000 0.1161",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "-0.1 0.0 0.0",
+      "min": "0.1 0.5 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.01 0.01"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.92 0.92",
+        "time": "66.3%"
+      },
+      {
+        "scale": "0.1 0.1",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/cs_zhaoyun_long_01_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
+}

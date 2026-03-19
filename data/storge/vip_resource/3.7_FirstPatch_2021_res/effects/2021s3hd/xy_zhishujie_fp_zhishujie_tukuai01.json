@@ -1,1 +1,75 @@
-{"particleeffect":{"constantforce":{"value":"0.0 4.0 0.0"},"independent":false,"direction":{"max":"0.0 -1.0 0.5","value":"Direction","min":"0.0 -1.0 0.3"},"numparticles":{"value":"4"},"rotationSpeedRange":{"max":"0.0 0.0 50.0","min":"0.0 0.0 20.0"},"colorfade":[],"emissionrate":{"max":"6.0","min":"5.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.4 0.0 0.2"},"texture":{"name":"textures/sfxs/2021s3hd/tukuai"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.7","min":"0.5"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"1.3","min":"1.0"},"rotationRange":{"max":"0.0 0.0 180.0","min":"0.0 0.0 0.0"},"particlesize":{"max":"0.08 0.08","min":"0.04 0.04"},"sizedelta":[{"scale":"0.6 0.6","time":"0.0%"},{"scale":"1.0 1.0","time":"20.0%"},{"scale":"0.6 0.6","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "constantforce": {
+      "value": "0.0 4.0 0.0"
+    },
+    "independent": false,
+    "direction": {
+      "max": "0.0 -1.0 0.5",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.3"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 20.0"
+    },
+    "colorfade": [],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.4 0.0 0.2"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s3hd/tukuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "1.3",
+      "min": "1.0"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.04 0.04"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.6 0.6",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

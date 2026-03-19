@@ -1,1 +1,60 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 1.0"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s4/xy_sep_fpC", "fps": "15"}, "name": "textures/sfxs/2021s4/xy_sep_fpC"}, "faceCameraMode": {"value": "Direction Horizontal"}, "independent": false, "emissionrate": {"max": "5.0", "min": "5.0"}, "emitterScaleCurve": [], "emittersize": {"value": "0.0 0.0 0.0"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Sphere"}, "inactivetime": {"value": "0.02"}, "depthtest": {"enable": "true"}, "velocity": {"max": "0.1", "min": "0.1"}, "emitterscale": [], "timetolive": {"max": "0.5", "min": "0.5"}, "particlesize": {"max": "0.6 0.6", "min": "0.6 0.6"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 1.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s4/xy_sep_fpC",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s4/xy_sep_fpC"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": false,
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "inactivetime": {
+      "value": "0.02"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "emitterscale": [],
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.6 0.6"
+    }
+  }
+}

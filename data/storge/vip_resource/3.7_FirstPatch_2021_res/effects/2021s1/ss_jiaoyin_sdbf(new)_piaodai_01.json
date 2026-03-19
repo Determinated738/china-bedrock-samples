@@ -1,1 +1,81 @@
-{"particleeffect": {"independent": false, "direction": {"max": "0.0 0.0 1.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 0, "colorfade": [{"color": "1.0000 0.4510 0.0000 0.1250", "time": "0.00"}, {"color": "0.6588 0.3137 1.0000 0.2232", "time": "0.15"}, {"color": "0.1961 0.1059 0.2902 0.0982", "time": "0.34"}], "texture": {"ani": {"shuffle": true, "name": "textures/sfxs/2021s1/ss_jiaoyin_sdbf(new)_piaodai_01", "fps": "15"}, "name": "textures/sfxs/2021s1/ss_jiaoyin_sdbf(new)_piaodai_01"}, "emitterScaleCurve": [], "enableloop": {"enable": "true"}, "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "relative": {"enable": "false"}, "emittertype": {"value": "Box"}, "timetolive": {"max": "0.7", "min": "0.5"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "blend": {"name": "add"}, "particlesize": {"max": "0.5 0.5", "min": "0.8 0.8"}, "sizedelta": [{"scale": "1.26 1.26", "time": "0.00"}, {"scale": "1.18 1.18", "time": "0.40"}, {"scale": "0.84 0.84", "time": "2.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 0,
+    "colorfade": [
+      {
+        "color": "1.0000 0.4510 0.0000 0.1250",
+        "time": "0.00"
+      },
+      {
+        "color": "0.6588 0.3137 1.0000 0.2232",
+        "time": "0.15"
+      },
+      {
+        "color": "0.1961 0.1059 0.2902 0.0982",
+        "time": "0.34"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "shuffle": true,
+        "name": "textures/sfxs/2021s1/ss_jiaoyin_sdbf(new)_piaodai_01",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s1/ss_jiaoyin_sdbf(new)_piaodai_01"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.5"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.8 0.8"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.26 1.26",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.18 1.18",
+        "time": "0.40"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "2.00"
+      }
+    ]
+  }
+}

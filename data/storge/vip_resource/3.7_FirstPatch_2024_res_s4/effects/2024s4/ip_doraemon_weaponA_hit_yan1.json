@@ -1,77 +1,77 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.7922 0.7922 0.7922 0.7054",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.7059 0.7059 0.7059 0.6250",
-				"time": "45.0%"
-			},
-			{
-				"color": "0.5333 0.5333 0.5333 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "9.0"
-		},
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "100.0",
-			"min": "100.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.0 0.0 1.0"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"numparticles": {
-			"value": "50"
-		},
-		"particlesize": {
-			"max": "0.3 0.3",
-			"min": "0.2 0.2"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 360.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "textures/sfxs/2024s4/ip_doraemon_weaponA_hit_lx",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/ip_doraemon_weaponA_hit_lx"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "8.0",
-			"min": "10.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.7922 0.7922 0.7922 0.7054",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7059 0.7059 0.7059 0.6250",
+        "time": "45.0%"
+      },
+      {
+        "color": "0.5333 0.5333 0.5333 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "9.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.0 1.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "numparticles": {
+      "value": "50"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2024s4/ip_doraemon_weaponA_hit_lx",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/ip_doraemon_weaponA_hit_lx"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "10.0"
+    }
+  }
 }

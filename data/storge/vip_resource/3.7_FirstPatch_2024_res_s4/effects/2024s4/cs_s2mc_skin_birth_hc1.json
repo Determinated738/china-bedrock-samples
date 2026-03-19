@@ -1,70 +1,70 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "2.5"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.5982",
-				"time": "61.8%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.2143",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"delay": 1.9,
-		"direction": {
-			"max": "1.0 1.0 0.0",
-			"min": "-1.0 -1.0 0.0",
-			"value": "Outwards"
-		},
-		"emissionrate": {
-			"max": "60.0",
-			"min": "60.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "1.6 1.6 0.6"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "60"
-		},
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.06 0.06"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "8",
-				"name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_hc",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_hc"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"velocity": {
-			"max": "1.6",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "2.5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5982",
+        "time": "61.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2143",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 1.9,
+    "direction": {
+      "max": "1.0 1.0 0.0",
+      "min": "-1.0 -1.0 0.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "60.0",
+      "min": "60.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.6 1.6 0.6"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "60"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.06 0.06"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_hc",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/cs_s2mc_skin_dianchuo_hc"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "1.6",
+      "min": "1.0"
+    }
+  }
 }

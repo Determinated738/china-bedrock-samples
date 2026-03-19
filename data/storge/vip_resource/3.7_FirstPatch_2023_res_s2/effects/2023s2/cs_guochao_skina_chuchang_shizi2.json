@@ -1,1 +1,82 @@
-{"particleeffect": {"activetime": {"value": "0.8"}, "blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.6667 0.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "30.3%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "53.2%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "81.1%"}, {"color": "1.0000 0.6549 0.1686 1.0000", "time": "100.0%"}], "dampingforce": {"value": "1.0"}, "delay": 1.0, "direction": {"max": "0.0 1.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "50.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.5 1.5 1.5"}, "emittertype": {"value": "Sphere"}, "numparticles": {"value": "20"}, "particlesize": {"max": "0.3 0.3", "min": "0.2 0.2"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "24", "name": "textures/sfxs/2023s2/cs_guochao_skina_chuchang_shizi", "shuffle": true}, "name": "textures/sfxs/2023s2/cs_guochao_skina_chuchang_shizi"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.2", "min": "0.4"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.8"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6667 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "30.3%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "53.2%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "81.1%"
+      },
+      {
+        "color": "1.0000 0.6549 0.1686 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 1,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 1.5 1.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2023s2/cs_guochao_skina_chuchang_shizi",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2023s2/cs_guochao_skina_chuchang_shizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

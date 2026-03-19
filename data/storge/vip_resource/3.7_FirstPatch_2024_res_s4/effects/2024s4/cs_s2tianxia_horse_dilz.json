@@ -1,66 +1,66 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.1961 0.0000 0.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0000 0.0000 0.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"constantforce": {
-			"value": "0.0 0.0 -3.0"
-		},
-		"direction": {
-			"max": "-1.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.2 1.0 0.7"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"layer": 2,
-		"particlesize": {
-			"max": "0.08 0.08",
-			"min": "0.05 0.05"
-		},
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.65 1.65",
-				"time": "49.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2tianxia_horse_fllz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "0.5",
-			"min": "1.0"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.1961 0.0000 0.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.0 -3.0"
+    },
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 1.0 0.7"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 2,
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.65 1.65",
+        "time": "49.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2tianxia_horse_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "1.0"
+    }
+  }
 }

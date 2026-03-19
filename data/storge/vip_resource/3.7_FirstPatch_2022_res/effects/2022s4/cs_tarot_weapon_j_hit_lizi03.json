@@ -1,1 +1,74 @@
-{"particleeffect":{"independent":true,"layer":3,"activetime":{"value":"0.2"},"numparticles":{"value":"1"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"0.8667 0.9961 1.0000 0.7232","time":"0.08"},{"color":"0.5569 1.0000 0.9647 0.5714","time":"0.10"}],"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"depthtest":{"enable":"false"},"relative":{"enable":"true"},"timetolive":{"max":"0.1","min":"0.1"},"texture":{"name":"textures/sfxs/2022s4/cs_tarot_weapon_heihong_j_hit_bao"},"velocity":{"max":"0.0","min":"0.0"},"rotationRange":{"max":"0.0 0.0 0.0","min":"0.0 0.0 180.0"},"particlesize":{"max":"0.18 0.18","min":"0.18 0.18"},"sizedelta":[{"scale":"0.09 0.09","time":"0.0%"},{"scale":"0.6 0.6","time":"9.7%"},{"scale":"2.32 2.32","time":"14.0%"},{"scale":"2.92 2.92","time":"99.0%"}]}}
+{
+  "particleeffect": {
+    "independent": true,
+    "layer": 3,
+    "activetime": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.8667 0.9961 1.0000 0.7232",
+        "time": "0.08"
+      },
+      {
+        "color": "0.5569 1.0000 0.9647 0.5714",
+        "time": "0.10"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "depthtest": {
+      "enable": "false"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "timetolive": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_tarot_weapon_heihong_j_hit_bao"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "particlesize": {
+      "max": "0.18 0.18",
+      "min": "0.18 0.18"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.09 0.09",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "9.7%"
+      },
+      {
+        "scale": "2.32 2.32",
+        "time": "14.0%"
+      },
+      {
+        "scale": "2.92 2.92",
+        "time": "99.0%"
+      }
+    ]
+  }
+}

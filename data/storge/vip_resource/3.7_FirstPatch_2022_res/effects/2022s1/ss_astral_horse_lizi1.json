@@ -1,1 +1,68 @@
-{"particleeffect":{"independent":false,"direction":{"max":"-0.1 0.0 0.0","value":"Direction","min":"-0.1 0.0 0.0"},"dampingforce":{"value":"1.0"},"faceCameraMode":{"value":"Direction"},"colorfade":[{"color":"0.4000 0.8078 0.6000 1.0000","time":"0.00"},{"color":"0.3333 0.6667 0.4980 1.0000","time":"0.50"}],"emissionrate":{"max":"5.0","min":"3.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.4 0.2 0.2"},"texture":{"name":"textures/sfxs/2021s1/xy_jiaoyin_saibopengke_lizi"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.6","min":"0.3"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"1.0","min":"0.5"},"blend":{"name":"add"},"particlesize":{"max":"0.03 0.03","min":"0.01 0.0"},"numparticles":{"value":"5"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "-0.1 0.0 0.0",
+      "value": "Direction",
+      "min": "-0.1 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "colorfade": [
+      {
+        "color": "0.4000 0.8078 0.6000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.3333 0.6667 0.4980 1.0000",
+        "time": "0.50"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.4 0.2 0.2"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/xy_jiaoyin_saibopengke_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.0"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

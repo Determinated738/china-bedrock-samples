@@ -1,1 +1,69 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.1"},"faceCameraMode":{"value":"Direction Horizontal"},"colorfade":[{"color":"1.0000 0.7373 0.4157 0.1786","time":"0.0%"},{"color":"1.0000 0.2706 0.2039 0.1071","time":"100.0%"}],"emissionrate":{"max":"14.0","min":"10.0"},"enableloop":{"enable":"true"},"layer":3,"relative":{"enable":"false"},"timetolive":{"max":"0.3","min":"0.4"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2023s2/xy_fantacy_fp_di2","fps":"24"},"name":"textures/sfxs/2023s2/xy_fantacy_fp_di2"},"velocity":{"max":"0.1","min":"0.1"},"blend":{"name":"add"},"particlesize":{"max":"0.8 0.8","min":"0.8 0.8"},"sizedelta":[{"scale":"0.68 0.68","time":"0.0%"},{"scale":"0.44 0.44","time":"100.0%"}],"numparticles":{"value":"12"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.1"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.7373 0.4157 0.1786",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.2706 0.2039 0.1071",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "14.0",
+      "min": "10.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "layer": 3,
+    "relative": {
+      "enable": "false"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.4"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2023s2/xy_fantacy_fp_di2",
+        "fps": "24"
+      },
+      "name": "textures/sfxs/2023s2/xy_fantacy_fp_di2"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.8 0.8"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.68 0.68",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.44 0.44",
+        "time": "100.0%"
+      }
+    ],
+    "numparticles": {
+      "value": "12"
+    }
+  }
+}

@@ -1,1 +1,106 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.6078 0.8000 1.0000 1.0000", "time": "0.0%"}, {"color": "0.4118 0.8235 1.0000 1.0000", "time": "53.7%"}, {"color": "0.0039 0.0196 1.0000 1.0000", "time": "100.0%"}], "dampingforce": {"value": "1.0"}, "direction": {"max": "1.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "300.0", "min": "40.0"}, "emitterScaleCurve": [], "emitterpath": [{"offset": "-0.3 0.2 -0.3", "rotation": "0.0 0.0 0.0", "time": "0.0"}, {"offset": "0.4 0.1 -0.2", "rotation": "0.0 18.8 0.0", "time": "0.1"}, {"offset": "1.1 0.3 -0.3", "rotation": "0.0 -31.7 0.0", "time": "0.2"}, {"offset": "1.9 0.5 0.3", "rotation": "0.0 -45.2 0.0", "time": "0.3"}, {"offset": "2.6 1.7 1.6", "rotation": "0.0 -73.6 0.0", "time": "0.4"}], "emitterscale": [], "emittersize": {"value": "0.3 0.2 0.1"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "250"}, "particlesize": {"max": "0.02 0.02", "min": "0.15 0.15"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "0.9 0.9", "time": "12.3%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/cs_darkmoon_horse_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.6", "min": "0.4"}, "velocity": {"max": "1.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.6078 0.8000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4118 0.8235 1.0000 1.0000",
+        "time": "53.7%"
+      },
+      {
+        "color": "0.0039 0.0196 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "300.0",
+      "min": "40.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterpath": [
+      {
+        "offset": "-0.3 0.2 -0.3",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      },
+      {
+        "offset": "0.4 0.1 -0.2",
+        "rotation": "0.0 18.8 0.0",
+        "time": "0.1"
+      },
+      {
+        "offset": "1.1 0.3 -0.3",
+        "rotation": "0.0 -31.7 0.0",
+        "time": "0.2"
+      },
+      {
+        "offset": "1.9 0.5 0.3",
+        "rotation": "0.0 -45.2 0.0",
+        "time": "0.3"
+      },
+      {
+        "offset": "2.6 1.7 1.6",
+        "rotation": "0.0 -73.6 0.0",
+        "time": "0.4"
+      }
+    ],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.2 0.1"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "250"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "12.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/cs_darkmoon_horse_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "2.0"
+    }
+  }
+}

@@ -1,1 +1,65 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"dampingforce":{"value":"3.0"},"numparticles":{"value":"50"},"colorfade":[{"color":"1.0000 0.2824 0.0000 1.0000","time":"0.00"},{"color":"1.0000 0.7294 0.0902 1.0000","time":"0.02"},{"color":"0.9804 0.3922 0.0000 1.0000","time":"0.04"}],"emitterScaleCurve":[],"enableloop":{"enable":"true"},"texture":{"name":"textures/sfxs/2021s1/cs_xiaoqiao_A_0_0_lizi_01"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Cylinder"},"timetolive":{"max":"0.2","min":"0.1"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.8 0.4 0.1"},"velocity":{"max":"0.4","min":"0.2"},"emitterscale":[],"particlesize":{"max":"0.08 0.08","min":"0.06 0.06"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "numparticles": {
+      "value": "50"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.2824 0.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.7294 0.0902 1.0000",
+        "time": "0.02"
+      },
+      {
+        "color": "0.9804 0.3922 0.0000 1.0000",
+        "time": "0.04"
+      }
+    ],
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/cs_xiaoqiao_A_0_0_lizi_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.8 0.4 0.1"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.06 0.06"
+    }
+  }
+}

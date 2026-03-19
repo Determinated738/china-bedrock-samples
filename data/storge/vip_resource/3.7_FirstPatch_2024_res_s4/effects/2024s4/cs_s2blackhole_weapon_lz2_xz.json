@@ -1,80 +1,80 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.1569 0.0000 0.0000 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "14.2%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "83.9%"
-			},
-			{
-				"color": "1.0000 0.1137 0.0000 0.0089",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "0.1"
-		},
-		"direction": {
-			"max": "0.0 -1.0 0.0",
-			"min": "0.0 -1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "122.0",
-			"min": "12.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.35 1.0 0.15"
-		},
-		"emittertype": {
-			"value": "Cylinder"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"numparticles": {
-			"value": "16"
-		},
-		"particlesize": {
-			"max": "0.01 0.01",
-			"min": "0.03 0.03"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "1.0 1.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_weapon_hdlz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "0.8"
-		},
-		"velocity": {
-			"max": "0.4",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.1569 0.0000 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "14.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "83.9%"
+      },
+      {
+        "color": "1.0000 0.1137 0.0000 0.0089",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.1"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "122.0",
+      "min": "12.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.35 1.0 0.15"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "16"
+    },
+    "particlesize": {
+      "max": "0.01 0.01",
+      "min": "0.03 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_weapon_hdlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.1"
+    }
+  }
 }

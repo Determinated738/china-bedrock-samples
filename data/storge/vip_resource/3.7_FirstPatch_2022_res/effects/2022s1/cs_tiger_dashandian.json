@@ -1,1 +1,64 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.0", "value": "Direction", "min": "0.0 0.0 0.0"}, "activetime": {"value": "0.45"}, "numparticles": {"value": "1"}, "independent": false, "rotationRange": {"max": "0.0 0.0 23.0", "min": "0.0 0.0 23.0"}, "relative": {"enable": "true"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s1/dashandian", "fps": "10"}, "name": "textures/sfxs/2022s1/dashandian"}, "emitterScaleCurve": [], "depthtest": {"enable": "false"}, "thickness": {"value": "0.0"}, "delay": 5.32, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.45", "min": "0.48"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.0", "min": "0.0"}, "blend": {"name": "add"}, "particlesize": {"max": "1.0 0.5", "min": "1.0 0.5"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.45"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "independent": false,
+    "rotationRange": {
+      "max": "0.0 0.0 23.0",
+      "min": "0.0 0.0 23.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/dashandian",
+        "fps": "10"
+      },
+      "name": "textures/sfxs/2022s1/dashandian"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "false"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 5.32,
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.45",
+      "min": "0.48"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "1.0 0.5",
+      "min": "1.0 0.5"
+    }
+  }
+}

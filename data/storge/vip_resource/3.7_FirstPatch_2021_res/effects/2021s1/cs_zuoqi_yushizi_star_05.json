@@ -1,1 +1,82 @@
-{"particleeffect":{"independent":false,"direction":{"max":"1.0 0.2 0.3","value":"Direction","min":"1.0 -0.2 -0.2"},"numparticles":{"value":"2"},"blend":{"name":"add"},"colorfade":[{"color":"1.0000 1.0000 1.0000 0.0000","time":"0.00"},{"color":"0.0000 1.0000 0.9333 0.5000","time":"0.00"},{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"0.3647 0.6392 1.0000 0.3393","time":"0.00"},{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.01"},{"color":"1.0000 1.0000 0.2400 0.0000","time":"0.01"}],"emitterScaleCurve":[],"enableloop":{"enable":"true"},"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2021s1/cs_zhugeliang_star_06","fps":"0"},"name":"textures/sfxs/2021s1/cs_zhugeliang_star_06"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Cylinder"},"timetolive":{"max":"0.2","min":"0.1"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.2 0.1 0.2"},"velocity":{"max":"0.2","min":"0.1"},"emitterscale":[],"particlesize":{"max":"0.02 0.02","min":"0.01 0.01"}}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "1.0 0.2 0.3",
+      "value": "Direction",
+      "min": "1.0 -0.2 -0.2"
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0000 1.0000 0.9333 0.5000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.3647 0.6392 1.0000 0.3393",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.01"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "0.01"
+      }
+    ],
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s1/cs_zhugeliang_star_06",
+        "fps": "0"
+      },
+      "name": "textures/sfxs/2021s1/cs_zhugeliang_star_06"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.2 0.1 0.2"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "emitterscale": [],
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.01 0.01"
+    }
+  }
+}

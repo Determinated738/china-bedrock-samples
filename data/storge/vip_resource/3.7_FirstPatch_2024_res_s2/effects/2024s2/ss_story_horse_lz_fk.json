@@ -1,1 +1,78 @@
-{"particleeffect": {"colorfade": [{"color": "0.0000 0.9843 1.0000 1.0000", "time": "0.0%"}, {"color": "0.0000 0.9843 1.0000 1.0000", "time": "51.1%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "51.3%"}, {"color": "1.0000 1.0000 0.0000 1.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "11.0", "min": "8.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "2.2 1.0 1.3"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "9"}, "particlesize": {"max": "0.02 0.02", "min": "0.05 0.05"}, "pointFiltering": true, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "50.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/ss_story_horse__lz_fk"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.1"}, "velocity": {"max": "0.0", "min": "0.0"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "51.1%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "51.3%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "11.0",
+      "min": "8.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.2 1.0 1.3"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "9"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/ss_story_horse__lz_fk"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.1"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

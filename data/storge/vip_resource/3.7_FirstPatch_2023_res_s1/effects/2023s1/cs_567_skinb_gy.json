@@ -1,1 +1,66 @@
-{"particleeffect":{"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 -1.0 0.0"},"dampingforce":{"value":"10.0"},"faceCameraMode":{"value":"Direction"},"enabletexture":{"enable":true},"colorfade":[{"color":"0.3882 0.1686 0.6745 0.1786","time":"0.0%"},{"color":"0.2784 0.3451 0.7020 0.1071","time":"100.0%"}],"emissionrate":{"max":"5.0","min":"5.0"},"emitterScaleCurve":[],"enableloop":{"enable":"true"},"emittersize":{"value":"0.0 0.0 0.5"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"texture":{"name":"textures/particle/2020s2/2020s2_cs_jian_FP_sun"},"emitterscale":[],"velocity":{"max":"0.1","min":"0.1"},"blend":{"name":"add"},"particlesize":{"max":"1.0 1.5","min":"0.8 1.3"},"numparticles":{"value":"5"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 -1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "colorfade": [
+      {
+        "color": "0.3882 0.1686 0.6745 0.1786",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.2784 0.3451 0.7020 0.1071",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "texture": {
+      "name": "textures/particle/2020s2/2020s2_cs_jian_FP_sun"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "1.0 1.5",
+      "min": "0.8 1.3"
+    },
+    "numparticles": {
+      "value": "5"
+    }
+  }
+}

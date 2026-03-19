@@ -1,1 +1,87 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.3725 0.0000 0.0039 1.0000", "time": "0.0%"}, {"color": "0.8000 0.0000 0.0118 1.0000", "time": "18.4%"}, {"color": "0.5765 0.0000 0.2196 1.0000", "time": "49.5%"}, {"color": "1.0000 0.2314 0.0000 1.0000", "time": "72.4%"}, {"color": "0.5647 0.0000 0.3020 0.0000", "time": "100.0%"}], "dampingforce": {"value": "1.0"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "10.0", "min": "20.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.8 0.6 0.8"}, "emittertype": {"value": "Cylinder"}, "numparticles": {"value": "5"}, "particlesize": {"max": "0.05 0.05", "min": "0.02 0.02"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "30.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s2/ip_conan_s2skinb_lizi_1"}, "thickness": {"value": "0.0"}, "velocity": {"max": "0.6", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.3725 0.0000 0.0039 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8000 0.0000 0.0118 1.0000",
+        "time": "18.4%"
+      },
+      {
+        "color": "0.5765 0.0000 0.2196 1.0000",
+        "time": "49.5%"
+      },
+      {
+        "color": "1.0000 0.2314 0.0000 1.0000",
+        "time": "72.4%"
+      },
+      {
+        "color": "0.5647 0.0000 0.3020 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.6 0.8"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "30.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s2/ip_conan_s2skinb_lizi_1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.6",
+      "min": "0.2"
+    }
+  }
+}

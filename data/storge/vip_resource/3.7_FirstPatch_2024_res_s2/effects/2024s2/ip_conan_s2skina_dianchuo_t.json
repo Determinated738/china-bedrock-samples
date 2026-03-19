@@ -1,1 +1,76 @@
-{"particleeffect": {"activetime": {"value": "0.15"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "0.2784 1.0000 0.9529 1.0000", "time": "24.7%"}, {"color": "0.2902 0.7765 1.0000 1.0000", "time": "60.5%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "5.0"}, "delay": 3.65, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "70.0", "min": "30.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.8 2.6 1.8"}, "emittertype": {"value": "Cone"}, "numparticles": {"value": "47"}, "particlesize": {"max": "0.15 0.4", "min": "0.3 0.25"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_t", "shuffle": true}, "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_t"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.65", "min": "0.3"}, "velocity": {"max": "8.0", "min": "3.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.15"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.2784 1.0000 0.9529 1.0000",
+        "time": "24.7%"
+      },
+      {
+        "color": "0.2902 0.7765 1.0000 1.0000",
+        "time": "60.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 3.65,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "70.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.8 2.6 1.8"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "numparticles": {
+      "value": "47"
+    },
+    "particlesize": {
+      "max": "0.15 0.4",
+      "min": "0.3 0.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_t",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s2/ip_conan_s2skina_dianchuo_t"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.65",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "3.0"
+    }
+  }
+}

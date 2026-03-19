@@ -1,67 +1,67 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "0.0745 0.0000 0.8745 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.0745 0.0000 0.8745 0.7143",
-				"time": "11.1%"
-			},
-			{
-				"color": "0.0000 0.1804 1.0000 1.0000",
-				"time": "39.7%"
-			},
-			{
-				"color": "0.0000 0.7843 1.0000 1.0000",
-				"time": "71.1%"
-			},
-			{
-				"color": "0.0000 0.7843 1.0000 0.0536",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "8.0",
-			"min": "15.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.2 0.5 0.3"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.03 0.03",
-			"min": "0.01 0.01"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/ss_s2comet_weaponA_lizi"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"velocity": {
-			"max": "0.5",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0745 0.0000 0.8745 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0745 0.0000 0.8745 0.7143",
+        "time": "11.1%"
+      },
+      {
+        "color": "0.0000 0.1804 1.0000 1.0000",
+        "time": "39.7%"
+      },
+      {
+        "color": "0.0000 0.7843 1.0000 1.0000",
+        "time": "71.1%"
+      },
+      {
+        "color": "0.0000 0.7843 1.0000 0.0536",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.5 0.3"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.01"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/ss_s2comet_weaponA_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
 }

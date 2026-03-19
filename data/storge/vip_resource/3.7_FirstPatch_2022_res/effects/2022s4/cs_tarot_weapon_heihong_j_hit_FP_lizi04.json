@@ -1,1 +1,87 @@
-{"particleeffect":{"layer":0,"faceCameraMode":{"value":"Direction"},"emissionrate":{"max":"100.0","min":"100.0"},"relative":{"enable":"true"},"particlesize":{"max":"0.02 0.02","min":"0.04 0.04"},"activetime":{"value":"0.2"},"numparticles":{"value":"3"},"texture":{"name":"textures/sfxs/2022s4/cs_tarot_weapon_heihong_hit_ctlz"},"thickness":{"value":"0.0"},"delay":0.1,"timetolive":{"max":"0.3","min":"0.4"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"},{"scale":"0.72 0.72","time":"99.5%"}],"direction":{"max":"1.0 1.0 1.0","value":"Inwards","min":"-1.0 -1.0 -1.0"},"dampingforce":{"value":"4.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.01 0.01 0.01"},"emitterscale":[],"rotationRange":{"max":"0.0 0.0 45.0","min":"0.0 0.0 45.0"},"colorfade":[{"color":"0.9922 1.0000 0.3412 1.0000","time":"0.00"},{"color":"1.0000 0.6667 0.0000 0.8125","time":"0.24"},{"color":"1.0000 0.0000 0.0000 0.4464","time":"0.40"}],"emittertype":{"value":"Sphere"},"velocity":{"max":"-3.0","min":"-5.0"},"blend":{"name":"add"}}}
+{
+  "particleeffect": {
+    "layer": 0,
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "particlesize": {
+      "max": "0.02 0.02",
+      "min": "0.04 0.04"
+    },
+    "activetime": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_tarot_weapon_heihong_hit_ctlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.1,
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.4"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "99.5%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "value": "Inwards",
+      "min": "-1.0 -1.0 -1.0"
+    },
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.01 0.01 0.01"
+    },
+    "emitterscale": [],
+    "rotationRange": {
+      "max": "0.0 0.0 45.0",
+      "min": "0.0 0.0 45.0"
+    },
+    "colorfade": [
+      {
+        "color": "0.9922 1.0000 0.3412 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.6667 0.0000 0.8125",
+        "time": "0.24"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.4464",
+        "time": "0.40"
+      }
+    ],
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "velocity": {
+      "max": "-3.0",
+      "min": "-5.0"
+    },
+    "blend": {
+      "name": "add"
+    }
+  }
+}

@@ -1,1 +1,77 @@
-{"particleeffect": {"activetime": {"value": "1.0"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "0.0000 1.0000 0.8863 1.0000", "time": "32.6%"}, {"color": "0.9686 1.0000 0.6196 1.0000", "time": "72.4%"}, {"color": "1.0000 1.0000 0.5098 1.0000", "time": "100.0%"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emissionrate": {"max": "10.0", "min": "6.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 0.7 1.0"}, "emittertype": {"value": "Sphere"}, "faceCameraMode": {"value": "Direction"}, "numparticles": {"value": "4"}, "particlesize": {"max": "0.3 0.4", "min": "0.2 0.3"}, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "10", "name": "textures/sfxs/2023s1/cs_567_skina_hit_shandian", "shuffle": false}, "name": "textures/sfxs/2023s1/cs_567_skina_hit_shandian"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.5"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 1.0000 0.8863 1.0000",
+        "time": "32.6%"
+      },
+      {
+        "color": "0.9686 1.0000 0.6196 1.0000",
+        "time": "72.4%"
+      },
+      {
+        "color": "1.0000 1.0000 0.5098 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.7 1.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.3 0.4",
+      "min": "0.2 0.3"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2023s1/cs_567_skina_hit_shandian",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/cs_567_skina_hit_shandian"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

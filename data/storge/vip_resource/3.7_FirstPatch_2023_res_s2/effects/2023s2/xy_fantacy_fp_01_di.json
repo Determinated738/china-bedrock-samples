@@ -1,1 +1,71 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.2431 0.2549 0.9569 0.4643", "time": "0.0%"}, {"color": "0.1490 0.2784 0.6235 0.4286", "time": "47.4%"}, {"color": "0.0471 0.0353 0.7725 0.3482", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.1", "value": "Direction"}, "emissionrate": {"max": "14.0", "min": "10.0"}, "enableloop": {"enable": "true"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "numparticles": {"value": "12"}, "particlesize": {"max": "0.8 1.0", "min": "0.8 1.0"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.68 0.68", "time": "0.0%"}, {"scale": "0.44 0.44", "time": "100.0%"}], "texture": {"ani": {"fps": "24", "name": "textures/sfxs/2023s2/xy_fantacy_fp_01_di", "shuffle": false}, "name": "textures/sfxs/2023s2/xy_fantacy_fp_01_di"}, "timetolive": {"max": "0.3", "min": "0.4"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.2431 0.2549 0.9569 0.4643",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1490 0.2784 0.6235 0.4286",
+        "time": "47.4%"
+      },
+      {
+        "color": "0.0471 0.0353 0.7725 0.3482",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "14.0",
+      "min": "10.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "numparticles": {
+      "value": "12"
+    },
+    "particlesize": {
+      "max": "0.8 1.0",
+      "min": "0.8 1.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.68 0.68",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.44 0.44",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2023s2/xy_fantacy_fp_01_di",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s2/xy_fantacy_fp_01_di"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.4"
+    }
+  }
+}

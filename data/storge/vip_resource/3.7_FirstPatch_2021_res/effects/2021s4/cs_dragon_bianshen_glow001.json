@@ -1,1 +1,85 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"activetime":{"value":"0.36"},"numparticles":{"value":"1"},"relative":{"enable":"true"},"texture":{"name":"textures/sfxs/2021s1/xy_jiaoyin_saibopengke_sun02"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.00"},{"color":"0.7216 0.0745 1.0000 1.0000","time":"0.07"},{"color":"0.6706 0.2157 1.0000 1.0000","time":"0.35"},{"color":"0.6745 0.2157 1.0000 0.3393","time":"0.38"}],"emissionrate":{"max":"40.0","min":"30.0"},"emitterScaleCurve":[],"layer":12,"depthtest":{"enable":"true"},"thickness":{"value":"0.0"},"delay":0.07,"emittertype":{"value":"Sphere"},"timetolive":{"max":"0.38","min":"0.35"},"emittersize":{"value":"0.0 0.0 0.0"},"emitterscale":[],"blend":{"name":"add"},"particlesize":{"max":"1.0 1.2","min":"1.2 1.2"},"sizedelta":[{"scale":"0.5 0.5","time":"0.0%"},{"scale":"1.6 1.6","time":"54.5%"},{"scale":"1.83 1.83","time":"100.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "activetime": {
+      "value": "0.36"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2021s1/xy_jiaoyin_saibopengke_sun02"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.7216 0.0745 1.0000 1.0000",
+        "time": "0.07"
+      },
+      {
+        "color": "0.6706 0.2157 1.0000 1.0000",
+        "time": "0.35"
+      },
+      {
+        "color": "0.6745 0.2157 1.0000 0.3393",
+        "time": "0.38"
+      }
+    ],
+    "emissionrate": {
+      "max": "40.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 12,
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.07,
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.38",
+      "min": "0.35"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "1.0 1.2",
+      "min": "1.2 1.2"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.5 0.5",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.6 1.6",
+        "time": "54.5%"
+      },
+      {
+        "scale": "1.83 1.83",
+        "time": "100.0%"
+      }
+    ]
+  }
+}

@@ -1,1 +1,74 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.0000 0.0000 1.0000", "time": "0.00"}, {"color": "1.0000 0.2510 0.2510 1.0000", "time": "0.29"}, {"color": "1.0000 0.5765 0.3333 1.0000", "time": "0.55"}, {"color": "1.0000 0.5922 0.2980 0.4911", "time": "0.68"}, {"color": "1.0000 0.5490 0.2863 0.0000", "time": "0.80"}], "direction": {"max": "0.0 0.0 -1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.7 0.8999999999999999 0.10000000000000003"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.1 0.1", "min": "0.15 0.15"}, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "0", "name": "textures/sfxs/2024s1/xy_guofengyear_fp_003", "shuffle": true}, "name": "textures/sfxs/2024s1/xy_guofengyear_fp_003"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.4", "min": "0.6"}, "velocity": {"max": "0.5", "min": "0.3"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.2510 0.2510 1.0000",
+        "time": "0.29"
+      },
+      {
+        "color": "1.0000 0.5765 0.3333 1.0000",
+        "time": "0.55"
+      },
+      {
+        "color": "1.0000 0.5922 0.2980 0.4911",
+        "time": "0.68"
+      },
+      {
+        "color": "1.0000 0.5490 0.2863 0.0000",
+        "time": "0.80"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.7 0.8999999999999999 0.10000000000000003"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2024s1/xy_guofengyear_fp_003",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s1/xy_guofengyear_fp_003"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
+}

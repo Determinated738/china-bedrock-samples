@@ -1,1 +1,60 @@
-{"particleeffect":{"direction":{"max":"1.0 -0.05 -0.05","value":"Direction","min":"0.0 0.05 0.05"},"colorfade":[{"color":"1.0000 1.0000 1.0000 1.0000","time":"0.0%"},{"color":"0.7529 1.0000 1.0000 1.0000","time":"50.0%"},{"color":"0.5020 0.9922 1.0000 0.2321","time":"81.3%"},{"color":"0.3137 1.0000 1.0000 0.0000","time":"100.0%"}],"emissionrate":{"max":"7.0","min":"10.0"},"emitterScaleCurve":[],"emittersize":{"value":"0.5 1.0 1.3"},"thickness":{"value":"0.0"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.6","min":"0.3"},"texture":{"name":"textures/sfxs/2023s1/cs_567_skinc_mhlz"},"emitterscale":[],"velocity":{"max":"2.0","min":"3.0"},"particlesize":{"max":"0.04 0.04","min":"0.07 0.07"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "1.0 -0.05 -0.05",
+      "value": "Direction",
+      "min": "0.0 0.05 0.05"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7529 1.0000 1.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "0.5020 0.9922 1.0000 0.2321",
+        "time": "81.3%"
+      },
+      {
+        "color": "0.3137 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "7.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "0.5 1.0 1.3"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "texture": {
+      "name": "textures/sfxs/2023s1/cs_567_skinc_mhlz"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "2.0",
+      "min": "3.0"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.07 0.07"
+    }
+  }
+}

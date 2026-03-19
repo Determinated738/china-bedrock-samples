@@ -1,60 +1,60 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.2"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.8353 0.0078 0.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 1.0000",
-				"time": "9.2%"
-			},
-			{
-				"color": "0.0471 1.0000 0.7294 1.0000",
-				"time": "24.7%"
-			},
-			{
-				"color": "0.0000 0.5686 1.0000 0.7589",
-				"time": "57.1%"
-			},
-			{
-				"color": "0.0431 0.4078 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "3.0"
-		},
-		"delay": 3.125,
-		"direction": {
-			"max": "-1.0 -1.0 -1.0",
-			"min": "1.0 1.0 1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "150.0",
-			"min": "150.0"
-		},
-		"layer": 10,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_01"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.3"
-		},
-		"velocity": {
-			"max": "5.0",
-			"min": "6.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8353 0.0078 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "9.2%"
+      },
+      {
+        "color": "0.0471 1.0000 0.7294 1.0000",
+        "time": "24.7%"
+      },
+      {
+        "color": "0.0000 0.5686 1.0000 0.7589",
+        "time": "57.1%"
+      },
+      {
+        "color": "0.0431 0.4078 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "delay": 3.125,
+    "direction": {
+      "max": "-1.0 -1.0 -1.0",
+      "min": "1.0 1.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "150.0",
+      "min": "150.0"
+    },
+    "layer": 10,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/ip_doraemon_s2skina_chuchang_ql_01"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "6.0"
+    }
+  }
 }

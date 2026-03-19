@@ -1,1 +1,54 @@
-{"particleeffect": {"enablecolor": {"enable": "false"}, "direction": {"max": "0.0 0.0 0.01", "value": "Direction", "min": "0.0 0.0 0.01"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2021s3/ss_xyj_fpA_huoyan_06", "fps": "13"}, "name": "textures/sfxs/2021s3/ss_xyj_fpA_huoyan_06"}, "numparticles": {"value": "4"}, "independent": false, "relative": {"enable": "false"}, "emissionrate": {"max": "4.0", "min": "4.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "delay": 0.03, "emittertype": {"value": "Sphere"}, "emittersize": {"value": "0.0 0.0 0.0"}, "emitterscale": [], "velocity": {"max": "0.1", "min": "0.1"}, "particlesize": {"max": "0.5 0.5", "min": "0.4 0.4"}}}
+{
+  "particleeffect": {
+    "enablecolor": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.01",
+      "value": "Direction",
+      "min": "0.0 0.0 0.01"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2021s3/ss_xyj_fpA_huoyan_06",
+        "fps": "13"
+      },
+      "name": "textures/sfxs/2021s3/ss_xyj_fpA_huoyan_06"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "independent": false,
+    "relative": {
+      "enable": "false"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.03,
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.4 0.4"
+    }
+  }
+}

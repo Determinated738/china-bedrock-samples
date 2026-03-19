@@ -1,92 +1,88 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 0.9804 0.3686 1.0000",
-                "time": "0.00"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 1.0 0.0",
-            "min": "0.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.5 1.2 0.2"
-        },
-        "emittertype": {
-            "value": "Box"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "20"
-        },
-        "particlesize": {
-            "max": "0.1 0.1",
-            "min": "0.3 0.3"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "0.8 0.8",
-                "time": "20.0%"
-            },
-            {
-                "scale": "0.84 0.84",
-                "time": "40.0%"
-            },
-            {
-                "scale": "0.832 0.832",
-                "time": "60.0%"
-            },
-            {
-                "scale": "0.834 0.834",
-                "time": "80.0%"
-            },
-            {
-                "scale": "0.833 0.833",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "ani": {
-                "fps": "30",
-                "name": "textures/sfxs/2020s2/2020s2_ss_sherigong_sd",
-                "shuffle": true
-            },
-            "name": "textures/sfxs/2020s2/2020s2_ss_sherigong_sd"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "0.3",
-            "min": "0.2"
-        },
-        "velocity": {
-            "max": "0.2",
-            "min": "0.1"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9804 0.3686 1.0000",
+        "time": "0.00"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 1.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.832 0.832",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.834 0.834",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.833 0.833",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "textures/sfxs/2020s2/2020s2_ss_sherigong_sd",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2020s2/2020s2_ss_sherigong_sd"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
     }
+  }
 }

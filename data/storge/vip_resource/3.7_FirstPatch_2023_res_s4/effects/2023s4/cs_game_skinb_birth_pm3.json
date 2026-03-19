@@ -1,1 +1,64 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "dampingforce": {"value": "2.0"}, "delay": 4.5, "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "20.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 3, "particlesize": {"max": "2.0 1.2", "min": "2.0 1.2"}, "pointFiltering": true, "relative": {"enable": "true"}, "rotationRange": {"max": "-90.0 180.0 -40.0", "min": "-90.0 180.0 -40.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}], "texture": {"ani": {"fps": "25", "name": "textures/sfxs/2023s4/cs_game_skinb_daiji_tw", "shuffle": false}, "name": "textures/sfxs/2023s4/cs_game_skinb_daiji_tw"}, "timetolive": {"max": "0.3", "min": "0.3"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "delay": 4.5,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 3,
+    "particlesize": {
+      "max": "2.0 1.2",
+      "min": "2.0 1.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "-90.0 180.0 -40.0",
+      "min": "-90.0 180.0 -40.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "25",
+        "name": "textures/sfxs/2023s4/cs_game_skinb_daiji_tw",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s4/cs_game_skinb_daiji_tw"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

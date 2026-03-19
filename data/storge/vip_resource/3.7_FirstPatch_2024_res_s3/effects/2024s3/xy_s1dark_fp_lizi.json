@@ -1,99 +1,99 @@
 {
-	"particleeffect": {
-		"colorfade": [
-			{
-				"color": "0.6824 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "0.2314 0.9020 0.9098 1.0000",
-				"time": "49.7%"
-			},
-			{
-				"color": "0.1843 0.5686 0.6196 0.5893",
-				"time": "78.2%"
-			},
-			{
-				"color": "0.0471 0.2078 0.4157 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "12.0",
-			"min": "15.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.5 0.0 0.4"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 2,
-		"particlesize": {
-			"max": "0.1 0.1",
-			"min": "0.05 0.05"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.0 0.0",
-				"time": "0.0%"
-			},
-			{
-				"scale": "0.54 0.54",
-				"time": "28.3%"
-			},
-			{
-				"scale": "0.52 0.52",
-				"time": "42.3%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "44.7%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "50.0%"
-			},
-			{
-				"scale": "0.56 0.56",
-				"time": "53.3%"
-			},
-			{
-				"scale": "0.56 0.56",
-				"time": "65.0%"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s3/xy_s1dark_fp_lizi"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.5",
-			"min": "0.3"
-		}
-	}
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.6824 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.2314 0.9020 0.9098 1.0000",
+        "time": "49.7%"
+      },
+      {
+        "color": "0.1843 0.5686 0.6196 0.5893",
+        "time": "78.2%"
+      },
+      {
+        "color": "0.0471 0.2078 0.4157 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "12.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.0 0.4"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "28.3%"
+      },
+      {
+        "scale": "0.52 0.52",
+        "time": "42.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "44.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.56 0.56",
+        "time": "53.3%"
+      },
+      {
+        "scale": "0.56 0.56",
+        "time": "65.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s3/xy_s1dark_fp_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
 }

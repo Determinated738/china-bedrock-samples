@@ -1,1 +1,75 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 0.0000 0.2500", "time": "3.9%"}, {"color": "1.0000 1.0000 0.0000 0.3750", "time": "20.3%"}, {"color": "1.0000 1.0000 0.0000 0.3125", "time": "42.6%"}, {"color": "1.0000 1.0000 0.0000 0.0982", "time": "68.9%"}, {"color": "1.0000 0.6353 0.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.01", "min": "0.0 0.0 0.01", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "20.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction"}, "layer": 9, "numparticles": {"value": "5"}, "particlesize": {"max": "0.09 0.18", "min": "0.07 0.14"}, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2022s4/ss_xcm_skinb_gy", "shuffle": true}, "name": "textures/sfxs/2022s4/ss_xcm_skinb_gy"}, "timetolive": {"max": "0.3", "min": "0.2"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.2500",
+        "time": "3.9%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.3750",
+        "time": "20.3%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.3125",
+        "time": "42.6%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.0982",
+        "time": "68.9%"
+      },
+      {
+        "color": "1.0000 0.6353 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.01",
+      "min": "0.0 0.0 0.01",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 9,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.09 0.18",
+      "min": "0.07 0.14"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2022s4/ss_xcm_skinb_gy",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2022s4/ss_xcm_skinb_gy"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

@@ -1,55 +1,55 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.0000 0.0157 0.4554",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.0000 0.6824 0.6161",
-				"time": "48.4%"
-			},
-			{
-				"color": "1.0000 0.0000 0.0157 0.3661",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "1.0 1.0 1.0",
-			"min": "-1.0 -1.0 -1.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "3000.0",
-			"min": "3000.0"
-		},
-		"layer": 3,
-		"numparticles": {
-			"value": "1"
-		},
-		"offsetInCamera": {
-			"value": "-0.15"
-		},
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.2 0.2"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2025s7/custom_sun"
-		},
-		"timetolive": {
-			"max": "2.0",
-			"min": "2.0"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0157 0.4554",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.0000 0.6824 0.6161",
+        "time": "48.4%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0157 0.3661",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.15"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2025s7/custom_sun"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

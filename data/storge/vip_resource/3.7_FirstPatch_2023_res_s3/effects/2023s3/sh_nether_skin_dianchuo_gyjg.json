@@ -1,1 +1,79 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 0.8392 0.1843 0.0893", "time": "0.0%"}, {"color": "1.0000 1.0000 0.0000 0.2321", "time": "40.0%"}, {"color": "1.0000 0.4157 0.0000 0.0893", "time": "79.2%"}, {"color": "1.0000 0.0235 0.0235 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 1.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "15.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 0.2 0.05"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "numparticles": {"value": "15"}, "particlesize": {"max": "0.27 0.27", "min": "0.15 0.15"}, "pointFiltering": true, "relative": {"enable": "false"}, "rotationRange": {"max": "90.0 90.0 0.0", "min": "90.0 90.0 0.0"}, "texture": {"ani": {"fps": "16", "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_wu", "shuffle": false}, "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_wu"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.6"}, "velocity": {"max": "0.3", "min": "0.2"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8392 0.1843 0.0893",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.2321",
+        "time": "40.0%"
+      },
+      {
+        "color": "1.0000 0.4157 0.0000 0.0893",
+        "time": "79.2%"
+      },
+      {
+        "color": "1.0000 0.0235 0.0235 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.2 0.05"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.27 0.27",
+      "min": "0.15 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "90.0 90.0 0.0",
+      "min": "90.0 90.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_wu",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s3/sh_nether_skin_dianchuo_wu"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

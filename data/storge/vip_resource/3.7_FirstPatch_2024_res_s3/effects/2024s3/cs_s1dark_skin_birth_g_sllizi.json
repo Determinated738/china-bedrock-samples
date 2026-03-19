@@ -1,75 +1,75 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.5"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "79.5%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"dampingforce": {
-			"value": "1.0"
-		},
-		"delay": 9.9,
-		"direction": {
-			"max": "-1.0 -1.0 -1.0",
-			"min": "1.0 1.0 1.0",
-			"value": "Outwards"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.1 0.1 0.0"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"layer": 4,
-		"numparticles": {
-			"value": "3"
-		},
-		"particlesize": {
-			"max": "0.4 0.6",
-			"min": "0.5 0.7"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"rotationRange": {
-			"max": "0.0 0.0 180.0",
-			"min": "0.0 0.0 180.0"
-		},
-		"texture": {
-			"ani": {
-				"fps": "40",
-				"name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_suolian",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_suolian"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.7",
-			"min": "0.5"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "79.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 9.9,
+    "direction": {
+      "max": "-1.0 -1.0 -1.0",
+      "min": "1.0 1.0 1.0",
+      "value": "Outwards"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.4 0.6",
+      "min": "0.5 0.7"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "40",
+        "name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_suolian",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1dark_skin_birth_suolian"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.5"
+    }
+  }
 }

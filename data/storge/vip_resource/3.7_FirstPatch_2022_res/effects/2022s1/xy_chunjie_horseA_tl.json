@@ -1,1 +1,127 @@
-{"frameeffect": {"cylinder_radius_down": 0.54, "scale": [1.0, 1.0, 1.0], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], "cylinder_height": 2.9, "cylinder_frac_num": 4, "layer": 1, "cylinder_radius_up": 0.54, "delay": 0.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "texture": "textures/sfxs/2022s1/xy_chunjie_horseA_tl", "fps": 15, "first_person_enable": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": true, "loop": true, "blend_mode": 1}}
+{
+  "frameeffect": {
+    "cylinder_radius_down": 0.54,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "cylinder_height": 2.9,
+    "cylinder_frac_num": 4,
+    "layer": 1,
+    "cylinder_radius_up": 0.54,
+    "delay": 0,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/2022s1/xy_chunjie_horseA_tl",
+    "fps": 15,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": true,
+    "loop": true,
+    "blend_mode": 1
+  }
+}

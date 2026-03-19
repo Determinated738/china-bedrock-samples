@@ -1,1 +1,88 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 -1.0 0.01","value":"Direction","min":"0.0 -0.5 0.01"},"numparticles":{"value":"5"},"colorfade":[{"color":"1.0000 0.4510 0.2706 1.0000","time":"0.00"},{"color":"1.0000 1.0000 0.0000 1.0000","time":"0.08"},{"color":"1.0000 0.4118 0.4118 1.0000","time":"0.17"},{"color":"0.4353 1.0000 0.4000 1.0000","time":"0.27"},{"color":"1.0000 0.7098 0.3804 1.0000","time":"0.39"},{"color":"1.0000 0.1137 0.1137 1.0000","time":"0.50"},{"color":"1.0000 1.0000 0.2400 0.0000","time":"1.00"}],"emissionrate":{"max":"5.0","min":"4.0"},"emitterScaleCurve":[],"emittersize":{"value":"2.0 0.0 2.0"},"texture":{"name":"textures/particle/2022s1/xy_astral_fzB_fangkuai"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"depthtest":{"enable":"true"},"emitterscale":[],"velocity":{"max":"0.8","min":"0.5"},"blend":{"name":"add"},"particlesize":{"max":"0.04 0.04","min":"0.02 0.02"},"sizedelta":[{"scale":"1.05 1.05","time":"0.00"},{"scale":"0.5 0.5","time":"2.00"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 -1.0 0.01",
+      "value": "Direction",
+      "min": "0.0 -0.5 0.01"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.4510 0.2706 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "0.08"
+      },
+      {
+        "color": "1.0000 0.4118 0.4118 1.0000",
+        "time": "0.17"
+      },
+      {
+        "color": "0.4353 1.0000 0.4000 1.0000",
+        "time": "0.27"
+      },
+      {
+        "color": "1.0000 0.7098 0.3804 1.0000",
+        "time": "0.39"
+      },
+      {
+        "color": "1.0000 0.1137 0.1137 1.0000",
+        "time": "0.50"
+      },
+      {
+        "color": "1.0000 1.0000 0.2400 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emittersize": {
+      "value": "2.0 0.0 2.0"
+    },
+    "texture": {
+      "name": "textures/particle/2022s1/xy_astral_fzB_fangkuai"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.02 0.02"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.05 1.05",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "2.00"
+      }
+    ]
+  }
+}

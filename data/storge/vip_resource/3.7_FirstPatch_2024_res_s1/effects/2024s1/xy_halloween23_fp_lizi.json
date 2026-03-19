@@ -1,1 +1,69 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.8275 0.9922 1.0000 1.0000", "time": "0.00"}, {"color": "0.8275 0.9922 1.0000 1.0000", "time": "0.25"}, {"color": "0.8275 0.9922 1.0000 0.6696", "time": "0.41"}, {"color": "0.8275 0.9922 1.0000 0.2411", "time": "0.47"}, {"color": "0.8275 0.9922 1.0000 0.0000", "time": "2.00"}], "direction": {"max": "0.0 0.0 -1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.5 0.7 0.10000000000000003"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "numparticles": {"value": "1"}, "particlesize": {"max": "0.05 0.05", "min": "0.05 0.05"}, "relative": {"enable": "true"}, "texture": {"name": "textures/sfxs/2024s1/cs_atlan_weapon_lz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "2.0", "min": "0.7"}, "velocity": {"max": "0.5", "min": "0.3"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.8275 0.9922 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.8275 0.9922 1.0000 1.0000",
+        "time": "0.25"
+      },
+      {
+        "color": "0.8275 0.9922 1.0000 0.6696",
+        "time": "0.41"
+      },
+      {
+        "color": "0.8275 0.9922 1.0000 0.2411",
+        "time": "0.47"
+      },
+      {
+        "color": "0.8275 0.9922 1.0000 0.0000",
+        "time": "2.00"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.7 0.10000000000000003"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s1/cs_atlan_weapon_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
+}

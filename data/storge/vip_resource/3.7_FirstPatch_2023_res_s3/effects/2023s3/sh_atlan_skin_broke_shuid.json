@@ -1,1 +1,103 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.1451 0.9176 1.0000 1.0000", "time": "0.0%"}, {"color": "0.9843 1.0000 0.6118 1.0000", "time": "20.8%"}, {"color": "0.1843 1.0000 0.8392 1.0000", "time": "35.3%"}, {"color": "0.0000 0.7686 1.0000 1.0000", "time": "57.0%"}, {"color": "0.4353 1.0000 0.9176 1.0000", "time": "78.7%"}, {"color": "0.8275 1.0000 0.9686 1.0000", "time": "100.0%"}], "dampingforce": {"value": "6.0"}, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Outwards"}, "emissionrate": {"max": "70.0", "min": "70.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.01 0.01 0.01"}, "emittertype": {"value": "Sphere"}, "layer": 2, "numparticles": {"value": "6"}, "particlesize": {"max": "0.1 0.1", "min": "0.05 0.05"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.0%"}, {"scale": "1.0 1.0", "time": "18.3%"}, {"scale": "0.0 0.0", "time": "47.7%"}, {"scale": "0.95 0.95", "time": "71.7%"}, {"scale": "0.0 0.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2023s3/sh_atlan_skin_broke_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.5"}, "velocity": {"max": "4.0", "min": "7.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.1451 0.9176 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9843 1.0000 0.6118 1.0000",
+        "time": "20.8%"
+      },
+      {
+        "color": "0.1843 1.0000 0.8392 1.0000",
+        "time": "35.3%"
+      },
+      {
+        "color": "0.0000 0.7686 1.0000 1.0000",
+        "time": "57.0%"
+      },
+      {
+        "color": "0.4353 1.0000 0.9176 1.0000",
+        "time": "78.7%"
+      },
+      {
+        "color": "0.8275 1.0000 0.9686 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "6.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "70.0",
+      "min": "70.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.01 0.01 0.01"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "18.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "47.7%"
+      },
+      {
+        "scale": "0.95 0.95",
+        "time": "71.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/sh_atlan_skin_broke_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "4.0",
+      "min": "7.0"
+    }
+  }
+}

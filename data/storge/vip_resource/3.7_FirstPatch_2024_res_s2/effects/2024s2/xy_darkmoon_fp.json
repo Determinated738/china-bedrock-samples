@@ -1,1 +1,72 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.9911", "time": "22.4%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "65.0%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "92.1%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "0.0 0.01 0.0", "min": "0.0 0.01 0.0", "value": "Direction"}, "emissionrate": {"max": "2.0", "min": "5.0"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 8, "numparticles": {"value": "6"}, "particlesize": {"max": "0.4 0.7", "min": "0.4 0.7"}, "pointFiltering": true, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 180.0 180.0", "min": "0.0 180.0 180.0"}, "texture": {"ani": {"fps": "8", "name": "textures/sfxs/2024s2/xy_darkmoon_fp_yl", "shuffle": false}, "name": "textures/sfxs/2024s2/xy_darkmoon_fp_yl"}, "velocity": {"max": "-0.1", "min": "-0.1"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9911",
+        "time": "22.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "65.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "92.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "0.0 0.01 0.0",
+      "min": "0.0 0.01 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "5.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.4 0.7",
+      "min": "0.4 0.7"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 180.0 180.0",
+      "min": "0.0 180.0 180.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2024s2/xy_darkmoon_fp_yl",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s2/xy_darkmoon_fp_yl"
+    },
+    "velocity": {
+      "max": "-0.1",
+      "min": "-0.1"
+    }
+  }
+}

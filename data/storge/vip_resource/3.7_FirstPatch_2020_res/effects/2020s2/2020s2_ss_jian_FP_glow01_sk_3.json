@@ -1,1 +1,77 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 0.0 0.0"},"texture":{"ani":{"shuffle":false,"name":"textures/particle/2020s2/2020s2_cs_gong_touglow","fps":"5"},"name":"textures/particle/2020s2/2020s2_cs_gong_touglow"},"numparticles":{"value":"30"},"colorfade":[{"color":"0.0000 0.1490 1.0000 0.0000","time":"0.00"},{"color":"0.0667 0.0000 1.0000 0.1961","time":"1.00"},{"color":"0.0824 0.0000 1.0000 0.0000","time":"2.00"}],"emissionrate":{"max":"30.0","min":"30.0"},"emitterScaleCurve":[],"depthtest":{"enable":"true"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Sphere"},"timetolive":{"max":"2.0","min":"2.0"},"emittersize":{"value":"0.0 0.8 0.0"},"emitterscale":[],"velocity":{"max":"0.0","min":"0.0"},"blend":{"name":"add"},"particlesize":{"max":"0.25 0.25","min":"0.1 0.1"},"sizedelta":[{"scale":"1.0 1.0","time":"0.0%"}]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/particle/2020s2/2020s2_cs_gong_touglow",
+        "fps": "5"
+      },
+      "name": "textures/particle/2020s2/2020s2_cs_gong_touglow"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.1490 1.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.0667 0.0000 1.0000 0.1961",
+        "time": "1.00"
+      },
+      {
+        "color": "0.0824 0.0000 1.0000 0.0000",
+        "time": "2.00"
+      }
+    ],
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "emittersize": {
+      "value": "0.0 0.8 0.0"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.1 0.1"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      }
+    ]
+  }
+}

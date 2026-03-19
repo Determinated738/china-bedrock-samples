@@ -1,1 +1,142 @@
-{"frameeffect": {"blend_mode": 2, "cylinder_enable": true, "cylinder_frac_num": 32, "cylinder_height": 1.0, "cylinder_radius_down": 0.94, "cylinder_radius_up": 0.94, "delay": 0.0, "delay_in_loop": false, "depth_test": true, "face_camera": false, "fade_distance": 0.0, "first_person_enable": false, "fps": 12, "frame_color": [[1.0, 1.0, 1.0, 0.84], [1.0, 1.0, 1.0, 0.84], [1.0, 1.0, 1.0, 0.8466666666666667], [1.0, 1.0, 1.0, 0.8466666666666667], [1.0, 1.0, 1.0, 0.8333333333333334], [1.0, 1.0, 1.0, 0.8466666666666667], [1.0, 1.0, 1.0, 0.8266666666666667], [1.0, 1.0, 1.0, 0.8200000000000001], [1.0, 1.0, 1.0, 0.8133333333333334], [1.0, 1.0, 1.0, 0.8200000000000001], [1.0, 1.0, 1.0, 0.8266666666666667], [1.0, 1.0, 1.0, 0.84], [1.0, 1.0, 1.0, 0.8333333333333334], [1.0, 1.0, 1.0, 0.8333333333333334], [1.0, 1.0, 1.0, 0.8333333333333334], [1.0, 1.0, 1.0, 0.8266666666666667], [1.0, 1.0, 1.0, 0.84]], "layer": 7, "lerp_scale": true, "loop": true, "point_filtering": true, "rot_speed": [0.0, 0.0, 0.0], "scale": [0.8, 0.4, 0.8], "shuffle": false, "sub_layer": 0, "tex_repeat_num": [2, 1], "texture": "textures/sfxs/2024s3/ip_doraemon_s1skind_alpha_1"}}
+{
+  "frameeffect": {
+    "blend_mode": 2,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 32,
+    "cylinder_height": 1,
+    "cylinder_radius_down": 0.94,
+    "cylinder_radius_up": 0.94,
+    "delay": 0,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 12,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        0.84
+      ],
+      [
+        1,
+        1,
+        1,
+        0.84
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8333333333333334
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8266666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8200000000000001
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8133333333333334
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8200000000000001
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8266666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.84
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8333333333333334
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8333333333333334
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8333333333333334
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8266666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.84
+      ]
+    ],
+    "layer": 7,
+    "lerp_scale": true,
+    "loop": true,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.8,
+      0.4,
+      0.8
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      2,
+      1
+    ],
+    "texture": "textures/sfxs/2024s3/ip_doraemon_s1skind_alpha_1"
+  }
+}

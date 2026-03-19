@@ -1,87 +1,87 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.0000 0.0000 0.7768",
-				"time": "55.3%"
-			},
-			{
-				"color": "1.0000 0.0000 0.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "1.0 0.0 0.0",
-			"min": "1.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "15.0",
-			"min": "15.0"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "3.0 1.0 2.0"
-		},
-		"emittertype": {
-			"value": "Box"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Direction"
-		},
-		"numparticles": {
-			"value": "15"
-		},
-		"particlesize": {
-			"max": "0.1 1.0",
-			"min": "0.1 0.6"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.1 0.1",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.17 1.17",
-				"time": "47.7%"
-			},
-			{
-				"scale": "2.0 2.0",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2025s7/Tex_mblz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.6",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "1.2",
-			"min": "1.2"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.7768",
+        "time": "55.3%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 0.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "3.0 1.0 2.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.1 1.0",
+      "min": "0.1 0.6"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.1 0.1",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.17 1.17",
+        "time": "47.7%"
+      },
+      {
+        "scale": "2.0 2.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/Tex_mblz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "1.2",
+      "min": "1.2"
+    }
+  }
 }

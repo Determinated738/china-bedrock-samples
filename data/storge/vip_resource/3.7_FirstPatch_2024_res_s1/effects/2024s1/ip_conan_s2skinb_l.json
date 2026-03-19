@@ -1,1 +1,94 @@
-{"particleeffect": {"blend": {"name": "add"}, "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "20.0", "min": "10.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.0 0.2 0.2"}, "emittertype": {"value": "Box"}, "layer": 8, "numparticles": {"value": "20"}, "particlesize": {"max": "0.1 0.1", "min": "0.05 0.05"}, "relative": {"enable": "true"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "1.55 1.55", "time": "26.7%"}, {"scale": "1.0 1.0", "time": "55.0%"}, {"scale": "1.85 1.85", "time": "78.3%"}, {"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/ip_conan_s2skinb_lizi_1"}, "thickness": {"value": "0.0"}, "trail": {"colorfade": [{"color": "1.0 0.2784313725490196 0.2901960784313726 1.0", "time": "0.000%"}, {"color": "0.596078431372549 0.3411764705882353 0.34509803921568627 0.6339285714285714", "time": "100.000%"}], "facemode": 0, "lifetime": 0.3, "maxnum": 100, "mindistance": 0.01, "texmode": 0, "textile": "1.0 1.0", "useparticlecolor": false, "useparticlewidth": true, "widthfade": [{"time": "50.33333333333333%", "value": "1.0"}, {"time": "100.0%", "value": "0.0"}], "worldspace": true}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.55 1.55",
+        "time": "26.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "55.0%"
+      },
+      {
+        "scale": "1.85 1.85",
+        "time": "78.3%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/ip_conan_s2skinb_lizi_1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 0.2784313725490196 0.2901960784313726 1.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "0.596078431372549 0.3411764705882353 0.34509803921568627 0.6339285714285714",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.3,
+      "maxnum": 100,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "1.0 1.0",
+      "useparticlecolor": false,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "50.33333333333333%",
+          "value": "1.0"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.0"
+        }
+      ],
+      "worldspace": true
+    }
+  }
+}

@@ -1,1 +1,78 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 1.0000 1.0000 0.6696", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 0.4286", "time": "78.4%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 1.0", "min": "0.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "4.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.2 0.05 0.2"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "layer": 4, "numparticles": {"value": "7"}, "particlesize": {"max": "0.35 0.35", "min": "0.4 0.4"}, "relative": {"enable": "false"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.00"}, {"scale": "1.2 1.2", "time": "2.00"}], "texture": {"ani": {"fps": "8", "name": "textures/sfxs/2023s1/ss_myth_fp_01_shan", "shuffle": false}, "name": "textures/sfxs/2023s1/ss_myth_fp_01_shan"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "1.0"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.6696",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4286",
+        "time": "78.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.05 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2023s1/ss_myth_fp_01_shan",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2023s1/ss_myth_fp_01_shan"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

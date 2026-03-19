@@ -1,184 +1,184 @@
 {
-	"frames": [
-		{
-			"filename": "1_00000.png",
-			"frame": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00001.png",
-			"frame": {
-				"x": 512,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00002.png",
-			"frame": {
-				"x": 0,
-				"y": 256,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00003.png",
-			"frame": {
-				"x": 512,
-				"y": 256,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00004.png",
-			"frame": {
-				"x": 0,
-				"y": 512,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00005.png",
-			"frame": {
-				"x": 512,
-				"y": 512,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00006.png",
-			"frame": {
-				"x": 0,
-				"y": 768,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		},
-		{
-			"filename": "1_00007.png",
-			"frame": {
-				"x": 512,
-				"y": 768,
-				"w": 512,
-				"h": 256
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 512,
-				"h": 256
-			},
-			"sourceSize": {
-				"w": 512,
-				"h": 256
-			}
-		}
-	],
-	"meta": {
-		"app": "http://www.texturepacker.com",
-		"version": "1.0",
-		"image": "sh_s7YangJian_skin_birth_xbg1.png",
-		"format": "RGBA8888",
-		"size": {
-			"w": 1024,
-			"h": 1024
-		},
-		"scale": "1",
-		"smartupdate": "$TexturePacker:SmartUpdate:a31eb785c4c4208d24216caf923a6df4$"
-	}
+  "frames": [
+    {
+      "filename": "1_00000.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00001.png",
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00002.png",
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00003.png",
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00004.png",
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00005.png",
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00006.png",
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    },
+    {
+      "filename": "1_00007.png",
+      "frame": {
+        "x": 512,
+        "y": 768,
+        "w": 512,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 256
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "version": "1.0",
+    "image": "sh_s7YangJian_skin_birth_xbg1.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:a31eb785c4c4208d24216caf923a6df4$"
+  }
 }

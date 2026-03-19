@@ -1,81 +1,77 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "0.4706 0.7451 1.0000 0.7843",
-                "time": "0.00"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 -1.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "8.0",
-            "min": "4.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.4 0.4 0.8"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "independent": false,
-        "particlesize": {
-            "max": "0.04 0.04",
-            "min": "0.03 0.03"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "0.9 0.9",
-                "time": "20.0%"
-            },
-            {
-                "scale": "0.91 0.91",
-                "time": "40.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "60.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "80.0%"
-            },
-            {
-                "scale": "0.909 0.909",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "name": "textures/particle/2020s1/2020s1_ss_shishijian_A_lz"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "velocity": {
-            "max": "1.0",
-            "min": "0.25"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.4706 0.7451 1.0000 0.7843",
+        "time": "0.00"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "8.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.4 0.4 0.8"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "independent": false,
+    "particlesize": {
+      "max": "0.04 0.04",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.91 0.91",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.909 0.909",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/2020s1/2020s1_ss_shishijian_A_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.25"
     }
+  }
 }

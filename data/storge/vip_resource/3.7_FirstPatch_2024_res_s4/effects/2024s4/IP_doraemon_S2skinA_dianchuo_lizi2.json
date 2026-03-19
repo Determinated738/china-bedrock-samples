@@ -1,91 +1,91 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.5"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.0000",
-				"time": "0.00"
-			},
-			{
-				"color": "1.0000 1.0000 0.0000 0.9732",
-				"time": "0.18"
-			},
-			{
-				"color": "1.0000 0.5333 0.0000 0.2411",
-				"time": "0.35"
-			},
-			{
-				"color": "0.9020 1.0000 0.0000 0.9821",
-				"time": "0.57"
-			},
-			{
-				"color": "1.0000 0.2510 0.0000 0.0000",
-				"time": "0.80"
-			}
-		],
-		"delay": 1.644,
-		"direction": {
-			"max": "0.0 0.5 0.0",
-			"min": "0.0 1.0 0.0",
-			"value": "Direction"
-		},
-		"emitterScaleCurve": [],
-		"emitterscale": [],
-		"emittersize": {
-			"value": "0.8 0.8 0.4"
-		},
-		"emittertype": {
-			"value": "Sphere"
-		},
-		"layer": 15,
-		"particlesize": {
-			"max": "0.2 0.2",
-			"min": "0.14 0.14"
-		},
-		"relative": {
-			"enable": "false"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.87 0.87",
-				"time": "0.00"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "0.72"
-			},
-			{
-				"scale": "0.6 0.6",
-				"time": "1.27"
-			},
-			{
-				"scale": "0.0 0.0",
-				"time": "2.00"
-			}
-		],
-		"texture": {
-			"ani": {
-				"fps": "16",
-				"name": "",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_dianchuo_lz"
-		},
-		"thickness": {
-			"value": "0.0"
-		},
-		"timetolive": {
-			"max": "0.8",
-			"min": "0.5"
-		},
-		"velocity": {
-			"max": "0.2",
-			"min": "0.1"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.9732",
+        "time": "0.18"
+      },
+      {
+        "color": "1.0000 0.5333 0.0000 0.2411",
+        "time": "0.35"
+      },
+      {
+        "color": "0.9020 1.0000 0.0000 0.9821",
+        "time": "0.57"
+      },
+      {
+        "color": "1.0000 0.2510 0.0000 0.0000",
+        "time": "0.80"
+      }
+    ],
+    "delay": 1.644,
+    "direction": {
+      "max": "0.0 0.5 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.8 0.4"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "layer": 15,
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.14 0.14"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.87 0.87",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "0.72"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "1.27"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s4/IP_doraemon_S2skinA_dianchuo_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
 }

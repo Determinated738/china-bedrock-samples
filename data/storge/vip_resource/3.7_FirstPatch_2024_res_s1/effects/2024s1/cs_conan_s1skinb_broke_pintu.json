@@ -1,1 +1,70 @@
-{"particleeffect": {"activetime": {"value": "0.1"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.0%"}, {"color": "1.0000 1.0000 1.0000 1.0000", "time": "50.0%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "1.0 1.0 0.0", "min": "-1.0 -1.0 1.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.5 0.5 0.5"}, "emittertype": {"value": "Sphere"}, "enabletexture": {"enable": true}, "numparticles": {"value": "2"}, "particlesize": {"max": "0.35 0.35", "min": "0.45 0.45"}, "pointFiltering": true, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "1", "name": "", "shuffle": true}, "name": "textures/sfxs/2024s1/cs_conan_s1skinb_broke_pt"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.38", "min": "0.3"}, "velocity": {"max": "12.0", "min": "10.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 0.0",
+      "min": "-1.0 -1.0 1.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.5 0.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.45 0.45"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "1",
+        "name": "",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2024s1/cs_conan_s1skinb_broke_pt"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.38",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "12.0",
+      "min": "10.0"
+    }
+  }
+}

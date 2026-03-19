@@ -1,1 +1,87 @@
-{"particleeffect": {"activetime": {"value": "0.2"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.2902 1.0000 0.5137 1.0000", "time": "0.00"}, {"color": "0.1255 0.9882 1.0000 0.8125", "time": "0.24"}, {"color": "0.0000 0.4510 1.0000 0.4464", "time": "0.40"}], "dampingforce": {"value": "4.0"}, "delay": 0.1, "direction": {"max": "1.0 1.0 1.0", "min": "-1.0 -1.0 -1.0", "value": "Inwards"}, "emissionrate": {"max": "100.0", "min": "100.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.01 0.01 0.01"}, "emittertype": {"value": "Sphere"}, "faceCameraMode": {"value": "Direction"}, "layer": 0, "numparticles": {"value": "3"}, "particlesize": {"max": "0.2 0.2", "min": "0.1 0.1"}, "relative": {"enable": "true"}, "rotationRange": {"max": "0.0 0.0 45.0", "min": "0.0 0.0 45.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "0.0%"}, {"scale": "0.72 0.72", "time": "99.5%"}], "texture": {"name": "textures/sfxs/2023s3/ss_elem_weapon_j_hit_ctlz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.4"}, "velocity": {"max": "-3.0", "min": "-5.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.2902 1.0000 0.5137 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1255 0.9882 1.0000 0.8125",
+        "time": "0.24"
+      },
+      {
+        "color": "0.0000 0.4510 1.0000 0.4464",
+        "time": "0.40"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "delay": 0.1,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Inwards"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.01 0.01 0.01"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 45.0",
+      "min": "0.0 0.0 45.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "99.5%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2023s3/ss_elem_weapon_j_hit_ctlz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "-3.0",
+      "min": "-5.0"
+    }
+  }
+}

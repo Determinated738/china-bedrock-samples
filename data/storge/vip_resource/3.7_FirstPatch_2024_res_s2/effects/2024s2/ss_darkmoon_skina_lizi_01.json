@@ -1,1 +1,106 @@
-{"particleeffect": {"activetime": {"value": "0.5"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.5451 0.6078 1.0000 0.0000", "time": "0.00"}, {"color": "0.9882 0.6078 1.0000 1.0000", "time": "0.28"}, {"color": "0.4275 0.2863 1.0000 0.2411", "time": "0.58"}, {"color": "1.0000 0.5843 0.9961 1.0000", "time": "0.87"}, {"color": "0.2039 0.1490 1.0000 0.0000", "time": "1.20"}], "delay": 1.5, "direction": {"max": "0.0 -1.0 0.0", "min": "0.0 -1.0 0.0", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "1.0 1.0 1.0"}, "emittertype": {"value": "Cylinder"}, "inactivetime": {"value": "2.5"}, "layer": 15, "numparticles": {"value": "8"}, "particlesize": {"max": "0.08 0.08", "min": "0.04 0.04"}, "pointFiltering": true, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.0 0.0", "time": "0.00"}, {"scale": "0.86 0.86", "time": "0.51"}, {"scale": "0.28 0.28", "time": "0.97"}, {"scale": "0.7 0.7", "time": "1.50"}, {"scale": "0.0 0.0", "time": "2.00"}, {"scale": "0.0 0.0", "time": "2.00"}], "texture": {"ani": {"fps": "16", "name": "", "shuffle": false}, "name": "textures/sfxs/2024s2/ss_darkmoon_skina_lizi_01"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "1.0", "min": "1.2"}, "velocity": {"max": "0.2", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.5451 0.6078 1.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.9882 0.6078 1.0000 1.0000",
+        "time": "0.28"
+      },
+      {
+        "color": "0.4275 0.2863 1.0000 0.2411",
+        "time": "0.58"
+      },
+      {
+        "color": "1.0000 0.5843 0.9961 1.0000",
+        "time": "0.87"
+      },
+      {
+        "color": "0.2039 0.1490 1.0000 0.0000",
+        "time": "1.20"
+      }
+    ],
+    "delay": 1.5,
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 1.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "inactivetime": {
+      "value": "2.5"
+    },
+    "layer": 15,
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.04 0.04"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.86 0.86",
+        "time": "0.51"
+      },
+      {
+        "scale": "0.28 0.28",
+        "time": "0.97"
+      },
+      {
+        "scale": "0.7 0.7",
+        "time": "1.50"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "2.00"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s2/ss_darkmoon_skina_lizi_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "1.2"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

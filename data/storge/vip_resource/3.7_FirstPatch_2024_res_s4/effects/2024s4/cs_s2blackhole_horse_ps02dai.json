@@ -1,142 +1,142 @@
 {
-	"frameeffect": {
-		"blend_mode": 1,
-		"cylinder_enable": true,
-		"cylinder_frac_num": 4,
-		"cylinder_height": 5.2,
-		"cylinder_radius_down": 0.8,
-		"cylinder_radius_up": 1.45,
-		"delay": 2.2,
-		"delay_in_loop": true,
-		"depth_test": true,
-		"face_camera": false,
-		"fade_distance": 0.0,
-		"first_person_enable": false,
-		"fps": 16,
-		"frame_color": [
-			[
-				1.0,
-				1.0,
-				1.0,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				1
-			],
-			[
-				1,
-				1,
-				1,
-				0.9866666666666667
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1,
-				1,
-				1,
-				1.0
-			],
-			[
-				1.0,
-				1.0,
-				1.0,
-				1
-			]
-		],
-		"layer": 2,
-		"lerp_scale": true,
-		"loop": true,
-		"point_filtering": false,
-		"rot_speed": [
-			0,
-			0,
-			0
-		],
-		"scale": [
-			0.1,
-			0.1,
-			0.1
-		],
-		"shuffle": false,
-		"sub_layer": 0,
-		"tex_repeat_num": [
-			4,
-			1
-		],
-		"texture": "textures/sfxs/2024s4/cs_s2blackhole_horse_tw_lgw2"
-	}
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 4,
+    "cylinder_height": 5.2,
+    "cylinder_radius_down": 0.8,
+    "cylinder_radius_up": 1.45,
+    "delay": 2.2,
+    "delay_in_loop": true,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 16,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.9866666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "layer": 2,
+    "lerp_scale": true,
+    "loop": true,
+    "point_filtering": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      4,
+      1
+    ],
+    "texture": "textures/sfxs/2024s4/cs_s2blackhole_horse_tw_lgw2"
+  }
 }

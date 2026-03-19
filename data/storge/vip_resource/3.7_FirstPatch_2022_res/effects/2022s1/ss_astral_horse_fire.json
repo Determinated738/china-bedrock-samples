@@ -1,1 +1,69 @@
-{"frameeffect": {"layer": 1, "scale": [0.6, 0.6, 1.0], "shuffle": false, "depth_test": true, "frame_color": [[1, 1, 1, 0.5466666666666666], [1, 1, 1, 0.5466666666666666], [1, 1, 1, 0.5266666666666666], [1, 1, 1, 0.5466666666666666], [1, 1, 1, 0.5466666666666666], [1, 1, 1, 0.5466666666666666]], "texture": "textures/sfxs/2022s1/ss_astral_horse_1", "delay": 0.0, "fade_distance": 0.0, "lerp_scale": true, "tex_repeat_num": [1, 1], "fps": 15, "first_person_enable": false, "face_camera": false, "rot_speed": [0, 0, 0], "cylinder_enable": false, "loop": true, "blend_mode": 2}}
+{
+  "frameeffect": {
+    "layer": 1,
+    "scale": [
+      0.6,
+      0.6,
+      1
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        0.5466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5266666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5466666666666666
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5466666666666666
+      ]
+    ],
+    "texture": "textures/sfxs/2022s1/ss_astral_horse_1",
+    "delay": 0,
+    "fade_distance": 0,
+    "lerp_scale": true,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 15,
+    "first_person_enable": false,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true,
+    "blend_mode": 2
+  }
+}

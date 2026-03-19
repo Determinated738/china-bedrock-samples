@@ -1,1 +1,63 @@
-{"particleeffect": {"activetime": {"value": "0.3"}, "blend": {"name": "add"}, "colorfade": [{"color": "0.0000 0.8353 1.0000 0.0179", "time": "0.0%"}, {"color": "0.0549 0.5098 1.0000 1.0000", "time": "28.9%"}, {"color": "0.0000 0.1804 1.0000 1.0000", "time": "63.4%"}, {"color": "0.4549 0.2000 1.0000 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 1.0 0.0", "min": "0.0 1.0 0.0", "value": "Direction"}, "faceCameraMode": {"value": "Direction"}, "layer": 3, "numparticles": {"value": "1"}, "particlesize": {"max": "0.1 0.2", "min": "0.1 0.2"}, "relative": {"enable": "true"}, "texture": {"ani": {"fps": "48", "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd", "shuffle": false}, "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd"}, "timetolive": {"max": "0.2", "min": "0.2"}, "velocity": {"max": "8.0", "min": "8.0"}}}
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.8353 1.0000 0.0179",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0549 0.5098 1.0000 1.0000",
+        "time": "28.9%"
+      },
+      {
+        "color": "0.0000 0.1804 1.0000 1.0000",
+        "time": "63.4%"
+      },
+      {
+        "color": "0.4549 0.2000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.0",
+      "value": "Direction"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.1 0.2",
+      "min": "0.1 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "48",
+        "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/cs_loong_weaponb_sd"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "8.0"
+    }
+  }
+}

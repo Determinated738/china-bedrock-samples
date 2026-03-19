@@ -1,1 +1,73 @@
-{"particleeffect": {"colorfade": [{"color": "1.0000 0.9765 0.5961 0.9286", "time": "0.0%"}, {"color": "1.0000 0.8706 0.2196 0.6964", "time": "20.5%"}, {"color": "1.0000 0.4627 0.1490 0.1786", "time": "100.0%"}], "dampingforce": {"value": "2.0"}, "direction": {"max": "0.0 -1.0 0.0", "min": "0.0 0.0 -0.5", "value": "Direction"}, "emissionrate": {"max": "6.0", "min": "4.0"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.4 0.2 0.4"}, "emittertype": {"value": "Box"}, "numparticles": {"value": "6"}, "particlesize": {"max": "0.02 0.07", "min": "0.01 0.03"}, "pointFiltering": true, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 -45.0", "min": "0.0 0.0 45.0"}, "sizedelta": [{"scale": "1.0 1.0", "time": "100.0%"}], "texture": {"name": "textures/sfxs/2024s1/ss_thanks23_armor_lizi"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.3", "min": "0.25"}, "velocity": {"max": "1.0", "min": "0.5"}}}
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.9765 0.5961 0.9286",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.8706 0.2196 0.6964",
+        "time": "20.5%"
+      },
+      {
+        "color": "1.0000 0.4627 0.1490 0.1786",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 0.0 -0.5",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "6.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.4 0.2 0.4"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.02 0.07",
+      "min": "0.01 0.03"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 -45.0",
+      "min": "0.0 0.0 45.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s1/ss_thanks23_armor_lizi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.25"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
+    }
+  }
+}

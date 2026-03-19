@@ -1,1 +1,79 @@
-{"particleeffect":{"independent":false,"direction":{"max":"0.0 0.0 1.0","value":"Direction","min":"0.0 0.0 0.0"},"numparticles":{"value":"5"},"blend":{"name":"add"},"colorfade":[{"color":"0.1373 0.5843 1.0000 1.0000","time":"0.00"},{"color":"0.4431 0.1882 1.0000 0.7411","time":"0.26"},{"color":"0.0275 0.5451 1.0000 0.4643","time":"0.42"},{"color":"0.0314 0.7098 1.0000 0.0000","time":"0.60"}],"emissionrate":{"max":"6.0","min":"5.0"},"emitterScaleCurve":[],"layer":13,"texture":{"ani":{"shuffle":false,"name":"textures/sfxs/2022s1/yx_sancai_jiaoyinlz","fps":"15"},"name":"textures/sfxs/2021s4/ss_dragon_fpA_lizi"},"enableloop":{"enable":"true"},"relative":{"enable":"false"},"emittertype":{"value":"Box"},"timetolive":{"max":"0.6","min":"0.4"},"depthtest":{"enable":"true"},"emittersize":{"value":"0.4 0.2 0.0"},"thickness":{"value":"0.0"},"rotationRange":{"max":"0.0 0.0 90.0","min":"0.0 0.0 90.0"},"particlesize":{"max":"0.05 0.05","min":"0.03 0.03"},"emitterscale":[]}}
+{
+  "particleeffect": {
+    "independent": false,
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.1373 0.5843 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.4431 0.1882 1.0000 0.7411",
+        "time": "0.26"
+      },
+      {
+        "color": "0.0275 0.5451 1.0000 0.4643",
+        "time": "0.42"
+      },
+      {
+        "color": "0.0314 0.7098 1.0000 0.0000",
+        "time": "0.60"
+      }
+    ],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "layer": 13,
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s1/yx_sancai_jiaoyinlz",
+        "fps": "15"
+      },
+      "name": "textures/sfxs/2021s4/ss_dragon_fpA_lizi"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.4 0.2 0.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.03 0.03"
+    },
+    "emitterscale": []
+  }
+}

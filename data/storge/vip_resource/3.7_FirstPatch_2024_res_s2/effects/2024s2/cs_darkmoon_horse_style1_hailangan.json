@@ -1,1 +1,67 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "0.1412 0.6392 0.6941 0.0000", "time": "0.0%"}, {"color": "0.1059 0.5176 0.5647 0.1607", "time": "10.3%"}, {"color": "0.2000 0.6157 1.0000 0.1161", "time": "28.4%"}, {"color": "0.2784 0.2784 1.0000 0.1607", "time": "50.3%"}, {"color": "0.6000 0.2235 0.9255 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "-1.0 0.0 0.0", "value": "Direction"}, "emissionrate": {"max": "15.0", "min": "15.0"}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 0, "numparticles": {"value": "15"}, "particlesize": {"max": "1.7 2.0", "min": "2.0 2.0"}, "relative": {"enable": "false"}, "rotationRange": {"max": "0.0 0.0 180.0", "min": "0.0 0.0 180.0"}, "texture": {"name": "textures/sfxs/2024s2/cs_darkmoon_horse_style1_di3"}, "timetolive": {"max": "0.8", "min": "0.7"}, "velocity": {"max": "5.0", "min": "2.0"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.1412 0.6392 0.6941 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1059 0.5176 0.5647 0.1607",
+        "time": "10.3%"
+      },
+      {
+        "color": "0.2000 0.6157 1.0000 0.1161",
+        "time": "28.4%"
+      },
+      {
+        "color": "0.2784 0.2784 1.0000 0.1607",
+        "time": "50.3%"
+      },
+      {
+        "color": "0.6000 0.2235 0.9255 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "1.7 2.0",
+      "min": "2.0 2.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s2/cs_darkmoon_horse_style1_di3"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "2.0"
+    }
+  }
+}

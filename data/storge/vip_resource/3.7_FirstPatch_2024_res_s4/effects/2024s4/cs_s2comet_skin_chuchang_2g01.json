@@ -1,84 +1,84 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 0.9882 0.6196 0.0804",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 0.6667 0.4980 0.0893",
-				"time": "2.4%"
-			},
-			{
-				"color": "1.0000 0.7294 0.4902 0.0714",
-				"time": "4.7%"
-			},
-			{
-				"color": "0.2902 0.8824 1.0000 0.0804",
-				"time": "6.3%"
-			},
-			{
-				"color": "0.2627 0.7176 1.0000 0.0179",
-				"time": "75.5%"
-			},
-			{
-				"color": "0.2980 0.4510 1.0000 0.0000",
-				"time": "100.0%"
-			}
-		],
-		"delay": 1.58,
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"emissionrate": {
-			"max": "55.0",
-			"min": "55.0"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"faceCameraMode": {
-			"value": "Horizontal"
-		},
-		"layer": 4,
-		"numparticles": {
-			"value": "2"
-		},
-		"particlesize": {
-			"max": "3.0 3.0",
-			"min": "3.0 3.0"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"sizedelta": [
-			{
-				"scale": "0.3 0.3",
-				"time": "0.0%"
-			},
-			{
-				"scale": "1.0 1.0",
-				"time": "5.0%"
-			},
-			{
-				"scale": "1.1 1.1",
-				"time": "100.0%"
-			}
-		],
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_sun01"
-		},
-		"timetolive": {
-			"max": "1.8",
-			"min": "1.8"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9882 0.6196 0.0804",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.6667 0.4980 0.0893",
+        "time": "2.4%"
+      },
+      {
+        "color": "1.0000 0.7294 0.4902 0.0714",
+        "time": "4.7%"
+      },
+      {
+        "color": "0.2902 0.8824 1.0000 0.0804",
+        "time": "6.3%"
+      },
+      {
+        "color": "0.2627 0.7176 1.0000 0.0179",
+        "time": "75.5%"
+      },
+      {
+        "color": "0.2980 0.4510 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.58,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "55.0",
+      "min": "55.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Horizontal"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "3.0 3.0",
+      "min": "3.0 3.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.3 0.3",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "5.0%"
+      },
+      {
+        "scale": "1.1 1.1",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2comet_zhuchengruchang_sun01"
+    },
+    "timetolive": {
+      "max": "1.8",
+      "min": "1.8"
+    }
+  }
 }

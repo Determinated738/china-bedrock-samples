@@ -1,1 +1,63 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 0.0000", "time": "0.0%"}, {"color": "0.1608 0.5961 1.0000 0.2768", "time": "26.1%"}, {"color": "0.4314 0.5529 1.0000 0.1518", "time": "73.2%"}, {"color": "1.0000 1.0000 1.0000 0.0000", "time": "100.0%"}], "dampingforce": {"value": "10.0"}, "direction": {"max": "0.0 0.0 -1.0", "min": "0.0 0.0 -1.0", "value": "Direction"}, "enabletexture": {"enable": true}, "faceCameraMode": {"value": "Direction Horizontal"}, "layer": 7, "numparticles": {"value": "20"}, "particlesize": {"max": "0.5 0.5", "min": "0.5 0.5"}, "pointFiltering": true, "relative": {"enable": "false"}, "texture": {"ani": {"fps": "20", "name": "textures/sfxs/2024s1/yx_year2024_fp_3", "shuffle": false}, "name": "textures/sfxs/2024s1/yx_year2024_fp_3"}, "velocity": {"max": "0.1", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1608 0.5961 1.0000 0.2768",
+        "time": "26.1%"
+      },
+      {
+        "color": "0.4314 0.5529 1.0000 0.1518",
+        "time": "73.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "10.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "layer": 7,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2024s1/yx_year2024_fp_3",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/yx_year2024_fp_3"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

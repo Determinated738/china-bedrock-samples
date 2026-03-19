@@ -1,41 +1,41 @@
 {
-	"particleeffect": {
-		"constantforce": {
-			"value": "-0.3 -0.3 -0.5"
-		},
-		"dampingforce": {
-			"value": "0.8"
-		},
-		"direction": {
-			"max": "0.5 0.0 0.0",
-			"min": "-0.5 -1.0 1.0",
-			"value": "Direction"
-		},
-		"numparticles": {
-			"value": "5"
-		},
-		"particlesize": {
-			"max": "0.05 0.05",
-			"min": "0.02 0.02"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"ani": {
-				"fps": "8",
-				"name": "textures/sfxs/2024s3/cs_s1goout_armor_pp",
-				"shuffle": false
-			},
-			"name": "textures/sfxs/2024s3/cs_s1goout_armor_pp"
-		},
-		"timetolive": {
-			"max": "0.7",
-			"min": "0.4"
-		},
-		"velocity": {
-			"max": "1.0",
-			"min": "0.4"
-		}
-	}
+  "particleeffect": {
+    "constantforce": {
+      "value": "-0.3 -0.3 -0.5"
+    },
+    "dampingforce": {
+      "value": "0.8"
+    },
+    "direction": {
+      "max": "0.5 0.0 0.0",
+      "min": "-0.5 -1.0 1.0",
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2024s3/cs_s1goout_armor_pp",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s3/cs_s1goout_armor_pp"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.4"
+    }
+  }
 }

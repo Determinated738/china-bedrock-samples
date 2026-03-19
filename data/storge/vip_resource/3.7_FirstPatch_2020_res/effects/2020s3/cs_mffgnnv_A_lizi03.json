@@ -1,97 +1,93 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "0.4000 0.7216 1.0000 0.0000",
-                "time": "0.00"
-            },
-            {
-                "color": "0.1882 0.4431 1.0000 0.5098",
-                "time": "0.50"
-            },
-            {
-                "color": "0.0549 0.1412 0.3804 0.0000",
-                "time": "1.00"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 -1.0 0.0",
-            "min": "0.0 -1.0 0.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "200.0",
-            "min": "2.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "2.0 2.5 2.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "50"
-        },
-        "particlesize": {
-            "max": "0.2 0.2",
-            "min": "0.1 0.1"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "1.01 1.01",
-                "time": "20.0%"
-            },
-            {
-                "scale": "1.02 1.02",
-                "time": "40.0%"
-            },
-            {
-                "scale": "1.03 1.03",
-                "time": "60.0%"
-            },
-            {
-                "scale": "1.04 1.04",
-                "time": "80.0%"
-            },
-            {
-                "scale": "1.05 1.05",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "ani": {
-                "fps": "12",
-                "name": "textures/sfxs/2020s3/cs_mffgnnv_A_shanxing",
-                "shuffle": false
-            },
-            "name": "textures/sfxs/2020s3/cs_mffgnnv_A_shanxing"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "velocity": {
-            "max": "0.7",
-            "min": "0.4"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.4000 0.7216 1.0000 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.1882 0.4431 1.0000 0.5098",
+        "time": "0.50"
+      },
+      {
+        "color": "0.0549 0.1412 0.3804 0.0000",
+        "time": "1.00"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "200.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "2.0 2.5 2.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "50"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.01 1.01",
+        "time": "20.0%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "40.0%"
+      },
+      {
+        "scale": "1.03 1.03",
+        "time": "60.0%"
+      },
+      {
+        "scale": "1.04 1.04",
+        "time": "80.0%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2020s3/cs_mffgnnv_A_shanxing",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2020s3/cs_mffgnnv_A_shanxing"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.7",
+      "min": "0.4"
     }
+  }
 }

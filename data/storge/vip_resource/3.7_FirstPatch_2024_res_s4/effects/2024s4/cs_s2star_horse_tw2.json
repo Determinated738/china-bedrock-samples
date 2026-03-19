@@ -1,84 +1,84 @@
 {
-	"particleeffect": {
-		"blend": {
-			"name": "add"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 1.0000",
-				"time": "100.0%"
-			}
-		],
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"particlesize": {
-			"max": "0.6 0.6",
-			"min": "0.6 0.6"
-		},
-		"pointFiltering": true,
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2star_horse_tuowei02"
-		},
-		"timetolive": {
-			"max": "0.5",
-			"min": "0.5"
-		},
-		"trail": {
-			"colorfade": [
-				{
-					"color": "1.0 1.0 1.0 0.0",
-					"time": "0.000%"
-				},
-				{
-					"color": "1.0 1.0 1.0 1.0",
-					"time": "21.842%"
-				},
-				{
-					"color": "1.0 1.0 1.0 1.0",
-					"time": "56.053%"
-				},
-				{
-					"color": "1.0 1.0 1.0 0.0",
-					"time": "100.000%"
-				}
-			],
-			"facemode": 0,
-			"lifetime": 0.7,
-			"maxnum": 100,
-			"mindistance": 0.01,
-			"texmode": 2,
-			"textile": "0.05 0.05",
-			"useparticlecolor": true,
-			"useparticlewidth": true,
-			"widthfade": [
-				{
-					"time": "0.0%",
-					"value": "0.0"
-				},
-				{
-					"time": "5.0%",
-					"value": "0.5"
-				},
-				{
-					"time": "100.0%",
-					"value": "0.6"
-				}
-			],
-			"worldspace": true
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.6 0.6"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2star_horse_tuowei02"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "21.842%"
+        },
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "56.053%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.7,
+      "maxnum": 100,
+      "mindistance": 0.01,
+      "texmode": 2,
+      "textile": "0.05 0.05",
+      "useparticlecolor": true,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "0.0"
+        },
+        {
+          "time": "5.0%",
+          "value": "0.5"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.6"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

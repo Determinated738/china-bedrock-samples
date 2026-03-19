@@ -1,103 +1,99 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 0.0000 0.0157 1.0000",
-                "time": "0.00"
-            },
-            {
-                "color": "1.0000 0.0000 1.0000 1.0000",
-                "time": "0.30"
-            },
-            {
-                "color": "0.0000 0.9843 1.0000 1.0000",
-                "time": "0.40"
-            },
-            {
-                "color": "0.0275 1.0000 0.2549 1.0000",
-                "time": "0.80"
-            },
-            {
-                "color": "1.0000 0.8863 0.0000 1.0000",
-                "time": "1.00"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "0.0 0.0 -1.0",
-            "value": "Direction"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "1.0 1.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "5"
-        },
-        "particlesize": {
-            "max": "0.2 0.2",
-            "min": "0.1 0.1"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "-0.05 -0.05",
-                "time": "20.0%"
-            },
-            {
-                "scale": "0.685 0.685",
-                "time": "40.0%"
-            },
-            {
-                "scale": "0.171 0.171",
-                "time": "60.0%"
-            },
-            {
-                "scale": "0.531 0.531",
-                "time": "80.0%"
-            },
-            {
-                "scale": "0.279 0.279",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "name": "textures/particle/2020s2/yx_Q2fazhen_mxt_hit_1_2"
-        },
-        "thickness": {
-            "value": "0"
-        },
-        "timetolive": {
-            "max": "1.0",
-            "min": "0.5"
-        },
-        "velocity": {
-            "max": "1.0",
-            "min": "0.5"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.0000 0.0157 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.0000 1.0000 1.0000",
+        "time": "0.30"
+      },
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "0.40"
+      },
+      {
+        "color": "0.0275 1.0000 0.2549 1.0000",
+        "time": "0.80"
+      },
+      {
+        "color": "1.0000 0.8863 0.0000 1.0000",
+        "time": "1.00"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "-0.05 -0.05",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.685 0.685",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.171 0.171",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.531 0.531",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.279 0.279",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/2020s2/yx_Q2fazhen_mxt_hit_1_2"
+    },
+    "thickness": {
+      "value": "0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
     }
+  }
 }

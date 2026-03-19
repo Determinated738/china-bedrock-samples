@@ -1,102 +1,98 @@
 {
-    "particleeffect": {
-        "activetime": {
-            "value": "0.2"
-        },
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "0.9961 1.0000 0.6863 0.2000",
-                "time": "0.00"
-            },
-            {
-                "color": "1.0000 0.9647 0.4588 1.0000",
-                "time": "0.30"
-            },
-            {
-                "color": "1.0000 0.7451 0.2353 0.2980",
-                "time": "0.40"
-            },
-            {
-                "color": "1.0000 0.4118 0.1373 0.0000",
-                "time": "0.50"
-            }
-        ],
-        "dampingforce": {
-            "value": "0.2"
-        },
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 -1.0",
-            "min": "0.0 0.0 1.0",
-            "value": "Direction"
-        },
-        "emissionrate": {
-            "max": "50.0",
-            "min": "30.0"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.0 0.0"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "3"
-        },
-        "particlesize": {
-            "max": "1.0 1.5",
-            "min": "0.8 1.0"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "1.1 1.1",
-                "time": "20.0%"
-            },
-            {
-                "scale": "1.11 1.11",
-                "time": "40.0%"
-            },
-            {
-                "scale": "1.111 1.111",
-                "time": "60.0%"
-            },
-            {
-                "scale": "1.111 1.111",
-                "time": "80.0%"
-            },
-            {
-                "scale": "1.111 1.111",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "name": "textures/sfxs/2020s4/2020s4_cs_szdgwqG_bianshen_guangyun01"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "velocity": {
-            "max": "3.0",
-            "min": "1.0"
-        }
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9961 1.0000 0.6863 0.2000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 0.9647 0.4588 1.0000",
+        "time": "0.30"
+      },
+      {
+        "color": "1.0000 0.7451 0.2353 0.2980",
+        "time": "0.40"
+      },
+      {
+        "color": "1.0000 0.4118 0.1373 0.0000",
+        "time": "0.50"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "1.0 1.5",
+      "min": "0.8 1.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.1 1.1",
+        "time": "20.0%"
+      },
+      {
+        "scale": "1.11 1.11",
+        "time": "40.0%"
+      },
+      {
+        "scale": "1.111 1.111",
+        "time": "60.0%"
+      },
+      {
+        "scale": "1.111 1.111",
+        "time": "80.0%"
+      },
+      {
+        "scale": "1.111 1.111",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2020s4/2020s4_cs_szdgwqG_bianshen_guangyun01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "1.0"
     }
+  }
 }

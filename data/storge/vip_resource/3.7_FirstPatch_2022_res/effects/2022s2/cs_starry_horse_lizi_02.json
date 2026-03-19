@@ -1,1 +1,77 @@
-{"particleeffect": {"rotationSpeedRange": {"max": "0.0 0.0 90.0", "min": "0.0 0.0 0.0"}, "independent": false, "direction": {"max": "-0.1 -0.1 -0.1", "value": "Direction", "min": "0.1 0.1 0.1"}, "texture": {"ani": {"shuffle": false, "name": "textures/sfxs/2022s2/cs_starry_horse_star1", "fps": "16"}, "name": "textures/sfxs/2022s2/cs_starry_horse_star1"}, "numparticles": {"value": "3"}, "relative": {"enable": "false"}, "colorfade": [{"color": "1.0000 1.0000 1.0000 1.0000", "time": "0.00"}, {"color": "0.7098 0.9961 1.0000 0.9821", "time": "0.39"}, {"color": "0.7529 1.0000 1.0000 0.0446", "time": "0.70"}], "emissionrate": {"max": "5.0", "min": "3.0"}, "emitterScaleCurve": [], "depthtest": {"enable": "true"}, "thickness": {"value": "0.0"}, "delay": 0.5, "emittertype": {"value": "Sphere"}, "timetolive": {"max": "0.4", "min": "0.7"}, "emittersize": {"value": "0.7 1.0 0.7"}, "emitterscale": [], "velocity": {"max": "0.2", "min": "0.1"}, "rotationRange": {"max": "0.0 0.0 360.0", "min": "0.0 0.0 0.0"}, "particlesize": {"max": "0.25 0.25", "min": "0.1 0.1"}}}
+{
+  "particleeffect": {
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "independent": false,
+    "direction": {
+      "max": "-0.1 -0.1 -0.1",
+      "value": "Direction",
+      "min": "0.1 0.1 0.1"
+    },
+    "texture": {
+      "ani": {
+        "shuffle": false,
+        "name": "textures/sfxs/2022s2/cs_starry_horse_star1",
+        "fps": "16"
+      },
+      "name": "textures/sfxs/2022s2/cs_starry_horse_star1"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "0.7098 0.9961 1.0000 0.9821",
+        "time": "0.39"
+      },
+      {
+        "color": "0.7529 1.0000 1.0000 0.0446",
+        "time": "0.70"
+      }
+    ],
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "depthtest": {
+      "enable": "true"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "delay": 0.5,
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.7"
+    },
+    "emittersize": {
+      "value": "0.7 1.0 0.7"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 360.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.1 0.1"
+    }
+  }
+}

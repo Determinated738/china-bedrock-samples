@@ -1,100 +1,96 @@
 {
-    "particleeffect": {
-        "blend": {
-            "name": "add"
-        },
-        "colorfade": [
-            {
-                "color": "1.0000 1.0000 0.4980 0.0000",
-                "time": "0.00"
-            },
-            {
-                "color": "1.0000 1.0000 0.4980 1.0000",
-                "time": "0.30"
-            },
-            {
-                "color": "1.0000 1.0000 0.4980 1.0000",
-                "time": "1.00"
-            }
-        ],
-        "depthtest": {
-            "enable": "true"
-        },
-        "direction": {
-            "max": "0.0 0.0 0.0",
-            "min": "1.0 0.0 0.0",
-            "value": "Direction"
-        },
-        "emitterScaleCurve": [
-
-        ],
-        "emitterscale": [
-
-        ],
-        "emittersize": {
-            "value": "0.0 0.3 0.3"
-        },
-        "emittertype": {
-            "value": "Sphere"
-        },
-        "enableloop": {
-            "enable": "true"
-        },
-        "independent": false,
-        "numparticles": {
-            "value": "5"
-        },
-        "particlesize": {
-            "max": "0.05 0.05",
-            "min": "0.1 0.1"
-        },
-        "relative": {
-            "enable": "true"
-        },
-        "sizedelta": [
-            {
-                "scale": "1.0 1.0",
-                "time": "0.0%"
-            },
-            {
-                "scale": "-0.05 -0.05",
-                "time": "20.0%"
-            },
-            {
-                "scale": "0.685 0.685",
-                "time": "40.0%"
-            },
-            {
-                "scale": "0.171 0.171",
-                "time": "60.0%"
-            },
-            {
-                "scale": "0.531 0.531",
-                "time": "80.0%"
-            },
-            {
-                "scale": "0.279 0.279",
-                "time": "100.0%"
-            }
-        ],
-        "texture": {
-            "ani": {
-                "fps": "30",
-                "name": "textures/particle/2020s2/cs_2020Q2_zuoqi_yixingB_lizi_001",
-                "shuffle": false
-            },
-            "name": "textures/particle/2020s2/cs_2020Q2_zuoqi_yixingB_lizi_001"
-        },
-        "thickness": {
-            "value": "0.0"
-        },
-        "timetolive": {
-            "max": "1.0",
-            "min": "0.5"
-        },
-        "velocity": {
-            "max": "1.0",
-            "min": "0.5"
-        }
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.4980 0.0000",
+        "time": "0.00"
+      },
+      {
+        "color": "1.0000 1.0000 0.4980 1.0000",
+        "time": "0.30"
+      },
+      {
+        "color": "1.0000 1.0000 0.4980 1.0000",
+        "time": "1.00"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.3 0.3"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "independent": false,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "-0.05 -0.05",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.685 0.685",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.171 0.171",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.531 0.531",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.279 0.279",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "textures/particle/2020s2/cs_2020Q2_zuoqi_yixingB_lizi_001",
+        "shuffle": false
+      },
+      "name": "textures/particle/2020s2/cs_2020Q2_zuoqi_yixingB_lizi_001"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.5"
     }
+  }
 }

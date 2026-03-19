@@ -1,1 +1,79 @@
-{"particleeffect":{"direction":{"max":"0.0 1.0 0.0","value":"Direction","min":"0.0 1.0 0.0"},"numparticles":{"value":"3"},"blend":{"name":"add"},"colorfade":[{"color":"1.0000 0.9255 0.3529 0.0000","time":"0.0%"},{"color":"0.7804 0.5255 1.0000 1.0000","time":"26.8%"},{"color":"0.3255 0.7647 1.0000 0.0000","time":"53.2%"},{"color":"0.4471 0.8824 1.0000 1.0000","time":"73.9%"},{"color":"0.7765 0.3255 1.0000 0.0000","time":"100.0%"}],"emissionrate":{"max":"6.0","min":"3.0"},"emitterScaleCurve":[],"enableloop":{"enable":"true"},"emittersize":{"value":"0.42 0.0 0.15"},"thickness":{"value":"0.0"},"relative":{"enable":"true"},"emittertype":{"value":"Box"},"timetolive":{"max":"1.0","min":"0.5"},"texture":{"name":"textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"},"emitterscale":[],"velocity":{"max":"0.4","min":"0.1"},"disorder":{"max":"0.04 0.04 0.04","interval":"0.02","increment":"0.02","min":"0.01 0.01 0.01"},"particlesize":{"max":"0.05 0.05","min":"0.02 0.02"}}}
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "value": "Direction",
+      "min": "0.0 1.0 0.0"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9255 0.3529 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7804 0.5255 1.0000 1.0000",
+        "time": "26.8%"
+      },
+      {
+        "color": "0.3255 0.7647 1.0000 0.0000",
+        "time": "53.2%"
+      },
+      {
+        "color": "0.4471 0.8824 1.0000 1.0000",
+        "time": "73.9%"
+      },
+      {
+        "color": "0.7765 0.3255 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "emissionrate": {
+      "max": "6.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "enableloop": {
+      "enable": "true"
+    },
+    "emittersize": {
+      "value": "0.42 0.0 0.15"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "texture": {
+      "name": "textures/sfxs/2022s4/cs_xcm_skina_chuchang_lizi66"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.4",
+      "min": "0.1"
+    },
+    "disorder": {
+      "max": "0.04 0.04 0.04",
+      "interval": "0.02",
+      "increment": "0.02",
+      "min": "0.01 0.01 0.01"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    }
+  }
+}

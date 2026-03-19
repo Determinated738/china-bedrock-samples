@@ -1,54 +1,54 @@
 {
-	"particleeffect": {
-		"activetime": {
-			"value": "0.3"
-		},
-		"colorfade": [
-			{
-				"color": "1.0000 1.0000 1.0000 0.4464",
-				"time": "0.0%"
-			},
-			{
-				"color": "1.0000 1.0000 1.0000 0.4018",
-				"time": "100.0%"
-			}
-		],
-		"delay": 0.1,
-		"depthtest": {
-			"enable": "false"
-		},
-		"direction": {
-			"max": "0.0 0.0 0.0",
-			"min": "0.0 0.0 0.0",
-			"value": "Direction"
-		},
-		"enabletexture": {
-			"enable": true
-		},
-		"layer": 0,
-		"numparticles": {
-			"value": "1"
-		},
-		"offsetInCamera": {
-			"value": "5.0"
-		},
-		"particlesize": {
-			"max": "15.0 15.0",
-			"min": "15.0 15.0"
-		},
-		"relative": {
-			"enable": "true"
-		},
-		"texture": {
-			"name": "textures/sfxs/2024s4/cs_s2blackhole_skin_birth_bg_xk03"
-		},
-		"timetolive": {
-			"max": "9.5",
-			"min": "9.5"
-		},
-		"velocity": {
-			"max": "0.0",
-			"min": "0.0"
-		}
-	}
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.4464",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4018",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.1,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "5.0"
+    },
+    "particlesize": {
+      "max": "15.0 15.0",
+      "min": "15.0 15.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2024s4/cs_s2blackhole_skin_birth_bg_xk03"
+    },
+    "timetolive": {
+      "max": "9.5",
+      "min": "9.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
 }

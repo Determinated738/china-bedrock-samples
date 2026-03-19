@@ -1,1 +1,83 @@
-{"particleeffect": {"blend": {"name": "add"}, "colorfade": [{"color": "1.0000 1.0000 0.4863 1.0000", "time": "0.0%"}, {"color": "1.0000 0.2353 0.0471 1.0000", "time": "64.5%"}, {"color": "1.0000 0.3412 0.0392 1.0000", "time": "90.0%"}, {"color": "1.0000 0.2549 0.1255 0.0000", "time": "100.0%"}], "direction": {"max": "0.0 0.0 0.0", "min": "0.0 0.0 0.1", "value": "Direction"}, "emitterScaleCurve": [], "emitterscale": [], "emittersize": {"value": "0.6 0.2 0.5"}, "emittertype": {"value": "Box"}, "enabletexture": {"enable": true}, "layer": 5, "particlesize": {"max": "0.2 0.2", "min": "0.15 0.15"}, "pointFiltering": true, "relative": {"enable": "false"}, "sizedelta": [{"scale": "0.34 0.34", "time": "0.00"}, {"scale": "0.08 0.08", "time": "1.00"}, {"scale": "0.26 0.26", "time": "2.00"}], "texture": {"ani": {"fps": "24", "name": "", "shuffle": false}, "name": "textures/sfxs/2024s1/ss_fengshen_fp_fllz"}, "thickness": {"value": "0.0"}, "timetolive": {"max": "0.8", "min": "0.6"}, "velocity": {"max": "0.0", "min": "0.1"}}}
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 0.4863 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.2353 0.0471 1.0000",
+        "time": "64.5%"
+      },
+      {
+        "color": "1.0000 0.3412 0.0392 1.0000",
+        "time": "90.0%"
+      },
+      {
+        "color": "1.0000 0.2549 0.1255 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.1",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.6 0.2 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 5,
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.15 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.34 0.34",
+        "time": "0.00"
+      },
+      {
+        "scale": "0.08 0.08",
+        "time": "1.00"
+      },
+      {
+        "scale": "0.26 0.26",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2024s1/ss_fengshen_fp_fllz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}
