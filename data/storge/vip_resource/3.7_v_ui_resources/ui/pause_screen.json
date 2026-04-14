@@ -762,11 +762,72 @@
       }
     ]
   },
+  "general_setting_button@pause.pause_button_template": {
+    "$pressed_button_name": "button.general_setting",
+    "$button_text": "pause.generalSetting",
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle",
+    "visible": false
+  },
+  "general_setting_padding@pause.vertical_padding": {
+    "visible": false
+  },
   "component_button@pause.pause_button_template": {
     "$pressed_button_name": "",
     "$button_text": "模组",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle"
+  },
+  "realm_story_button_inner@pause.pause_button_template": {
+    "$pressed_button_name": "",
+    "$button_text": "山头故事",
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle"
+  },
+  "realm_story_button": {
+    "type": "panel",
+    "size": [ "100%", 28 ],
+    "controls": [
+      { "realm_story_button@pause.realm_story_button_inner": {} },
+      {
+        "realm_story_badge_panel": {
+          "type": "panel",
+          "anchor_from": "top_right",
+          "anchor_to": "center",
+          "offset": [ -15,  10],
+          "size": [ 14, 20 ],
+          "layer": 3,
+          "visible": true,
+          "controls": [
+            {
+              "realm_story_badge_text": {
+                "type": "label",
+                "color": [ 1.0, 1.0, 1.0, 1.0 ],
+                "shadow": false,
+                "text": "0",
+                "font_size": "normal",
+                "layer": 9,
+                "controls": [
+                  {
+                    "realm_story_badge_bg": {
+                      "type": "image",
+                      "texture": "textures/ui/red_point_bg",
+                      "layer": -1,
+                      "size": [ "100%+4px", "95%" ],
+                      "nine_slice_buttom" : 1.0,
+                      "nine_slice_left" : 1.0,
+                      "nine_slice_right" : 1.0,
+                      "nine_slice_top" : 1.0,
+                      "nineslice_size": [1.0, 1.0, 1.0, 1.0 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
   },
   "asset_center_button@pause.pause_button_template": {
     "$pressed_button_name": "",
@@ -1509,6 +1570,8 @@
                 ]
               }
             },
+            { "realm_story_button@pause.realm_story_button": { "visible": false } },
+            { "realm_story@pause.vertical_padding": { "visible": false } },
             { "settings_button@pause.settings_button": {} },
             { "settings@pause.vertical_padding": {} },
             {
@@ -1530,6 +1593,8 @@
                 ]
               }
             },
+            { "general_setting_button@pause.general_setting_button": {} },
+            { "general_setting_padding@pause.general_setting_padding": {} },
             { "quit_button@pause.quit_button": {} }
           ]
         }

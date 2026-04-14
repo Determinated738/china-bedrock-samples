@@ -1,5 +1,6 @@
 {
 	"materials": {
+		"version": "1.0.0",
 		"entity_static_netease": {
 			"vertexShader": "shaders/entity.vertex",
 			"vrGeometryShader": "shaders/entity.geometry",
@@ -23507,6 +23508,476 @@
 			"fragmentShader": "shaders/2025s6/sh_s7WuKong_skin_glitter03.fragment",
 			"vertexShader": "shaders/2025s6/sh_s7WuKong_skin_glitter03.vertex"
 		},
+		"ss_s6Swordsman_weapon_glitter1_2025s6_ss_s6Swordsman_weapon:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s6/ss_s6Swordsman_weapon_glitter1.fragment",
+			"vertexShader": "shaders/2025s6/ss_s6Swordsman_weapon_glitter1.vertex"
+		},
+		"ss_s6Swordsman_weaponA_glitter_2025s6_ss_s6Swordsman_weaponA:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s6/ss_s6Swordsman_weaponA_glitter.fragment",
+			"vertexShader": "shaders/2025s6/ss_s6Swordsman_weaponA_glitter.vertex"
+		},
+		"cs_s7NiuMoWang_horse_glitter01_2025s7_cs_s7NiuMoWang_horse:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/cs_s7NiuMoWang_horse_glitter01.fragment",
+			"vertexShader": "shaders/2025s7/cs_s7NiuMoWang_horse_glitter01.vertex"
+		},
+		"vip_glitter_dr_2025s7_cs_s7NiuMoWang_weapon:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/vip_glitter_dr.fragment",
+			"vertexShader": "shaders/2025s7/vip_glitter_dr.vertex"
+		},
+		"vip_glitter_js_2025s7_cs_s7NiuMoWang_weapon:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/vip_glitter_js.fragment",
+			"vertexShader": "shaders/2025s7/vip_glitter_js.vertex"
+		},
+		"ss_s7NiuMoWang_weapon_glitter_2025s7_ss_s7NiuMoWang_weapon:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_weapon_glitter.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_weapon_glitter.vertex"
+		},
+		"ss_s7NiuMoWang_glitter1_2025s7_ss_s7NiuMoWang_weaponA:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_glitter1.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_glitter1.vertex"
+		},
+		"ss_s7NiuMoWang_glitter2_2025s7_ss_s7NiuMoWang_weaponA:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_glitter2.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_glitter2.vertex"
+		},
+		"ss_s7NiuMoWang_weaponB_glitter_2025s7_ss_s7NiuMoWang_weaponB:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_weaponB_glitter.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_weaponB_glitter.vertex"
+		},
+		"ss_s7NiuMoWang_horse_glitter_2025s7_ss_s7NiuMoWang_horse:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_horse_glitter.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_horse_glitter.vertex"
+		},
+		"ss_s2star_skinF_diamond0_2025s7_ss_s2star_skinF": {
+			"+defines": [
+				"USE_SKINNING",
+				"USE_OVERLAY",
+				"NETEASE_SKINNING"
+			],
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s2star_skinF_diamond0.fragment",
+			"msaaSupport": "Both",
+			"states": [
+				"Blending"
+			],
+			"vertexFields": [
+				{
+					"field": "Position"
+				},
+				{
+					"field": "Normal"
+				},
+				{
+					"field": "BoneId0"
+				},
+				{
+					"field": "UV0"
+				}
+			],
+			"vertexShader": "shaders/2025s7/ss_s2star_skinF_diamond0.vertex"
+		},
+		"ss_s2star_skinF_galaxy0_2025s7_ss_s2star_skinF": {
+			"+defines": [
+				"USE_SKINNING",
+				"USE_OVERLAY",
+				"NETEASE_SKINNING"
+			],
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s2star_skinF_galaxy0.fragment",
+			"msaaSupport": "Both",
+			"vertexFields": [
+				{
+					"field": "Position"
+				},
+				{
+					"field": "Normal"
+				},
+				{
+					"field": "BoneId0"
+				},
+				{
+					"field": "UV0"
+				}
+			],
+			"vertexShader": "shaders/2025s7/ss_s2star_skinF_galaxy0.vertex"
+		},
+		"ss_s2star_skinK_galaxy0_2025s7_ss_s2star_skinK": {
+			"+defines": [
+				"USE_SKINNING",
+				"USE_OVERLAY",
+				"NETEASE_SKINNING"
+			],
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s2star_skinK_galaxy0.fragment",
+			"msaaSupport": "Both",
+			"vertexFields": [
+				{
+					"field": "Position"
+				},
+				{
+					"field": "Normal"
+				},
+				{
+					"field": "BoneId0"
+				},
+				{
+					"field": "UV0"
+				}
+			],
+			"vertexShader": "shaders/2025s7/ss_s2star_skinK_galaxy0.vertex"
+		},
+		"cs_s6Swordsman_skin_glitter1_2025s6_cs_s6Swordsman_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s6/cs_s6Swordsman_skin_glitter1.fragment",
+			"vertexShader": "shaders/2025s6/cs_s6Swordsman_skin_glitter1.vertex"
+		},
+		"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/cs_s7NiuMoWang_skin_gli.fragment",
+			"vertexShader": "shaders/2025s7/cs_s7NiuMoWang_skin_gli.vertex"
+		},
+		"cs_s7NiuMoWang_skin_glitterdj_2025s7_cs_s7NiuMoWang_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/cs_s7NiuMoWang_skin_glitterdj.fragment",
+			"vertexShader": "shaders/2025s7/cs_s7NiuMoWang_skin_glitterdj.vertex"
+		},
+		"ss_s2star_skinI_galaxy_2025s7_ss_s2star_skinI": {
+			"+defines": [
+				"USE_SKINNING",
+				"USE_OVERLAY",
+				"NETEASE_SKINNING"
+			],
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s2star_skinI_galaxy.fragment",
+			"msaaSupport": "Both",
+			"vertexFields": [
+				{
+					"field": "Position"
+				},
+				{
+					"field": "Normal"
+				},
+				{
+					"field": "BoneId0"
+				},
+				{
+					"field": "UV0"
+				}
+			],
+			"vertexShader": "shaders/2025s7/ss_s2star_skinI_galaxy.vertex"
+		},
 		"sh_s7WuKong_skin_glitter01_2025s7_sh_s7WuKong_skin_beishi:vip_base_skeleton": {
 			"+samplerStates": [
 				{
@@ -24100,6 +24571,153 @@
 			],
 			"vertexShader": "shaders/2025s7/easy_entity.vertex"
 		},
+		"vip_glitter_lb_2025s7_ss_s7ChangE_weapon:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/vip_glitter_lb.fragment",
+			"vertexShader": "shaders/2025s7/vip_glitter_lb.vertex"
+		},
+		"vip_glitter_tuzi_2025s7_ss_s7ChangE_weapon:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/vip_glitter_tuzi.fragment",
+			"vertexShader": "shaders/2025s7/vip_glitter_tuzi.vertex"
+		},
+		"ss_s7ChangE_horse_glitter_2025s7_ss_s7ChangE_horse:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7ChangE_horse_glitter.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7ChangE_horse_glitter.vertex"
+		},
+		"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7BaJie_skin_glitter0.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7BaJie_skin_glitter0.vertex"
+		},
+		"cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/cs_s7ChangE_skin_glitter.fragment",
+			"vertexShader": "shaders/2025s7/cs_s7ChangE_skin_glitter.vertex"
+		},
+		"cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/cs_s7ChangE_skin_glitter_no.fragment",
+			"vertexShader": "shaders/2025s7/cs_s7ChangE_skin_glitter_no.vertex"
+		},
 		"sh_s7YangJian_skin_gjbt_2025s7_sh_s7YangJian_skin_beishi:vip_base_skeleton": {
 			"+samplerStates": [
 				{
@@ -24237,6 +24855,75 @@
 			],
 			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_pb.fragment",
 			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_pb.vertex"
+		},
+		"ss_s6Mechanical_Craft_glt_no_2025s7_ss_s6Mechanical_Craft:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s6Mechanical_Craft_glt_no.fragment",
+			"vertexShader": "shaders/2025s7/ss_s6Mechanical_Craft_glt_no.vertex"
+		},
+		"ss_s6Mechanical_Furna_glitter0_2025s7_ss_s6Mechanical_Furnace:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"+states": [
+				"Blending"
+			],
+			"fragmentShader": "shaders/2025s7/ss_s6Mechanical_Furna_glitter0.fragment",
+			"vertexShader": "shaders/2025s7/ss_s6Mechanical_Furna_glitter0.vertex"
+		},
+		"ss_s6Mechanical_Furnace_glt_no_2025s7_ss_s6Mechanical_Furnace:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s6Mechanical_Furnace_glt_no.fragment",
+			"vertexShader": "shaders/2025s7/ss_s6Mechanical_Furnace_glt_no.vertex"
 		},
 		"sh_s7YangJian_skinA_glitter1_2025s7_sh_s7YangJian_skinA_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
@@ -24651,486 +25338,6 @@
 			],
 			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinA_noglitter6.fragment",
 			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinA_noglitter6.vertex"
-		},
-		"sh_s7YangJian_skinB_glitter1_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.vertex"
-		},
-		"sh_s7YangJian_skinB_glitter2_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter1_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter2_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter5_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter6_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter7_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.vertex"
-		},
-		"sh_s7WuKong_skin_wtbt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7WuKong_skin_wtbt.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7WuKong_skin_wtbt.vertex"
-		},
-		"sh_s7YangJian_skin01_gjbt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin01_gjbt.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin01_gjbt.vertex"
-		},
-		"sh_s7YangJian_skin01_gjt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin01_gjt.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin01_gjt.vertex"
-		},
-		"sh_s7YangJian_skin_gjt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_gjt.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_gjt.vertex"
-		},
-		"sh_s7YangJian_skin_pb_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_pb.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_pb.vertex"
-		},
-		"sh_s7YangJian_skin_pdbt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_pdbt.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_pdbt.vertex"
-		},
-		"sh_s7YangJian_skin_wtbt2_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_wtbt2.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_wtbt2.vertex"
-		},
-		"sh_s7YangJian_skinB_glitter1_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.vertex"
-		},
-		"sh_s7YangJian_skinB_glitter2_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter1_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter2_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter5_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter6_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.vertex"
-		},
-		"sh_s7YangJian_skinB_noglitter7_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.fragment",
-			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.vertex"
 		},
 		"cs_s7NeZha_glitter_no_blend01_2025s7_cs_s7NeZha_skin:vip_base_skeleton": {
 			"+samplerStates": [
@@ -26964,8 +27171,73 @@
 			"fragmentShader": "shaders/2025s7/vip_glitter_no_blend_hsdl.fragment",
 			"vertexShader": "shaders/2025s7/vip_glitter_no_blend_hsdl.vertex"
 		},
-		"version": "1.0.0",
-		"ss_s6Swordsman_weapon_glitter1_2025s6_ss_s6Swordsman_weapon:vip_base_skeleton": {
+		"ss_s7Slime_skin_bt1_2025s7_ss_s7Slime_skin:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/ss_s7Slime_skin_bt1.fragment",
+			"vertexShader": "shaders/2025s7/ss_s7Slime_skin_bt1.vertex"
+		},
+		"sh_s7WuKong_skin_wtbt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7WuKong_skin_wtbt.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7WuKong_skin_wtbt.vertex"
+		},
+		"sh_s7YangJian_skin01_gjbt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin01_gjbt.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin01_gjbt.vertex"
+		},
+		"sh_s7YangJian_skin01_gjt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -26987,10 +27259,10 @@
 			"+states": [
 				"Blending"
 			],
-			"fragmentShader": "shaders/2025s6/ss_s6Swordsman_weapon_glitter1.fragment",
-			"vertexShader": "shaders/2025s6/ss_s6Swordsman_weapon_glitter1.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin01_gjt.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin01_gjt.vertex"
 		},
-		"ss_s6Swordsman_weaponA_glitter_2025s6_ss_s6Swordsman_weaponA:vip_base_skeleton": {
+		"sh_s7YangJian_skin_gjt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27012,10 +27284,76 @@
 			"+states": [
 				"Blending"
 			],
-			"fragmentShader": "shaders/2025s6/ss_s6Swordsman_weaponA_glitter.fragment",
-			"vertexShader": "shaders/2025s6/ss_s6Swordsman_weaponA_glitter.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_gjt.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_gjt.vertex"
 		},
-		"cs_s7NiuMoWang_horse_glitter01_2025s7_cs_s7NiuMoWang_horse:vip_base_skeleton": {
+		"sh_s7YangJian_skin_pb_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_pb.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_pb.vertex"
+		},
+		"sh_s7YangJian_skin_pdbt_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_pdbt.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_pdbt.vertex"
+		},
+		"sh_s7YangJian_skin_wtbt2_2025s7_sh_s7YangJian_skin01:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skin_wtbt2.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skin_wtbt2.vertex"
+		},
+		"sh_s7YangJian_skinB_glitter1_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27037,10 +27375,10 @@
 			"+states": [
 				"Blending"
 			],
-			"fragmentShader": "shaders/2025s7/cs_s7NiuMoWang_horse_glitter01.fragment",
-			"vertexShader": "shaders/2025s7/cs_s7NiuMoWang_horse_glitter01.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.vertex"
 		},
-		"vip_glitter_dr_2025s7_cs_s7NiuMoWang_weapon:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_glitter2_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27062,10 +27400,120 @@
 			"+states": [
 				"Blending"
 			],
-			"fragmentShader": "shaders/2025s7/vip_glitter_dr.fragment",
-			"vertexShader": "shaders/2025s7/vip_glitter_dr.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.vertex"
 		},
-		"vip_glitter_js_2025s7_cs_s7NiuMoWang_weapon:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_noglitter1_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.vertex"
+		},
+		"sh_s7YangJian_skinB_noglitter2_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.vertex"
+		},
+		"sh_s7YangJian_skinB_noglitter5_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.vertex"
+		},
+		"sh_s7YangJian_skinB_noglitter6_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.vertex"
+		},
+		"sh_s7YangJian_skinB_noglitter7_2025s7_sh_s7YangJian_skinB:vip_base_skeleton": {
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 1,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 2,
+					"textureFilter": "Point"
+				},
+				{
+					"samplerIndex": 3,
+					"textureFilter": "Point"
+				}
+			],
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.vertex"
+		},
+		"sh_s7YangJian_skinB_glitter1_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27087,10 +27535,10 @@
 			"+states": [
 				"Blending"
 			],
-			"fragmentShader": "shaders/2025s7/vip_glitter_js.fragment",
-			"vertexShader": "shaders/2025s7/vip_glitter_js.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter1.vertex"
 		},
-		"ss_s7NiuMoWang_weapon_glitter_2025s7_ss_s7NiuMoWang_weapon:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_glitter2_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27112,10 +27560,10 @@
 			"+states": [
 				"Blending"
 			],
-			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_weapon_glitter.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_weapon_glitter.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_glitter2.vertex"
 		},
-		"ss_s7NiuMoWang_glitter1_2025s7_ss_s7NiuMoWang_weaponA:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_noglitter1_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27134,13 +27582,10 @@
 					"textureFilter": "Point"
 				}
 			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_glitter1.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_glitter1.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter1.vertex"
 		},
-		"ss_s7NiuMoWang_glitter2_2025s7_ss_s7NiuMoWang_weaponA:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_noglitter2_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27159,13 +27604,10 @@
 					"textureFilter": "Point"
 				}
 			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_glitter2.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_glitter2.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter2.vertex"
 		},
-		"ss_s7NiuMoWang_weaponB_glitter_2025s7_ss_s7NiuMoWang_weaponB:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_noglitter5_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27184,13 +27626,10 @@
 					"textureFilter": "Point"
 				}
 			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_weaponB_glitter.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_weaponB_glitter.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter5.vertex"
 		},
-		"ss_s7NiuMoWang_horse_glitter_2025s7_ss_s7NiuMoWang_horse:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_noglitter6_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27209,126 +27648,10 @@
 					"textureFilter": "Point"
 				}
 			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/ss_s7NiuMoWang_horse_glitter.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7NiuMoWang_horse_glitter.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter6.vertex"
 		},
-		"ss_s2star_skinF_diamond0_2025s7_ss_s2star_skinF": {
-			"+defines": [
-				"USE_SKINNING",
-				"USE_OVERLAY",
-				"NETEASE_SKINNING"
-			],
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/ss_s2star_skinF_diamond0.fragment",
-			"msaaSupport": "Both",
-			"states": [
-				"Blending"
-			],
-			"vertexFields": [
-				{
-					"field": "Position"
-				},
-				{
-					"field": "Normal"
-				},
-				{
-					"field": "BoneId0"
-				},
-				{
-					"field": "UV0"
-				}
-			],
-			"vertexShader": "shaders/2025s7/ss_s2star_skinF_diamond0.vertex"
-		},
-		"ss_s2star_skinF_galaxy0_2025s7_ss_s2star_skinF": {
-			"+defines": [
-				"USE_SKINNING",
-				"USE_OVERLAY",
-				"NETEASE_SKINNING"
-			],
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/ss_s2star_skinF_galaxy0.fragment",
-			"msaaSupport": "Both",
-			"vertexFields": [
-				{
-					"field": "Position"
-				},
-				{
-					"field": "Normal"
-				},
-				{
-					"field": "BoneId0"
-				},
-				{
-					"field": "UV0"
-				}
-			],
-			"vertexShader": "shaders/2025s7/ss_s2star_skinF_galaxy0.vertex"
-		},
-		"ss_s2star_skinK_galaxy0_2025s7_ss_s2star_skinK": {
-			"+defines": [
-				"USE_SKINNING",
-				"USE_OVERLAY",
-				"NETEASE_SKINNING"
-			],
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/ss_s2star_skinK_galaxy0.fragment",
-			"msaaSupport": "Both",
-			"vertexFields": [
-				{
-					"field": "Position"
-				},
-				{
-					"field": "Normal"
-				},
-				{
-					"field": "BoneId0"
-				},
-				{
-					"field": "UV0"
-				}
-			],
-			"vertexShader": "shaders/2025s7/ss_s2star_skinK_galaxy0.vertex"
-		},
-		"cs_s6Swordsman_skin_glitter1_2025s6_cs_s6Swordsman_skin:vip_base_skeleton": {
+		"sh_s7YangJian_skinB_noglitter7_2025s7_sh_s7YangJian_skinB_dianchuo:vip_base_skeleton": {
 			"+samplerStates": [
 				{
 					"samplerIndex": 0,
@@ -27347,240 +27670,8 @@
 					"textureFilter": "Point"
 				}
 			],
-			"fragmentShader": "shaders/2025s6/cs_s6Swordsman_skin_glitter1.fragment",
-			"vertexShader": "shaders/2025s6/cs_s6Swordsman_skin_glitter1.vertex"
-		},
-		"cs_s7NiuMoWang_skin_gli_2025s7_cs_s7NiuMoWang_skin:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/cs_s7NiuMoWang_skin_gli.fragment",
-			"vertexShader": "shaders/2025s7/cs_s7NiuMoWang_skin_gli.vertex"
-		},
-		"cs_s7NiuMoWang_skin_glitterdj_2025s7_cs_s7NiuMoWang_skin:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/cs_s7NiuMoWang_skin_glitterdj.fragment",
-			"vertexShader": "shaders/2025s7/cs_s7NiuMoWang_skin_glitterdj.vertex"
-		},
-		"ss_s2star_skinI_galaxy_2025s7_ss_s2star_skinI": {
-			"+defines": [
-				"USE_SKINNING",
-				"USE_OVERLAY",
-				"NETEASE_SKINNING"
-			],
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/ss_s2star_skinI_galaxy.fragment",
-			"msaaSupport": "Both",
-			"vertexFields": [
-				{
-					"field": "Position"
-				},
-				{
-					"field": "Normal"
-				},
-				{
-					"field": "BoneId0"
-				},
-				{
-					"field": "UV0"
-				}
-			],
-			"vertexShader": "shaders/2025s7/ss_s2star_skinI_galaxy.vertex"
-		},
-		"vip_glitter_lb_2025s7_ss_s7ChangE_weapon:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/vip_glitter_lb.fragment",
-			"vertexShader": "shaders/2025s7/vip_glitter_lb.vertex"
-		},
-		"vip_glitter_tuzi_2025s7_ss_s7ChangE_weapon:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/vip_glitter_tuzi.fragment",
-			"vertexShader": "shaders/2025s7/vip_glitter_tuzi.vertex"
-		},
-		"ss_s7ChangE_horse_glitter_2025s7_ss_s7ChangE_horse:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/ss_s7ChangE_horse_glitter.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7ChangE_horse_glitter.vertex"
-		},
-		"ss_s7BaJie_skin_glitter0_2025s7_ss_s7BaJie_skin:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/ss_s7BaJie_skin_glitter0.fragment",
-			"vertexShader": "shaders/2025s7/ss_s7BaJie_skin_glitter0.vertex"
-		},
-		"cs_s7ChangE_skin_glitter_2025s7_cs_s7ChangE_skin:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"+states": [
-				"Blending"
-			],
-			"fragmentShader": "shaders/2025s7/cs_s7ChangE_skin_glitter.fragment",
-			"vertexShader": "shaders/2025s7/cs_s7ChangE_skin_glitter.vertex"
-		},
-		"cs_s7ChangE_skin_glitter_no_2025s7_cs_s7ChangE_skin:vip_base_skeleton": {
-			"+samplerStates": [
-				{
-					"samplerIndex": 0,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 1,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 2,
-					"textureFilter": "Point"
-				},
-				{
-					"samplerIndex": 3,
-					"textureFilter": "Point"
-				}
-			],
-			"fragmentShader": "shaders/2025s7/cs_s7ChangE_skin_glitter_no.fragment",
-			"vertexShader": "shaders/2025s7/cs_s7ChangE_skin_glitter_no.vertex"
+			"fragmentShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.fragment",
+			"vertexShader": "shaders/2025s7/sh_s7YangJian_skinB_noglitter7.vertex"
 		}
 	}
 }

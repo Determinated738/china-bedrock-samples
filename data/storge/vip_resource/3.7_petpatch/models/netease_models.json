@@ -47,5 +47,22 @@
     "texture": {
       "tex1": "pet_mod_robot/cs_sentinel_s7BaiGu_bloom"
     }
+  },
+  "cs_dragon_s7DragonKing": {
+    "animation": {
+      "idle_bored": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_idle_bored.json",
+      "build_pickup": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_idle_pickup.json",
+      "idle_play": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_idle_play.json",
+      "idle_stand": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_idle_stand.json",
+      "walk": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_idle_walk.json",
+      "play_angry": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_play_angry.json",
+      "play_happy": "pet_dragon/animation/cs_dragon_s7DragonKing_animation_play_happy.json"
+    },
+    "dy_load": true,
+    "mesh": "pet_dragon/mesh/cs_dragon_s7DragonKing_mesh.json",
+    "skeleton": "pet_dragon/skeleton/cs_dragon_s7DragonKing_skeleton.json",
+    "texture": {
+      "tex1": "pet_dragon/cs_dragon_s7DragonKing_bloom"
+    }
   }
 }
