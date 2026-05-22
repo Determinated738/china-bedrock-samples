@@ -1,0 +1,87 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "8.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "93.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1,
+    "direction": {
+      "max": "1.0 0.15 0.1",
+      "min": "1.0 -0.15 -0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "10.0 1.9999999999999982 2.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.18 0.18"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 95.0",
+      "min": "0.0 0.0 85.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_hn",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_hn"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "5.66",
+      "min": "5.0"
+    },
+    "velocity": {
+      "max": "2.3",
+      "min": "2.0"
+    }
+  }
+}

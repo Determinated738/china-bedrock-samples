@@ -1003,6 +1003,17 @@
         }
       },
       {
+        "locator_bar_toggle@settings_common.option_toggle": {
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.locatorBar",
+          "$option_binding_name": "#locator_bar",
+          "$option_enabled_binding_name": "#locator_bar_enabled",
+          "$toggle_name": "locator_bar",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
         "show_days_played_toggle@settings_common.option_toggle": {
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.showDaysPlayed",
@@ -1081,6 +1092,17 @@
         }
       },
       {
+        "tile_drops_toggle@settings_common.option_toggle": {
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.tileDrops",
+          "$option_binding_name": "#tile_drops",
+          "$option_enabled_binding_name": "#tile_drops_enabled",
+          "$toggle_name": "tile_drops",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
         "player_sleep_toggle@settings_common.option_toggle": {
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.playerSleep",
@@ -1107,17 +1129,6 @@
               "binding_name": "$option_label"
             }
           ]
-        }
-      },
-      {
-        "tile_drops_toggle@settings_common.option_toggle": {
-          "$tts_section_header": "createWorldScreen.worldSettings",
-          "$option_label": "createWorldScreen.tileDrops",
-          "$option_binding_name": "#tile_drops",
-          "$option_enabled_binding_name": "#tile_drops_enabled",
-          "$toggle_name": "tile_drops",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
         }
       },
       {
@@ -1644,6 +1655,7 @@
     "$no_realms_packs_visibility_binding": "#no_realms_packs_visibility_level",
     "$no_unowned_packs_visibility_binding": "#no_unowned_packs_visibility_level",
     "$view_more_unowned_content_button_visibility_binding": "#suggested_content_visible_level",
+    "$addon_stacking_warning_visibility_binding": "#addon_stacking_warning_visible_level",
     "$force_pack_download_binding_type": "global",
     "bindings": [
       {
@@ -1738,6 +1750,7 @@
     "$no_realms_packs_visibility_binding": "#no_realms_packs_visibility_addon",
     "$no_unowned_packs_visibility_binding": "#no_unowned_packs_visibility_addon",
     "$view_more_unowned_content_button_visibility_binding": "#suggested_content_visible_addon",
+    "$addon_stacking_warning_visibility_binding": "#addon_stacking_warning_visible_addon",
     "bindings": [
       {
         "binding_type": "view",

@@ -1,0 +1,70 @@
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.5",
+      "interval": "1.0",
+      "max": "0.2 0.0 0.2",
+      "min": "-0.2 0.0 -0.2"
+    },
+    "emissionrate": {
+      "max": "6.4",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.3 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.3 1.3",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2025s7/ss_s7DragonKing_weaponA_shui",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/ss_s7DragonKing_weaponA_shui"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
+}

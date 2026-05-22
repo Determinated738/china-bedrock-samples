@@ -1,0 +1,82 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.3373 0.3333 0.2784 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4431 0.4314 0.3490 0.6696",
+        "time": "16.8%"
+      },
+      {
+        "color": "0.4902 0.4941 0.3686 0.4286",
+        "time": "62.1%"
+      },
+      {
+        "color": "0.4902 0.4588 0.3882 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.3"
+    },
+    "delay": 0.01,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.25 0.2 0.25"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.13 0.13"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.4 0.4",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.26 1.26",
+        "time": "44.7%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_glow"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "1.1"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

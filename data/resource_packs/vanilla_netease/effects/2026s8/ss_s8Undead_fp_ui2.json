@@ -1,0 +1,89 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "1.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9911",
+        "time": "98.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.95 0.1",
+      "min": "0.95 0.1"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Undead_fp_ui2"
+    },
+    "timetolive": {
+      "max": "10.0",
+      "min": "10.0"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "14.474%"
+        },
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "61.316%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.8,
+      "maxnum": 200,
+      "mindistance": 0.01,
+      "texmode": 1,
+      "textile": "0.2 1.0",
+      "useparticlecolor": true,
+      "useparticlewidth": true,
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

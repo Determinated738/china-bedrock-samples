@@ -1,0 +1,71 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6518",
+        "time": "8.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6964",
+        "time": "24.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "2.0",
+      "min": "1.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.05 0.7999999999999999 0.05"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "offsetInCamera": {
+      "value": "-0.3"
+    },
+    "particlesize": {
+      "max": "0.20000000000000004 0.2",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_sm4",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_sm4"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.33",
+      "min": "1.33"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

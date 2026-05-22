@@ -1,0 +1,121 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "10.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "84.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8304",
+        "time": "95.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 5.0 -2.0"
+    },
+    "dampingforce": {
+      "value": "6.5"
+    },
+    "delay": 5.779999999999999,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.3 -1.0 0.3",
+      "min": "-0.3 -1.0 -0.3",
+      "value": "Outwards"
+    },
+    "disorder": {
+      "increment": "0.0",
+      "interval": "0.3",
+      "max": "0.30000000000000004 0.30000000000000004 0.30000000000000004",
+      "min": "-0.30000000000000004 -0.30000000000000004 -0.30000000000000004"
+    },
+    "emissionrate": {
+      "max": "1111.0",
+      "min": "3000.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 1.0 0.9999999999999999"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 10,
+    "numparticles": {
+      "value": "66"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.12 0.12"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.02 1.02",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "26.7%"
+      },
+      {
+        "scale": "0.92 0.92",
+        "time": "58.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "85.0%"
+      },
+      {
+        "scale": "0.44 0.44",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_tlz1",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_tlz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.5000000000000004",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "70.0",
+      "min": "15.0"
+    }
+  }
+}

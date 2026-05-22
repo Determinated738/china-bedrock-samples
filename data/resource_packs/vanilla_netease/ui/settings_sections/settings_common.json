@@ -1707,6 +1707,7 @@
         "popup_dialog_factory": {
           "type": "factory",
           "control_ids": {
+            "modal_dialog_popup": "@popup_dialog.modal_dialog_popup",
             "purchase_failed": "@realms_create.popup_dialog__purchase_failed",
             "purchase_in_progress": "@realms_create.popup_dialog__purchase_in_progress",
             "share_by_link": "@realms_allowlist.popup_dialog__share_by_link",

@@ -1,0 +1,107 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "12.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "78.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "0.5000000000000001 0.5 -1.0",
+      "min": "-0.5000000000000001 -0.5000000000000001 -1.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.0",
+      "interval": "0.3",
+      "max": "0.2 0.2 0.2",
+      "min": "-0.2 -0.2 -0.2"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.25 0.25 0.30000000000000016"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "12"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 666.0",
+      "min": "0.0 0.0 -666.0"
+    },
+    "rotationSpeedRange": {
+      "max": "66.0 66.0 120.0",
+      "min": "-66.0 -66.0 -120.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.75 0.75",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.1 1.1",
+        "time": "22.7%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "50.7%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/ss_s8Lolita_skin_hb",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/ss_s8Lolita_skin_hb"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.7",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.7",
+      "min": "0.2"
+    }
+  }
+}

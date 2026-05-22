@@ -1,0 +1,1314 @@
+[
+  {
+    "name": "menus-atlas-e876e82626bd73989f8b.png",
+    "width": 169,
+    "height": 159,
+    "size": 8902,
+    "coordinates": {
+      "assets/bubble_action_default-bbef25eabe79ed131a72.png": {
+        "x": 0,
+        "y": 34,
+        "width": 12,
+        "height": 12
+      },
+      "assets/detailed-card-action_default-1eacdbf7075ae21526da.png": {
+        "x": 102,
+        "y": 84,
+        "width": 4,
+        "height": 4
+      },
+      "assets/detailed-card-action_disabled-8dd883d650cd0ad144b2.png": {
+        "x": 109,
+        "y": 99,
+        "width": 4,
+        "height": 2
+      },
+      "assets/detailed-card-action_disabled_focused-b335a2c0b3fbda554a86.png": {
+        "x": 95,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/detailed-card-action_focused-6b947cba4cdee937c3d4.png": {
+        "x": 163,
+        "y": 68,
+        "width": 5,
+        "height": 7
+      },
+      "assets/detailed-card-action_hovered-987e725848caeabcf02e.png": {
+        "x": 108,
+        "y": 84,
+        "width": 4,
+        "height": 4
+      },
+      "assets/detailed-card-action_pressed-375eebb4a4eea54b415f.png": {
+        "x": 88,
+        "y": 70,
+        "width": 4,
+        "height": 4
+      },
+      "assets/detailed-card-action_pressed_focused-a905f0b3cc3538b55f2d.png": {
+        "x": 81,
+        "y": 140,
+        "width": 5,
+        "height": 6
+      },
+      "assets/detailed-card-additional-action_default-bb25448c4bff7d9e0fd5.png": {
+        "x": 94,
+        "y": 70,
+        "width": 4,
+        "height": 4
+      },
+      "assets/detailed-card-additional-action_focused-b079a1825eb256e61c44.png": {
+        "x": 163,
+        "y": 34,
+        "width": 5,
+        "height": 8
+      },
+      "assets/detailed-card-additional-action_hovered-c2eacb29e052db2f0cc0.png": {
+        "x": 74,
+        "y": 56,
+        "width": 4,
+        "height": 4
+      },
+      "assets/detailed-card-additional-action_pressed-cc4a706dcab1406fe9dc.png": {
+        "x": 80,
+        "y": 56,
+        "width": 4,
+        "height": 4
+      },
+      "assets/detailed-card-additional-action_pressed_focused-df9f9b879e5ce495073d.png": {
+        "x": 88,
+        "y": 140,
+        "width": 5,
+        "height": 6
+      },
+      "assets/detailed-card-7c80abcb49930a828a00.png": {
+        "x": 94,
+        "y": 152,
+        "width": 3,
+        "height": 3
+      },
+      "assets/listItem_action_default-98ec95bb538d5afbcf21.png": {
+        "x": 99,
+        "y": 152,
+        "width": 3,
+        "height": 3
+      },
+      "assets/listItem_action_disabled-e34c7d807fefee0b1152.png": {
+        "x": 163,
+        "y": 149,
+        "width": 1,
+        "height": 1
+      },
+      "assets/listItem_action_disabled_focused-866c570916913c3f41de.png": {
+        "x": 102,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/listItem_action_focused-cbd1f45efe632665d4f2.png": {
+        "x": 52,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/listItem_action_hovered-25f289553ec4efa5ec61.png": {
+        "x": 104,
+        "y": 152,
+        "width": 3,
+        "height": 3
+      },
+      "assets/listItem_action_pressed-e222de76778d18c90218.png": {
+        "x": 109,
+        "y": 152,
+        "width": 3,
+        "height": 3
+      },
+      "assets/listItem_action_pressed_focused-37eefa99d65e1495bef9.png": {
+        "x": 61,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/listItem_disabled_default-3c13faa164820f219a4a.png": {
+        "x": 114,
+        "y": 152,
+        "width": 3,
+        "height": 3
+      },
+      "assets/listItem_disabled_focused-58778a0e0bbcd1814386.png": {
+        "x": 109,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_destructive_default-afc23b5e2d0cd6814724.png": {
+        "x": 116,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_destructive_focused-3f550a8290ff176b432c.png": {
+        "x": 70,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/pressable_destructive_hovered-13953e14ee36befae1c1.png": {
+        "x": 123,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_destructive_pressed-d5d4943d1b774ef42f85.png": {
+        "x": 130,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_disabled-3555c5a3dc9f40fda713.png": {
+        "x": 119,
+        "y": 152,
+        "width": 3,
+        "height": 3
+      },
+      "assets/pressable_elevated_destructive_default-a5fb3f173720065fcc13.png": {
+        "x": 163,
+        "y": 77,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_destructive_focused-cfa496a1b2e3a06a9db4.png": {
+        "x": 142,
+        "y": 98,
+        "width": 7,
+        "height": 9
+      },
+      "assets/pressable_elevated_destructive_hovered-63736c555d7fc6479755.png": {
+        "x": 163,
+        "y": 86,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_disabled-af3383540a78827c5a84.png": {
+        "x": 54,
+        "y": 26,
+        "width": 3,
+        "height": 5
+      },
+      "assets/pressable_elevated_neutral_default-48cdf8535bfd48b47c2a.png": {
+        "x": 163,
+        "y": 95,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_neutral_focused-b28fc482cadde858740c.png": {
+        "x": 142,
+        "y": 109,
+        "width": 7,
+        "height": 9
+      },
+      "assets/pressable_elevated_neutral_hovered-dcbd873ad9e83d24dc7a.png": {
+        "x": 163,
+        "y": 104,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_primary_default-7a6e2edf98a626b182c2.png": {
+        "x": 163,
+        "y": 113,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_primary_focused-cc7df0bf833f92bb08dd.png": {
+        "x": 142,
+        "y": 120,
+        "width": 7,
+        "height": 9
+      },
+      "assets/pressable_elevated_primary_hovered-bcb21ab092446cbcecb6.png": {
+        "x": 163,
+        "y": 122,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_secondary_default-0aacffbfa726a8184fc5.png": {
+        "x": 163,
+        "y": 131,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_elevated_secondary_focused-05d59cd4654230c9b01d.png": {
+        "x": 120,
+        "y": 104,
+        "width": 7,
+        "height": 9
+      },
+      "assets/pressable_elevated_secondary_hovered-758970b376da9eb299da.png": {
+        "x": 163,
+        "y": 140,
+        "width": 5,
+        "height": 7
+      },
+      "assets/pressable_neutral_default-e45d49d1a163c007150f.png": {
+        "x": 137,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_neutral_focused-c5a2eaeda7402012316c.png": {
+        "x": 79,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/pressable_neutral_hovered-230f9ad5ccca66468c38.png": {
+        "x": 144,
+        "y": 140,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_neutral_pressed-aad8b64fc0f155676218.png": {
+        "x": 12,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_primary_default-c4a5a4c1b74b2ff70122.png": {
+        "x": 19,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_primary_focused-84b112b857049e079b29.png": {
+        "x": 88,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/pressable_primary_hovered-1c8d9125d478e583f435.png": {
+        "x": 26,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_primary_pressed-13b0f01c6c00e07322ca.png": {
+        "x": 33,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_secondary_default-cc6424da5b7759ebfbf5.png": {
+        "x": 40,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_secondary_focused-932363b4cf5981b70bc2.png": {
+        "x": 97,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/pressable_secondary_hovered-a18c14fc21f49a22efbf.png": {
+        "x": 47,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/pressable_secondary_pressed-87bba1faba891ebfa7fc.png": {
+        "x": 54,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/realms_pressable_default-583a8fc492b39f4205d6.png": {
+        "x": 61,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/realms_pressable_elevated_default-a49f3c5058e3c40f508e.png": {
+        "x": 109,
+        "y": 90,
+        "width": 5,
+        "height": 7
+      },
+      "assets/realms_pressable_elevated_focused-07d5d2be79a46b337929.png": {
+        "x": 35,
+        "y": 140,
+        "width": 7,
+        "height": 9
+      },
+      "assets/realms_pressable_elevated_hovered-03f68e141be114d2ecf0.png": {
+        "x": 53,
+        "y": 140,
+        "width": 5,
+        "height": 7
+      },
+      "assets/realms_pressable_focused-33636b9842a7b9c74f5e.png": {
+        "x": 106,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/realms_pressable_hovered-e43632be3d18caafe836.png": {
+        "x": 68,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/realms_pressable_pressed-9c1937ca5814fd7a5f15.png": {
+        "x": 75,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/tabBar_neutral_default-40e26ac9318c12909f42.png": {
+        "x": 60,
+        "y": 140,
+        "width": 5,
+        "height": 7
+      },
+      "assets/tabBar_neutral_default_focused-812a9fcda5a4e49d93d5.png": {
+        "x": 44,
+        "y": 140,
+        "width": 7,
+        "height": 9
+      },
+      "assets/tabBar_neutral_hovered-b73d7029874500714b0f.png": {
+        "x": 67,
+        "y": 140,
+        "width": 5,
+        "height": 7
+      },
+      "assets/tabBar_neutral_pressed-9d14d8d1343a1fc3836d.png": {
+        "x": 82,
+        "y": 152,
+        "width": 5,
+        "height": 5
+      },
+      "assets/tabBar_neutral_pressed_focused-c05012af3863c527b0a2.png": {
+        "x": 115,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/achievements@0.5x.icon-5e205a8fbedb160eddead32c83f3c312.png": {
+        "x": 14,
+        "y": 34,
+        "width": 12,
+        "height": 12
+      },
+      "assets/add-image@0.5x.icon-9f40d0e426b8199372bdebbc93d0a371.png": {
+        "x": 28,
+        "y": 34,
+        "width": 12,
+        "height": 12
+      },
+      "assets/add-behaviour-pack@0.5x.icon-996e963c008701ef813e1acd74e7f068.png": {
+        "x": 56,
+        "y": 90,
+        "width": 11,
+        "height": 12
+      },
+      "assets/add-ons_small@0.5x.icon-2ecb1f8cb163f7d62882fca8fed6117a.png": {
+        "x": 152,
+        "y": 105,
+        "width": 8,
+        "height": 8
+      },
+      "assets/add-player@0.5x.icon-2f4379f41efcca69c3741a2054ee87d0.png": {
+        "x": 42,
+        "y": 34,
+        "width": 12,
+        "height": 12
+      },
+      "assets/album@0.5x.icon-8eb06e4836f8f3baaec95f488db2aa02.png": {
+        "x": 60,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      "assets/apple@0.5x.icon-f78b1690c84a7fcfa21ef56ad72e9387.png": {
+        "x": 69,
+        "y": 90,
+        "width": 11,
+        "height": 12
+      },
+      "assets/arrow-down@0.5x.icon-94262108ab3b4e3a524d8a3a25c49c80.png": {
+        "x": 130,
+        "y": 83,
+        "width": 9,
+        "height": 12
+      },
+      "assets/add-resource-pack@0.5x.icon-5ae9688afc0437276b31febb725f03df.png": {
+        "x": 82,
+        "y": 90,
+        "width": 11,
+        "height": 12
+      },
+      "assets/arrow-left@0.5x.icon-7b87c58a422fe78b5bc658aa522c3872.png": {
+        "x": 0,
+        "y": 117,
+        "width": 12,
+        "height": 9
+      },
+      "assets/arrow-right@0.5x.icon-14b53e561b57a6a9d45b301493d24897.png": {
+        "x": 14,
+        "y": 117,
+        "width": 12,
+        "height": 9
+      },
+      "assets/arrow-up@0.5x.icon-887cf8fb1410930b75cab0028b79cd7f.png": {
+        "x": 130,
+        "y": 97,
+        "width": 9,
+        "height": 12
+      },
+      "assets/backup@0.5x.icon-d2862dce4640eb9e73babb1453e77328.png": {
+        "x": 0,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/achievement-bottle.icon-4eb8c1718579b71d03954cc52771e424.png": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      },
+      "assets/accessibility@0.5x.icon-dad71ca29518aa899ffeea8d919e0307.png": {
+        "x": 108,
+        "y": 128,
+        "width": 9,
+        "height": 10
+      },
+      "assets/bell@0.5x.icon-259b09ba26b33bdd5b23861e067a3eb7.png": {
+        "x": 130,
+        "y": 70,
+        "width": 10,
+        "height": 11
+      },
+      "assets/block@0.5x.icon-5d2f0e304d776242b765beb9ca592059.png": {
+        "x": 60,
+        "y": 14,
+        "width": 12,
+        "height": 12
+      },
+      "assets/block_small@0.5x.icon-a564770b405899256c61060f43a29738.png": {
+        "x": 152,
+        "y": 115,
+        "width": 8,
+        "height": 8
+      },
+      "assets/boots@0.5x.icon-552067cfbc3a2e0f6ecaeb3bb3fa57ca.png": {
+        "x": 68,
+        "y": 104,
+        "width": 11,
+        "height": 10
+      },
+      "assets/add-ons@0.5x.icon-8520e720ba44892a58302890eee7f1a9.png": {
+        "x": 60,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
+      "assets/brush@0.5x.icon-c1e1badcb9fb0e159a3edc986553cbb8.png": {
+        "x": 0,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      "assets/brush_small@0.5x.icon-42a965633d1301f3ec95d45c16592c21.png": {
+        "x": 152,
+        "y": 125,
+        "width": 8,
+        "height": 8
+      },
+      "assets/checkmark@0.5x.icon-6995d82c2fd8380979391eebf918a78d.png": {
+        "x": 34,
+        "y": 26,
+        "width": 8,
+        "height": 6
+      },
+      "assets/checkmark_small@0.5x.icon-6995d82c2fd8380979391eebf918a78d.png": {
+        "x": 44,
+        "y": 26,
+        "width": 8,
+        "height": 6
+      },
+      "assets/chevron-left@0.5x.icon-1db2f4b3cf3bf5b825bab6d3427e5638.png": {
+        "x": 0,
+        "y": 152,
+        "width": 4,
+        "height": 7
+      },
+      "assets/chevron-right@0.5x.icon-207cac3d398ae5ea4a1440cfee1b4770.png": {
+        "x": 6,
+        "y": 152,
+        "width": 4,
+        "height": 7
+      },
+      "assets/chevron-up@0.5x.icon-9b9c9b7e2068e310cd8f36ad25727f26.png": {
+        "x": 152,
+        "y": 145,
+        "width": 7,
+        "height": 4
+      },
+      "assets/closed-captions@0.5x.icon-515dbd52a5f98f3f5c877e001bbdf3ca.png": {
+        "x": 81,
+        "y": 104,
+        "width": 11,
+        "height": 10
+      },
+      "assets/clothes@0.5x.icon-75344eae678b89ecda58c9a34d4a7153.png": {
+        "x": 14,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      "assets/chevron-down@0.5x.icon-24a8c224d1fd5bd74a6bae99b39af6f0.png": {
+        "x": 130,
+        "y": 111,
+        "width": 7,
+        "height": 4
+      },
+      "assets/clothes_small@0.5x.icon-b6e632bfba0f670a4c1c653646ca4b41.png": {
+        "x": 152,
+        "y": 135,
+        "width": 8,
+        "height": 8
+      },
+      "assets/cloud@0.5x.icon-80e2312e601b3232f76ed300e420f408.png": {
+        "x": 12,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/comment@0.5x.icon-2df014c80d34e96097db57c0539d7dc4.png": {
+        "x": 24,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/cross@0.5x.icon-2be362862c2d2b2788bf60965e22edfa.png": {
+        "x": 124,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/crossbow@0.5x.icon-13ccfc756ad27e59192552c9131c9c91.png": {
+        "x": 116,
+        "y": 13,
+        "width": 11,
+        "height": 11
+      },
+      "assets/delete@0.5x.icon-e2052155b7130121fedc9605a148df94.png": {
+        "x": 142,
+        "y": 0,
+        "width": 8,
+        "height": 12
+      },
+      "assets/default@0.5x.icon-8ce157a1cd8a7b1b048c31d49e2936df.png": {
+        "x": 163,
+        "y": 44,
+        "width": 6,
+        "height": 6
+      },
+      "assets/docs-section@0.5x.icon-6aed82490ffbe79e382baeb65306bf60.png": {
+        "x": 142,
+        "y": 28,
+        "width": 8,
+        "height": 8
+      },
+      "assets/docs-page@0.5x.icon-10dc2f020b1d7e344febda0433c91e37.png": {
+        "x": 130,
+        "y": 0,
+        "width": 10,
+        "height": 12
+      },
+      "assets/drag-and-drop@0.5x.icon-c9c33e57602a2248b035eea0d3028ead.png": {
+        "x": 89,
+        "y": 152,
+        "width": 3,
+        "height": 5
+      },
+      "assets/duplicate@0.5x.icon-ec7808b2467c4ad410e55e4663e70a11.png": {
+        "x": 116,
+        "y": 26,
+        "width": 11,
+        "height": 11
+      },
+      "assets/damage@0.5x.icon-a1c2d872a76ba7994e8a5c1d2d84140e.png": {
+        "x": 152,
+        "y": 38,
+        "width": 9,
+        "height": 9
+      },
+      "assets/download@0.5x.icon-80549399fefda6981a87edf6ff2bd021.png": {
+        "x": 119,
+        "y": 128,
+        "width": 9,
+        "height": 10
+      },
+      "assets/edit-image@0.5x.icon-d65de603d7d71b75ad29721c3327b2bc.png": {
+        "x": 28,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      "assets/edit@0.5x.icon-cc7f2d374d57ae7a3ea3b35e6e01870a.png": {
+        "x": 42,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      "assets/elytra@0.5x.icon-88c4df79263bc26ea9484e4d66d9cfcc.png": {
+        "x": 26,
+        "y": 104,
+        "width": 12,
+        "height": 10
+      },
+      "assets/emerald@0.5x.icon-02510dba716f8aa8a41a761a4022519c.png": {
+        "x": 130,
+        "y": 14,
+        "width": 10,
+        "height": 12
+      },
+      "assets/emote_small@0.5x.icon-f21ff5a5e9d1d9d9f97e8fd7a6a79166.png": {
+        "x": 130,
+        "y": 128,
+        "width": 9,
+        "height": 10
+      },
+      "assets/emote@0.5x.icon-ada40e80fc1082d83ff42c9b94cc832c.png": {
+        "x": 56,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      "assets/enter@0.5x.icon-c07398da3eeec6d9684543d7b12fdec3.png": {
+        "x": 116,
+        "y": 39,
+        "width": 11,
+        "height": 11
+      },
+      "assets/exit@0.5x.icon-2af38c41215b3810c6892857e77063fd.png": {
+        "x": 116,
+        "y": 52,
+        "width": 11,
+        "height": 11
+      },
+      "assets/exit-fullscreen@0.5x.icon-80d2bdd28c2fef7c8f800e6458b455f9.png": {
+        "x": 36,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/export@0.5x.icon-64be4eda0182e785acf325e1cb6ace23.png": {
+        "x": 0,
+        "y": 140,
+        "width": 9,
+        "height": 10
+      },
+      "assets/external-link@0.5x.icon-2b6ce0bb0a430a1f4678d561eb34f9a8.png": {
+        "x": 74,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      "assets/followers@0.5x.icon-4da569f229e7df54dca4a7552f8c0bc9.png": {
+        "x": 74,
+        "y": 14,
+        "width": 12,
+        "height": 12
+      },
+      "assets/friends@0.5x.icon-23e2486fdf4998f34c316667554eb816.png": {
+        "x": 74,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
+      "assets/filter@0.5x.icon-f7d152ce01c79bc7bff2fd3452f1a3d5.png": {
+        "x": 74,
+        "y": 42,
+        "width": 12,
+        "height": 12
+      },
+      "assets/friends_small@0.5x.icon-cff7a2513fd64a11d0b5c4d0a684277b.png": {
+        "x": 48,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/fullscreen@0.5x.icon-bf4881368ce5d0df918f1ef63fea2333.png": {
+        "x": 0,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/gamerscore@0.5x.icon-fa65b4fa4c99f7a7b1ea4621c7ae5607.png": {
+        "x": 14,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/gamerscore_small@0.5x.icon-8aeecf26d14b7d40499b6cf5754e469b.png": {
+        "x": 133,
+        "y": 117,
+        "width": 7,
+        "height": 7
+      },
+      "assets/grid@0.5x.icon-8ce157a1cd8a7b1b048c31d49e2936df.png": {
+        "x": 163,
+        "y": 52,
+        "width": 6,
+        "height": 6
+      },
+      "assets/hanger@0.5x.icon-f97443bfb121f1cda005f374af3a32aa.png": {
+        "x": 28,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/hanger_small@0.5x.icon-d2f74f71ecf3baece17b219fd120dd1b.png": {
+        "x": 142,
+        "y": 38,
+        "width": 8,
+        "height": 8
+      },
+      "assets/hardcore-heart@0.5x.icon-22f52aa5b0422256cd1812f9665d7540.png": {
+        "x": 152,
+        "y": 49,
+        "width": 9,
+        "height": 9
+      },
+      "assets/heart-active@0.5x.icon-8f7e9967d77f91e799921705e77c0a26.png": {
+        "x": 152,
+        "y": 60,
+        "width": 9,
+        "height": 9
+      },
+      "assets/hardcore-heart_small@0.5x.icon-22f52aa5b0422256cd1812f9665d7540.png": {
+        "x": 152,
+        "y": 71,
+        "width": 9,
+        "height": 9
+      },
+      "assets/heart@0.5x.icon-42e2e1ce16992d1e59520ba26eac93e9.png": {
+        "x": 152,
+        "y": 82,
+        "width": 9,
+        "height": 9
+      },
+      "assets/hourglass@0.5x.icon-684a3139d4fe72e6925e0b5dfe817a5c.png": {
+        "x": 142,
+        "y": 14,
+        "width": 8,
+        "height": 12
+      },
+      "assets/image@0.5x.icon-9a2b8b649d99840398a784f87f47575f.png": {
+        "x": 60,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/information@0.5x.icon-93cdb27069518c25fea95a504167d069.png": {
+        "x": 72,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/invite@0.5x.icon-703395adb0b058f4c5479ff5c159b55c.png": {
+        "x": 42,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/lan@0.5x.icon-8c937ae4ef2ad58f884b85d360090402.png": {
+        "x": 56,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/list@0.5x.icon-42da782d464672cad936015a95ff57c4.png": {
+        "x": 142,
+        "y": 131,
+        "width": 8,
+        "height": 7
+      },
+      "assets/lock-locked@0.5x.icon-ab340af560f90792c7038c6d22e9c666.png": {
+        "x": 142,
+        "y": 48,
+        "width": 8,
+        "height": 8
+      },
+      "assets/lan-hidden@0.5x.icon-7ddac631dbaad66c283bb170ca2811ff.png": {
+        "x": 70,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/lock-locked_small@0.5x.icon-ab340af560f90792c7038c6d22e9c666.png": {
+        "x": 142,
+        "y": 58,
+        "width": 8,
+        "height": 8
+      },
+      "assets/lock-unlocked@0.5x.icon-d7d575de6581356c776f5fff77389914.png": {
+        "x": 28,
+        "y": 117,
+        "width": 12,
+        "height": 8
+      },
+      "assets/mashup-pack@0.5x.icon-49be22b1b52c36361a1a5d5293301ac2.png": {
+        "x": 88,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      "assets/member@0.5x.icon-99c628c87b9e293f1597794c2c155274.png": {
+        "x": 88,
+        "y": 14,
+        "width": 12,
+        "height": 12
+      },
+      "assets/mashup-pack_small@0.5x.icon-8a0d4ec8ab620ace0ef09e69fdd90b92.png": {
+        "x": 142,
+        "y": 68,
+        "width": 8,
+        "height": 8
+      },
+      "assets/minus@0.5x.icon-8db5e4bec32c1d34384a2b1c612ed52b.png": {
+        "x": 60,
+        "y": 42,
+        "width": 8,
+        "height": 1
+      },
+      "assets/missing-image-1@0.5x.icon-ac82fade79497c7587e098500db37ba1.png": {
+        "x": 88,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
+      "assets/menu@0.5x.icon-e297074a8df6e0c223c176ed68ecdd5a.png": {
+        "x": 42,
+        "y": 117,
+        "width": 8,
+        "height": 7
+      },
+      "assets/missing-image@0.5x.icon-b099df8ab6445149a49e632842a0d380.png": {
+        "x": 88,
+        "y": 42,
+        "width": 12,
+        "height": 12
+      },
+      "assets/mute@0.5x.icon-59187cea7857a72d94b0e69f4ee8c4ad.png": {
+        "x": 94,
+        "y": 104,
+        "width": 11,
+        "height": 10
+      },
+      "assets/news-feed@0.5x.icon-c85825d326273c2ffb3b436dbad98842.png": {
+        "x": 88,
+        "y": 56,
+        "width": 12,
+        "height": 12
+      },
+      "assets/options@0.5x.icon-a0a3933c545fe16bb3edeff2968b0f57.png": {
+        "x": 56,
+        "y": 34,
+        "width": 2,
+        "height": 8
+      },
+      "assets/party@0.5x.icon-13ea559247c0f695a274c25c4de37bdb.png": {
+        "x": 95,
+        "y": 90,
+        "width": 12,
+        "height": 11
+      },
+      "assets/pause@0.5x.icon-1d45c4a8b78b5df73188268e1c374b6a.png": {
+        "x": 163,
+        "y": 24,
+        "width": 6,
+        "height": 8
+      },
+      "assets/operator@0.5x.icon-23882b92376c32f092220931307bb2c4.png": {
+        "x": 0,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/permission-custom@0.5x.icon-bdf0f523ef4e673f4c6ae0cc5b4852c9.png": {
+        "x": 14,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/permission-member@0.5x.icon-92816b57441756ee137f7fdc4f968844.png": {
+        "x": 28,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/permission-operator@0.5x.icon-98eb755a73f24ed966a5f221a883f459.png": {
+        "x": 42,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/permission-visitor@0.5x.icon-73d73cee9966828de526b1b2b160f664.png": {
+        "x": 116,
+        "y": 0,
+        "width": 12,
+        "height": 11
+      },
+      "assets/pickaxe@0.5x.icon-4a49f94adb5b9530be1e961a5d089dbd.png": {
+        "x": 56,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/play@0.5x.icon-d17d965f66f97b562dbce23bfa23ea8e.png": {
+        "x": 152,
+        "y": 24,
+        "width": 7,
+        "height": 12
+      },
+      "assets/player_online@0.5x.icon-08d41ccc0a633969d064ecfd114f34b8.png": {
+        "x": 70,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/player@0.5x.icon-7c34a722eb98b0fbed671c9c77e9a2aa.png": {
+        "x": 84,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/plus@1x.icon-254700491e0f4c88abfae89a00a9fc8d.png": {
+        "x": 34,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      },
+      "assets/potion-bottle@0.5x.icon-09313c430988f33f2b3b4d90da03a9aa.png": {
+        "x": 130,
+        "y": 28,
+        "width": 10,
+        "height": 12
+      },
+      "assets/print@0.5x.icon-ec26efb45a2e19c1c5c4178dd3765d54.png": {
+        "x": 40,
+        "y": 104,
+        "width": 12,
+        "height": 10
+      },
+      "assets/qr-code@0.5x.icon-ff09e599e72e589d4d239335ed281a9d.png": {
+        "x": 116,
+        "y": 65,
+        "width": 11,
+        "height": 11
+      },
+      "assets/question-mark@0.5x.icon-eeecb548ed8ba6bc2db934dd0daf88b5.png": {
+        "x": 152,
+        "y": 93,
+        "width": 7,
+        "height": 10
+      },
+      "assets/question-mark_small@0.5x.icon-46695eb451b98597c0102a2b5b061085.png": {
+        "x": 74,
+        "y": 140,
+        "width": 5,
+        "height": 7
+      },
+      "assets/rate@0.5x.icon-5d1fad960b4c8f3231418e29722279e2.png": {
+        "x": 11,
+        "y": 140,
+        "width": 10,
+        "height": 9
+      },
+      "assets/realms-stories-unread@0.5x.icon-8ee6bc4468ddec5a1e6af4ff6c1eeee9.png": {
+        "x": 102,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      "assets/realms-stories@0.5x.icon-035cb867e0e2b8b67b41a9f5fdd45148.png": {
+        "x": 102,
+        "y": 14,
+        "width": 12,
+        "height": 12
+      },
+      "assets/remove-player@0.5x.icon-bfc0fb506f75120405b5f26b56a5f8dd.png": {
+        "x": 102,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
+      "assets/remove-resource-pack@0.5x.icon-557825321c4832445be287030b71b314.png": {
+        "x": 116,
+        "y": 78,
+        "width": 11,
+        "height": 11
+      },
+      "assets/remove-behaviour-pack@0.5x.icon-f9d3cccc638400028abb0ebaa594de9f.png": {
+        "x": 116,
+        "y": 91,
+        "width": 11,
+        "height": 11
+      },
+      "assets/reset@0.5x.icon-5fa663ec86abf3419994ead3ea27781c.png": {
+        "x": 102,
+        "y": 42,
+        "width": 12,
+        "height": 12
+      },
+      "assets/rotten-flesh@0.5x.icon-1a4aab0bfda061084e042c2d56352eb3.png": {
+        "x": 107,
+        "y": 104,
+        "width": 11,
+        "height": 10
+      },
+      "assets/save@0.5x.icon-96183b3001fa37c10867bdcce6f3fb52.png": {
+        "x": 84,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/search@0.5x.icon-2c4a292e6b0d43322e5d1f41d0716cae.png": {
+        "x": 102,
+        "y": 56,
+        "width": 12,
+        "height": 12
+      },
+      "assets/settings@0.5x.icon-a8b15a5633c92f837be66e0e1795383e.png": {
+        "x": 23,
+        "y": 140,
+        "width": 10,
+        "height": 9
+      },
+      "assets/share-android@0.5x.icon-3325222f464237add11dc4d757fb1f7d.png": {
+        "x": 163,
+        "y": 0,
+        "width": 6,
+        "height": 10
+      },
+      "assets/share-ios@0.5x.icon-077f85d5eb8267d16a0cfc02c89603fb.png": {
+        "x": 130,
+        "y": 42,
+        "width": 10,
+        "height": 12
+      },
+      "assets/sleep@0.5x.icon-ec9f25dd448158a4a6e660be75d4a4bf.png": {
+        "x": 102,
+        "y": 70,
+        "width": 12,
+        "height": 12
+      },
+      "assets/switch-off@0.5x.icon-75a1ca9123ee469d1a2b3ac9358e5ccc.png": {
+        "x": 163,
+        "y": 60,
+        "width": 6,
+        "height": 6
+      },
+      "assets/share-generic@0.5x.icon-a522ddfed6b18d5d105c77abb2f38238.png": {
+        "x": 0,
+        "y": 90,
+        "width": 12,
+        "height": 12
+      },
+      "assets/switch-on@0.5x.icon-55509fc80b04f65abce1f7a941dd3ab3.png": {
+        "x": 70,
+        "y": 48,
+        "width": 1,
+        "height": 6
+      },
+      "assets/sword@0.5x.icon-5515ebe013a8758864491b874feb7fc8.png": {
+        "x": 14,
+        "y": 90,
+        "width": 12,
+        "height": 12
+      },
+      "assets/thumbs-down@0.5x.icon-961ba14cf6915d963179042066d560c3.png": {
+        "x": 0,
+        "y": 104,
+        "width": 11,
+        "height": 11
+      },
+      "assets/thumbs-up@0.5x.icon-a6921c4fcc4068235617946c799185f8.png": {
+        "x": 13,
+        "y": 104,
+        "width": 11,
+        "height": 11
+      },
+      "assets/time@0.5x.icon-3c59335620ebfdf0e67ba7a5ad1c1a24.png": {
+        "x": 28,
+        "y": 90,
+        "width": 12,
+        "height": 12
+      },
+      "assets/timer@0.5x.icon-7123bed0675beb2613da4e041639acea.png": {
+        "x": 130,
+        "y": 56,
+        "width": 10,
+        "height": 12
+      },
+      "assets/visitor@0.5x.icon-572a369b2025e6d190d153594a82c554.png": {
+        "x": 163,
+        "y": 12,
+        "width": 6,
+        "height": 10
+      },
+      "assets/time_small@0.5x.icon-ae6c3352cd17df2de6db7dc3c93e2c89.png": {
+        "x": 142,
+        "y": 78,
+        "width": 8,
+        "height": 8
+      },
+      "assets/volume@0.5x.icon-aad7d6fee0a0e88ac7959c97f8ba02bd.png": {
+        "x": 54,
+        "y": 104,
+        "width": 12,
+        "height": 10
+      },
+      "assets/warning_small@0.5x.icon-78dc732fd5738943465cf135096e89e6.png": {
+        "x": 152,
+        "y": 0,
+        "width": 9,
+        "height": 10
+      },
+      "assets/world@0.5x.icon-9c8038e9adc8ca01f58e8c4a5764491d.png": {
+        "x": 42,
+        "y": 90,
+        "width": 12,
+        "height": 12
+      },
+      "assets/world_small@0.5x.icon-b7a844d18509b73a09453839cac671d2.png": {
+        "x": 142,
+        "y": 88,
+        "width": 8,
+        "height": 8
+      },
+      "assets/xp-orb@0.5x.icon-e90369edb397f3b701998ba00c835f16.png": {
+        "x": 96,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
+      "assets/warning@0.5x.icon-78dc732fd5738943465cf135096e89e6.png": {
+        "x": 152,
+        "y": 12,
+        "width": 9,
+        "height": 10
+      }
+    }
+  },
+  {
+    "name": "gameplay-atlas-96eebeaa867a86165610.png",
+    "width": 412,
+    "height": 291,
+    "size": 6402,
+    "coordinates": {
+      "assets/item_slot_barrel_1-08bcf3db20995ecbd4b4.png": {
+        "x": 16,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/item_slot_chest_default_1-b6d7764b90bb6bdd19ae.png": {
+        "x": 23,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/item_slot_default_dark_1-2d2d22a16d89daef32c6.png": {
+        "x": 30,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/item_slot_default_1-a4a9d7f4a8a64bed86d9.png": {
+        "x": 37,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/item_slot_selected-b9651064e659908a85f6.png": {
+        "x": 44,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/item_slot_chest_ender_1-f49f084039f222316941.png": {
+        "x": 51,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/item_slot_shulker_box_1-7aa1eeb377ea16d3053c.png": {
+        "x": 58,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      },
+      "assets/container_barrel-4f0cb202d0974492f965.png": {
+        "x": 0,
+        "y": 0,
+        "width": 136,
+        "height": 138
+      },
+      "assets/container_chest_default-540af0fa638ddf3bad5a.png": {
+        "x": 138,
+        "y": 0,
+        "width": 136,
+        "height": 138
+      },
+      "assets/latch-388ceb66fb57679485a3.png": {
+        "x": 0,
+        "y": 280,
+        "width": 6,
+        "height": 11
+      },
+      "assets/container_default_dark-1f864a7a2019892ece5f.png": {
+        "x": 276,
+        "y": 0,
+        "width": 136,
+        "height": 138
+      },
+      "assets/container_default-855c528e8ab00e0d45a0.png": {
+        "x": 0,
+        "y": 140,
+        "width": 136,
+        "height": 138
+      },
+      "assets/container_chest_ender-f717b696c57cef3ef3c5.png": {
+        "x": 138,
+        "y": 140,
+        "width": 136,
+        "height": 138
+      },
+      "assets/latch-53b2828746c0fc25e557.png": {
+        "x": 8,
+        "y": 280,
+        "width": 6,
+        "height": 11
+      },
+      "assets/container_shulker_box-59843294a40ef3035246.png": {
+        "x": 276,
+        "y": 140,
+        "width": 136,
+        "height": 138
+      },
+      "assets/tooltip-2712aa22c3be49bc6874.png": {
+        "x": 65,
+        "y": 280,
+        "width": 5,
+        "height": 5
+      }
+    }
+  }
+]

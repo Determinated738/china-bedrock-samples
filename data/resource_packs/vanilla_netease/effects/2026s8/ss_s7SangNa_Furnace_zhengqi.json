@@ -1,0 +1,80 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.7255 0.8235 0.9412 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.6275 0.8314 0.9647 0.1071",
+        "time": "16.8%"
+      },
+      {
+        "color": "0.7961 1.0000 0.7373 0.2232",
+        "time": "53.4%"
+      },
+      {
+        "color": "0.8706 0.8196 0.6902 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.2 0.0"
+    },
+    "delay": 0.01,
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.2 0.1"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "layer": 0,
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.54 0.54",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.36 1.36",
+        "time": "19.7%"
+      },
+      {
+        "scale": "1.96 1.96",
+        "time": "53.3%"
+      },
+      {
+        "scale": "2.16 2.16",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_glow"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "1.2"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

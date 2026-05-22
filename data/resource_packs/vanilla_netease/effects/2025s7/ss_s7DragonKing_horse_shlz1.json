@@ -1,0 +1,68 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6696",
+        "time": "5.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5625",
+        "time": "63.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "-0.1 1.0 0.4",
+      "min": "0.4 1.0 -0.4",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.8 0.15"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "offsetInCamera": {
+      "value": "-0.09999999999999999"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.25 0.25"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2025s7/ss_s7DragonKing_horse_sh1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/ss_s7DragonKing_horse_sh1"
+    },
+    "thickness": {
+      "value": "0.9999999999999999"
+    },
+    "velocity": {
+      "max": "0.5000000000000001",
+      "min": "0.0"
+    }
+  }
+}

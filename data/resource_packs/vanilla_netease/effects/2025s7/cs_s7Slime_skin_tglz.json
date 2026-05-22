@@ -1,0 +1,84 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.5294 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4392 0.9451 1.0000 1.0000",
+        "time": "20.3%"
+      },
+      {
+        "color": "1.0000 0.6706 0.9843 0.5982",
+        "time": "74.5%"
+      },
+      {
+        "color": "0.6510 0.9686 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.1"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.1 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.08 0.08"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.15 0.15",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.62 0.62",
+        "time": "28.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2025s7/cs_s7Slime_skin_klz"
+    },
+    "thickness": {
+      "value": "0.05"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

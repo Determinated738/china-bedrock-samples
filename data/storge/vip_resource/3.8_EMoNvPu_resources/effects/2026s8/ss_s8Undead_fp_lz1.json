@@ -1,0 +1,114 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "10.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "35.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.9018",
+        "time": "64.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.0 1.2000000000000002"
+    },
+    "dampingforce": {
+      "value": "5.5"
+    },
+    "direction": {
+      "max": "0.2 0.0 1.0",
+      "min": "-0.20000000000000015 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "15.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterpath": [
+      {
+        "offset": "0.0 0.7 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 2.0 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.12 0.12",
+      "min": "0.07 0.07"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.38 1.38",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "15.0%"
+      },
+      {
+        "scale": "1.29 1.29",
+        "time": "75.0%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/ss_s8Undead_fp_lz1",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/ss_s8Undead_fp_lz1"
+    },
+    "thickness": {
+      "value": "1.0"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "8.0",
+      "min": "5.0"
+    }
+  }
+}

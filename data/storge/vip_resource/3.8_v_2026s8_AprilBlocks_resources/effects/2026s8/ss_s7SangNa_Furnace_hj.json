@@ -1,0 +1,119 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.3"
+    },
+    "colorfade": [
+      {
+        "color": "0.1255 0.1020 0.0902 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1255 0.1020 0.0902 0.9732",
+        "time": "10.8%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.9554",
+        "time": "16.3%"
+      },
+      {
+        "color": "0.1255 0.1020 0.0902 0.9554",
+        "time": "20.0%"
+      },
+      {
+        "color": "0.2196 0.1686 0.1137 0.8661",
+        "time": "33.2%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.8393",
+        "time": "39.2%"
+      },
+      {
+        "color": "0.2196 0.1686 0.1137 0.7768",
+        "time": "45.0%"
+      },
+      {
+        "color": "0.5608 0.4706 0.4275 0.4732",
+        "time": "80.0%"
+      },
+      {
+        "color": "0.6196 0.4941 0.4784 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 1.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.0",
+      "interval": "0.1",
+      "max": "0.4 0.4 0.4",
+      "min": "-0.4 -0.4 0.4"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.05 0.1"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "inactivetime": {
+      "value": "0.5"
+    },
+    "offsetInCamera": {
+      "value": "-0.1"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.08 0.08"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.2 0.2",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.52 1.52",
+        "time": "6.3%"
+      },
+      {
+        "scale": "0.66 0.66",
+        "time": "33.7%"
+      },
+      {
+        "scale": "0.06 0.06",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_fglz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.3"
+    }
+  }
+}

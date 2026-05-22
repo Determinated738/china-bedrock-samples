@@ -1,0 +1,16 @@
+{
+  "parent": {
+    "file": "reflection_configuration.ios.low.json"
+  },
+  "overrides": {
+    "ibl": {
+      "num_samples": 32,
+      "dimension": 256,
+      "convolution_type": "importance_sampled"
+    },
+    "ssr_enabled": true,
+    "ssr": {
+      "linear_search_step_count": 200
+    }
+  }
+}

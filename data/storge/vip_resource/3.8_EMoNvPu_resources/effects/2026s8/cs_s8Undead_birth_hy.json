@@ -1,0 +1,101 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "2.5"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.4018",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3125",
+        "time": "67.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 10.0 0.0"
+    },
+    "dampingforce": {
+      "value": "7.0"
+    },
+    "delay": 3.55,
+    "direction": {
+      "max": "0.2 0.0 -1.0",
+      "min": "-0.2 0.0 -0.5",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "36.0",
+      "min": "36.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.7000000000000001 0.9"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "25"
+    },
+    "offsetInCamera": {
+      "value": "1.0"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.3 0.3"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.38 1.38",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.26 1.26",
+        "time": "13.3%"
+      },
+      {
+        "scale": "1.4 1.4",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/2026s8/cs_s8Undead_birth_hylz1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Undead_birth_hylz1"
+    },
+    "thickness": {
+      "value": "0.10000000000000003"
+    },
+    "timetolive": {
+      "max": "0.66",
+      "min": "0.66"
+    },
+    "velocity": {
+      "max": "15.0",
+      "min": "7.0"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8078 0.4157 0.3304",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9765 0.2235 0.3125",
+        "time": "20.8%"
+      },
+      {
+        "color": "0.4941 1.0000 0.8588 0.3214",
+        "time": "30.5%"
+      },
+      {
+        "color": "0.5216 1.0000 0.9686 0.3393",
+        "time": "68.7%"
+      },
+      {
+        "color": "0.5137 0.9216 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.0999999999999999,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "emitterpath": [
+      {
+        "offset": "-0.2 -1.7 0.0",
+        "rotation": "0.0 0.0 0.0",
+        "time": "0.0"
+      }
+    ],
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "1.3 2.1",
+      "min": "1.3 2.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_gs1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_gs1"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

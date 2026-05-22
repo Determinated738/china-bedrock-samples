@@ -1,0 +1,74 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "0.7686 0.9922 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7686 0.9922 1.0000 0.1518",
+        "time": "22.1%"
+      },
+      {
+        "color": "0.7765 0.9843 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -1.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "-0.30000000000000004 -1.0 -0.30000000000000004",
+      "min": "0.30000000000000004 -1.0 0.30000000000000004",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "8",
+        "name": "textures/sfxs/2026s8/cs_s8Undead_skin_yan",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Undead_skin_yan"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.4",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "2.0"
+    }
+  }
+}

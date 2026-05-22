@@ -908,6 +908,78 @@
             {
               "move.cs_s7baigu_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s7baigu_skin_idle_anim_idle_junei"
             },
+            {
+              "move.ss_s7rabbit_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s7rabbit_skin_run_anim_run"
+            },
+            {
+              "move.ss_s7rabbit_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s7rabbit_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s7dragonking_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s7dragonking_skin_idle_anim_idle_junei"
+            },
+            {
+              "move.cs_s7dragonking_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s7dragonking_skin_run_anim_run"
+            },
+            {
+              "move.cs_s7dragonking_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s7dragonking_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s7slime_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s7slime_skin_idle_anim_idle_junei"
+            },
+            {
+              "move.cs_s7slime_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s7slime_skin_run_anim_run"
+            },
+            {
+              "move.cs_s7slime_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s7slime_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s8undead_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s8undead_skin_idle_anim_idle_junei"
+            },
+            {
+              "move.cs_s8undead_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s8undead_skin_run_anim_run"
+            },
+            {
+              "move.cs_s8undead_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s8undead_skin_walk_anim_run"
+            },
+            {
+              "move.cs_s8devilmaid_skin_idle_anim_idle_junei": "!query.is_sleeping && query.mod.vip_idle && query.mod.cs_s8devilmaid_skin_idle_anim_idle_junei"
+            },
+            {
+              "move.cs_s8devilmaid_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.cs_s8devilmaid_skin_run_anim_run"
+            },
+            {
+              "move.cs_s8devilmaid_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.cs_s8devilmaid_skin_walk_anim_run"
+            },
+            {
+              "move.ss_s8lehun_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s8lehun_skin_run_anim_run"
+            },
+            {
+              "move.ss_s8lehun_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s8lehun_skin_walk_anim_run"
+            },
+            {
+              "move.ss_s8lolita_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s8lolita_skin_run_anim_run"
+            },
+            {
+              "move.ss_s8lolita_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s8lolita_skin_walk_anim_run"
+            },
+            {
+              "move.ss_s8lolita_skina_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s8lolita_skina_run_anim_run"
+            },
+            {
+              "move.ss_s8lolita_skina_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s8lolita_skina_walk_anim_run"
+            },
+            {
+              "move.ss_s8lolita_skinb_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s8lolita_skinb_run_anim_run"
+            },
+            {
+              "move.ss_s8lolita_skinb_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s8lolita_skinb_walk_anim_run"
+            },
+            {
+              "move.ss_s8witch_skin_run_anim_run": "!query.is_sleeping && query.mod.vip_run && query.mod.ss_s8witch_skin_run_anim_run"
+            },
+            {
+              "move.ss_s8witch_skin_walk_anim_run": "!query.is_sleeping && query.mod.vip_walk && query.mod.ss_s8witch_skin_walk_anim_run"
+            },
             "cape",
             {
               "riding.arms": "query.is_riding && !query.mod.vip_ride && !query.mod.vip_ride_low"
@@ -947,6 +1019,15 @@
             },
             {
               "riding.cs_s7baigu_horse_qicheng": "query.mod.cs_s7baigu_horse_qicheng"
+            },
+            {
+              "riding.cs_s7wukong_horse_qicheng": "query.mod.cs_s7wukong_horse_qicheng"
+            },
+            {
+              "riding.cs_s7dragonking_horse_zuozi": "query.mod.cs_s7dragonking_horse_zuozi"
+            },
+            {
+              "riding.ss_s8devilmaid_horse_qicheng": "query.mod.ss_s8devilmaid_horse_qicheng"
             },
             "holding",
             {

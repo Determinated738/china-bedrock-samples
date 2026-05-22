@@ -1,0 +1,83 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.6549 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8588 0.0471 1.0000 0.7500",
+        "time": "59.5%"
+      },
+      {
+        "color": "0.3843 0.0471 0.4706 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 2.3,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "5.0"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.99 0.99",
+        "time": "8.3%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "26.3%"
+      },
+      {
+        "scale": "1.56 1.56",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8crow_skin_san"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

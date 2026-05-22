@@ -1,0 +1,302 @@
+{
+  "ceshi_back": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_back_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_back_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_back_mesh.bin"
+  },
+  "ceshi_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_body_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_body_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_body_mesh.bin"
+  },
+  "ceshi_bodydown": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_bodydown_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_bodydown_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_bodydown_mesh.bin"
+  },
+  "ceshi_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_head_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_head_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_head_mesh.bin"
+  },
+  "ceshi_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_leftarm_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_leftarm_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_leftarm_mesh.bin"
+  },
+  "ceshi_leftarmdown": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_leftarmdown_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_leftarmdown_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_leftarmdown_mesh.bin"
+  },
+  "ceshi_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_leftleg_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_leftleg_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_leftleg_mesh.bin"
+  },
+  "ceshi_leftlegdown": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_leftlegdown_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_leftlegdown_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_leftlegdown_mesh.bin"
+  },
+  "ceshi_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_rightarm_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_rightarm_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_rightarm_mesh.bin"
+  },
+  "ceshi_rightarmdown": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_rightarmdown_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_rightarmdown_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_rightarmdown_mesh.bin"
+  },
+  "ceshi_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_rightleg_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_rightleg_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_rightleg_mesh.bin"
+  },
+  "ceshi_rightlegdown": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "for_developer/mesh/ceshi_rightlegdown_mesh.json",
+    "skeleton": "for_developer/skeleton/ceshi_rightlegdown_skeleton.json",
+    "_mesh_fb": "for_developer/mesh/ceshi_rightlegdown_mesh.bin"
+  },
+  "lx_skin_knightA_guajian_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightA_guajian_body_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightA_guajian_body_skeleton.json"
+  },
+  "lx_skin_knightA_guajian_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightA_guajian_head_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightA_guajian_head_skeleton.json"
+  },
+  "lx_skin_knightA_guajian_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightA_guajian_leftarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightA_guajian_leftarm_skeleton.json"
+  },
+  "lx_skin_knightA_guajian_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightA_guajian_leftleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightA_guajian_leftleg_skeleton.json"
+  },
+  "lx_skin_knightA_guajian_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightA_guajian_rightarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightA_guajian_rightarm_skeleton.json"
+  },
+  "lx_skin_knightA_guajian_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightA_guajian_rightleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightA_guajian_rightleg_skeleton.json"
+  },
+  "lx_skin_knightB_guajian_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightB_guajian_body_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightB_guajian_body_skeleton.json"
+  },
+  "lx_skin_knightB_guajian_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightB_guajian_head_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightB_guajian_head_skeleton.json"
+  },
+  "lx_skin_knightB_guajian_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightB_guajian_leftarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightB_guajian_leftarm_skeleton.json"
+  },
+  "lx_skin_knightB_guajian_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightB_guajian_leftleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightB_guajian_leftleg_skeleton.json"
+  },
+  "lx_skin_knightB_guajian_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightB_guajian_rightarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightB_guajian_rightarm_skeleton.json"
+  },
+  "lx_skin_knightB_guajian_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightB_guajian_rightleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightB_guajian_rightleg_skeleton.json"
+  },
+  "lx_skin_knightC_guajian_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightC_guajian_body_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightC_guajian_body_skeleton.json"
+  },
+  "lx_skin_knightC_guajian_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightC_guajian_head_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightC_guajian_head_skeleton.json"
+  },
+  "lx_skin_knightC_guajian_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightC_guajian_leftarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightC_guajian_leftarm_skeleton.json"
+  },
+  "lx_skin_knightC_guajian_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightC_guajian_leftleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightC_guajian_leftleg_skeleton.json"
+  },
+  "lx_skin_knightC_guajian_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightC_guajian_rightarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightC_guajian_rightarm_skeleton.json"
+  },
+  "lx_skin_knightC_guajian_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightC_guajian_rightleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightC_guajian_rightleg_skeleton.json"
+  },
+  "lx_skin_knightD_guajian_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightD_guajian_body_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightD_guajian_body_skeleton.json"
+  },
+  "lx_skin_knightD_guajian_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightD_guajian_head_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightD_guajian_head_skeleton.json"
+  },
+  "lx_skin_knightD_guajian_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightD_guajian_leftarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightD_guajian_leftarm_skeleton.json"
+  },
+  "lx_skin_knightD_guajian_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightD_guajian_leftleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightD_guajian_leftleg_skeleton.json"
+  },
+  "lx_skin_knightD_guajian_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightD_guajian_rightarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightD_guajian_rightarm_skeleton.json"
+  },
+  "lx_skin_knightD_guajian_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightD_guajian_rightleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightD_guajian_rightleg_skeleton.json"
+  },
+  "lx_skin_knightE_guajian_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightE_guajian_body_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightE_guajian_body_skeleton.json"
+  },
+  "lx_skin_knightE_guajian_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightE_guajian_head_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightE_guajian_head_skeleton.json"
+  },
+  "lx_skin_knightE_guajian_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightE_guajian_leftarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightE_guajian_leftarm_skeleton.json"
+  },
+  "lx_skin_knightE_guajian_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightE_guajian_leftleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightE_guajian_leftleg_skeleton.json"
+  },
+  "lx_skin_knightE_guajian_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightE_guajian_rightarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightE_guajian_rightarm_skeleton.json"
+  },
+  "lx_skin_knightE_guajian_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightE_guajian_rightleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightE_guajian_rightleg_skeleton.json"
+  },
+  "lx_skin_knightF_guajian_body": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightF_guajian_body_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightF_guajian_body_skeleton.json"
+  },
+  "lx_skin_knightF_guajian_head": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightF_guajian_head_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightF_guajian_head_skeleton.json"
+  },
+  "lx_skin_knightF_guajian_leftarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightF_guajian_leftarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightF_guajian_leftarm_skeleton.json"
+  },
+  "lx_skin_knightF_guajian_leftleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightF_guajian_leftleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightF_guajian_leftleg_skeleton.json"
+  },
+  "lx_skin_knightF_guajian_rightarm": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightF_guajian_rightarm_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightF_guajian_rightarm_skeleton.json"
+  },
+  "lx_skin_knightF_guajian_rightleg": {
+    "animation": {},
+    "dy_load": true,
+    "mesh": "2026s8/mesh/lx_skin_knightF_guajian_rightleg_mesh.json",
+    "skeleton": "2026s8/skeleton/lx_skin_knightF_guajian_rightleg_skeleton.json"
+  }
+}

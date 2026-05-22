@@ -1,0 +1,82 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.8784 0.8824 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "19.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.4554",
+        "time": "49.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "76.8%"
+      },
+      {
+        "color": "1.0000 0.8510 0.8549 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 0.3,
+    "direction": {
+      "max": "0.1 0.1 0.1",
+      "min": "-0.1 -0.1 -0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "100.0",
+      "min": "100.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.06 0.06"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/sfxs/2025s7/cs_s7Slime_skin_chuchang_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.65",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "4.0",
+      "min": "3.5"
+    }
+  }
+}

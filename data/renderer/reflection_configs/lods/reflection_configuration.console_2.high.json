@@ -1,0 +1,16 @@
+{
+  "parent": {
+    "file": "reflection_configuration.console_2.low.json"
+  },
+  "overrides": {
+    "ibl": {
+      "dimension": 64
+    },
+    "ssr_enabled": true,
+    "ssr": {
+      "enable_gap_fill": false,
+      "linear_search_step_count": 50,
+      "ssr_scale": 1
+    }
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "lights_per_cluster": 50,
+  "lights_per_cluster": 24,
   "cluster_size": [
-    40,
-    40,
-    16
+    48,
+    48,
+    48
   ],
-  "far_plane": 150
+  "far_plane": 150,
+  "cluster_first_depth_max": 1.5,
+  "cluster_second_depth_max": 3
 }

@@ -1,0 +1,150 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "29.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6696",
+        "time": "82.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "-0.1 0.1 0.2"
+    },
+    "direction": {
+      "max": "0.2 1.0 0.30000000000000004",
+      "min": "-0.5 0.5 -0.30000000000000004",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "12.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.24999999999999997 0.07999999999999999"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "21"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.01 0.01"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.51 0.51",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.56 1.56",
+        "time": "9.0%"
+      },
+      {
+        "scale": "0.12 0.12",
+        "time": "11.0%"
+      },
+      {
+        "scale": "1.53 1.53",
+        "time": "19.3%"
+      },
+      {
+        "scale": "0.06 0.06",
+        "time": "23.0%"
+      },
+      {
+        "scale": "1.41 1.41",
+        "time": "29.0%"
+      },
+      {
+        "scale": "0.15 0.15",
+        "time": "34.0%"
+      },
+      {
+        "scale": "1.35 1.35",
+        "time": "39.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "45.0%"
+      },
+      {
+        "scale": "1.47 1.47",
+        "time": "52.0%"
+      },
+      {
+        "scale": "0.15 0.15",
+        "time": "58.3%"
+      },
+      {
+        "scale": "1.32 1.32",
+        "time": "62.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "69.3%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "76.3%"
+      },
+      {
+        "scale": "0.15 0.15",
+        "time": "80.3%"
+      },
+      {
+        "scale": "0.75 0.75",
+        "time": "88.3%"
+      },
+      {
+        "scale": "0.05 0.05",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_tlz1",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_tlz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.1",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.1"
+    }
+  }
+}

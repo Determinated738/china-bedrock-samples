@@ -1,0 +1,62 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.8706 0.4745 1.0000 0.3214",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8706 0.4745 1.0000 0.3036",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "inactivetime": {
+      "value": "0.01"
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.13 0.22",
+      "min": "0.13 0.22"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Undead_horse_twgy"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.0"
+    }
+  }
+}

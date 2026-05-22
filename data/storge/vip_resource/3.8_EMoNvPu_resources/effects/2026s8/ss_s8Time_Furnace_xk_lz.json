@@ -1,0 +1,47 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "delay": 0.5,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.5"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2026s8/ss_s8Time_Furnace_xk",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/ss_s8Time_Furnace_xk"
+    },
+    "timetolive": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

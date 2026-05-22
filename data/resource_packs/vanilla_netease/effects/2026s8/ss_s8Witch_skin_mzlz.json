@@ -1,0 +1,54 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.1255 0.4471 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.1255 0.4471 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "1.0 1.0 0.0",
+      "min": "-1.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "70.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Witch_skin_lz"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.3"
+    }
+  }
+}

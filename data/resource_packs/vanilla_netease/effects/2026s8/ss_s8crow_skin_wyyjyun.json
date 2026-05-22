@@ -1,0 +1,80 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 2.3,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "5.0"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "1.4 1.4",
+      "min": "1.4 1.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "2.31 2.31",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.36 1.36",
+        "time": "11.0%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "27.0%"
+      },
+      {
+        "scale": "0.44 0.44",
+        "time": "41.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8crow_skin_q"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9490 0.5490 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8353 0.0000 1.0000 0.7054",
+        "time": "68.9%"
+      },
+      {
+        "color": "0.7725 0.0000 0.7333 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "40.0",
+      "min": "40.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.7 0.35 0.7"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "inactivetime": {
+      "value": "1.0"
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.25 0.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.68 0.68",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.04 0.04",
+        "time": "3.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "9.3%"
+      },
+      {
+        "scale": "0.26 0.26",
+        "time": "15.7%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "22.3%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "26.7%"
+      },
+      {
+        "scale": "0.56 0.56",
+        "time": "32.3%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "35.0%"
+      },
+      {
+        "scale": "0.5 0.5",
+        "time": "41.7%"
+      },
+      {
+        "scale": "0.22 0.22",
+        "time": "46.0%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "52.0%"
+      },
+      {
+        "scale": "0.06 0.06",
+        "time": "59.7%"
+      },
+      {
+        "scale": "0.52 0.52",
+        "time": "61.7%"
+      },
+      {
+        "scale": "0.2 0.2",
+        "time": "68.7%"
+      },
+      {
+        "scale": "0.52 0.52",
+        "time": "74.7%"
+      },
+      {
+        "scale": "0.08 0.08",
+        "time": "84.3%"
+      },
+      {
+        "scale": "0.34 0.34",
+        "time": "90.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Undead_horse_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.0"
+    }
+  }
+}

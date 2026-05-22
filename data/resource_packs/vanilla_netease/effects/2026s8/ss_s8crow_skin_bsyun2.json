@@ -1,0 +1,47 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.7922 0.5373 1.0000 0.1429",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8784 0.1804 1.0000 0.5714",
+        "time": "47.6%"
+      },
+      {
+        "color": "0.8000 0.6000 1.0000 0.1161",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8crow_skin_sun"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

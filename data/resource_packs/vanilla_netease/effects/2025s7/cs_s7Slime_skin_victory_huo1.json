@@ -1,0 +1,109 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "74.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8839",
+        "time": "80.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6875",
+        "time": "86.6%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3571",
+        "time": "93.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.5"
+    },
+    "delay": 0.32,
+    "direction": {
+      "max": "-0.19999999999999998 -0.5 -0.19999999999999998",
+      "min": "0.19999999999999998 -0.2 0.19999999999999998",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.55 0.6",
+      "min": "0.45 0.45"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "39.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "66.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "textures/sfxs/2025s7/cs_s7Slime_skin_victory_youhun",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7Slime_skin_victory_youhun"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.65",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "4.0"
+    }
+  }
+}

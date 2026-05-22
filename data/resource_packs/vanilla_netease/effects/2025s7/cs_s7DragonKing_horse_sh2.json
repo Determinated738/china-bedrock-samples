@@ -1,0 +1,42 @@
+{
+  "particleeffect": {
+    "direction": {
+      "max": "-1.0 0.0 0.0",
+      "min": "-1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.5 1.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "particlesize": {
+      "max": "-0.8 0.8",
+      "min": "-0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_horse_sh1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_horse_sh1"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
+}

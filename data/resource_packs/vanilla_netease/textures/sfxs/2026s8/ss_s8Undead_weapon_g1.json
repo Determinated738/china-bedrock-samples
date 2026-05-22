@@ -1,0 +1,120 @@
+{
+  "frames": [
+    {
+      "filename": "1_00000.png",
+      "frame": {
+        "h": 256,
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "sourceSize": {
+        "h": 256,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "h": 256,
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "1_00001.png",
+      "frame": {
+        "h": 256,
+        "w": 256,
+        "x": 256,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "sourceSize": {
+        "h": 256,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "h": 256,
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "1_00002.png",
+      "frame": {
+        "h": 256,
+        "w": 256,
+        "x": 0,
+        "y": 256
+      },
+      "rotated": false,
+      "scale": {
+        "x": 0.8999999999999999,
+        "y": 0.8999999999999999,
+        "z": 0.8999999999999999
+      },
+      "sourceSize": {
+        "h": 256,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "h": 256,
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "1_00003.png",
+      "frame": {
+        "h": 256,
+        "w": 256,
+        "x": 256,
+        "y": 256
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "sourceSize": {
+        "h": 256,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "h": 256,
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "format": "RGBA8888",
+    "image": "ss_s8Undead_weapon_g1.png",
+    "scale": "1",
+    "size": {
+      "h": 512,
+      "w": 512
+    },
+    "smartupdate": "$TexturePacker:SmartUpdate:2543f765042915fa6e76c01ad4f4da81$",
+    "version": "1.0"
+  }
+}

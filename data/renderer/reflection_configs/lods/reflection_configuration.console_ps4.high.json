@@ -1,0 +1,12 @@
+{
+  "parent": {
+    "file": "reflection_configuration.console_ps4.low.json"
+  },
+  "overrides": {
+    "ibl": {
+      "num_samples": 32,
+      "dimension": 256
+    },
+    "ssr_enabled": true
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.15"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "50.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 5.779999999999999,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "1.0 -0.4 0.5",
+      "min": "-1.0 -0.8 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "400.0",
+      "min": "400.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 1.5 0.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 5,
+    "numparticles": {
+      "value": "15"
+    },
+    "particlesize": {
+      "max": "0.6 0.12",
+      "min": "1.2000000000000002 0.24"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "2.6 2.6",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.52 1.52",
+        "time": "20.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "32.0%"
+      },
+      {
+        "scale": "1.1 1.1",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "32",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_slz1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_birth_slz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "45.0",
+      "min": "25.0"
+    }
+  }
+}

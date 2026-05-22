@@ -880,12 +880,12 @@
     "$focus_override_right": "FOCUS_OVERRIDE_STOP",
     "bindings": [
       {
-        "binding_name": "#invite_button_visible",
+        "binding_name": "#legacy_invite_button_visible",
         "binding_name_override": "#visible",
         "binding_type": "global"
       },
       {
-        "binding_name": "#invite_button_enabled",
+        "binding_name": "#legacy_invite_button_enabled",
         "binding_name_override": "#enabled"
       }
     ]
@@ -921,11 +921,96 @@
       }
     ]
   },
+  "general_setting_button@pause.pause_button_template": {
+    "$pressed_button_name": "button.general_setting",
+    "$button_text": "pause.generalSetting",
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle",
+    "visible": false
+  },
+  "general_setting_padding@pause.vertical_padding": {
+    "visible": false
+  },
   "component_button@pause.pause_button_template": {
     "$pressed_button_name": "",
     "$button_text": "模组",
     "anchor_to": "top_middle",
     "anchor_from": "top_middle"
+  },
+  "realm_story_button_inner@pause.pause_button_template": {
+    "$pressed_button_name": "",
+    "$button_text": "山头故事",
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle"
+  },
+  "realm_story_button": {
+    "type": "panel",
+    "size": [
+      "100%",
+      28
+    ],
+    "controls": [
+      {
+        "realm_story_button@pause.realm_story_button_inner": {}
+      },
+      {
+        "realm_story_badge_panel": {
+          "type": "panel",
+          "anchor_from": "top_right",
+          "anchor_to": "center",
+          "offset": [
+            -15,
+            10
+          ],
+          "size": [
+            14,
+            20
+          ],
+          "layer": 3,
+          "visible": true,
+          "controls": [
+            {
+              "realm_story_badge_text": {
+                "type": "label",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "shadow": false,
+                "text": "0",
+                "font_size": "normal",
+                "layer": 9,
+                "controls": [
+                  {
+                    "realm_story_badge_bg": {
+                      "type": "image",
+                      "texture": "textures/ui/red_point_bg",
+                      "layer": -1,
+                      "size": [
+                        "100%+4px",
+                        "95%"
+                      ],
+                      "nine_slice_buttom": 1,
+                      "nine_slice_left": 1,
+                      "nine_slice_right": 1,
+                      "nine_slice_top": 1,
+                      "nineslice_size": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
   },
   "asset_center_button@pause.pause_button_template": {
     "$pressed_button_name": "",
@@ -1915,6 +2000,12 @@
     "layer": 1,
     "alpha": 0.8
   },
+  "non_transparent_background": {
+    "type": "image",
+    "texture": "textures/ui/menubackground",
+    "layer": 1,
+    "alpha": 1
+  },
   "menu_the_rest_panel": {
     "type": "panel",
     "size": [
@@ -1935,11 +2026,7 @@
       "100%",
       "100%c + 2px"
     ],
-    "color": [
-      0,
-      0,
-      0
-    ],
+    "alpha": 0,
     "anchor_from": "center",
     "anchor_to": "center",
     "controls": [
@@ -1953,6 +2040,7 @@
       "100% - 2px",
       "100%c + 8px"
     ],
+    "alpha": 0,
     "anchor_from": "center",
     "anchor_to": "center",
     "controls": [
@@ -1987,16 +2075,30 @@
               }
             },
             {
+              "realm_story_button@pause.realm_story_button": {
+                "visible": false
+              }
+            },
+            {
+              "realm_story@pause.vertical_padding": {
+                "visible": false
+              }
+            },
+            {
               "settings_button@pause.settings_button": {}
             },
             {
               "settings@pause.vertical_padding": {}
             },
             {
-              "asset_center_panel@pause.asset_center_panel": {}
+              "asset_center_panel@pause.asset_center_panel": {
+                "ignored": true
+              }
             },
             {
-              "asset_center@pause.vertical_padding": {}
+              "asset_center@pause.vertical_padding": {
+                "ignored": true
+              }
             },
             {
               "component_button@pause.component_button": {}
@@ -2018,6 +2120,12 @@
                   }
                 ]
               }
+            },
+            {
+              "general_setting_button@pause.general_setting_button": {}
+            },
+            {
+              "general_setting_padding@pause.general_setting_padding": {}
             },
             {
               "quit_button@pause.quit_button": {}
@@ -2436,13 +2544,17 @@
       }
     ]
   },
-  "info_panel_background@pause.transparent_background": {
+  "info_panel_background@pause.non_transparent_background": {
     "size": [
-      "100%",
-      "100%"
+      "200%",
+      "120%"
+    ],
+    "offset": [
+      0,
+      "-10%"
     ],
     "anchor_from": "top_right",
-    "anchor_to": "top_right"
+    "anchor_to": "top_middle"
   },
   "info_panel@pause.pause_screen_border": {
     "size": [
@@ -2509,7 +2621,7 @@
         "players_label_panel@pause.players_label_panel": {}
       },
       {
-        "vertical_padding_2@pause.vertical_padding": {
+        "vertical_padding_4@pause.vertical_padding": {
           "size": [
             0,
             3
@@ -2521,7 +2633,7 @@
         "players_grid_panel@pause.players_grid": {}
       },
       {
-        "vertical_padding_3@pause.vertical_padding": {
+        "vertical_padding_5@pause.vertical_padding": {
           "size": [
             0,
             3
@@ -2532,7 +2644,7 @@
         "invite_players_button_panel@pause.invite_players_button_panel": {}
       },
       {
-        "vertical_padding_4@pause.vertical_padding": {
+        "vertical_padding_6@pause.vertical_padding": {
           "size": [
             0,
             3
@@ -2543,7 +2655,7 @@
         "disconnected_from_multiplayer_label_panel@pause.disconnected_from_multiplayer_label_panel": {}
       },
       {
-        "vertical_padding_5@pause.vertical_padding": {
+        "vertical_padding_7@pause.vertical_padding": {
           "size": [
             0,
             1
@@ -2744,7 +2856,8 @@
     "layer": 2,
     "bindings": [
       {
-        "binding_name": "#worldname"
+        "binding_name": "#players_list_title",
+        "binding_type": "global"
       }
     ]
   },

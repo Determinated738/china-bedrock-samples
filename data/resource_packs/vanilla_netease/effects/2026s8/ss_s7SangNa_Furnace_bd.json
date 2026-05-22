@@ -1,0 +1,73 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9020 1.0000 0.2549 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.3373 0.8275 0.2863 1.0000",
+        "time": "14.2%"
+      },
+      {
+        "color": "0.2549 0.6157 0.4549 0.0089",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.01,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.6 0.6",
+      "min": "0.6 0.6"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.4 0.4",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.74 1.74",
+        "time": "15.3%"
+      },
+      {
+        "scale": "0.54 0.54",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_glow"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

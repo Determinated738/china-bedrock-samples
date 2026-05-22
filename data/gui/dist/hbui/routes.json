@@ -1,6 +1,45 @@
 {
   "routes": [
     {
+      "fileName": "/hbui/gameplay.html",
+      "scope": [
+        "in-game"
+      ],
+      "defaultRoute": "/gameplay/death",
+      "supportedRoutes": [
+        {
+          "route": "/gameplay/death",
+          "modes": [
+            "overlay"
+          ],
+          "regexp": "^\\/gameplay\\/death(?:\\/)?$",
+          "params": [],
+          "transition": "RouteNoTransition"
+        },
+        {
+          "route": "/gameplay/bedtime",
+          "modes": [],
+          "regexp": "^\\/gameplay\\/bedtime(?:\\/)?$",
+          "params": [],
+          "transition": "RouteInstantTransition"
+        },
+        {
+          "route": "/gameplay/furnace",
+          "modes": [],
+          "regexp": "^\\/gameplay\\/furnace(?:\\/)?$",
+          "params": [],
+          "transition": "RouteInstantTransition"
+        },
+        {
+          "route": "/gameplay/block-actors/chest",
+          "modes": [],
+          "regexp": "^\\/gameplay\\/block-actors\\/chest(?:\\/)?$",
+          "params": [],
+          "transition": "RouteInstantTransition"
+        }
+      ]
+    },
+    {
       "fileName": "/hbui/editor.html",
       "scope": [
         "in-game",
@@ -11,10 +50,12 @@
         {
           "route": "/editor",
           "modes": [
-            "overlayModal"
+            "editor",
+            "overlay"
           ],
           "regexp": "^\\/editor(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteInstantTransition"
         }
       ]
     },
@@ -26,6 +67,25 @@
       ],
       "defaultRoute": "",
       "supportedRoutes": [
+        {
+          "route": "/idle-route",
+          "modes": [
+            "overlay",
+            "grab-mouse"
+          ],
+          "regexp": "^\\/idle-route(?:\\/)?$",
+          "params": [],
+          "transition": "RouteInstantTransition"
+        },
+        {
+          "route": "/friends-drawer",
+          "modes": [
+            "overlay"
+          ],
+          "regexp": "^\\/friends-drawer(?:\\/)?$",
+          "params": [],
+          "transition": "RouteInstantTransition"
+        },
         {
           "route": "/achievements/:tab?",
           "modes": [],
@@ -39,7 +99,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/achievement-detail/:id",
@@ -54,24 +115,27 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/quick-create-new-world/mode",
+          "route": "/new-player-path/mode",
           "modes": [],
-          "regexp": "^\\/quick-create-new-world\\/mode(?:\\/)?$",
-          "params": []
+          "regexp": "^\\/new-player-path\\/mode(?:\\/)?$",
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/quick-create-new-world/survival/difficulty",
+          "route": "/new-player-path/survival/difficulty",
           "modes": [],
-          "regexp": "^\\/quick-create-new-world\\/survival\\/difficulty(?:\\/)?$",
-          "params": []
+          "regexp": "^\\/new-player-path\\/survival\\/difficulty(?:\\/)?$",
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/quick-create-new-world/:mode/:difficulty/touch-control-selection",
+          "route": "/new-player-path/character-selector/:mode/:difficulty",
           "modes": [],
-          "regexp": "^\\/quick-create-new-world\\/([^\\/]+?)\\/([^\\/]+?)\\/touch-control-selection(?:\\/)?$",
+          "regexp": "^\\/new-player-path\\/character-selector\\/([^\\/]+?)\\/([^\\/]+?)(?:\\/)?$",
           "params": [
             {
               "name": "mode",
@@ -89,13 +153,87 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/new-player-path/:mode/:difficulty/touch-control-selection",
+          "modes": [],
+          "regexp": "^\\/new-player-path\\/([^\\/]+?)\\/([^\\/]+?)\\/touch-control-selection(?:\\/)?$",
+          "params": [
+            {
+              "name": "mode",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            },
+            {
+              "name": "difficulty",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/new-player-path/sign-in/:mode/:difficulty",
+          "modes": [],
+          "regexp": "^\\/new-player-path\\/sign-in\\/([^\\/]+?)\\/([^\\/]+?)(?:\\/)?$",
+          "params": [
+            {
+              "name": "mode",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            },
+            {
+              "name": "difficulty",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/new-player-path/summary/:mode/:difficulty",
+          "modes": [],
+          "regexp": "^\\/new-player-path\\/summary\\/([^\\/]+?)\\/([^\\/]+?)(?:\\/)?$",
+          "params": [
+            {
+              "name": "mode",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            },
+            {
+              "name": "difficulty",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/create-new-world/seed-templates",
           "modes": [],
           "regexp": "^\\/create-new-world\\/seed-templates(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/create-new-world/:tab/:worldTemplateId?",
@@ -118,13 +256,15 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/guided-create-world",
           "modes": [],
           "regexp": "^\\/guided-create-world(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/play/touch-control-selection/:id",
@@ -139,25 +279,29 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-pdp",
           "modes": [],
           "regexp": "^\\/realms-pdp(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-plan-picker",
           "modes": [],
           "regexp": "^\\/realms-plan-picker(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/join-realms-server",
           "modes": [],
           "regexp": "^\\/join-realms-server(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/join-realms-server/:code",
@@ -172,13 +316,15 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/play/servers/add",
           "modes": [],
           "regexp": "^\\/play\\/servers\\/add(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/play/:tab/:id?/:type?",
@@ -209,7 +355,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/play/servers/:id/:type/edit",
@@ -232,7 +379,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/online-play-warning/:type/:id?",
@@ -255,7 +403,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/start-from-template/:tab",
@@ -270,25 +419,29 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/mobile-data-blocked-modal/show-modal",
           "modes": [],
           "regexp": "^\\/mobile-data-blocked-modal\\/show-modal(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/render-distance-warning-modal",
           "modes": [],
           "regexp": "^\\/render-distance-warning-modal(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteInstantTransition"
         },
         {
           "route": "/touch-control-selection",
           "modes": [],
           "regexp": "^\\/touch-control-selection(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-choose-realm/:tab",
@@ -303,7 +456,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-choose-slot/:id",
@@ -318,7 +472,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-stories/:tab/:realmId?",
@@ -341,7 +496,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-stories-opted-out-members/:realmId?",
@@ -356,7 +512,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-story-comments/:id/:realmId?",
@@ -379,12 +536,13 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-story-entry-route/:tab/:realmId?",
           "modes": [
-            "modal"
+            "overlay"
           ],
           "regexp": "^\\/realms-story-entry-route\\/([^\\/]+?)(?:\\/([^\\/]+?))?(?:\\/)?$",
           "params": [
@@ -404,49 +562,20 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
-        },
-        {
-          "route": "/realms-story-opt-in/:detailPane/:tab/:realmId",
-          "modes": [],
-          "regexp": "^\\/realms-story-opt-in\\/([^\\/]+?)\\/([^\\/]+?)\\/([^\\/]+?)(?:\\/)?$",
-          "params": [
-            {
-              "name": "detailPane",
-              "prefix": "/",
-              "delimiter": "/",
-              "optional": false,
-              "repeat": false,
-              "pattern": "[^\\/]+?"
-            },
-            {
-              "name": "tab",
-              "prefix": "/",
-              "delimiter": "/",
-              "optional": false,
-              "repeat": false,
-              "pattern": "[^\\/]+?"
-            },
-            {
-              "name": "realmId",
-              "prefix": "/",
-              "delimiter": "/",
-              "optional": false,
-              "repeat": false,
-              "pattern": "[^\\/]+?"
-            }
-          ]
+          ],
+          "transition": ""
         },
         {
           "route": "/post-to-realm-stories",
           "modes": [],
           "regexp": "^\\/post-to-realm-stories(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-story-share-link-modal-route/:realmId?",
           "modes": [
-            "modal"
+            "overlay"
           ],
           "regexp": "^\\/realms-story-share-link-modal-route(?:\\/([^\\/]+?))?(?:\\/)?$",
           "params": [
@@ -458,12 +587,13 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/hardcore-mode-world-warning-modal-route/:realmId?",
           "modes": [
-            "modal"
+            "overlay"
           ],
           "regexp": "^\\/hardcore-mode-world-warning-modal-route(?:\\/([^\\/]+?))?(?:\\/)?$",
           "params": [
@@ -475,7 +605,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-new-story/:realmId?",
@@ -490,7 +621,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-new-story/screenshot-gallery/:realmId?",
@@ -505,12 +637,29 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/timeline-opt-in-required/:realmId?",
+          "modes": [],
+          "regexp": "^\\/timeline-opt-in-required(?:\\/([^\\/]+?))?(?:\\/)?$",
+          "params": [
+            {
+              "name": "realmId",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": true,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/announcement-modal/:id",
           "modes": [
-            "modal"
+            "overlay"
           ],
           "regexp": "^\\/announcement-modal\\/([^\\/]+?)(?:\\/)?$",
           "params": [
@@ -522,7 +671,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteInstantTransition"
         },
         {
           "route": "/realms-stories-report-feed-item/:postType/:realmId?",
@@ -545,7 +695,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteInstantTransition"
         },
         {
           "route": "/realms-stories-settings/:realmId?",
@@ -560,67 +711,87 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteInstantTransition"
         },
         {
           "route": "/player-banned-modal",
           "modes": [],
           "regexp": "^\\/player-banned-modal(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteInstantTransition"
         },
         {
           "route": "/player-report",
           "modes": [],
           "regexp": "^\\/player-report(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteInstantTransition"
         },
         {
           "route": "/sign-in-achievements",
           "modes": [],
           "regexp": "^\\/sign-in-achievements(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/sign-in-add-friend",
           "modes": [],
           "regexp": "^\\/sign-in-add-friend(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/sign-in-play-on-server",
           "modes": [],
           "regexp": "^\\/sign-in-play-on-server(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/sign-in-save-purchases",
           "modes": [],
           "regexp": "^\\/sign-in-save-purchases(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/sign-in-dressing-room",
           "modes": [],
           "regexp": "^\\/sign-in-dressing-room(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/sign-in-marketplace",
           "modes": [],
           "regexp": "^\\/sign-in-marketplace(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/sign-in-worlds-friends-servers",
           "modes": [],
           "regexp": "^\\/sign-in-worlds-friends-servers(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/first-time-sign-in",
+          "route": "/first-time-sign-in/:version?",
           "modes": [],
-          "regexp": "^\\/first-time-sign-in(?:\\/)?$",
-          "params": []
+          "regexp": "^\\/first-time-sign-in(?:\\/([^\\/]+?))?(?:\\/)?$",
+          "params": [
+            {
+              "name": "version",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": true,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/inbox/:tab?",
@@ -635,18 +806,20 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/inbox-settings",
           "modes": [],
           "regexp": "^\\/inbox-settings(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/message/:messageId",
+          "route": "/message/:messageId/:instanceId?",
           "modes": [],
-          "regexp": "^\\/message\\/([^\\/]+?)(?:\\/)?$",
+          "regexp": "^\\/message\\/([^\\/]+?)(?:\\/([^\\/]+?))?(?:\\/)?$",
           "params": [
             {
               "name": "messageId",
@@ -655,8 +828,49 @@
               "optional": false,
               "repeat": false,
               "pattern": "[^\\/]+?"
+            },
+            {
+              "name": "instanceId",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": true,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/edit-realm-world/:id/:tab/:worldTemplateId?",
+          "modes": [],
+          "regexp": "^\\/edit-realm-world\\/([^\\/]+?)\\/([^\\/]+?)(?:\\/([^\\/]+?))?(?:\\/)?$",
+          "params": [
+            {
+              "name": "id",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            },
+            {
+              "name": "tab",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            },
+            {
+              "name": "worldTemplateId",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": true,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/edit-world/:id/:tab/:worldTemplateId?",
@@ -687,7 +901,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/edit-world-thumbnail/:id",
@@ -702,7 +917,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/export-world/:id/:type",
@@ -725,15 +941,17 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/realms-create-preview-with-only-one-subscription",
           "modes": [
-            "modal"
+            "overlay"
           ],
           "regexp": "^\\/realms-create-preview-with-only-one-subscription(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": ""
         },
         {
           "route": "/realms-purchase-subscription/:subscription",
@@ -748,13 +966,22 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/add-friend",
           "modes": [],
           "regexp": "^\\/add-friend(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/disconnected",
+          "modes": [],
+          "regexp": "^\\/disconnected(?:\\/)?$",
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/profile/:tab",
@@ -769,25 +996,29 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/screenshot-gallery",
           "modes": [],
           "regexp": "^\\/screenshot-gallery(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/screenshot-showcase",
           "modes": [],
           "regexp": "^\\/screenshot-showcase(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/manage-showcase",
           "modes": [],
           "regexp": "^\\/manage-showcase(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/screenshot-details/:id",
@@ -802,7 +1033,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/set-world-thumbnail/:thumbnailId",
@@ -817,7 +1049,8 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/showcase-details/:id",
@@ -832,54 +1065,68 @@
               "repeat": false,
               "pattern": "[^\\/]+?"
             }
-          ]
+          ],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/cape-incentive-received-transient",
+          "modes": [],
+          "regexp": "^\\/cape-incentive-received-transient(?:\\/)?$",
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
           "route": "/account-unlink",
           "modes": [],
           "regexp": "^\\/account-unlink(?:\\/)?$",
-          "params": []
-        }
-      ]
-    },
-    {
-      "fileName": "/hbui/gameplay.html",
-      "scope": [
-        "in-game"
-      ],
-      "defaultRoute": "/gameplay/death",
-      "supportedRoutes": [
-        {
-          "route": "/gameplay/death",
-          "modes": [],
-          "regexp": "^\\/gameplay\\/death(?:\\/)?$",
-          "params": []
+          "params": [],
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/gameplay/bedtime",
+          "route": "/player-permissions/:playerId",
           "modes": [],
-          "regexp": "^\\/gameplay\\/bedtime(?:\\/)?$",
-          "params": []
-        },
-        {
-          "route": "/gameplay/furnace",
-          "modes": [],
-          "regexp": "^\\/gameplay\\/furnace(?:\\/)?$",
-          "params": []
-        },
-        {
-          "route": "/gameplay/hud",
-          "modes": [
-            "hud"
+          "regexp": "^\\/player-permissions\\/([^\\/]+?)(?:\\/)?$",
+          "params": [
+            {
+              "name": "playerId",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
           ],
-          "regexp": "^\\/gameplay\\/hud(?:\\/)?$",
-          "params": []
+          "transition": "RouteSlideTransition"
         },
         {
-          "route": "/gameplay/inventory",
+          "route": "/create-party",
           "modes": [],
-          "regexp": "^\\/gameplay\\/inventory(?:\\/)?$",
-          "params": []
+          "regexp": "^\\/create-party(?:\\/)?$",
+          "params": [],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/invite-to-party",
+          "modes": [],
+          "regexp": "^\\/invite-to-party(?:\\/)?$",
+          "params": [],
+          "transition": "RouteSlideTransition"
+        },
+        {
+          "route": "/progress/:key",
+          "modes": [],
+          "regexp": "^\\/progress\\/([^\\/]+?)(?:\\/)?$",
+          "params": [
+            {
+              "name": "key",
+              "prefix": "/",
+              "delimiter": "/",
+              "optional": false,
+              "repeat": false,
+              "pattern": "[^\\/]+?"
+            }
+          ],
+          "transition": "RouteSlideTransition"
         }
       ]
     }

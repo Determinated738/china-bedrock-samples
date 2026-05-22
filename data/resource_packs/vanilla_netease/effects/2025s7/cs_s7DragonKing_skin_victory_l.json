@@ -1,0 +1,73 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "80.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "90.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0179",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "7.3"
+    },
+    "delay": 0.02,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.1 0.5"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "7"
+    },
+    "particlesize": {
+      "max": "0.20000000000000004 0.20000000000000004",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_victory_l"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.7",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "20.0",
+      "min": "15.0"
+    }
+  }
+}

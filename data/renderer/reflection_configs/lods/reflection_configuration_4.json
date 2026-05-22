@@ -12,19 +12,16 @@
   },
   "ibl": {
     "num_samples": 16,
-    "dimension": 128
+    "dimension": 128,
+    "convolution_type": "importance_sampled"
   },
   "ssr_enabled": true,
   "ssr": {
     "enable_gap_fill": true,
     "linear_search_step_count": 100,
     "binary_search_step_count": 10,
-    "ray_step_length": 5,
-    "ray_offset": 0.01,
-    "fading_power_horizontal": 3,
-    "fading_power_vertical": 3,
-    "fading_distance": 0.3,
     "roughness_cutoff": 0.4,
-    "roughness_fade_start": 0.3
+    "roughness_fade_start": 0.3,
+    "ssr_scale": 0.5
   }
 }

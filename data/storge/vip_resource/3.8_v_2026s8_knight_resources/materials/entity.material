@@ -1,0 +1,25 @@
+{
+	"materials": {
+		"breeze_wind_fixed_no_wind_on_opengl:entity_static_netease": {
+			"+defines": [
+				"USE_UV_ANIM",
+				"ALPHA_TEST",
+				"USE_STRICT_ALPHA_TEST"
+			],
+			"+states": [
+				"Blending",
+				"DisableCulling",
+				"DisableDepthWrite"
+			],
+			"msaaSupport": "Both",
+			"+samplerStates": [
+				{
+					"samplerIndex": 0,
+					"textureFilter": "Point",
+					"textureWrap": "Repeat"
+				}
+			]
+		},
+		"version": "1.0.0"
+	}
+}

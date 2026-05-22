@@ -1,0 +1,112 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8661",
+        "time": "1.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8304",
+        "time": "98.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.4,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.19999999999999998 1.0",
+      "min": "0.19999999999999998 1.0"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_tw1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_tw1"
+    },
+    "timetolive": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 1.0 1.0 0.6428571428571428",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.7589285714285714",
+          "time": "10.789%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.8392857142857143",
+          "time": "44.474%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 0,
+      "lifetime": 0.6,
+      "maxnum": 200,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "1.0 1.0",
+      "useparticlecolor": true,
+      "useparticlewidth": true,
+      "widthfade": [
+        {
+          "time": "0.0%",
+          "value": "4.0"
+        },
+        {
+          "time": "42.0%",
+          "value": "3.2"
+        },
+        {
+          "time": "100.0%",
+          "value": "0.42000000000000004"
+        }
+      ],
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": {
+    "file": "reflection_configuration.console_2.low.json"
+  },
+  "overrides": {
+    "ibl": {
+      "convolution_type": "importance_sampled"
+    },
+    "ssr_enabled": true,
+    "ssr": {
+      "linear_search_step_count": 100,
+      "ssr_scale": 1
+    }
+  }
+}

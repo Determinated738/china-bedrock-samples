@@ -1,0 +1,67 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1607",
+        "time": "12.6%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0804",
+        "time": "69.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 1.7,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "4.0 1.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 0,
+    "particlesize": {
+      "max": "3.0 2.0",
+      "min": "3.0 2.0"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_gbdi"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

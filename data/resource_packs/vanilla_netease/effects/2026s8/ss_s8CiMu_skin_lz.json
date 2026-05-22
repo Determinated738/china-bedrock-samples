@@ -1,0 +1,83 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.3333 0.3451 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0157 1.0000",
+        "time": "27.6%"
+      },
+      {
+        "color": "0.6314 0.0392 0.1176 0.0000",
+        "time": "49.5%"
+      },
+      {
+        "color": "0.0000 0.0000 0.0000 1.0000",
+        "time": "80.8%"
+      },
+      {
+        "color": "0.1843 0.1843 0.1843 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.1"
+    },
+    "direction": {
+      "max": "0.0 0.5 -0.5",
+      "min": "0.0 0.5 -0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "12.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 1.2 0.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 2,
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.04999999999999999 0.04999999999999999"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.54 0.54",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.36 0.36",
+        "time": "51.0%"
+      },
+      {
+        "scale": "0.58 0.58",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8CiMu_skin_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "1.2"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.1"
+    }
+  }
+}

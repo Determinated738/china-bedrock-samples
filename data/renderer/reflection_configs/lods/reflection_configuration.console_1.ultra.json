@@ -1,0 +1,12 @@
+{
+  "parent": {
+    "file": "reflection_configuration.console_1.low.json"
+  },
+  "overrides": {
+    "ssr_enabled": true,
+    "ssr": {
+      "enable_gap_fill": false,
+      "linear_search_step_count": 50
+    }
+  }
+}

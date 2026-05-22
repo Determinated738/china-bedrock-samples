@@ -1,0 +1,62 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.1098 0.3765 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.1098 0.6431 0.9911",
+        "time": "27.1%"
+      },
+      {
+        "color": "1.0000 0.1333 0.6235 1.0000",
+        "time": "53.9%"
+      },
+      {
+        "color": "1.0000 0.1608 0.8902 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.14 0.14 0.14"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "particlesize": {
+      "max": "0.01 0.01",
+      "min": "0.01 0.01"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2025s7/ss_s7Slime_weapon_lizi02"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.5"
+    }
+  }
+}

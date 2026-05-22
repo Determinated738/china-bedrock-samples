@@ -1,0 +1,97 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "12.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2321",
+        "time": "24.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0536",
+        "time": "47.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.03,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 4,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 45.0",
+      "min": "0.0 0.0 45.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "3.0 3.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.94 2.94",
+        "time": "6.7%"
+      },
+      {
+        "scale": "2.12 2.12",
+        "time": "13.3%"
+      },
+      {
+        "scale": "1.36 1.36",
+        "time": "76.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2025s7/cs_s7DragonKing_skin_victory_sd"
+    },
+    "timetolive": {
+      "max": "0.5000000000000001",
+      "min": "0.5000000000000001"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

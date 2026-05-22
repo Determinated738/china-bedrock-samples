@@ -1,0 +1,100 @@
+{
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 60,
+    "cylinder_height": 1.8000000000000003,
+    "cylinder_radius_down": 1.5,
+    "cylinder_radius_up": 3,
+    "delay": 1.09,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 14,
+    "frame_color": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.9666666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8466666666666667
+      ],
+      [
+        1,
+        1,
+        1,
+        0.5733333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0.1333333333333333
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    "layer": 4,
+    "lerp_scale": true,
+    "loop": false,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      50,
+      0
+    ],
+    "scale": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "shuffle": false,
+    "sub_layer": 2,
+    "tex_repeat_num": [
+      3,
+      1
+    ],
+    "texture": "textures/sfxs/2025s7/cs_s7DragonKing_birth_l1"
+  }
+}

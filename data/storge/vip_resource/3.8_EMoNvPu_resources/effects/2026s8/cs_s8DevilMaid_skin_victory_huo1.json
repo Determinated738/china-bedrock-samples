@@ -1,0 +1,109 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "74.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8839",
+        "time": "80.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.6875",
+        "time": "86.6%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3571",
+        "time": "93.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "delay": 0.32,
+    "direction": {
+      "max": "-0.30000000000000004 -0.5 -0.30000000000000004",
+      "min": "0.30000000000000004 -0.2 0.30000000000000004",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 6,
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.15 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "39.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "66.7%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "30",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/CS_s8DevilMaid_skin_victory_fslz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.35",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "12.0",
+      "min": "8.0"
+    }
+  }
+}

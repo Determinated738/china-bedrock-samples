@@ -1,0 +1,76 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "22.4%"
+      },
+      {
+        "color": "0.6863 0.8824 1.0000 1.0000",
+        "time": "61.3%"
+      },
+      {
+        "color": "0.6863 0.8824 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -8.0 0.0"
+    },
+    "delay": 0.4,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 0.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "40.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.5 0.3 1.5"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.1 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2026s8/ss_s7YongChi_Craft_smoke",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/ss_s7YongChi_Craft_smoke"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "3.0"
+    }
+  }
+}

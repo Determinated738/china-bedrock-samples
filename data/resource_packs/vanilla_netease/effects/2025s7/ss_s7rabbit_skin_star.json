@@ -1,0 +1,90 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.7569 0.9686 1.0000",
+        "time": "20.5%"
+      },
+      {
+        "color": "1.0000 0.5804 0.7137 0.6161",
+        "time": "75.0%"
+      },
+      {
+        "color": "1.0000 0.4863 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.5 0.5 1.0",
+      "min": "-0.5 -0.5 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "20.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.75 0.4 0.85"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "20"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.02 0.02"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 666.0",
+      "min": "0.0 0.0 -666.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.4 0.4",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.7 1.7",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.45 0.45",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2025s7/ss_s7rabbit_skin_star"
+    },
+    "thickness": {
+      "value": "0.05"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

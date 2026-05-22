@@ -1,0 +1,74 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "23.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "68.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "inactivetime": {
+      "value": "5.0"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.1"
+    },
+    "particlesize": {
+      "max": "0.1 0.09",
+      "min": "0.1 0.09"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 30.0",
+      "min": "0.0 0.0 30.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10",
+        "name": "textures/sfxs/2026s8/ss_s8crow_skin_wyyj",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/ss_s8crow_skin_wyyj"
+    },
+    "timetolive": {
+      "max": "4.7",
+      "min": "4.7"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 0.2902 0.9412 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4863 0.0000 0.6941 1.0000",
+        "time": "43.7%"
+      },
+      {
+        "color": "0.1608 0.0000 0.2471 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "-0.4 0.4 0.0",
+      "min": "-0.4 0.5 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "6.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.25 0.25 0.25"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "4"
+    },
+    "particlesize": {
+      "max": "0.12 0.12",
+      "min": "0.15 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.34 0.34",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "25.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_5"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.7"
+    },
+    "velocity": {
+      "max": "0.2",
+      "min": "0.3"
+    }
+  }
+}

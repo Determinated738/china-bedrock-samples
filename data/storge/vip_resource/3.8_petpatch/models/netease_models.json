@@ -1,0 +1,39 @@
+{
+  "cs_seamonster_s8Undead": {
+    "animation": {
+      "idle_bored": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_idle_bored.json",
+      "idle_play": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_idle_paly.json",
+      "build_pickup": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_idle_pickup.json",
+      "idle_stand": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_idle_stand.json",
+      "walk": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_idle_walk.json",
+      "play_angry": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_paly_angry.json",
+      "play_happy": "pet_seamonster/animation/cs_seamonster_s8Undead_animation_paly_happy.json"
+    },
+    "dy_load": true,
+    "mesh": "pet_seamonster/mesh/cs_seamonster_s8Undead_mesh.json",
+    "pet_type": "pet_seamonster/seamonster",
+    "skeleton": "pet_seamonster/skeleton/cs_seamonster_s8Undead_skeleton.json",
+    "splitBonesGroup": {},
+    "texture": {
+      "tex1": "pet_seamonster/cs_seamonster_s8Undead_bloom"
+    }
+  },
+  "ss_squid_s8lehun": {
+    "animation": {
+      "idle_bored": "pet_squid/animation/ss_squid_s8lehun_animation_ty_squid_idle_bored.json",
+      "ty_squid_idle_play": "pet_squid/animation/ss_squid_s8lehun_animation_ty_squid_idle_play.json",
+      "idle_stand": "pet_squid/animation/ss_squid_s8lehun_animation_ty_squid_idle_stand.json",
+      "idle_walk": "pet_squid/animation/ss_squid_s8lehun_animation_ty_squid_idle_walk.json",
+      "ty_squid_play_angry": "pet_squid/animation/ss_squid_s8lehun_animation_ty_squid_play_angry.json",
+      "ty_squid_play_happy": "pet_squid/animation/ss_squid_s8lehun_animation_ty_squid_play_happy.json"
+    },
+    "dy_load": true,
+    "mesh": "pet_squid/mesh/ss_squid_s8lehun_mesh.json",
+    "pet_type": "pet_squid/squid",
+    "skeleton": "pet_squid/skeleton/ss_squid_s8lehun_skeleton.json",
+    "splitBonesGroup": {},
+    "texture": {
+      "tex1": "pet_squid/ss_squid_s8lehun_bloom"
+    }
+  }
+}

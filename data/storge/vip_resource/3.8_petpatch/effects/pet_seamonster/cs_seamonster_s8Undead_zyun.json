@@ -1,0 +1,49 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.7020 1.0000 0.2321",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.4667 1.0000 1.0000 0.5000",
+        "time": "48.9%"
+      },
+      {
+        "color": "0.2039 0.5882 1.0000 0.2232",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "0.15 0.15",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/pet_seamonster/cs_seamonster_s8Undead_sun"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

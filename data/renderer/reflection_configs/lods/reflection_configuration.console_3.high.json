@@ -1,0 +1,18 @@
+{
+  "parent": {
+    "file": "reflection_configuration.console_3.low.json"
+  },
+  "overrides": {
+    "ibl": {
+      "num_samples": 32,
+      "dimension": 256,
+      "convolution_type": "importance_sampled"
+    },
+    "ssr": {
+      "enable_gap_fill": true,
+      "linear_search_step_count": 300,
+      "binary_search_step_count": 15,
+      "ssr_scale": 1
+    }
+  }
+}

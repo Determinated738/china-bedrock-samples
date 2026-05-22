@@ -1,0 +1,73 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.9490 0.5490 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8667 0.3765 1.0000 0.7054",
+        "time": "68.9%"
+      },
+      {
+        "color": "0.7725 0.0000 0.7333 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.15 0.0 0.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 -1.0",
+      "min": "0.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "inactivetime": {
+      "value": "1.0"
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "40"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.2 0.2"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.8 0.8",
+        "time": "20.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Undead_horse_lz"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "2.0"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.0"
+    }
+  }
+}

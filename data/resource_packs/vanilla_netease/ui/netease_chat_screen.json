@@ -407,6 +407,17 @@
             }
           ]
         }
+      },
+      {
+        "tip_point": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
       }
     ],
     "default_control": "default",
@@ -1666,6 +1677,9 @@
                         },
                         {
                           "pressed@netease_editor_template_namespace.pressed": {}
+                        },
+                        {
+                          "popup_switch_tip@netease_chat.popup_switch_tip": {}
                         }
                       ]
                     }
@@ -1733,6 +1747,9 @@
                         },
                         {
                           "pressed@netease_editor_template_namespace.pressed": {}
+                        },
+                        {
+                          "popup_switch_tip@netease_chat.popup_switch_tip": {}
                         }
                       ]
                     }
@@ -1755,10 +1772,10 @@
       }
     ]
   },
-  "game_tip": {
+  "game_tip_base": {
     "type": "image",
     "texture": "textures/ui/gameTipBorder",
-    "layer": 50,
+    "layer": 3,
     "min_size": [
       "default",
       30
@@ -1771,7 +1788,7 @@
       10,
       -40
     ],
-    "anchor_from": "bottom_left",
+    "anchor_from": "top_left",
     "anchor_to": "bottom_left",
     "alpha": "@netease_chat.game_tips_alpha_0_1",
     "propagate_alpha": true,
@@ -1788,7 +1805,7 @@
             1
           ],
           "max_size": [
-            120,
+            150,
             100
           ],
           "line_padding": 1.5,
@@ -1812,6 +1829,25 @@
           ]
         }
       }
+    ]
+  },
+  "game_tip_template@netease_chat.game_tip_base": {
+    "offset": [
+      2,
+      -7
+    ]
+  },
+  "voice_tip@netease_chat.game_tip_base": {
+    "layer": 10,
+    "offset": [
+      0,
+      -8
+    ]
+  },
+  "popup_switch_tip@netease_chat.game_tip_base": {
+    "offset": [
+      0,
+      -5
     ]
   },
   "game_tips_alpha_0_1": {
@@ -1931,7 +1967,7 @@
       },
       {
         "host_main_panel@host_options.host_panel": {
-          "layer": 7
+          "layer": 10
         }
       },
       {
@@ -1950,9 +1986,6 @@
       },
       {
         "voice_popups_panel@netease_chat.voice_popups_panel": {}
-      },
-      {
-        "game_tip@netease_chat.game_tip": {}
       }
     ]
   },

@@ -1,0 +1,68 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "constantforce": {
+      "value": "1.0 0.5 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.30000000000000004 0.5000000000000001 0.04999999999999999"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "particlesize": {
+      "max": "0.09 0.09",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "20.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2025s7/ss_s7DragonKing_horse_lz",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2025s7/ss_s7DragonKing_horse_lz"
+    },
+    "thickness": {
+      "value": "0.20000000000000004"
+    },
+    "timetolive": {
+      "max": "1.2000000000000002",
+      "min": "0.7999999999999999"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

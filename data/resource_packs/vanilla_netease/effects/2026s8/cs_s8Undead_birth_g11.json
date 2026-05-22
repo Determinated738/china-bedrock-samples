@@ -1,0 +1,86 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "1.0999999999999999"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.5000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5000",
+        "time": "16.3%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 5.05,
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 5,
+    "offsetInCamera": {
+      "value": "-0.5"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "0.4 0.4"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 666.0",
+      "min": "0.0 0.0 -666.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 50.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.6 0.6",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "8.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Undead_birth_g1"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

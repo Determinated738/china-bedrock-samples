@@ -1,0 +1,11 @@
+{
+  "parent": {
+    "file": "reflection_configuration.android.low.json"
+  },
+  "overrides": {
+    "ssr_enabled": true,
+    "ssr": {
+      "enable_gap_fill": false
+    }
+  }
+}

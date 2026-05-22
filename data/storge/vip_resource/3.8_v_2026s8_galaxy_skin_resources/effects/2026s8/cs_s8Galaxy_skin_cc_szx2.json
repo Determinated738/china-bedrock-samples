@@ -1,0 +1,77 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7098 0.4196 1.0000 1.0000",
+        "time": "13.4%"
+      },
+      {
+        "color": "0.5804 0.3843 1.0000 1.0000",
+        "time": "38.7%"
+      },
+      {
+        "color": "0.5608 0.3059 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 4.55,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "20.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.55 0.55",
+      "min": "0.55 0.55"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 180.0",
+      "min": "0.0 0.0 180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "3.9 3.9",
+        "time": "17.7%"
+      },
+      {
+        "scale": "6.0 6.0",
+        "time": "99.3%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xxgy"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

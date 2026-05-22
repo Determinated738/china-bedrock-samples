@@ -1,0 +1,164 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "86.3%"
+      },
+      {
+        "color": "0.0000 0.0667 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.1 -0.2"
+    },
+    "direction": {
+      "max": "0.0 0.5 1.0",
+      "min": "-1.0 -0.10000000000000003 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.3 0.05 0.3"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "30"
+    },
+    "offsetInCamera": {
+      "value": "-0.05"
+    },
+    "particlesize": {
+      "max": "0.12 0.12",
+      "min": "0.06 0.06"
+    },
+    "pointFiltering": true,
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.05 1.05",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.15 0.15",
+        "time": "7.3%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "11.0%"
+      },
+      {
+        "scale": "0.12 0.12",
+        "time": "17.3%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "22.0%"
+      },
+      {
+        "scale": "0.03 0.03",
+        "time": "29.0%"
+      },
+      {
+        "scale": "1.23 1.23",
+        "time": "31.3%"
+      },
+      {
+        "scale": "0.15 0.15",
+        "time": "38.0%"
+      },
+      {
+        "scale": "1.2 1.2",
+        "time": "41.3%"
+      },
+      {
+        "scale": "0.12 0.12",
+        "time": "47.3%"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "49.0%"
+      },
+      {
+        "scale": "0.09 0.09",
+        "time": "56.7%"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "59.7%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "66.3%"
+      },
+      {
+        "scale": "0.93 0.93",
+        "time": "73.0%"
+      },
+      {
+        "scale": "0.09 0.09",
+        "time": "77.3%"
+      },
+      {
+        "scale": "0.72 0.72",
+        "time": "83.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "88.7%"
+      },
+      {
+        "scale": "0.57 0.57",
+        "time": "95.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "9",
+        "name": "textures/sfxs/2026s8/ss_s8Undead_weaponA_lz1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/ss_s8Undead_weaponA_lz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.2",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
+}

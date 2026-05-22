@@ -1,0 +1,10 @@
+{
+  "parent": {
+    "file": "volumetric_fog_configuration.console_2.low.json"
+  },
+  "overrides": {
+    "tile_width": 16,
+    "tile_height": 16,
+    "shadow_pcf_scale": 0.25
+  }
+}
