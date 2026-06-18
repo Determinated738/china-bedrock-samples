@@ -1,0 +1,133 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.25"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "2.9%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "32.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "55.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "-2.0 1.0 5.0"
+    },
+    "dampingforce": {
+      "value": "4.5"
+    },
+    "delay": 3.3,
+    "direction": {
+      "max": "0.4 0.6 0.0",
+      "min": "-0.8 0.3 0.3",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.0",
+      "interval": "0.1",
+      "max": "0.5 0.5 0.5",
+      "min": "-0.2 -0.2 -0.2"
+    },
+    "emissionrate": {
+      "max": "200.0",
+      "min": "200.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.05 0.01 0.05"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.2 0.1",
+      "min": "0.15 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "51.3%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "32",
+        "name": "textures/sfxs/2026s8/cs_s8Elves_birth_hdtw1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Elves_birth_hdtw1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "0.6"
+    },
+    "trail": {
+      "colorfade": [
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "0.000%"
+        },
+        {
+          "color": "1.0 1.0 1.0 1.0",
+          "time": "34.737%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "63.158%"
+        },
+        {
+          "color": "1.0 1.0 1.0 0.0",
+          "time": "100.000%"
+        }
+      ],
+      "facemode": 1,
+      "lifetime": 0.56,
+      "maxnum": 200,
+      "mindistance": 0.01,
+      "texmode": 0,
+      "textile": "1.0 1.0",
+      "useparticlecolor": true,
+      "useparticlewidth": true,
+      "worldspace": true
+    },
+    "velocity": {
+      "max": "9.0",
+      "min": "6.0"
+    }
+  }
+}

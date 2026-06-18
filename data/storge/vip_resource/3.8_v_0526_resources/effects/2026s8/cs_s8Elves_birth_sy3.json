@@ -1,0 +1,110 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.4510 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.4000 1.0000 1.0000",
+        "time": "9.2%"
+      },
+      {
+        "color": "0.1137 0.6902 1.0000 1.0000",
+        "time": "30.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.7768",
+        "time": "36.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.1518",
+        "time": "58.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 5.099999999999999,
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "35.0",
+      "min": "35.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 3,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.8 0.8",
+      "min": "0.7999999999999999 0.7999999999999999"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 666.0",
+      "min": "0.0 0.0 -666.0"
+    },
+    "rotationSpeedRange": {
+      "max": "0.0 0.0 120.0",
+      "min": "0.0 0.0 60.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.33 0.33",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "5.7%"
+      },
+      {
+        "scale": "1.4 1.4",
+        "time": "10.0%"
+      },
+      {
+        "scale": "1.25 1.25",
+        "time": "30.0%"
+      },
+      {
+        "scale": "1.45 1.45",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "12",
+        "name": "textures/sfxs/2026s8/cs_s8Elves_birth_sy1",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Elves_birth_sy1"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

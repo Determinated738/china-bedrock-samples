@@ -1,0 +1,81 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.8125",
+        "time": "48.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "delay": 0.05,
+    "direction": {
+      "max": "0.2 0.0 0.2",
+      "min": "-0.2 -1.0 -0.2",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "40.0",
+      "min": "40.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.15 1.15",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "50.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/cs_skin_shuaitusunquan_cilz",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/cs_skin_shuaitusunquan_cilz"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "6.0",
+      "min": "5.0"
+    }
+  }
+}

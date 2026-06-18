@@ -1,0 +1,67 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.1137 0.1137 0.2321",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 0.5268",
+        "time": "50.3%"
+      },
+      {
+        "color": "1.0000 0.0000 0.0000 0.2589",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "direction": {
+      "max": "1.0 0.0 1.0",
+      "min": "0.0 0.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "20.0"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "offsetInCamera": {
+      "value": "-0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.63 0.63",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.26 1.26",
+        "time": "49.7%"
+      },
+      {
+        "scale": "0.69 0.69",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/pet_spirit/cs_spirit_s8Elves_sun"
+    },
+    "timetolive": {
+      "max": "1.5",
+      "min": "1.2"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.2"
+    }
+  }
+}

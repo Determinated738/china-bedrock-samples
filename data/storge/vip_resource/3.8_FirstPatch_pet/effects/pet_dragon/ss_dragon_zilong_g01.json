@@ -1,0 +1,67 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.8667 0.6863 0.8941 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8667 0.6863 0.8941 0.3125",
+        "time": "47.9%"
+      },
+      {
+        "color": "0.8667 0.6863 0.8941 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 -1.0",
+      "min": "0.0 1.0 -1.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Cylinder"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.3 0.4",
+      "min": "0.3 0.4"
+    },
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "6",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/pet_dragon/custom_sun"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "-0.1"
+    }
+  }
+}

@@ -106,6 +106,9 @@
       "path": "ui/petHeadUI.json"
     },
     {
+      "path": "ui/start_screen.json"
+    },
+    {
       "path": "ui/netease_chat_screen.json"
     },
     {
@@ -338,6 +341,9 @@
     },
     {
       "path": "textures/textures_list.json"
+    },
+    {
+      "path": "textures/item_texture.json"
     },
     {
       "path": "textures/blocks/netease_water_texture.png"
@@ -3358,10 +3364,19 @@
       "path": "textures/models/2026s8/ss_s8lehun_horse.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8Lolita_skinA_mask3.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon_mat1.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8Time_Furnace.png"
+    },
+    {
+      "path": "textures/models/2026s8/ss_s8Galaxy_horse_bs.png"
     },
     {
       "path": "textures/models/2026s8/ss_s6Jiaolong_horse_anzi.png"
@@ -3373,6 +3388,9 @@
       "path": "textures/models/2026s8/ss_s8DevilMaid_horse mask.png"
     },
     {
+      "path": "textures/models/2026s8/lx_skin_knightF_guajian.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8DevilMaid_weapon.png"
     },
     {
@@ -3382,7 +3400,16 @@
       "path": "textures/models/2026s8/ss_s7SangNa_Furnace_mask.png"
     },
     {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_mask3.png"
+    },
+    {
       "path": "textures/models/2026s8/xy_s7XiYang_CraftA.png"
+    },
+    {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon_mat3.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_mask2.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8Lolita_skinA_mask1.png"
@@ -3398,6 +3425,9 @@
     },
     {
       "path": "textures/models/2026s8/diamond_modaoshi_tex_yu2.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_noise_512.png"
     },
     {
       "path": "textures/models/2026s8/cs_s8Undead_horse_star2.png"
@@ -3418,13 +3448,25 @@
       "path": "textures/models/2026s8/galaxy.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8FoxMask_skin_guajian_mask.png"
+    },
+    {
       "path": "textures/models/2026s8/xy_s8lehun_weaponSword.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8lehun_skin_guajian_mask.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon_mask1.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8DevilMaid_horse star.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_diam.png"
+    },
+    {
+      "path": "textures/models/2026s8/ss_s7Bear_skin_guajian.png"
     },
     {
       "path": "textures/models/2026s8/ss_s7YongChi_Craft_diamond.png"
@@ -3433,7 +3475,13 @@
       "path": "textures/models/2026s8/ss_s8Witch_skin_guajian_tex.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8Galaxy_horse_mask.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8Lolita_skin_guajian.png"
+    },
+    {
+      "path": "textures/models/2026s8/lx_skin_knightC_guajian.png"
     },
     {
       "path": "textures/models/2026s8/diamond_mdqr_F70BHD_pink.png"
@@ -3443,6 +3491,9 @@
     },
     {
       "path": "textures/models/2026s8/xy_s8Time_FumaceA.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_mask.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8DevilMaid_weapon_mask.png"
@@ -3458,6 +3509,9 @@
     },
     {
       "path": "textures/models/2026s8/ss_s8Lolita_skinA_mat1.png"
+    },
+    {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon_star2.png"
     },
     {
       "path": "textures/models/2026s8/cs_s8Undead_skin_mask2.png"
@@ -3502,6 +3556,9 @@
       "path": "textures/models/2026s8/cs_s8Undead_skin_mask1.png"
     },
     {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_guajian1.png"
+    },
+    {
       "path": "textures/models/2026s8/diamond_mdqr_F70BHD.png"
     },
     {
@@ -3535,6 +3592,12 @@
       "path": "textures/models/2026s8/ss_s8Lolita_skinA_star1.png"
     },
     {
+      "path": "textures/models/2026s8/lx_skin_knightE_guajian.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_star2.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8crow_skin_guajian_bloom.png"
     },
     {
@@ -3553,6 +3616,9 @@
       "path": "textures/models/2026s8/xy_s7XiYang_FurnaceA.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8FoxMask_skin star.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s7YongChi_Craft_star2.png"
     },
     {
@@ -3566,6 +3632,9 @@
     },
     {
       "path": "textures/models/2026s8/ss_s8Time_Craft_galaxy.png"
+    },
+    {
+      "path": "textures/models/2026s8/lx_skin_knightB_guajian.png"
     },
     {
       "path": "textures/models/2026s8/ss_s7SangNa_Furnace_2.png"
@@ -3592,6 +3661,9 @@
       "path": "textures/models/2026s8/ss_s7SangNa_Furnace_1.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon_mask22.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8Witch_skin_guajian.png"
     },
     {
@@ -3607,6 +3679,9 @@
       "path": "textures/models/2026s8/ss_s6Jiaolong_horse_zise.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8Galaxy_weapon_mask.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s6Werewolf_skin_jinshu.png"
     },
     {
@@ -3619,7 +3694,13 @@
       "path": "textures/models/2026s8/ss_s7YongChi_Craft_star.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8FoxMask_skin_guajian_mat4.png"
+    },
+    {
       "path": "textures/models/2026s8/Tex_star.png"
+    },
+    {
+      "path": "textures/models/2026s8/ss_s8Galaxy_horse.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8Witch_skin_guajian_tex_jinse.png"
@@ -3646,6 +3727,9 @@
       "path": "textures/models/2026s8/xy_s8lehun_skin_guajian.png"
     },
     {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_diam2.png"
+    },
+    {
       "path": "textures/models/2026s8/Tex_Tile_02.png"
     },
     {
@@ -3655,7 +3739,13 @@
       "path": "textures/models/2026s8/xy_s8Time_FumaceA_a.png"
     },
     {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_guajian.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s7YongChi_Craft.png"
+    },
+    {
+      "path": "textures/models/2026s8/ss_s8FoxMask_skin_guajian_mat1.png"
     },
     {
       "path": "textures/models/2026s8/ss_s6Jiaolong_horse_hongtex222.png"
@@ -3664,16 +3754,25 @@
       "path": "textures/models/2026s8/ss_s7SangNa_Furnace_a.png"
     },
     {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_galaxy2.png"
+    },
+    {
       "path": "textures/models/2026s8/xy_s8Suit_XX_guajian.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8DevilMaid_horse.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8FoxMask_skin_guajian_mat3.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8Lolita_skinB_star0.png"
     },
     {
       "path": "textures/models/2026s8/cs_s8Undead_skin_guajian1.png"
+    },
+    {
+      "path": "textures/models/2026s8/lx_skin_knightE.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8Undead_weapon_mask1.png"
@@ -3692,6 +3791,9 @@
     },
     {
       "path": "textures/models/2026s8/ss_s7SangNa_Furnace_diamond.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_galaxy3.png"
     },
     {
       "path": "textures/models/2026s8/xy_s8XueRen_XX.png"
@@ -3715,6 +3817,9 @@
       "path": "textures/models/2026s8/ss_s8Witch_skin_guajian_mask2.png"
     },
     {
+      "path": "textures/models/2026s8/lx_skin_knightD_guajian.png"
+    },
+    {
       "path": "textures/models/2026s8/cs_loong_weaponb_star.png"
     },
     {
@@ -3728,6 +3833,9 @@
     },
     {
       "path": "textures/models/2026s8/ss_s8Lolita_skinB_mask1.png"
+    },
+    {
+      "path": "textures/models/2026s8/noise_512.png"
     },
     {
       "path": "textures/models/2026s8/ss_s8lehun_skin_guajian.png"
@@ -3748,6 +3856,9 @@
       "path": "textures/models/2026s8/ss_s8Undead_weapon.png"
     },
     {
+      "path": "textures/models/2026s8/ss_s8FoxMask_skin_guajian.png"
+    },
+    {
       "path": "textures/models/2026s8/ss_s8Lolita_skin_star0.png"
     },
     {
@@ -3764,6 +3875,9 @@
     },
     {
       "path": "textures/models/2026s8/ss_s8DevilMaid_horse mat.png"
+    },
+    {
+      "path": "textures/models/2026s8/cs_s8Galaxy_skin_galaxy.png"
     },
     {
       "path": "textures/models/2026s8/cs_s8Undead_skin_guajian_bloom.png"
@@ -3797,6 +3911,9 @@
     },
     {
       "path": "textures/models/2026s8/ss_s8Time_Craft_2.png"
+    },
+    {
+      "path": "textures/models/2026s8/lx_skin_knightA_guajian.png"
     },
     {
       "path": "textures/models/2026s8/xy_s8Time_FurnaceB.png"
@@ -3899,6 +4016,9 @@
     },
     {
       "path": "textures/models/4d_skin/cs_zhaoyun_0_0.png"
+    },
+    {
+      "path": "textures/models/4d_skin/cs_s8Galaxy_skin.png"
     },
     {
       "path": "textures/models/4d_skin/ss_s5Angel_skinB.png"
@@ -4096,6 +4216,9 @@
       "path": "textures/models/4d_skin/sh_s7YangJian_skin_bloom.png"
     },
     {
+      "path": "textures/models/4d_skin/ss_s8FoxMask_skin.png"
+    },
+    {
       "path": "textures/models/4d_skin/ss_s5Demon_skinA.png"
     },
     {
@@ -4181,6 +4304,9 @@
     },
     {
       "path": "textures/models/4d_skin/cs_loong_skinb_02.png"
+    },
+    {
+      "path": "textures/models/4d_skin/ss_s7Bear_skin.png"
     },
     {
       "path": "textures/models/4d_skin/ss_s4yure_skin.png"
@@ -4633,6 +4759,9 @@
       "path": "textures/models/4d_skin/ss_s5SpiderGirl_skin.png"
     },
     {
+      "path": "textures/models/4d_skin/lx_skin_knightA.png"
+    },
+    {
       "path": "textures/models/4d_skin/cs_567_skinb.png"
     },
     {
@@ -4702,6 +4831,9 @@
       "path": "textures/models/4d_skin/cs_xiaoqiao_D_0_0.png"
     },
     {
+      "path": "textures/models/4d_skin/lx_skin_knightC.png"
+    },
+    {
       "path": "textures/models/4d_skin/ss_s5SpiderGirl_skinB.png"
     },
     {
@@ -4730,6 +4862,9 @@
     },
     {
       "path": "textures/models/4d_skin/cs_567_skina.png"
+    },
+    {
+      "path": "textures/models/4d_skin/lx_skin_knightB.png"
     },
     {
       "path": "textures/models/4d_skin/cs_loong_skina2_long_mask.png"
@@ -4807,6 +4942,9 @@
       "path": "textures/models/4d_skin/ss_astral_skin_bloom.png"
     },
     {
+      "path": "textures/models/4d_skin/lx_skin_knightF.png"
+    },
+    {
       "path": "textures/models/4d_skin/ss_s2bp_skin.png"
     },
     {
@@ -4841,6 +4979,9 @@
     },
     {
       "path": "textures/models/4d_skin/ss_scifi_skin.png"
+    },
+    {
+      "path": "textures/models/4d_skin/ss_s8FoxMask_skin_bloom.png"
     },
     {
       "path": "textures/models/4d_skin/cs_conan_s1skind_bloom.png"
@@ -4903,6 +5044,9 @@
       "path": "textures/models/4d_skin/cs_s4nanwu_skin.png"
     },
     {
+      "path": "textures/models/4d_skin/lx_skin_knightE.png"
+    },
+    {
       "path": "textures/models/4d_skin/cs_atlan_skin_bloom.png"
     },
     {
@@ -4919,6 +5063,9 @@
     },
     {
       "path": "textures/models/4d_skin/ss_s3spook_skin.png"
+    },
+    {
+      "path": "textures/models/4d_skin/lx_skin_knightD.png"
     },
     {
       "path": "textures/models/4d_skin/sh_nether_skin.png"
@@ -7111,6 +7258,9 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_g1.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_cc_xl.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponA_hrg1.json"
     },
     {
@@ -7141,13 +7291,25 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_victory_yl2.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_gy2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_horse_hylz.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_yd.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_gz.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_lg2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xx2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_68.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_dl1.png"
@@ -7156,13 +7318,22 @@
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_hnh.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_fg1.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponA_lg1.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_fg1.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_hylz.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_c1.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_zy.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_weapon_lxx.png"
@@ -7216,6 +7387,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_xin.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_sg.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Time_Craft_gy2.json"
     },
     {
@@ -7240,6 +7414,9 @@
       "path": "textures/sfxs/2026s8/CS_s8DevilMaid_skin_victory_xin.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xx.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_lg1.png"
     },
     {
@@ -7249,7 +7426,16 @@
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_xz2.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_64.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_jian.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_ui.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xt2.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_horse_wei2.json"
@@ -7259,6 +7445,12 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_hb.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_fg2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_zy2.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_tkbs.json"
@@ -7271,6 +7463,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_wl1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_qh.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_jj.json"
@@ -7292,6 +7487,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_cb3.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tou.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_shdj.png"
@@ -7316,6 +7514,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_qi3.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_qh.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_qi2.json"
@@ -7345,6 +7546,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_c1.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_jlg1.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_bl.json"
     },
     {
@@ -7355,6 +7559,15 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_lhdtbq.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_yjhy.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_dg2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xl.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponB_lz1.json"
@@ -7378,6 +7591,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_gth.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_zl2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jjlg.json"
     },
     {
@@ -7385,6 +7601,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_kx1.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_xl.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_weapon_lizi03.png"
@@ -7396,7 +7615,13 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_hylz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_tdgy1.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_bk.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_jt.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_weapon_wl.png"
@@ -7408,22 +7633,37 @@
       "path": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_zz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_53.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg2.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_fz_lz1.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_kuo.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Time_Furnace_xk_gd.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xxlz.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_bo2.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_71.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_weapon_lxs.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_kx3.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_yj.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_axlz.png"
@@ -7438,6 +7678,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_gb.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xuan.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_zy.png"
     },
     {
@@ -7447,19 +7690,46 @@
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_yjlg.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xuan.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_lg1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xl2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_h2.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_xz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xingxuan.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_szx2.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_yfxnq.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tou2.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_zl1.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinA_ht.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_kx2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_sun.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_64.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_jj.png"
@@ -7469,6 +7739,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponA_hdg1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_cc_tw2.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponB_gy.png"
@@ -7484,6 +7757,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/Tex_smoke.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_taqh.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_qlg2.json"
@@ -7502,6 +7778,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_lg1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_12_1.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_hy1.json"
@@ -7549,6 +7828,9 @@
       "path": "textures/sfxs/2026s8/ss_s7YongChi_Craft_lg.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xl.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s7YongChi_Craft_ch.png"
     },
     {
@@ -7565,6 +7847,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg4.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xz.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_ql1.png"
@@ -7591,6 +7876,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_cb4.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tui3.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_bgs.png"
     },
     {
@@ -7615,7 +7903,13 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_victory_hq.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_jlgy.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_bgq.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_dg2.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_cfyf.json"
@@ -7628,6 +7922,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_horse_wei.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_fllz3.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_weapon_dg2.png"
@@ -7648,6 +7945,9 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg6.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xx.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_victory_gx.json"
     },
     {
@@ -7655,6 +7955,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_kx1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_ui.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_tw1.png"
@@ -7681,7 +7984,13 @@
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_bs.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_fllz2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponA_glow1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_lz.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_sb.json"
@@ -7703,6 +8012,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg4.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tui3.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_hx.json"
@@ -7744,7 +8056,16 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg3.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xl2.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Witch_skin_xd.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_tdgy1.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_huan2.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_ql1.json"
@@ -7762,10 +8083,22 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg2.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_yj.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_weapon_bd1.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_cc_tw2.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_yjhy.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_cb2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_zlsz.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_victory_lz.png"
@@ -7774,10 +8107,16 @@
       "path": "textures/sfxs/2026s8/ss_s8lehun_horse_glow.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_xl.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_shdj.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_pmlg1.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tui2.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_zlsz.png"
@@ -7795,7 +8134,13 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponB_ui.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tui2.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_lx2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_yjfg.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_weapon_lgx.json"
@@ -7825,6 +8170,9 @@
       "path": "textures/sfxs/2026s8/ss_s7SangNa_Furnace_yj.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_tdgy2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinA_lg2.json"
     },
     {
@@ -7852,6 +8200,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_xin3.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_jlgy.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinA_dhdj.png"
     },
     {
@@ -7877,6 +8228,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_lx3.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_zy.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_qlg3.json"
@@ -7936,6 +8290,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_sslg.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tou2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponA_lz1.png"
     },
     {
@@ -7990,6 +8347,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jh3.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_12_1.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponB_lizi02.png"
     },
     {
@@ -8026,6 +8386,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_weapon_js.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_lz.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8lehun_horse_ydfk.png"
     },
     {
@@ -8036,6 +8399,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_shdj.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_jlg1.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_qnh.json"
@@ -8065,6 +8431,9 @@
       "path": "textures/sfxs/2026s8/ss_s7YongChi_Craft_lz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_cc_gz.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponA_lz1.json"
     },
     {
@@ -8072,6 +8441,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_ht.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_tou.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jh2_2.png"
@@ -8110,6 +8482,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_horse_hylz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_20.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8lehun_horse_zxkq.png"
     },
     {
@@ -8131,6 +8506,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_fk1.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xingxuan.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_weapon_dg2.json"
     },
     {
@@ -8146,6 +8524,9 @@
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_yfxnq.json"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xxlz.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_rd.png"
     },
     {
@@ -8155,7 +8536,13 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_fp_g1.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xt.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_axlz.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_jt.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_sb.png"
@@ -8233,10 +8620,16 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_qlg1.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_20.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_lg2.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_ym.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_taqh.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_j1hy.json"
@@ -8248,6 +8641,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jh2.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_yjfg.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_bf.json"
     },
     {
@@ -8255,6 +8651,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_xhdj.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_yd.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_gth.json"
@@ -8314,7 +8713,13 @@
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_xzlz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_50.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_fg1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_ui.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponB_fg.png"
@@ -8383,6 +8788,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_wb.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_szx1.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinA_lg2.png"
     },
     {
@@ -8398,7 +8806,19 @@
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_dhdj.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_di.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_fz_lz1.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_68.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xxgy.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_h2.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_weapon_hylz.json"
@@ -8425,6 +8845,9 @@
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_klz.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_jian.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_wllz.json"
     },
     {
@@ -8446,6 +8869,9 @@
       "path": "textures/sfxs/2026s8/cs_s8Undead_weapon_ui.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_h.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_zl2.png"
     },
     {
@@ -8465,6 +8891,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_dl1.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_cc_xl.png"
     },
     {
       "path": "textures/sfxs/2026s8/custom_sun.png"
@@ -8503,6 +8932,9 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weapon_qlg3.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_huan2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Undead_fp_ui2.png"
     },
     {
@@ -8521,6 +8953,9 @@
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_bf.png"
     },
     {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_xz.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jh1_2.png"
     },
     {
@@ -8536,10 +8971,16 @@
       "path": "textures/sfxs/2026s8/ss_s8crow_skin_yj.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_tdgy2.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_xhdj.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_sbblg2.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_h.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_j5hy.json"
@@ -8557,6 +8998,9 @@
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_xz2.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_szx1.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jh4.png"
     },
     {
@@ -8569,16 +9013,25 @@
       "path": "textures/sfxs/2026s8/ss_s8DevilMaid_horse_sbblg2.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_71.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_yfbs.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_hylz1.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_53.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_jh4.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_hnh.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_sg.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Witch_skin_lmx.json"
@@ -8668,6 +9121,9 @@
       "path": "textures/sfxs/2026s8/ss_s8CiMu_skin_xz.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_szx2.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_ht.png"
     },
     {
@@ -8689,7 +9145,16 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_weaponB_glow01.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_weapon_50.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/cs_s8Undead_skin_victory_gx.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_di.json"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_fg2.json"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skinB_th.png"
@@ -8713,10 +9178,16 @@
       "path": "textures/sfxs/2026s8/ss_s8lehun_horse_yjlg.json"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_fllz3.png"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8lehun_horse_lian.png"
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8lehun_skin_yfbs.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/ss_s8Galaxy_horse_fllz2.png"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8DevilMaid_skin_birth_wh.json"
@@ -8743,6 +9214,9 @@
       "path": "textures/sfxs/2026s8/ss_s8Undead_fz_g1.png"
     },
     {
+      "path": "textures/sfxs/2026s8/ss_s8FoxMask_skin_zy2.json"
+    },
+    {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_th1.json"
     },
     {
@@ -8756,6 +9230,9 @@
     },
     {
       "path": "textures/sfxs/2026s8/ss_s8Lolita_skin_hb.png"
+    },
+    {
+      "path": "textures/sfxs/2026s8/cs_s8Galaxy_skin_yd.json"
     },
     {
       "path": "textures/sfxs/2026s8/cs_s8Undead_birth_ks1.png"
@@ -18928,6 +19405,9 @@
       "path": "textures/postprocess/default_dirtiness.png"
     },
     {
+      "path": "textures/items/partner_ball.png"
+    },
+    {
       "path": "textures/particle/s3/xy_2019Q3_jiaoyin_C_qipao.png"
     },
     {
@@ -19558,6 +20038,12 @@
       "path": "models/netease_block/customblocks_web_preset.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightD_guajian_leftleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_leftleg_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_body_mesh.json"
     },
     {
@@ -19565,6 +20051,9 @@
     },
     {
       "path": "models/2026s8/mesh/xy_s8Time_FurnaceB_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightB_guajian_rightarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_head_mesh.json"
@@ -19579,7 +20068,13 @@
       "path": "models/2026s8/mesh/xy_s8Suit_XX_body_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightC_guajian_rightleg_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_leftarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_rightarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_leftleg_mesh.json"
@@ -19591,10 +20086,22 @@
       "path": "models/2026s8/mesh/xy_s8Suit_XX_rightarm_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_head_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_chibang_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_leftleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_toushi_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightA_guajian_leftarm_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_rightarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_head_mesh.json"
@@ -19624,7 +20131,13 @@
       "path": "models/2026s8/mesh/ss_s8Time_Craft_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightF_guajian_leftarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_rightarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightC_guajian_body_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Undead_weapon_mesh.json"
@@ -19645,6 +20158,9 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_rightarm_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8Galaxy_horse_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8CiMu_skin_guajian_leftarmdown_mesh.json"
     },
     {
@@ -19654,10 +20170,16 @@
       "path": "models/2026s8/mesh/ss_s8CiMu_skin_guajian_body_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_body_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s7CaiHong_CraftB_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8Suit_XX_leftarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightD_guajian_rightleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8CiMu_skin_guajian_rightarmdown_mesh.json"
@@ -19669,6 +20191,9 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_leftarm_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightE_guajian_rightarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Lolita_skin_guajian_rightarm_mesh.json"
     },
     {
@@ -19678,13 +20203,25 @@
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_yumao_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightD_guajian_body_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8lehun_skin_guajian_leftlegdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_leftleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_rightlegdown_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8Suit_XX_leftleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightC_guajian_leftleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightF_guajian_leftleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_head_mesh.json"
@@ -19696,13 +20233,22 @@
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_rightleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightE_guajian_body_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_body_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_body_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_leftlegdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_rightlegdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_head_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8lehun_skin_guajian_body_mesh.json"
@@ -19712,6 +20258,9 @@
     },
     {
       "path": "models/2026s8/mesh/xy_s7CaiHong_FurnaceB_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_leftarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_toushi_mesh.json"
@@ -19726,10 +20275,19 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_leftleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightE_guajian_rightleg_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8Suit_XX_zhoushen_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightC_guajian_leftarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8Suit_XX_leftarm_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightB_guajian_body_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_rightarmdown_mesh.json"
@@ -19738,13 +20296,31 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_rightleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_leftarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_zhoushen_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightD_guajian_rightarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8Time_CraftA_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_rightleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_rightleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightA_guajian_body_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_feimao_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightC_guajian_rightarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_rightarmdown_mesh.json"
@@ -19759,10 +20335,22 @@
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_body_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightD_guajian_leftarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_leftarmdown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_leftarm_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s7Bear_skin_guajian_body_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8lehun_weaponSword_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightB_guajian_rightleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8Suit_XX_rightarmdown_mesh.json"
@@ -19774,6 +20362,9 @@
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_zhoushen_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightF_guajian_body_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Lolita_skinA_guajian_body_mesh.json"
     },
     {
@@ -19781,6 +20372,9 @@
     },
     {
       "path": "models/2026s8/mesh/xy_s7XiYang_CraftA_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_rightleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_rightleg_mesh.json"
@@ -19798,6 +20392,9 @@
       "path": "models/2026s8/mesh/xy_s8Suit_XX_rightleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightA_guajian_leftleg_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_leftlegdown_mesh.json"
     },
     {
@@ -19810,16 +20407,34 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skin_guajian_leftleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_leftarmdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_bodydown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_rightlegdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8CiMu_skin_guajian_rightarm_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_rightleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_leftlegdown_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_leftarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightB_guajian_head_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_rightarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_leftleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_rightarm_mesh.json"
@@ -19837,7 +20452,16 @@
       "path": "models/2026s8/mesh/xy_s8lehun_skin_guajian_bodydown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_leftlegdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8Time_FumaceA_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_body_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_rightarmdown_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8lehun_skin_guajian_head_mesh.json"
@@ -19846,10 +20470,16 @@
       "path": "models/2026s8/mesh/ss_s8CiMu_skin_guajian_leftleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightE_guajian_leftarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8lehun_weaponPickAxe_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8crow_skin_guajian_head_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightF_guajian_rightarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_leftleg_mesh.json"
@@ -19861,7 +20491,13 @@
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_body_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_rightlegdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s7YongChi_Craft_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightE_guajian_head_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Lolita_skinB_guajian_head_mesh.json"
@@ -19885,10 +20521,19 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skin_guajian_leftlegdown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_bodydown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_rightarmdown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_leftarmdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_leftarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightA_guajian_rightarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_leftarm_mesh.json"
@@ -19897,13 +20542,28 @@
       "path": "models/2026s8/mesh/xy_s8lehun_skin_guajian_leftleg_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightF_guajian_head_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Lolita_skinA_guajian_head_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightB_guajian_leftarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Time_Furnace_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/ss_s8Galaxy_weapon_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/xy_s8Suit_XX_beishi_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_leftlegdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s7Bear_skin_guajian_head_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_leftlegdown_mesh.json"
@@ -19936,6 +20596,9 @@
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_rightarm_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightA_guajian_head_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_leftleg_mesh.json"
     },
     {
@@ -19948,10 +20611,16 @@
       "path": "models/2026s8/mesh/cs_s8Undead_horse_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightA_guajian_rightleg_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_leftarmdown_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8lehun_skin_guajian_rightarmdown_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightB_guajian_leftleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_body_mesh.json"
@@ -19961,6 +20630,9 @@
     },
     {
       "path": "models/2026s8/mesh/yx_s8Undead_weaponPickAxe_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_body_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_s8XueRen_XX_rightarmdown_mesh.json"
@@ -20005,6 +20677,9 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skin_guajian_body_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian_rightarm_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/cs_s8DevilMaid_skin_guajian_rightarmdown_mesh.json"
     },
     {
@@ -20012,6 +20687,15 @@
     },
     {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_rightleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_leftarm_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightD_guajian_head_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_rightlegdown_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Undead_weaponB_mesh.json"
@@ -20027,6 +20711,9 @@
     },
     {
       "path": "models/2026s8/mesh/ss_s8Lolita_skinA_guajian_leftleg_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/ss_s8FoxMask_skin_head_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/ss_s8Undead_weaponBj_mesh.json"
@@ -20047,6 +20734,9 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skinA_guajian_leftarmdown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/cs_s8Galaxy_skin_guajian1_rightarmdown_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8Witch_skin_guajian_leftarm_mesh.json"
     },
     {
@@ -20059,10 +20749,16 @@
       "path": "models/2026s8/mesh/ss_s8Lolita_skin_guajian_rightlegdown_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightC_guajian_head_mesh.json"
+    },
+    {
       "path": "models/2026s8/mesh/ss_s8CiMu_skin_guajian_leftarm_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/cs_s8Undead_skin_guajian_jian_mesh.json"
+    },
+    {
+      "path": "models/2026s8/mesh/lx_skin_knightE_guajian_leftleg_mesh.json"
     },
     {
       "path": "models/2026s8/mesh/xy_huiliu1_head_mesh.json"
@@ -20077,7 +20773,16 @@
       "path": "models/2026s8/mesh/ss_s8lehun_skin_guajian_leftarm_mesh.json"
     },
     {
+      "path": "models/2026s8/mesh/lx_skin_knightF_guajian_rightleg_mesh.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s7CaiHong_CraftB_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_rightarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_rightarmdown_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_rightarmdown_skeleton.json"
@@ -20098,6 +20803,12 @@
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_body_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_leftarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_rightleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8Time_CraftB_skeleton.json"
     },
     {
@@ -20108,6 +20819,9 @@
     },
     {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_bodydown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightB_guajian_leftarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_rightlegdown_skeleton.json"
@@ -20131,13 +20845,22 @@
       "path": "models/2026s8/skeleton/ss_s8lehun_skin_guajian_leftarm_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightD_guajian_head_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_chibang_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinB_guajian_body_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_rightleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinB_guajian_leftarmdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_leftarmdown_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8Time_FurnaceB_skeleton.json"
@@ -20146,7 +20869,19 @@
       "path": "models/2026s8/skeleton/xy_s8XueRen_XX_beishi_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightB_guajian_leftleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/cs_s8Undead_horse_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_leftarmdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightE_guajian_body_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_leftleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8lehun_skin_guajian_body_skeleton.json"
@@ -20156,6 +20891,15 @@
     },
     {
       "path": "models/2026s8/skeleton/xy_s8Time_FumaceA_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_rightarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightB_guajian_body_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_leftarmdown_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Undead_weaponA_skeleton.json"
@@ -20168,6 +20912,18 @@
     },
     {
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_leftlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_leftarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightC_guajian_head_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s7Bear_skin_guajian_body_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightE_guajian_leftarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_huiliu1_head_skeleton.json"
@@ -20188,6 +20944,15 @@
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_rightarm_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_body_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightA_guajian_rightarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_rightarmdown_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_body_skeleton.json"
     },
     {
@@ -20206,10 +20971,22 @@
       "path": "models/2026s8/skeleton/ss_s8lehun_skin_guajian_body_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightA_guajian_rightleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_rightleg_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_body_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_leftleg_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_leftleg_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightE_guajian_leftleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8Time_CraftA_skeleton.json"
@@ -20221,7 +20998,19 @@
       "path": "models/2026s8/skeleton/ss_s8DevilMaid_weaponj_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_head_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8XueRen_XX_rightarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightC_guajian_body_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s7Bear_skin_guajian_head_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightC_guajian_leftleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_rightlegdown_skeleton.json"
@@ -20242,13 +21031,22 @@
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinB_guajian_rightarm_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightB_guajian_head_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8lehun_skin_guajian_rightarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_leftarm_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_head_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8lehun_skin_guajian_leftarmdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightC_guajian_leftarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_jian_chuchang_skeleton.json"
@@ -20290,6 +21088,12 @@
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_rightlegdown_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_rightlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightD_guajian_leftleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinA_guajian_leftarm_skeleton.json"
     },
     {
@@ -20308,7 +21112,13 @@
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_leftarmdown_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8Galaxy_weapon_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8lehun_weaponPickAxe_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_rightleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinA_guajian_leftarmdown_skeleton.json"
@@ -20326,10 +21136,16 @@
       "path": "models/2026s8/skeleton/ss_s8Lolita_skin_guajian_rightarm_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightF_guajian_rightarm_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_leftlegdown_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8lehun_skin_guajian_head_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightE_guajian_head_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skin_guajian_head_skeleton.json"
@@ -20341,10 +21157,19 @@
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinA_guajian_leftleg_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightD_guajian_leftarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightD_guajian_body_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_beishi_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinB_guajian_head_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightF_guajian_rightleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_rightleg_skeleton.json"
@@ -20359,6 +21184,9 @@
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_doumao_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_rightarm_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8XueRen_XX_leftlegdown_skeleton.json"
     },
     {
@@ -20366,6 +21194,9 @@
     },
     {
       "path": "models/2026s8/skeleton/xy_partHeadDress_huiliuA_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_toushi_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinA_guajian_leftlegdown_skeleton.json"
@@ -20386,10 +21217,16 @@
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_leftlegdown_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_rightarmdown_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinB_guajian_rightlegdown_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_leftlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightA_guajian_body_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_rightarmdown_skeleton.json"
@@ -20446,7 +21283,13 @@
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_feimao_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightE_guajian_rightleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_body_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_head_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_rightarmdown_skeleton.json"
@@ -20464,10 +21307,16 @@
       "path": "models/2026s8/skeleton/xy_s8XueRen_XX_bodydown_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightC_guajian_rightleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_leftleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8CiMu_skin_guajian_rightleg_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightF_guajian_body_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_rightleg_skeleton.json"
@@ -20476,10 +21325,16 @@
       "path": "models/2026s8/skeleton/xy_s8Undead_weaponSword_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightE_guajian_rightarm_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8lehun_skin_guajian_leftleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8lehun_skin_guajian_rightlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightC_guajian_rightarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinA_guajian_body_skeleton.json"
@@ -20518,7 +21373,16 @@
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_pifeng_R_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_leftleg_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_body_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_leftarmdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s8Galaxy_horse_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Witch_skin_guajian_head_skeleton.json"
@@ -20533,7 +21397,19 @@
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_head_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_zhoushen_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_leftlegdown_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8CiMu_skin_guajian_head_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightF_guajian_leftarm_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_leftarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8lehun_skin_guajian_rightarm_skeleton.json"
@@ -20551,10 +21427,25 @@
       "path": "models/2026s8/skeleton/cs_s8DevilMaid_skin_guajian_chibang_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightF_guajian_leftleg_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightF_guajian_head_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian1_rightlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightA_guajian_head_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/xy_s8Suit_XX_rightarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_leftarmdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightB_guajian_rightleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_leftarm_skeleton.json"
@@ -20563,16 +21454,34 @@
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_rightarm_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_rightlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightA_guajian_leftarm_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_rightlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightD_guajian_rightleg_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/ss_s7SangNa_Furnace_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_bodydown_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_head_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightB_guajian_rightarm_skeleton.json"
+    },
+    {
       "path": "models/2026s8/skeleton/ss_s8crow_skin_guajian_leftleg_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/ss_s8FoxMask_skin_leftlegdown_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/xy_s8XueRen_XX_zhoushen_skeleton.json"
@@ -20582,6 +21491,12 @@
     },
     {
       "path": "models/2026s8/skeleton/ss_s8Lolita_skinB_guajian_leftlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/cs_s8Galaxy_skin_guajian_leftlegdown_skeleton.json"
+    },
+    {
+      "path": "models/2026s8/skeleton/lx_skin_knightD_guajian_rightarm_skeleton.json"
     },
     {
       "path": "models/2026s8/skeleton/yx_s8Undead_weaponPickAxe_skeleton.json"
@@ -20596,16 +21511,28 @@
       "path": "models/2026s8/skeleton/cs_s8Undead_skin_guajian_rightarmdown_skeleton.json"
     },
     {
+      "path": "models/2026s8/skeleton/lx_skin_knightA_guajian_leftleg_skeleton.json"
+    },
+    {
       "path": "models/2026s8/animation/ss_s8DevilMaid_horse_animation_run.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_chibang_animation_idle.json"
     },
     {
+      "path": "models/2026s8/animation/ss_s8Galaxy_horse_animation_jump.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_toushi_animation_dianchuo.json"
+    },
+    {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_body_animation_run.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_rightarm_animation_skin.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_zhoushen_animation_dianchuo.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_body_animation_run.json"
@@ -20623,6 +21550,9 @@
       "path": "models/2026s8/animation/ss_s8Time_Craft_animation_birth.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_zhoushen_animation_run.json"
+    },
+    {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_body_animation_chuchang.json"
     },
     {
@@ -20636,6 +21566,12 @@
     },
     {
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_body_animation_dianchuo.json"
+    },
+    {
+      "path": "models/2026s8/animation/ss_s8Galaxy_horse_animation_run.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian_head_animation_chuchang.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_leftlegdown_animation_skin.json"
@@ -20674,6 +21610,12 @@
       "path": "models/2026s8/animation/ss_s7YongChi_Craft_animation_birth.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian_head_animation_dianchuo.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian_head_animation_run.json"
+    },
+    {
       "path": "models/2026s8/animation/ss_s8Undead_horse_animation_idle.json"
     },
     {
@@ -20707,16 +21649,28 @@
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_leftarm_animation_idle.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_toushi_animation_chuchang.json"
+    },
+    {
       "path": "models/2026s8/animation/ss_s8lehun_horse_animation_jump.json"
     },
     {
       "path": "models/2026s8/animation/ss_s8Witch_skin_guajian_head_animation_idle.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_body_animation_run.json"
+    },
+    {
       "path": "models/2026s8/animation/ss_s8Time_Furnace_animation_idle.json"
     },
     {
       "path": "models/2026s8/animation/ss_s8Time_Furnace_animation_work.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_zhoushen_animation_chuchang.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian_head_animation_idle.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_body_animation_dianchuo.json"
@@ -20726,6 +21680,9 @@
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_head_animation_skin.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_zhoushen_animation_idle.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_pifeng_R_animation_chuchang.json"
@@ -20779,7 +21736,13 @@
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_head_animation_idle.json"
     },
     {
+      "path": "models/2026s8/animation/ss_s8Galaxy_horse_animation_walk.json"
+    },
+    {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_pifeng_R_animation_skin.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_body_animation_dianchuo.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_horse_animation_walk.json"
@@ -20800,6 +21763,9 @@
       "path": "models/2026s8/animation/ss_s8Undead_horse_animation_jump.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_body_animation_idle.json"
+    },
+    {
       "path": "models/2026s8/animation/ss_s8lehun_horse_animation_walk.json"
     },
     {
@@ -20807,6 +21773,9 @@
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_pifeng_L_animation_idle.json"
+    },
+    {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_body_animation_chuchang.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_pifeng_L_animation_skin.json"
@@ -20821,10 +21790,19 @@
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_jian_animation_chuchang.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_toushi_animation_idle.json"
+    },
+    {
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_feimao_animation_idle.json"
     },
     {
+      "path": "models/2026s8/animation/cs_s8Galaxy_skin_guajian1_toushi_animation_run.json"
+    },
+    {
       "path": "models/2026s8/animation/ss_s8crow_skin_guajian_chibang_animation_idle.json"
+    },
+    {
+      "path": "models/2026s8/animation/ss_s8FoxMask_skin_head_animation_idle.json"
     },
     {
       "path": "models/2026s8/animation/ss_s8Undead_weaponB_animation_pull.json"
@@ -20839,7 +21817,13 @@
       "path": "models/2026s8/animation/cs_s8Undead_horse_animation_idle.json"
     },
     {
+      "path": "models/2026s8/animation/ss_s8FoxMask_skin_bodydown_animation_idle.json"
+    },
+    {
       "path": "models/2026s8/animation/cs_s8DevilMaid_skin_guajian_feimao_animation_dianchuo.json"
+    },
+    {
+      "path": "models/2026s8/animation/ss_s8Galaxy_horse_animation_idle.json"
     },
     {
       "path": "models/2026s8/animation/cs_s8Undead_skin_guajian_pifeng_L_animation_dianchuo.json"
@@ -21037,6 +22021,9 @@
       "path": "models/4d_skin/geometry/cs_s5Feng_skinA.json"
     },
     {
+      "path": "models/4d_skin/geometry/lx_skin_knightF.json"
+    },
+    {
       "path": "models/4d_skin/geometry/ss_s4March_skin.json"
     },
     {
@@ -21167,6 +22154,12 @@
     },
     {
       "path": "models/4d_skin/geometry/ss_s5Swimsuit_skinA.json"
+    },
+    {
+      "path": "models/4d_skin/geometry/ss_s8FoxMask_skin.json"
+    },
+    {
+      "path": "models/4d_skin/geometry/lx_skin_knightA.json"
     },
     {
       "path": "models/4d_skin/geometry/ss_s4newborn_skin.json"
@@ -21304,6 +22297,9 @@
       "path": "models/4d_skin/geometry/cs_moon_skinB.json"
     },
     {
+      "path": "models/4d_skin/geometry/lx_skin_knightC.json"
+    },
+    {
       "path": "models/4d_skin/geometry/ss_s4zhulinggirl_skin.json"
     },
     {
@@ -21367,6 +22363,9 @@
       "path": "models/4d_skin/geometry/ss_scifi_skin.json"
     },
     {
+      "path": "models/4d_skin/geometry/lx_skin_knightB.json"
+    },
+    {
       "path": "models/4d_skin/geometry/cs_zhaoyun_skin_style1.json"
     },
     {
@@ -21427,6 +22426,9 @@
       "path": "models/4d_skin/geometry/cs_conan_s1skind.json"
     },
     {
+      "path": "models/4d_skin/geometry/ss_s7Bear_skin.json"
+    },
+    {
       "path": "models/4d_skin/geometry/cs_tiger_skinA.json"
     },
     {
@@ -21452,6 +22454,9 @@
     },
     {
       "path": "models/4d_skin/geometry/cs_loong_skina2.json"
+    },
+    {
+      "path": "models/4d_skin/geometry/lx_skin_knightE.json"
     },
     {
       "path": "models/4d_skin/geometry/cs_panther_skinB.json"
@@ -21494,6 +22499,9 @@
     },
     {
       "path": "models/4d_skin/geometry/ss_s2star_skinK.json"
+    },
+    {
+      "path": "models/4d_skin/geometry/cs_s8Galaxy_skin.json"
     },
     {
       "path": "models/4d_skin/geometry/IP_doraemon_S2skinD.json"
@@ -21605,6 +22613,9 @@
     },
     {
       "path": "models/4d_skin/geometry/ss_s6FuRui_skin.json"
+    },
+    {
+      "path": "models/4d_skin/geometry/lx_skin_knightD.json"
     },
     {
       "path": "models/4d_skin/geometry/cs_dragon_skinB.json"
@@ -27688,6 +28699,12 @@
       "path": "shaders/2026s8/glsl/ss_s8Time_Furnace_glitter02.fragment"
     },
     {
+      "path": "shaders/2026s8/glsl/cs_s8Galaxy_skin_glitter_no.fragment"
+    },
+    {
+      "path": "shaders/2026s8/glsl/ss_s8FoxMask_skin_bt.vertex"
+    },
+    {
       "path": "shaders/2026s8/glsl/ss_s8lehun_horse_glitter_nb01.vertex"
     },
     {
@@ -27721,6 +28738,9 @@
       "path": "shaders/2026s8/glsl/ss_s8Time_Craft_skin_galaxy0.vertex"
     },
     {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_weapon_glitter2.fragment"
+    },
+    {
       "path": "shaders/2026s8/glsl/cs_s8Undead_skin_tm.fragment"
     },
     {
@@ -27730,7 +28750,16 @@
       "path": "shaders/2026s8/glsl/ss_s8lehun_skin_glitter_nb01.fragment"
     },
     {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_horse_galaxy.vertex"
+    },
+    {
+      "path": "shaders/2026s8/glsl/cs_s8Galaxy_skin_diamond.fragment"
+    },
+    {
       "path": "shaders/2026s8/glsl/ss_s8Time_Furnace_glitter01.vertex"
+    },
+    {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_weapon_glitter2.vertex"
     },
     {
       "path": "shaders/2026s8/glsl/ss_s8Time_Furnace_glitter_nb03.fragment"
@@ -27743,6 +28772,9 @@
     },
     {
       "path": "shaders/2026s8/glsl/ss_s8Undead_horse_glitter_no.fragment"
+    },
+    {
+      "path": "shaders/2026s8/glsl/cs_s8Galaxy_skin_galaxy.fragment"
     },
     {
       "path": "shaders/2026s8/glsl/vip_glitter_no_blend_qunzi.fragment"
@@ -27761,6 +28793,9 @@
     },
     {
       "path": "shaders/2026s8/glsl/ss_s8lehun_skin_glitter_nb01.vertex"
+    },
+    {
+      "path": "shaders/2026s8/glsl/ss_s8FoxMask_skin_bt.fragment"
     },
     {
       "path": "shaders/2026s8/glsl/ss_s7YongChi_Craft_glitter0.vertex"
@@ -27790,6 +28825,9 @@
       "path": "shaders/2026s8/glsl/ss_s7YongChi_Craft_glitter_no.fragment"
     },
     {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_weapon_glitter1.fragment"
+    },
+    {
       "path": "shaders/2026s8/glsl/ss_s8Time_Craft_skin_galaxy0.fragment"
     },
     {
@@ -27806,6 +28844,9 @@
     },
     {
       "path": "shaders/2026s8/glsl/vip_glitter_no_blend_bs.fragment"
+    },
+    {
+      "path": "shaders/2026s8/glsl/cs_s8Galaxy_skin_glitter_no.vertex"
     },
     {
       "path": "shaders/2026s8/glsl/ss_s8Undead_weaponA_noglitter1.vertex"
@@ -27850,10 +28891,19 @@
       "path": "shaders/2026s8/glsl/ss_s8Undead_weaponB_bt.fragment"
     },
     {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_horse_bs.fragment"
+    },
+    {
       "path": "shaders/2026s8/glsl/ss_s8lehun_skin_glitter_nb02.vertex"
     },
     {
       "path": "shaders/2026s8/glsl/ss_s7YongChi_Craft_glitter0.fragment"
+    },
+    {
+      "path": "shaders/2026s8/glsl/cs_s8Galaxy_skin_galaxy.vertex"
+    },
+    {
+      "path": "shaders/2026s8/glsl/cs_s8Galaxy_skin_diamond.vertex"
     },
     {
       "path": "shaders/2026s8/glsl/vip_glitter_no_blend_cb.vertex"
@@ -27871,6 +28921,9 @@
       "path": "shaders/2026s8/glsl/vip_glitter_no_blend_tf.vertex"
     },
     {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_horse_bs.vertex"
+    },
+    {
       "path": "shaders/2026s8/glsl/ss_s8Time_Furnace_glitter02.vertex"
     },
     {
@@ -27878,6 +28931,12 @@
     },
     {
       "path": "shaders/2026s8/glsl/vip_glitter_no_blend_qunzi.vertex"
+    },
+    {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_horse_galaxy.fragment"
+    },
+    {
+      "path": "shaders/2026s8/glsl/ss_s8Galaxy_weapon_glitter1.vertex"
     },
     {
       "path": "shaders/2026s8/glsl/ss_s8Time_Craft_glitter_no.fragment"
@@ -29428,10 +30487,19 @@
       "path": "effects/2026s8/ss_s8crow_skin_yd.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_bdlz2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_tou3.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8lehun_skin_yfx.json"
     },
     {
       "path": "effects/2026s8/ss_s8Lolita_skinB_hnh.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_fg1.json"
     },
     {
       "path": "effects/2026s8/ss_s8Time_Craft_glow1.json"
@@ -29441,6 +30509,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_birth_xxinlz1.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_zy.json"
     },
     {
       "path": "effects/2026s8/ss_s8DevilMaid_horse_pdlz.json"
@@ -29465,6 +30536,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_lgs.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_dikuo.json"
     },
     {
       "path": "effects/2026s8/ss_s8Undead_weaponB_glow01_11.json"
@@ -29509,6 +30583,12 @@
       "path": "effects/2026s8/ss_s8Undead_weaponA_sb1.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_gy.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xx.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_skin_victory_lz.json"
     },
     {
@@ -29537,6 +30617,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_bgs.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_qh.json"
     },
     {
       "path": "effects/2026s8/ss_s8crow_skin_jj.json"
@@ -29593,7 +30676,13 @@
       "path": "effects/2026s8/cs_s8Undead_birth_ls4.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_twt1.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_bd01.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_jianshen1.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_cb2.json"
@@ -29614,7 +30703,13 @@
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_lizi03.json"
     },
     {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_yjhy.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_birth_x1.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xl.json"
     },
     {
       "path": "effects/2026s8/ss_s8Undead_weaponB_lz1.json"
@@ -29647,6 +30742,9 @@
       "path": "effects/2026s8/xy_s8Undead_fz_gh.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xishou.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_skin_jjlg.json"
     },
     {
@@ -29654,6 +30752,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8Undead_skin_jh6.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_szx2.json"
     },
     {
       "path": "effects/2026s8/ss_s8Time_Furnace_xdlz_xs_work.json"
@@ -29668,10 +30769,16 @@
       "path": "effects/2026s8/ss_s8Undead_fz_lz1.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_t2.json"
+    },
+    {
       "path": "effects/2026s8/yx_s8Undead_fp_huolz4mian.json"
     },
     {
       "path": "effects/2026s8/ss_s8CiMu_skin_jlg.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_xzshen2.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_bd11.json"
@@ -29684,6 +30791,9 @@
     },
     {
       "path": "effects/2026s8/ss_s7YongChi_Craft_shuihua2.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_lizi.json"
     },
     {
       "path": "effects/2026s8/ss_s8DevilMaid_horse_lz1.json"
@@ -29713,6 +30823,12 @@
       "path": "effects/2026s8/cs_s8DevilMaid_skin_birth_xlz2.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_dg.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_h2.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_birth_b.json"
     },
     {
@@ -29722,7 +30838,16 @@
       "path": "effects/2026s8/cs_s8DevilMaid_skin_victory_qllz.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_xlzrunidle.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_szx2.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Lolita_skinA_xh1.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_tou2.json"
     },
     {
       "path": "effects/2026s8/ss_s7SangNa_Furnace_zhengqi.json"
@@ -29738,6 +30863,9 @@
     },
     {
       "path": "effects/2026s8/ss_s7YongChi_Craft_lz.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_c1.json"
     },
     {
       "path": "effects/2026s8/ss_s8Lolita_skinA_dhdj.json"
@@ -29758,6 +30886,9 @@
       "path": "effects/2026s8/cs_s8DevilMaid_skin_xin3.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_xlz.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Lolita_skin_lg1.json"
     },
     {
@@ -29770,6 +30901,9 @@
       "path": "effects/2026s8/cs_s8Undead_weapon_dg.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_stgy2.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8CiMu_skin_lz.json"
     },
     {
@@ -29777,6 +30911,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8Time_Craft_xq.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_gyqun.json"
     },
     {
       "path": "effects/2026s8/ss_s8Undead_weaponB_lz01_11.json"
@@ -29797,6 +30934,9 @@
       "path": "effects/2026s8/cs_s8Undead_weapon_yj.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_gy2.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_birth_pyw1.json"
     },
     {
@@ -29807,6 +30947,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_bgcs2.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_lizi2.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_zui.json"
@@ -29863,13 +31006,22 @@
       "path": "effects/2026s8/cs_s8Undead_skin_sslg.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_xlz3.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_skin_victory_gx.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_skin_kx1.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_xlzrun2.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Time_Furnace_xk_ywlz.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_huan3.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_birth_yclz.json"
@@ -29887,7 +31039,13 @@
       "path": "effects/2026s8/ss_s8lehun_skin_yfx2.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_bdlz.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Undead_weaponA_glow1.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_lz.json"
     },
     {
       "path": "effects/2026s8/ss_s8CiMu_skin_sb.json"
@@ -29926,6 +31084,9 @@
       "path": "effects/2026s8/cs_s8DevilMaid_skin_victory_quanrongjie.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_xzshen.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Undead_fz_ui1.json"
     },
     {
@@ -29950,10 +31111,22 @@
       "path": "effects/2026s8/cs_s8Undead_skin_yj2.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_bzx.json"
+    },
+    {
       "path": "effects/2026s8/ss_s7YongChi_Craft_ty2.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_bgx.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xl2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_huan2.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_xlz2.json"
     },
     {
       "path": "effects/2026s8/ss_s8Witch_skin_jz.json"
@@ -29962,7 +31135,16 @@
       "path": "effects/2026s8/cs_s8Undead_weapon_hylz01.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_yj.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_ax.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_fklz2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xzshen.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_pmlg.json"
@@ -29978,6 +31160,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8Undead_weaponB_bd01.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_tui2.json"
     },
     {
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_lgx.json"
@@ -30010,6 +31195,9 @@
       "path": "effects/2026s8/ss_s8DevilMaid_horse_xzlz.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xzshen01.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_birth_tw3.json"
     },
     {
@@ -30031,6 +31219,9 @@
       "path": "effects/2026s8/ss_s8lehun_horse_zxkq.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_stgy3.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Witch_skin_xdx.json"
     },
     {
@@ -30038,6 +31229,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_xin2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_tui.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_ls1.json"
@@ -30062,6 +31256,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_sg.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_xtlz.json"
     },
     {
       "path": "effects/2026s8/ss_s7YongChi_Craft_ty.json"
@@ -30148,6 +31345,9 @@
       "path": "effects/2026s8/ss_s8CiMu_skin_qllz2.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_ph01.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Undead_fz_ui2.json"
     },
     {
@@ -30157,7 +31357,13 @@
       "path": "effects/2026s8/ss_s8Lolita_skinB_qnh.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_szx.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Undead_weaponA_lz1.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_tou.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_skin_kx3.json"
@@ -30181,6 +31387,15 @@
       "path": "effects/2026s8/cs_s8Undead_horse_wlyj.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_cgy.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_stgy.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xzshen2.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Undead_horse_twgy_y3.json"
     },
     {
@@ -30188,6 +31403,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8Undead_weaponA_hrg4.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xingxuan.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_6star01.json"
@@ -30205,6 +31423,12 @@
       "path": "effects/2026s8/ss_s8Lolita_skinA_hdj.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xingxuan2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xzshen3.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Time_Furnace_dr_xdlz_z.json"
     },
     {
@@ -30215,6 +31439,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8DevilMaid_horse_axlz.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_jt.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_skin_kx2.json"
@@ -30230,6 +31457,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8Lolita_skin_dhdj.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_guangyun1.json"
     },
     {
       "path": "effects/2026s8/ss_s8lehun_horse_fklz.json"
@@ -30292,6 +31522,9 @@
       "path": "effects/2026s8/ss_s8crow_skin_ym.json"
     },
     {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_taqh.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_birth_j1hy.json"
     },
     {
@@ -30302,6 +31535,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8Undead_horse_leng3.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_yjfg.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_bf.json"
@@ -30325,7 +31561,13 @@
       "path": "effects/2026s8/ss_s8Undead_weaponB_lizi02.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_twgy.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Undead_horse_sllz.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_lizi1.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_bgcs1.json"
@@ -30338,6 +31580,9 @@
     },
     {
       "path": "effects/2026s8/ss_s8lehun_horse_run_zxkq.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_lizi1_1.json"
     },
     {
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_lgz.json"
@@ -30353,6 +31598,9 @@
     },
     {
       "path": "effects/2026s8/ss_s7YongChi_Craft_lg.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_t1.json"
     },
     {
       "path": "effects/2026s8/ss_s8Undead_weapon_fg1.json"
@@ -30373,7 +31621,16 @@
       "path": "effects/2026s8/cs_s8DevilMaid_skin_ph1.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_twlz.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8DevilMaid_horse_lz2.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_xinglian1.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_xuanlz.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_birth_xlz1.json"
@@ -30395,6 +31652,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_wb.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_huan.json"
     },
     {
       "path": "effects/2026s8/cs_s8Undead_skin_tshylz.json"
@@ -30430,6 +31690,12 @@
       "path": "effects/2026s8/ss_s8Undead_weaponB_lizi02_11.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xz2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_jian.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_skin_wllz.json"
     },
     {
@@ -30449,6 +31715,9 @@
     },
     {
       "path": "effects/2026s8/cs_s8Undead_birth_dl1.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_jianshen2.json"
     },
     {
       "path": "effects/2026s8/cs_s8DevilMaid_skin_cb1.json"
@@ -30475,7 +31744,13 @@
       "path": "effects/2026s8/ss_s8DevilMaid_weapon_glow01_FP.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_xinglian.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_birth_tw6.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_xlzrun.json"
     },
     {
       "path": "effects/2026s8/ss_s8Undead_horse_zxgy.json"
@@ -30490,7 +31765,13 @@
       "path": "effects/2026s8/cs_s8Undead_skin_yj.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_cc_bd.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8crow_skin_yj2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xz.json"
     },
     {
       "path": "effects/2026s8/ss_s8Witch_skin_nhgy.json"
@@ -30508,10 +31789,22 @@
       "path": "effects/2026s8/ss_s8crow_skin_yj.json"
     },
     {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_h.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_weapon_leng01.json"
     },
     {
+      "path": "effects/2026s8/ss_s8Galaxy_horse_szx.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8DevilMaid_horse_cblg1_2.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8Galaxy_weapon_lizi2_2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_xishou2.json"
     },
     {
       "path": "effects/2026s8/ss_s8crow_skin_cbyun2.json"
@@ -30526,7 +31819,13 @@
       "path": "effects/2026s8/cs_s8Undead_birth_hylz1.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_gz.json"
+    },
+    {
       "path": "effects/2026s8/cs_s8Undead_skin_jh4.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_sg.json"
     },
     {
       "path": "effects/2026s8/ss_s8Witch_skin_lmx.json"
@@ -30607,6 +31906,12 @@
       "path": "effects/2026s8/ss_s8Undead_weaponB_glow01.json"
     },
     {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_di.json"
+    },
+    {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_fg2.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Time_Craft_xx.json"
     },
     {
@@ -30637,10 +31942,16 @@
       "path": "effects/2026s8/cs_s8Undead_weapon_leng.json"
     },
     {
+      "path": "effects/2026s8/ss_s8FoxMask_skin_zy2.json"
+    },
+    {
       "path": "effects/2026s8/ss_s8Time_Furnace_birth_sdsd.json"
     },
     {
       "path": "effects/2026s8/ss_s8Lolita_skin_th1.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_bd.json"
     },
     {
       "path": "effects/2026s8/ss_s8Lolita_skin_xh1.json"
@@ -30656,6 +31967,9 @@
     },
     {
       "path": "effects/2026s8/ss_s7SangNa_Furnace_glow_2.json"
+    },
+    {
+      "path": "effects/2026s8/cs_s8Galaxy_skin_yd.json"
     },
     {
       "path": "effects/2025s7/cs_s7DragonKing_birth_sh1.json"

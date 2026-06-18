@@ -1,0 +1,59 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.0000 0.9843 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "26.3%"
+      },
+      {
+        "color": "0.0000 0.9843 1.0000 1.0000",
+        "time": "74.2%"
+      },
+      {
+        "color": "0.0000 0.9843 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "-1.0 1.0 0.0",
+      "min": "1.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.2 0.25 0.2"
+    },
+    "emittertype": {
+      "value": "Cone"
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.03 0.03"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Elves_weaponB_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.3",
+      "min": "0.5"
+    }
+  }
+}

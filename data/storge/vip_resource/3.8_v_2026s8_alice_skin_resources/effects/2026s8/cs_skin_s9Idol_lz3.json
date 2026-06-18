@@ -1,0 +1,65 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "38.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "2.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.1 0.6 0.6"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.15 0.1",
+      "min": "0.2 0.15"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20",
+        "name": "textures/sfxs/2026s8/cs_skin_s9Idol_lz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_skin_s9Idol_lz"
+    },
+    "thickness": {
+      "value": "0.5"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    }
+  }
+}

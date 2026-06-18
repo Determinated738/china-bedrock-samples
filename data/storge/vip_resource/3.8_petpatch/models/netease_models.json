@@ -35,5 +35,59 @@
     "texture": {
       "tex1": "pet_squid/ss_squid_s8lehun_bloom"
     }
+  },
+  "cs_spirit_s8Elves": {
+    "animation": {
+      "idle_bored": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_idle_bored.json",
+      "idle_happy": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_idle_happy.json",
+      "idle_play": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_idle_play.json",
+      "idle_stand": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_idle_stand.json",
+      "idle_walk": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_idle_walk.json",
+      "build_pickup": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_pickup.json",
+      "play_angry": "pet_spirit/animation/cs_spirit_s8Elves_animation_ty_spirit_play_angry.json"
+    },
+    "dy_load": true,
+    "mesh": "pet_spirit/mesh/cs_spirit_s8Elves_mesh.json",
+    "skeleton": "pet_spirit/skeleton/cs_spirit_s8Elves_skeleton.json",
+    "splitBonesGroup": {},
+    "texture": {
+      "tex1": "pet_spirit/cs_spirit_s8Elves_bloom"
+    }
+  },
+  "ss_dragon_zilong": {
+    "animation": {
+      "idle_bored": "pet_dragon/animation/ss_dragon_zilong_animation_idle_bored.json",
+      "build_pickup": "pet_dragon/animation/ss_dragon_zilong_animation_idle_pickup.json",
+      "idle_play": "pet_dragon/animation/ss_dragon_zilong_animation_idle_play.json",
+      "idle_stand": "pet_dragon/animation/ss_dragon_zilong_animation_idle_stand.json",
+      "walk": "pet_dragon/animation/ss_dragon_zilong_animation_idle_walk.json",
+      "play_angry": "pet_dragon/animation/ss_dragon_zilong_animation_play_angry.json",
+      "play_happy": "pet_dragon/animation/ss_dragon_zilong_animation_play_happy.json"
+    },
+    "dy_load": true,
+    "mesh": "pet_dragon/mesh/ss_dragon_zilong_mesh.json",
+    "pet_type": "pet_dragon/dragon",
+    "skeleton": "pet_dragon/skeleton/ss_dragon_zilong_skeleton.json",
+    "texture": {
+      "tex1": "pet_dragon/ss_dragon_qinglong _bloom"
+    }
+  },
+  "xy_fox_s9school": {
+    "animation": {
+      "build_pickup": "pet_fox/animation/xy_fox_s9school_animation_build_pickup.json",
+      "change_happy": "pet_fox/animation/xy_fox_s9school_animation_change_happy.json",
+      "idle_lookaround": "pet_fox/animation/xy_fox_s9school_animation_idle_lookaround.json",
+      "idle_sit": "pet_fox/animation/xy_fox_s9school_animation_idle_sit.json",
+      "idle_sleep": "pet_fox/animation/xy_fox_s9school_animation_idle_sleep.json",
+      "idle_stand": "pet_fox/animation/xy_fox_s9school_animation_idle_stand.json",
+      "play_jump": "pet_fox/animation/xy_fox_s9school_animation_jump.json",
+      "play_whirl": "pet_fox/animation/xy_fox_s9school_animation_play_whirl.json",
+      "play_roll": "pet_fox/animation/xy_fox_s9school_animation_roll.json",
+      "walk": "pet_fox/animation/xy_fox_s9school_animation_walk.json"
+    },
+    "dy_load": true,
+    "mesh": "pet_fox/mesh/xy_fox_s9school_mesh.json",
+    "pet_type": "pet_fox/fox",
+    "skeleton": "pet_fox/skeleton/xy_fox_s9school_skeleton.json"
   }
 }

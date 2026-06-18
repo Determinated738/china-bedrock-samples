@@ -1,0 +1,96 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "51.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "75.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "-0.10000000000000003 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "-0.5000000000000001 0.5 -0.3",
+      "min": "-0.5000000000000001 0.5 0.3",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "6.999999999999993",
+      "min": "5.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.09999999999999998 0.3 0.2"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "particlesize": {
+      "max": "0.05 0.05",
+      "min": "0.02 0.02"
+    },
+    "prewarm": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.99 0.99",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.29 1.29",
+        "time": "16.3%"
+      },
+      {
+        "scale": "1.11 1.11",
+        "time": "69.0%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/cs_s8Elves_horse_bslz1",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Elves_horse_bslz1"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.2",
+      "min": "0.8"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.1"
+    }
+  }
+}

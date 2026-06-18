@@ -1,0 +1,114 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "5.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "6.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "64.5%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 -1.5 0.0"
+    },
+    "dampingforce": {
+      "value": "4.5"
+    },
+    "delay": 0.02,
+    "direction": {
+      "max": "1.0 0.3 0.9999999999999998",
+      "min": "-1.0 1.0 -1.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "0.2",
+      "interval": "0.4",
+      "max": "-0.30000000000000004 -0.30000000000000004 -0.30000000000000004",
+      "min": "0.30000000000000004 0.30000000000000004 0.30000000000000004"
+    },
+    "emissionrate": {
+      "max": "150.0",
+      "min": "150.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.6 0.3 0.6"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.18 0.18",
+      "min": "0.08 0.08"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.54 0.54",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.02 1.02",
+        "time": "15.0%"
+      },
+      {
+        "scale": "0.9 0.9",
+        "time": "41.0%"
+      },
+      {
+        "scale": "0.33 0.33",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/cs_s8Elves_skin_victory_lz",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Elves_skin_victory_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.1",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "10.0",
+      "min": "7.0"
+    }
+  }
+}

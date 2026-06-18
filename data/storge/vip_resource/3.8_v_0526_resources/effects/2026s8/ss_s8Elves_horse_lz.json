@@ -1,0 +1,56 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.2196 0.1922 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.2196 0.1922 1.0000",
+        "time": "22.4%"
+      },
+      {
+        "color": "1.0000 0.2196 0.1922 1.0000",
+        "time": "74.2%"
+      },
+      {
+        "color": "1.0000 0.2196 0.1922 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "15.0"
+    },
+    "particlesize": {
+      "max": "0.03 0.03",
+      "min": "0.05 0.05"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_s8Elves_horse_01"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.5"
+    }
+  }
+}

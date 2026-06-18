@@ -1,0 +1,39 @@
+{
+  "frameeffect": {
+    "blend_mode": 1,
+    "cylinder_enable": true,
+    "cylinder_frac_num": 16,
+    "cylinder_height": 1,
+    "cylinder_radius_down": 1,
+    "cylinder_radius_up": 1,
+    "delay": 0,
+    "delay_in_loop": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fade_distance": 0,
+    "first_person_enable": false,
+    "fps": 30,
+    "frame_color": [],
+    "layer": 7,
+    "lerp_scale": true,
+    "loop": true,
+    "point_filtering": true,
+    "rot_speed": [
+      0,
+      30,
+      0
+    ],
+    "scale": [
+      0.68,
+      1.36,
+      0.68
+    ],
+    "shuffle": false,
+    "sub_layer": 0,
+    "tex_repeat_num": [
+      3,
+      1
+    ],
+    "texture": "textures/sfxs/2026s8/ss_s8Elves_fz_guashi"
+  }
+}

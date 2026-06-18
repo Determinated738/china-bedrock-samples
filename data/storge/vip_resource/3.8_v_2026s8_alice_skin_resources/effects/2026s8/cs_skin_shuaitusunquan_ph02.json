@@ -1,0 +1,78 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9216 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 0.9294 0.9961 1.0000",
+        "time": "74.7%"
+      },
+      {
+        "color": "0.9804 0.9137 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "-0.1 -0.1 -0.1",
+      "min": "0.1 0.1 0.1",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "80.0",
+      "min": "80.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.1 0.1 0.1"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "6"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "16",
+        "name": "textures/sfxs/2026s8/cs_skin_shuaitusunquan_sh",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_skin_shuaitusunquan_sh"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "1.0"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "4.0"
+    }
+  }
+}

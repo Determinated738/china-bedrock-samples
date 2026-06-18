@@ -1,0 +1,68 @@
+{
+  "frames": [
+    {
+      "filename": "glow_00000.png",
+      "frame": {
+        "h": 256,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "sourceSize": {
+        "h": 256,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 256,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "glow_00001.png",
+      "frame": {
+        "h": 256,
+        "w": 64,
+        "x": 64,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "sourceSize": {
+        "h": 256,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 256,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "format": "RGBA8888",
+    "image": "cs_s8Elves_weapon_glow_xl.png",
+    "scale": "1",
+    "size": {
+      "h": 256,
+      "w": 128
+    },
+    "smartupdate": "$TexturePacker:SmartUpdate:d431da5fb476e06ba7f37b236bb09cdc:f20eebd3c896d5e19dd2eb2b96038aa9:7072d663c4db2c53fba685e3aff6a0e6$",
+    "version": "1.0"
+  }
+}

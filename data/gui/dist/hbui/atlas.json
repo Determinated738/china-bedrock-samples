@@ -1,9 +1,9 @@
 [
   {
-    "name": "menus-atlas-e876e82626bd73989f8b.png",
+    "name": "menus-atlas-9c6a44f1dd00e9217e67.png",
     "width": 169,
     "height": 159,
-    "size": 8902,
+    "size": 8913,
     "coordinates": {
       "assets/bubble_action_default-bbef25eabe79ed131a72.png": {
         "x": 0,
@@ -395,6 +395,18 @@
         "width": 7,
         "height": 7
       },
+      "assets/accessibility@0.5x.icon-dad71ca29518aa899ffeea8d919e0307.png": {
+        "x": 108,
+        "y": 128,
+        "width": 9,
+        "height": 10
+      },
+      "assets/achievement-bottle.icon-4eb8c1718579b71d03954cc52771e424.png": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      },
       "assets/achievements@0.5x.icon-5e205a8fbedb160eddead32c83f3c312.png": {
         "x": 14,
         "y": 34,
@@ -413,6 +425,12 @@
         "width": 11,
         "height": 12
       },
+      "assets/add-ons@0.5x.icon-8520e720ba44892a58302890eee7f1a9.png": {
+        "x": 42,
+        "y": 34,
+        "width": 12,
+        "height": 12
+      },
       "assets/add-ons_small@0.5x.icon-2ecb1f8cb163f7d62882fca8fed6117a.png": {
         "x": 152,
         "y": 105,
@@ -420,19 +438,25 @@
         "height": 8
       },
       "assets/add-player@0.5x.icon-2f4379f41efcca69c3741a2054ee87d0.png": {
-        "x": 42,
-        "y": 34,
-        "width": 12,
-        "height": 12
-      },
-      "assets/album@0.5x.icon-8eb06e4836f8f3baaec95f488db2aa02.png": {
         "x": 60,
         "y": 0,
         "width": 12,
         "height": 12
       },
-      "assets/apple@0.5x.icon-f78b1690c84a7fcfa21ef56ad72e9387.png": {
+      "assets/add-resource-pack@0.5x.icon-5ae9688afc0437276b31febb725f03df.png": {
         "x": 69,
+        "y": 90,
+        "width": 11,
+        "height": 12
+      },
+      "assets/album@0.5x.icon-8eb06e4836f8f3baaec95f488db2aa02.png": {
+        "x": 60,
+        "y": 14,
+        "width": 12,
+        "height": 12
+      },
+      "assets/apple@0.5x.icon-f78b1690c84a7fcfa21ef56ad72e9387.png": {
+        "x": 82,
         "y": 90,
         "width": 11,
         "height": 12
@@ -443,20 +467,8 @@
         "width": 9,
         "height": 12
       },
-      "assets/add-resource-pack@0.5x.icon-5ae9688afc0437276b31febb725f03df.png": {
-        "x": 82,
-        "y": 90,
-        "width": 11,
-        "height": 12
-      },
       "assets/arrow-left@0.5x.icon-7b87c58a422fe78b5bc658aa522c3872.png": {
         "x": 0,
-        "y": 117,
-        "width": 12,
-        "height": 9
-      },
-      "assets/arrow-right@0.5x.icon-14b53e561b57a6a9d45b301493d24897.png": {
-        "x": 14,
         "y": 117,
         "width": 12,
         "height": 9
@@ -467,22 +479,16 @@
         "width": 9,
         "height": 12
       },
+      "assets/arrow-right@0.5x.icon-14b53e561b57a6a9d45b301493d24897.png": {
+        "x": 14,
+        "y": 117,
+        "width": 12,
+        "height": 9
+      },
       "assets/backup@0.5x.icon-d2862dce4640eb9e73babb1453e77328.png": {
         "x": 0,
         "y": 128,
         "width": 10,
-        "height": 10
-      },
-      "assets/achievement-bottle.icon-4eb8c1718579b71d03954cc52771e424.png": {
-        "x": 0,
-        "y": 0,
-        "width": 32,
-        "height": 32
-      },
-      "assets/accessibility@0.5x.icon-dad71ca29518aa899ffeea8d919e0307.png": {
-        "x": 108,
-        "y": 128,
-        "width": 9,
         "height": 10
       },
       "assets/bell@0.5x.icon-259b09ba26b33bdd5b23861e067a3eb7.png": {
@@ -493,7 +499,7 @@
       },
       "assets/block@0.5x.icon-5d2f0e304d776242b765beb9ca592059.png": {
         "x": 60,
-        "y": 14,
+        "y": 28,
         "width": 12,
         "height": 12
       },
@@ -503,35 +509,29 @@
         "width": 8,
         "height": 8
       },
-      "assets/boots@0.5x.icon-552067cfbc3a2e0f6ecaeb3bb3fa57ca.png": {
-        "x": 68,
-        "y": 104,
-        "width": 11,
-        "height": 10
-      },
-      "assets/add-ons@0.5x.icon-8520e720ba44892a58302890eee7f1a9.png": {
-        "x": 60,
-        "y": 28,
-        "width": 12,
-        "height": 12
-      },
       "assets/brush@0.5x.icon-c1e1badcb9fb0e159a3edc986553cbb8.png": {
         "x": 0,
         "y": 48,
         "width": 12,
         "height": 12
       },
-      "assets/brush_small@0.5x.icon-42a965633d1301f3ec95d45c16592c21.png": {
-        "x": 152,
-        "y": 125,
-        "width": 8,
-        "height": 8
+      "assets/boots@0.5x.icon-552067cfbc3a2e0f6ecaeb3bb3fa57ca.png": {
+        "x": 68,
+        "y": 104,
+        "width": 11,
+        "height": 10
       },
       "assets/checkmark@0.5x.icon-6995d82c2fd8380979391eebf918a78d.png": {
         "x": 34,
         "y": 26,
         "width": 8,
         "height": 6
+      },
+      "assets/chevron-down@0.5x.icon-24a8c224d1fd5bd74a6bae99b39af6f0.png": {
+        "x": 152,
+        "y": 145,
+        "width": 7,
+        "height": 4
       },
       "assets/checkmark_small@0.5x.icon-6995d82c2fd8380979391eebf918a78d.png": {
         "x": 44,
@@ -545,6 +545,12 @@
         "width": 4,
         "height": 7
       },
+      "assets/brush_small@0.5x.icon-42a965633d1301f3ec95d45c16592c21.png": {
+        "x": 152,
+        "y": 125,
+        "width": 8,
+        "height": 8
+      },
       "assets/chevron-right@0.5x.icon-207cac3d398ae5ea4a1440cfee1b4770.png": {
         "x": 6,
         "y": 152,
@@ -552,8 +558,8 @@
         "height": 7
       },
       "assets/chevron-up@0.5x.icon-9b9c9b7e2068e310cd8f36ad25727f26.png": {
-        "x": 152,
-        "y": 145,
+        "x": 130,
+        "y": 111,
         "width": 7,
         "height": 4
       },
@@ -568,12 +574,6 @@
         "y": 48,
         "width": 12,
         "height": 12
-      },
-      "assets/chevron-down@0.5x.icon-24a8c224d1fd5bd74a6bae99b39af6f0.png": {
-        "x": 130,
-        "y": 111,
-        "width": 7,
-        "height": 4
       },
       "assets/clothes_small@0.5x.icon-b6e632bfba0f670a4c1c653646ca4b41.png": {
         "x": 152,
@@ -599,16 +599,28 @@
         "width": 7,
         "height": 7
       },
+      "assets/damage@0.5x.icon-a1c2d872a76ba7994e8a5c1d2d84140e.png": {
+        "x": 152,
+        "y": 38,
+        "width": 9,
+        "height": 9
+      },
+      "assets/delete@0.5x.icon-e2052155b7130121fedc9605a148df94.png": {
+        "x": 142,
+        "y": 0,
+        "width": 8,
+        "height": 12
+      },
       "assets/crossbow@0.5x.icon-13ccfc756ad27e59192552c9131c9c91.png": {
         "x": 116,
         "y": 13,
         "width": 11,
         "height": 11
       },
-      "assets/delete@0.5x.icon-e2052155b7130121fedc9605a148df94.png": {
-        "x": 142,
+      "assets/docs-page@0.5x.icon-10dc2f020b1d7e344febda0433c91e37.png": {
+        "x": 130,
         "y": 0,
-        "width": 8,
+        "width": 10,
         "height": 12
       },
       "assets/default@0.5x.icon-8ce157a1cd8a7b1b048c31d49e2936df.png": {
@@ -623,35 +635,23 @@
         "width": 8,
         "height": 8
       },
-      "assets/docs-page@0.5x.icon-10dc2f020b1d7e344febda0433c91e37.png": {
-        "x": 130,
-        "y": 0,
-        "width": 10,
-        "height": 12
-      },
       "assets/drag-and-drop@0.5x.icon-c9c33e57602a2248b035eea0d3028ead.png": {
         "x": 89,
         "y": 152,
         "width": 3,
         "height": 5
       },
-      "assets/duplicate@0.5x.icon-ec7808b2467c4ad410e55e4663e70a11.png": {
-        "x": 116,
-        "y": 26,
-        "width": 11,
-        "height": 11
-      },
-      "assets/damage@0.5x.icon-a1c2d872a76ba7994e8a5c1d2d84140e.png": {
-        "x": 152,
-        "y": 38,
-        "width": 9,
-        "height": 9
-      },
       "assets/download@0.5x.icon-80549399fefda6981a87edf6ff2bd021.png": {
         "x": 119,
         "y": 128,
         "width": 9,
         "height": 10
+      },
+      "assets/duplicate@0.5x.icon-ec7808b2467c4ad410e55e4663e70a11.png": {
+        "x": 116,
+        "y": 26,
+        "width": 11,
+        "height": 11
       },
       "assets/edit-image@0.5x.icon-d65de603d7d71b75ad29721c3327b2bc.png": {
         "x": 28,
@@ -671,22 +671,16 @@
         "width": 12,
         "height": 10
       },
-      "assets/emerald@0.5x.icon-02510dba716f8aa8a41a761a4022519c.png": {
-        "x": 130,
-        "y": 14,
-        "width": 10,
-        "height": 12
-      },
-      "assets/emote_small@0.5x.icon-f21ff5a5e9d1d9d9f97e8fd7a6a79166.png": {
-        "x": 130,
-        "y": 128,
-        "width": 9,
-        "height": 10
-      },
       "assets/emote@0.5x.icon-ada40e80fc1082d83ff42c9b94cc832c.png": {
         "x": 56,
         "y": 48,
         "width": 12,
+        "height": 12
+      },
+      "assets/emerald@0.5x.icon-02510dba716f8aa8a41a761a4022519c.png": {
+        "x": 130,
+        "y": 14,
+        "width": 10,
         "height": 12
       },
       "assets/enter@0.5x.icon-c07398da3eeec6d9684543d7b12fdec3.png": {
@@ -695,16 +689,22 @@
         "width": 11,
         "height": 11
       },
+      "assets/exit-fullscreen@0.5x.icon-80d2bdd28c2fef7c8f800e6458b455f9.png": {
+        "x": 36,
+        "y": 128,
+        "width": 10,
+        "height": 10
+      },
       "assets/exit@0.5x.icon-2af38c41215b3810c6892857e77063fd.png": {
         "x": 116,
         "y": 52,
         "width": 11,
         "height": 11
       },
-      "assets/exit-fullscreen@0.5x.icon-80d2bdd28c2fef7c8f800e6458b455f9.png": {
-        "x": 36,
+      "assets/emote_small@0.5x.icon-f21ff5a5e9d1d9d9f97e8fd7a6a79166.png": {
+        "x": 130,
         "y": 128,
-        "width": 10,
+        "width": 9,
         "height": 10
       },
       "assets/export@0.5x.icon-64be4eda0182e785acf325e1cb6ace23.png": {
@@ -719,21 +719,27 @@
         "width": 12,
         "height": 12
       },
-      "assets/followers@0.5x.icon-4da569f229e7df54dca4a7552f8c0bc9.png": {
+      "assets/filter@0.5x.icon-f7d152ce01c79bc7bff2fd3452f1a3d5.png": {
         "x": 74,
         "y": 14,
         "width": 12,
         "height": 12
       },
-      "assets/friends@0.5x.icon-23e2486fdf4998f34c316667554eb816.png": {
+      "assets/followers@0.5x.icon-4da569f229e7df54dca4a7552f8c0bc9.png": {
         "x": 74,
         "y": 28,
         "width": 12,
         "height": 12
       },
-      "assets/filter@0.5x.icon-f7d152ce01c79bc7bff2fd3452f1a3d5.png": {
+      "assets/friends@0.5x.icon-23e2486fdf4998f34c316667554eb816.png": {
         "x": 74,
         "y": 42,
+        "width": 12,
+        "height": 12
+      },
+      "assets/fullscreen@0.5x.icon-bf4881368ce5d0df918f1ef63fea2333.png": {
+        "x": 0,
+        "y": 62,
         "width": 12,
         "height": 12
       },
@@ -742,12 +748,6 @@
         "y": 128,
         "width": 10,
         "height": 10
-      },
-      "assets/fullscreen@0.5x.icon-bf4881368ce5d0df918f1ef63fea2333.png": {
-        "x": 0,
-        "y": 62,
-        "width": 12,
-        "height": 12
       },
       "assets/gamerscore@0.5x.icon-fa65b4fa4c99f7a7b1ea4621c7ae5607.png": {
         "x": 14,
@@ -785,19 +785,19 @@
         "width": 9,
         "height": 9
       },
-      "assets/heart-active@0.5x.icon-8f7e9967d77f91e799921705e77c0a26.png": {
+      "assets/hardcore-heart_small@0.5x.icon-22f52aa5b0422256cd1812f9665d7540.png": {
         "x": 152,
         "y": 60,
         "width": 9,
         "height": 9
       },
-      "assets/hardcore-heart_small@0.5x.icon-22f52aa5b0422256cd1812f9665d7540.png": {
+      "assets/heart@0.5x.icon-42e2e1ce16992d1e59520ba26eac93e9.png": {
         "x": 152,
         "y": 71,
         "width": 9,
         "height": 9
       },
-      "assets/heart@0.5x.icon-42e2e1ce16992d1e59520ba26eac93e9.png": {
+      "assets/heart-active@0.5x.icon-8f7e9967d77f91e799921705e77c0a26.png": {
         "x": 152,
         "y": 82,
         "width": 9,
@@ -821,14 +821,20 @@
         "width": 10,
         "height": 10
       },
-      "assets/invite@0.5x.icon-703395adb0b058f4c5479ff5c159b55c.png": {
+      "assets/lan-hidden@0.5x.icon-7ddac631dbaad66c283bb170ca2811ff.png": {
         "x": 42,
         "y": 62,
         "width": 12,
         "height": 12
       },
-      "assets/lan@0.5x.icon-8c937ae4ef2ad58f884b85d360090402.png": {
+      "assets/invite@0.5x.icon-703395adb0b058f4c5479ff5c159b55c.png": {
         "x": 56,
+        "y": 62,
+        "width": 12,
+        "height": 12
+      },
+      "assets/lan@0.5x.icon-8c937ae4ef2ad58f884b85d360090402.png": {
+        "x": 70,
         "y": 62,
         "width": 12,
         "height": 12
@@ -844,12 +850,6 @@
         "y": 48,
         "width": 8,
         "height": 8
-      },
-      "assets/lan-hidden@0.5x.icon-7ddac631dbaad66c283bb170ca2811ff.png": {
-        "x": 70,
-        "y": 62,
-        "width": 12,
-        "height": 12
       },
       "assets/lock-locked_small@0.5x.icon-ab340af560f90792c7038c6d22e9c666.png": {
         "x": 142,
@@ -881,29 +881,17 @@
         "width": 8,
         "height": 8
       },
-      "assets/minus@0.5x.icon-8db5e4bec32c1d34384a2b1c612ed52b.png": {
-        "x": 60,
-        "y": 42,
-        "width": 8,
-        "height": 1
-      },
-      "assets/missing-image-1@0.5x.icon-ac82fade79497c7587e098500db37ba1.png": {
-        "x": 88,
-        "y": 28,
-        "width": 12,
-        "height": 12
-      },
       "assets/menu@0.5x.icon-e297074a8df6e0c223c176ed68ecdd5a.png": {
         "x": 42,
         "y": 117,
         "width": 8,
         "height": 7
       },
-      "assets/missing-image@0.5x.icon-b099df8ab6445149a49e632842a0d380.png": {
-        "x": 88,
+      "assets/minus@0.5x.icon-8db5e4bec32c1d34384a2b1c612ed52b.png": {
+        "x": 60,
         "y": 42,
-        "width": 12,
-        "height": 12
+        "width": 8,
+        "height": 1
       },
       "assets/mute@0.5x.icon-59187cea7857a72d94b0e69f4ee8c4ad.png": {
         "x": 94,
@@ -911,17 +899,29 @@
         "width": 11,
         "height": 10
       },
+      "assets/operator@0.5x.icon-23882b92376c32f092220931307bb2c4.png": {
+        "x": 88,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
       "assets/news-feed@0.5x.icon-c85825d326273c2ffb3b436dbad98842.png": {
+        "x": 88,
+        "y": 42,
+        "width": 12,
+        "height": 12
+      },
+      "assets/missing-image@0.5x.icon-b099df8ab6445149a49e632842a0d380.png": {
         "x": 88,
         "y": 56,
         "width": 12,
         "height": 12
       },
-      "assets/options@0.5x.icon-a0a3933c545fe16bb3edeff2968b0f57.png": {
-        "x": 56,
-        "y": 34,
-        "width": 2,
-        "height": 8
+      "assets/missing-image-1@0.5x.icon-ac82fade79497c7587e098500db37ba1.png": {
+        "x": 0,
+        "y": 76,
+        "width": 12,
+        "height": 12
       },
       "assets/party@0.5x.icon-13ea559247c0f695a274c25c4de37bdb.png": {
         "x": 95,
@@ -935,11 +935,11 @@
         "width": 6,
         "height": 8
       },
-      "assets/operator@0.5x.icon-23882b92376c32f092220931307bb2c4.png": {
-        "x": 0,
-        "y": 76,
-        "width": 12,
-        "height": 12
+      "assets/options@0.5x.icon-a0a3933c545fe16bb3edeff2968b0f57.png": {
+        "x": 56,
+        "y": 34,
+        "width": 2,
+        "height": 8
       },
       "assets/permission-custom@0.5x.icon-bdf0f523ef4e673f4c6ae0cc5b4852c9.png": {
         "x": 14,
@@ -947,14 +947,20 @@
         "width": 12,
         "height": 12
       },
-      "assets/permission-member@0.5x.icon-92816b57441756ee137f7fdc4f968844.png": {
+      "assets/permission-operator@0.5x.icon-98eb755a73f24ed966a5f221a883f459.png": {
         "x": 28,
         "y": 76,
         "width": 12,
         "height": 12
       },
-      "assets/permission-operator@0.5x.icon-98eb755a73f24ed966a5f221a883f459.png": {
+      "assets/permission-member@0.5x.icon-92816b57441756ee137f7fdc4f968844.png": {
         "x": 42,
+        "y": 76,
+        "width": 12,
+        "height": 12
+      },
+      "assets/pickaxe@0.5x.icon-4a49f94adb5b9530be1e961a5d089dbd.png": {
+        "x": 56,
         "y": 76,
         "width": 12,
         "height": 12
@@ -965,35 +971,17 @@
         "width": 12,
         "height": 11
       },
-      "assets/pickaxe@0.5x.icon-4a49f94adb5b9530be1e961a5d089dbd.png": {
-        "x": 56,
-        "y": 76,
-        "width": 12,
-        "height": 12
-      },
-      "assets/play@0.5x.icon-d17d965f66f97b562dbce23bfa23ea8e.png": {
-        "x": 152,
-        "y": 24,
-        "width": 7,
-        "height": 12
-      },
-      "assets/player_online@0.5x.icon-08d41ccc0a633969d064ecfd114f34b8.png": {
+      "assets/player@0.5x.icon-7c34a722eb98b0fbed671c9c77e9a2aa.png": {
         "x": 70,
         "y": 76,
         "width": 12,
         "height": 12
       },
-      "assets/player@0.5x.icon-7c34a722eb98b0fbed671c9c77e9a2aa.png": {
+      "assets/player_online@0.5x.icon-08d41ccc0a633969d064ecfd114f34b8.png": {
         "x": 84,
         "y": 76,
         "width": 12,
         "height": 12
-      },
-      "assets/plus@1x.icon-254700491e0f4c88abfae89a00a9fc8d.png": {
-        "x": 34,
-        "y": 0,
-        "width": 24,
-        "height": 24
       },
       "assets/potion-bottle@0.5x.icon-09313c430988f33f2b3b4d90da03a9aa.png": {
         "x": 130,
@@ -1007,6 +995,12 @@
         "width": 12,
         "height": 10
       },
+      "assets/plus@1x.icon-254700491e0f4c88abfae89a00a9fc8d.png": {
+        "x": 34,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      },
       "assets/qr-code@0.5x.icon-ff09e599e72e589d4d239335ed281a9d.png": {
         "x": 116,
         "y": 65,
@@ -1018,6 +1012,12 @@
         "y": 93,
         "width": 7,
         "height": 10
+      },
+      "assets/play@0.5x.icon-d17d965f66f97b562dbce23bfa23ea8e.png": {
+        "x": 152,
+        "y": 24,
+        "width": 7,
+        "height": 12
       },
       "assets/question-mark_small@0.5x.icon-46695eb451b98597c0102a2b5b061085.png": {
         "x": 74,
@@ -1049,15 +1049,9 @@
         "width": 12,
         "height": 12
       },
-      "assets/remove-resource-pack@0.5x.icon-557825321c4832445be287030b71b314.png": {
-        "x": 116,
-        "y": 78,
-        "width": 11,
-        "height": 11
-      },
       "assets/remove-behaviour-pack@0.5x.icon-f9d3cccc638400028abb0ebaa594de9f.png": {
         "x": 116,
-        "y": 91,
+        "y": 78,
         "width": 11,
         "height": 11
       },
@@ -1066,6 +1060,12 @@
         "y": 42,
         "width": 12,
         "height": 12
+      },
+      "assets/remove-resource-pack@0.5x.icon-557825321c4832445be287030b71b314.png": {
+        "x": 116,
+        "y": 91,
+        "width": 11,
+        "height": 11
       },
       "assets/rotten-flesh@0.5x.icon-1a4aab0bfda061084e042c2d56352eb3.png": {
         "x": 107,
@@ -1097,6 +1097,12 @@
         "width": 6,
         "height": 10
       },
+      "assets/share-generic@0.5x.icon-a522ddfed6b18d5d105c77abb2f38238.png": {
+        "x": 102,
+        "y": 70,
+        "width": 12,
+        "height": 12
+      },
       "assets/share-ios@0.5x.icon-077f85d5eb8267d16a0cfc02c89603fb.png": {
         "x": 130,
         "y": 42,
@@ -1104,8 +1110,8 @@
         "height": 12
       },
       "assets/sleep@0.5x.icon-ec9f25dd448158a4a6e660be75d4a4bf.png": {
-        "x": 102,
-        "y": 70,
+        "x": 0,
+        "y": 90,
         "width": 12,
         "height": 12
       },
@@ -1115,8 +1121,8 @@
         "width": 6,
         "height": 6
       },
-      "assets/share-generic@0.5x.icon-a522ddfed6b18d5d105c77abb2f38238.png": {
-        "x": 0,
+      "assets/sword@0.5x.icon-5515ebe013a8758864491b874feb7fc8.png": {
+        "x": 14,
         "y": 90,
         "width": 12,
         "height": 12
@@ -1126,12 +1132,6 @@
         "y": 48,
         "width": 1,
         "height": 6
-      },
-      "assets/sword@0.5x.icon-5515ebe013a8758864491b874feb7fc8.png": {
-        "x": 14,
-        "y": 90,
-        "width": 12,
-        "height": 12
       },
       "assets/thumbs-down@0.5x.icon-961ba14cf6915d963179042066d560c3.png": {
         "x": 0,
@@ -1157,17 +1157,17 @@
         "width": 10,
         "height": 12
       },
-      "assets/visitor@0.5x.icon-572a369b2025e6d190d153594a82c554.png": {
-        "x": 163,
-        "y": 12,
-        "width": 6,
-        "height": 10
-      },
       "assets/time_small@0.5x.icon-ae6c3352cd17df2de6db7dc3c93e2c89.png": {
         "x": 142,
         "y": 78,
         "width": 8,
         "height": 8
+      },
+      "assets/visitor@0.5x.icon-572a369b2025e6d190d153594a82c554.png": {
+        "x": 163,
+        "y": 12,
+        "width": 6,
+        "height": 10
       },
       "assets/volume@0.5x.icon-aad7d6fee0a0e88ac7959c97f8ba02bd.png": {
         "x": 54,
@@ -1175,9 +1175,15 @@
         "width": 12,
         "height": 10
       },
-      "assets/warning_small@0.5x.icon-78dc732fd5738943465cf135096e89e6.png": {
+      "assets/warning@0.5x.icon-78dc732fd5738943465cf135096e89e6.png": {
         "x": 152,
         "y": 0,
+        "width": 9,
+        "height": 10
+      },
+      "assets/warning_small@0.5x.icon-78dc732fd5738943465cf135096e89e6.png": {
+        "x": 152,
+        "y": 12,
         "width": 9,
         "height": 10
       },
@@ -1197,12 +1203,6 @@
         "x": 96,
         "y": 128,
         "width": 10,
-        "height": 10
-      },
-      "assets/warning@0.5x.icon-78dc732fd5738943465cf135096e89e6.png": {
-        "x": 152,
-        "y": 12,
-        "width": 9,
         "height": 10
       }
     }

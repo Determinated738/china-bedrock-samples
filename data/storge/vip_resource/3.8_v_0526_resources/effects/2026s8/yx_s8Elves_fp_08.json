@@ -1,0 +1,60 @@
+{
+  "particleeffect": {
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "3.0",
+      "min": "4.0"
+    },
+    "faceCameraMode": {
+      "value": "Direction Horizontal"
+    },
+    "independent": true,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.36 0.36",
+      "min": "0.36 0.36"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.7 0.7",
+        "time": "0.00"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "0.30"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "1.10"
+      },
+      {
+        "scale": "1.0 1.0",
+        "time": "2.00"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2026s8/yx_s8Elves_fp_05",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/yx_s8Elves_fp_05"
+    },
+    "velocity": {
+      "max": "0.1",
+      "min": "0.1"
+    }
+  }
+}

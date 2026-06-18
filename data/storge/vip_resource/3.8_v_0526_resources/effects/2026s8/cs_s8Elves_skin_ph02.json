@@ -1,0 +1,94 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "80.0",
+      "min": "80.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.1 1.1 1.1"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "layer": 2,
+    "numparticles": {
+      "value": "7"
+    },
+    "offsetInCamera": {
+      "value": "-0.15"
+    },
+    "particlesize": {
+      "max": "0.30000000000000004 0.30000000000000004",
+      "min": "0.25 0.25"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.22 0.22",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.05 1.05",
+        "time": "14.3%"
+      },
+      {
+        "scale": "0.42 0.42",
+        "time": "28.0%"
+      },
+      {
+        "scale": "0.84 0.84",
+        "time": "38.3%"
+      },
+      {
+        "scale": "0.3 0.3",
+        "time": "57.3%"
+      },
+      {
+        "scale": "0.6 0.6",
+        "time": "77.3%"
+      },
+      {
+        "scale": "0.21 0.21",
+        "time": "99.7%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/cs_s8Elves_skin_lz2",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/cs_s8Elves_skin_lz2"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.75",
+      "min": "1.25"
+    },
+    "velocity": {
+      "max": "1.2",
+      "min": "1.0"
+    }
+  }
+}

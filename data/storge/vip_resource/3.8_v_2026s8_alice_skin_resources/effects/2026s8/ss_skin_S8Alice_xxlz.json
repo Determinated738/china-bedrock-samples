@@ -1,0 +1,80 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.9804 1.0000 0.7216 0.9821",
+        "time": "18.4%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "46.3%"
+      },
+      {
+        "color": "1.0000 0.0314 0.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "10.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.6 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "offsetInCamera": {
+      "value": "0.1"
+    },
+    "particlesize": {
+      "max": "0.08 0.08",
+      "min": "0.05 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.21 0.21",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.99 0.99",
+        "time": "45.7%"
+      },
+      {
+        "scale": "0.09 0.09",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/ss_skin_S8Alicey_lz"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.2"
+    }
+  }
+}

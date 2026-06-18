@@ -1,0 +1,79 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0089",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.2411",
+        "time": "15.8%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0982",
+        "time": "71.1%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "delay": 0.4,
+    "direction": {
+      "max": "1.0 1.0 0.0",
+      "min": "-1.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "40.0",
+      "min": "40.0"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 360.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.15 1.15",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.24 2.24",
+        "time": "19.7%"
+      },
+      {
+        "scale": "2.48 2.48",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/ss_blockCraft_s8Baize_wu",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/ss_blockCraft_s8Baize_wu"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.6"
+    },
+    "velocity": {
+      "max": "1.8",
+      "min": "1.5"
+    }
+  }
+}

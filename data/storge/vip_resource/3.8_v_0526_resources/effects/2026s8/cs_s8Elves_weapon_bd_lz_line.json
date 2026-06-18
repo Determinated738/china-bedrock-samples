@@ -1,0 +1,128 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.7843 0.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 0.0000 1.0000",
+        "time": "3.4%"
+      },
+      {
+        "color": "1.0000 0.5490 0.0000 0.8839",
+        "time": "20.3%"
+      },
+      {
+        "color": "1.0000 0.5294 0.7569 0.7411",
+        "time": "36.8%"
+      },
+      {
+        "color": "0.3686 0.0039 1.0000 0.2589",
+        "time": "40.8%"
+      },
+      {
+        "color": "0.5216 0.2039 1.0000 0.7054",
+        "time": "52.9%"
+      },
+      {
+        "color": "0.4863 0.5137 1.0000 0.6518",
+        "time": "62.4%"
+      },
+      {
+        "color": "0.0078 0.3882 1.0000 0.2143",
+        "time": "67.1%"
+      },
+      {
+        "color": "0.0000 1.0000 0.9686 0.4643",
+        "time": "80.8%"
+      },
+      {
+        "color": "0.2510 0.4118 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "4.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "3000.0",
+      "min": "3000.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.01 0.01 0.01"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "15"
+    },
+    "offsetInCamera": {
+      "value": "-0.2"
+    },
+    "particlesize": {
+      "max": "0.25 0.15",
+      "min": "0.15 0.1"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "false"
+    },
+    "rotationRange": {
+      "max": "0.0 0.0 90.0",
+      "min": "0.0 0.0 90.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.11 1.11",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.38 1.38",
+        "time": "11.0%"
+      },
+      {
+        "scale": "0.75 0.75",
+        "time": "54.3%"
+      },
+      {
+        "scale": "0.18 0.18",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/Tex_ctmblz"
+    },
+    "thickness": {
+      "value": "0.19999999999999998"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "6.0",
+      "min": "2.0"
+    }
+  }
+}

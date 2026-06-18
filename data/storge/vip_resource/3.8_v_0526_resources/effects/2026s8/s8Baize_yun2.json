@@ -1,0 +1,84 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.5714",
+        "time": "27.4%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.3304",
+        "time": "68.2%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.1"
+    },
+    "direction": {
+      "max": "1.0 0.0 1.0",
+      "min": "-1.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "disorder": {
+      "increment": "2.0",
+      "interval": "1.0",
+      "max": "-0.01 -0.01 -0.01",
+      "min": "0.01 0.01 0.01"
+    },
+    "emissionrate": {
+      "max": "4.0",
+      "min": "4.0"
+    },
+    "emitterScaleCurve": [],
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.2 0.6 1.2"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "inactivetime": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "numparticles": {
+      "value": "8"
+    },
+    "particlesize": {
+      "max": "0.25 0.25",
+      "min": "0.15 0.15"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "ani": {
+        "fps": "0",
+        "name": "textures/sfxs/2026s8/s8Baize_yun",
+        "shuffle": true
+      },
+      "name": "textures/sfxs/2026s8/s8Baize_yun"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.1"
+    }
+  }
+}

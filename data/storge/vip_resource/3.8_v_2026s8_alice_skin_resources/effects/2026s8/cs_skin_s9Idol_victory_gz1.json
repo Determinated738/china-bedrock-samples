@@ -1,0 +1,78 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.15"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.3,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "enabletexture": {
+      "enable": true
+    },
+    "faceCameraMode": {
+      "value": "Rotate Y"
+    },
+    "layer": 7,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.65 0.7",
+      "min": "0.65 0.7"
+    },
+    "pointFiltering": true,
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.5 0.5",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.05 2.05",
+        "time": "12.7%"
+      },
+      {
+        "scale": "2.3 2.3",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "36",
+        "name": "textures/sfxs/2026s8/cs_skin_s9Idol_victory_gz",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/2026s8/cs_skin_s9Idol_victory_gz"
+    },
+    "timetolive": {
+      "max": "0.45",
+      "min": "0.45"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

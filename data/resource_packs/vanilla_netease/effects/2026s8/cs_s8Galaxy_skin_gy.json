@@ -1,0 +1,37 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.8353 0.6314 1.0000 0.0000",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.7569 0.5569 1.0000 0.2054",
+        "time": "44.2%"
+      },
+      {
+        "color": "0.6784 0.2235 1.0000 0.0000",
+        "time": "100.0%"
+      }
+    ],
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0",
+      "value": "Direction"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.4 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "texture": {
+      "name": "textures/sfxs/2026s8/cs_s8Galaxy_skin_gy2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

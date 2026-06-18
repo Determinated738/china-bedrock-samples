@@ -1,0 +1,81 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.0000 0.9373 0.9569 0.1250",
+        "time": "0.0%"
+      },
+      {
+        "color": "0.8706 1.0000 0.9647 0.7054",
+        "time": "3.7%"
+      },
+      {
+        "color": "1.0000 1.0000 1.0000 1.0000",
+        "time": "12.1%"
+      },
+      {
+        "color": "1.0000 0.5490 0.7216 0.9732",
+        "time": "21.3%"
+      },
+      {
+        "color": "0.5294 0.9608 1.0000 0.6696",
+        "time": "60.5%"
+      },
+      {
+        "color": "0.2392 0.8353 1.0000 0.0982",
+        "time": "100.0%"
+      }
+    ],
+    "delay": 0.01,
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "50.0"
+    },
+    "layer": 8,
+    "numparticles": {
+      "value": "2"
+    },
+    "particlesize": {
+      "max": "0.65 0.65",
+      "min": "0.65 0.65"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.4 0.4",
+        "time": "0.0%"
+      },
+      {
+        "scale": "2.0 2.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2026s8/custom_sun"
+    },
+    "timetolive": {
+      "max": "0.2",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}
